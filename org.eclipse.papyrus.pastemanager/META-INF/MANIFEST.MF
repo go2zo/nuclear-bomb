@@ -1,0 +1,95 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.papyrus.pastemanager;singleton:=true
+Require-Bundle: org.eclipse.ui;bundle-version="[3.7.0,4.0.0)",org.ecli
+ pse.core.runtime;bundle-version="[3.7.0,4.0.0)",org.eclipse.gmf.runti
+ me.diagram.ui;bundle-version="1.3.1",org.eclipse.uml2.uml;bundle-vers
+ ion="[3.2.0,4.0.0)",org.eclipse.papyrus.log;bundle-version="0.8.0"
+Bundle-Activator: org.eclipse.papyrus.pastemanager.Activator
+Bundle-Version: 0.8.0.v201106151827
+Export-Package: org.eclipse.papyrus.pastemanager,org.eclipse.papyrus.p
+ astemanager.command,org.eclipse.papyrus.pastemanager.request,org.ecli
+ pse.papyrus.pastemanager.service
+Ant-Version: Apache Ant 1.7.1
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: bin/org/eclipse/papyrus/pastemanager/service/IPasteCommandProvid
+ er.class
+SHA1-Digest: xKBRUCuywmjn+YxcoY8+fW3CsfQ=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/papyrus/pastemanager/command/PapyrusDuplicateWrapper
+ Command.class
+SHA1-Digest: k6Vewh+CMOkHD042d9vljzJkmH4=
+
+Name: org/eclipse/papyrus/pastemanager/service/PasteCommandService.cla
+ ss
+SHA1-Digest: tlb+pnShSni/5NSHdlDlgOS2xAo=
+
+Name: bin/org/eclipse/papyrus/pastemanager/request/PasteRequest.class
+SHA1-Digest: bnXR6GeQXCOylUOXo5Y6Ex8n6Z0=
+
+Name: org/eclipse/papyrus/pastemanager/command/CommentDropCreation.cla
+ ss
+SHA1-Digest: 0G437J3/Li6OT9/hS0AVT1KQ0G0=
+
+Name: bin/org/eclipse/papyrus/pastemanager/service/PasteCommandService
+ .class
+SHA1-Digest: tlb+pnShSni/5NSHdlDlgOS2xAo=
+
+Name: about.html
+SHA1-Digest: a2Fk5/pDnCvlEfl7QwDZj/FCgFc=
+
+Name: plugin.properties
+SHA1-Digest: pROZOYMnT4yikv/c6aqVnYqZ728=
+
+Name: org/eclipse/papyrus/pastemanager/request/PasteRequest.class
+SHA1-Digest: bnXR6GeQXCOylUOXo5Y6Ex8n6Z0=
+
+Name: org/eclipse/papyrus/pastemanager/service/DefaultPasteCommandProv
+ ider.class
+SHA1-Digest: CcpRSbKY0UAPN7sQD3y3zcaOz/U=
+
+Name: bin/org/eclipse/papyrus/pastemanager/command/GEFtoEMFCommandWrap
+ per.class
+SHA1-Digest: n97LHfejRco48S+qPUU+yPaVFLM=
+
+Name: bin/org/eclipse/papyrus/pastemanager/command/CommentDropCreation
+ .class
+SHA1-Digest: 0G437J3/Li6OT9/hS0AVT1KQ0G0=
+
+Name: org/eclipse/papyrus/pastemanager/Activator.class
+SHA1-Digest: qrFqu3S96GURAMnwKJKs3kgy3eM=
+
+Name: bin/org/eclipse/papyrus/pastemanager/service/DefaultPasteCommand
+ Provider.class
+SHA1-Digest: CcpRSbKY0UAPN7sQD3y3zcaOz/U=
+
+Name: org/eclipse/papyrus/pastemanager/service/IPasteCommandProvider.c
+ lass
+SHA1-Digest: xKBRUCuywmjn+YxcoY8+fW3CsfQ=
+
+Name: org/eclipse/papyrus/pastemanager/command/GEFtoEMFCommandWrapper.
+ class
+SHA1-Digest: n97LHfejRco48S+qPUU+yPaVFLM=
+
+Name: schema/pasteCommandProvider.exsd
+SHA1-Digest: Ktkgcqx1h+t802coxeTILDBn3og=
+
+Name: plugin.xml
+SHA1-Digest: VVBNlSb3kFnNTsomEimmUnnu9fA=
+
+Name: bin/org/eclipse/papyrus/pastemanager/command/PapyrusDuplicateWra
+ pperCommand.class
+SHA1-Digest: k6Vewh+CMOkHD042d9vljzJkmH4=
+
+Name: bin/org/eclipse/papyrus/pastemanager/Activator.class
+SHA1-Digest: qrFqu3S96GURAMnwKJKs3kgy3eM=
+

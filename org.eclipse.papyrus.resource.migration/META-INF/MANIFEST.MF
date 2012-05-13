@@ -1,0 +1,51 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.papyrus.resource.migration;singleton:
+ =true
+Bundle-Activator: org.eclipse.papyrus.resource.migration.Activator
+Require-Bundle: org.eclipse.ui;bundle-version="[3.7.0,4.0.0)",org.ecli
+ pse.core.runtime;bundle-version="[3.7.0,4.0.0)",org.eclipse.core.reso
+ urces;bundle-version="[3.7.0,4.0.0)",org.eclipse.emf.ecore;bundle-ver
+ sion="[2.7.0,3.0.0)",org.eclipse.papyrus.resource;bundle-version="[0.
+ 8.0,1.0.0)",org.eclipse.emf.codegen.ecore;bundle-version="[2.7.0,3.0.
+ 0)"
+Bundle-Version: 0.8.0.v201106151827
+Ant-Version: Apache Ant 1.7.1
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/papyrus/resource/migration/controller/exceptions/URI
+ NotValidException.class
+SHA1-Digest: PZdhd/pkAl29VTwP2JBefIHWBmY=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/papyrus/resource/migration/Activator.class
+SHA1-Digest: sxCkdKfuzM2ibdm3NfYlqaP+Dm0=
+
+Name: org/eclipse/papyrus/resource/migration/popup/actions/UpdateGenMo
+ delAction$1.class
+SHA1-Digest: r1ywFO6bLpEnJIpTwwkbSXsGhrw=
+
+Name: plugin.xml
+SHA1-Digest: ffHXpE/dtJmOpcfIkwHWt+24lWI=
+
+Name: about.html
+SHA1-Digest: SghNuLOZ1xBD4DWkMOOVaXIW1tk=
+
+Name: org/eclipse/papyrus/resource/migration/popup/actions/UpdateGenMo
+ delAction.class
+SHA1-Digest: qdu4hnW+aNxqP8GDvVPbpKjBMtI=
+
+Name: org/eclipse/papyrus/resource/migration/controller/GenModelUpdate
+ r.class
+SHA1-Digest: bYxa5Tghuw6wkP8uR3WNIksZQzA=
+
+Name: plugin.properties
+SHA1-Digest: 86d7R48sBqoxs8mDDTiUFAFnQtQ=
+

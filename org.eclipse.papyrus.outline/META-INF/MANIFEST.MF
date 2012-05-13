@@ -1,0 +1,79 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.papyrus.outline;singleton:=true
+Require-Bundle: org.eclipse.papyrus.core;bundle-version="0.8.0",org.ec
+ lipse.uml2.uml.editor;bundle-version="2.2.0",org.eclipse.gmf.runtime.
+ diagram.ui.render;bundle-version="1.2.0"
+Bundle-Activator: org.eclipse.papyrus.outline.internal.Activator
+Bundle-Version: 0.8.0.v201106151827
+Export-Package: org.eclipse.papyrus.outline,org.eclipse.papyrus.outlin
+ e.internal;x-internal:=true,org.eclipse.papyrus.outline.overview
+Ant-Version: Apache Ant 1.7.1
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/papyrus/outline/DiagramOutline$2.class
+SHA1-Digest: YX7PISrNnupVDOQvFGkhNOLTbWY=
+
+Name: org/eclipse/papyrus/outline/DiagramOutline$3.class
+SHA1-Digest: CZExFEOe/kHLte4lDA6XC6NeFs0=
+
+Name: icons/elcl16/overview_co.gif
+SHA1-Digest: xfTa3fqXPPHUSrwUvTg736YYjOs=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: icons/elcl16/all_co.gif
+SHA1-Digest: +tFkPcR/X6T2YXn8ZT7bJvRQRAE=
+
+Name: org/eclipse/papyrus/outline/internal/Activator.class
+SHA1-Digest: 2IzBlz5DBV8CcopKM4/+h4bJwUY=
+
+Name: org/eclipse/papyrus/outline/DiagramNavigator.class
+SHA1-Digest: WcFEvwRWDbBolNv92tXYz3cPfew=
+
+Name: org/eclipse/papyrus/outline/DiagramNavigator$NavigatorAdapterFac
+ toryContentProvider.class
+SHA1-Digest: XmWJVBTjTUZ2t8Lr0bVu5o4k/jI=
+
+Name: about.html
+SHA1-Digest: vIxomquVXmQ7LkkEipyPIjyBWu0=
+
+Name: plugin.properties
+SHA1-Digest: HmIPkqafd2MXaikBwIiwApawXi4=
+
+Name: org/eclipse/papyrus/outline/internal/Messages.class
+SHA1-Digest: Eyl7xALWmtZ4UGnTvC7nq12pXHg=
+
+Name: org/eclipse/papyrus/outline/DiagramOrientedLabelProvider.class
+SHA1-Digest: ipiNQZCXcmHeZ+m+5ZqXdDk0DXc=
+
+Name: org/eclipse/papyrus/outline/DiagramOutline.class
+SHA1-Digest: BZ3j0OCFYNR2XAI5fArnipsvNGs=
+
+Name: org/eclipse/papyrus/outline/DiagramNavigator$1.class
+SHA1-Digest: r6nKPvN/JY/2b9vmCIJN0xd1zW4=
+
+Name: org/eclipse/papyrus/outline/DiagramOrientedContentProvider.class
+SHA1-Digest: DSqkFSteYPGTJQx+2jQ7JAKhCzY=
+
+Name: org/eclipse/papyrus/outline/overview/OverviewComposite.class
+SHA1-Digest: wwccUkW35KBXF0JTmkw4GjDz9fs=
+
+Name: plugin.xml
+SHA1-Digest: xa5Sx1b3+jiW+aozamM9+CBK6Nw=
+
+Name: org/eclipse/papyrus/outline/internal/messages.properties
+SHA1-Digest: YspUSs/CmqW+G+iZ3aWsohJuBFk=
+
+Name: icons/elcl16/tree_co.gif
+SHA1-Digest: zP70CE3lcwVcEElD4m+J6u+26jQ=
+
+Name: org/eclipse/papyrus/outline/DiagramOutline$1.class
+SHA1-Digest: iwx4DoWfzYkNP+JdMFlUlrw7E+M=
+

@@ -1,0 +1,852 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Eclipse-LazyStart: true
+Bundle-SymbolicName: org.eclipse.papyrus.sysml;singleton:=true
+Require-Bundle: org.eclipse.papyrus.uml.standard;bundle-version="0.8.0
+ ",org.eclipse.papyrus.extensionpoints.uml2;bundle-version="0.8.0"
+Bundle-Version: 0.8.0.v201106151827
+Export-Package: org.eclipse.papyrus.sysml,org.eclipse.papyrus.sysml.ac
+ tivities,org.eclipse.papyrus.sysml.activities.impl,org.eclipse.papyru
+ s.sysml.activities.util,org.eclipse.papyrus.sysml.allocations,org.ecl
+ ipse.papyrus.sysml.allocations.impl,org.eclipse.papyrus.sysml.allocat
+ ions.util,org.eclipse.papyrus.sysml.blocks,org.eclipse.papyrus.sysml.
+ blocks.impl,org.eclipse.papyrus.sysml.blocks.util,org.eclipse.papyrus
+ .sysml.constraints,org.eclipse.papyrus.sysml.constraints.impl,org.ecl
+ ipse.papyrus.sysml.constraints.util,org.eclipse.papyrus.sysml.impl,or
+ g.eclipse.papyrus.sysml.interactions,org.eclipse.papyrus.sysml.intera
+ ctions.impl,org.eclipse.papyrus.sysml.interactions.util,org.eclipse.p
+ apyrus.sysml.modelelements,org.eclipse.papyrus.sysml.modelelements.im
+ pl,org.eclipse.papyrus.sysml.modelelements.util,org.eclipse.papyrus.s
+ ysml.portandflows,org.eclipse.papyrus.sysml.portandflows.impl,org.ecl
+ ipse.papyrus.sysml.portandflows.util,org.eclipse.papyrus.sysml.requir
+ ements,org.eclipse.papyrus.sysml.requirements.impl,org.eclipse.papyru
+ s.sysml.requirements.util,org.eclipse.papyrus.sysml.statemachines,org
+ .eclipse.papyrus.sysml.statemachines.impl,org.eclipse.papyrus.sysml.s
+ tatemachines.util,org.eclipse.papyrus.sysml.usecases,org.eclipse.papy
+ rus.sysml.usecases.impl,org.eclipse.papyrus.sysml.usecases.util,org.e
+ clipse.papyrus.sysml.util
+Ant-Version: Apache Ant 1.7.1
+Bundle-ClassPath: .
+Bundle-Vendor: %providerName
+Bundle-Name: %pluginName
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: model/sysml.genmodel
+SHA1-Digest: ZXylSSvzOX+3+wvm47aCcREo4E0=
+
+Name: org/eclipse/papyrus/sysml/constraints/ConstraintsPackage.class
+SHA1-Digest: hvitjQzhlV/ymCqMZ/3x+2Q0Mys=
+
+Name: icons/modelelements/Rationale.gif
+SHA1-Digest: pPLQbqJcrNkVh80Fz8n5In3iAOA=
+
+Name: org/eclipse/papyrus/sysml/usecases/impl/UsecasesPackageImpl.clas
+ s
+SHA1-Digest: K7n7SoKbTlPAexrLPxkBJlOLwGs=
+
+Name: org/eclipse/papyrus/sysml/blocks/BindingConnector.class
+SHA1-Digest: gVg4YQ7D/SPa4Nv1J31FcPtRt0c=
+
+Name: org/eclipse/papyrus/sysml/activities/Continuous.class
+SHA1-Digest: Z1zm1WV8n3iRli6MnIA/z3Wxi8E=
+
+Name: org/eclipse/papyrus/sysml/modelelements/ModelelementsPackage$Lit
+ erals.class
+SHA1-Digest: 17dhwL8q78qr7nv+1lFlpj7G+1Q=
+
+Name: org/eclipse/papyrus/sysml/constraints/util/ConstraintsXMLProcess
+ or.class
+SHA1-Digest: yJCn3ocrg4/J66eer7+Z86m4+Zs=
+
+Name: org/eclipse/papyrus/sysml/activities/ControlOperator.class
+SHA1-Digest: 5XghyEEEr1EvwbmnlF5oWqFMRJY=
+
+Name: org/eclipse/papyrus/sysml/blocks/util/BlocksAdapterFactory.class
+SHA1-Digest: vV/fkrS8cIdKugXzsWwcz33Me78=
+
+Name: org/eclipse/papyrus/sysml/requirements/impl/RequirementsPackageI
+ mpl.class
+SHA1-Digest: glRUeGUjtW27tq0w5Kv1KL/4BIQ=
+
+Name: org/eclipse/papyrus/sysml/requirements/RequirementRelated.class
+SHA1-Digest: KnvLeuI0jPuVjNd1oE5zWkUh2LQ=
+
+Name: org/eclipse/papyrus/sysml/requirements/impl/VerifyImpl.class
+SHA1-Digest: fYZa+CFWmmX4amILrnsgHT9fOa8=
+
+Name: org/eclipse/papyrus/sysml/constraints/util/ConstraintsAdapterFac
+ tory$1.class
+SHA1-Digest: 3Mm1nF1jBoYvJZuOKJIUkG8QwcQ=
+
+Name: org/eclipse/papyrus/sysml/constraints/ConstraintProperty.class
+SHA1-Digest: wLj75M4E41Y7+47a9LNSVbmYrcA=
+
+Name: org/eclipse/papyrus/sysml/activities/impl/RateImpl.class
+SHA1-Digest: vg7KAMNihqDLio+6jDMNS/MeLwg=
+
+Name: icons/blocks/Dimension.gif
+SHA1-Digest: 2z/ssMO+QnnDLUCNhwuxFPl5S3A=
+
+Name: org/eclipse/papyrus/sysml/impl/SysmlFactoryImpl.class
+SHA1-Digest: ZaaQQzKms3OG1SRosBL88nDGcTc=
+
+Name: org/eclipse/papyrus/sysml/modelelements/util/ModelelementsResour
+ ceImpl.class
+SHA1-Digest: HqRpkdsau4D4HFPOd/Fpc12ISVI=
+
+Name: org/eclipse/papyrus/sysml/activities/util/ActivitiesXMLProcessor
+ .class
+SHA1-Digest: PSqt8UGFSHY7Ol21JlVVW0LHDTA=
+
+Name: org/eclipse/papyrus/sysml/requirements/impl/SatisfyImpl.class
+SHA1-Digest: +KoDODvvLP02kRsDr+XPck7XJFU=
+
+Name: org/eclipse/papyrus/sysml/modelelements/Conform.class
+SHA1-Digest: weH8pVpMi+6d88ao0SGBYPeE1Ag=
+
+Name: org/eclipse/papyrus/sysml/modelelements/ModelelementsFactory.cla
+ ss
+SHA1-Digest: 41QKIPvb7abWq7Of94x20bXkT/A=
+
+Name: org/eclipse/papyrus/sysml/requirements/util/RequirementsAdapterF
+ actory.class
+SHA1-Digest: UfUTHr+oZGyVV/jr35F3AaqkHSk=
+
+Name: org/eclipse/papyrus/sysml/blocks/impl/BlocksPackageImpl.class
+SHA1-Digest: MdziuXnwWZw/dVxl4JYsHrN0jIE=
+
+Name: org/eclipse/papyrus/sysml/statemachines/util/StatemachinesXMLPro
+ cessor.class
+SHA1-Digest: yodOlOi3jV90UGQWAP0NSennR/4=
+
+Name: org/eclipse/papyrus/sysml/statemachines/StatemachinesFactory.cla
+ ss
+SHA1-Digest: +1dS9Sr/GNjrnpoVRTZa14J60s4=
+
+Name: org/eclipse/papyrus/sysml/blocks/impl/ParticipantPropertyImpl.cl
+ ass
+SHA1-Digest: qnzoOobuvAmF7M4YoKqv+iBm1p0=
+
+Name: org/eclipse/papyrus/sysml/interactions/impl/InteractionsFactoryI
+ mpl.class
+SHA1-Digest: OLIIOkM9JrUyJnt4CNrNpQT6xgU=
+
+Name: icons/blocks/BlockProperty.gif
+SHA1-Digest: Z2fXb94fEtNFiNQSPBLq9cW1MPg=
+
+Name: org/eclipse/papyrus/sysml/blocks/Unit.class
+SHA1-Digest: rCQlNBjxCpHG/3XSEc1T6Z83j/Q=
+
+Name: org/eclipse/papyrus/sysml/portandflows/impl/ItemFlowImpl.class
+SHA1-Digest: kyDZhET/MtJKnJXD4q3+6EVGOnw=
+
+Name: org/eclipse/papyrus/sysml/modelelements/util/ModelelementsSwitch
+ .class
+SHA1-Digest: W7H13dSpn+/WLTMFEQsVWw1GnKI=
+
+Name: org/eclipse/papyrus/sysml/blocks/ConnectorProperty.class
+SHA1-Digest: FpFdgyl7GF5a1Np1GJGwqzWAQOk=
+
+Name: org/eclipse/papyrus/sysml/constraints/impl/ConstraintBlockImpl.c
+ lass
+SHA1-Digest: u8EtYX+wmzK8h8HdQO1QjKAZ2CU=
+
+Name: org/eclipse/papyrus/sysml/interactions/util/InteractionsXMLProce
+ ssor.class
+SHA1-Digest: GUY5inbCaweFBp+y7B+rGNHwjAw=
+
+Name: org/eclipse/papyrus/sysml/constraints/util/ConstraintsAdapterFac
+ tory.class
+SHA1-Digest: IykU2Htwu6YTOk966GEsZeUhVTY=
+
+Name: model/sysml.ecore
+SHA1-Digest: 6+bMkLKl75NtSCxF9MLssYUnsvc=
+
+Name: org/eclipse/papyrus/sysml/blocks/Block.class
+SHA1-Digest: 1/HQwGow8Os5vyAkHWf8HyzKKJw=
+
+Name: org/eclipse/papyrus/sysml/activities/Optional.class
+SHA1-Digest: PIxzA+KvnR612o/Bk3NL61sQvDw=
+
+Name: org/eclipse/papyrus/sysml/requirements/Requirement.class
+SHA1-Digest: kar73Mr/0K0lGfwk20tgEasEz2w=
+
+Name: org/eclipse/papyrus/sysml/activities/util/ActivitiesResourceFact
+ oryImpl.class
+SHA1-Digest: Z9dJZVC19oXrJWKtu0HkqdBDWHE=
+
+Name: org/eclipse/papyrus/sysml/blocks/impl/ValueTypeImpl.class
+SHA1-Digest: srFT81QESO2xac1oUFfy5ZVizkc=
+
+Name: org/eclipse/papyrus/sysml/blocks/impl/UnitImpl.class
+SHA1-Digest: XMhJqVp4bTh+AjdFDqtqrCooxmE=
+
+Name: org/eclipse/papyrus/sysml/impl/SysmlPackageImpl.class
+SHA1-Digest: 3bOE+GbYvJdp80UVrjSC2ooNGmg=
+
+Name: org/eclipse/papyrus/sysml/portandflows/impl/PortandflowsFactoryI
+ mpl.class
+SHA1-Digest: NUONCjx/54BJTCDOWoKnI66VUac=
+
+Name: org/eclipse/papyrus/sysml/blocks/NestedConnectorEnd.class
+SHA1-Digest: PNWgZ30SgTs6ddnGZJdpnU/Eg+A=
+
+Name: org/eclipse/papyrus/sysml/allocations/impl/AllocateImpl.class
+SHA1-Digest: mFM8z1z1szGWG3J908a9m+mY1lk=
+
+Name: org/eclipse/papyrus/sysml/blocks/util/BlocksResourceFactoryImpl.
+ class
+SHA1-Digest: niT+ip7Xi6IGz+ULjgckkpRuaUU=
+
+Name: org/eclipse/papyrus/sysml/modelelements/ModelelementsPackage.cla
+ ss
+SHA1-Digest: 2rhqSASfe//zCHM0kbY5ZKauWoI=
+
+Name: org/eclipse/papyrus/sysml/portandflows/util/PortandflowsAdapterF
+ actory.class
+SHA1-Digest: uLts3ZPzr3UDfpQb1+QE12Zd4Og=
+
+Name: org/eclipse/papyrus/sysml/statemachines/StatemachinesPackage.cla
+ ss
+SHA1-Digest: 10uWd2LKH5KzVVM7DsUWwmCwwlg=
+
+Name: org/eclipse/papyrus/sysml/requirements/Satisfy.class
+SHA1-Digest: M+8NdrI1ebC0RFfffdFmb2IQqQA=
+
+Name: org/eclipse/papyrus/sysml/interactions/impl/InteractionsPackageI
+ mpl.class
+SHA1-Digest: hITicIrw7V35N3IyKvqaXdHUp54=
+
+Name: org/eclipse/papyrus/sysml/modelelements/impl/ConformImpl.class
+SHA1-Digest: nJKSSusYl6ofvXt0JpY3/j1llQM=
+
+Name: model/uml.ecore
+SHA1-Digest: BBdhXFY436Qzbhq7HEZ1j2sJB7k=
+
+Name: org/eclipse/papyrus/sysml/requirements/impl/DeriveReqtImpl.class
+SHA1-Digest: FDXgfJTl51KSirX0vWsMNASVmxc=
+
+Name: org/eclipse/papyrus/sysml/allocations/util/AllocationsResourceIm
+ pl.class
+SHA1-Digest: BWbdoTgFOD5q3HOHisijAtYBPtc=
+
+Name: org/eclipse/papyrus/sysml/portandflows/FlowDirection.class
+SHA1-Digest: mwByO9mwB5gxUq08D1dAcsw+Gcs=
+
+Name: icons/blocks/ValueType.gif
+SHA1-Digest: PuqUS3Pv9X89EXQSXUpONUrNOtM=
+
+Name: org/eclipse/papyrus/sysml/portandflows/FlowSpecification.class
+SHA1-Digest: krpuP6GhIBpFJyze1gJGK4MtS3Y=
+
+Name: icons/portandflows/FlowPort.gif
+SHA1-Digest: C0j5vPINkW0Oz+QqARYEhbD5Wxc=
+
+Name: org/eclipse/papyrus/sysml/activities/impl/ContinuousImpl.class
+SHA1-Digest: s8Ul3GI+AJ5tTReAEvo7JAOkEy8=
+
+Name: org/eclipse/papyrus/sysml/SysmlFactory.class
+SHA1-Digest: E8rv/GOZPq0hyJvkoH18pCnRj+I=
+
+Name: org/eclipse/papyrus/sysml/modelelements/ViewPoint.class
+SHA1-Digest: yt9PEqfbG6RUKJsDnlUCfW5yz/g=
+
+Name: org/eclipse/papyrus/sysml/modelelements/impl/ProblemImpl.class
+SHA1-Digest: nPAaU+5vHCkIhvqMuXDgtMsX1es=
+
+Name: org/eclipse/papyrus/sysml/activities/impl/OverwriteImpl.class
+SHA1-Digest: tOrf5NsO9tAbLIy0naM7Fk+12j8=
+
+Name: org/eclipse/papyrus/sysml/blocks/ValueType.class
+SHA1-Digest: TxEqtn8yxCDyE8VZ30Ssm8lNE34=
+
+Name: org/eclipse/papyrus/sysml/blocks/impl/PropertySpecificTypeImpl.c
+ lass
+SHA1-Digest: MAme5YH9cbotgXQxKypHLL/DzjM=
+
+Name: org/eclipse/papyrus/sysml/modelelements/impl/ViewImpl.class
+SHA1-Digest: zHfKtQt4KKza2GAJAQ/Fq9gbqd0=
+
+Name: org/eclipse/papyrus/sysml/constraints/impl/ConstraintPropertyImp
+ l.class
+SHA1-Digest: PJDc+eDbNi7MWWsF53lxnMJtOgg=
+
+Name: org/eclipse/papyrus/sysml/modelelements/Rationale.class
+SHA1-Digest: fWjxUutBu/+E2Z/Hgi9iGrIfE/A=
+
+Name: org/eclipse/papyrus/sysml/portandflows/impl/PortandflowsPackageI
+ mpl.class
+SHA1-Digest: O3xLto8qkkp13aSX0SRoHcJzbqI=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/papyrus/sysml/statemachines/impl/StatemachinesFactor
+ yImpl.class
+SHA1-Digest: qr+KCA9jPaEYm+qp4V28kELUpqA=
+
+Name: org/eclipse/papyrus/sysml/activities/impl/OptionalImpl.class
+SHA1-Digest: jj/Mv52iqr6Lc3JnTVimQSAgoz0=
+
+Name: org/eclipse/papyrus/sysml/blocks/DistributedProperty.class
+SHA1-Digest: wsR7KJ7PDZGEUDoErR4t26DVNno=
+
+Name: org/eclipse/papyrus/sysml/activities/Probability.class
+SHA1-Digest: /w5h0hljBSLaQJ4vPwbz96/tUNY=
+
+Name: org/eclipse/papyrus/sysml/allocations/util/AllocationsSwitch.cla
+ ss
+SHA1-Digest: Qm4wHgoCL1CCCGApDHGG+Kr9wRk=
+
+Name: org/eclipse/papyrus/sysml/portandflows/util/PortandflowsXMLProce
+ ssor.class
+SHA1-Digest: pE8lKxNx9VzTcg6mEkpsw9BfBdY=
+
+Name: icons/modelelements/Problem.gif
+SHA1-Digest: X3wqbJemxMtrx+U5dWfcNo7xo8s=
+
+Name: org/eclipse/papyrus/sysml/blocks/util/BlocksResourceImpl.class
+SHA1-Digest: UVWt78VhShD7Toz7GwK5m0YyMM8=
+
+Name: model/ecore.ecore
+SHA1-Digest: K6q+jGIrlYihR7w84uwLg6xOj+Y=
+
+Name: org/eclipse/papyrus/sysml/allocations/AllocationsPackage$Literal
+ s.class
+SHA1-Digest: PG7kvpKgEqPQj+FWXNPdHczQYhg=
+
+Name: org/eclipse/papyrus/sysml/portandflows/impl/FlowPortImpl.class
+SHA1-Digest: /Z1QDeTGzPCKSTTLSpyWvsP9UUU=
+
+Name: icons/portandflows/FlowPort_INOUT_A.gif
+SHA1-Digest: XKlVahNP3nao++NFhrO4pJLTJX0=
+
+Name: icons/portandflows/FlowSpecification.gif
+SHA1-Digest: pV9ezR0SF/R55AQRJZDg4HmVrkk=
+
+Name: org/eclipse/papyrus/sysml/activities/Overwrite.class
+SHA1-Digest: 68BY/o9mMGOpaipuvk0L91Ww7po=
+
+Name: org/eclipse/papyrus/sysml/blocks/impl/NestedConnectorEndImpl.cla
+ ss
+SHA1-Digest: ydiXVNN7zcr3svTVpU0w2gz5AhQ=
+
+Name: org/eclipse/papyrus/sysml/statemachines/StatemachinesPackage$Lit
+ erals.class
+SHA1-Digest: 3GSjYdDVdBFj0xfrfX8E789Zq9g=
+
+Name: org/eclipse/papyrus/sysml/modelelements/Problem.class
+SHA1-Digest: POBFFb5uiPflfLmpZawCBi9J8jE=
+
+Name: org/eclipse/papyrus/sysml/allocations/AllocationsFactory.class
+SHA1-Digest: Kp3ErTcCD8gcB0/W9uBH5Zy4+Ac=
+
+Name: org/eclipse/papyrus/sysml/modelelements/View.class
+SHA1-Digest: sWscS5ADheUCnIDR95fI8zfVs3Y=
+
+Name: plugin.properties
+SHA1-Digest: p4vVZCh09fcJMQkROHyg0BAWkFg=
+
+Name: icons/portandflows/FlowProperty_INOUT.gif
+SHA1-Digest: XKlVahNP3nao++NFhrO4pJLTJX0=
+
+Name: icons/requirements/Requirement.gif
+SHA1-Digest: W/ILiVdJuqS6BNxJLszTu8bnQw0=
+
+Name: org/eclipse/papyrus/sysml/requirements/impl/RequirementRelatedIm
+ pl.class
+SHA1-Digest: WX1dT2K4rn4JXkk88VCBw5W4YfY=
+
+Name: org/eclipse/papyrus/sysml/SysmlPackage.class
+SHA1-Digest: 9JyjQmPmhhj1L10nFGwMJfLtsTw=
+
+Name: org/eclipse/papyrus/sysml/portandflows/PortandflowsFactory.class
+SHA1-Digest: tyBm3tcYWHY/VHg9FizxCGUUvDg=
+
+Name: org/eclipse/papyrus/sysml/blocks/util/BlocksSwitch.class
+SHA1-Digest: FQLgvj6OBRDeutaWSHimRg2s2AE=
+
+Name: model/Standard.ecore
+SHA1-Digest: 4TBhR6l61dsEoilwPWeGGTZ7F54=
+
+Name: org/eclipse/papyrus/sysml/requirements/util/RequirementsResource
+ FactoryImpl.class
+SHA1-Digest: UcSmsqrHYWoRKQUHgnAut/ueVKU=
+
+Name: plugin.xml
+SHA1-Digest: M3dsy787hA2hbZJHhyJBfOkj1Ek=
+
+Name: org/eclipse/papyrus/sysml/statemachines/impl/StatemachinesPackag
+ eImpl.class
+SHA1-Digest: PTG/KugUHhYPXSIGQyHtZAVx8lg=
+
+Name: icons/portandflows/FlowPort_IN_NA_NC.gif
+SHA1-Digest: UteRVj97gmKXDUiQjky+q2vzfxU=
+
+Name: icons/portandflows/FlowPort_IN_A.gif
+SHA1-Digest: RghUJW3G7OGARr6uyQbQbfMRJn0=
+
+Name: libraries/SysMLPrimitiveTypes.di2
+SHA1-Digest: LVoBBkMKz1cy3zMHcW1pLDkV9ro=
+
+Name: org/eclipse/papyrus/sysml/constraints/util/ConstraintsResourceIm
+ pl.class
+SHA1-Digest: U+3lc/0Pg3V3JH8k7MmhmMFvWLE=
+
+Name: org/eclipse/papyrus/sysml/portandflows/FlowPort.class
+SHA1-Digest: H9wIGlK9Q7pt+U0FOtniM4U1GWo=
+
+Name: org/eclipse/papyrus/sysml/util/ElementUtil.class
+SHA1-Digest: C+b3X2XWdQesZ70tburnoIf/OVM=
+
+Name: org/eclipse/papyrus/sysml/activities/impl/ActivitiesFactoryImpl.
+ class
+SHA1-Digest: QZaPT6cGNbSeunP5naXKQD9w9LI=
+
+Name: org/eclipse/papyrus/sysml/requirements/util/RequirementsSwitch.c
+ lass
+SHA1-Digest: prJ0meEjJMZLxKU9ioZZc7pTjwA=
+
+Name: org/eclipse/papyrus/sysml/activities/util/ActivitiesAdapterFacto
+ ry.class
+SHA1-Digest: IKSxaXuV7DqZ5OiMmXUx2YG2PNA=
+
+Name: org/eclipse/papyrus/sysml/interactions/InteractionsPackage$Liter
+ als.class
+SHA1-Digest: Hb9Rqt9YkKeEe5uiSkOdMV/X+Uc=
+
+Name: org/eclipse/papyrus/sysml/constraints/ConstraintBlock.class
+SHA1-Digest: ndFy2dV713qga9wdXM+bdWjOu4U=
+
+Name: org/eclipse/papyrus/sysml/requirements/util/RequirementsXMLProce
+ ssor.class
+SHA1-Digest: c6dzrnYYPfvT4DjalAWBtmmnlQU=
+
+Name: org/eclipse/papyrus/sysml/constraints/ConstraintsPackage$Literal
+ s.class
+SHA1-Digest: AAhDXu0OgyrksmkkIKHb5rOyHjs=
+
+Name: org/eclipse/papyrus/sysml/activities/impl/DiscreteImpl.class
+SHA1-Digest: wp3wUyB5/G0ZE4iRIdtD3CnSUms=
+
+Name: org/eclipse/papyrus/sysml/activities/util/ActivitiesResourceImpl
+ .class
+SHA1-Digest: fUa2KBKiunqDQ4LcCQQUGQgCrVA=
+
+Name: org/eclipse/papyrus/sysml/requirements/util/RequirementsAdapterF
+ actory$1.class
+SHA1-Digest: 139fky6PtycP5L3x2m4dWuUgNxE=
+
+Name: icons/portandflows/FlowPort_OUT_A.gif
+SHA1-Digest: ZHXD1v0jc9b2JaJd4rRHgKbYRAs=
+
+Name: org/eclipse/papyrus/sysml/allocations/impl/AllocateActivityParti
+ tionImpl.class
+SHA1-Digest: AuEibNMQ/6jg2N1KlDNznvZkyqQ=
+
+Name: org/eclipse/papyrus/sysml/blocks/PropertySpecificType.class
+SHA1-Digest: LzdsDr7kXgZifGXOdQ9eTdERS0Q=
+
+Name: org/eclipse/papyrus/sysml/allocations/AllocationsPackage.class
+SHA1-Digest: hPjPRfgr0OESiJxlTnt6/6t8PH8=
+
+Name: org/eclipse/papyrus/sysml/statemachines/util/StatemachinesResour
+ ceImpl.class
+SHA1-Digest: b6AzxyFBeRvi4KMpkOif51FzPCA=
+
+Name: org/eclipse/papyrus/sysml/usecases/util/UsecasesXMLProcessor.cla
+ ss
+SHA1-Digest: KlU6Et0eAo35pPCsjuX4vvqaBE0=
+
+Name: org/eclipse/papyrus/sysml/portandflows/impl/FlowPropertyImpl.cla
+ ss
+SHA1-Digest: hOUEdAoUcvxo6Res+04wVANg6o0=
+
+Name: org/eclipse/papyrus/sysml/constraints/util/ConstraintsSwitch.cla
+ ss
+SHA1-Digest: LiH0Gvibu901Etv1gSDWVq59fvY=
+
+Name: org/eclipse/papyrus/sysml/portandflows/PortandflowsPackage.class
+SHA1-Digest: kzaslpoG3Vjp49ne/yQ32JX/3WQ=
+
+Name: org/eclipse/papyrus/sysml/util/SysmlXMLProcessor.class
+SHA1-Digest: 2jAx5+iGA8fVOIPk66g7PcZWM4o=
+
+Name: org/eclipse/papyrus/sysml/activities/ActivitiesFactory.class
+SHA1-Digest: chUGQpXUckLbjlV4wtkTFibHqdw=
+
+Name: org/eclipse/papyrus/sysml/statemachines/util/StatemachinesResour
+ ceFactoryImpl.class
+SHA1-Digest: TaVaP+PDYY11XK/ox5XyLha2WEo=
+
+Name: icons/constraints/ConstraintBlock.gif
+SHA1-Digest: W+T/TcuerW5EBGNvnJPAdZ+/lKc=
+
+Name: org/eclipse/papyrus/sysml/requirements/TestCase.class
+SHA1-Digest: kxi/Wj9NnN1jmFb6ggUZ54G56HU=
+
+Name: icons/modelelements/Viewpoint.gif
+SHA1-Digest: fW4TBvbDjKPDdoOFPfAjY/JhLnU=
+
+Name: org/eclipse/papyrus/sysml/modelelements/impl/ViewPointImpl.class
+SHA1-Digest: hl9dEiyuyIAu+tn252ZCaAeaLdA=
+
+Name: org/eclipse/papyrus/sysml/allocations/Allocated.class
+SHA1-Digest: UjWd9Vd50RK5qJv0OMxMEjIRN38=
+
+Name: org/eclipse/papyrus/sysml/activities/impl/ActivitiesPackageImpl.
+ class
+SHA1-Digest: trYiNitZU0UxN/kCL0Gn1g0oa+g=
+
+Name: org/eclipse/papyrus/sysml/interactions/util/InteractionsResource
+ Impl.class
+SHA1-Digest: bBNR+L/5VUjmsVDWE0P9hcz6mQs=
+
+Name: org/eclipse/papyrus/sysml/portandflows/util/PortandflowsSwitch.c
+ lass
+SHA1-Digest: zW6SBZyHrovuMMRKazJuSAfScYg=
+
+Name: org/eclipse/papyrus/sysml/modelelements/impl/RationaleImpl.class
+SHA1-Digest: oREajWYMBYy0dsBUND2PaZdbiQQ=
+
+Name: org/eclipse/papyrus/sysml/blocks/BlocksFactory.class
+SHA1-Digest: jqgEYfwmWpXLc4rsCHWUT4MTsCY=
+
+Name: org/eclipse/papyrus/sysml/requirements/RequirementsFactory.class
+SHA1-Digest: 3wbd1jXlnYZ/D48tqxUP08Htjao=
+
+Name: org/eclipse/papyrus/sysml/usecases/UsecasesFactory.class
+SHA1-Digest: gkhhgpLb/RIipibN0edTV7JRi+0=
+
+Name: org/eclipse/papyrus/sysml/constraints/util/ConstraintsResourceFa
+ ctoryImpl.class
+SHA1-Digest: S+229xE47xXGwgEb0+QzsgY1ObU=
+
+Name: org/eclipse/papyrus/sysml/activities/Discrete.class
+SHA1-Digest: YAgeCCn6VVkB9GWmVBYZUGHvUeE=
+
+Name: org/eclipse/papyrus/sysml/interactions/util/InteractionsResource
+ FactoryImpl.class
+SHA1-Digest: FM8YC14Ze3cn7WClW1K/a5zvKWA=
+
+Name: org/eclipse/papyrus/sysml/blocks/ParticipantProperty.class
+SHA1-Digest: 9Ei75yNLJdEk+VRCDUZtnekpOPA=
+
+Name: org/eclipse/papyrus/sysml/activities/util/ActivitiesAdapterFacto
+ ry$1.class
+SHA1-Digest: 1tr62Vqx7hJ9vxfm5s2egqRnqA0=
+
+Name: icons/requirements/TestCase.gif
+SHA1-Digest: 6XCMRZWvUMPR9Q3mXYmGcI98e5M=
+
+Name: org/eclipse/papyrus/sysml/constraints/impl/ConstraintsFactoryImp
+ l.class
+SHA1-Digest: ZyPlrSvl+0NYVYz5XMwyVJTliJc=
+
+Name: org/eclipse/papyrus/sysml/SysmlPackage$Literals.class
+SHA1-Digest: 1PtINHiBMXoj5EMzIzY0jxnCD24=
+
+Name: icons/portandflows/FlowProperty_IN.gif
+SHA1-Digest: RghUJW3G7OGARr6uyQbQbfMRJn0=
+
+Name: org/eclipse/papyrus/sysml/blocks/BlocksPackage$Literals.class
+SHA1-Digest: ZPHmZn4ELSK0ilzTfR/bU/anuJY=
+
+Name: org/eclipse/papyrus/sysml/requirements/RequirementsPackage$Liter
+ als.class
+SHA1-Digest: 4wDYjGbh5SAsKvV0mJjwFWACEEw=
+
+Name: org/eclipse/papyrus/sysml/usecases/UsecasesPackage$Literals.clas
+ s
+SHA1-Digest: krdBvb1RDzqArqC+pemJcVxOzuQ=
+
+Name: org/eclipse/papyrus/sysml/activities/ActivitiesPackage.class
+SHA1-Digest: 5uCSkM/3OCX3K/CFKG999f9qaek=
+
+Name: icons/requirements/Trace.gif
+SHA1-Digest: KUAlDeNtrWkqO2Rb8E2NykHphi0=
+
+Name: org/eclipse/papyrus/sysml/allocations/Allocate.class
+SHA1-Digest: 9o2mWDQWjAI2zi3Cj3cMYjQmCs4=
+
+Name: icons/portandflows/FlowProperty_OUT.gif
+SHA1-Digest: ZHXD1v0jc9b2JaJd4rRHgKbYRAs=
+
+Name: icons/requirements/Copy.gif
+SHA1-Digest: ttlGdCwTxNnf6kADk81KC/MZ5e8=
+
+Name: org/eclipse/papyrus/sysml/modelelements/util/ModelelementsXMLPro
+ cessor.class
+SHA1-Digest: Pj+FL1YOcHGtEMMAZcImUe5B5JE=
+
+Name: org/eclipse/papyrus/sysml/requirements/DeriveReqt.class
+SHA1-Digest: Ol5lR0c2u23P5acZlUdp9yyXIlc=
+
+Name: org/eclipse/papyrus/sysml/portandflows/util/PortandflowsResource
+ FactoryImpl.class
+SHA1-Digest: GBDl8mjsw4SSybzji0H/DhceE14=
+
+Name: org/eclipse/papyrus/sysml/activities/Rate.class
+SHA1-Digest: MScebtM1E4IqHH52b+Bk0TkEmGg=
+
+Name: icons/portandflows/FlowPort_OUT_NA_C.gif
+SHA1-Digest: VF3TobSjgY/u92MRtczIGqkeR4g=
+
+Name: org/eclipse/papyrus/sysml/modelelements/util/ModelelementsAdapte
+ rFactory$1.class
+SHA1-Digest: r8h+QYrhgRUWdUQngecctrwz8Uo=
+
+Name: icons/portandflows/FlowProperty.gif
+SHA1-Digest: ChZy+Snzcj/01vOeUxgLRkXaJfQ=
+
+Name: org/eclipse/papyrus/sysml/activities/impl/NoBufferImpl.class
+SHA1-Digest: YbmuIBOq6weahQ0C9iCh1Qt9FDk=
+
+Name: icons/SysMLModel.gif
+SHA1-Digest: jmIW967vWppHOx6yqqz/7UK7mWs=
+
+Name: about.html
+SHA1-Digest: a2Fk5/pDnCvlEfl7QwDZj/FCgFc=
+
+Name: org/eclipse/papyrus/sysml/activities/ActivitiesPackage$Literals.
+ class
+SHA1-Digest: XfZjNIvSpOHMKfdR1vO4mcCDWa4=
+
+Name: libraries/SysMLPrimitiveTypes.uml
+SHA1-Digest: yrHY4+upqS9WHnGKtTt7Fl7gC1s=
+
+Name: org/eclipse/papyrus/sysml/requirements/Copy.class
+SHA1-Digest: qGhfZGmka3z94aFQO/PZJTfbzEc=
+
+Name: org/eclipse/papyrus/sysml/blocks/BlocksPackage.class
+SHA1-Digest: INugKdxHfbMs6D1uByyYTdr4RXM=
+
+Name: org/eclipse/papyrus/sysml/requirements/RequirementsPackage.class
+SHA1-Digest: BcrPeAooInMMlkONC69YB7f8jSo=
+
+Name: org/eclipse/papyrus/sysml/usecases/UsecasesPackage.class
+SHA1-Digest: gSQaWwFGDEBlpP65p4PTgpJIOeo=
+
+Name: org/eclipse/papyrus/sysml/requirements/Verify.class
+SHA1-Digest: J/FjgfnhMkGs5zkyjcawg/qKtaE=
+
+Name: org/eclipse/papyrus/sysml/blocks/Dimension.class
+SHA1-Digest: FLegDRoRRXiTXoNJZzzMggmXdkQ=
+
+Name: org/eclipse/papyrus/sysml/portandflows/ItemFlow.class
+SHA1-Digest: 2QIu9PmF7XP5WDi6+wD3v+HWcaE=
+
+Name: icons/portandflows/FlowPort_OUT_NA_NC.gif
+SHA1-Digest: s9x0997U9KPJ20nEoEJJ/4zmJls=
+
+Name: org/eclipse/papyrus/sysml/constraints/impl/ConstraintsPackageImp
+ l.class
+SHA1-Digest: TWbvLSxQGCbnXE8jlbrZycIprCM=
+
+Name: org/eclipse/papyrus/sysml/portandflows/util/PortandflowsResource
+ Impl.class
+SHA1-Digest: OQRHBoG41sxv8Fz0o2871vAbUUU=
+
+Name: org/eclipse/papyrus/sysml/modelelements/impl/ModelelementsFactor
+ yImpl.class
+SHA1-Digest: +nQPshjVkLDjpZmkgEyD45nbcwM=
+
+Name: org/eclipse/papyrus/sysml/requirements/impl/TestCaseImpl.class
+SHA1-Digest: 2AiWyppI3aDab67BOc4ZZHH5JSo=
+
+Name: org/eclipse/papyrus/sysml/requirements/impl/RequirementImpl.clas
+ s
+SHA1-Digest: tVmw50IutC1gB50KPzGp9NQHglQ=
+
+Name: org/eclipse/papyrus/sysml/interactions/InteractionsFactory.class
+SHA1-Digest: /TZgs0y44v/zGv5mlYFMkp7PwFE=
+
+Name: org/eclipse/papyrus/sysml/allocations/util/AllocationsResourceFa
+ ctoryImpl.class
+SHA1-Digest: MxiAU+V/SUE4jJ9eAe+fXsT/u9A=
+
+Name: org/eclipse/papyrus/sysml/modelelements/util/ModelelementsAdapte
+ rFactory.class
+SHA1-Digest: LTL1U3dervjb8cPE4pH9AfDWtC8=
+
+Name: org/eclipse/papyrus/sysml/blocks/impl/ConnectorPropertyImpl.clas
+ s
+SHA1-Digest: VJF1ERMugLwplJ8sja2ueLwVFpM=
+
+Name: org/eclipse/papyrus/sysml/util/SysmlResourceFactoryImpl.class
+SHA1-Digest: cQsFh3DEmHhkowCEQsMHZQOpxOA=
+
+Name: org/eclipse/papyrus/sysml/activities/NoBuffer.class
+SHA1-Digest: Ffz4HZ/HkSuNYzmedL0fGRElQ9E=
+
+Name: icons/portandflows/ItemFlow.gif
+SHA1-Digest: i5NSNsyVwAc8RjMur0qiM9IDAls=
+
+Name: org/eclipse/papyrus/sysml/blocks/impl/BlockImpl.class
+SHA1-Digest: NxoqAgLZNQXhCuoieNlN6W2zsko=
+
+Name: org/eclipse/papyrus/sysml/activities/util/ActivitiesSwitch.class
+SHA1-Digest: aR1e2Fgt3eQMlV063g88TwCYlCc=
+
+Name: org/eclipse/papyrus/sysml/allocations/impl/AllocationsFactoryImp
+ l.class
+SHA1-Digest: es07jqIMt2PthK4NZ2bHkZ6BrTo=
+
+Name: org/eclipse/papyrus/sysml/util/SysmlResource.class
+SHA1-Digest: eAjCoT0uZB7LT9s7iRJvMxG5KE8=
+
+Name: org/eclipse/papyrus/sysml/blocks/impl/BindingConnectorImpl.class
+SHA1-Digest: AOnr0X4c3LNUGSwY33SmPapiomw=
+
+Name: org/eclipse/papyrus/sysml/requirements/VerdictKind.class
+SHA1-Digest: 9iW57o7KaBbbNn8AXACub6trvq0=
+
+Name: icons/SysMLProfile.gif
+SHA1-Digest: GOywVJ3sdDr0JXfh2E7GaD1GKac=
+
+Name: org/eclipse/papyrus/sysml/portandflows/PortandflowsPackage$Liter
+ als.class
+SHA1-Digest: Im5NQ0WLeQz1iLW1Mh+Z9g4c57E=
+
+Name: org/eclipse/papyrus/sysml/blocks/impl/DistributedPropertyImpl.cl
+ ass
+SHA1-Digest: QRv4F9sfpIYe5HPC8A8rO0P8vTM=
+
+Name: org/eclipse/papyrus/sysml/allocations/impl/AllocatedImpl.class
+SHA1-Digest: uWZo7+Qg0NYsjjzJQ4WMHSHOYbo=
+
+Name: org/eclipse/papyrus/sysml/activities/impl/ControlOperatorImpl.cl
+ ass
+SHA1-Digest: zKSsWu4g1P6+/o5pFpSnxC/m2UI=
+
+Name: org/eclipse/papyrus/sysml/allocations/util/AllocationsXMLProcess
+ or.class
+SHA1-Digest: 4VOMLC3NrzJK6hNKCSQHEcZFSIw=
+
+Name: icons/SysMLLibrary.gif
+SHA1-Digest: r3NcAFHdhm+jq5BMhPkEO82YC90=
+
+Name: org/eclipse/papyrus/sysml/blocks/impl/DimensionImpl.class
+SHA1-Digest: f+Yn8hxin4judNLc0WEVHAxq1Zw=
+
+Name: icons/portandflows/FlowPort_INOUT_NA_NC.gif
+SHA1-Digest: Wxcn+rsJDsItPbwg98D5FHWZqHc=
+
+Name: icons/requirements/DeriveReqt.gif
+SHA1-Digest: yfsxTwENt4rUVRjKCXejCW99djw=
+
+Name: org/eclipse/papyrus/sysml/portandflows/util/PortandflowsAdapterF
+ actory$1.class
+SHA1-Digest: UafYpESv4ha0rOGTMXHiaosCWok=
+
+Name: org/eclipse/papyrus/sysml/portandflows/FlowProperty.class
+SHA1-Digest: SSaW2j/p0wW60jUj6Xkdv4VRYpQ=
+
+Name: icons/modelelements/View.gif
+SHA1-Digest: gaKW8pGIVnYTxW03pSmybmFlvL4=
+
+Name: org/eclipse/papyrus/sysml/modelelements/impl/ModelelementsPackag
+ eImpl.class
+SHA1-Digest: c4LhtjjGNadQ61PQVZz5gHjngVA=
+
+Name: org/eclipse/papyrus/sysml/usecases/util/UsecasesResourceFactoryI
+ mpl.class
+SHA1-Digest: f+pWCD5fFKiqHUxfNvvSBfH0rFI=
+
+Name: org/eclipse/papyrus/sysml/activities/impl/ProbabilityImpl.class
+SHA1-Digest: l05iSGJGqYs988zBIJ7Qb0Gdg20=
+
+Name: org/eclipse/papyrus/sysml/allocations/util/AllocationsAdapterFac
+ tory$1.class
+SHA1-Digest: P3hAyBhTikP2sihEQrcvQSn1XIQ=
+
+Name: org/eclipse/papyrus/sysml/requirements/util/RequirementsResource
+ Impl.class
+SHA1-Digest: AGc/69siqnZhON6EHBL5nnh9Tvc=
+
+Name: org/eclipse/papyrus/sysml/constraints/ConstraintsFactory.class
+SHA1-Digest: vgsodRM73AkkBto0JsP5TPY4Blk=
+
+Name: model/SysML.profile.uml
+SHA1-Digest: 22dEnPhCGGZo0ntrQI3D3+XMX2k=
+
+Name: icons/portandflows/FlowPort_INOUT_NA_C.gif
+SHA1-Digest: bIMRRfOX27HpnhuBsQeIrUkBtO8=
+
+Name: icons/requirements/Refine.gif
+SHA1-Digest: 3sll8pSMsf2EIoVE311AsB9EBLY=
+
+Name: org/eclipse/papyrus/sysml/usecases/impl/UsecasesFactoryImpl.clas
+ s
+SHA1-Digest: Wp6LkbOiEotpU/uH+BTx9jXZtqw=
+
+Name: icons/blocks/Block.gif
+SHA1-Digest: 57IubKTuAe++I2ZRhCOcZDnKzoY=
+
+Name: org/eclipse/papyrus/sysml/interactions/InteractionsPackage.class
+SHA1-Digest: gGf9Xrwh1SeAHAHEr/hudVL9rTY=
+
+Name: icons/constraints/ConstraintProperty.gif
+SHA1-Digest: ov+fxmmYLFn6bLBWggMkparDG+I=
+
+Name: icons/modelelements/Conform.gif
+SHA1-Digest: ec2NIFsTojTF2p4jKCsAXBI/16E=
+
+Name: icons/requirements/Verify.gif
+SHA1-Digest: KnJiAm0WK/reedksCO+bJUqLkkQ=
+
+Name: org/eclipse/papyrus/sysml/usecases/util/UsecasesResourceImpl.cla
+ ss
+SHA1-Digest: AaUEn609EX3BTfU98XDlLoGshac=
+
+Name: org/eclipse/papyrus/sysml/blocks/util/BlocksXMLProcessor.class
+SHA1-Digest: znSHYrtV9Qsg4o5+aESGTxDCnq8=
+
+Name: org/eclipse/papyrus/sysml/requirements/impl/CopyImpl.class
+SHA1-Digest: sYoAfofT0uYh0L02Y9E1tOlugaY=
+
+Name: org/eclipse/papyrus/sysml/allocations/impl/AllocationsPackageImp
+ l.class
+SHA1-Digest: rrwdpI6Ej4xnIFZsUfIgTEq4Y6k=
+
+Name: org/eclipse/papyrus/sysml/portandflows/impl/FlowSpecificationImp
+ l.class
+SHA1-Digest: 3KAOZgk3/QFXqrVm7dqxiSPD1UI=
+
+Name: icons/portandflows/FlowPort_IN_NA_C.gif
+SHA1-Digest: yxHwOpbibEpHMI/8RTA2ZEHQXGc=
+
+Name: org/eclipse/papyrus/sysml/requirements/impl/RequirementsFactoryI
+ mpl.class
+SHA1-Digest: nR8veWRjbvAYZOuehK6l6tbNjCE=
+
+Name: org/eclipse/papyrus/sysml/util/SysmlResourceImpl.class
+SHA1-Digest: RqbUIvEuOWXWoFfd62IXlbdHNuw=
+
+Name: org/eclipse/papyrus/sysml/blocks/util/BlocksAdapterFactory$1.cla
+ ss
+SHA1-Digest: Y7ubNrLRFf06YS00x/0DefUAMlQ=
+
+Name: icons/blocks/Unit.gif
+SHA1-Digest: sFnR2rsso0MozttzSJFrSv4k278=
+
+Name: icons/requirements/Satisfy.gif
+SHA1-Digest: tP2HdJBgvBM5j9xUddeAtn7+dZk=
+
+Name: org/eclipse/papyrus/sysml/modelelements/util/ModelelementsResour
+ ceFactoryImpl.class
+SHA1-Digest: WZRnKMk7LPtllCDwFbbqt7bwKEk=
+
+Name: org/eclipse/papyrus/sysml/allocations/util/AllocationsAdapterFac
+ tory.class
+SHA1-Digest: e1oOZT4QZ0VdmwIUYJJeaaGewWQ=
+
+Name: org/eclipse/papyrus/sysml/blocks/impl/BlocksFactoryImpl.class
+SHA1-Digest: +t6iOMVyIwZDCYrkEpYGfXQ2R54=
+
+Name: org/eclipse/papyrus/sysml/allocations/AllocateActivityPartition.
+ class
+SHA1-Digest: lB5QYfGTJtKFdKTkm8eOPuw2G/g=
+

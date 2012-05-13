@@ -1,0 +1,1581 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.papyrus.properties.runtime;singleton:
+ =true
+Bundle-Activator: org.eclipse.papyrus.properties.runtime.Activator
+Require-Bundle: org.eclipse.ui;bundle-version="3.5.1",org.eclipse.ui.v
+ iews.properties.tabbed;bundle-version="3.5.0",org.eclipse.core.runtim
+ e;bundle-version="3.5.0",org.eclipse.emf.ecore;bundle-version="2.5.0"
+ ,org.eclipse.emf.transaction;bundle-version="1.3.0",org.eclipse.gmf.r
+ untime.common.core;bundle-version="1.2.0",org.eclipse.gmf.runtime.emf
+ .commands.core;bundle-version="1.2.0",org.eclipse.gmf.runtime.emf.cor
+ e;bundle-version="1.2.0",org.eclipse.papyrus.log;bundle-version="0.8.
+ 0",org.eclipse.gmf.runtime.common.ui;bundle-version="1.2.1",org.eclip
+ se.gmf.runtime.common.ui.services;bundle-version="1.2.0",org.eclipse.
+ uml2.uml.resources;bundle-version="3.1.0",org.eclipse.emf.edit.ui;bun
+ dle-version="2.6.0",org.eclipse.uml2.uml;bundle-version="3.1.0",org.e
+ clipse.papyrus.core;bundle-version="0.8.0",org.eclipse.papyrus.servic
+ e.edit;bundle-version="0.8.0"
+Bundle-Version: 0.8.0.v201106151827
+Export-Package: org.eclipse.papyrus.properties.runtime,org.eclipse.pap
+ yrus.properties.runtime.controller,org.eclipse.papyrus.properties.run
+ time.controller.descriptor,org.eclipse.papyrus.properties.runtime.con
+ troller.predefined,org.eclipse.papyrus.properties.runtime.dialogs,org
+ .eclipse.papyrus.properties.runtime.modelhandler,org.eclipse.papyrus.
+ properties.runtime.modelhandler.emf,org.eclipse.papyrus.properties.ru
+ ntime.propertyeditor,org.eclipse.papyrus.properties.runtime.propertye
+ ditor.descriptor,org.eclipse.papyrus.properties.runtime.state,org.ecl
+ ipse.papyrus.properties.runtime.view,org.eclipse.papyrus.properties.r
+ untime.view.constraints,org.eclipse.papyrus.properties.runtime.view.c
+ ontent
+Ant-Version: Apache Ant 1.7.1
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: bin/org/eclipse/papyrus/properties/runtime/view/constraints/Appl
+ iedStereotypeConstraintDescriptor.class
+SHA1-Digest: On3SKQhJu/+yvr5/6IQPTEzVLqg=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/ComboPrope
+ rtyEditor$1.class
+SHA1-Digest: HgMcbe+sVymrANdchO5cYw42V3w=
+
+Name: org/eclipse/papyrus/properties/runtime/view/PropertyViewService.
+ class
+SHA1-Digest: Es4D+pPuHJyPp+nrx0cFbIL0az0=
+
+Name: org/eclipse/papyrus/properties/runtime/controller/PropertyEditor
+ ControllerService$ProviderDescriptor.class
+SHA1-Digest: KNFeD9kfuT8hXhyu9cUXGGpm8OU=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/controller/EMFTERefer
+ enceController$3.class
+SHA1-Digest: c1GHYUwW0rDkh9leqnnr2jhUrvU=
+
+Name: icons/Down_12x12.gif
+SHA1-Digest: RVDZxja+zDoO/w8ddCCTm8nmsQI=
+
+Name: org/eclipse/papyrus/properties/runtime/view/content/LayoutDescri
+ ptorState.class
+SHA1-Digest: shB4qrxdWHC6g8ysO3TbTPmfTUE=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/state/IState.class
+SHA1-Digest: bLVCq0w1KQgemmE+j+kEwBpfmKM=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/Proper
+ tyEditorTypeValidator.class
+SHA1-Digest: Nn8K+lYXbJMSm4QSrtRtgYa1kGc=
+
+Name: org/eclipse/papyrus/properties/runtime/modelhandler/emf/StringSt
+ ereotypeModelHandlerFactory.class
+SHA1-Digest: 0ot5KBYQZXpb0YeIlwZE+pdeg9o=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/modelhandler/emf/Bool
+ eanStereotypeModelHandlerFactory.class
+SHA1-Digest: TComJtU/ckUg6GUHb7A5GvdNwDo=
+
+Name: icons/Fragment.gif
+SHA1-Digest: xfmKDP1Q8MRyvYa8C5m1ikxLsZA=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/Activator.class
+SHA1-Digest: YA8k/2MWqVg0t/mL5ieCCRM5hRc=
+
+Name: org/eclipse/papyrus/properties/runtime/dialogs/GetDialogDescript
+ orOperationById.class
+SHA1-Digest: qaD0DI5VN9BEAhePmV0s3kDeZZI=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/controller/predefined
+ /GetAllPredefinedPropertyEditorControllersOperation.class
+SHA1-Digest: gViEV4ASdjhqyAU5e2+cdaJPWGw=
+
+Name: org/eclipse/papyrus/properties/runtime/controller/IPropertyEdito
+ rController.class
+SHA1-Digest: Kd6Dv/Ej/2Fmoeuyo4Z3zg6F/Gs=
+
+Name: org/eclipse/papyrus/properties/runtime/modelhandler/emf/BooleanE
+ MFModelHandlerFactory.class
+SHA1-Digest: +095uKv3cdUgneiXp+SUvzpr7dI=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/descri
+ ptor/IPropertyEditorDescriptorFactory.class
+SHA1-Digest: nP7RVRJcIA66MwIArj1DyiilpVo=
+
+Name: org/eclipse/papyrus/properties/runtime/controller/descriptor/EMF
+ TBindingPropertyEditorControllerDescriptorFactory.class
+SHA1-Digest: 1Mzpd3KzJu0xGEHuOtdJ9fvFI1s=
+
+Name: org/eclipse/papyrus/properties/runtime/dialogs/GetDialogDescript
+ orOperation.class
+SHA1-Digest: u32CQvDklCXaVJHIqHXUe8wJRsE=
+
+Name: schema/propertyEditorProvider.exsd
+SHA1-Digest: smC4+vafx5X80N3opt8jC+KLqLs=
+
+Name: org/eclipse/papyrus/properties/runtime/dialogs/ReferenceExplorer
+ Dialog.class
+SHA1-Digest: eFYbRgYhYJjYEdCBnqCfT6Qf2YE=
+
+Name: org/eclipse/papyrus/properties/runtime/controller/predefined/Pre
+ definedControllerDescriptor.class
+SHA1-Digest: HkH4GrjuCencwglJpeEP4m8Uqzo=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/dialogs/ReferenceExpl
+ orerDialog.class
+SHA1-Digest: eFYbRgYhYJjYEdCBnqCfT6Qf2YE=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/NullProper
+ tyEditor.class
+SHA1-Digest: IhDZHD2faWokcXrM/CI+0v6Io1c=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/ComboP
+ ropertyEditor$2.class
+SHA1-Digest: D/NA9s43bzzN8mF68A+wzHETG00=
+
+Name: org/eclipse/papyrus/properties/runtime/controller/PropertyEditor
+ ControllerProvider.class
+SHA1-Digest: XuxAVWWFLT99aDiBt8mvELEK1hw=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/descriptor
+ /IPropertyEditorDescriptor.class
+SHA1-Digest: 0HFc4sGXZCXa0niQrxUDVaf+r4Y=
+
+Name: org/eclipse/papyrus/properties/runtime/view/GetAllFragmentDescri
+ ptorsOperation.class
+SHA1-Digest: loSuWkQKDP1Kw6s2IVE7gWYJTFQ=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/controller/PropertyEd
+ itorControllerProvider.class
+SHA1-Digest: XuxAVWWFLT99aDiBt8mvELEK1hw=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/descri
+ ptor/IPropertyEditorDescriptor.class
+SHA1-Digest: 0HFc4sGXZCXa0niQrxUDVaf+r4Y=
+
+Name: org/eclipse/papyrus/properties/runtime/controller/descriptor/EMF
+ TBindingPropertyEditorControllerDescriptor.class
+SHA1-Digest: Q0RMPYAGQ4LyVjuT5k7ayz0/s0w=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/view/GetAllFragmentDe
+ scriptorsOperation.class
+SHA1-Digest: loSuWkQKDP1Kw6s2IVE7gWYJTFQ=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/modelhandler/ModelHan
+ dlerFactoryDescriptor.class
+SHA1-Digest: nCeKumelmGYIlTtXXTq9V/vCV4A=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/AbstractPr
+ opertyEditor.class
+SHA1-Digest: WKvwEvxWMaN2bRHKHvdHY/Q/r44=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/controller/descriptor
+ /EMFTBindingPropertyEditorControllerDescriptor.class
+SHA1-Digest: Q0RMPYAGQ4LyVjuT5k7ayz0/s0w=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/view/content/GridLayo
+ utDescriptorState.class
+SHA1-Digest: dH4wWWHHZ478AXUhBTCKMHw/228=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/view/constraints/ICon
+ straintDescriptor.class
+SHA1-Digest: 5oVpwapI7I9N0HjhyW+dBS0VK+w=
+
+Name: org/eclipse/papyrus/properties/runtime/controller/descriptor/Con
+ trollerDescriptorState.class
+SHA1-Digest: 0DpvNIeklLlspDjJ7hdD4uEp5TM=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/PropertyEd
+ itorProvider.class
+SHA1-Digest: ugjUZo7MUror7+D5CuuKQ0dtG6g=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/Simple
+ ReferencePropertyEditor$1.class
+SHA1-Digest: vnqaHzfKAlir4w8MD+z19odw3No=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/controller/descriptor
+ /ControllerDescriptorState.class
+SHA1-Digest: 0DpvNIeklLlspDjJ7hdD4uEp5TM=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/descriptor
+ /SimpleReferencePropertyEditorDescriptorFactory.class
+SHA1-Digest: g1WVYKkW/R/f8RtGdw9nJJ+7U0g=
+
+Name: org/eclipse/papyrus/properties/runtime/controller/ILabelProvider
+ Controller.class
+SHA1-Digest: xBPVSbYlZI8bQccpR8a6U7hQqHc=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/controller/ILabelProv
+ iderController.class
+SHA1-Digest: xBPVSbYlZI8bQccpR8a6U7hQqHc=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/view/PredefinedFragme
+ ntDescriptor.class
+SHA1-Digest: XkcF78gPC16AXDXfbG1xj9Bk7cg=
+
+Name: org/eclipse/papyrus/properties/runtime/controller/predefined/Pre
+ definedControllerState.class
+SHA1-Digest: AzySEce0i651aHa9hNi2AcyoCGA=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/CreateProp
+ ertyEditorDescriptorOperation.class
+SHA1-Digest: O4uRXN3el3o07BZ+imKkoFZvTCA=
+
+Name: org/eclipse/papyrus/properties/runtime/controller/descriptor/EMF
+ TPropertyEditorControllerDescriptor.class
+SHA1-Digest: WuBEM4C/+scGts1qBWlzFNV/0cQ=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/modelhandler/emf/EMFF
+ eatureModelHandlerState.class
+SHA1-Digest: L/0iHsZAWTLatH0fVJuW2jJVDKU=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/AbstractTa
+ blePropertyEditor$4.class
+SHA1-Digest: HDaGcgh9jKTUezNTT7c3aUQ5ZcM=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/controller/predefined
+ /PredefinedControllerState.class
+SHA1-Digest: AzySEce0i651aHa9hNi2AcyoCGA=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/TextProper
+ tyEditorValidator.class
+SHA1-Digest: hg9+XO42y3JC+njSUHa7vlRYp1g=
+
+Name: icons/Delete_12x12.gif
+SHA1-Digest: Nj/v8Qq1SwweGplanUGyZ7MVmd0=
+
+Name: org/eclipse/papyrus/properties/runtime/view/content/GroupContain
+ erDescriptor$GroupContainerDescriptorState.class
+SHA1-Digest: CzU/WMl39liQ1OnUnb1L3g/o7Vk=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/view/content/GroupCon
+ tainerDescriptor$GroupContainerDescriptorState.class
+SHA1-Digest: CzU/WMl39liQ1OnUnb1L3g/o7Vk=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/MultiplePr
+ imitiveTypedPropertyEditor$StringEditingSupport.class
+SHA1-Digest: UD+BQUQjxUZXYaKoLT9+9qBsNts=
+
+Name: icons/EMFTController.gif
+SHA1-Digest: vNLWLFvx9xwbNk5MecZmk902UKU=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/state/ITraversableMod
+ elElement.class
+SHA1-Digest: MTwJ1uDo+qFRN9aNqA+44/q//KA=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/PropertyEd
+ itorService$ProviderDescriptor.class
+SHA1-Digest: EvxV1CbX03U8EYkox6YhU5pBddw=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/modelhandler/emf/IEMF
+ ModelHandlerState.class
+SHA1-Digest: jO8B+IfMj8YwgjibcPpfbXmtoug=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/Proper
+ tyEditorService$ProviderDescriptor.class
+SHA1-Digest: EvxV1CbX03U8EYkox6YhU5pBddw=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/descri
+ ptor/PropertyEditorDescriptor.class
+SHA1-Digest: WTcmmBpcRD2jTR2ZdiyZGQyzc+Q=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/SimpleRefe
+ rencePropertyEditor$2.class
+SHA1-Digest: fS0h6WqxqRCkzM2avnSrvF6vo9Q=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/controller/PropertyEd
+ itorControllerConfiguration.class
+SHA1-Digest: 5sFWl1veT2Qrlwpm+Gw+cLw/67E=
+
+Name: org/eclipse/papyrus/properties/runtime/dialogs/ReferenceExplorer
+ Dialog$ReferenceComparator.class
+SHA1-Digest: TH1ulzO92zZqYzkVNH+DQo0Q+d4=
+
+Name: org/eclipse/papyrus/properties/runtime/modelhandler/emf/Referenc
+ eStereotypeModelHandler.class
+SHA1-Digest: FZeo+yuixbe8gsDaLfA+B2jT3Ys=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/modelhandler/emf/Enum
+ erationStereotypeModelHandler$CreateEnumerationStereotypeValueOperati
+ on.class
+SHA1-Digest: H07zX/CPetQnlvjKjyMN58kk7YU=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/dialogs/ReferenceExpl
+ orerDialog$ReferenceComparator.class
+SHA1-Digest: TH1ulzO92zZqYzkVNH+DQo0Q+d4=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/view/content/Abstract
+ ContainerDescriptor.class
+SHA1-Digest: dzS+W9TUF8qLKONV9o7RpmBfkjA=
+
+Name: org/eclipse/papyrus/properties/runtime/state/IFragmentDescriptor
+ State.class
+SHA1-Digest: 9dnVutnQZch7KkjMS9VPYeqXvAM=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/Multip
+ leReferencePropertyEditor.class
+SHA1-Digest: waS3T0CmV8iTTgLsm/0hbkshtXY=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/descri
+ ptor/MultipleReferencePropertyEditorDescriptorFactory.class
+SHA1-Digest: hCTCVTMQpz0W0Ol+QeIlKp3EBzA=
+
+Name: org/eclipse/papyrus/properties/runtime/controller/EMFPropertyEdi
+ torController.class
+SHA1-Digest: PRUDG6znnPPpxXsZoR/ZGk1hJ8E=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/Abstra
+ ctTablePropertyEditor$5.class
+SHA1-Digest: MTgSYmmANPaFX3ByKyq8ZSjufQo=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/modelhandler/emf/Enum
+ erationEMFModelHandlerFactory.class
+SHA1-Digest: gPgzdmsB9GRZz2oBOYe0Qt8LqkQ=
+
+Name: org/eclipse/papyrus/properties/runtime/modelhandler/emf/StringEM
+ FModelHandler.class
+SHA1-Digest: SwzbgB9Tf+CaqjBI3bPY2gXCGXg=
+
+Name: org/eclipse/papyrus/properties/runtime/view/content/ContainerDes
+ criptor.class
+SHA1-Digest: XrTUdueC3kqVWPTTPmWk24mL8Q4=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/controller/EMFTERefer
+ enceController$2.class
+SHA1-Digest: C8+QebT0GY5p4UY3n6sAiknXNXg=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/controller/descriptor
+ /IPropertyEditorControllerDescriptorFactory.class
+SHA1-Digest: zYzCXP3gMaUNA+GrsjEmccDVrCg=
+
+Name: org/eclipse/papyrus/properties/runtime/view/constraints/ObjectTy
+ peConstraintDescriptor.class
+SHA1-Digest: NrwyfWMs0EXCmAOzC5vJcrsmANI=
+
+Name: org/eclipse/papyrus/properties/runtime/controller/EMFTBindingERe
+ ferenceController.class
+SHA1-Digest: 5pPCGOY6Rjh7Hquywf7EIw3Wkik=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/view/constraints/Obje
+ ctTypeConstraintDescriptor.class
+SHA1-Digest: NrwyfWMs0EXCmAOzC5vJcrsmANI=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/Simple
+ ReferencePropertyEditor.class
+SHA1-Digest: 3npepg9w2vmfrE5XQ2gpk411BRg=
+
+Name: org/eclipse/papyrus/properties/runtime/modelhandler/emf/StringSt
+ ereotypeModelHandler$CreateStringStererotypeValueOperation.class
+SHA1-Digest: 2l7FK4ZMVIVnkTNllCeohTEs5xs=
+
+Name: org/eclipse/papyrus/properties/runtime/view/XMLParseException.cl
+ ass
+SHA1-Digest: 8SzcCJMH5X9IlSapp0ZPlchXFtk=
+
+Name: org/eclipse/papyrus/properties/runtime/dialogs/EMFFeatureBinding
+ LabelProviderDescriptor.class
+SHA1-Digest: MEZjzjHRqQ6SitRWvUvMaNGTRrc=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/TextProper
+ tyEditor.class
+SHA1-Digest: SWGjYTjChWrtUC7vqD6tmIfKvtE=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/modelhandler/emf/IEMF
+ ModelHandler.class
+SHA1-Digest: n1vGhbRByu37EbR+ll4TUAtrrnU=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/modelhandler/emf/Stri
+ ngStereotypeModelHandler$CreateStringStererotypeValueOperation.class
+SHA1-Digest: 2l7FK4ZMVIVnkTNllCeohTEs5xs=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/Abstra
+ ctTablePropertyEditor.class
+SHA1-Digest: hv25DzD0LbPJwJT1FVfOlHHrI0c=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/MultipleSt
+ ructuralFeaturesPropertyEditorValidator.class
+SHA1-Digest: iULUkBoai/Yfwqxo3YxQTL5UnWo=
+
+Name: org/eclipse/papyrus/properties/runtime/controller/predefined/Pre
+ definedPropertyControllerProvider.class
+SHA1-Digest: Nf+P7ZICayo+J8dsqCXji8iVbPw=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/descriptor
+ /PropertyEditorDescriptorState.class
+SHA1-Digest: 7pYKZj9UMZVJYinjRjIPD163m5Y=
+
+Name: org/eclipse/papyrus/properties/runtime/controller/PropertyEditor
+ Controller.class
+SHA1-Digest: CdnOkHZQ+mre7P3Fv7SAdAHhHPE=
+
+Name: org/eclipse/papyrus/properties/runtime/modelhandler/ModelHandler
+ Service.class
+SHA1-Digest: js9QNS9l5t0mYoUCawRkvSbj8sg=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/descri
+ ptor/PropertyEditorDescriptorState.class
+SHA1-Digest: 7pYKZj9UMZVJYinjRjIPD163m5Y=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/ComboP
+ ropertyEditor$1.class
+SHA1-Digest: HgMcbe+sVymrANdchO5cYw42V3w=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/view/PropertyViewServ
+ ice.class
+SHA1-Digest: Es4D+pPuHJyPp+nrx0cFbIL0az0=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/controller/PropertyEd
+ itorController.class
+SHA1-Digest: CdnOkHZQ+mre7P3Fv7SAdAHhHPE=
+
+Name: org/eclipse/papyrus/properties/runtime/view/content/ExpandableCo
+ ntainerDescriptor$ExpandableContainerDescriptorState.class
+SHA1-Digest: LbEgHJR4lf6Ezbre2rxLRxc6Elk=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/RadioBoxPr
+ opertyEditor.class
+SHA1-Digest: aVlz0/DBOxUyI72Lg3+OT+bNnMo=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/view/content/LayoutDe
+ scriptor.class
+SHA1-Digest: Hu6vjEUp8SaNNxL0R3jAwx0e0X4=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/modelhandler/emf/Bool
+ eanStereotypeModelHandler.class
+SHA1-Digest: EuNZIzr/7Wve94bzspUJ9zbp3TY=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/descriptor
+ /MultiplePrimitiveTypedPropertyEditorDescriptor.class
+SHA1-Digest: pLv2iocVbtyplg/Jvj5YQj6t5F8=
+
+Name: org/eclipse/papyrus/properties/runtime/view/constraints/AppliedS
+ tereotypeConstraintDescriptor.class
+SHA1-Digest: On3SKQhJu/+yvr5/6IQPTEzVLqg=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/view/constraints/Cons
+ traintParser.class
+SHA1-Digest: aWMagksKX6yWNROlPKe/DZGwHS4=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/modelhandler/emf/Stri
+ ngStereotypeModelHandlerFactory.class
+SHA1-Digest: 0ot5KBYQZXpb0YeIlwZE+pdeg9o=
+
+Name: org/eclipse/papyrus/properties/runtime/view/IConfigurableDescrip
+ tor.class
+SHA1-Digest: e27C7CJZgNTRBY3xTGCQqw9ENqY=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/dialogs/GetDialogDesc
+ riptorOperationById.class
+SHA1-Digest: qaD0DI5VN9BEAhePmV0s3kDeZZI=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/PropertyEd
+ itorTypeValidator.class
+SHA1-Digest: Nn8K+lYXbJMSm4QSrtRtgYa1kGc=
+
+Name: org/eclipse/papyrus/properties/runtime/controller/EMFTLabelProvi
+ derStructuralFeatureController.class
+SHA1-Digest: /31YNz9YIzM5YrzF6fGClO9OdN8=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/MultipleSt
+ ructuralFeaturesPropertyEditor.class
+SHA1-Digest: X96oudkGcyNF33rLj0OFMCp92Zc=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/controller/IPropertyE
+ ditorController.class
+SHA1-Digest: Kd6Dv/Ej/2Fmoeuyo4Z3zg6F/Gs=
+
+Name: org/eclipse/papyrus/properties/runtime/controller/descriptor/EMF
+ TPropertyEditorControllerDescriptorFactory.class
+SHA1-Digest: XDrwoGRlEf/cr46XLQZuO1Stsf0=
+
+Name: icons/ObjectTypeConstraint.gif
+SHA1-Digest: ENhiRLa+biShqwPi0dlyixqHNyk=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/descri
+ ptor/SimpleReferencePropertyEditorDescriptor.class
+SHA1-Digest: 5fWPvjqIL8+S2GH/gvpZSwiHB+0=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/Multip
+ leStructuralFeaturesPropertyEditor.class
+SHA1-Digest: X96oudkGcyNF33rLj0OFMCp92Zc=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/controller/EMFTLabelP
+ roviderStructuralFeatureController.class
+SHA1-Digest: /31YNz9YIzM5YrzF6fGClO9OdN8=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/controller/descriptor
+ /EMFTPropertyEditorControllerDescriptorFactory.class
+SHA1-Digest: XDrwoGRlEf/cr46XLQZuO1Stsf0=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/MultiplePr
+ imitiveTypedPropertyEditor.class
+SHA1-Digest: hqlRU7bOmfYquNjquG8TBiS8Z9Y=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/descri
+ ptor/ComboPropertyEditorDescriptorFactory.class
+SHA1-Digest: 7FEcUMFn4Hg6tgycTQFpoRxsNG8=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/dialogs/GetDialogDesc
+ riptorOperation.class
+SHA1-Digest: u32CQvDklCXaVJHIqHXUe8wJRsE=
+
+Name: org/eclipse/papyrus/properties/runtime/controller/descriptor/EMF
+ TPropertyEditorControllerDescriptor$EMFTPropertyEditorControllerDescr
+ iptorState.class
+SHA1-Digest: 1IWnZxYJ+UpAZ0tAHeJ4S2lO9cY=
+
+Name: org/eclipse/papyrus/properties/runtime/view/content/LayoutParser
+ .class
+SHA1-Digest: 2R1uVpJuXQqmLGHY2Nf03Ctz4OU=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/Multip
+ lePrimitiveTypedPropertyEditor.class
+SHA1-Digest: hqlRU7bOmfYquNjquG8TBiS8Z9Y=
+
+Name: org/eclipse/papyrus/properties/runtime/view/IFragmentDescriptor.
+ class
+SHA1-Digest: u88AOyVlHd8x1wojZv1o+8zky6g=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/controller/predefined
+ /PredefinedControllerDescriptor.class
+SHA1-Digest: HkH4GrjuCencwglJpeEP4m8Uqzo=
+
+Name: org/eclipse/papyrus/properties/runtime/view/constraints/ObjectTy
+ peConstraintDescriptor$ObjectTypeConstraintDescriptorState.class
+SHA1-Digest: OlBh4zzRic4qfNX+eyjZkyptUZg=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/descriptor
+ /IPropertyEditorDescriptorFactory.class
+SHA1-Digest: nP7RVRJcIA66MwIArj1DyiilpVo=
+
+Name: org/eclipse/papyrus/properties/runtime/modelhandler/emf/Referenc
+ eEMFModelHandler.class
+SHA1-Digest: OeTLPQWePh2cJBDigNMGZOsU+bc=
+
+Name: schema/propertyViewProvider.exsd
+SHA1-Digest: fFG/vTotOyUhCV4OLkSbfm4Aoko=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/view/constraints/Obje
+ ctTypeConstraintDescriptor$ObjectTypeConstraintDescriptorState.class
+SHA1-Digest: OlBh4zzRic4qfNX+eyjZkyptUZg=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/AbstractTa
+ blePropertyEditor$3.class
+SHA1-Digest: 9lqNb+yWfO4bc2H3gvin0Elm0k4=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/modelhandler/IPropert
+ yModelHandlerFactory.class
+SHA1-Digest: wjIIwMJttp2j6xXXK+2ZPK9h7/U=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/view/PredefinedFragme
+ ntDescriptorState.class
+SHA1-Digest: 8KtxJhcot9EME1IEdiiSxGweO2Q=
+
+Name: org/eclipse/papyrus/properties/runtime/modelhandler/emf/EMFModel
+ HandlerFactory.class
+SHA1-Digest: fD4H299IdPUcnkk49/T7c0OwTrk=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/Proper
+ tyEditorConfiguration.class
+SHA1-Digest: cYV7P/sgichVy98xG8+IHJVRz9M=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/modelhandler/emf/EMFS
+ tereotypeFeatureModelHandler.class
+SHA1-Digest: hurh+9Ij9+l+5pnQAQ+1r1mtfFk=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/modelhandler/emf/EMFM
+ odelHandlerFactory.class
+SHA1-Digest: fD4H299IdPUcnkk49/T7c0OwTrk=
+
+Name: org/eclipse/papyrus/properties/runtime/modelhandler/ModelHandler
+ FactoryDescriptor.class
+SHA1-Digest: nCeKumelmGYIlTtXXTq9V/vCV4A=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/descri
+ ptor/SimpleReferencePropertyEditorDescriptorFactory.class
+SHA1-Digest: g1WVYKkW/R/f8RtGdw9nJJ+7U0g=
+
+Name: org/eclipse/papyrus/properties/runtime/view/content/GridLayoutDe
+ scriptor.class
+SHA1-Digest: /fWvrmk4pWPkKtzk4GNnn9vnorg=
+
+Name: org/eclipse/papyrus/properties/runtime/view/content/GridLayoutDe
+ scriptorState.class
+SHA1-Digest: dH4wWWHHZ478AXUhBTCKMHw/228=
+
+Name: org/eclipse/papyrus/properties/runtime/view/constraints/IConstra
+ intDescriptor.class
+SHA1-Digest: 5oVpwapI7I9N0HjhyW+dBS0VK+w=
+
+Name: org/eclipse/papyrus/properties/runtime/view/content/ContainerDes
+ criptorState.class
+SHA1-Digest: PC0u1M71xd7wah8OweR3BA2NArE=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/RadioB
+ oxPropertyEditor$RadioButtonListener.class
+SHA1-Digest: fCXwWq/sI5zmcZie18rxm/AemqI=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/descriptor
+ /PropertyEditorDescriptorFactory.class
+SHA1-Digest: 6tReWzbQYrGKABNjZ6KxBJDvIvw=
+
+Name: about.html
+SHA1-Digest: y0N4Xo0SWk7dkT2S3XYFPomfO1U=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/SimpleRefe
+ rencePropertyEditor$1.class
+SHA1-Digest: vnqaHzfKAlir4w8MD+z19odw3No=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/view/constraints/Appl
+ iedStereotypeConstraintDescriptor$AppliedStereotypeConstraintDescript
+ orState.class
+SHA1-Digest: 0C6azZQS/wKC/MrR2QdsMPfPDuk=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/controller/EMFTLabelP
+ roviderStructuralFeatureController$1.class
+SHA1-Digest: 3CgRZuHLbM52kBByrfrWeTaA8/g=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/controller/descriptor
+ /IPropertyEditorControllerDescriptor.class
+SHA1-Digest: KqhJWCi7zqN4WEFymTHZRiAsh4U=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/messages.properties
+SHA1-Digest: TPFxhYohsvUUkKMDfv2Sf9/2AT8=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/controller/descriptor
+ /EMFTPropertyEditorControllerDescriptor.class
+SHA1-Digest: WuBEM4C/+scGts1qBWlzFNV/0cQ=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/descriptor
+ /RadioBoxPropertyEditorDescriptorFactory.class
+SHA1-Digest: 1V0RGVZu1feT1nUCheMavqqHfyk=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/Abstra
+ ctTablePropertyEditor$4.class
+SHA1-Digest: HDaGcgh9jKTUezNTT7c3aUQ5ZcM=
+
+Name: icons/StereotypeConstraint.gif
+SHA1-Digest: bUkbSqAYwbqh7DD7QWbn6B3VfZI=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/controller/EMFTERefer
+ enceController$1.class
+SHA1-Digest: YNycZxPAHPNVph+bQylpAt2G8ig=
+
+Name: org/eclipse/papyrus/properties/runtime/controller/descriptor/Bea
+ nPropertyEditorControllerDescriptorFactory.class
+SHA1-Digest: dwEYFe+kl0W0okyjgzBnn7nQoPE=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/SimpleRefe
+ rencePropertyEditorValidator.class
+SHA1-Digest: 0Lnlmlmm11xR4i9/vKYNOqUl65M=
+
+Name: org/eclipse/papyrus/properties/runtime/controller/IBoundedValues
+ Controller.class
+SHA1-Digest: FX62IacWt0HDepFuZQFU0ZyG8Xk=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/controller/descriptor
+ /BeanPropertyEditorControllerDescriptorFactory.class
+SHA1-Digest: dwEYFe+kl0W0okyjgzBnn7nQoPE=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/controller/IBoundedVa
+ luesController.class
+SHA1-Digest: FX62IacWt0HDepFuZQFU0ZyG8Xk=
+
+Name: org/eclipse/papyrus/properties/runtime/dialogs/ReferenceExplorer
+ Dialog$ObjectItemFilter.class
+SHA1-Digest: IWzi4H3y3sGPT9wwyIe6Nof8yec=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/Multip
+ lePrimitiveTypedPropertyEditor$StringEditingSupport.class
+SHA1-Digest: UD+BQUQjxUZXYaKoLT9+9qBsNts=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/controller/descriptor
+ /IBindingLabelProviderDescriptor.class
+SHA1-Digest: kJUNSH4z13DiIzkDvUaVZUl/66A=
+
+Name: org/eclipse/papyrus/properties/runtime/view/PropertyViewService$
+ ProviderDescriptor.class
+SHA1-Digest: VVeflpdtGWN+ifc/GoEuIX/oFeA=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/modelhandler/emf/Enum
+ erationStereotypeModelHandlerFactory.class
+SHA1-Digest: Cz/QTPxWFugquqC5vb+6UOklKQE=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/view/content/GroupCon
+ tainerDescriptor.class
+SHA1-Digest: FisIHo3k9EI6NY5l11+Ox60zCAo=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/modelhandler/emf/EMFU
+ tils.class
+SHA1-Digest: sxotOky4jQi6Z099TDeJZDi//Xo=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/view/PropertyViewServ
+ ice$ProviderDescriptor.class
+SHA1-Digest: VVeflpdtGWN+ifc/GoEuIX/oFeA=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/descriptor
+ /MultipleStructuralFeaturesPropertyEditorDescriptorFactory.class
+SHA1-Digest: es5UR46aKb7G8DuthuGpn8Ufl+I=
+
+Name: org/eclipse/papyrus/properties/runtime/state/ITraversableModelEl
+ ement.class
+SHA1-Digest: MTwJ1uDo+qFRN9aNqA+44/q//KA=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/descri
+ ptor/MultipleStructuralFeaturesPropertyEditorDescriptorFactory.class
+SHA1-Digest: es5UR46aKb7G8DuthuGpn8Ufl+I=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/controller/IWizardPro
+ pertyEditorController.class
+SHA1-Digest: +n8pgqrXgCnO/PJe4kJHoEzfF/g=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/modelhandler/emf/Refe
+ renceStereotypeModelHandler.class
+SHA1-Digest: FZeo+yuixbe8gsDaLfA+B2jT3Ys=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/controller/PropertyEd
+ itorControllerService.class
+SHA1-Digest: ezVU5PQwyfb96wV3Mnh73SnhJiE=
+
+Name: org/eclipse/papyrus/properties/runtime/modelhandler/emf/IEMFMode
+ lHandlerState.class
+SHA1-Digest: jO8B+IfMj8YwgjibcPpfbXmtoug=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/TextProper
+ tyEditor$2.class
+SHA1-Digest: fptX9XmU4Y+jiGxHlwX3GiW5hC0=
+
+Name: org/eclipse/papyrus/properties/runtime/controller/EMFTEReference
+ Controller.class
+SHA1-Digest: dARw9DszQ67UhFCo/J5xChHSWJ0=
+
+Name: org/eclipse/papyrus/properties/runtime/controller/descriptor/Nul
+ lPropertyEditorControllerDescriptor.class
+SHA1-Digest: yU0VOu75c3PJ84s2QlRMiYK/euc=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/TextPr
+ opertyEditor$2.class
+SHA1-Digest: fptX9XmU4Y+jiGxHlwX3GiW5hC0=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/descriptor
+ /PropertyEditorDescriptor.class
+SHA1-Digest: WTcmmBpcRD2jTR2ZdiyZGQyzc+Q=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/controller/EMFTERefer
+ enceController.class
+SHA1-Digest: dARw9DszQ67UhFCo/J5xChHSWJ0=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/view/content/Containe
+ rDescriptor.class
+SHA1-Digest: XrTUdueC3kqVWPTTPmWk24mL8Q4=
+
+Name: org/eclipse/papyrus/properties/runtime/modelhandler/emf/Enumerat
+ ionEMFModelHandler.class
+SHA1-Digest: MUjwnQHoluYKuJNvk51hUd2iCAA=
+
+Name: org/eclipse/papyrus/properties/runtime/controller/EMFTPropertyEd
+ itorController$EMFTControllerCommand.class
+SHA1-Digest: NPemSdAwb3zOxhCffBr16m06peU=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/MultipleRe
+ ferencePropertyEditor.class
+SHA1-Digest: waS3T0CmV8iTTgLsm/0hbkshtXY=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/modelhandler/emf/Enum
+ erationEMFModelHandler.class
+SHA1-Digest: MUjwnQHoluYKuJNvk51hUd2iCAA=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/descriptor
+ /MultipleReferencePropertyEditorDescriptorFactory.class
+SHA1-Digest: hCTCVTMQpz0W0Ol+QeIlKp3EBzA=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/controller/CreateProp
+ ertyEditorControllerOperation.class
+SHA1-Digest: +OgKCdDk34bfVkTILrhe5PLTyN4=
+
+Name: icons/tool.gif
+SHA1-Digest: /cDYtgpMpwE6CalF4KLRGKMP6IM=
+
+Name: org/eclipse/papyrus/properties/runtime/modelhandler/emf/Enumerat
+ ionEMFModelHandlerFactory.class
+SHA1-Digest: gPgzdmsB9GRZz2oBOYe0Qt8LqkQ=
+
+Name: org/eclipse/papyrus/properties/runtime/view/DialogDescriptor.cla
+ ss
+SHA1-Digest: fhapK7vUc9RysFRl0ER9iCctXkw=
+
+Name: icons/GroupContainer.gif
+SHA1-Digest: MgHxHMJXskdTmO2QU3NAQT3p5vM=
+
+Name: org/eclipse/papyrus/properties/runtime/modelhandler/emf/Transact
+ ionUtil.class
+SHA1-Digest: AbOAaiPW3kzpkBGiMm+XgujSclI=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/dialogs/EMFFeatureBin
+ dingLabelProviderDescriptor.class
+SHA1-Digest: MEZjzjHRqQ6SitRWvUvMaNGTRrc=
+
+Name: icons/Thumbs.db
+SHA1-Digest: QKID3oV53Ss+OeOwIyQVb7KktGc=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/Multip
+ leStructuralFeaturesPropertyEditorValidator.class
+SHA1-Digest: iULUkBoai/Yfwqxo3YxQTL5UnWo=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/MultipleRe
+ ferencePropertyEditorValidator.class
+SHA1-Digest: cNNX+rd9Z3QxFVOgNgrdAOhlMyE=
+
+Name: org/eclipse/papyrus/properties/runtime/modelhandler/emf/StringSt
+ ereotypeModelHandler.class
+SHA1-Digest: dZhvSqb8domgpTe700gjESKV9Ro=
+
+Name: org/eclipse/papyrus/properties/runtime/view/XMLPropertyViewProvi
+ der.class
+SHA1-Digest: CWNFEyjSZld14TFc6VcZrR45Zco=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/view/constraints/Cons
+ traintDescriptorState.class
+SHA1-Digest: +k1YzxlSTh+RIB6mfrgVc8EQFCE=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/Multip
+ leReferencePropertyEditorValidator.class
+SHA1-Digest: cNNX+rd9Z3QxFVOgNgrdAOhlMyE=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/modelhandler/ModelHan
+ dlerService.class
+SHA1-Digest: js9QNS9l5t0mYoUCawRkvSbj8sg=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/AbstractTa
+ blePropertyEditor.class
+SHA1-Digest: hv25DzD0LbPJwJT1FVfOlHHrI0c=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/view/IPropertyViewPro
+ vider.class
+SHA1-Digest: X3PkfHZ0TUcKs24MNBr35mabEmM=
+
+Name: schema/propertyEditorControllerProvider.exsd
+SHA1-Digest: OFM7WLFEWjdDDjD6VXyvnaHhbno=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/controller/predefined
+ /CreatePredefinedPropertyControllerProviderOperation.class
+SHA1-Digest: Mo35ShwFjE3fFdFffV8UQYwVgoA=
+
+Name: org/eclipse/papyrus/properties/runtime/controller/EMFTEReference
+ Controller$3.class
+SHA1-Digest: c1GHYUwW0rDkh9leqnnr2jhUrvU=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/descri
+ ptor/MultiplePrimitiveTypedPropertyEditorDescriptor.class
+SHA1-Digest: pLv2iocVbtyplg/Jvj5YQj6t5F8=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/AbstractTa
+ blePropertyEditor$2.class
+SHA1-Digest: jGRysMtU0sq84sBpankxnEg9xEE=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/modelhandler/emf/Stri
+ ngEMFModelHandlerFactory.class
+SHA1-Digest: r4FO1TW3lZgorDszOpJ7cav+XT4=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/dialogs/PropertyDialo
+ g.class
+SHA1-Digest: 7mTOOjDPD/DHFs5aU0/RQrZWS0Q=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/controller/PropertyEd
+ itorControllerService$ProviderDescriptor.class
+SHA1-Digest: KNFeD9kfuT8hXhyu9cUXGGpm8OU=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/descriptor
+ /IBoundedValuesPropertyEditorDescriptor.class
+SHA1-Digest: S/qlJVzRmqIH9PcXzuB2LDb3Zlo=
+
+Name: org/eclipse/papyrus/properties/runtime/view/FragmentDescriptor.c
+ lass
+SHA1-Digest: jhtezwsXyFqTxXktjlQImR35N6Y=
+
+Name: org/eclipse/papyrus/properties/runtime/modelhandler/emf/BooleanS
+ tereotypeModelHandler.class
+SHA1-Digest: EuNZIzr/7Wve94bzspUJ9zbp3TY=
+
+Name: org/eclipse/papyrus/properties/runtime/modelhandler/emf/Referenc
+ eStereotypeModelHandlerFactory.class
+SHA1-Digest: QwzaADucZ7v64Cib7KndrNLMrgs=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/view/IConfigurableDes
+ criptor.class
+SHA1-Digest: e27C7CJZgNTRBY3xTGCQqw9ENqY=
+
+Name: org/eclipse/papyrus/properties/runtime/modelhandler/emf/BooleanS
+ tereotypeModelHandlerFactory.class
+SHA1-Digest: TComJtU/ckUg6GUHb7A5GvdNwDo=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/view/FragmentDescript
+ or.class
+SHA1-Digest: jhtezwsXyFqTxXktjlQImR35N6Y=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/modelhandler/emf/Refe
+ renceStereotypeModelHandlerFactory.class
+SHA1-Digest: QwzaADucZ7v64Cib7KndrNLMrgs=
+
+Name: org/eclipse/papyrus/properties/runtime/Activator.class
+SHA1-Digest: YA8k/2MWqVg0t/mL5ieCCRM5hRc=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/controller/descriptor
+ /EMFTPropertyEditorControllerDescriptor$EMFTPropertyEditorControllerD
+ escriptorState.class
+SHA1-Digest: 1IWnZxYJ+UpAZ0tAHeJ4S2lO9cY=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/view/IFragmentDescrip
+ tor.class
+SHA1-Digest: u88AOyVlHd8x1wojZv1o+8zky6g=
+
+Name: org/eclipse/papyrus/properties/runtime/controller/EMFTBindingERe
+ ferenceController$BindingLabelProvider.class
+SHA1-Digest: SFitHaSo5AqKm/NQizix0qjZWm0=
+
+Name: icons/ExpandableContainer.gif
+SHA1-Digest: IG+mULwFBDtBVufDpXhMOMGhoI0=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/descriptor
+ /ComboPropertyEditorDescriptorFactory.class
+SHA1-Digest: 7FEcUMFn4Hg6tgycTQFpoRxsNG8=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/controller/EMFTBindin
+ gEReferenceController$BindingLabelProvider.class
+SHA1-Digest: SFitHaSo5AqKm/NQizix0qjZWm0=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/Abstra
+ ctTablePropertyEditor$3.class
+SHA1-Digest: 9lqNb+yWfO4bc2H3gvin0Elm0k4=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/descriptor
+ /MultipleStructuralFeaturesPropertyEditorDescriptor.class
+SHA1-Digest: DHB8Yf4sH7xUj7nf6W+bGE+tyGk=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/NullPr
+ opertyEditor.class
+SHA1-Digest: IhDZHD2faWokcXrM/CI+0v6Io1c=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/NullPr
+ opertyEditorTypeValidator.class
+SHA1-Digest: 2DackKjDtQFaYrl2m3Es+/1sXCg=
+
+Name: org/eclipse/papyrus/properties/runtime/view/PredefinedFragmentDe
+ scriptorState.class
+SHA1-Digest: 8KtxJhcot9EME1IEdiiSxGweO2Q=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/controller/EMFTStruct
+ uralFeatureController.class
+SHA1-Digest: s/wgvwBbEZh2etWXFixOEE4Rtro=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/PropertyEd
+ itorConfiguration.class
+SHA1-Digest: cYV7P/sgichVy98xG8+IHJVRz9M=
+
+Name: org/eclipse/papyrus/properties/runtime/controller/NullPropertyEd
+ itorController.class
+SHA1-Digest: zPlrJdYsNIe6+k+rNuDfRSLowp0=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/Abstra
+ ctPropertyEditor.class
+SHA1-Digest: WKvwEvxWMaN2bRHKHvdHY/Q/r44=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/controller/NullProper
+ tyEditorController.class
+SHA1-Digest: zPlrJdYsNIe6+k+rNuDfRSLowp0=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/view/content/Expandab
+ leContainerDescriptor.class
+SHA1-Digest: M/0TFz+4BavUbjnZ04njDFiez70=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/Proper
+ tyEditorProvider.class
+SHA1-Digest: ugjUZo7MUror7+D5CuuKQ0dtG6g=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/TextProper
+ tyEditor$1.class
+SHA1-Digest: ENkhGMbAZN4PTjNknhYxLvUDPmo=
+
+Name: org/eclipse/papyrus/properties/runtime/view/IPropertyViewOperati
+ on.class
+SHA1-Digest: WzqMboWVzuIadLbp+M07M82bOKk=
+
+Name: org/eclipse/papyrus/properties/runtime/view/PredefinedFragmentDe
+ scriptor.class
+SHA1-Digest: XkcF78gPC16AXDXfbG1xj9Bk7cg=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/TextPr
+ opertyEditor$1.class
+SHA1-Digest: ENkhGMbAZN4PTjNknhYxLvUDPmo=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/view/IPropertyViewOpe
+ ration.class
+SHA1-Digest: WzqMboWVzuIadLbp+M07M82bOKk=
+
+Name: org/eclipse/papyrus/properties/runtime/modelhandler/emf/BooleanE
+ MFModelHandler.class
+SHA1-Digest: 3ag1kIIHTWv1DPgov6c7TopQa4c=
+
+Name: org/eclipse/papyrus/properties/runtime/Messages.class
+SHA1-Digest: XG83q4cvhnrJiiKiTXbOdLSmHjQ=
+
+Name: org/eclipse/papyrus/properties/runtime/view/GetFragmentDescripto
+ rOperation.class
+SHA1-Digest: wti9vl4KuKrThlfLONpMBNLgUCQ=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/modelhandler/emf/Bool
+ eanEMFModelHandler.class
+SHA1-Digest: 3ag1kIIHTWv1DPgov6c7TopQa4c=
+
+Name: icons/Container.gif
+SHA1-Digest: k3VJm4dHsPmsZoZas4mv7fAZ7yY=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/view/GetFragmentDescr
+ iptorOperation.class
+SHA1-Digest: wti9vl4KuKrThlfLONpMBNLgUCQ=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/dialogs/ReferenceExpl
+ orerDialog$ObjectItemFilter.class
+SHA1-Digest: IWzi4H3y3sGPT9wwyIe6Nof8yec=
+
+Name: icons/GridLayout.gif
+SHA1-Digest: i3OCnEg10l9jTKMLBoO4ckNaY/Y=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/descri
+ ptor/RadioBoxPropertyEditorDescriptor.class
+SHA1-Digest: E+cpVMYXnRJb9V30wZQ/hqujsUI=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/modelhandler/emf/Enum
+ erationStereotypeModelHandler.class
+SHA1-Digest: Vv7JN5bT3QyEIV+HYQnh/0mlIP0=
+
+Name: icons/Up.gif
+SHA1-Digest: nUGy85EowQLrI5hDomzojsZItS4=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/controller/descriptor
+ /NullPropertyEditorControllerDescriptor.class
+SHA1-Digest: yU0VOu75c3PJ84s2QlRMiYK/euc=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/ComboP
+ ropertyEditor.class
+SHA1-Digest: o6Clj0zPlvBGXyT44GfGbw9MtZk=
+
+Name: icons/ModelHandler.gif
+SHA1-Digest: LvbXP82w3cQyAh58lYwcNTQhnnY=
+
+Name: org/eclipse/papyrus/properties/runtime/controller/IWizardPropert
+ yEditorController.class
+SHA1-Digest: +n8pgqrXgCnO/PJe4kJHoEzfF/g=
+
+Name: org/eclipse/papyrus/properties/runtime/controller/PropertyEditor
+ ControllerService.class
+SHA1-Digest: ezVU5PQwyfb96wV3Mnh73SnhJiE=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/descriptor
+ /MultiplePrimitiveTypedPropertyEditorDescriptorFactory.class
+SHA1-Digest: akZM9WGhfdGTgE4Clx7fGB9pvd8=
+
+Name: org/eclipse/papyrus/properties/runtime/controller/EMFTEReference
+ Controller$2.class
+SHA1-Digest: C8+QebT0GY5p4UY3n6sAiknXNXg=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/descri
+ ptor/MultiplePrimitiveTypedPropertyEditorDescriptorFactory.class
+SHA1-Digest: akZM9WGhfdGTgE4Clx7fGB9pvd8=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/AbstractTa
+ blePropertyEditor$1.class
+SHA1-Digest: LmG7WqeHPEza38ElZfhzsXFisgs=
+
+Name: org/eclipse/papyrus/properties/runtime/controller/BeanPropertyEd
+ itorController.class
+SHA1-Digest: eKz3W6WVYLlUsQtaHEQq9VDPp3k=
+
+Name: org/eclipse/papyrus/properties/runtime/modelhandler/emf/Referenc
+ eEMFModelHandlerFactory.class
+SHA1-Digest: 4tuDYsWKU9ja52KptD9CYKpENec=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/modelhandler/emf/Tran
+ sactionUtil.class
+SHA1-Digest: AbOAaiPW3kzpkBGiMm+XgujSclI=
+
+Name: org/eclipse/papyrus/properties/runtime/controller/CreateProperty
+ EditorControllerOperation.class
+SHA1-Digest: +OgKCdDk34bfVkTILrhe5PLTyN4=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/controller/BeanProper
+ tyEditorController.class
+SHA1-Digest: eKz3W6WVYLlUsQtaHEQq9VDPp3k=
+
+Name: org/eclipse/papyrus/properties/runtime/controller/descriptor/Nul
+ lPropertyEditorControllerDescriptorFactory.class
+SHA1-Digest: VIWFMOD0QOW6MUWoWCc02AX70dw=
+
+Name: plugin.properties
+SHA1-Digest: xQYw8TgNTihsmmY1Q627Wo5m/TQ=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/controller/descriptor
+ /NullPropertyEditorControllerDescriptorFactory.class
+SHA1-Digest: VIWFMOD0QOW6MUWoWCc02AX70dw=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/modelhandler/emf/EMFS
+ tereotypeFeatureModelHandlerState.class
+SHA1-Digest: a6RVneGn6W55f1kTKnqpyHYsCnk=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/PropertyEd
+ itorService.class
+SHA1-Digest: L79UDx8SeH+w3pQNsLGAWcj97gc=
+
+Name: org/eclipse/papyrus/properties/runtime/modelhandler/emf/IEMFMode
+ lHandler.class
+SHA1-Digest: n1vGhbRByu37EbR+ll4TUAtrrnU=
+
+Name: org/eclipse/papyrus/properties/runtime/controller/descriptor/Bea
+ nPropertyEditorControllerDescriptor.class
+SHA1-Digest: R7td88eYJ0FPr7U6IhkcJ+QmA+A=
+
+Name: org/eclipse/papyrus/properties/runtime/modelhandler/emf/EMFFeatu
+ reModelHandler.class
+SHA1-Digest: e1JtysOqKqePj9L8G3CT/g/Ghrw=
+
+Name: plugin.xml
+SHA1-Digest: s0Uoz6b4RvDpXFUZ0ileImk095A=
+
+Name: org/eclipse/papyrus/properties/runtime/controller/CreateProperty
+ EditorControllerDescriptorOperation.class
+SHA1-Digest: NvPib23IY0pV7Z7c5Q55F/KwwMI=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/view/XMLPropertyViewP
+ rovider.class
+SHA1-Digest: CWNFEyjSZld14TFc6VcZrR45Zco=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/modelhandler/emf/Ster
+ eotypeModelHandlerFactory.class
+SHA1-Digest: 7FUIWd3DzLgCmbZdl5t+jx3yMuw=
+
+Name: icons/Add.gif
+SHA1-Digest: yoxjmqMtVphUpFQAd45TKQuy8gU=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/view/AbstractConstrai
+ nedDescriptor.class
+SHA1-Digest: zRvSjNB0I8sJhMKT3E4rbFl93Yw=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/modelhandler/emf/EMFF
+ eatureModelHandler.class
+SHA1-Digest: e1JtysOqKqePj9L8G3CT/g/Ghrw=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/Simple
+ ReferencePropertyEditor$3.class
+SHA1-Digest: HMVojxs8IXh8grHdwPweg/RQnaw=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/TextPr
+ opertyEditor.class
+SHA1-Digest: SWGjYTjChWrtUC7vqD6tmIfKvtE=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/CreateProp
+ ertyEditorOperation.class
+SHA1-Digest: ZdN94F3xSuhEfDh1jHjKYhDRZYU=
+
+Name: org/eclipse/papyrus/properties/runtime/view/constraints/Constrai
+ ntDescriptorState.class
+SHA1-Digest: +k1YzxlSTh+RIB6mfrgVc8EQFCE=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/GroupedRad
+ ioBoxPropertyEditor.class
+SHA1-Digest: F+7X+JZwsLcWVfKxrEYqyYkZO9A=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/Abstra
+ ctTablePropertyEditor$2.class
+SHA1-Digest: jGRysMtU0sq84sBpankxnEg9xEE=
+
+Name: org/eclipse/papyrus/properties/runtime/view/FragmentDescriptorSt
+ ate.class
+SHA1-Digest: QzwJ9kF+wbxzLzzpjgjzDJOaHNo=
+
+Name: org/eclipse/papyrus/properties/runtime/view/IPropertyViewProvide
+ r.class
+SHA1-Digest: X3PkfHZ0TUcKs24MNBr35mabEmM=
+
+Name: org/eclipse/papyrus/properties/runtime/view/content/LayoutDescri
+ ptor.class
+SHA1-Digest: Hu6vjEUp8SaNNxL0R3jAwx0e0X4=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/view/content/LayoutDe
+ scriptorState.class
+SHA1-Digest: shB4qrxdWHC6g8ysO3TbTPmfTUE=
+
+Name: icons/PredefinedFragment.gif
+SHA1-Digest: xfmKDP1Q8MRyvYa8C5m1ikxLsZA=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/MultiplePr
+ imitiveTypedPropertyEditorValidator.class
+SHA1-Digest: 9WogsPmAj1zzijPtS9qHMuypEvI=
+
+Name: org/eclipse/papyrus/properties/runtime/view/constraints/Constrai
+ ntParser.class
+SHA1-Digest: aWMagksKX6yWNROlPKe/DZGwHS4=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/descri
+ ptor/IBoundedValuesPropertyEditorDescriptor.class
+SHA1-Digest: S/qlJVzRmqIH9PcXzuB2LDb3Zlo=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/AbstractTa
+ blePropertyEditor$6.class
+SHA1-Digest: +TFNW6xMry+EzgIMQWUXwM3Xqe8=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/view/content/Expandab
+ leContainerDescriptor$ExpandableContainerDescriptorState.class
+SHA1-Digest: LbEgHJR4lf6Ezbre2rxLRxc6Elk=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/RadioB
+ oxPropertyEditor.class
+SHA1-Digest: aVlz0/DBOxUyI72Lg3+OT+bNnMo=
+
+Name: org/eclipse/papyrus/properties/runtime/dialogs/PropertyDialog.cl
+ ass
+SHA1-Digest: 7mTOOjDPD/DHFs5aU0/RQrZWS0Q=
+
+Name: org/eclipse/papyrus/properties/runtime/state/IState.class
+SHA1-Digest: bLVCq0w1KQgemmE+j+kEwBpfmKM=
+
+Name: org/eclipse/papyrus/properties/runtime/view/PropertyViewProvider
+ Parser.class
+SHA1-Digest: ccAKM9U2kDXbLlsndXkqY4oFU9A=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/descriptor
+ /SimpleReferencePropertyEditorDescriptor.class
+SHA1-Digest: 5fWPvjqIL8+S2GH/gvpZSwiHB+0=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/modelhandler/emf/Bool
+ eanEMFModelHandlerFactory.class
+SHA1-Digest: +095uKv3cdUgneiXp+SUvzpr7dI=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/view/PropertyViewProv
+ iderParser.class
+SHA1-Digest: ccAKM9U2kDXbLlsndXkqY4oFU9A=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/controller/descriptor
+ /EMFTBindingPropertyEditorControllerDescriptorFactory.class
+SHA1-Digest: 1Mzpd3KzJu0xGEHuOtdJ9fvFI1s=
+
+Name: org/eclipse/papyrus/properties/runtime/controller/predefined/Get
+ AllPredefinedPropertyEditorControllersOperation.class
+SHA1-Digest: gViEV4ASdjhqyAU5e2+cdaJPWGw=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/view/content/LayoutPa
+ rser.class
+SHA1-Digest: 2R1uVpJuXQqmLGHY2Nf03Ctz4OU=
+
+Name: icons/Delete.gif
+SHA1-Digest: ORJe0sG1BDPf20zkd9DI+HUjfk8=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/descri
+ ptor/MultipleStructuralFeaturesPropertyEditorDescriptor.class
+SHA1-Digest: DHB8Yf4sH7xUj7nf6W+bGE+tyGk=
+
+Name: icons/Add_12x12.gif
+SHA1-Digest: l2FeR1nAFLoH4bRO9d5WXbvDFo8=
+
+Name: org/eclipse/papyrus/properties/runtime/modelhandler/IPropertyMod
+ elHandlerFactory.class
+SHA1-Digest: wjIIwMJttp2j6xXXK+2ZPK9h7/U=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/IPropertyE
+ ditorTypeValidator.class
+SHA1-Digest: YRFbjJY8fvSVA29VWbklDU7eivc=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/modelhandler/emf/Refe
+ renceEMFModelHandler.class
+SHA1-Digest: OeTLPQWePh2cJBDigNMGZOsU+bc=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/ComboPrope
+ rtyEditor$2.class
+SHA1-Digest: D/NA9s43bzzN8mF68A+wzHETG00=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/IPrope
+ rtyEditorTypeValidator.class
+SHA1-Digest: YRFbjJY8fvSVA29VWbklDU7eivc=
+
+Name: org/eclipse/papyrus/properties/runtime/modelhandler/emf/EMFStere
+ otypeFeatureModelHandler.class
+SHA1-Digest: hurh+9Ij9+l+5pnQAQ+1r1mtfFk=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/NullProper
+ tyEditorTypeValidator.class
+SHA1-Digest: 2DackKjDtQFaYrl2m3Es+/1sXCg=
+
+Name: org/eclipse/papyrus/properties/runtime/state/AbstractState.class
+SHA1-Digest: /HMcSJ8XL6XuEBL2dgNOmChM2sw=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/state/AbstractState.c
+ lass
+SHA1-Digest: /HMcSJ8XL6XuEBL2dgNOmChM2sw=
+
+Name: org/eclipse/papyrus/properties/runtime/controller/EMFTStructural
+ FeatureController.class
+SHA1-Digest: s/wgvwBbEZh2etWXFixOEE4Rtro=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/RadioBoxPr
+ opertyEditor$RadioButtonListener.class
+SHA1-Digest: fCXwWq/sI5zmcZie18rxm/AemqI=
+
+Name: org/eclipse/papyrus/properties/runtime/view/constraints/AppliedS
+ tereotypeConstraintDescriptor$AppliedStereotypeConstraintDescriptorSt
+ ate.class
+SHA1-Digest: 0C6azZQS/wKC/MrR2QdsMPfPDuk=
+
+Name: org/eclipse/papyrus/properties/runtime/controller/EMFTLabelProvi
+ derStructuralFeatureController$1.class
+SHA1-Digest: 3CgRZuHLbM52kBByrfrWeTaA8/g=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/view/content/GridLayo
+ utDescriptor.class
+SHA1-Digest: /fWvrmk4pWPkKtzk4GNnn9vnorg=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/view/content/Containe
+ rDescriptorState.class
+SHA1-Digest: PC0u1M71xd7wah8OweR3BA2NArE=
+
+Name: org/eclipse/papyrus/properties/runtime/controller/descriptor/IPr
+ opertyEditorControllerDescriptor.class
+SHA1-Digest: KqhJWCi7zqN4WEFymTHZRiAsh4U=
+
+Name: org/eclipse/papyrus/properties/runtime/view/content/ExpandableCo
+ ntainerDescriptor.class
+SHA1-Digest: M/0TFz+4BavUbjnZ04njDFiez70=
+
+Name: org/eclipse/papyrus/properties/runtime/messages.properties
+SHA1-Digest: TPFxhYohsvUUkKMDfv2Sf9/2AT8=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/descri
+ ptor/PropertyEditorDescriptorFactory.class
+SHA1-Digest: 6tReWzbQYrGKABNjZ6KxBJDvIvw=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/Messages.class
+SHA1-Digest: XG83q4cvhnrJiiKiTXbOdLSmHjQ=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/Create
+ PropertyEditorDescriptorOperation.class
+SHA1-Digest: O4uRXN3el3o07BZ+imKkoFZvTCA=
+
+Name: icons/BeanController.gif
+SHA1-Digest: dqwdtyZ54C7LEVYmh/2TM98NJ0U=
+
+Name: org/eclipse/papyrus/properties/runtime/controller/EMFTEReference
+ Controller$1.class
+SHA1-Digest: YNycZxPAHPNVph+bQylpAt2G8ig=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/descriptor
+ /MultipleReferencePropertyEditorDescriptor.class
+SHA1-Digest: HOIrfg6VKLU0g7QO6VcD15ltoAY=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/TextPr
+ opertyEditorValidator.class
+SHA1-Digest: hg9+XO42y3JC+njSUHa7vlRYp1g=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/descri
+ ptor/RadioBoxPropertyEditorDescriptorFactory.class
+SHA1-Digest: 1V0RGVZu1feT1nUCheMavqqHfyk=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/descri
+ ptor/MultipleReferencePropertyEditorDescriptor.class
+SHA1-Digest: HOIrfg6VKLU0g7QO6VcD15ltoAY=
+
+Name: org/eclipse/papyrus/properties/runtime/modelhandler/emf/EMFFeatu
+ reModelHandlerState.class
+SHA1-Digest: L/0iHsZAWTLatH0fVJuW2jJVDKU=
+
+Name: org/eclipse/papyrus/properties/runtime/controller/descriptor/IBi
+ ndingLabelProviderDescriptor.class
+SHA1-Digest: kJUNSH4z13DiIzkDvUaVZUl/66A=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/Simple
+ ReferencePropertyEditorValidator.class
+SHA1-Digest: 0Lnlmlmm11xR4i9/vKYNOqUl65M=
+
+Name: org/eclipse/papyrus/properties/runtime/modelhandler/emf/Enumerat
+ ionStereotypeModelHandlerFactory.class
+SHA1-Digest: Cz/QTPxWFugquqC5vb+6UOklKQE=
+
+Name: org/eclipse/papyrus/properties/runtime/view/content/GroupContain
+ erDescriptor.class
+SHA1-Digest: FisIHo3k9EI6NY5l11+Ox60zCAo=
+
+Name: org/eclipse/papyrus/properties/runtime/modelhandler/emf/EMFUtils
+ .class
+SHA1-Digest: sxotOky4jQi6Z099TDeJZDi//Xo=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/Simple
+ ReferencePropertyEditor$2.class
+SHA1-Digest: fS0h6WqxqRCkzM2avnSrvF6vo9Q=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/descriptor
+ /RadioBoxPropertyEditorDescriptor.class
+SHA1-Digest: E+cpVMYXnRJb9V30wZQ/hqujsUI=
+
+Name: org/eclipse/papyrus/properties/runtime/modelhandler/emf/Enumerat
+ ionStereotypeModelHandler.class
+SHA1-Digest: Vv7JN5bT3QyEIV+HYQnh/0mlIP0=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/descriptor
+ /ComboPropertyEditorDescriptor.class
+SHA1-Digest: v/mDedIaAYPUcOItrGlWaMx3a7g=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/state/IFragmentDescri
+ ptorState.class
+SHA1-Digest: 9dnVutnQZch7KkjMS9VPYeqXvAM=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/controller/EMFPropert
+ yEditorController.class
+SHA1-Digest: PRUDG6znnPPpxXsZoR/ZGk1hJ8E=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/ComboPrope
+ rtyEditor.class
+SHA1-Digest: o6Clj0zPlvBGXyT44GfGbw9MtZk=
+
+Name: org/eclipse/papyrus/properties/runtime/controller/PropertyEditor
+ ControllerConfiguration.class
+SHA1-Digest: 5sFWl1veT2Qrlwpm+Gw+cLw/67E=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/descri
+ ptor/ComboPropertyEditorDescriptor.class
+SHA1-Digest: v/mDedIaAYPUcOItrGlWaMx3a7g=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/Abstra
+ ctTablePropertyEditor$1.class
+SHA1-Digest: LmG7WqeHPEza38ElZfhzsXFisgs=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/modelhandler/emf/Stri
+ ngEMFModelHandler.class
+SHA1-Digest: SwzbgB9Tf+CaqjBI3bPY2gXCGXg=
+
+Name: org/eclipse/papyrus/properties/runtime/modelhandler/emf/Enumerat
+ ionStereotypeModelHandler$CreateEnumerationStereotypeValueOperation.c
+ lass
+SHA1-Digest: H07zX/CPetQnlvjKjyMN58kk7YU=
+
+Name: org/eclipse/papyrus/properties/runtime/view/content/AbstractCont
+ ainerDescriptor.class
+SHA1-Digest: dzS+W9TUF8qLKONV9o7RpmBfkjA=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/modelhandler/emf/Refe
+ renceEMFModelHandlerFactory.class
+SHA1-Digest: 4tuDYsWKU9ja52KptD9CYKpENec=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/AbstractTa
+ blePropertyEditor$5.class
+SHA1-Digest: MTgSYmmANPaFX3ByKyq8ZSjufQo=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/controller/EMFTBindin
+ gEReferenceController.class
+SHA1-Digest: 5pPCGOY6Rjh7Hquywf7EIw3Wkik=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/controller/EMFTProper
+ tyEditorController$EMFTControllerCommand.class
+SHA1-Digest: NPemSdAwb3zOxhCffBr16m06peU=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/view/DialogDescriptor
+ .class
+SHA1-Digest: fhapK7vUc9RysFRl0ER9iCctXkw=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/Proper
+ tyEditorService.class
+SHA1-Digest: L79UDx8SeH+w3pQNsLGAWcj97gc=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/view/XMLParseExceptio
+ n.class
+SHA1-Digest: 8SzcCJMH5X9IlSapp0ZPlchXFtk=
+
+Name: org/eclipse/papyrus/properties/runtime/controller/descriptor/IPr
+ opertyEditorControllerDescriptorFactory.class
+SHA1-Digest: zYzCXP3gMaUNA+GrsjEmccDVrCg=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/controller/descriptor
+ /BeanPropertyEditorControllerDescriptor.class
+SHA1-Digest: R7td88eYJ0FPr7U6IhkcJ+QmA+A=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/controller/CreateProp
+ ertyEditorControllerDescriptorOperation.class
+SHA1-Digest: NvPib23IY0pV7Z7c5Q55F/KwwMI=
+
+Name: org/eclipse/papyrus/properties/runtime/modelhandler/emf/EMFStere
+ otypeFeatureModelHandlerState.class
+SHA1-Digest: a6RVneGn6W55f1kTKnqpyHYsCnk=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/SimpleRefe
+ rencePropertyEditor.class
+SHA1-Digest: 3npepg9w2vmfrE5XQ2gpk411BRg=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/Create
+ PropertyEditorOperation.class
+SHA1-Digest: ZdN94F3xSuhEfDh1jHjKYhDRZYU=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/controller/predefined
+ /PredefinedPropertyControllerProvider.class
+SHA1-Digest: Nf+P7ZICayo+J8dsqCXji8iVbPw=
+
+Name: org/eclipse/papyrus/properties/runtime/modelhandler/emf/Stereoty
+ peModelHandlerFactory.class
+SHA1-Digest: 7FUIWd3DzLgCmbZdl5t+jx3yMuw=
+
+Name: org/eclipse/papyrus/properties/runtime/controller/EMFTPropertyEd
+ itorController.class
+SHA1-Digest: NP+uFWa47sWnBCYB4xegBo3ubbA=
+
+Name: org/eclipse/papyrus/properties/runtime/view/AbstractConstrainedD
+ escriptor.class
+SHA1-Digest: zRvSjNB0I8sJhMKT3E4rbFl93Yw=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/Groupe
+ dRadioBoxPropertyEditor.class
+SHA1-Digest: F+7X+JZwsLcWVfKxrEYqyYkZO9A=
+
+Name: icons/Down.gif
+SHA1-Digest: RQXpLCwGwO2SKbD5h5J894Eotis=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/modelhandler/emf/Stri
+ ngStereotypeModelHandler.class
+SHA1-Digest: dZhvSqb8domgpTe700gjESKV9Ro=
+
+Name: schema/propertyModelHandler.exsd
+SHA1-Digest: HswIaHv6QQJmmtMsvsi/0PqPwdQ=
+
+Name: org/eclipse/papyrus/properties/runtime/propertyeditor/SimpleRefe
+ rencePropertyEditor$3.class
+SHA1-Digest: HMVojxs8IXh8grHdwPweg/RQnaw=
+
+Name: org/eclipse/papyrus/properties/runtime/controller/predefined/Cre
+ atePredefinedPropertyControllerProviderOperation.class
+SHA1-Digest: Mo35ShwFjE3fFdFffV8UQYwVgoA=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/view/FragmentDescript
+ orState.class
+SHA1-Digest: QzwJ9kF+wbxzLzzpjgjzDJOaHNo=
+
+Name: resources/predefined_controllers.xml
+SHA1-Digest: 2D18igJ3VSZabI03etM/DwbHH9s=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/controller/EMFTProper
+ tyEditorController.class
+SHA1-Digest: NP+uFWa47sWnBCYB4xegBo3ubbA=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/Multip
+ lePrimitiveTypedPropertyEditorValidator.class
+SHA1-Digest: 9WogsPmAj1zzijPtS9qHMuypEvI=
+
+Name: bin/org/eclipse/papyrus/properties/runtime/propertyeditor/Abstra
+ ctTablePropertyEditor$6.class
+SHA1-Digest: +TFNW6xMry+EzgIMQWUXwM3Xqe8=
+
+Name: org/eclipse/papyrus/properties/runtime/modelhandler/emf/StringEM
+ FModelHandlerFactory.class
+SHA1-Digest: r4FO1TW3lZgorDszOpJ7cav+XT4=
+
+Name: icons/Up_12x12.gif
+SHA1-Digest: FhCTSlwiishTu7WF9m96rlFL9v4=
+

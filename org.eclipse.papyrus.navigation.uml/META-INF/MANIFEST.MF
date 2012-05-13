@@ -1,0 +1,95 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.7.1
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-Name: %pluginName
+Bundle-SymbolicName: org.eclipse.papyrus.navigation.uml;singleton:=tru
+ e
+Require-Bundle: org.eclipse.papyrus.navigation;bundle-version="0.8.0",
+ org.eclipse.uml2.uml;bundle-version="[3.2.0,4.0.0)",org.eclipse.papyr
+ us.umlutils;bundle-version="[0.8.0,1.0.0)"
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-Version: 0.8.0.v201106151827
+Export-Package: org.eclipse.papyrus.navigation.uml
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/papyrus/navigation/uml/UMLNavigationColorProvider.cl
+ ass
+SHA1-Digest: QeotWg8POCxYAXc3GJOz+lou15Y=
+
+Name: org/eclipse/papyrus/navigation/uml/PackageRule.class
+SHA1-Digest: 33IPM6xAAlWyPakW2AmUnhYwzp0=
+
+Name: org/eclipse/papyrus/navigation/uml/BehavioredClassifierRule.clas
+ s
+SHA1-Digest: DMVApDHZ9avvH5WjlqCBYhvutSM=
+
+Name: org/eclipse/papyrus/navigation/uml/UMLNavigationHelper$1.class
+SHA1-Digest: u/ukn7hwBB5NJC0DDxL7j9rUtFs=
+
+Name: org/eclipse/papyrus/navigation/uml/StateRule.class
+SHA1-Digest: zyicxJa+KR9mDCb0JDX7IeKbruY=
+
+Name: plugin.properties
+SHA1-Digest: L/vjLt0E/Bd+aK4cGxPRSnkE5VM=
+
+Name: org/eclipse/papyrus/navigation/uml/PackageRule$1.class
+SHA1-Digest: dwyjUSxN+2s/wPKh+2P7V0xSTHI=
+
+Name: org/eclipse/papyrus/navigation/uml/BehavioredClassifierRule$1.cl
+ ass
+SHA1-Digest: d+AnAmdg7bi4WICBEt3V0QrZSCg=
+
+Name: org/eclipse/papyrus/navigation/uml/PackageRule$2.class
+SHA1-Digest: QaL2oAwPYgbzBSBPHNNcC9QRSGU=
+
+Name: org/eclipse/papyrus/navigation/uml/BehavioredClassifierRule$2.cl
+ ass
+SHA1-Digest: pB1f3LJr7iGPjfsYMUjLAmJ8zkI=
+
+Name: org/eclipse/papyrus/navigation/uml/StateRule$1.class
+SHA1-Digest: 9z4BLSJxyaSNzO1472Pl1fyWlg4=
+
+Name: org/eclipse/papyrus/navigation/uml/StateRule$2.class
+SHA1-Digest: qRXVBauGOPp0n6l89LcJ0vCm8Dk=
+
+Name: plugin.xml
+SHA1-Digest: BrDlSSG3Zu6NdXpRZ+JgdbZteHk=
+
+Name: org/eclipse/papyrus/navigation/uml/StateRule$3.class
+SHA1-Digest: OOVJ25ivbGSnySWJavRmnz00tCo=
+
+Name: org/eclipse/papyrus/navigation/uml/CBARule.class
+SHA1-Digest: YiC7+tddPv3XxtWww2i1dfyTgCw=
+
+Name: org/eclipse/papyrus/navigation/uml/UMLRuleHelper.class
+SHA1-Digest: tAbA9ROk4POB/dvVYnGDvx8XPu0=
+
+Name: org/eclipse/papyrus/navigation/uml/OperationRule.class
+SHA1-Digest: rng9n7FHfjEbabvPkrmDQlfT4wY=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/papyrus/navigation/uml/TransitionRule.class
+SHA1-Digest: Uqok8HZnCUQg666MhET2e4oZXRo=
+
+Name: org/eclipse/papyrus/navigation/uml/CBARule$1.class
+SHA1-Digest: pqa38KQ8J7RczpGssJcg2pKRCAo=
+
+Name: about.html
+SHA1-Digest: a2Fk5/pDnCvlEfl7QwDZj/FCgFc=
+
+Name: org/eclipse/papyrus/navigation/uml/UMLBaseNameSetter.class
+SHA1-Digest: m3+Yy22UWb06lHOevZCBLwNFVnA=
+
+Name: org/eclipse/papyrus/navigation/uml/OperationRule$1.class
+SHA1-Digest: mc+TA0DWXzc/u+CFFjAvV4Ybc38=
+
+Name: org/eclipse/papyrus/navigation/uml/TransitionRule$1.class
+SHA1-Digest: E1VVoH7fXBmH9dy69OlgUsU2mRk=
+
+Name: org/eclipse/papyrus/navigation/uml/UMLNavigationHelper.class
+SHA1-Digest: Gv/2o6bZ9VVq7w3F4H4Mc8GMbjg=
+

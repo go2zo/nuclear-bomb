@@ -1,0 +1,514 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.papyrus.modelexplorer;singleton:=true
+Require-Bundle: org.eclipse.ui;bundle-version="[3.7.0,4.0.0)",org.ecli
+ pse.core.runtime;bundle-version="[3.7.0,4.0.0)",org.eclipse.ui.naviga
+ tor;bundle-version="3.4.0",org.eclipse.papyrus.core;bundle-version="0
+ .8.0";visibility:="reexport",org.eclipse.papyrus.log;bundle-version="
+ 0.8.0",org.eclipse.emf.converter;bundle-version="2.5.0",org.eclipse.p
+ apyrus.preferences;bundle-version="0.8.0",org.eclipse.papyrus.sashedi
+ tor.di;bundle-version="0.8.0",org.eclipse.ltk.core.refactoring;bundle
+ -version="3.5.100",org.eclipse.emf.ecore.editor;bundle-version="2.6.0
+ ",org.eclipse.emf.workspace.ui;bundle-version="1.3.0",org.eclipse.cor
+ e.expressions;bundle-version="3.4.200",org.eclipse.papyrus.service.ed
+ it;bundle-version="0.8.0",org.eclipse.papyrus.validation;bundle-versi
+ on="0.8.0",org.eclipse.emf.facet.infra.browser;bundle-version="0.1.0"
+ ,org.eclipse.emf.facet.infra.browser.custom;bundle-version="0.1.0",or
+ g.eclipse.emf.facet.infra.browser.custom.core;bundle-version="0.1.0",
+ org.eclipse.emf.facet.infra.browser.custom.ui;bundle-version="0.1.0",
+ org.eclipse.emf.facet.infra.browser.uicore;bundle-version="0.1.0",org
+ .eclipse.emf.facet.infra.common.core;bundle-version="0.1.0",org.eclip
+ se.emf.facet.infra.facet;bundle-version="0.1.0",org.eclipse.emf.facet
+ .infra.facet.core;bundle-version="0.1.0",org.eclipse.emf.facet.infra.
+ query.ui;bundle-version="0.1.0",org.eclipse.papyrus.ui.toolbox;bundle
+ -version="0.8.0"
+Bundle-Activator: org.eclipse.papyrus.modelexplorer.Activator
+Bundle-Version: 0.8.0.v201106151827
+Export-Package: org.eclipse.papyrus.core.ui.pagebookview,org.eclipse.p
+ apyrus.modelexplorer,org.eclipse.papyrus.modelexplorer.actionprovider
+ ,org.eclipse.papyrus.modelexplorer.actions,org.eclipse.papyrus.modele
+ xplorer.commands,org.eclipse.papyrus.modelexplorer.dialog,org.eclipse
+ .papyrus.modelexplorer.dnd,org.eclipse.papyrus.modelexplorer.factory,
+ org.eclipse.papyrus.modelexplorer.handler,org.eclipse.papyrus.modelex
+ plorer.preferences
+Ant-Version: Apache Ant 1.7.1
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/papyrus/modelexplorer/handler/DeleteDiagramHandler.c
+ lass
+SHA1-Digest: 53E+raPjaFPezR3W50eR8DyKsJk=
+
+Name: org/eclipse/papyrus/modelexplorer/messages/messages.properties
+SHA1-Digest: mKQtK6+pdot1U+XETPZCVIxs6hg=
+
+Name: org/eclipse/papyrus/modelexplorer/actionprovider/GenericTransfor
+ mActionProvider$1.class
+SHA1-Digest: 8T6PdWPyrYKMi9ohk/EgcjYB+uc=
+
+Name: org/eclipse/papyrus/modelexplorer/actionprovider/EditingDomainAc
+ tionProvider$ActionProperties.class
+SHA1-Digest: zQUNxzu3LjmIdxL0fLi7kiJ1EHM=
+
+Name: org/eclipse/papyrus/core/ui/pagebookview/ViewPartPage.class
+SHA1-Digest: tFy7BMwxDlNHhBGzaenqoRT0TWM=
+
+Name: org/eclipse/papyrus/modelexplorer/commands/EObjectInheritanceCop
+ yCommand$CustomSetCommand.class
+SHA1-Digest: E1D3jsxgCbW7xgrYMToTHdctrCE=
+
+Name: org/eclipse/papyrus/modelexplorer/listener/DoubleClickListener.c
+ lass
+SHA1-Digest: i88pVCOaW8WckJG9k1WcKd0tF14=
+
+Name: org/eclipse/papyrus/modelexplorer/actions/DeleteDiagramAction$1.
+ class
+SHA1-Digest: MDKbkCAMjteCB7nTbP6JM603/Kk=
+
+Name: org/eclipse/papyrus/modelexplorer/actions/RenameDiagramAction.cl
+ ass
+SHA1-Digest: nVi3ZjlnPofp9jDj7qBm/EAxRSU=
+
+Name: icons/etool16/close.png
+SHA1-Digest: UyCz9HGaLBn70Guudb0wI7dOPlA=
+
+Name: org/eclipse/papyrus/modelexplorer/provider/ActionStateSourceProv
+ ider$1.class
+SHA1-Digest: Akak08BnkxRnL3XFmTjZeJCddvY=
+
+Name: org/eclipse/papyrus/modelexplorer/actionprovider/AbstractCommonA
+ ctionProvider.class
+SHA1-Digest: gaUns1iPHzDi8K29AX33ii52iiU=
+
+Name: org/eclipse/papyrus/modelexplorer/MoDiscoLabelProvider$1.class
+SHA1-Digest: LCXR+KIf6a30DDROWmBo06yt8+s=
+
+Name: org/eclipse/papyrus/modelexplorer/handler/RenameDiagramHandler.c
+ lass
+SHA1-Digest: zISrrVLIKCEJLOJz7BxxKLp9jIM=
+
+Name: org/eclipse/papyrus/modelexplorer/provider/ActionStateSourceProv
+ ider$PartListener.class
+SHA1-Digest: s0vfWaSn26tTZbCLx50ETBXDQu4=
+
+Name: org/eclipse/papyrus/modelexplorer/handler/ValidateDelMarkersFrom
+ SubtreeHandler.class
+SHA1-Digest: bhOGxg3LFYaO71QIJRnSwFOslqk=
+
+Name: org/eclipse/papyrus/modelexplorer/actionprovider/CreateChildActi
+ onProvider.class
+SHA1-Digest: 2LBpUQ+WwvYlSzdjZ8eFYny6pdg=
+
+Name: org/eclipse/papyrus/modelexplorer/LinkHelper.class
+SHA1-Digest: BF8XRHBuc7wc+46Ukwah/8AmcGw=
+
+Name: org/eclipse/papyrus/modelexplorer/commands/EObjectInheritanceCop
+ yCommand.class
+SHA1-Digest: tkKXqVNGpfgRn7f8mSkM/7rfGig=
+
+Name: org/eclipse/papyrus/modelexplorer/Activator.class
+SHA1-Digest: e6pep8Vuz/gxkzcGyf0KnMXXxxM=
+
+Name: org/eclipse/papyrus/modelexplorer/factory/DefaultEMFActionsFacto
+ ry.class
+SHA1-Digest: 0ktUoe72R66Ss4RGjzKe/HQqzJo=
+
+Name: org/eclipse/papyrus/modelexplorer/commands/EObjectInheritanceCop
+ yCommand$CustomAddCommand.class
+SHA1-Digest: OH3td6IStUNmEjM5fGIUEmIF0R0=
+
+Name: org/eclipse/papyrus/modelexplorer/dialog/NavigatorSearchDialog$4
+ .class
+SHA1-Digest: j5t1YiqFFmx8zlyKHvLpIEOQbCg=
+
+Name: org/eclipse/papyrus/modelexplorer/actions/CloseAllDiagramsAction
+ .class
+SHA1-Digest: cEUfpqEd2IsZjzARAZBL9oK07Zw=
+
+Name: org/eclipse/papyrus/modelexplorer/handler/ValidateDelMarkersFrom
+ ModelHandler.class
+SHA1-Digest: qOsAHa+y7WDWURyiW0VwDPYZMn4=
+
+Name: org/eclipse/papyrus/core/ui/pagebookview/CorePage.class
+SHA1-Digest: AzO8FnQVAzCeq4V1Ovs+cQIfbWE=
+
+Name: org/eclipse/papyrus/modelexplorer/ModelExplorerView$3.class
+SHA1-Digest: ERNupeiVHIwZAzmY9g+4IedWzWA=
+
+Name: org/eclipse/papyrus/modelexplorer/preferences/NavigatorPreferenc
+ ePage.class
+SHA1-Digest: Ud1chp3E3pwRlk7t5r4m0ZcRCXk=
+
+Name: org/eclipse/papyrus/modelexplorer/actions/OpenDiagramAction.clas
+ s
+SHA1-Digest: 3GrHE+vzLaUCWffYxwC4ZzXzfxI=
+
+Name: org/eclipse/papyrus/modelexplorer/provider/ActionStateSourceProv
+ ider.class
+SHA1-Digest: vbtgSqQtRGftVlRSr5gaQdlWxEk=
+
+Name: org/eclipse/papyrus/modelexplorer/actions/GenericTransformer$Imp
+ orterCommand.class
+SHA1-Digest: hZai8vDb5RjjnzTe1y0WFLJpevY=
+
+Name: org/eclipse/papyrus/core/ui/pagebookview/MultiViewPageBookView.c
+ lass
+SHA1-Digest: TQg28tWQVKX/aqfjN5P9FRwuV+I=
+
+Name: org/eclipse/papyrus/modelexplorer/MoDiscoLabelProvider.class
+SHA1-Digest: L7fM2vJvZeKBRKgwOUo1RtAO/Fc=
+
+Name: org/eclipse/papyrus/modelexplorer/CustomCommonViewer.class
+SHA1-Digest: uLrHw+J4hYEF3GqnqkKsaPZ5Gk0=
+
+Name: org/eclipse/papyrus/modelexplorer/actions/DuplicateDiagramAction
+ .class
+SHA1-Digest: nfPb6MsaC90+TofRBm5+iblho88=
+
+Name: icons/etool16/validate.gif
+SHA1-Digest: YiEtqjdpFBxEcxWtqTeMfz5x5qM=
+
+Name: org/eclipse/papyrus/modelexplorer/MoDiscoContentProvider.class
+SHA1-Digest: b80P1H/IZ+UJtOm426c62DIwqow=
+
+Name: org/eclipse/papyrus/modelexplorer/handler/DeleteDiagramHandler$1
+ .class
+SHA1-Digest: mwz8955PpNLkLfVLfy7sc5OB7Mk=
+
+Name: org/eclipse/papyrus/modelexplorer/provider/ActionStateSourceProv
+ ider$2.class
+SHA1-Digest: uc7rCMUnhHeXjcTKf5rV64jBstM=
+
+Name: org/eclipse/papyrus/modelexplorer/actions/ExecuteQueryAction.cla
+ ss
+SHA1-Digest: QUT6osrBFP+iCKj+XMSFLkNkQAk=
+
+Name: org/eclipse/papyrus/modelexplorer/actionprovider/EditingDomainAc
+ tionProvider.class
+SHA1-Digest: T8iRZJcSvj/gqPf4230lvT6SKGg=
+
+Name: org/eclipse/papyrus/modelexplorer/handler/UndoHandler.class
+SHA1-Digest: tTGkZftadDDk2B8zKVWFakYH7SM=
+
+Name: org/eclipse/papyrus/modelexplorer/actions/DuplicateDiagramAction
+ $1.class
+SHA1-Digest: oY6njELL/Oc4J478L9N5cGS6z5Y=
+
+Name: org/eclipse/papyrus/modelexplorer/actions/RenameDiagramAction$1.
+ class
+SHA1-Digest: 7OekFzO/zJ3mBgIBYkmige3FN7w=
+
+Name: org/eclipse/papyrus/modelexplorer/dialog/NavigatorSearchDialog.c
+ lass
+SHA1-Digest: /yvP3XTzqp87T8zOQl4mX6MhOOg=
+
+Name: icons/etool16/search.gif
+SHA1-Digest: K7M97iKVc95jsEYlnA4TRKLyoSU=
+
+Name: org/eclipse/papyrus/core/ui/pagebookview/ViewPageSite.class
+SHA1-Digest: N4GgU/AKdI5d5+r/MNE4sWeGbSE=
+
+Name: org/eclipse/papyrus/modelexplorer/ModelExplorerView.class
+SHA1-Digest: Pl7t1/2Vk57/49d7pTKVXekAv9M=
+
+Name: org/eclipse/papyrus/modelexplorer/handler/CopyHandler.class
+SHA1-Digest: 2QaHlq3/X5fC7kCU08aKuDv394U=
+
+Name: org/eclipse/papyrus/modelexplorer/actionprovider/CreateChildActi
+ onProvider$1.class
+SHA1-Digest: 9RNAL+H559P1UykfvdQGx6RbibE=
+
+Name: org/eclipse/papyrus/modelexplorer/dialog/NavigatorSearchDialog$1
+ .class
+SHA1-Digest: M54O2bI8hFitUlbYWEu3uiJBvIA=
+
+Name: about.html
+SHA1-Digest: INBopOQiELASMNzeqt0bQiHmDZk=
+
+Name: org/eclipse/papyrus/modelexplorer/handler/GMFtoEMFCommandWrapper
+ .class
+SHA1-Digest: Hsjn+4V1EUYiKVYICoZ43v/g14A=
+
+Name: org/eclipse/papyrus/modelexplorer/actions/GenericTransformer$Vie
+ wTransformerHelper.class
+SHA1-Digest: AptCEVIsrzYUVUD/H5gLaF/JPF4=
+
+Name: org/eclipse/papyrus/modelexplorer/actionprovider/DiagramActionPr
+ ovider.class
+SHA1-Digest: 8TmjlLZ+1voPmqMTnoRJ9xcaIaM=
+
+Name: org/eclipse/papyrus/modelexplorer/ModelExplorerView$4.class
+SHA1-Digest: RHhGXiXfByPq1OoEspqnjUKrEzA=
+
+Name: org/eclipse/papyrus/modelexplorer/handler/DuplicateDiagramHandle
+ r.class
+SHA1-Digest: dW87H/CoTXEr6sTHpYCBlXsJNNM=
+
+Name: org/eclipse/papyrus/modelexplorer/ITooltip.class
+SHA1-Digest: v23SsYcYkfaWuyRgRQexe9ZF7kU=
+
+Name: org/eclipse/papyrus/modelexplorer/NavigatorUtils.class
+SHA1-Digest: dbxQsGPXcMV7eev1XuauIgs9BsQ=
+
+Name: icons/etool16/forward.gif
+SHA1-Digest: lmLlDPE2WjVohevt+GNU13MFL5w=
+
+Name: org/eclipse/papyrus/modelexplorer/actionprovider/GenericTransfor
+ mActionProvider.class
+SHA1-Digest: dEFBHSgU2Rw1Azn9NQdTkPUOW3U=
+
+Name: org/eclipse/papyrus/modelexplorer/handler/RedoHandler.class
+SHA1-Digest: 0Yolsx1PsHhAp8+c3WoYxWokx7s=
+
+Name: icons/etool16/arrow_double.gif
+SHA1-Digest: besxvPoqe/Y8kNJymXV8q7+djTk=
+
+Name: org/eclipse/papyrus/modelexplorer/commands/ValidateSubtreeComman
+ d.class
+SHA1-Digest: /f0XD/MjY7R6TR4LZEfGTmGiPzg=
+
+Name: org/eclipse/papyrus/modelexplorer/messages.properties
+SHA1-Digest: fhrFzeAwROwO1sHVogqaqQMzcic=
+
+Name: org/eclipse/papyrus/modelexplorer/actions/DeleteDiagramAction.cl
+ ass
+SHA1-Digest: uiHNR6MFeNevMqV9ZmlK9ng7DD4=
+
+Name: org/eclipse/papyrus/modelexplorer/commands/AbstractValidateComma
+ nd$1$1.class
+SHA1-Digest: j03vsbChsR9M9OskdZ3hviR3L1Y=
+
+Name: org/eclipse/papyrus/modelexplorer/handler/AbstractCommandHandler
+ .class
+SHA1-Digest: BS3xV4CwH7yHJEVq1kVqWSooo00=
+
+Name: org/eclipse/papyrus/modelexplorer/preferences/NavigatorPreferenc
+ eInitializer.class
+SHA1-Digest: 3m+1rxeXecV/KItpGCZz2Lm+HEk=
+
+Name: org/eclipse/papyrus/modelexplorer/handler/SelectAndValidateModel
+ Handler.class
+SHA1-Digest: R/ipNqwPsYqgVqaonvwNrkJg83g=
+
+Name: org/eclipse/papyrus/modelexplorer/messages/Messages.class
+SHA1-Digest: 4cDbHahyI6jnMs7ZNu1rk+LOeEY=
+
+Name: org/eclipse/papyrus/modelexplorer/actions/PasteShapeOrElementAct
+ ion.class
+SHA1-Digest: JtLn3+eEl7OgAvWDyZ7BovPhlpY=
+
+Name: icons/ModelExplorer.gif
+SHA1-Digest: 0oDtpxAd0Xw54IlYKCav1LRU560=
+
+Name: org/eclipse/papyrus/modelexplorer/handler/DeleteCommandHandler.c
+ lass
+SHA1-Digest: EL9xjYTzbDLdQ/7HQmsnoVNecNE=
+
+Name: org/eclipse/papyrus/modelexplorer/actions/CreateDiagramAction.cl
+ ass
+SHA1-Digest: I6cL2suGwn5+Aa0o6MQeqUk1D6w=
+
+Name: org/eclipse/papyrus/modelexplorer/actionprovider/CreateDiagramAc
+ tionProvider.class
+SHA1-Digest: cUdojUfmidGKBITPnR0Pgl1dZPo=
+
+Name: org/eclipse/papyrus/modelexplorer/commands/ValidateModelCommand.
+ class
+SHA1-Digest: 59ipHL17PGHawl0nGeDRYtLTB0Y=
+
+Name: icons/etool16/validateSel.gif
+SHA1-Digest: 44ujaWK1CDf8rAIC2Hlsp4Weib0=
+
+Name: schema/org.eclipse.papyrus.modelexplorer.actionHandler.exsd
+SHA1-Digest: KGK2BhpH2/1BjsbvUqvlNj4NrPk=
+
+Name: org/eclipse/papyrus/modelexplorer/preferences/TransformCommandSh
+ owPopupDialogGroup.class
+SHA1-Digest: 8Vma3PpU4J1ELirKds8WpLZAc4A=
+
+Name: org/eclipse/papyrus/modelexplorer/ModelExplorerPageBookView.clas
+ s
+SHA1-Digest: I9S5JeHr+XBt7hiV1HMtuwg1fDA=
+
+Name: icons/etool16/duplicate.png
+SHA1-Digest: wQv8MojssTcNIdl+KQapUOKyX4Q=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/papyrus/modelexplorer/handler/RenameDiagramHandler$1
+ .class
+SHA1-Digest: MlrKYGb9TO5+btVaBtsgcYZU/NU=
+
+Name: org/eclipse/papyrus/modelexplorer/actionprovider/EditingDomainAc
+ tionProvider$1.class
+SHA1-Digest: klVolHSii76/wIMQVYlslaHbMto=
+
+Name: icons/etool16/closeAll.png
+SHA1-Digest: h/LIF4Mi3ukXRBZXfR1g6XSXz5A=
+
+Name: org/eclipse/papyrus/modelexplorer/preferences/INavigatorPreferen
+ ceConstants.class
+SHA1-Digest: iD8iko9AYZDwWVqOCS8t6A5XEEk=
+
+Name: org/eclipse/papyrus/modelexplorer/provider/PropertyTester.class
+SHA1-Digest: 0L84wMhOA6t88ZHFxv4YyO7Rqo8=
+
+Name: org/eclipse/papyrus/modelexplorer/commands/AbstractValidateComma
+ nd.class
+SHA1-Digest: Me6MZLWMb4wygoD6T+EntDdc6pE=
+
+Name: org/eclipse/papyrus/modelexplorer/handler/CutHandler.class
+SHA1-Digest: pvAI6UwaoJ1iHlt0pmt9lBEh7uw=
+
+Name: org/eclipse/papyrus/modelexplorer/dialog/NavigatorSearchDialog$2
+ .class
+SHA1-Digest: fONbt+2adqToEEMk/sgmm6j5fFk=
+
+Name: org/eclipse/papyrus/modelexplorer/SemanticFromModelExplorer.clas
+ s
+SHA1-Digest: 52bJvUIu1AZsiKdLDA9GY/h9PKA=
+
+Name: org/eclipse/papyrus/modelexplorer/handler/SelectAndValidateSubtr
+ eeHandler.class
+SHA1-Digest: FoLzC2utfAipenCGexUF2kYjAP4=
+
+Name: org/eclipse/papyrus/modelexplorer/ModelExplorerView$1.class
+SHA1-Digest: Um/ReUiLLu22MoVWxAOI2wjaeCo=
+
+Name: org/eclipse/papyrus/modelexplorer/handler/OpenHandler.class
+SHA1-Digest: 76XYIClVVdjX5UxpYISqd2FhalA=
+
+Name: org/eclipse/papyrus/modelexplorer/handler/CloseHandler.class
+SHA1-Digest: 4d0UaVu2AE+q8tKmhGgOpTiEeBM=
+
+Name: org/eclipse/papyrus/modelexplorer/commands/AbstractValidateComma
+ nd$1.class
+SHA1-Digest: o/NLBlPertXXEoEApzqz3LJ2ucw=
+
+Name: org/eclipse/papyrus/modelexplorer/actionprovider/AbstractSubmenu
+ ActionProvider.class
+SHA1-Digest: Fh4HPKiVf1iwTSnVVmlwhNg/PdQ=
+
+Name: org/eclipse/papyrus/core/ui/pagebookview/DefaultPage.class
+SHA1-Digest: oeShl3f7dLco9+MgG3kuNvNBe9M=
+
+Name: org/eclipse/papyrus/modelexplorer/actions/CloseDiagramAction.cla
+ ss
+SHA1-Digest: DNQ6QUNFUExT02usIMczZOsRCak=
+
+Name: org/eclipse/papyrus/modelexplorer/handler/DuplicateDiagramHandle
+ r$1.class
+SHA1-Digest: gE9yu1DLmoSjtGHmkwuy1QFU4AY=
+
+Name: org/eclipse/papyrus/modelexplorer/handler/ValidateSubtreeHandler
+ .class
+SHA1-Digest: uBVr3e46/UWrC3zE9aFSrAHE5TI=
+
+Name: org/eclipse/papyrus/modelexplorer/actions/CreateQueryAction.clas
+ s
+SHA1-Digest: TSUf34poDBuOnzRP09OFS9MG50s=
+
+Name: org/eclipse/papyrus/modelexplorer/commands/SelectAndValidateMode
+ lCommand.class
+SHA1-Digest: F5+KiwKWljPSwXLsT/iJjqMnUP0=
+
+Name: plugin.properties
+SHA1-Digest: 4ZEqtdIGsWmy63w23+Oq2/nhig4=
+
+Name: org/eclipse/papyrus/modelexplorer/ModelExplorerPage.class
+SHA1-Digest: kha66v3Ua4HyO0iA9Ym/y49hG0w=
+
+Name: org/eclipse/papyrus/modelexplorer/MoDiscoLabelProviderWTooltips.
+ class
+SHA1-Digest: O4ksEZk12bVGY04NHDBuVE/0Nno=
+
+Name: org/eclipse/papyrus/modelexplorer/factory/IActionHandlerFactory.
+ class
+SHA1-Digest: FBIqWZHZ6cpV9DMuVKcjc7DyVcA=
+
+Name: org/eclipse/papyrus/modelexplorer/handler/LoadBrowserCustomizati
+ on.class
+SHA1-Digest: wr95MM+zbqhOAjWoKNHa8fdYnao=
+
+Name: icons/etool16/sort.gif
+SHA1-Digest: ew2+Hl2eOGRUk1Ua4pkP6C0hxas=
+
+Name: org/eclipse/papyrus/modelexplorer/handler/ValidateModelHandler.c
+ lass
+SHA1-Digest: DbmH9/C9FrxZv9+Oh0xg+UIlYxk=
+
+Name: org/eclipse/papyrus/modelexplorer/commands/ValidateDelMarkersFro
+ mSubtreeCommand.class
+SHA1-Digest: FwvDp6zi1OJJGz3KaRg6lFFlWBI=
+
+Name: org/eclipse/papyrus/modelexplorer/actions/GenericTransformAction
+ .class
+SHA1-Digest: qarQLPkHB3oHdoSfzhOGdiWLjWU=
+
+Name: org/eclipse/papyrus/modelexplorer/dnd/CommonDropAdapterAssistant
+ .class
+SHA1-Digest: V2U7yrvup6kt6XsaBjm6eH540EI=
+
+Name: plugin.xml
+SHA1-Digest: V9/ZGiYdqZDKduhh6++34Fh+0dc=
+
+Name: icons/etool16/uiCustom.gif
+SHA1-Digest: YXt1fHElknnP9Z5R54la+j+PqZw=
+
+Name: org/eclipse/papyrus/modelexplorer/provider/ActionStateSourceProv
+ ider$SelectionListener.class
+SHA1-Digest: VUKExcw7vIPNeRhTzioZdj0aBnM=
+
+Name: org/eclipse/papyrus/modelexplorer/handler/AbstractModelExplorerH
+ andler.class
+SHA1-Digest: fY4BZxSMQq+9aw14F8Oc1chUj4A=
+
+Name: org/eclipse/papyrus/modelexplorer/Messages.class
+SHA1-Digest: XVrym0gyb1wcocOBktdiQnI62KY=
+
+Name: org/eclipse/papyrus/modelexplorer/dnd/EObjectDragAdapterAssistan
+ t.class
+SHA1-Digest: vEsDF0xIXoqgPgxhh4b+hDz+zAs=
+
+Name: org/eclipse/papyrus/modelexplorer/dialog/NavigatorSearchDialog$3
+ .class
+SHA1-Digest: pa4j0K+wbRMULRpfsEUpSEOgO2w=
+
+Name: org/eclipse/papyrus/modelexplorer/commands/ValidateDelMarkersFro
+ mModelCommand.class
+SHA1-Digest: Y/Eqog/IEmpW4YXZiEoxHhLAT/A=
+
+Name: org/eclipse/papyrus/modelexplorer/handler/SortElementHandler.cla
+ ss
+SHA1-Digest: UfNKNlRNu1CWsQuTBE0iJWgS+Bk=
+
+Name: org/eclipse/papyrus/modelexplorer/actions/GenericTransformer.cla
+ ss
+SHA1-Digest: 6oDWTGqJAdwwdWV7W7HnqpFxjg0=
+
+Name: org/eclipse/papyrus/modelexplorer/ModelExplorerView$2.class
+SHA1-Digest: EtppCLWpwvTbIGyRgPBKPBFGWtE=
+
+Name: org/eclipse/papyrus/modelexplorer/commands/SelectAndValidateSubt
+ reeCommand.class
+SHA1-Digest: rPM0NLSn7Tno4AptOopxAb3hYiI=
+
+Name: icons/etool16/rename.gif
+SHA1-Digest: mS/l+FYNG7YxINYiuATz3coUq3c=
+
+Name: org/eclipse/papyrus/modelexplorer/commands/AbstractValidateComma
+ nd$2.class
+SHA1-Digest: SjXUc17spuOKTgjJJ93pRDL0160=
+
+Name: org/eclipse/papyrus/modelexplorer/handler/SearchElementHandler.c
+ lass
+SHA1-Digest: tOY6sbuiix2h92D9N4TloUEYEcc=
+
+Name: org/eclipse/papyrus/modelexplorer/handler/PasteHandler.class
+SHA1-Digest: ush+PiCoTBWrKTXo2JHAJL34kfQ=
+

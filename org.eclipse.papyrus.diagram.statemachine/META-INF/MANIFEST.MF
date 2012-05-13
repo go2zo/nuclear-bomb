@@ -1,0 +1,2189 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.papyrus.diagram.statemachine; singlet
+ on:=true
+Eclipse-LazyStart: true
+Require-Bundle: org.eclipse.core.expressions;bundle-version="[3.4.0,4.
+ 0.0)",org.eclipse.ui.navigator;bundle-version="[3.5.0,4.0.0)",org.ecl
+ ipse.gmf.runtime.diagram.ui.properties;bundle-version="[1.4.0,2.0.0)"
+ ,org.eclipse.gmf.runtime.diagram.ui.resources.editor.ide;bundle-versi
+ on="[1.2.0,2.0.0)",org.eclipse.ocl.ecore;visibility:="reexport";bundl
+ e-version="[3.1.0,4.0.0)",org.eclipse.ui.navigator.resources;bundle-v
+ ersion="[3.4.0,4.0.0)",org.eclipse.papyrus.core.adaptor.gmf;bundle-ve
+ rsion="0.8.0",org.eclipse.papyrus.diagram.common;bundle-version="0.8.
+ 0",org.eclipse.papyrus.preferences;bundle-version="[0.8.0,1.0.0)",org
+ .eclipse.papyrus.extensionpoints.editors;bundle-version="[0.8.0,1.0.0
+ )",org.eclipse.core.runtime;bundle-version="[3.7.0,4.0.0)",org.eclips
+ e.core.resources;bundle-version="[3.7.0,4.0.0)",org.eclipse.jface;bun
+ dle-version="[3.7.0,4.0.0)",org.eclipse.ui.ide;bundle-version="[3.7.0
+ ,4.0.0)",org.eclipse.ui.views;bundle-version="[3.6.0,4.0.0)",org.ecli
+ pse.emf.ecore;bundle-version="[2.7.0,3.0.0)",org.eclipse.emf.ecore.xm
+ i;bundle-version="[2.7.0,3.0.0)",org.eclipse.emf.edit.ui;bundle-versi
+ on="[2.7.0,3.0.0)",org.eclipse.gmf.runtime.emf.core;bundle-version="[
+ 1.4.0,2.0.0)",org.eclipse.gmf.runtime.emf.commands.core;bundle-versio
+ n="[1.4.0,2.0.0)",org.eclipse.gmf.runtime.emf.ui.properties;bundle-ve
+ rsion="[1.5.0,2.0.0)",org.eclipse.gmf.runtime.diagram.ui;bundle-versi
+ on="[1.5.0,2.0.0)",org.eclipse.gmf.runtime.diagram.ui.providers;bundl
+ e-version="[1.5.0,2.0.0)",org.eclipse.gmf.runtime.diagram.ui.provider
+ s.ide;bundle-version="[1.2.0,2.0.0)",org.eclipse.gmf.runtime.diagram.
+ ui.render;bundle-version="[1.4.0,2.0.0)",org.eclipse.gmf.runtime.diag
+ ram.ui.resources.editor;bundle-version="[1.4.0,2.0.0)",org.eclipse.um
+ l2.uml;visibility:="reexport";bundle-version="[3.2.0,4.0.0)",org.ecli
+ pse.uml2.uml.edit;visibility:="reexport";bundle-version="[3.1.0,4.0.0
+ )",org.eclipse.emf.ecore;visibility:="reexport";bundle-version="[2.7.
+ 0,3.0.0)",org.eclipse.emf.ecore.edit;visibility:="reexport";bundle-ve
+ rsion="[2.7.0,3.0.0)",org.eclipse.emf.validation;visibility:="reexpor
+ t";bundle-version="[1.4.0,2.0.0)",org.eclipse.gef;visibility:="reexpo
+ rt";bundle-version="[3.7.0,4.0.0)",org.eclipse.papyrus.ui.toolbox;bun
+ dle-version="0.8.0"
+Bundle-Activator: org.eclipse.papyrus.diagram.statemachine.part.UMLDia
+ gramEditorPlugin
+Export-Package: org.eclipse.papyrus.diagram.statemachine,org.eclipse.p
+ apyrus.diagram.statemachine.custom.commands,org.eclipse.papyrus.diagr
+ am.statemachine.custom.edit.part,org.eclipse.papyrus.diagram.statemac
+ hine.custom.expressions,org.eclipse.papyrus.diagram.statemachine.cust
+ om.factory,org.eclipse.papyrus.diagram.statemachine.custom.figures,or
+ g.eclipse.papyrus.diagram.statemachine.custom.helpers,org.eclipse.pap
+ yrus.diagram.statemachine.custom.listeners,org.eclipse.papyrus.diagra
+ m.statemachine.custom.parsers,org.eclipse.papyrus.diagram.statemachin
+ e.custom.policies,org.eclipse.papyrus.diagram.statemachine.custom.pro
+ viders,org.eclipse.papyrus.diagram.statemachine.edit.commands,org.ecl
+ ipse.papyrus.diagram.statemachine.edit.helpers,org.eclipse.papyrus.di
+ agram.statemachine.edit.parts,org.eclipse.papyrus.diagram.statemachin
+ e.edit.policies,org.eclipse.papyrus.diagram.statemachine.navigator,or
+ g.eclipse.papyrus.diagram.statemachine.parsers,org.eclipse.papyrus.di
+ agram.statemachine.part,org.eclipse.papyrus.diagram.statemachine.pref
+ erences,org.eclipse.papyrus.diagram.statemachine.providers,org.eclips
+ e.papyrus.diagram.statemachine.sheet
+Bundle-Version: 0.8.0.v201106151827
+Ant-Version: Apache Ant 1.7.0
+Bundle-ClassPath: .
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.5.0_06-b05 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/providers/Custom
+ EditPolicyProvider.class
+SHA1-Digest: jQqZbVz5PZ6x/O5ceogHtZ+bnvQ=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateT
+ erminateStereotypeEditPart$2$1.class
+SHA1-Digest: 7EZHWZBPFSoB1kzomUFaQuzl7JI=
+
+Name: icons/UMLDiagramFile.gif
+SHA1-Digest: lWlO5N44xJ/ka7KNcvGQu0s8N5I=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/policies/Generaliz
+ ationItemSemanticEditPolicy.class
+SHA1-Digest: 59MQrrlCOU4rsLtKzDd4k5aDYFA=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateJ
+ oinNameEditPart$2$1.class
+SHA1-Digest: 4bBOEwhbMwG7UAhANKPgJazQ1WM=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateC
+ hoiceStereotypeEditPart.class
+SHA1-Digest: XLfMTE3ham/2Fi3rY98vqL5NoBs=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/policies/CustomR
+ egionCompartmentXYLayoutEditPolicy.class
+SHA1-Digest: /3h5fTXRYhpaXtGfLyi2BCHCNo8=
+
+Name: org/eclipse/papyrus/diagram/statemachine/providers/UMLEditPartPr
+ ovider.class
+SHA1-Digest: y3Rxmkai51c4hrJGg7FiVujPSsU=
+
+Name: org/eclipse/papyrus/diagram/statemachine/UmlStateMachineDiagramF
+ orMultiEditor$1.class
+SHA1-Digest: oVjtbhbJPeM/qXiihJWabJBZ3KM=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/ConnectionPo
+ intReferenceStereotypeEditPart$2$1.class
+SHA1-Digest: ceNOe5DbElqcWeg2Vrel8T/UZis=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateE
+ ntryPointNameEditPart$5.class
+SHA1-Digest: yM04/4AV6UCXy5BGtyOysRUWuVU=
+
+Name: org/eclipse/papyrus/diagram/statemachine/part/UMLDiagramActionBa
+ rContributor.class
+SHA1-Digest: FAqJTDGIMUcxqLg41/abzrjYGaQ=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateF
+ orkNameEditPart$3.class
+SHA1-Digest: 8dtilW+6TyPY+WFiOziTw6oOhV4=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateT
+ erminateEditPart.class
+SHA1-Digest: jBaw8KVBfNxcUG8TuwqdTB72xTk=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/parsers/Transiti
+ onPropertiesParser.class
+SHA1-Digest: AWZA6+R8pCWQrIKZaQabb/GyZSo=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/policies/UMLTextNo
+ nResizableEditPolicy.class
+SHA1-Digest: zzjnq3+ZqEGv44Cv6G47u4hW3hk=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateE
+ ntryPointNameEditPart$2$1.class
+SHA1-Digest: RLld74XEjP8Z3XEkhwfDoKP4L+4=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateJ
+ oinEditPart$1$1.class
+SHA1-Digest: ZgDB/qIsKgO6VFtkSJwDr+NNSd8=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/commands/CustomF
+ irstRegionInCompositeStateCreateElementCommand.class
+SHA1-Digest: m/KuuBZoMwUV/1WyNyj0wZaMyhM=
+
+Name: org/eclipse/papyrus/diagram/statemachine/part/UMLDocumentProvide
+ r$ResourceSetModificationListener.class
+SHA1-Digest: WYJVS6Ga5hLkWbBGPiWfSj4b8Jk=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/locators/CustomE
+ ntryExitPointPositionLocator.class
+SHA1-Digest: RuiVL06NEdi2gwufufdOYmW1lEY=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/policies/CustomP
+ ackageXYLayoutEditPolicy$1.class
+SHA1-Digest: T/N7PQkw6zlPLq24Et/rBFyZprQ=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateD
+ eepHistoryStereotypeEditPart$4.class
+SHA1-Digest: DxuR2vF97lNjB/NH8L9Ml/zF01c=
+
+Name: org/eclipse/papyrus/diagram/statemachine/part/UMLDiagramUpdateCo
+ mmand.class
+SHA1-Digest: Hel8psR01GbCJ9+CsQ2nnj44tyE=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/FinalStateSt
+ ereotypeEditPart$3.class
+SHA1-Digest: wPh6EZusJ4xfrcxSVMj3JJE9kjE=
+
+Name: org/eclipse/papyrus/diagram/statemachine/navigator/UMLAbstractNa
+ vigatorItem.class
+SHA1-Digest: SP36xAVt5ayegfKQuH+N8r0esqI=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateJ
+ unctionNameEditPart$5.class
+SHA1-Digest: bBJrwvJXsJZBT9yjZDWWGgEBvq0=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/ConnectionPo
+ intReferenceNameEditPart$2$1.class
+SHA1-Digest: RfeXLMESlEEpCx90yoAdFbuw9Yw=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/policies/CustomS
+ tateMachineLayoutEditPolicy.class
+SHA1-Digest: jlhLYNcg63kXTHORoivHtUGQEvs=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateF
+ orkStereotypeEditPart.class
+SHA1-Digest: /fjqCfahjS20PWY+CByt9FgNk+k=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/figures/Pseudost
+ ateInitialFigure.class
+SHA1-Digest: xeABCEq9xYFpzotSgD/lB2LSpE8=
+
+Name: org/eclipse/papyrus/diagram/statemachine/part/ValidateAction$1.c
+ lass
+SHA1-Digest: HsRy+8izWhXDj3zRZgeGjVJE2Mw=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/FinalStateNa
+ meEditPart.class
+SHA1-Digest: ueYWNn39KeHLAzpvelgwY56uYRE=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateC
+ hoiceNameEditPart$2.class
+SHA1-Digest: WvmwhQuvL9E2B8JcsPJAKjgrlNI=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/commands/Pseudosta
+ teDeepHistoryCreateCommand.class
+SHA1-Digest: 9MhCNwopsYuXneItX4O69MrzDkM=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateS
+ hallowHistoryNameEditPart$3.class
+SHA1-Digest: RWaP+L4lajbxEMzLieDVhqoEOOM=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateI
+ nitialNameEditPart$2.class
+SHA1-Digest: Uwc4g78LUuG5/rZi56H0J7cOPiw=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/ConnectionPo
+ intReferenceStereotypeEditPart.class
+SHA1-Digest: gknt+TzUVU2rmxIObwr18xvyfVA=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/policies/CustomS
+ tateCompartmentXYLayoutEditPolicy.class
+SHA1-Digest: Fcb9YnFPWNNSMhkq4JEeE/J3Jqo=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PackageEditP
+ art$1.class
+SHA1-Digest: zqSfUB3tiWpYVXJ3EVVk8+jRh5w=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/commands/Pseudosta
+ teChoiceCreateCommand.class
+SHA1-Digest: 5X1dgJ5HesiQ7UAAE+8CakpxWnA=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateE
+ ntryPointStereotypeEditPart$5.class
+SHA1-Digest: qTo1a/A7j0DOdpaL1Ifoxd5WJx4=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateD
+ eepHistoryNameEditPart$3.class
+SHA1-Digest: R39r2rTr2N3QB80snf/xGM7CTTc=
+
+Name: org/eclipse/papyrus/diagram/statemachine/parsers/AbstractParser$
+ InvalidValue.class
+SHA1-Digest: MQp7pw9ClfJUo0XCbUlun8skQXA=
+
+Name: org/eclipse/papyrus/diagram/statemachine/preferences/Pseudostate
+ PreferencePage.class
+SHA1-Digest: VrgIDHQHAhr2xD90MNYo3JW7CRg=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/TransitionSt
+ ereotypeEditPart$3.class
+SHA1-Digest: JRWuTL2uSIwBrE8XmVwI0Iuariw=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/ConnectionPo
+ intReferenceStereotypeEditPart$1.class
+SHA1-Digest: ZMilda8vO4/6nbQrC47tfHVbG+k=
+
+Name: org/eclipse/papyrus/diagram/statemachine/preferences/DiagramAppe
+ arancePreferencePage.class
+SHA1-Digest: JpkKNBQDAOik9AS87vsUfQPQ0MI=
+
+Name: org/eclipse/papyrus/diagram/statemachine/part/UMLDiagramEditorUt
+ il.class
+SHA1-Digest: 2oI5cNj+GuVwuOFGXFMaVDPbPZQ=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateE
+ xitPointNameEditPart$3.class
+SHA1-Digest: JupBQ+XBdSVi3rHmb0IEmFEvH6c=
+
+Name: org/eclipse/papyrus/diagram/statemachine/part/UMLNodeDescriptor.
+ class
+SHA1-Digest: fcOfYSSI92SyjJvSzCs6twZZv6o=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateD
+ eepHistoryNameEditPart$2$1.class
+SHA1-Digest: TTSFAFUeV/P+y+QUWo8BVQq4Wx0=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/policies/StateComp
+ artmentItemSemanticEditPolicy.class
+SHA1-Digest: c4wYzpJXXZIGB97BjmNGq6EzQFk=
+
+Name: org/eclipse/papyrus/diagram/statemachine/preferences/DiagramGene
+ ralPreferencePage.class
+SHA1-Digest: zAABzO/rCju9F/cFMO5bJ2hqE2w=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateS
+ hallowHistoryStereotypeEditPart$1.class
+SHA1-Digest: 2AuK5cVAl3jWqjt82gQ+dMKnPk8=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/policies/Pseudosta
+ teTerminateItemSemanticEditPolicy.class
+SHA1-Digest: ThY4TflAP8tMoCJbzFTlst9R+V4=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/TransitionNa
+ meEditPart$2.class
+SHA1-Digest: mprZ9bJHIOst3jtp6tVS2cr8f4w=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/policies/PackageIt
+ emSemanticEditPolicy.class
+SHA1-Digest: QCACwE4r6fqoFDgdU2Ie66akWDA=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateE
+ xitPointStereotypeEditPart.class
+SHA1-Digest: qGOduNm/DGfNGWuvHKf+GYR3FSw=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/ConnectionPo
+ intReferenceNameEditPart$4.class
+SHA1-Digest: EoUjtERH7cZL5QZBNMrGWRqON5M=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateJ
+ oinStereotypeEditPart$2.class
+SHA1-Digest: 6xQNCzhTSKY0IKbrGPF7cPr/7dQ=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/policies/Connectio
+ nPointReferenceItemSemanticEditPolicy.class
+SHA1-Digest: uDxjXOYN+oraM+SkDzyCOFZ/opc=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateC
+ hoiceNameEditPart.class
+SHA1-Digest: EJNX9lvd4YSkWhPYuB2ODUIX+dM=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/edit/part/Custom
+ StateEditPart.class
+SHA1-Digest: 7sYkumqugODKmeciiMJvyX4+8Go=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/Generalizati
+ onStereotypeEditPart$4.class
+SHA1-Digest: vudNr2iZOoCEkpcwhx/DWJT1Ens=
+
+Name: org/eclipse/papyrus/diagram/statemachine/preferences/DiagramRule
+ rsAndGridPreferencePage.class
+SHA1-Digest: BYantBavhaeyAQ/dn1ERdI/rWzM=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/StateMachine
+ NameEditPart.class
+SHA1-Digest: WQftFTuJeQBurhxP7ltSclFFDU4=
+
+Name: org/eclipse/papyrus/diagram/statemachine/part/UMLDocumentProvide
+ r$1.class
+SHA1-Digest: JGKTO0suvd9S0kJE6rPzf3M+7To=
+
+Name: org/eclipse/papyrus/diagram/statemachine/navigator/UMLDomainNavi
+ gatorContentProvider.class
+SHA1-Digest: abw/Pgm4XjEp5Mqd9uxqud/LQQ8=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/policies/CustomR
+ egionComponentEditPolicy.class
+SHA1-Digest: SjY7W6kmPEJxqqCPCQSeqUe74ko=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/helpers/Zone.cla
+ ss
+SHA1-Digest: d9uBco8ogXLpdhM6AzOpRzmIiU8=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/StateNameEdi
+ tPart$5.class
+SHA1-Digest: HDgN3J6SmnwyeLQIPY5T/5v3mt8=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateJ
+ unctionEditPart$1.class
+SHA1-Digest: K+5CmezickS+UvO6Big98tt8Li0=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/figures/Pseudost
+ ateExitPointFigure.class
+SHA1-Digest: KK6ozq55g5u3C1Gi4wxtFpL22pQ=
+
+Name: org/eclipse/papyrus/diagram/statemachine/StateMachineDiagramEdit
+ orFactory.class
+SHA1-Digest: Fvws2kxOCpt/Ee3Asf1rs03hmD8=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateF
+ orkStereotypeEditPart$4.class
+SHA1-Digest: dKPP1qXLHJyGgqzrVWo0gFyY+2E=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateJ
+ oinNameEditPart$3.class
+SHA1-Digest: ypZMeveDwxorADhZZrPtSnI7lac=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/StateNameEdi
+ tPart$2$1.class
+SHA1-Digest: 4Clf0VSxwLgdWHadnrlvmJJKOZs=
+
+Name: org/eclipse/papyrus/diagram/statemachine/providers/UMLElementTyp
+ es.class
+SHA1-Digest: oX5LodAlOkbi2FP0Y9BWFnzs5rI=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/policies/PackageCa
+ nonicalEditPolicy.class
+SHA1-Digest: mVsQO+kIUm/BmejbewHXC9aGkZA=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateI
+ nitialNameEditPart$2$1.class
+SHA1-Digest: 1rhMPuirMkVUTCLDyJnDc/Ufncg=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/TransitionGu
+ ardEditPart$2.class
+SHA1-Digest: tqz/YTznfilUWfayTUSrBlHRsTk=
+
+Name: org/eclipse/papyrus/diagram/statemachine/part/UMLLinkDescriptor$
+ 1.class
+SHA1-Digest: 6P4yOtbWlP7jCMNVlxaIsBByOKk=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/UMLEditPartF
+ actory$MultilineCellEditorLocator.class
+SHA1-Digest: g8gS1kgLHHnlmQtfbHcXRc4S+Z0=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateJ
+ unctionStereotypeEditPart$4.class
+SHA1-Digest: DPl74gUJ9ioJV4iFYN9FYp+lOVU=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateJ
+ oinStereotypeEditPart.class
+SHA1-Digest: IE6ezFIpQG4cDay1VqmhqqP+Aow=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateT
+ erminateNameEditPart$5.class
+SHA1-Digest: Ew5I0y/WZjaKMbnkBDre+kVHGtI=
+
+Name: org/eclipse/papyrus/diagram/statemachine/navigator/UMLNavigatorC
+ ontentProvider$3.class
+SHA1-Digest: 7EaYj/yt2LLs6FjMuXlrtuyqNVE=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/edit/part/Custom
+ PackageEditPart.class
+SHA1-Digest: 80LAnwnb0Opev0Vlv0G6xujo+Ls=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateJ
+ unctionStereotypeEditPart$2$1.class
+SHA1-Digest: ktyJnqu7DMkNqi0YyeoDQkbWW0s=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateC
+ hoiceStereotypeEditPart$4.class
+SHA1-Digest: sDOs8DfDkGZbZT0F9ph7GMJ7/Us=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateI
+ nitialStereotypeEditPart$1.class
+SHA1-Digest: ZiReYR0INkTWf+CZ/pT/OfWi5uM=
+
+Name: org/eclipse/papyrus/diagram/statemachine/StateMachineDiagramMode
+ lListener.class
+SHA1-Digest: L1DD5Y6a9MYh/aVNzz8AbL5dPRM=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/FinalStateEd
+ itPart$1$1.class
+SHA1-Digest: jLqdEb9Pp/8XuVI12hF6xiKJcTc=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/StateMachine
+ CompartmentEditPart.class
+SHA1-Digest: HxWo+VTtBbxD6kxGB5DD3RL1FwY=
+
+Name: org/eclipse/papyrus/diagram/statemachine/part/UMLUriEditorInputT
+ ester.class
+SHA1-Digest: l2K4ZfgoR1x/jiGFkp3OxXSvyrg=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/factory/CustomUM
+ LEditPartFactory.class
+SHA1-Digest: mWwFG7WYSbzjkA41KZiVqyiwMfk=
+
+Name: org/eclipse/papyrus/diagram/statemachine/navigator/UMLNavigatorI
+ tem.class
+SHA1-Digest: LXbHuICbG1XaZDELf0wIPhAhN/w=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateE
+ xitPointStereotypeEditPart$4.class
+SHA1-Digest: 75LjvWacygZnVj4ZMUfDyPrvmIo=
+
+Name: org/eclipse/papyrus/diagram/statemachine/part/UMLDiagramEditor$3
+ .class
+SHA1-Digest: bEUj+pEFxoAiJ+rxwOh4QHzYcmg=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/TransitionSt
+ ereotypeEditPart.class
+SHA1-Digest: j4xoEiU8ge8nMYXQIeJV5Oj+7Ts=
+
+Name: org/eclipse/papyrus/diagram/statemachine/part/DiagramEditorConte
+ xtMenuProvider.class
+SHA1-Digest: dSKbxdHWem8B+Eyjk2FXCaQk4nQ=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/helpers/RegionEdit
+ Helper.class
+SHA1-Digest: 6xv2yYyK1K09T1mw2OnkDMV8cns=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/figures/FinalSta
+ teFigure.class
+SHA1-Digest: PGSVd+/WpCeA7i1VMH5AEHUT5wE=
+
+Name: org/eclipse/papyrus/diagram/statemachine/preferences/Generalizat
+ ionPreferencePage.class
+SHA1-Digest: D/dH3hM5OSZjlQxeAwT0UKrCleg=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateT
+ erminateStereotypeEditPart$2.class
+SHA1-Digest: rMpUCNoxubRyfpemhdOpJdk48bw=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/policies/Pseudosta
+ teInitialItemSemanticEditPolicy.class
+SHA1-Digest: bsBpvjeTwu4f8d4x9VD9/j2hvlo=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/StateMachine
+ NameEditPart$4.class
+SHA1-Digest: hzPq2xbt6L6nhsRSJXV72YA/Aj0=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateJ
+ unctionStereotypeEditPart.class
+SHA1-Digest: qPRntagwHDyjfzVtM8BTI+ffNO4=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/FinalStateNa
+ meEditPart$2.class
+SHA1-Digest: GVXZ0ueOqkKRiN9lbujhNqhRx40=
+
+Name: org/eclipse/papyrus/diagram/statemachine/part/UMLPaletteFactory.
+ class
+SHA1-Digest: 4PhNXhertaRj93UB18okln0+eoM=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateC
+ hoiceEditPart$1.class
+SHA1-Digest: PUtmjVt57WLg+u8LjnrX7ty6U4E=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/ConnectionPo
+ intReferenceNameEditPart.class
+SHA1-Digest: Cy+HzPgYl0mgLP8BQlqmLJ7/fKo=
+
+Name: org/eclipse/papyrus/diagram/statemachine/part/UMLDiagramEditorUt
+ il$1.class
+SHA1-Digest: VmNW39p2onLbkQn9QEkVuqLWdHk=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateE
+ ntryPointNameEditPart$4.class
+SHA1-Digest: zT+OODlc0qMmvx2zZi3APZufkRU=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/commands/Transitio
+ nCreateCommand.class
+SHA1-Digest: SAmmHtX+5bUgEWJUY0/aVduRTUY=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateC
+ hoiceEditPart$1$1.class
+SHA1-Digest: j6Eivr5y6mXhHPw4BwR7/Q6cGqs=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateF
+ orkNameEditPart$2.class
+SHA1-Digest: VhAKBZ8pxCyqDgf6JkJFjWjagIk=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/expressions/UMLA
+ bstractExpression.class
+SHA1-Digest: 6bGIBOVW0zwNzN/nLFGebdyEHYU=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/policies/Transitio
+ nItemSemanticEditPolicy.class
+SHA1-Digest: u9X+F8XT3IPDsmhE8jwPYm6LLb0=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/policies/RemoveO
+ rphanViewPolicy.class
+SHA1-Digest: 67N1oNO+nq+iD44jaga8mfZ6JPI=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateD
+ eepHistoryStereotypeEditPart$3.class
+SHA1-Digest: XCG5dXymXuIHrXv6d1rnTz0zR38=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateS
+ hallowHistoryNameEditPart.class
+SHA1-Digest: Qp5+Fzy1vJt6hQWCTXDJ51RFykk=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/FinalStateSt
+ ereotypeEditPart$2.class
+SHA1-Digest: fSkb2FsxpIDz3/vcrigM98SDz80=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateJ
+ unctionNameEditPart$4.class
+SHA1-Digest: 9PE7NwrZXTMrc8hyb1QJkv4vbMU=
+
+Name: org/eclipse/papyrus/diagram/statemachine/providers/UMLValidation
+ Provider.class
+SHA1-Digest: G3DZXtvVjG9YAhW96g66HciV+lw=
+
+Name: org/eclipse/papyrus/diagram/statemachine/part/UMLCreationWizard$
+ 2.class
+SHA1-Digest: LnvO9qU3jSomB/7y53loLj05KSY=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateC
+ hoiceNameEditPart$1.class
+SHA1-Digest: aWwSdTImI7FIFarxbO+KpvvOrRA=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateS
+ hallowHistoryNameEditPart$2.class
+SHA1-Digest: 2vZPoCkQuUwSGp4CDSSEOFLGRM0=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/FinalStateSt
+ ereotypeEditPart$2$1.class
+SHA1-Digest: Nug1kVd/5V4MoJxrurM/cUEwF/g=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateI
+ nitialNameEditPart$1.class
+SHA1-Digest: Larremy8643OuNQ21JYnPTCtqgs=
+
+Name: org/eclipse/papyrus/diagram/statemachine/part/UMLDiagramEditorPl
+ ugin.class
+SHA1-Digest: PxUufxYO1vltqVCxE8+FVDHStvI=
+
+Name: org/eclipse/papyrus/diagram/statemachine/part/ModelElementSelect
+ ionPage$1.class
+SHA1-Digest: ZdnJZNQg/pBR1sbcNhBaIrBNnS0=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/TransitionGu
+ ardEditPart.class
+SHA1-Digest: HpwNFkIy+0NO6ZMNK3LJ0vzbkUA=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateE
+ ntryPointStereotypeEditPart$4.class
+SHA1-Digest: SjdRIt2pEQQqznuhrW4hCFUdzPI=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateD
+ eepHistoryNameEditPart$2.class
+SHA1-Digest: 3Rn57WkOHaM7QhFPR/SBI0K3f0s=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/UMLEditPartF
+ actory$TextCellEditorLocator.class
+SHA1-Digest: Q3dnwkltSW1tRAYKS/5GtgXPaTA=
+
+Name: org/eclipse/papyrus/diagram/statemachine/part/UMLNewDiagramFileW
+ izard$DiagramRootElementSelectionPage.class
+SHA1-Digest: mQBOrmKIJuSkD+hRfxjr6A6JL58=
+
+Name: org/eclipse/papyrus/diagram/statemachine/navigator/UMLNavigatorG
+ roup.class
+SHA1-Digest: +Wg7OJ5TMG63AnGK8Y+ckQSaREM=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/edit/part/Custom
+ StateMachineNameEditPart.class
+SHA1-Digest: g2WpROoGH3Abf1bG/JyoAtZl4g0=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/TransitionSt
+ ereotypeEditPart$2.class
+SHA1-Digest: weOXvXvT6UgCi4msg4LRJdWSLI0=
+
+Name: org/eclipse/papyrus/diagram/statemachine/part/DiagramEditorConte
+ xtMenuProvider$1.class
+SHA1-Digest: kPJGtxKl2ZRRMFhI6mXwrsXFDQo=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateE
+ xitPointNameEditPart$2.class
+SHA1-Digest: zS3fnPINd1FEGtWUmlMuQEAkl+I=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateS
+ hallowHistoryEditPart$1.class
+SHA1-Digest: tHWnfGZZWDTZ1U8uNepiSUEBslo=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateF
+ orkStereotypeEditPart$2$1.class
+SHA1-Digest: rXyyCBloCVgcU0j5F39oPpBdaag=
+
+Name: icons/wizban/NewUMLWizard.gif
+SHA1-Digest: V9+GnTa2Eps/Z9j0Ylui5kDdHv0=
+
+Name: org/eclipse/papyrus/diagram/statemachine/part/UMLDiagramEditorUt
+ il$LazyElement2ViewMap.class
+SHA1-Digest: HXdJnpkvc+6PL4WbRZ9pIV1stxE=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateD
+ eepHistoryEditPart$1.class
+SHA1-Digest: zHqlmByDVFWhNTljaGsjabJCqtE=
+
+Name: org/eclipse/papyrus/diagram/statemachine/providers/UMLParserProv
+ ider.class
+SHA1-Digest: B2D0jeQF6d9DNP6kW1mIn5G/3Fw=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/policies/StateMach
+ ineCompartmentItemSemanticEditPolicy.class
+SHA1-Digest: 5cCTV0TzxJ3iuk/4wtjVXBrGHFk=
+
+Name: org/eclipse/papyrus/diagram/statemachine/preferences/TransitionP
+ referencePage.class
+SHA1-Digest: UT2RCJSE9lifWfKOarbjTz3bQZc=
+
+Name: org/eclipse/papyrus/diagram/statemachine/providers/UMLParserProv
+ ider$HintAdapter.class
+SHA1-Digest: JBlqRf0NiS1j5qWbTaVoytkMD6Y=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/commands/Transitio
+ nReorientCommand.class
+SHA1-Digest: Pr/Rj1XOvaZKPcMrb8TScbxmVoM=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/policies/CustomP
+ seudostateForkJoinResizeEditPolicy.class
+SHA1-Digest: qkGOc00BrZmMNljw4YfIsV8Ald4=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/TransitionNa
+ meEditPart$1.class
+SHA1-Digest: KYUmOb7egS340KnxBKKjBsVdxRY=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/ConnectionPo
+ intReferenceNameEditPart$3.class
+SHA1-Digest: IF05AEyIEhZjHzmd2CERFUiC0cE=
+
+Name: org/eclipse/papyrus/diagram/statemachine/navigator/UMLNavigatorL
+ inkHelper.class
+SHA1-Digest: KHHEeFK+sR5dDOlArGiGHKdDkPE=
+
+Name: org/eclipse/papyrus/diagram/statemachine/providers/UMLMarkerNavi
+ gationProvider.class
+SHA1-Digest: iZjrS1jfFxazbMUl32hz2CP+bME=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateJ
+ oinStereotypeEditPart$1.class
+SHA1-Digest: 4Md8aYxZzM+n0xaX9Ugbd/3vYuw=
+
+Name: org/eclipse/papyrus/diagram/statemachine/part/UMLDiagramEditor.c
+ lass
+SHA1-Digest: /UUyc1dxGYegdmA1hHq88OHqPbI=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/commands/CustomR
+ egionResizeCommand.class
+SHA1-Digest: zqeOhYt7OZrf/+iKyPhiz2JThE8=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateI
+ nitialNameEditPart.class
+SHA1-Digest: PqFMRg0eXbrRuoi0vajJRhjBzg0=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/Generalizati
+ onStereotypeEditPart$3.class
+SHA1-Digest: 5/a/gbCPePXmio84C/uiApFZ4zE=
+
+Name: org/eclipse/papyrus/diagram/statemachine/CreateStateMachineDiagr
+ amWithNavigationHandler.class
+SHA1-Digest: CiJu3do7Xb6YzC3/wvUPKn0+mjY=
+
+Name: org/eclipse/papyrus/diagram/statemachine/part/UMLNewDiagramFileW
+ izard.class
+SHA1-Digest: bC9276dabAHacHV8hOVDJp448NY=
+
+Name: org/eclipse/papyrus/diagram/statemachine/preferences/RegionPrefe
+ rencePage.class
+SHA1-Digest: cLp9tu87X0j5t8mgfnij4ATsEGs=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/StateNameEdi
+ tPart$4.class
+SHA1-Digest: CaBhZb+TVYRj3lfuEeG/zx4ZTZ8=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/figures/RoundedB
+ order.class
+SHA1-Digest: iqPj9r77E0cUB7xlsFd5mMf60KM=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateE
+ xitPointStereotypeEditPart$2$1.class
+SHA1-Digest: /sNBDyGWbF4qDOMRH8slKcPklDk=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/commands/CreateV
+ iewCommand.class
+SHA1-Digest: pw9agNPOHi45AFXTTeZv8jtAhIY=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateF
+ orkStereotypeEditPart$3.class
+SHA1-Digest: Azceo6RFGWJu2BTN2EY/O56SPTU=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateJ
+ oinNameEditPart$2.class
+SHA1-Digest: LV/SQQZl14eNSjIAtuPpjnF/PXw=
+
+Name: org/eclipse/papyrus/diagram/statemachine/navigator/UMLDomainNavi
+ gatorContentProvider$3.class
+SHA1-Digest: G9Y7dITj2iTyH1ImC1yGboV8sII=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/ConnectionPo
+ intReferenceEditPart$1$1.class
+SHA1-Digest: 7HYgsKerdVZGPzt0p9WQqEIHyE8=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateC
+ hoiceNameEditPart$2$1.class
+SHA1-Digest: VfFdLczEXnn7xpBQJ0g495ylEiQ=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateJ
+ oinEditPart.class
+SHA1-Digest: 2pN5Tr59CRh9E75xs4Rjou/vWh0=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/TransitionGu
+ ardEditPart$1.class
+SHA1-Digest: VOFuDDzGXi8SB0ULl/di6Zob86Q=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateF
+ orkNameEditPart.class
+SHA1-Digest: YE4/rlaJZ+0wC3OjtGH8LdIlasE=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/ConnectionPo
+ intReferenceStereotypeEditPart$5.class
+SHA1-Digest: yQJ3GOO9iPqraN+zbi+1rO6/kwk=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/StateMachine
+ NameEditPart$2$1.class
+SHA1-Digest: n2BXIFzZdcINUuWxqP4MQn8+poE=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/policies/RegionCom
+ partmentCanonicalEditPolicy.class
+SHA1-Digest: WEQZbYPFinloYlo/6AAiFypGz5w=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/policies/CustomP
+ ackageCreationEditPolicy.class
+SHA1-Digest: Gl8DZlWXirUNIbjwatJfWVAbHsM=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/figures/Pseudost
+ ateTerminateFigure.class
+SHA1-Digest: xlIY/sY9rlawriy+bBAKOX/Bbls=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateS
+ hallowHistoryStereotypeEditPart.class
+SHA1-Digest: 7zdUUpZ9qCubQ6FFBA0omJPtNEw=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/StateCompart
+ mentEditPart.class
+SHA1-Digest: bSOfbvUg9ejQOgFTCzdpqJz+Pak=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateJ
+ unctionStereotypeEditPart$3.class
+SHA1-Digest: nmczZFmznpUFfxlU8tBcgnVV1EI=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/TransitionGu
+ ardEditPart$2$1.class
+SHA1-Digest: EkOGIS++QVtWS8nAOh4mO6pcAFY=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/edit/part/Custom
+ RegionCompartmentEditPart.class
+SHA1-Digest: YXsCMHhTMzs2VW9RHweKQTcMhNM=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateD
+ eepHistoryStereotypeEditPart.class
+SHA1-Digest: f05bqbfeZiLRaYlMMoyqryC59As=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateS
+ hallowHistoryEditPart$1$1.class
+SHA1-Digest: 13rwAGDtZ1+xRW7GRLpI91/prpI=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateT
+ erminateNameEditPart$4.class
+SHA1-Digest: o7daa66/3eMYJU/IuiSKdp2W/C8=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/policies/StateCano
+ nicalEditPolicy.class
+SHA1-Digest: nwPR0QSKnQbPuqXZWPQB1bP5+EA=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateE
+ ntryPointEditPart.class
+SHA1-Digest: THSPpBFgSg63N4dnJ0M0ynayzPY=
+
+Name: org/eclipse/papyrus/diagram/statemachine/navigator/UMLNavigatorC
+ ontentProvider$2.class
+SHA1-Digest: FCLoVFdmaSKGwMAgeBFLiAa1ZfU=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/policies/UMLBaseIt
+ emSemanticEditPolicy.class
+SHA1-Digest: P3vvxChOyoCUFMb6+d1J/UTR3CQ=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateC
+ hoiceStereotypeEditPart$3.class
+SHA1-Digest: w8Vp4R0bvUYhYBuXwWkzc1uUw1A=
+
+Name: org/eclipse/papyrus/diagram/statemachine/StateMachineDiagramCrea
+ tionCondition.class
+SHA1-Digest: i8z1MsbKixEZj2z3efFejTcCt+0=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateS
+ hallowHistoryStereotypeEditPart$5.class
+SHA1-Digest: TKSHXEyPbIjF8Iw10kkQ9badD40=
+
+Name: icons/obj16/Diagram_StateMachine.gif
+SHA1-Digest: 26pFBjtzLSpAEf6KpHPX2Tgl/ss=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateE
+ ntryPointEditPart$1.class
+SHA1-Digest: b1789JxpMJX6jiaF34+HHohl8oM=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/policies/CustomS
+ tateMachineDiagramDragDropEditPolicy.class
+SHA1-Digest: 2wzMdAusKgvgCtFZW0Aa9nyGzdw=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateC
+ hoiceStereotypeEditPart$2$1.class
+SHA1-Digest: NaBSRMngkU27fsiXDAwMIPHxCFY=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/commands/CustomR
+ egionMoveCommand.class
+SHA1-Digest: 0HC5exT9sV79Co1mKB5YVpUL0TM=
+
+Name: org/eclipse/papyrus/diagram/statemachine/part/ModelElementSelect
+ ionPage.class
+SHA1-Digest: xFdTjqLZkFjJd1aEwFSpv3JpImA=
+
+Name: org/eclipse/papyrus/diagram/statemachine/providers/UMLIconProvid
+ er.class
+SHA1-Digest: wIEkkXqmF4PnMs8dsIUb0Wtvjx0=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PackageEditP
+ art.class
+SHA1-Digest: UCb4wnUJtRVEp4y2k085vSxgtDg=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateE
+ xitPointStereotypeEditPart$3.class
+SHA1-Digest: flYDN7wfDx1YmUEMUDfq9pU0Rwk=
+
+Name: about.html
+SHA1-Digest: a2Fk5/pDnCvlEfl7QwDZj/FCgFc=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateJ
+ oinStereotypeEditPart$2$1.class
+SHA1-Digest: 7graxMuPUDtP/AGqpbSgGsj0VQA=
+
+Name: org/eclipse/papyrus/diagram/statemachine/part/UMLDiagramEditor$2
+ .class
+SHA1-Digest: oX7Xi+qDQt4xL1oMjEvb6LvCNW0=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateE
+ xitPointNameEditPart.class
+SHA1-Digest: 1YBfFg0wZKbZ/tknzWGQECY/anA=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/commands/Pseudosta
+ teInitialCreateCommand.class
+SHA1-Digest: nIDn/sdyo/VzIb2LdAR374NBldM=
+
+Name: org/eclipse/papyrus/diagram/statemachine/preferences/FinalStateP
+ referencePage.class
+SHA1-Digest: tEB6zsguD2IXDeMsIuH6biMa0DA=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateS
+ hallowHistoryEditPart.class
+SHA1-Digest: wy1b9jtn3Ehfsr2zrTRZ8kUWNFA=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateT
+ erminateStereotypeEditPart$1.class
+SHA1-Digest: C5y1otWUUsXL1EvRJiyYctHrjss=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateC
+ hoiceEditPart.class
+SHA1-Digest: BVMo+Pl2jIjnPA+FYJanK859cD4=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/StateMachine
+ NameEditPart$3.class
+SHA1-Digest: AUXZ+3vihUBLJofIfvK19uUDcWw=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/helpers/FinalState
+ EditHelper.class
+SHA1-Digest: mC2VrjrCMwg7NrRLBqWAXv7LRg8=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/figures/RegionFi
+ gure$1.class
+SHA1-Digest: TMBqESSsgGzAk+al57B8GV1L8Zo=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/FinalStateNa
+ meEditPart$1.class
+SHA1-Digest: 7khcfqimEkfh47DIlftmyyOnV4w=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/figures/CustomSh
+ apeCompartmentFigure.class
+SHA1-Digest: del9y+A0JFV81D40WLasGRxM2Lc=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/policies/Pseudosta
+ teDeepHistoryItemSemanticEditPolicy.class
+SHA1-Digest: 4dfZviCFrPa4rOx55DI85Uxe2bg=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/policies/CustomR
+ egionCompartmentCreationEditPolicy.class
+SHA1-Digest: u+QQHaUsbeVuFfQafXV4UMZnGNQ=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/StateMachine
+ EditPart.class
+SHA1-Digest: VLVYly4JNYbk0FEtnYwjtXYxQ34=
+
+Name: org/eclipse/papyrus/diagram/statemachine/navigator/UMLDomainNavi
+ gatorItem.class
+SHA1-Digest: eta9LST6SuI+8T/khou/ncy+T6Y=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/policies/Pseudosta
+ teExitPointItemSemanticEditPolicy.class
+SHA1-Digest: 6HQosqSbtlrcflXYpxX8Phlg+fQ=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/commands/CustomR
+ egionDeleteCommand.class
+SHA1-Digest: xJJge9ZQfRFkkX6Rjl9Ls8h44vg=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/RegionEditPa
+ rt$1.class
+SHA1-Digest: FrobYm3Ho0Nb9gHQlM4pbUGANWw=
+
+Name: org/eclipse/papyrus/diagram/statemachine/part/UMLCreationWizardP
+ age.class
+SHA1-Digest: 8TBlclrme9oE8Kx36SCa8hDwG78=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateE
+ ntryPointNameEditPart$3.class
+SHA1-Digest: 9QtiJQG4+uGuX30rR+L1yhEoHMI=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateF
+ orkNameEditPart$1.class
+SHA1-Digest: ueHRKiQRScQ4DDHF6O3PqhTseZA=
+
+Name: org/eclipse/papyrus/diagram/statemachine/navigator/UMLDomainNavi
+ gatorItem$1.class
+SHA1-Digest: WTUWw/qSpOb/48jXv4u7cXPJY28=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateI
+ nitialEditPart$1$1.class
+SHA1-Digest: JyfcEQfVUSVPo5i3dbRsEgaMgR4=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/helpers/Pseudostat
+ eEditHelper.class
+SHA1-Digest: u9L5glT1W0tXyaUuvMjm/2jF6n8=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/policies/UMLTextSe
+ lectionEditPolicy.class
+SHA1-Digest: pwZA+sCoB/uvdGgrY5RjUx2N4CI=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/policies/CustomS
+ tateLayoutEditPolicy.class
+SHA1-Digest: suZLGLNhjajfJw263DGQK35SRsE=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateI
+ nitialStereotypeEditPart$5.class
+SHA1-Digest: 4otEunuFjNOMWYycPCIUCgoV430=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/helpers/StateMac
+ hineLinkMappingHelper.class
+SHA1-Digest: E+Z4WYH+8VwSHrSi8GCbOBihfcU=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateD
+ eepHistoryStereotypeEditPart$2.class
+SHA1-Digest: DRK1Xiq77iLhGuxN8wac3YR/rBM=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateF
+ orkNameEditPart$2$1.class
+SHA1-Digest: wvsV7AOEpHFiqnYCEthAkXgb7Dw=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/FinalStateSt
+ ereotypeEditPart$1.class
+SHA1-Digest: /PmVf/T3KNqJy+Cya9bvij7anms=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateJ
+ unctionNameEditPart$3.class
+SHA1-Digest: FJmv7mzoS5vh7otW2FP0DF0LiXM=
+
+Name: org/eclipse/papyrus/diagram/statemachine/navigator/UMLDomainNavi
+ gatorLabelProvider.class
+SHA1-Digest: yxGt+XDJDfc7ORw7n6flwJLaXEQ=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/commands/CustomS
+ tateMachineWithDefaultRegionCreateNodeCommand.class
+SHA1-Digest: U+FN5mhdge5jv6rvTPbDEtprRag=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/policies/CustomS
+ tateCompartmentCreationEditPolicy.class
+SHA1-Digest: 6slUCX9vCagUCTtNQ+9aR0PqqJ0=
+
+Name: org/eclipse/papyrus/diagram/statemachine/part/UMLCreationWizard$
+ 1.class
+SHA1-Digest: OAuhP9EJYOToObJCTyxZywB8cLA=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateS
+ hallowHistoryNameEditPart$1.class
+SHA1-Digest: j7WyMAhDPRUJ63h5wMQ4qBQ80Gg=
+
+Name: org/eclipse/papyrus/diagram/statemachine/preferences/StateMachin
+ ePreferencePage.class
+SHA1-Digest: hxLv8J2Wg5FEi87L0BmO4/SCJiA=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/Generalizati
+ onStereotypeEditPart$2$1.class
+SHA1-Digest: 3U/tpb07/BfQpqufFTRwNjCxz7k=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateF
+ orkEditPart$1$1.class
+SHA1-Digest: k4EY2ZmlB8NAoDzgnDm72LN1/UE=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/StateEditPar
+ t.class
+SHA1-Digest: dHpjQpSNgUN+CWyushhR+qLxcTw=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/helpers/StateMachi
+ neEditHelper.class
+SHA1-Digest: UHpbhxUJu4DslkC8eCQKzc5Y2tU=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateE
+ ntryPointStereotypeEditPart$3.class
+SHA1-Digest: CHdUDVEHEMAPerE9dJB3ljEMVNI=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateD
+ eepHistoryNameEditPart$1.class
+SHA1-Digest: bZaY6Iztfxkfn7dII+M8DXuHxKU=
+
+Name: org/eclipse/papyrus/diagram/statemachine/preferences/DiagramConn
+ ectionsPreferencePage.class
+SHA1-Digest: HAti9wuL8NUAH/qyQFkiY5lhIUA=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/TransitionSt
+ ereotypeEditPart$1.class
+SHA1-Digest: /hrq72ydTuCSl6ZeJDvS0RDMmfU=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateE
+ ntryPointNameEditPart.class
+SHA1-Digest: BoOHgAdUZZXKrL1sj70Oni3j8n4=
+
+Name: org/eclipse/papyrus/diagram/statemachine/part/Messages.class
+SHA1-Digest: Gjx70sIPhz6Q2Tqn7kx2l+Rk/qk=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateE
+ xitPointNameEditPart$1.class
+SHA1-Digest: 18KR4LiMfBXfERG4gBZl0FjN3Zo=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/StateEditPar
+ t$1.class
+SHA1-Digest: GjUDb6lVtBdZiffeSM+z2E7Plyc=
+
+Name: org/eclipse/papyrus/diagram/statemachine/CreateStateMachineDiagr
+ amCommand.class
+SHA1-Digest: 8NsChT52zyAD2hZJtIe5dcjBZ2s=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/UMLEditPartF
+ actory.class
+SHA1-Digest: CZBq8vYxXq5FgyIvqycKnuql13w=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/figures/Pseudost
+ ateJunctionFigure.class
+SHA1-Digest: 6vLcIAPdVDCfizz10o6Z66c1DiQ=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/commands/Generaliz
+ ationCreateCommand.class
+SHA1-Digest: UR1/AH8lxMHjjsUaIAcNp8wep7E=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/edit/part/Custom
+ StateNameEditPart.class
+SHA1-Digest: GRFrupxycWCklhvIa7wRY2JH1IY=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateE
+ xitPointNameEditPart$2$1.class
+SHA1-Digest: PIxODm3+8/OrWC/ve2QN6IMtDWY=
+
+Name: org/eclipse/papyrus/diagram/statemachine/preferences/ConnectionP
+ ointReferencePreferencePage.class
+SHA1-Digest: 1UtwQPFeIljsU2X4ojBOiVlt9ZE=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/edit/part/Custom
+ FinalStateEditPart.class
+SHA1-Digest: QS2FAa+Ie393EnTv/Gh/agCmfC8=
+
+Name: org/eclipse/papyrus/diagram/statemachine/navigator/UMLNavigatorA
+ ctionProvider$OpenDiagramAction.class
+SHA1-Digest: S+gxFIsNxC5r13dtCqL7NclzxDU=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/commands/CustomS
+ tateResizeCommand.class
+SHA1-Digest: EGjzC8NFyCLHPc2PZyXVaRTDnWc=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/ConnectionPo
+ intReferenceNameEditPart$2.class
+SHA1-Digest: /2l1I3QlNMpJda8sO2hshbQNfVE=
+
+Name: org/eclipse/papyrus/diagram/statemachine/part/UMLDocumentProvide
+ r$ResourceSetInfo.class
+SHA1-Digest: +jYcsZEaQp+SmebdgJmC0/E80qs=
+
+Name: org/eclipse/papyrus/diagram/statemachine/navigator/UMLNavigatorA
+ ctionProvider.class
+SHA1-Digest: VSvMWXHFuKKybYpnKTwIzFBQOvU=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/edit/part/Custom
+ StateCompartmentEditPart.class
+SHA1-Digest: UO3a+oIyqIaTQl3oVIWPmK4bBho=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/edit/part/Custom
+ RegionCompartmentEditPart$2.class
+SHA1-Digest: fDjlvx9YRpW2/Apfm5ITmoadhow=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateE
+ xitPointEditPart$1$1.class
+SHA1-Digest: 9xKPgeYZsb2MQGTsNw9uLHShUDI=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/Generalizati
+ onStereotypeEditPart$2.class
+SHA1-Digest: ewoCzf28anCagJxs1mRviF2tYkY=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateF
+ orkEditPart$1.class
+SHA1-Digest: K9woZKmB9vnW99JPyoCANX23R4c=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/policies/Pseudosta
+ teChoiceItemSemanticEditPolicy.class
+SHA1-Digest: 1Hyv5BTMAIWHD8NShARIbPYVFtQ=
+
+Name: org/eclipse/papyrus/diagram/statemachine/part/UMLDiagramUpdater.
+ class
+SHA1-Digest: Fx9sTYGjlulAHwvqhvEummKeaCg=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateJ
+ unctionEditPart.class
+SHA1-Digest: aKxWsxAFhl8FaCryUT8dwXGcdAM=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/StateNameEdi
+ tPart$3.class
+SHA1-Digest: sPLjYvs/nTFolo5B3gQ3ngNdNLs=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateC
+ hoiceNameEditPart$5.class
+SHA1-Digest: lCfdpPpDICk9oeKTC7j2SD3EnN8=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/commands/CustomR
+ egionDestroyElementCommand.class
+SHA1-Digest: 71H9MTH0B9FDFRK3eCZ8sO1c1YQ=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateI
+ nitialNameEditPart$5.class
+SHA1-Digest: SOmOcmZ3aNWq6ZsRShpX0eCLAZ4=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateF
+ orkStereotypeEditPart$2.class
+SHA1-Digest: GhaDsqeRWaOzZdgRfLEAThgivQQ=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateJ
+ oinNameEditPart$1.class
+SHA1-Digest: pu9xSS+AWpuRWx3kMuDn3NC7fZw=
+
+Name: org/eclipse/papyrus/diagram/statemachine/navigator/UMLDomainNavi
+ gatorContentProvider$2.class
+SHA1-Digest: PLFgD9Vxq8ZSbkSE4RHkarG40EM=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/ConnectionPo
+ intReferenceStereotypeEditPart$4.class
+SHA1-Digest: 34CjvQAmwg3bjXkSIIaXFyHlYOs=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateJ
+ unctionStereotypeEditPart$2.class
+SHA1-Digest: sfJMLHPJLbWJJ2qKkSARNocIsuU=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/commands/Pseudosta
+ teJoinCreateCommand.class
+SHA1-Digest: iqwJxL3TKWEH6MhIKXQ1Nj75uVA=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateT
+ erminateNameEditPart$3.class
+SHA1-Digest: agqt8LL0UoXHlpU4vCKVjTYt89U=
+
+Name: org/eclipse/papyrus/diagram/statemachine/navigator/UMLNavigatorC
+ ontentProvider$1.class
+SHA1-Digest: 8utJACsht3fFJWNUj0tIYohdbV0=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/helpers/Transition
+ EditHelper.class
+SHA1-Digest: uG6VJuqJfNfgn0vT06JAZnGOwbM=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/helpers/StateEditH
+ elper.class
+SHA1-Digest: V0FBVAX2bJbiqmN3mZx6B9geEQw=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/figures/Pseudost
+ ateChoiceFigure.class
+SHA1-Digest: s8KPoPO3njOjygudnye/XKdinHc=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateE
+ xitPointEditPart$1.class
+SHA1-Digest: LmHHviTmZPKQKiL7A5QuVMhiLiM=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/FinalStateSt
+ ereotypeEditPart.class
+SHA1-Digest: 7BMzmM+5rGD/iiqxyPCz6BHtPKM=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateC
+ hoiceStereotypeEditPart$2.class
+SHA1-Digest: kfJzg6rj/ffw+T20Rs3Nd7k1T5s=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/commands/UMLReorie
+ ntConnectionViewCommand.class
+SHA1-Digest: yc7wI+OJcMlI4cinLfqXEDqZfg4=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateS
+ hallowHistoryStereotypeEditPart$4.class
+SHA1-Digest: e8PttLmjx+JEk1VD5ypeMiRwKdQ=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/policies/CustomR
+ egionResizableEditPolicy.class
+SHA1-Digest: eQtgd/YZZVYoqS59GaAw+sv1a/I=
+
+Name: org/eclipse/papyrus/diagram/statemachine/parsers/MessageFormatPa
+ rser.class
+SHA1-Digest: m0I4WoUg41TCh3qa6EebyzRc9yE=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/commands/StateCrea
+ teCommand.class
+SHA1-Digest: yzpSqrw9cFqPTOQgn6gvVBJEoyE=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/TransitionNa
+ meEditPart$5.class
+SHA1-Digest: 0JV7CgWbCBa5hBUg0ATBFeyGkLE=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/StateNameEdi
+ tPart.class
+SHA1-Digest: 0qKewHH50tf00iJgROmCLSTwQl0=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/edit/part/Custom
+ TransitionGuardEditPart.class
+SHA1-Digest: UpJjvhpB01IDqTCDoB9c49DPlC8=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateJ
+ oinStereotypeEditPart$5.class
+SHA1-Digest: KEzjJ6cevlmUf8S9hjZgydtYKOA=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/policies/UMLTextNo
+ nResizableEditPolicy$2.class
+SHA1-Digest: QxE8NUM0Egx30Fu1s9dekI8/wRI=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateE
+ xitPointStereotypeEditPart$2.class
+SHA1-Digest: CWT/UOF0vxUpqlKsebRrE6WB6xg=
+
+Name: org/eclipse/papyrus/diagram/statemachine/part/UMLDiagramEditor$1
+ .class
+SHA1-Digest: TOVPvbzudkxQ89heci02srHt7fE=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/policies/StateComp
+ artmentCanonicalEditPolicy.class
+SHA1-Digest: PTTEHsemtSYJbSPM/uXMRddpIMQ=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateE
+ ntryPointEditPart$1$1.class
+SHA1-Digest: IQShNO2vsPtS1jOAu/1Ym54T+IQ=
+
+Name: org/eclipse/papyrus/diagram/statemachine/part/UMLDocumentProvide
+ r$ResourceSetInfo$SynchronizerDelegate$3.class
+SHA1-Digest: +Pg5ecWPHYMqovbueliufZvrbCM=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/figures/Pseudost
+ ateEntryPointFigure.class
+SHA1-Digest: /RDwFGh7X5GEhyh5zsVBaqq/i9c=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/helpers/StateMac
+ hineLinkMappingHelper$SingletonHolder.class
+SHA1-Digest: /JEKBjeBHW0fUVfoy4cMWVRpFUs=
+
+Name: org/eclipse/papyrus/diagram/statemachine/preferences/DiagramPrin
+ tingPreferencePage.class
+SHA1-Digest: EMFrDQ7D2+iqDhcL7Mr1wRgQe0I=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/StateMachine
+ NameEditPart$2.class
+SHA1-Digest: aFNML5TWqz0d+QGEk+INUWH2DBk=
+
+Name: org/eclipse/papyrus/diagram/statemachine/part/UMLLinkDescriptor.
+ class
+SHA1-Digest: xZmjk3rrjPLTtzYXPaobONejLLs=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/helpers/Generaliza
+ tionEditHelper.class
+SHA1-Digest: +p2Pxb+IbKYC4sbYMuMRsQ0mXq8=
+
+Name: org/eclipse/papyrus/diagram/statemachine/preferences/StatePrefer
+ encePage.class
+SHA1-Digest: 0KLCV7hpXnvh3UlaWw2WNAzQywY=
+
+Name: org/eclipse/papyrus/diagram/statemachine/part/UMLDiagramEditor$2
+ $2.class
+SHA1-Digest: 9aZ6ZcecvviOp0/9Cg5Mge0k6bg=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateS
+ hallowHistoryNameEditPart$2$1.class
+SHA1-Digest: 7khYdTavxvaj8q8ug3LudcZcRfI=
+
+Name: org/eclipse/papyrus/diagram/statemachine/part/UMLMatchingStrateg
+ y.class
+SHA1-Digest: KzVSjwElX2efKpZUNVTk3IAAHvg=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/TransitionGu
+ ardEditPart$5.class
+SHA1-Digest: cYGKNapEUuN7vB4yluMBE1nxLes=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/Generalizati
+ onEditPart.class
+SHA1-Digest: eY701saGMr6Ull7kkpsRvrH6oQo=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateI
+ nitialEditPart$1.class
+SHA1-Digest: PdU5ZbeKaYHXwk0M1QOu2FOHpko=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/TransitionNa
+ meEditPart.class
+SHA1-Digest: aJCJl/QUjst80X2lqX7yOMlM7LM=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateE
+ ntryPointNameEditPart$2.class
+SHA1-Digest: fps2Wyacx0EdaF4SaZGv76qacZc=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateJ
+ oinEditPart$1.class
+SHA1-Digest: A5B2QYDeWr4uw2J4pZet4yyfd+k=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/figures/Transiti
+ onFigure.class
+SHA1-Digest: R/6wseNpx+FXmae8Nc9DxbkIfqI=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/figures/Connecti
+ onPointReferenceFigure.class
+SHA1-Digest: 7Fr0N+loOXgmk9DCi0Uz6FnqAMg=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/helpers/Connection
+ PointReferenceEditHelper.class
+SHA1-Digest: tmK/MN/HddGz0s4h83Wwk8Gr2bg=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/policies/CustomR
+ egionCompartmentXYLayoutEditPolicy$1.class
+SHA1-Digest: /P0IqMaUq2eJkU/vjG7b7X3GHNw=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/policies/PackageIt
+ emSemanticEditPolicy$DuplicateAnythingCommand.class
+SHA1-Digest: po/PFHgmj+hZR484kQtpg34Zu+A=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateI
+ nitialStereotypeEditPart$4.class
+SHA1-Digest: IU1K34nH6qklhfbysE/UYdpIQF4=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateD
+ eepHistoryStereotypeEditPart$1.class
+SHA1-Digest: bit11uOm8ZvI7OeusDAZpuz9L4g=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/commands/CustomS
+ tateMachineSetBoundsCommand.class
+SHA1-Digest: w81KKrM87QNmUfQaIc73ZsNC83Q=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/edit/part/Custom
+ ConnectionPointReferenceNameEditPart.class
+SHA1-Digest: U6dYgmSTHpxo6b0gAIS65b/RWDM=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateJ
+ unctionNameEditPart$2.class
+SHA1-Digest: w8uBznPJDj3a04u+ifra4/Na2Rg=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/UMLEditPartF
+ actory$LabelCellEditorLocator.class
+SHA1-Digest: pvTtrf5FypTXO51jD5TDthwlPCI=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateI
+ nitialStereotypeEditPart$2$1.class
+SHA1-Digest: CgPUQhrfpmPqXDuoSRnBUqP7jpo=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/policies/UMLBaseIt
+ emSemanticEditPolicy$LinkConstraints.class
+SHA1-Digest: UwN1Qfe0i9hnSQgzI2IusCM/OeI=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateE
+ ntryPointStereotypeEditPart$2.class
+SHA1-Digest: KRw89JCY6kP0vlcFkD5b7+w5yAw=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/figures/RoundedS
+ hadowBorder.class
+SHA1-Digest: aSsZ7Jl1o6FWX/oGIh6I3aw8icc=
+
+Name: org/eclipse/papyrus/diagram/statemachine/parsers/AbstractParser.
+ class
+SHA1-Digest: fHYcQ4/ub4kSgZADpm/1HubkYZA=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/commands/Pseudosta
+ teEntryPointCreateCommand.class
+SHA1-Digest: 4lHFRr2JB5tpVrWKgOonfZqgdEA=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateT
+ erminateStereotypeEditPart$5.class
+SHA1-Digest: qwExlhavNWNVvFULFp4FXGuyrjo=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/FinalStateNa
+ meEditPart$5.class
+SHA1-Digest: TTPQTFqh9MMheft77DYMrIA/65c=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateE
+ ntryPointStereotypeEditPart$2$1.class
+SHA1-Digest: /Vb4QeeUdR6v1I6PhgZR/7/uqXs=
+
+Name: org/eclipse/papyrus/diagram/statemachine/preferences/DiagramPref
+ erenceInitializer.class
+SHA1-Digest: e6R0JDDtUPPqFv1+RuFixQ5M/Nc=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/FinalStateNa
+ meEditPart$2$1.class
+SHA1-Digest: M8H70TIKfiA/tQfJ9tLdy6BlpA4=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/TransitionSt
+ ereotypeEditPart$2$1.class
+SHA1-Digest: nAZVUeyPvi35Xjq3Ve/tW0q9SBc=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateI
+ nitialStereotypeEditPart.class
+SHA1-Digest: l9Zb8doigxEMETbMV8XiYvbx7gU=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/policies/RegionCom
+ partmentItemSemanticEditPolicy.class
+SHA1-Digest: Bpyvb3q4Yq+o+Je6c2qX+5+lwr4=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/figures/StateFig
+ ure.class
+SHA1-Digest: pDEm36K6KoRptsTnN2+LbkO/204=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateF
+ orkNameEditPart$5.class
+SHA1-Digest: 7KiVy/YQC+fTuExhf5WypP53FoQ=
+
+Name: org/eclipse/papyrus/diagram/statemachine/providers/UMLViewProvid
+ er.class
+SHA1-Digest: M2lxHTmLch5l2VQgH3by7x4ZFwk=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/ConnectionPo
+ intReferenceNameEditPart$1.class
+SHA1-Digest: rIZibHRLr9fdw6ozdvxgTqhpvYo=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/edit/part/Custom
+ RegionCompartmentEditPart$1.class
+SHA1-Digest: WjFB6+84+t5TaBvUYTwTNALu5rk=
+
+Name: org/eclipse/papyrus/diagram/statemachine/part/LoadResourceAction
+ .class
+SHA1-Digest: dHAOR02J9KgURpto143ac3yqhzU=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/commands/CustomS
+ tateMachineResizeCommand.class
+SHA1-Digest: 6QO55L7KPNx0w5z3Gjgqo26hjzQ=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/parts/RegionComp
+ artmentDiagramUpdater.class
+SHA1-Digest: 7KzcvITOJmIlglR0bnRcrSigh2w=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/Generalizati
+ onStereotypeEditPart$1.class
+SHA1-Digest: vl2XBpnKLZOTFKrPbhmXhE9NxaU=
+
+Name: org/eclipse/papyrus/diagram/statemachine/sheet/UMLPropertySectio
+ n.class
+SHA1-Digest: pulh3vc6OEMlUMnBNVaBmYA3gTk=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/FinalStateSt
+ ereotypeEditPart$5.class
+SHA1-Digest: u4mBtqfAp3Ij4gpK1BEh3MPMUic=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateT
+ erminateStereotypeEditPart.class
+SHA1-Digest: 3yXK4ei+cuwpCYypAcY0Gnmn51M=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/StateNameEdi
+ tPart$2.class
+SHA1-Digest: Fz6y8LM9Q3pqfDwa5xBBaTPlpPI=
+
+Name: .options
+SHA1-Digest: wcVjolNyLuFnW3+PhFqKpkw2TB4=
+
+Name: org/eclipse/papyrus/diagram/statemachine/part/ValidateAction$3.c
+ lass
+SHA1-Digest: q7Zfg1H89IIaP6qZrZsuAzdjcfQ=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/figures/StateMac
+ hineFigure.class
+SHA1-Digest: UpD5u8wDjVRV5CGoEP6f08Y7Byk=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateJ
+ unctionNameEditPart$2$1.class
+SHA1-Digest: b7wg9vL+vAJmfZsW+02X5ZVboz4=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateC
+ hoiceNameEditPart$4.class
+SHA1-Digest: 4nhYVlNSSfLFmGU9fr4ULBDmcGk=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateS
+ hallowHistoryNameEditPart$5.class
+SHA1-Digest: zfAG613vz9c4lJ04G349mDnX5ls=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateI
+ nitialNameEditPart$4.class
+SHA1-Digest: 4myG1JfY5ZwWb3jAU5dc2V3EBbQ=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateF
+ orkStereotypeEditPart$1.class
+SHA1-Digest: ndSQLStOWf97Dn77piBv7RFQbM0=
+
+Name: org/eclipse/papyrus/diagram/statemachine/navigator/UMLDomainNavi
+ gatorContentProvider$1.class
+SHA1-Digest: htcMur1CHUnI8ylEVvuTHQaTuAU=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateD
+ eepHistoryNameEditPart$5.class
+SHA1-Digest: /CKU2YMhuNc9A6WjHX9hSjW+V9U=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/TransitionSt
+ ereotypeEditPart$5.class
+SHA1-Digest: 6rqWQNzVviOGyQgP/qSryJN4EBw=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/ConnectionPo
+ intReferenceStereotypeEditPart$3.class
+SHA1-Digest: qUSJ9Lsd3JBEs156c9GnUWK+bE0=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateE
+ xitPointNameEditPart$5.class
+SHA1-Digest: EqtDpHoYP7Qm53i9NXC5b5uihoU=
+
+Name: org/eclipse/papyrus/diagram/statemachine/navigator/UMLNavigatorC
+ ontentProvider.class
+SHA1-Digest: YNA2MydlFM+gPPFMcWgJuiA83Y8=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/helpers/UMLBaseEdi
+ tHelper.class
+SHA1-Digest: Ub4+W4IoR/1u2YkApEOVkQZj6Ek=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateJ
+ unctionStereotypeEditPart$1.class
+SHA1-Digest: OtuOiuzD6e+g3AQj/yh9lYbBpeY=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/commands/Connectio
+ nPointReferenceCreateCommand.class
+SHA1-Digest: LZIULM+fZzmoI7dpJwxNk3S/SUk=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/StateMachine
+ EditPart$1.class
+SHA1-Digest: FlQ/iKuKJ+eGnZWbzx0vOzX1Jsg=
+
+Name: plugin.properties
+SHA1-Digest: 4WMvokf0I5lXtzXBr9zWkKDl4c0=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/commands/StateMach
+ ineCreateCommand.class
+SHA1-Digest: 31b2+jKMXOoDZLbMEU+xagu8+Fc=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/edit/part/Custom
+ RegionEditPart.class
+SHA1-Digest: CHDaNLvUVzruRXdkBE0sWH28lxY=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateT
+ erminateNameEditPart$2.class
+SHA1-Digest: tRh51axeMJBQMZb7h5rjswDycmA=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateC
+ hoiceStereotypeEditPart$1.class
+SHA1-Digest: n22JMAh1RtEn1lYE8ont+thUtwM=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateS
+ hallowHistoryStereotypeEditPart$3.class
+SHA1-Digest: FvFPawEKe+V7hjEPAnxS4HP7SVY=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/policies/StateMach
+ ineCanonicalEditPolicy.class
+SHA1-Digest: aPLZe176OeZfsvJk44nxWCo9Z+s=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateF
+ orkEditPart.class
+SHA1-Digest: xrvqbo9vLJaIJ8LprpHa375bGdA=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/TransitionNa
+ meEditPart$4.class
+SHA1-Digest: esK95+uwxaN+QHNRleBlYtNkhnM=
+
+Name: plugin.xml
+SHA1-Digest: ndDt2cQKK4qFXmyleSn9Ybj6pSQ=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PackageEditP
+ art$NodeLabelDragPolicy.class
+SHA1-Digest: u/unXsOBJywfwcUGMoMTtDpNEX0=
+
+Name: org/eclipse/papyrus/diagram/statemachine/part/UMLDocumentProvide
+ r.class
+SHA1-Digest: 2n5iBHG0eZe0TQuYTzHIkZsESaU=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/TransitionEd
+ itPart.class
+SHA1-Digest: ETMuGSYJeZ7dk7H804GEMycQhks=
+
+Name: org/eclipse/papyrus/diagram/statemachine/part/UMLDocumentProvide
+ r$ResourceSetInfo$SynchronizerDelegate.class
+SHA1-Digest: ihVxY48XzIgVbTblYLaGfnsZBAM=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateJ
+ oinStereotypeEditPart$4.class
+SHA1-Digest: kqxG4YSWtpbztpsncW7lXOLjM7Y=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/policies/UMLTextNo
+ nResizableEditPolicy$1.class
+SHA1-Digest: d4TWSPtkOvw3i9zH5zcNxXth51M=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/commands/Pseudosta
+ teExitPointCreateCommand.class
+SHA1-Digest: 4TRVPpr/RHLJl3HGD5oXpa0yq6U=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateE
+ xitPointStereotypeEditPart$1.class
+SHA1-Digest: Vpz4d32EBaGTME1yaOU4Tk/FtdE=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateD
+ eepHistoryNameEditPart.class
+SHA1-Digest: 3mYTTdBKR5EG9fERN7vRhtRm0/4=
+
+Name: org/eclipse/papyrus/diagram/statemachine/part/UMLDocumentProvide
+ r$ResourceSetInfo$SynchronizerDelegate$2.class
+SHA1-Digest: htFrsR+4qEezD9cFcVwptO3fUYY=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/commands/CustomP
+ seudostateEntryPointCreateCommand.class
+SHA1-Digest: fBUC9Oe36Q9WSiJ/5fzaSnEKXg0=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/parsers/Transiti
+ onPropertiesParser$1$1.class
+SHA1-Digest: a8ZJc+d4xBczYXe4s7QfLtO8ONU=
+
+Name: org/eclipse/papyrus/diagram/statemachine/navigator/UMLAbstractNa
+ vigatorItem$2.class
+SHA1-Digest: Ub5OfLA4zwaADVWhrX8y9AU02Q0=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/StateMachine
+ NameEditPart$1.class
+SHA1-Digest: e6p9aLajoqlDln5SOQC4ZnKFJs0=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/listeners/DropTa
+ rgetListener.class
+SHA1-Digest: Q/LW0SqmpJEyQeH2hcwTxcPFIjU=
+
+Name: org/eclipse/papyrus/diagram/statemachine/part/UMLDiagramEditor$2
+ $1.class
+SHA1-Digest: D/otm4CccxPWjI1AVGpfM6YXp5g=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateJ
+ oinNameEditPart$5.class
+SHA1-Digest: fieSZLkWSJZNw3+kpytsogUyJW0=
+
+Name: org/eclipse/papyrus/diagram/statemachine/UmlStateMachineDiagramF
+ orMultiEditor.class
+SHA1-Digest: 5ACQVPgwdIkUsCA39ylr3j7C5cc=
+
+Name: org/eclipse/papyrus/diagram/statemachine/sheet/UMLSheetLabelProv
+ ider.class
+SHA1-Digest: VAvCKsd0NJhgR/xes9fWkaZJ7xY=
+
+Name: org/eclipse/papyrus/diagram/statemachine/navigator/UMLNavigatorL
+ abelProvider.class
+SHA1-Digest: 2mIwDB+J1bxoiW7w0eObEbPChgo=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateT
+ erminateNameEditPart.class
+SHA1-Digest: 3VoAUH9tpjUBXSFiIEMhoI+wmvU=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/TransitionGu
+ ardEditPart$4.class
+SHA1-Digest: h8GhVY9c//xY2HEVzX3OiPBLyCw=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/policies/Pseudosta
+ teEntryPointItemSemanticEditPolicy.class
+SHA1-Digest: ljdREi1th95QuLmkfNt/wx0w0EI=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateE
+ xitPointEditPart.class
+SHA1-Digest: ZG0rGgWDVGTf5L1wfsnwpNWKKEg=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateE
+ ntryPointNameEditPart$1.class
+SHA1-Digest: Ish7xcVflaKHnGaQSvUem7riUwg=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/edit/part/Custom
+ StateMachineEditPart.class
+SHA1-Digest: 6KoyP0CFDOtAQIkdG1ejVGt0mY4=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/commands/CustomR
+ egionCreateElementCommand.class
+SHA1-Digest: suHL8UsHf2mNuddpXHQCn7q2GIw=
+
+Name: messages.properties
+SHA1-Digest: /nmWBgaXCg8UIZlcvvF4bsE4Y5Y=
+
+Name: org/eclipse/papyrus/diagram/statemachine/part/UMLInitDiagramFile
+ Action.class
+SHA1-Digest: r7Z23n2fmqf0sVexAf6a57yYNLA=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/policies/Pseudosta
+ teJunctionItemSemanticEditPolicy.class
+SHA1-Digest: jC+sSmU3AHreyH7X8CQ6g93VB04=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateI
+ nitialStereotypeEditPart$3.class
+SHA1-Digest: s5xq6QRhMDSbSDG/P9GC+oxcf6U=
+
+Name: org/eclipse/papyrus/diagram/statemachine/part/ValidateAction.cla
+ ss
+SHA1-Digest: sxl2YoC7Q+f9P/0b5z5aOCqyo+Y=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateJ
+ unctionNameEditPart$1.class
+SHA1-Digest: 1aiIp+S2pHQwnmnoLFQDCI1QPio=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateS
+ hallowHistoryStereotypeEditPart$2$1.class
+SHA1-Digest: 51vJ8zy3r694RPfUROSTeielID4=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/parsers/Transiti
+ onPropertiesParser$1.class
+SHA1-Digest: FN1NMiyVAIPrM/nIDmJBzoG5/Xs=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/policies/UMLTextSe
+ lectionEditPolicy$2.class
+SHA1-Digest: eI7t8N3uY2ZGFhH2UK0OgCLf6rw=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateD
+ eepHistoryStereotypeEditPart$2$1.class
+SHA1-Digest: gduC+HOteloAdwckw7b0vbob2aQ=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateE
+ ntryPointStereotypeEditPart$1.class
+SHA1-Digest: 2rmGV0xN00AlR/beLDqNuB9VCoY=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/commands/Pseudosta
+ teTerminateCreateCommand.class
+SHA1-Digest: Zr9Us6sN9txXolPp8SP1FhuSn6E=
+
+Name: org/eclipse/papyrus/diagram/statemachine/part/UMLNewDiagramFileW
+ izard$1.class
+SHA1-Digest: uBLK8O30c1l5t8zY2/UMCDaUUdM=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateT
+ erminateStereotypeEditPart$4.class
+SHA1-Digest: E5g9O+S3i4P/VzdKBLFjUi69LOk=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/FinalStateNa
+ meEditPart$4.class
+SHA1-Digest: FTgnzDppiMDR4Oai7bxoKcl6W48=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/providers/Custom
+ UMLEditPartProvider.class
+SHA1-Digest: QN3k/+S0WfAQY7FdSV4hnoMjAeE=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/policies/FinalStat
+ eItemSemanticEditPolicy.class
+SHA1-Digest: TfNmE5YLa0hBtMkiVXo5AEseUnw=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/helpers/PackageEdi
+ tHelper.class
+SHA1-Digest: SV1f6+IwhkzuDrB9MBBzsCFtO/E=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/commands/RegionCre
+ ateCommand.class
+SHA1-Digest: ZmQ+y2C/LcgTAjlgcdBL/AKDnaY=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateF
+ orkNameEditPart$4.class
+SHA1-Digest: ayD/A6IUbx0SF6us/0oxjmXBcao=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/commands/CustomC
+ onnectionPointReferenceCreateCommand.class
+SHA1-Digest: Mddc/C7P9ZraCjgEGJixDrl0e+g=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateJ
+ unctionNameEditPart.class
+SHA1-Digest: TKMJVGNUTYFoycSwoQZSAFtot4M=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/Generalizati
+ onStereotypeEditPart.class
+SHA1-Digest: HRCpqHx3pPW6CKXz8tH2CwOr0AE=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateD
+ eepHistoryEditPart$1$1.class
+SHA1-Digest: jLXSUO5JalALFiWpDwlwlTqgUFg=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/figures/StateFig
+ ure$1.class
+SHA1-Digest: DS80W0mdlb+pc4n0XJYCUVv7a+U=
+
+Name: org/eclipse/papyrus/diagram/statemachine/navigator/UMLNavigatorS
+ orter.class
+SHA1-Digest: nW1F5FysU9oLEabA8COP6obNRpc=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateD
+ eepHistoryStereotypeEditPart$5.class
+SHA1-Digest: 99kNkFixN4uiyrsDU3XS7ref0J8=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/ConnectionPo
+ intReferenceEditPart.class
+SHA1-Digest: KMp6liU9axCcF8RyA2wT+q9OKeg=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/policies/StateItem
+ SemanticEditPolicy.class
+SHA1-Digest: cljXdT475YUbISx5IXDRoMHuC/Q=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateT
+ erminateEditPart$1.class
+SHA1-Digest: Y9eWfewph87AgeTXl1rRgDBKSrE=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/FinalStateSt
+ ereotypeEditPart$4.class
+SHA1-Digest: uLXMoHnmkuTyvJEZKflc9y9gBFQ=
+
+Name: org/eclipse/papyrus/diagram/statemachine/part/UMLVisualIDRegistr
+ y.class
+SHA1-Digest: VvyZL4w6MIx7Yogm0wX2q/LCPZg=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/StateNameEdi
+ tPart$1.class
+SHA1-Digest: UT6wfw4rkcsygEGwmympaEmRgUs=
+
+Name: org/eclipse/papyrus/diagram/statemachine/part/ValidateAction$2.c
+ lass
+SHA1-Digest: GaS/gbIdBQ81mV3N182mlHB36hc=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/commands/CustomP
+ seudostateExitPointCreateCommand.class
+SHA1-Digest: BhfHuGjIOMg6A4dYF/IkpXc1Dv0=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateC
+ hoiceNameEditPart$3.class
+SHA1-Digest: th8+HQGNxz//ILrtUxB7Blpz/Tg=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateS
+ hallowHistoryNameEditPart$4.class
+SHA1-Digest: GYA/GsPC/kx+JwAN6sFnYZf4TyE=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateT
+ erminateEditPart$1$1.class
+SHA1-Digest: HOowD91lqZcCQmtgaPx58gxO79I=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateI
+ nitialNameEditPart$3.class
+SHA1-Digest: /kK6r/H108+KsA57bRSpjYK6Qx0=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/commands/Pseudosta
+ teForkCreateCommand.class
+SHA1-Digest: q7fgxQ/mJnRhdTUJp7uZf56QGPI=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PackageEditP
+ art$2.class
+SHA1-Digest: b7DWb3YvbBIhE2+yQBQ1ZZqqyQA=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateD
+ eepHistoryNameEditPart$4.class
+SHA1-Digest: vnkWKe77o9XCUFFSqreMFcR+/Do=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/policies/RegionIte
+ mSemanticEditPolicy.class
+SHA1-Digest: pMxdbW5AeJpzFf8W6IjUh+N9n0Q=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateD
+ eepHistoryEditPart.class
+SHA1-Digest: Mfua/QI/AJoVbLqBZhR5VMUEoKA=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/figures/Pseudost
+ ateJoinForkFigure.class
+SHA1-Digest: 9cicWvMWMq462VxdxKAxoEvaOYQ=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/parsers/Transiti
+ onPropertiesParser$1$1$1.class
+SHA1-Digest: GUwgaDOXTSmHYVXTf2kajvayGPo=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/TransitionSt
+ ereotypeEditPart$4.class
+SHA1-Digest: VYusMk6NOvZWHcj6hqMWeL+9bzs=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/ConnectionPo
+ intReferenceStereotypeEditPart$2.class
+SHA1-Digest: 1zxwWHk3Y7e0/+UmkZgugLkBBTY=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateE
+ xitPointNameEditPart$4.class
+SHA1-Digest: pMHVIpw1ni3ZDsgZBhHoX2y8bnI=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/policies/StateMach
+ ineCompartmentCanonicalEditPolicy.class
+SHA1-Digest: F+r9MV66Kwy2MrYwO3Fh+MHiRcY=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/policies/Pseudosta
+ teForkItemSemanticEditPolicy.class
+SHA1-Digest: jsfqE/PIpZjItjp064Kneqs6SdY=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/policies/CustomS
+ tateMachineCompartmentXYLayoutEditPolicy.class
+SHA1-Digest: H0nfegb0LNL35oaYgv2zv3oOCfg=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateT
+ erminateNameEditPart$1.class
+SHA1-Digest: 6vjzKZ5rfYddr7mW3aCGLJgbW2M=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateS
+ hallowHistoryStereotypeEditPart$2.class
+SHA1-Digest: 4Z1MAvBBzm/PJHvamandxOt/oRQ=
+
+Name: org/eclipse/papyrus/diagram/statemachine/providers/ElementInitia
+ lizers.class
+SHA1-Digest: AwU/I+WnH6yQsikWExGK3xy82KQ=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/commands/Pseudosta
+ teShallowHistoryCreateCommand.class
+SHA1-Digest: ClxyKjDlVFz8K7u/418vflh0W20=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/TransitionNa
+ meEditPart$3.class
+SHA1-Digest: WEwG3iz5mlc8hLtP1IALyqKEuCE=
+
+Name: org/eclipse/papyrus/diagram/statemachine/part/UMLCreationWizard.
+ class
+SHA1-Digest: zOqXlOzR8o37HxFCmWoq1cwwMzk=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/ConnectionPo
+ intReferenceNameEditPart$5.class
+SHA1-Digest: x1RFNetxtVLVWxC37rXDlPUpfQc=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateJ
+ oinStereotypeEditPart$3.class
+SHA1-Digest: rQBHWC6ExYGtGIfB7OWgplnUp28=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/RegionCompar
+ tmentEditPart.class
+SHA1-Digest: li9r8CLilOxlFW53aiZUzByPNQA=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/commands/Pseudosta
+ teJunctionCreateCommand.class
+SHA1-Digest: qpSQhKmVkScGTvBJ2kzqaZUja10=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/TransitionNa
+ meEditPart$2$1.class
+SHA1-Digest: akN9nHYWPIvZRfsfnM5DbkW9Z0M=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/policies/Pseudosta
+ teShallowHistoryItemSemanticEditPolicy.class
+SHA1-Digest: QPdQ2u5ghTcCCz2QsWglsBvdcQY=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateE
+ ntryPointStereotypeEditPart.class
+SHA1-Digest: YMkq65zMkmlZ9SK25s9sbi5Opo0=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/Generalizati
+ onStereotypeEditPart$5.class
+SHA1-Digest: O/2ydZ9WRYOyKRp6OmeBxd0b+/Q=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/commands/FinalStat
+ eCreateCommand.class
+SHA1-Digest: V6p5pji9m16Wukk5+dlUj+TYWKs=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateJ
+ oinNameEditPart.class
+SHA1-Digest: xciDioBz0W4icX2/sK+yJbXIniU=
+
+Name: org/eclipse/papyrus/diagram/statemachine/part/UMLDocumentProvide
+ r$2.class
+SHA1-Digest: v2V0ZaEhiG0tRe0+k6y1W/tD46s=
+
+Name: org/eclipse/papyrus/diagram/statemachine/part/UMLDocumentProvide
+ r$ResourceSetInfo$SynchronizerDelegate$1.class
+SHA1-Digest: vP73f4ZCg/U6v1BBVXc+tnUcgMs=
+
+Name: org/eclipse/papyrus/diagram/statemachine/navigator/UMLAbstractNa
+ vigatorItem$1.class
+SHA1-Digest: 2NnD+ILL0or2l/wYnOky3/Z6J+U=
+
+Name: org/eclipse/papyrus/diagram/statemachine/navigator/UMLNavigatorI
+ tem$1.class
+SHA1-Digest: E4XZcZmjJ3NS5BMwk3jmeIxtD5Q=
+
+Name: org/eclipse/papyrus/diagram/statemachine/providers/UMLValidation
+ Provider$1.class
+SHA1-Digest: 0BG/DXKGBaARiAtB2llxB1TmDWw=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateI
+ nitialEditPart.class
+SHA1-Digest: 5PPHpy64wxuurXQcyuadTfljv1E=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateF
+ orkStereotypeEditPart$5.class
+SHA1-Digest: mXvQd32a6a6KnqObf3BQGMDGbqI=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateJ
+ oinNameEditPart$4.class
+SHA1-Digest: NDUa7uEMIBQubPjLUYtvmpaz3lM=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/figures/StateMac
+ hineFigure$1.class
+SHA1-Digest: pFEM2AJYtM+c4WGwfI9J+HW8YAU=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/RegionEditPa
+ rt.class
+SHA1-Digest: 9gcLcwl9G/IxnxC7GH3vJgY48mA=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/policies/StateMach
+ ineItemSemanticEditPolicy.class
+SHA1-Digest: sXALvNvG2n4GtQ7V8K7YyD9Sc2k=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/TransitionGu
+ ardEditPart$3.class
+SHA1-Digest: ckOK73KaduVJd0tEjqfW+DawfZs=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/FinalStateEd
+ itPart.class
+SHA1-Digest: eN4obUS5IlA3FIxrazf5Ec9tPA4=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateJ
+ unctionEditPart$1$1.class
+SHA1-Digest: j4JcVmi0zzAvCpOywqLV/0+7r8Y=
+
+Name: org/eclipse/papyrus/diagram/statemachine/providers/UMLModelingAs
+ sistantProvider.class
+SHA1-Digest: +cPNdETGxCqdzug2pYNdDDZ/sCQ=
+
+Name: org/eclipse/papyrus/diagram/statemachine/part/UMLLinkDescriptor$
+ 2.class
+SHA1-Digest: AzwIsA+2xhYyooZNoOJ4sk8gHYw=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/edit/part/Custom
+ StateMachineCompartmentEditPart.class
+SHA1-Digest: SEDCaohszjI5Xts2uvdLjnIVgwQ=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/commands/Generaliz
+ ationReorientCommand.class
+SHA1-Digest: EwHxhYjUek8y8uWaPbJyzVeIve8=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateJ
+ unctionStereotypeEditPart$5.class
+SHA1-Digest: PwAVKS0sVmo1C4WLhiA6+uq/6Ww=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/FinalStateEd
+ itPart$1.class
+SHA1-Digest: RIY2WnHz/5Nu63a2vN1XGrehqXc=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/policies/CustomS
+ tateCreationEditPolicy.class
+SHA1-Digest: 16Yrbuw/qZz1EHvoawdiCTno8oM=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/figures/Pseudost
+ ateShallowHistoryFigure.class
+SHA1-Digest: 6EzUAvRUlDfZcozum3kJFwFfsr0=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/policies/CustomP
+ ackageXYLayoutEditPolicy.class
+SHA1-Digest: ONUlzHbRTSxEjPjc2hINnk8/RBI=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/policies/CustomR
+ egionDragTracker.class
+SHA1-Digest: l5hJPQVg3XRDh0yiJLv3QXd3+5k=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateC
+ hoiceStereotypeEditPart$5.class
+SHA1-Digest: hUuNL1oLl79bXkU9N0i2ykCnRJU=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateI
+ nitialStereotypeEditPart$2.class
+SHA1-Digest: +7TA5A7t52aGjtq+REkDU5rUMUY=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateT
+ erminateNameEditPart$2$1.class
+SHA1-Digest: 76kN8YCOVQz/CYwf9ThzaRQAse0=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PackageEditP
+ art$LinkLabelDragPolicy.class
+SHA1-Digest: 1UOP8Fb+TyDC8NBM77Qnfh4ws4U=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/policies/UMLTextSe
+ lectionEditPolicy$1.class
+SHA1-Digest: tYcSFDu20Nl4rPQW+NbEQf5U/Cg=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateE
+ xitPointStereotypeEditPart$5.class
+SHA1-Digest: 30USGGtTaAlKF+v74WnfZO4Xx6s=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/policies/CustomS
+ tateItemSemanticEditPolicy.class
+SHA1-Digest: I1U2JCJyn1dnKsGdsvacEYyZXEg=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/figures/RegionFi
+ gure.class
+SHA1-Digest: TNngRZPiPc0dn2/dFnG628pBZak=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/ConnectionPo
+ intReferenceEditPart$1.class
+SHA1-Digest: +DNzcBCHOTwtu/h3IrQcrFP4C9s=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/figures/Pseudost
+ ateDeepHistoryFigure.class
+SHA1-Digest: bg0OKLFaSn9UaNJ5qZD8WTI2p88=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/preferences/Cust
+ omStatePreferencePage.class
+SHA1-Digest: DbHeSoPL1DGaFrw1rv842TsYoKs=
+
+Name: org/eclipse/papyrus/diagram/statemachine/part/UMLDiagramEditor$4
+ .class
+SHA1-Digest: CeB+kco54WvPyTED6TkiUHWAidE=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/policies/Pseudosta
+ teJoinItemSemanticEditPolicy.class
+SHA1-Digest: 2xdo6fOG1itCfGERnTboXqnkP8Y=
+
+Name: org/eclipse/papyrus/diagram/statemachine/custom/policies/CustomR
+ egionItemSemanticEditPolicy.class
+SHA1-Digest: LK3taznqsx3yPEDxM7uNVVwjV8I=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/PseudostateT
+ erminateStereotypeEditPart$3.class
+SHA1-Digest: pUeVaz9vOATfdgZUcjorYtyDkt8=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/StateMachine
+ NameEditPart$5.class
+SHA1-Digest: lrErYF+TEcro2Di37/rmPIxIiyE=
+
+Name: org/eclipse/papyrus/diagram/statemachine/edit/parts/FinalStateNa
+ meEditPart$3.class
+SHA1-Digest: 0whcliIUSkR1HRac86ayy/BcgCc=
+

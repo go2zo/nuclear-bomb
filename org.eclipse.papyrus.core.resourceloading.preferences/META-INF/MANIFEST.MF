@@ -1,0 +1,58 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.papyrus.core.resourceloading.preferen
+ ces;singleton:=true
+Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.7.0,4.0.0)
+ ",org.eclipse.jface;bundle-version="[3.7.0,4.0.0)",org.eclipse.ui;bun
+ dle-version="[3.7.0,4.0.0)",org.eclipse.papyrus.preferences;bundle-ve
+ rsion="[0.8.0,1.0.0)",org.eclipse.papyrus.core;bundle-version="[0.8.0
+ ,1.0.0)",org.eclipse.papyrus.core.resourceloading;bundle-version="0.8
+ .0"
+Bundle-Activator: org.eclipse.papyrus.core.resourceloading.preferences
+ .CorePlugin
+Bundle-Version: 0.8.0.v201106151827
+Export-Package: org.eclipse.papyrus.core.resourceloading.preferences
+Ant-Version: Apache Ant 1.7.1
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/papyrus/core/resourceloading/preferences/ICorePrefer
+ enceConstants.class
+SHA1-Digest: NXG9vFPHUXgdmYeZmC4fiqCtHAo=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/papyrus/core/resourceloading/preferences/StrategyCho
+ oser.class
+SHA1-Digest: /d3C7JCfqVfyFXzWonQHTM0sjw0=
+
+Name: org/eclipse/papyrus/core/resourceloading/preferences/CorePrefere
+ nceInitializer.class
+SHA1-Digest: GrrHTYOwvF+5FjJFslFE2NQ4knY=
+
+Name: org/eclipse/papyrus/core/resourceloading/preferences/LoadingStra
+ tegyPreferencePage.class
+SHA1-Digest: ghsteyb+xqsMU09fjlGtq0zg3Y0=
+
+Name: org/eclipse/papyrus/core/resourceloading/preferences/CorePlugin.
+ class
+SHA1-Digest: i5LRPXWjIlJFBYdNmBj3t6rVGXk=
+
+Name: plugin.xml
+SHA1-Digest: wdyaFbx9yPYkh2/CQP1KhmxiVl8=
+
+Name: about.html
+SHA1-Digest: a2Fk5/pDnCvlEfl7QwDZj/FCgFc=
+
+Name: plugin.properties
+SHA1-Digest: Fi0sYoSgPg1Z6ud+oSM+MRmXIqQ=
+
+Name: org/eclipse/papyrus/core/resourceloading/preferences/LoadinStrat
+ egyGroup.class
+SHA1-Digest: FnqW3ZBS510s68ZqkjpU/4FNK3I=
+

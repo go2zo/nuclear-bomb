@@ -1,0 +1,2100 @@
+Manifest-Version: 1.0
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.papyrus.uml.modelexplorer;singleton:=
+ true
+Bundle-Activator: org.eclipse.papyrus.uml.modelexplorer.Activator
+Require-Bundle: org.eclipse.ui;bundle-version="[3.7.0,4.0.0)",org.ecli
+ pse.core.runtime;bundle-version="[3.7.0,4.0.0)",org.eclipse.papyrus.m
+ odelexplorer;bundle-version="0.8.0",org.eclipse.ui.navigator;bundle-v
+ ersion="3.4.0",org.eclipse.emf.transaction;bundle-version="1.4.0",org
+ .eclipse.emf.facet.infra.query.core;bundle-version="0.1.0",org.eclips
+ e.uml2.uml.editor;bundle-version="3.1.0",org.eclipse.papyrus.uml.serv
+ ice.types;bundle-version="0.8.0",org.eclipse.papyrus.service.edit;bun
+ dle-version="0.8.0",org.eclipse.emf.facet.infra.facet;bundle-version=
+ "0.1.0",org.eclipse.emf.facet.infra.browser.uicore;bundle-version="0.
+ 1.0"
+Bundle-Version: 0.8.0.v201106151827
+Export-Package: org.eclipse.papyrus.uml.modelexplorer,org.eclipse.papy
+ rus.uml.modelexplorer.factory,org.eclipse.papyrus.uml.modelexplorer.q
+ ueries
+Ant-Version: Apache Ant 1.7.1
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/AddStructuralF
+ eatureValueActionHandler.class
+SHA1-Digest: xOeD1wihyuKrXD87y3yBLRi3TRA=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ControlFlowHan
+ dler.class
+SHA1-Digest: r5R4jTHG17cueJptDmLL6K1Itjo=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/CallActionHand
+ ler.class
+SHA1-Digest: 8mJucQ0hYbzAhNDGmF7R7nBnyzk=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ParameterHandl
+ er.class
+SHA1-Digest: ZzcgCaaDQov6LKl1XnyUi3tui7c=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/LifelineHandle
+ r.class
+SHA1-Digest: C7X147SOaLbwuQQnuxLWu8TaRHQ=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ReadExtentActionHa
+ ndler.class
+SHA1-Digest: KO4iXfcnFaOwj/bL42XJK7qq+a4=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/InteractionFra
+ gmentHandler.class
+SHA1-Digest: PrMm4agcuhl0IXYD4OPRZ8lxF7Q=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ReclassifyObje
+ ctActionHandler.class
+SHA1-Digest: cUBm9RwvEyitQKPG05jQfVtWV68=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/TimeIntervalHandle
+ r.class
+SHA1-Digest: 4cc4iQgeufG0GNik3HUYDjNzF/M=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ClassHandler.class
+SHA1-Digest: 94s6xFnV41tyElif+XZLbhFQYes=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/TimeObservatio
+ nHandler.class
+SHA1-Digest: lh/ERncGuMvHaP/kbImOuysXfRg=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ExecutionEvent
+ Handler.class
+SHA1-Digest: Nn/wYHirwHiLomUZ47rS1yeVqgM=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ClassHandler.c
+ lass
+SHA1-Digest: 94s6xFnV41tyElif+XZLbhFQYes=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/StringExpressionHa
+ ndler.class
+SHA1-Digest: bGOICA7TZwcv7x19JLSfevUK22E=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/TemplateParameterS
+ ubstitutionHandler.class
+SHA1-Digest: A28iwN/pR33o+9X90h9OVoqNJOk=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/VertexHandler.clas
+ s
+SHA1-Digest: k4Q9YNeixxRsM+763Q+XXBEYB2Y=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ValuePinHandler.cl
+ ass
+SHA1-Digest: GK/v377NzENo3hcTfTDLzKO2o94=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/DurationInterv
+ alHandler.class
+SHA1-Digest: M2SCjr3gS6dL55JB04v7ii32qtw=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/OpaqueActionHa
+ ndler.class
+SHA1-Digest: ytgVumYh8yie06ToIsEgmtY60X8=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/TemplateParame
+ terSubstitutionHandler.class
+SHA1-Digest: A28iwN/pR33o+9X90h9OVoqNJOk=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/SendObjectActionHa
+ ndler.class
+SHA1-Digest: CmxHzcwgSfZf3IZaQv6LtEwlkjE=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/IncludeHandler
+ .class
+SHA1-Digest: /TrCWLBFtvTNj06usVn0AIyn8lw=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ConditionalNod
+ eHandler.class
+SHA1-Digest: XES1tx/pqeUhJecH4MrS9paj/MM=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ParameterableEleme
+ ntHandler.class
+SHA1-Digest: 5ocEzPIElGtW3aQqc+V6YO/XXm4=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ClearVariableActio
+ nHandler.class
+SHA1-Digest: tesV9XbGXosTiUW9n/6NmSdKuhA=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/AnyReceiveEven
+ tHandler.class
+SHA1-Digest: 6a9EvPSswURYYIrc+Z5XZTcc6J8=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/JoinNodeHandle
+ r.class
+SHA1-Digest: L+AHgZLAYaAofb6fhPFvFYMTzMs=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/Activator.class
+SHA1-Digest: suneexY6mcMV6kSDeErtDjEhER0=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ProfileApplica
+ tionHandler.class
+SHA1-Digest: P1NgQdWby+mkOA7X56jM5HM5+nM=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/CollaborationU
+ seHandler.class
+SHA1-Digest: nCXhdHTdDPWtRh60S0g+LoArfM0=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/SlotHandler.cl
+ ass
+SHA1-Digest: Tqf8TC02j3VdMJTkQ/yC2vZyGDA=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/DestroyObjectA
+ ctionHandler.class
+SHA1-Digest: ZkrSj9ZkRRM4KCxgkmqZB0tCcu0=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ClassifierHandler.
+ class
+SHA1-Digest: ezuDSNBdhr6s/1pi1s0VmUxVo9M=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ActivityHandle
+ r.class
+SHA1-Digest: VqYyfOzprlxWrKgUKH1jxGZZr4Y=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ElementHandler.cla
+ ss
+SHA1-Digest: VScS/ascbyS7+3W2A9pXNUjYRJE=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/PropertyHandler.cl
+ ass
+SHA1-Digest: wc3kRsQA/9OExGkVnOWgJLNw0PU=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/DependencyHand
+ ler.class
+SHA1-Digest: rGKl45rAGeLaeTmEMVFoSlJZTsA=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/RedefinableEle
+ mentHandler.class
+SHA1-Digest: Dn+3y4GQjownvUOed7Vs61NBqlA=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/DeploymentSpec
+ ificationHandler.class
+SHA1-Digest: ieGQEnpq6zvGlRU8beBGFEyraZk=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ExecutableNodeHand
+ ler.class
+SHA1-Digest: HKhWwMSrixq5wXBYp1kFdkxah0A=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/DurationObserv
+ ationHandler.class
+SHA1-Digest: bn5PRUXjHW7H2hydxN3R2BpP4mQ=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/LiteralUnlimit
+ edNaturalHandler.class
+SHA1-Digest: v4oD9shPghSVVAmJ/OvWRpuX7Wk=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/EnumerationLiteral
+ Handler.class
+SHA1-Digest: uNkMP1k7jNAtHYhQdWhCdDr6NVs=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/CallBehaviorAction
+ Handler.class
+SHA1-Digest: l1sDaIAMaYra6gRMe3dlaqrV66w=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/LinkEndDataHandler
+ .class
+SHA1-Digest: hEqsvhWMqF5vJEj1j6JRQwpgwzU=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/OccurrenceSpec
+ ificationHandler.class
+SHA1-Digest: E+wbvlSdtLHTqn21u7jJPPqPBEU=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/PrimitiveTypeHandl
+ er.class
+SHA1-Digest: iYf3BVhdUyU6cD27LfcXQL4VrAM=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/WriteStructura
+ lFeatureActionHandler.class
+SHA1-Digest: 80ynQANrJAb3QMlN6htnQrax0ck=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/CreationEventHandl
+ er.class
+SHA1-Digest: SIMyZRUodHuvcD7PA9tMe3VW9V0=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/LiteralSpecificati
+ onHandler.class
+SHA1-Digest: t4+ASqW0SGAtpMUOIsWL+gRADq0=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/InterfaceHandler.c
+ lass
+SHA1-Digest: mq3m7NFYPOsx2H617HjtxN1dNx4=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/PrimitiveTypeH
+ andler.class
+SHA1-Digest: iYf3BVhdUyU6cD27LfcXQL4VrAM=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/MessageOccurre
+ nceSpecificationHandler.class
+SHA1-Digest: y+IRcCYUgITjOaEASlO6u/agRJA=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/BehavioralFeatureH
+ andler.class
+SHA1-Digest: lxgNreS/GhhdeC/IGdH2n+V87aA=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/PartDecompositionH
+ andler.class
+SHA1-Digest: JRNamH8+4FLYTvNRzn39lhXKHdw=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/StateInvariantHand
+ ler.class
+SHA1-Digest: CJH/re43Ssk74TQ7DJpgbkSbTiE=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/CreationEventH
+ andler.class
+SHA1-Digest: SIMyZRUodHuvcD7PA9tMe3VW9V0=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/InputPinHandler.cl
+ ass
+SHA1-Digest: jUE8dH3hoI/011lDPxsENsyt59M=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/InterfaceHandl
+ er.class
+SHA1-Digest: mq3m7NFYPOsx2H617HjtxN1dNx4=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/BehavioralFeat
+ ureHandler.class
+SHA1-Digest: lxgNreS/GhhdeC/IGdH2n+V87aA=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ReadStructural
+ FeatureActionHandler.class
+SHA1-Digest: tt/Idz+kPtbfu5WXFF3c3/+Ctec=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/PartDecomposit
+ ionHandler.class
+SHA1-Digest: JRNamH8+4FLYTvNRzn39lhXKHdw=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/DataTypeHandler.cl
+ ass
+SHA1-Digest: /Ez+S1PorFWczXy7Vh0gn2folJY=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/TypeHandler.cl
+ ass
+SHA1-Digest: /eMUSgcbybSwZkpPB+KZ9aYsP8c=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ObjectNodeHandler.
+ class
+SHA1-Digest: 1jnq7rsLMm6hYhZWhAM7ZCSzD4I=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/SendOperationEvent
+ Handler.class
+SHA1-Digest: IyGzt8JcMKAn01rk362UtReP1w4=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/OpaqueBehavior
+ Handler.class
+SHA1-Digest: GwUE6eRKMqLL0S8i7cQwexCDONI=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/MessageEventHa
+ ndler.class
+SHA1-Digest: LGUGpVi/C0KMeK6b69S4r0jaDVA=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ExecutionEnvironme
+ ntHandler.class
+SHA1-Digest: 2NsUoNNmnIqZ2O1LbzeiEokDBng=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/BroadcastSignalAct
+ ionHandler.class
+SHA1-Digest: sxeYkrSlM73Spbb8F+vQfWfo058=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ConnectionPointRef
+ erenceHandler.class
+SHA1-Digest: 2TbDaxclEEqXPOMwsQ9ApsIcDG4=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/GMFtoEMFCommandWra
+ pper.class
+SHA1-Digest: uQJWrxYneF7/YqmoViHtQnVb37U=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/CreateLinkActi
+ onHandler.class
+SHA1-Digest: /lKxy3giJEpXaTBF8yvHZcKSQS8=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/EncapsulatedClassi
+ fierHandler.class
+SHA1-Digest: cImeNs/e6SmPdBkHoUhtLheBIVo=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/InformationFlowHan
+ dler.class
+SHA1-Digest: 8uP6g94uqHsq/U0S+/e/zkdc0dA=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ReplyActionHan
+ dler.class
+SHA1-Digest: OIGgbyz6zrIev8PZpXW27H2mons=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/BroadcastSigna
+ lActionHandler.class
+SHA1-Digest: sxeYkrSlM73Spbb8F+vQfWfo058=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ProtocolConfor
+ manceHandler.class
+SHA1-Digest: vTY77SeLiHAJqmBig/+7L8O2kic=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ConnectableEle
+ mentTemplateParameterHandler.class
+SHA1-Digest: H9Y6dbuBlwu+HuGMGcPulaMiL2M=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/FeatureHandler
+ .class
+SHA1-Digest: pcdr4MCVxQGKhcn1Nr4IhEeumLk=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/SubstitutionHa
+ ndler.class
+SHA1-Digest: zz0dr4H31lLxt0hFsT70ksba/lU=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ForkNodeHandler.cl
+ ass
+SHA1-Digest: dGP3hiJWFQNB0daF1oQghA8pkFw=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/AbstractCommandHan
+ dler.class
+SHA1-Digest: iLD6hSuigXnj/tWu5xnRGHHubj8=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/VariableAction
+ Handler.class
+SHA1-Digest: YtrcSHr/ev87ClvVYMUuTHcvvZ8=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/InitialNodeHan
+ dler.class
+SHA1-Digest: 2rlgoa9dL0FPgxqywwArnwGvYjU=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ContinuationHandle
+ r.class
+SHA1-Digest: aYH7SjPgnbcH+9iBkHwkMVX7S7M=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/DeviceHandler.clas
+ s
+SHA1-Digest: 6X2Et7PKwQN+GNDkSXMF+/Zi8KM=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/CombinedFragmentHa
+ ndler.class
+SHA1-Digest: OQLdtAp9BslUWXqDkyJAxrWUa/I=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/OutputPinHandler.c
+ lass
+SHA1-Digest: 5vRqmLSy9gwa+3gI0fiL79+zOI0=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/TestIdentityAc
+ tionHandler.class
+SHA1-Digest: OWFN7SfVmpIMAn4w6irnvw7KrrI=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/SignalEventHandler
+ .class
+SHA1-Digest: aaqqBno1ATFj2YWXdfZFDHPdq84=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/OutputPinHandl
+ er.class
+SHA1-Digest: 5vRqmLSy9gwa+3gI0fiL79+zOI0=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/FlowFinalNodeHandl
+ er.class
+SHA1-Digest: /s/5MPYE/P0NDkPZTQpM3yJlU+w=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/FlowFinalNodeH
+ andler.class
+SHA1-Digest: /s/5MPYE/P0NDkPZTQpM3yJlU+w=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ProfileHandler
+ .class
+SHA1-Digest: v7F6pPHZ46aE1Sr+EGbV+iR+wVg=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ConsiderIgnoreFrag
+ mentHandler.class
+SHA1-Digest: y3Woe3jMz3MgzhuUD3Pk5zznLJc=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/TemplateableEl
+ ementHandler.class
+SHA1-Digest: N4/W1aBLEF/xWbGF4A2RY7lmiT4=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ActionHandler.clas
+ s
+SHA1-Digest: g4RvRdfy35PNqLe9naaJCeKES7I=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/CommunicationPathH
+ andler.class
+SHA1-Digest: gxJjnw/FCgO6lAmJ/hEMhq2et4g=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/RegionHandler.clas
+ s
+SHA1-Digest: txVgxDIcdzSY5D6ORzrht/zht/M=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/InformationIte
+ mHandler.class
+SHA1-Digest: H4HZ6w4W6xfZw0Lz3sRpwdcsEVQ=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/DurationConstraint
+ Handler.class
+SHA1-Digest: 6kwKiJvqh81RGOBvKF0ZmfU1GTw=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/InvocationActi
+ onHandler.class
+SHA1-Digest: U2t/AEw26yhd/iovX+tl6hDLW3k=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ObjectFlowHandler.
+ class
+SHA1-Digest: 9QBY4jGGP1dL7NWlFs3iZMK6NbA=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/CommunicationP
+ athHandler.class
+SHA1-Digest: gxJjnw/FCgO6lAmJ/hEMhq2et4g=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ActivityGroupHandl
+ er.class
+SHA1-Digest: Mza6ZyFqXbxPNmj94Uz0QM0RVuA=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/InstanceSpecificat
+ ionHandler.class
+SHA1-Digest: DEO0Ik+rK6LmUMoFxpRIl6DHR2o=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ClassifierTemplate
+ ParameterHandler.class
+SHA1-Digest: hK1L0LC0N7WHFiAXtntyNxCVzxw=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/NamedElementHandle
+ r.class
+SHA1-Digest: PaQiR8M+JRfqwN19dyH6i0JcWlQ=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/FinalStateHand
+ ler.class
+SHA1-Digest: C+9+WQK08ZfildBpVc24EXl4NRM=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ActivityGroupH
+ andler.class
+SHA1-Digest: Mza6ZyFqXbxPNmj94Uz0QM0RVuA=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ClearStructuralFea
+ tureActionHandler.class
+SHA1-Digest: 7rbeTFW04ceQS87x+hR++DkUtk8=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/InstanceSpecif
+ icationHandler.class
+SHA1-Digest: DEO0Ik+rK6LmUMoFxpRIl6DHR2o=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/SendSignalEven
+ tHandler.class
+SHA1-Digest: j3E35XH4mSWXKvmPFMGStVcnb38=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/LinkActionHand
+ ler.class
+SHA1-Digest: 1QY58iJiLbm+bD2cZke/321n7Mc=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/MergeNodeHandler.c
+ lass
+SHA1-Digest: 4OTZYFtt04aAvPu7WwATK6pb87U=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/MergeNodeHandl
+ er.class
+SHA1-Digest: 4OTZYFtt04aAvPu7WwATK6pb87U=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/AddVariableValueAc
+ tionHandler.class
+SHA1-Digest: 1BqaKKrPP8Hi75djnC5MNf1fwpY=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/FunctionBehaviorHa
+ ndler.class
+SHA1-Digest: hOH1anboekbEKN+fGrue6wcC2Ko=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/SequenceNodeHandle
+ r.class
+SHA1-Digest: wFl+YZxmb7kJpSRMrQA7pa0TEfo=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/OpaqueExpressi
+ onHandler.class
+SHA1-Digest: fKO64p9DLDn4IIfAQPgDTZW45vY=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/RealizationHandler
+ .class
+SHA1-Digest: CFoARa77UMWqywEqd5OAgoGOVIE=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/DeploymentTarg
+ etHandler.class
+SHA1-Digest: 9hLH/XGFxt2NjeaL+GLLQaC1ZeM=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/PackageableElement
+ Handler.class
+SHA1-Digest: zuba1AflX3O1+0Rp5C0+WAnzhmY=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/messages.properties
+SHA1-Digest: isj+ahlw2Mm1VOt+ePbJTY2wBrs=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ProtocolStateM
+ achineHandler.class
+SHA1-Digest: 77PIyUHP3pUVIGWfVBrpkF6f0sM=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ImageHandler.class
+SHA1-Digest: bBmRP6SE4hhjyHAxg2dpPGJGBIg=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/UMLContentProvider.class
+SHA1-Digest: WAxYebFUfMMFb/w8Nld2wmd3CXE=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ReceiveOperationEv
+ entHandler.class
+SHA1-Digest: FkbvJyrru1jE+NUx1gj100Nz88M=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/LifelineHandler.cl
+ ass
+SHA1-Digest: C7X147SOaLbwuQQnuxLWu8TaRHQ=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/LiteralIntegerHand
+ ler.class
+SHA1-Digest: uSGN5O1BTbomz+VTqzQgea0XkBo=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/SendSignalActi
+ onHandler.class
+SHA1-Digest: B3d68usA/8FO4w0v6LKCE/smWmc=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ImageHandler.c
+ lass
+SHA1-Digest: bBmRP6SE4hhjyHAxg2dpPGJGBIg=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ExpansionRegionHan
+ dler.class
+SHA1-Digest: Cjx7vfidtKob/UnA8leBmc81yKg=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/VertexHandler.
+ class
+SHA1-Digest: k4Q9YNeixxRsM+763Q+XXBEYB2Y=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/AssociationBaseHan
+ dler.class
+SHA1-Digest: /KFq5P/8KNRSyvfh9lez1fx8VR0=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/TriggerHandler
+ .class
+SHA1-Digest: BG1rTykSNFFCpS5ZR32UKv2B6TU=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ReceiveOperati
+ onEventHandler.class
+SHA1-Digest: FkbvJyrru1jE+NUx1gj100Nz88M=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/TimeExpressionHand
+ ler.class
+SHA1-Digest: usdoBECKF5NuQeVgeUG73d/KUqY=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/MessageHandler.cla
+ ss
+SHA1-Digest: NlHmVSMLhV7sdiWNJ7uyiOo5gtg=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ParameterSetHa
+ ndler.class
+SHA1-Digest: boGnoKH4fGZt3Y5RSU+zW8tUQ18=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/WriteLinkActio
+ nHandler.class
+SHA1-Digest: TfUn/Jlj8ipCB7WTjhKUFuh4BRg=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/DurationIntervalHa
+ ndler.class
+SHA1-Digest: M2SCjr3gS6dL55JB04v7ii32qtw=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/Activator.class
+SHA1-Digest: suneexY6mcMV6kSDeErtDjEhER0=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ExpressionHandler.
+ class
+SHA1-Digest: ggWFB+X+h8TbTeoCjgrl4MumfI0=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/OpaqueActionHandle
+ r.class
+SHA1-Digest: ytgVumYh8yie06ToIsEgmtY60X8=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/LiteralNullHandler
+ .class
+SHA1-Digest: xrBcL6azAOQaDxFOxsvAZy3w6GQ=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/JoinNodeHandler.cl
+ ass
+SHA1-Digest: L+AHgZLAYaAofb6fhPFvFYMTzMs=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/StructuralFeatureA
+ ctionHandler.class
+SHA1-Digest: 1YQv7oKCQs7/s9VPLhiYmiaIQaw=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ClassifierHand
+ ler.class
+SHA1-Digest: ezuDSNBdhr6s/1pi1s0VmUxVo9M=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/CreateCommandHandl
+ er.class
+SHA1-Digest: 2xv8J/iH8R9afDhYBuND+plJcUs=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/DecisionNodeHa
+ ndler.class
+SHA1-Digest: fj1v+NT/7/kn5DepGfxj23co8rM=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/StartClassifierBeh
+ aviorActionHandler.class
+SHA1-Digest: XixAy3leTETePBg5fI2/9V/KnQ8=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/LinkEndCreationDat
+ aHandler.class
+SHA1-Digest: SBcVvN610GAotqF0i/5BfCv02Jw=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/CollaborationUseHa
+ ndler.class
+SHA1-Digest: nCXhdHTdDPWtRh60S0g+LoArfM0=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/CreateCommandH
+ andler.class
+SHA1-Digest: 2xv8J/iH8R9afDhYBuND+plJcUs=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/DeployedArtifa
+ ctHandler.class
+SHA1-Digest: bXGxpwD7nkI2b/+olZuD9ptW+kA=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/RelationshipHa
+ ndler.class
+SHA1-Digest: sRBcKFVU/MB+0pURyNPOpYVWnDQ=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/SlotHandler.class
+SHA1-Digest: Tqf8TC02j3VdMJTkQ/yC2vZyGDA=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/StartClassifie
+ rBehaviorActionHandler.class
+SHA1-Digest: XixAy3leTETePBg5fI2/9V/KnQ8=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/Messages.class
+SHA1-Digest: ZR0eGYL97wNRe0e/Z+umiEpwhB0=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/GeneralizationHand
+ ler.class
+SHA1-Digest: aCAAkeLG/OPrD3rRIht1GEdTg64=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/BehavioredClas
+ sifierHandler.class
+SHA1-Digest: bpLFZ9lmJzLKvtnxiGXmJ6XiCSQ=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/PackageHandler
+ .class
+SHA1-Digest: PQWdxkPaTXdIhpKcUk3T4d7rFFI=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/Messages.class
+SHA1-Digest: ZR0eGYL97wNRe0e/Z+umiEpwhB0=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ActivityPartitionH
+ andler.class
+SHA1-Digest: YEGr/+kChGDFVhocZFIM6SUCnzk=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ExecutableNode
+ Handler.class
+SHA1-Digest: HKhWwMSrixq5wXBYp1kFdkxah0A=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ExtensionPointHand
+ ler.class
+SHA1-Digest: QK4a622+ywQZFNCD7PCR0CQ8VXs=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/EnumerationLit
+ eralHandler.class
+SHA1-Digest: uNkMP1k7jNAtHYhQdWhCdDr6NVs=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ActivityHandler.cl
+ ass
+SHA1-Digest: VqYyfOzprlxWrKgUKH1jxGZZr4Y=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/CallBehaviorAc
+ tionHandler.class
+SHA1-Digest: l1sDaIAMaYra6gRMe3dlaqrV66w=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ActivityPartit
+ ionHandler.class
+SHA1-Digest: YEGr/+kChGDFVhocZFIM6SUCnzk=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/WriteVariableA
+ ctionHandler.class
+SHA1-Digest: 2lJq/bQvYsAY8XN2W8W4z/ECBU4=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/EnumerationHandler
+ .class
+SHA1-Digest: W9NDJ7cfwaBmgdbrSSDdkKWXmHQ=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/AbstractionHandler
+ .class
+SHA1-Digest: tCtNEcniwIlkYdO/rtdV98p2mtg=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/TraceHandler.class
+SHA1-Digest: Inz6ytjgJP2TDG0rW5yZIEZjiiE=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/CollaborationHandl
+ er.class
+SHA1-Digest: tyoYtS6mENOnrwvsTGnNmwzSIDg=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ReadLinkObjectEndA
+ ctionHandler.class
+SHA1-Digest: 0wHcybLcizjkfhAuspQGSyhyBzM=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/AssociationHandler
+ .class
+SHA1-Digest: t8d6allrO6KIuBhS5Zm1woiLrmk=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/TemplateSignatureH
+ andler.class
+SHA1-Digest: /QDbhfQ1lVe1CP0JxSlpbgmzF+o=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/CollaborationH
+ andler.class
+SHA1-Digest: tyoYtS6mENOnrwvsTGnNmwzSIDg=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/StateInvariant
+ Handler.class
+SHA1-Digest: CJH/re43Ssk74TQ7DJpgbkSbTiE=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/TraceHandler.c
+ lass
+SHA1-Digest: Inz6ytjgJP2TDG0rW5yZIEZjiiE=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/GeneralOrderingHan
+ dler.class
+SHA1-Digest: 39ebMYJjrsJzobO/AKHF2+dKTZs=
+
+Name: about.html
+SHA1-Digest: a2Fk5/pDnCvlEfl7QwDZj/FCgFc=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/CallOperationA
+ ctionHandler.class
+SHA1-Digest: hNOCtEYWfsskpFU9u68wLu8Zxqc=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/WriteStructuralFea
+ tureActionHandler.class
+SHA1-Digest: 80ynQANrJAb3QMlN6htnQrax0ck=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/TemplateSignat
+ ureHandler.class
+SHA1-Digest: /QDbhfQ1lVe1CP0JxSlpbgmzF+o=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ObjectNodeHand
+ ler.class
+SHA1-Digest: 1jnq7rsLMm6hYhZWhAM7ZCSzD4I=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ActionExecutio
+ nSpecificationHandler.class
+SHA1-Digest: h65AM9doTUzGN7ioKcnawJaeaAg=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/InteractionHan
+ dler.class
+SHA1-Digest: nNLPFCwDlGq2lRfArXkOTA6tALM=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/SendOperationE
+ ventHandler.class
+SHA1-Digest: IyGzt8JcMKAn01rk362UtReP1w4=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/EncapsulatedCl
+ assifierHandler.class
+SHA1-Digest: cImeNs/e6SmPdBkHoUhtLheBIVo=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/TypeHandler.class
+SHA1-Digest: /eMUSgcbybSwZkpPB+KZ9aYsP8c=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/TransitionHandler.
+ class
+SHA1-Digest: lVoc5l9UaXVQ8arQZjHmrtNNy98=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/MessageEventHandle
+ r.class
+SHA1-Digest: LGUGpVi/C0KMeK6b69S4r0jaDVA=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/PseudostateHandler
+ .class
+SHA1-Digest: Za7KaGqlt+mXl9CCuklCu+TUjC0=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/CreateLinkActionHa
+ ndler.class
+SHA1-Digest: /lKxy3giJEpXaTBF8yvHZcKSQS8=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/StateHandler.class
+SHA1-Digest: zIGC0y1VtdhKkAYmhHGfCs/yHiw=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/SignalHandler.clas
+ s
+SHA1-Digest: PraEbCqL4GL/nQ3rOFbexivL2XA=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/StateHandler.c
+ lass
+SHA1-Digest: zIGC0y1VtdhKkAYmhHGfCs/yHiw=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ObservationHan
+ dler.class
+SHA1-Digest: kOjwyOUsR9tcTtjgfcjd4ACwWMc=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/DeviceHandler.
+ class
+SHA1-Digest: 6X2Et7PKwQN+GNDkSXMF+/Zi8KM=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/SubstitutionHandle
+ r.class
+SHA1-Digest: zz0dr4H31lLxt0hFsT70ksba/lU=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/BehaviorExecutionS
+ pecificationHandler.class
+SHA1-Digest: pym2PH3g9Vh36fq4GoSHxdwrZqE=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ControlNodeHandler
+ .class
+SHA1-Digest: 5e4T+dLKDh/cPfYK64AGmyPvy+E=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ConnectableElement
+ Handler.class
+SHA1-Digest: E+yavrGgxLKdecCedJ4XLNmN9VY=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/RedefinableTem
+ plateSignatureHandler.class
+SHA1-Digest: p+dmz1EsX7/SNqMsaxILOOuZht0=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/queries/GetName.class
+SHA1-Digest: FewL7VX5zrZvREZDRYVlHaPy404=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/CentralBufferNodeH
+ andler.class
+SHA1-Digest: /OTTrnxoruKQi3XIhX6z76ttAWQ=
+
+Name: resource/PapyrusBrowserQuery.querySet
+SHA1-Digest: W9BSh+vus4odCiXeq3vXj/M/vLU=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/CentralBufferN
+ odeHandler.class
+SHA1-Digest: /OTTrnxoruKQi3XIhX6z76ttAWQ=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ReadVariableAction
+ Handler.class
+SHA1-Digest: VLYdVSFeb9PaJdCc+gErKOj2cdc=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ConsiderIgnore
+ FragmentHandler.class
+SHA1-Digest: y3Woe3jMz3MgzhuUD3Pk5zznLJc=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ExecutionOccur
+ renceSpecificationHandler.class
+SHA1-Digest: tz/899ROc5vOcn++/pZEovMAiio=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ActionHandler.
+ class
+SHA1-Digest: g4RvRdfy35PNqLe9naaJCeKES7I=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/StateMachineHa
+ ndler.class
+SHA1-Digest: 5OtlY5S7Pm7xdViJwpu2vtbPjf0=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ChangeEventHan
+ dler.class
+SHA1-Digest: B/ElYb8L2ugmCsO7ujbSSQFcA6s=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/RegionHandler.
+ class
+SHA1-Digest: txVgxDIcdzSY5D6ORzrht/zht/M=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ExpansionNodeHandl
+ er.class
+SHA1-Digest: e7Pe7v7N4mpVRTyd6p6t24ZAUjI=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/DurationConstr
+ aintHandler.class
+SHA1-Digest: 6kwKiJvqh81RGOBvKF0ZmfU1GTw=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/CommentHandler.cla
+ ss
+SHA1-Digest: ec4D6kFAbwSqLkiAD44+l3y9dK8=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ObjectFlowHand
+ ler.class
+SHA1-Digest: 9QBY4jGGP1dL7NWlFs3iZMK6NbA=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ExpansionNodeH
+ andler.class
+SHA1-Digest: e7Pe7v7N4mpVRTyd6p6t24ZAUjI=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/InterruptibleActiv
+ ityRegionHandler.class
+SHA1-Digest: 26Fj+U/CuZLYPTU0haG+B/aSl28=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/UseCaseHandler.cla
+ ss
+SHA1-Digest: vOJPMhhGyyrboBztuNh9x89rmMk=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/PinHandler.cla
+ ss
+SHA1-Digest: TWrmYnX4DRp3nuwEKiU3MiSyJA4=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ConnectorHandler.c
+ lass
+SHA1-Digest: PSUoT8bHJqBrMXL1ZrLHHTrW6Sk=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/InvocationActionHa
+ ndler.class
+SHA1-Digest: U2t/AEw26yhd/iovX+tl6hDLW3k=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/PackageImportHandl
+ er.class
+SHA1-Digest: T6Cpoy1EpkHXUSR7jA0uDbLetyI=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/UnmarshallActi
+ onHandler.class
+SHA1-Digest: Ky8tb4Gzak7PIdE276dG758kDHM=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ExtensionEndHa
+ ndler.class
+SHA1-Digest: JKdR/IABMwE2cEmk8bP0Vjw9HZU=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/StartObjectBehavio
+ rActionHandler.class
+SHA1-Digest: BMFko6o711Hgp7ntpw07MKZKCSQ=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ExceptionHandl
+ erHandler.class
+SHA1-Digest: ntjE62lRj1hqhMyIzZMNiJApuE8=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/AssociationCla
+ ssHandler.class
+SHA1-Digest: tmnAOMAjhQYd518opqv+tyP4fEE=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ConnectorHandl
+ er.class
+SHA1-Digest: PSUoT8bHJqBrMXL1ZrLHHTrW6Sk=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/PackageImportH
+ andler.class
+SHA1-Digest: T6Cpoy1EpkHXUSR7jA0uDbLetyI=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/DurationHandle
+ r.class
+SHA1-Digest: VpMDvklYr/2/+C/CFxyJddjnCGQ=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/queries/GetComplexName.cla
+ ss
+SHA1-Digest: qK+CctXsqAVWFner7guV7qZYd/I=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/StartObjectBeh
+ aviorActionHandler.class
+SHA1-Digest: BMFko6o711Hgp7ntpw07MKZKCSQ=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/LiteralStringHandl
+ er.class
+SHA1-Digest: Y+p3cfHqKwlDOdt9slQx09aJ/dg=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/BehaviorHandle
+ r.class
+SHA1-Digest: oAc1zMngPquZCM69gONLve29ApU=
+
+Name: resource/UMLPapyrusDefaultBrowserCustomization.uiCustom
+SHA1-Digest: K7dBFpRsdqRbuag1W+aVkwC4N14=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ConnectorEndHa
+ ndler.class
+SHA1-Digest: 808BeRdzwMo017U6vCBabZJ0m3I=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/MessageEndHandler.
+ class
+SHA1-Digest: 0vbKrcMIQVpJsCGupX7gFpP2GgI=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ValueSpecification
+ Handler.class
+SHA1-Digest: gKBCWM1HUSb2ZmnXDkormVZ/GFA=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/LiteralStringH
+ andler.class
+SHA1-Digest: Y+p3cfHqKwlDOdt9slQx09aJ/dg=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/AddVariableVal
+ ueActionHandler.class
+SHA1-Digest: 1BqaKKrPP8Hi75djnC5MNf1fwpY=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/CreateObjectAction
+ Handler.class
+SHA1-Digest: I6gXlVjsZrTLoDNM5FT+sPKOu7Q=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ReadIsClassifi
+ edObjectActionHandler.class
+SHA1-Digest: 8gqxEG22JfVZu28HP0zjltDrhrQ=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/DestructionEve
+ ntHandler.class
+SHA1-Digest: dWA0FKAOTvVOH9pLQ5Pm/fOuHH8=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/MultiplicityEl
+ ementHandler.class
+SHA1-Digest: U9i+Smph7/yAqipPqg36mlxHGPM=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/LoopNodeHandle
+ r.class
+SHA1-Digest: XSclH/VnTxjt6cwU3lGJKAuelzw=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/factory/ModelElementIt
+ emFactory.class
+SHA1-Digest: GHMp29uXfveUDbvASonsnK13eC4=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/TimeConstraintHand
+ ler.class
+SHA1-Digest: Xb3idJI7ZmNOdW244Nw3Ita7tzg=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/AddStructuralFeatu
+ reValueActionHandler.class
+SHA1-Digest: xOeD1wihyuKrXD87y3yBLRi3TRA=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ControlFlowHandler
+ .class
+SHA1-Digest: r5R4jTHG17cueJptDmLL6K1Itjo=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/PackageableEle
+ mentHandler.class
+SHA1-Digest: zuba1AflX3O1+0Rp5C0+WAnzhmY=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/VariableHandle
+ r.class
+SHA1-Digest: HJv6ebjsUetoDRyYSRm3ILoVYVY=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ModelHandler.class
+SHA1-Digest: W5RgVoDJUXt+8XJd3ApmDMsNVqw=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/messages.properties
+SHA1-Digest: isj+ahlw2Mm1VOt+ePbJTY2wBrs=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/TemplateBindin
+ gHandler.class
+SHA1-Digest: RLb7IaBA1GPRCsGYWO2cdeRbx+8=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ConstraintHandler.
+ class
+SHA1-Digest: X33Mm+60niqDmT2C6DvlBKCt/K4=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/InteractionFragmen
+ tHandler.class
+SHA1-Digest: PrMm4agcuhl0IXYD4OPRZ8lxF7Q=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ModelHandler.c
+ lass
+SHA1-Digest: W5RgVoDJUXt+8XJd3ApmDMsNVqw=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/TimeObservationHan
+ dler.class
+SHA1-Digest: lh/ERncGuMvHaP/kbImOuysXfRg=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/OpaqueExpressionHa
+ ndler.class
+SHA1-Digest: fKO64p9DLDn4IIfAQPgDTZW45vY=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/LiteralInteger
+ Handler.class
+SHA1-Digest: uSGN5O1BTbomz+VTqzQgea0XkBo=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/DeploymentTargetHa
+ ndler.class
+SHA1-Digest: 9hLH/XGFxt2NjeaL+GLLQaC1ZeM=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ValueSpecifica
+ tionActionHandler.class
+SHA1-Digest: g7WPzkOuQQm00iN8bZt+t/m9RDI=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ProtocolStateMachi
+ neHandler.class
+SHA1-Digest: 77PIyUHP3pUVIGWfVBrpkF6f0sM=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/TimeExpression
+ Handler.class
+SHA1-Digest: usdoBECKF5NuQeVgeUG73d/KUqY=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/TemplateParameterH
+ andler.class
+SHA1-Digest: iiIiuCJFPG6NSlx1oVAB/urzBeI=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/OperationTemplateP
+ arameterHandler.class
+SHA1-Digest: OxCf27sSXoQs5RJfD9Z4qRCUv9g=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/SendSignalActionHa
+ ndler.class
+SHA1-Digest: B3d68usA/8FO4w0v6LKCE/smWmc=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/DeploymentHandler.
+ class
+SHA1-Digest: xvJUfRB8f3Suh4zrtZV0haemy6E=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/AcceptCallActi
+ onHandler.class
+SHA1-Digest: y+P01tFbKNRm4iW2ClDyj07uz00=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ConditionalNodeHan
+ dler.class
+SHA1-Digest: XES1tx/pqeUhJecH4MrS9paj/MM=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/IncludeHandler.cla
+ ss
+SHA1-Digest: /TrCWLBFtvTNj06usVn0AIyn8lw=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/TemplateParame
+ terHandler.class
+SHA1-Digest: iiIiuCJFPG6NSlx1oVAB/urzBeI=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ActionInputPinHand
+ ler.class
+SHA1-Digest: RFH3OyztQGkt4vBhxD5urnT7JpI=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ExpressionHand
+ ler.class
+SHA1-Digest: ggWFB+X+h8TbTeoCjgrl4MumfI0=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/AnyReceiveEventHan
+ dler.class
+SHA1-Digest: 6a9EvPSswURYYIrc+Z5XZTcc6J8=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/PackageMergeHa
+ ndler.class
+SHA1-Digest: QlNp1tPymuboyML4/pamf51hfYU=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ParameterSetHandle
+ r.class
+SHA1-Digest: boGnoKH4fGZt3Y5RSU+zW8tUQ18=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/EventHandler.class
+SHA1-Digest: 0qvue7P0emEiisfR1lRxWZCBT3Y=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/DataStoreNodeHandl
+ er.class
+SHA1-Digest: J8NbJ1b0QxPRJ8T8q1hWBJDAWlg=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ClearVariableA
+ ctionHandler.class
+SHA1-Digest: tesV9XbGXosTiUW9n/6NmSdKuhA=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ReceiveSignalEvent
+ Handler.class
+SHA1-Digest: gN6hVHmpQqHnMrXdUMy3y29Jwtg=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ClauseHandler.clas
+ s
+SHA1-Digest: DI85gSuAgWdfSutyMACSSe7O0zA=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/EventHandler.c
+ lass
+SHA1-Digest: 0qvue7P0emEiisfR1lRxWZCBT3Y=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/DataStoreNodeH
+ andler.class
+SHA1-Digest: J8NbJ1b0QxPRJ8T8q1hWBJDAWlg=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ClearAssociationAc
+ tionHandler.class
+SHA1-Digest: BgH4Us4n8EM5P73iENqTeZLiE6Q=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/DestroyObjectActio
+ nHandler.class
+SHA1-Digest: ZkrSj9ZkRRM4KCxgkmqZB0tCcu0=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/Generalization
+ Handler.class
+SHA1-Digest: aCAAkeLG/OPrD3rRIht1GEdTg64=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/RaiseException
+ ActionHandler.class
+SHA1-Digest: uaouU6exDNBBtgeg6zQyRvDQ5Gg=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/DecisionNodeHandle
+ r.class
+SHA1-Digest: fj1v+NT/7/kn5DepGfxj23co8rM=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ExtensionPoint
+ Handler.class
+SHA1-Digest: QK4a622+ywQZFNCD7PCR0CQ8VXs=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/RelationshipHandle
+ r.class
+SHA1-Digest: sRBcKFVU/MB+0pURyNPOpYVWnDQ=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/DeployedArtifactHa
+ ndler.class
+SHA1-Digest: bXGxpwD7nkI2b/+olZuD9ptW+kA=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/DeploymentSpecific
+ ationHandler.class
+SHA1-Digest: ieGQEnpq6zvGlRU8beBGFEyraZk=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/InteractionUseHand
+ ler.class
+SHA1-Digest: SFzuwCsB+OUvQWiZhNkggD6vpKw=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/BehavioredClassifi
+ erHandler.class
+SHA1-Digest: bpLFZ9lmJzLKvtnxiGXmJ6XiCSQ=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/DurationObservatio
+ nHandler.class
+SHA1-Digest: bn5PRUXjHW7H2hydxN3R2BpP4mQ=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/LiteralUnlimitedNa
+ turalHandler.class
+SHA1-Digest: v4oD9shPghSVVAmJ/OvWRpuX7Wk=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ComponentReali
+ zationHandler.class
+SHA1-Digest: ZEtbJZbssZNplloPnG68PykjSJo=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ElementHandler
+ .class
+SHA1-Digest: VScS/ascbyS7+3W2A9pXNUjYRJE=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/IntervalHandle
+ r.class
+SHA1-Digest: M6eP61phNoWVz2ne+ch0lwjQb/E=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/OccurrenceSpecific
+ ationHandler.class
+SHA1-Digest: E+wbvlSdtLHTqn21u7jJPPqPBEU=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ExecutionSpecifica
+ tionHandler.class
+SHA1-Digest: vmuCl8YcS4NmsnMKQTiVjCvpJDQ=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/TimeEventHandler.c
+ lass
+SHA1-Digest: hiWc8vMW4XSAv3fQHFOPs4b0BwQ=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ActivityFinalNodeH
+ andler.class
+SHA1-Digest: vL8dRAoTT1srH+wmD57irGKFwEY=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/TimeEventHandl
+ er.class
+SHA1-Digest: hiWc8vMW4XSAv3fQHFOPs4b0BwQ=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/LinkEndDataHan
+ dler.class
+SHA1-Digest: hEqsvhWMqF5vJEj1j6JRQwpgwzU=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/LinkEndDestruction
+ DataHandler.class
+SHA1-Digest: qNtZp4eX9a2Jod52ju9vD4CCTZM=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ActivityFinalN
+ odeHandler.class
+SHA1-Digest: vL8dRAoTT1srH+wmD57irGKFwEY=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ArtifactHandle
+ r.class
+SHA1-Digest: GONlpbi/OnNb/hG3zGmovaGCD3s=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/StructuredClas
+ sifierHandler.class
+SHA1-Digest: yhFIFZb3qd+2mNsVuPHkZpq2tA8=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ExtendHandler.clas
+ s
+SHA1-Digest: UvyrcaqInxkiHHm8IMUNRFBJf4M=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/LiteralBooleanHand
+ ler.class
+SHA1-Digest: uiWrpoc5PjAQYJDHJTeaO+MB/04=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ActivityNodeHa
+ ndler.class
+SHA1-Digest: 9gVihAdtFjFCI5O9QY83V4em9e4=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ReadSelfActionHand
+ ler.class
+SHA1-Digest: 1WEJHgQeA0/mWjskjkekuLi9bss=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ReadStructuralFeat
+ ureActionHandler.class
+SHA1-Digest: tt/Idz+kPtbfu5WXFF3c3/+Ctec=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/RemoveStructuralFe
+ atureValueActionHandler.class
+SHA1-Digest: JCXo8MLeRxRBT/65ajvDNGkfc7Q=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/IntervalConstraint
+ Handler.class
+SHA1-Digest: 7ShqSXO8de9+uPNw5Reje82QTeA=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ActionExecutionSpe
+ cificationHandler.class
+SHA1-Digest: h65AM9doTUzGN7ioKcnawJaeaAg=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/TransitionHand
+ ler.class
+SHA1-Digest: lVoc5l9UaXVQ8arQZjHmrtNNy98=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/UsageHandler.class
+SHA1-Digest: LgpyIkk75TEL2B5TZVkO8kvlHcM=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ReplyActionHandler
+ .class
+SHA1-Digest: OIGgbyz6zrIev8PZpXW27H2mons=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/TypedElementHa
+ ndler.class
+SHA1-Digest: d+FEVkUcC33DeAwwYqwhqkQwCrU=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ProtocolConformanc
+ eHandler.class
+SHA1-Digest: vTY77SeLiHAJqmBig/+7L8O2kic=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/InterfaceReali
+ zationHandler.class
+SHA1-Digest: MyISL7dubSsrTNu+cLjBau3XTwU=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ActivityEdgeHa
+ ndler.class
+SHA1-Digest: 5AMPjvx1uScGtbsBCSDR9GwJi2o=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/GateHandler.cl
+ ass
+SHA1-Digest: WpJ14+PAjmew5e8JbqvPhpfILYo=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/UsageHandler.c
+ lass
+SHA1-Digest: LgpyIkk75TEL2B5TZVkO8kvlHcM=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/GMFtoEMFComman
+ dWrapper.class
+SHA1-Digest: uQJWrxYneF7/YqmoViHtQnVb37U=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ConnectableElement
+ TemplateParameterHandler.class
+SHA1-Digest: H9Y6dbuBlwu+HuGMGcPulaMiL2M=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/SignalHandler.
+ class
+SHA1-Digest: PraEbCqL4GL/nQ3rOFbexivL2XA=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/FeatureHandler.cla
+ ss
+SHA1-Digest: pcdr4MCVxQGKhcn1Nr4IhEeumLk=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/InformationFlo
+ wHandler.class
+SHA1-Digest: 8uP6g94uqHsq/U0S+/e/zkdc0dA=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/CreateLinkObjectAc
+ tionHandler.class
+SHA1-Digest: zZTfK728/uy17b/5i83+eq7Qg3E=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ReceptionHandler.c
+ lass
+SHA1-Digest: JVeL27Q4NKvurkPhtht3MHMZTTc=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/PortHandler.cl
+ ass
+SHA1-Digest: dMZFUz+llDBsP+u5Nk5sj5ZRJAk=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/BehaviorExecut
+ ionSpecificationHandler.class
+SHA1-Digest: pym2PH3g9Vh36fq4GoSHxdwrZqE=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/RemoveVariableValu
+ eActionHandler.class
+SHA1-Digest: HbVovyMm4rCYphJ4X1V4kS5g3Dw=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ReceptionHandl
+ er.class
+SHA1-Digest: JVeL27Q4NKvurkPhtht3MHMZTTc=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/InitialNodeHandler
+ .class
+SHA1-Digest: 2rlgoa9dL0FPgxqywwArnwGvYjU=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ConnectableEle
+ mentHandler.class
+SHA1-Digest: E+yavrGgxLKdecCedJ4XLNmN9VY=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/AbstractComman
+ dHandler.class
+SHA1-Digest: iLD6hSuigXnj/tWu5xnRGHHubj8=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/RemoveVariable
+ ValueActionHandler.class
+SHA1-Digest: HbVovyMm4rCYphJ4X1V4kS5g3Dw=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ReadVariableAc
+ tionHandler.class
+SHA1-Digest: VLYdVSFeb9PaJdCc+gErKOj2cdc=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ActorHandler.class
+SHA1-Digest: OJbIWAg4NpyRqu8PZ5leAJrWhnw=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/queries/GetName.class
+SHA1-Digest: FewL7VX5zrZvREZDRYVlHaPy404=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/RedefinableTemplat
+ eSignatureHandler.class
+SHA1-Digest: p+dmz1EsX7/SNqMsaxILOOuZht0=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/NodeHandler.cl
+ ass
+SHA1-Digest: mr/xbwlR6bgG9IsMZoieAXRShZE=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/QualifierValueHand
+ ler.class
+SHA1-Digest: bY2Ts6hFuDb/X4aL4thmvaoScVY=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ActorHandler.c
+ lass
+SHA1-Digest: OJbIWAg4NpyRqu8PZ5leAJrWhnw=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ReduceActionHa
+ ndler.class
+SHA1-Digest: Kv0YWfuHQ7TC6DYHTb7MRHqmfME=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/SignalEventHan
+ dler.class
+SHA1-Digest: aaqqBno1ATFj2YWXdfZFDHPdq84=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ProfileHandler.cla
+ ss
+SHA1-Digest: v7F6pPHZ46aE1Sr+EGbV+iR+wVg=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/TemplateableElemen
+ tHandler.class
+SHA1-Digest: N4/W1aBLEF/xWbGF4A2RY7lmiT4=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ExecutionOccurrenc
+ eSpecificationHandler.class
+SHA1-Digest: tz/899ROc5vOcn++/pZEovMAiio=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/InformationItemHan
+ dler.class
+SHA1-Digest: H4HZ6w4W6xfZw0Lz3sRpwdcsEVQ=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/InteractionOperand
+ Handler.class
+SHA1-Digest: EOCZ8LXEiofxiywgHM1dlDhmiqE=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/StateMachineHandle
+ r.class
+SHA1-Digest: 5OtlY5S7Pm7xdViJwpu2vtbPjf0=
+
+Name: plugin.properties
+SHA1-Digest: OIqJb7qem08omUfu2VqwmxPQzqo=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/StereotypeHandler.
+ class
+SHA1-Digest: vbywWH8WYm5ZnCKyDFcKjgq86w0=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ProtocolTransition
+ Handler.class
+SHA1-Digest: b9KgDz7Njg7c41MDBHTooYlCaAg=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/DirectedRelati
+ onshipHandler.class
+SHA1-Digest: +r+d96nEL5o2LPqa9w1OqzjgM6U=
+
+Name: plugin.xml
+SHA1-Digest: vWYoybr2zemTY9kTJ1+0wWEI5jM=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/SendSignalEventHan
+ dler.class
+SHA1-Digest: j3E35XH4mSWXKvmPFMGStVcnb38=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/StructuredActivity
+ NodeHandler.class
+SHA1-Digest: zucQdk8q26FMefRMsSBHdNCZr/Q=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ClassifierTemp
+ lateParameterHandler.class
+SHA1-Digest: hK1L0LC0N7WHFiAXtntyNxCVzxw=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/UnmarshallActionHa
+ ndler.class
+SHA1-Digest: Ky8tb4Gzak7PIdE276dG758kDHM=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/MessageEndHand
+ ler.class
+SHA1-Digest: 0vbKrcMIQVpJsCGupX7gFpP2GgI=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ReadLinkObject
+ EndQualifierActionHandler.class
+SHA1-Digest: ac4UII6CBS3GTXbduGlss3IHCYQ=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ExtensionEndHandle
+ r.class
+SHA1-Digest: JKdR/IABMwE2cEmk8bP0Vjw9HZU=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ExceptionHandlerHa
+ ndler.class
+SHA1-Digest: ntjE62lRj1hqhMyIzZMNiJApuE8=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ValueSpecifica
+ tionHandler.class
+SHA1-Digest: gKBCWM1HUSb2ZmnXDkormVZ/GFA=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/CreateObjectAc
+ tionHandler.class
+SHA1-Digest: I6gXlVjsZrTLoDNM5FT+sPKOu7Q=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/AssociationClassHa
+ ndler.class
+SHA1-Digest: tmnAOMAjhQYd518opqv+tyP4fEE=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/DurationHandler.cl
+ ass
+SHA1-Digest: VpMDvklYr/2/+C/CFxyJddjnCGQ=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/TimeConstraint
+ Handler.class
+SHA1-Digest: Xb3idJI7ZmNOdW244Nw3Ita7tzg=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/BehaviorHandler.cl
+ ass
+SHA1-Digest: oAc1zMngPquZCM69gONLve29ApU=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ConnectorEndHandle
+ r.class
+SHA1-Digest: 808BeRdzwMo017U6vCBabZJ0m3I=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ReadIsClassifiedOb
+ jectActionHandler.class
+SHA1-Digest: 8gqxEG22JfVZu28HP0zjltDrhrQ=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/DestructionEventHa
+ ndler.class
+SHA1-Digest: dWA0FKAOTvVOH9pLQ5Pm/fOuHH8=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ReadLinkActionHand
+ ler.class
+SHA1-Digest: 3mH8G7a5XRDFYecY+upvkIy2AYE=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/LoopNodeHandler.cl
+ ass
+SHA1-Digest: XSclH/VnTxjt6cwU3lGJKAuelzw=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/factory/ModelElementItemFa
+ ctory.class
+SHA1-Digest: GHMp29uXfveUDbvASonsnK13eC4=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ConstraintHand
+ ler.class
+SHA1-Digest: X33Mm+60niqDmT2C6DvlBKCt/K4=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/OperationHandler.c
+ lass
+SHA1-Digest: TXFEt5i44qSIqFBSXCU4umIOyUo=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ReadExtentActi
+ onHandler.class
+SHA1-Digest: KO4iXfcnFaOwj/bL42XJK7qq+a4=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/filter/CommandFilter.class
+SHA1-Digest: 3JZbzHYkA8HtN3SN+lbghK6B0ws=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/VariableHandler.cl
+ ass
+SHA1-Digest: HJv6ebjsUetoDRyYSRm3ILoVYVY=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/TimeIntervalHa
+ ndler.class
+SHA1-Digest: 4cc4iQgeufG0GNik3HUYDjNzF/M=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/OperationHandl
+ er.class
+SHA1-Digest: TXFEt5i44qSIqFBSXCU4umIOyUo=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/RealizationHan
+ dler.class
+SHA1-Digest: CFoARa77UMWqywEqd5OAgoGOVIE=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/filter/CommandFilter.c
+ lass
+SHA1-Digest: 3JZbzHYkA8HtN3SN+lbghK6B0ws=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/CallActionHandler.
+ class
+SHA1-Digest: 8mJucQ0hYbzAhNDGmF7R7nBnyzk=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/TriggerHandler.cla
+ ss
+SHA1-Digest: BG1rTykSNFFCpS5ZR32UKv2B6TU=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/StringExpressi
+ onHandler.class
+SHA1-Digest: bGOICA7TZwcv7x19JLSfevUK22E=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/OperationTempl
+ ateParameterHandler.class
+SHA1-Digest: OxCf27sSXoQs5RJfD9Z4qRCUv9g=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/DeploymentHand
+ ler.class
+SHA1-Digest: xvJUfRB8f3Suh4zrtZV0haemy6E=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ReclassifyObjectAc
+ tionHandler.class
+SHA1-Digest: cUBm9RwvEyitQKPG05jQfVtWV68=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ValuePinHandle
+ r.class
+SHA1-Digest: GK/v377NzENo3hcTfTDLzKO2o94=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/UMLContentProvider.cla
+ ss
+SHA1-Digest: WAxYebFUfMMFb/w8Nld2wmd3CXE=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/WriteLinkActionHan
+ dler.class
+SHA1-Digest: TfUn/Jlj8ipCB7WTjhKUFuh4BRg=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ActionInputPin
+ Handler.class
+SHA1-Digest: RFH3OyztQGkt4vBhxD5urnT7JpI=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ValueSpecification
+ ActionHandler.class
+SHA1-Digest: g7WPzkOuQQm00iN8bZt+t/m9RDI=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ExpansionRegio
+ nHandler.class
+SHA1-Digest: Cjx7vfidtKob/UnA8leBmc81yKg=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/SendObjectActi
+ onHandler.class
+SHA1-Digest: CmxHzcwgSfZf3IZaQv6LtEwlkjE=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/AssociationBas
+ eHandler.class
+SHA1-Digest: /KFq5P/8KNRSyvfh9lez1fx8VR0=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ExecutionEventHand
+ ler.class
+SHA1-Digest: Nn/wYHirwHiLomUZ47rS1yeVqgM=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ParameterableE
+ lementHandler.class
+SHA1-Digest: 5ocEzPIElGtW3aQqc+V6YO/XXm4=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ManifestationHandl
+ er.class
+SHA1-Digest: kqLCPw7vjyVcYvC66AOv8xU++vc=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/AcceptCallActionHa
+ ndler.class
+SHA1-Digest: y+P01tFbKNRm4iW2ClDyj07uz00=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/MessageHandler
+ .class
+SHA1-Digest: NlHmVSMLhV7sdiWNJ7uyiOo5gtg=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ExtensionHandler.c
+ lass
+SHA1-Digest: D+NxV0WSkG7p0jxf2kOWn1QDTjA=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ManifestationH
+ andler.class
+SHA1-Digest: kqLCPw7vjyVcYvC66AOv8xU++vc=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ClauseHandler.
+ class
+SHA1-Digest: DI85gSuAgWdfSutyMACSSe7O0zA=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ReceiveSignalE
+ ventHandler.class
+SHA1-Digest: gN6hVHmpQqHnMrXdUMy3y29Jwtg=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ComponentHandler.c
+ lass
+SHA1-Digest: cAihADewkwstBkRxSCoz/DwAkYY=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/InstanceValueHandl
+ er.class
+SHA1-Digest: 0wyGc4bOxllV8sxNNQ1DS4IQ/OA=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/PackageMergeHandle
+ r.class
+SHA1-Digest: QlNp1tPymuboyML4/pamf51hfYU=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ClearAssociati
+ onActionHandler.class
+SHA1-Digest: BgH4Us4n8EM5P73iENqTeZLiE6Q=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ExtensionHandl
+ er.class
+SHA1-Digest: D+NxV0WSkG7p0jxf2kOWn1QDTjA=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ComponentHandl
+ er.class
+SHA1-Digest: cAihADewkwstBkRxSCoz/DwAkYY=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/InstanceValueH
+ andler.class
+SHA1-Digest: 0wyGc4bOxllV8sxNNQ1DS4IQ/OA=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/LiteralNullHan
+ dler.class
+SHA1-Digest: xrBcL6azAOQaDxFOxsvAZy3w6GQ=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ProfileApplication
+ Handler.class
+SHA1-Digest: P1NgQdWby+mkOA7X56jM5HM5+nM=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/StructuralFeat
+ ureActionHandler.class
+SHA1-Digest: 1YQv7oKCQs7/s9VPLhiYmiaIQaw=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/PackageHandler.cla
+ ss
+SHA1-Digest: PQWdxkPaTXdIhpKcUk3T4d7rFFI=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/PropertyHandle
+ r.class
+SHA1-Digest: wc3kRsQA/9OExGkVnOWgJLNw0PU=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/InteractionUse
+ Handler.class
+SHA1-Digest: SFzuwCsB+OUvQWiZhNkggD6vpKw=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/LinkEndCreatio
+ nDataHandler.class
+SHA1-Digest: SBcVvN610GAotqF0i/5BfCv02Jw=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/RaiseExceptionActi
+ onHandler.class
+SHA1-Digest: uaouU6exDNBBtgeg6zQyRvDQ5Gg=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/StructuralFeatureH
+ andler.class
+SHA1-Digest: tXfecPWPqC2kwFg5F5QAiFtieeU=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ExecutionSpeci
+ ficationHandler.class
+SHA1-Digest: vmuCl8YcS4NmsnMKQTiVjCvpJDQ=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/WriteVariableActio
+ nHandler.class
+SHA1-Digest: 2lJq/bQvYsAY8XN2W8W4z/ECBU4=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/RedefinableElement
+ Handler.class
+SHA1-Digest: Dn+3y4GQjownvUOed7Vs61NBqlA=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/StructuralFeat
+ ureHandler.class
+SHA1-Digest: tXfecPWPqC2kwFg5F5QAiFtieeU=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/DependencyHandler.
+ class
+SHA1-Digest: rGKl45rAGeLaeTmEMVFoSlJZTsA=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/InteractionConstra
+ intHandler.class
+SHA1-Digest: Kc9Pu4AZz2SjS3eOvjLUzE9vLDE=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ComponentRealizati
+ onHandler.class
+SHA1-Digest: ZEtbJZbssZNplloPnG68PykjSJo=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/IntervalHandler.cl
+ ass
+SHA1-Digest: M6eP61phNoWVz2ne+ch0lwjQb/E=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/LinkEndDestruc
+ tionDataHandler.class
+SHA1-Digest: qNtZp4eX9a2Jod52ju9vD4CCTZM=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ExtendHandler.
+ class
+SHA1-Digest: UvyrcaqInxkiHHm8IMUNRFBJf4M=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/LiteralBoolean
+ Handler.class
+SHA1-Digest: uiWrpoc5PjAQYJDHJTeaO+MB/04=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/InteractionCon
+ straintHandler.class
+SHA1-Digest: Kc9Pu4AZz2SjS3eOvjLUzE9vLDE=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ReadSelfAction
+ Handler.class
+SHA1-Digest: 1WEJHgQeA0/mWjskjkekuLi9bss=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/LiteralSpecifi
+ cationHandler.class
+SHA1-Digest: t4+ASqW0SGAtpMUOIsWL+gRADq0=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ElementImportHandl
+ er.class
+SHA1-Digest: 7d5Kk0GDjbyN8xEPOQJYxlwUn+k=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/RemoveStructur
+ alFeatureValueActionHandler.class
+SHA1-Digest: JCXo8MLeRxRBT/65ajvDNGkfc7Q=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/EnumerationHan
+ dler.class
+SHA1-Digest: W9NDJ7cfwaBmgdbrSSDdkKWXmHQ=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/CallOperationActio
+ nHandler.class
+SHA1-Digest: hNOCtEYWfsskpFU9u68wLu8Zxqc=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/AbstractionHan
+ dler.class
+SHA1-Digest: tCtNEcniwIlkYdO/rtdV98p2mtg=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ReadLinkObject
+ EndActionHandler.class
+SHA1-Digest: 0wHcybLcizjkfhAuspQGSyhyBzM=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/InputPinHandle
+ r.class
+SHA1-Digest: jUE8dH3hoI/011lDPxsENsyt59M=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/AssociationHan
+ dler.class
+SHA1-Digest: t8d6allrO6KIuBhS5Zm1woiLrmk=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ElementImportH
+ andler.class
+SHA1-Digest: 7d5Kk0GDjbyN8xEPOQJYxlwUn+k=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/StructuredClassifi
+ erHandler.class
+SHA1-Digest: yhFIFZb3qd+2mNsVuPHkZpq2tA8=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ArtifactHandler.cl
+ ass
+SHA1-Digest: GONlpbi/OnNb/hG3zGmovaGCD3s=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/FinalNodeHandler.c
+ lass
+SHA1-Digest: TYJ0rwpF2d6zCyBEwfz53AhPlEQ=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ActivityNodeHandle
+ r.class
+SHA1-Digest: 9gVihAdtFjFCI5O9QY83V4em9e4=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/GeneralOrderin
+ gHandler.class
+SHA1-Digest: 39ebMYJjrsJzobO/AKHF2+dKTZs=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/InteractionHandler
+ .class
+SHA1-Digest: nNLPFCwDlGq2lRfArXkOTA6tALM=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/DataTypeHandle
+ r.class
+SHA1-Digest: /Ez+S1PorFWczXy7Vh0gn2folJY=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/MessageOccurrenceS
+ pecificationHandler.class
+SHA1-Digest: y+IRcCYUgITjOaEASlO6u/agRJA=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/IntervalConstr
+ aintHandler.class
+SHA1-Digest: 7ShqSXO8de9+uPNw5Reje82QTeA=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/FinalNodeHandl
+ er.class
+SHA1-Digest: TYJ0rwpF2d6zCyBEwfz53AhPlEQ=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ExecutionEnvir
+ onmentHandler.class
+SHA1-Digest: 2NsUoNNmnIqZ2O1LbzeiEokDBng=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ConnectionPoin
+ tReferenceHandler.class
+SHA1-Digest: 2TbDaxclEEqXPOMwsQ9ApsIcDG4=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/GeneralizationSetH
+ andler.class
+SHA1-Digest: gufgwab/T/VRhzzum2xxzxP96bY=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/Generalization
+ SetHandler.class
+SHA1-Digest: gufgwab/T/VRhzzum2xxzxP96bY=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ActivityParameterN
+ odeHandler.class
+SHA1-Digest: AJx+vqjOVlJqWRBz6itUkTiglk0=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/NamespaceHandler.c
+ lass
+SHA1-Digest: HEZxADUg+oYUaeipM/1ow6Of2pw=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/OpaqueBehaviorHand
+ ler.class
+SHA1-Digest: GwUE6eRKMqLL0S8i7cQwexCDONI=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/CreateLinkObje
+ ctActionHandler.class
+SHA1-Digest: zZTfK728/uy17b/5i83+eq7Qg3E=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/TypedElementHandle
+ r.class
+SHA1-Digest: d+FEVkUcC33DeAwwYqwhqkQwCrU=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ActivityParame
+ terNodeHandler.class
+SHA1-Digest: AJx+vqjOVlJqWRBz6itUkTiglk0=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/InterfaceRealizati
+ onHandler.class
+SHA1-Digest: MyISL7dubSsrTNu+cLjBau3XTwU=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/NamespaceHandl
+ er.class
+SHA1-Digest: HEZxADUg+oYUaeipM/1ow6Of2pw=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ForkNodeHandle
+ r.class
+SHA1-Digest: dGP3hiJWFQNB0daF1oQghA8pkFw=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ActivityEdgeHandle
+ r.class
+SHA1-Digest: 5AMPjvx1uScGtbsBCSDR9GwJi2o=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/GateHandler.class
+SHA1-Digest: WpJ14+PAjmew5e8JbqvPhpfILYo=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ObservationHandler
+ .class
+SHA1-Digest: kOjwyOUsR9tcTtjgfcjd4ACwWMc=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/PseudostateHan
+ dler.class
+SHA1-Digest: Za7KaGqlt+mXl9CCuklCu+TUjC0=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/PortHandler.class
+SHA1-Digest: dMZFUz+llDBsP+u5Nk5sj5ZRJAk=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ContinuationHa
+ ndler.class
+SHA1-Digest: aYH7SjPgnbcH+9iBkHwkMVX7S7M=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/CombinedFragme
+ ntHandler.class
+SHA1-Digest: OQLdtAp9BslUWXqDkyJAxrWUa/I=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/CallEventHandler.c
+ lass
+SHA1-Digest: lvGu5b4WmGhCktKMyrenR2JSMI8=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/VariableActionHand
+ ler.class
+SHA1-Digest: YtrcSHr/ev87ClvVYMUuTHcvvZ8=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ControlNodeHan
+ dler.class
+SHA1-Digest: 5e4T+dLKDh/cPfYK64AGmyPvy+E=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/QualifierValue
+ Handler.class
+SHA1-Digest: bY2Ts6hFuDb/X4aL4thmvaoScVY=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/CallEventHandl
+ er.class
+SHA1-Digest: lvGu5b4WmGhCktKMyrenR2JSMI8=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/TestIdentityAction
+ Handler.class
+SHA1-Digest: OWFN7SfVmpIMAn4w6irnvw7KrrI=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ChangeEventHandler
+ .class
+SHA1-Digest: B/ElYb8L2ugmCsO7ujbSSQFcA6s=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/NodeHandler.class
+SHA1-Digest: mr/xbwlR6bgG9IsMZoieAXRShZE=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/AcceptEventActionH
+ andler.class
+SHA1-Digest: hkIAgUoI8XXDhql+FkBGx+uI9HU=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/InteractionOpe
+ randHandler.class
+SHA1-Digest: EOCZ8LXEiofxiywgHM1dlDhmiqE=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ReduceActionHandle
+ r.class
+SHA1-Digest: Kv0YWfuHQ7TC6DYHTb7MRHqmfME=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/AcceptEventAct
+ ionHandler.class
+SHA1-Digest: hkIAgUoI8XXDhql+FkBGx+uI9HU=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/StereotypeHand
+ ler.class
+SHA1-Digest: vbywWH8WYm5ZnCKyDFcKjgq86w0=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ProtocolTransi
+ tionHandler.class
+SHA1-Digest: b9KgDz7Njg7c41MDBHTooYlCaAg=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/CommentHandler
+ .class
+SHA1-Digest: ec4D6kFAbwSqLkiAD44+l3y9dK8=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/PinHandler.class
+SHA1-Digest: TWrmYnX4DRp3nuwEKiU3MiSyJA4=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/NamedElementHa
+ ndler.class
+SHA1-Digest: PaQiR8M+JRfqwN19dyH6i0JcWlQ=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/InterruptibleA
+ ctivityRegionHandler.class
+SHA1-Digest: 26Fj+U/CuZLYPTU0haG+B/aSl28=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ClearStructura
+ lFeatureActionHandler.class
+SHA1-Digest: 7rbeTFW04ceQS87x+hR++DkUtk8=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/StructuredActi
+ vityNodeHandler.class
+SHA1-Digest: zucQdk8q26FMefRMsSBHdNCZr/Q=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/UseCaseHandler
+ .class
+SHA1-Digest: vOJPMhhGyyrboBztuNh9x89rmMk=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/DestroyLinkActionH
+ andler.class
+SHA1-Digest: 1N1njEPJIBK+ySYZo8FOExB6bHM=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/DirectedRelationsh
+ ipHandler.class
+SHA1-Digest: +r+d96nEL5o2LPqa9w1OqzjgM6U=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/DestroyLinkAct
+ ionHandler.class
+SHA1-Digest: 1N1njEPJIBK+ySYZo8FOExB6bHM=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/FinalStateHandler.
+ class
+SHA1-Digest: C+9+WQK08ZfildBpVc24EXl4NRM=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/MultiplicityElemen
+ tHandler.class
+SHA1-Digest: U9i+Smph7/yAqipPqg36mlxHGPM=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ReadLinkObjectEndQ
+ ualifierActionHandler.class
+SHA1-Digest: ac4UII6CBS3GTXbduGlss3IHCYQ=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/queries/GetComplexName
+ .class
+SHA1-Digest: qK+CctXsqAVWFner7guV7qZYd/I=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/FunctionBehavi
+ orHandler.class
+SHA1-Digest: hOH1anboekbEKN+fGrue6wcC2Ko=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/LinkActionHandler.
+ class
+SHA1-Digest: 1QY58iJiLbm+bD2cZke/321n7Mc=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/ReadLinkAction
+ Handler.class
+SHA1-Digest: 3mH8G7a5XRDFYecY+upvkIy2AYE=
+
+Name: bin/org/eclipse/papyrus/uml/modelexplorer/handler/SequenceNodeHa
+ ndler.class
+SHA1-Digest: wFl+YZxmb7kJpSRMrQA7pa0TEfo=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/TemplateBindingHan
+ dler.class
+SHA1-Digest: RLb7IaBA1GPRCsGYWO2cdeRbx+8=
+
+Name: org/eclipse/papyrus/uml/modelexplorer/handler/ParameterHandler.c
+ lass
+SHA1-Digest: ZzcgCaaDQov6LKl1XnyUi3tui7c=
+

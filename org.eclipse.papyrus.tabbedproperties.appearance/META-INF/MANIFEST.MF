@@ -1,0 +1,137 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.papyrus.tabbedproperties.appearance;s
+ ingleton:=true
+Require-Bundle: org.eclipse.gmf.runtime.diagram.ui.properties;bundle-v
+ ersion="1.1.0",org.eclipse.papyrus.diagram.common;bundle-version="0.8
+ .0"
+Bundle-Activator: org.eclipse.papyrus.tabbedproperties.appearance.Acti
+ vator
+Bundle-Version: 0.8.0.v201106151827
+Export-Package: org.eclipse.papyrus.tabbedproperties.appearance
+Ant-Version: Apache Ant 1.7.1
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/papyrus/tabbedproperties/appearance/ShadowAppearance
+ Section.class
+SHA1-Digest: wlUaqn57xgbMizvW8WoLbu4Wk1I=
+
+Name: org/eclipse/papyrus/tabbedproperties/appearance/GradientSection$
+ 1.class
+SHA1-Digest: Ct9pwIqrrt2kN4UmR+CMXBho7lA=
+
+Name: org/eclipse/papyrus/tabbedproperties/appearance/GradientSection$
+ 2.class
+SHA1-Digest: XK5Mf5Qt2yaYheSKlNNjHx8V/iM=
+
+Name: org/eclipse/papyrus/tabbedproperties/appearance/GradientSection$
+ 3.class
+SHA1-Digest: mS/YkA+xn9CTXPdNnYjCDEj0/TY=
+
+Name: org/eclipse/papyrus/tabbedproperties/appearance/GradientSection$
+ 4.class
+SHA1-Digest: 9T8Yk46OBYxq8c3yDnrW1qOs9y8=
+
+Name: org/eclipse/papyrus/tabbedproperties/appearance/GradientSection$
+ 5.class
+SHA1-Digest: cuKHLi0x4hZZWuRKxwLcZMnjfso=
+
+Name: org/eclipse/papyrus/tabbedproperties/appearance/GradientSection$
+ 6.class
+SHA1-Digest: Zq7uYQgcPKvdJPPeTcPdsPUHsB4=
+
+Name: org/eclipse/papyrus/tabbedproperties/appearance/LayoutCompartmen
+ tAppearanceSection.class
+SHA1-Digest: dUqiX0fqxD0OqUS1zgVnCzTwQr0=
+
+Name: plugin.properties
+SHA1-Digest: UHJ95BpaWQY58ee53MJAZJVVjb8=
+
+Name: org/eclipse/papyrus/tabbedproperties/appearance/messages.propert
+ ies
+SHA1-Digest: t9VeN3d7q/Rb7f1zZY2TPtlARt0=
+
+Name: org/eclipse/papyrus/tabbedproperties/appearance/NodeNamedElement
+ Filter.class
+SHA1-Digest: 4LX7fpkR6Z/D4M3rgvOYESHtihU=
+
+Name: org/eclipse/papyrus/tabbedproperties/appearance/ShadowAppearance
+ Section$1.class
+SHA1-Digest: KYtN5amMqDiUJ6yEPAMd+Yc/thA=
+
+Name: org/eclipse/papyrus/tabbedproperties/appearance/LayoutCompartmen
+ tAppearanceSection$1.class
+SHA1-Digest: GaF0aHzLdBkqYpcJGWhvCGP/skc=
+
+Name: org/eclipse/papyrus/tabbedproperties/appearance/LabelNameIconApp
+ earanceSection.class
+SHA1-Digest: 2At1YRFIGKy+nWVLPntdnjNj81A=
+
+Name: plugin.xml
+SHA1-Digest: OJrh5g/zyGuY74JOQZq2xvnNiW8=
+
+Name: org/eclipse/papyrus/tabbedproperties/appearance/Messages.class
+SHA1-Digest: Yxm89sZ1dhNQZTpvm5jkKCX/KL8=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/papyrus/tabbedproperties/appearance/LayoutCompartmen
+ tSectionFilter.class
+SHA1-Digest: 96zyjWgs/7Es5oFjo+xhfBxt/no=
+
+Name: org/eclipse/papyrus/tabbedproperties/appearance/LabelNameIconApp
+ earanceSection$1.class
+SHA1-Digest: N2AYTmtFdPZ4EvLsIy5KHR+iLxI=
+
+Name: org/eclipse/papyrus/tabbedproperties/appearance/MaskManagedLabel
+ Section.class
+SHA1-Digest: vGhiewqXaIKRdwfM/GtMxEorG6k=
+
+Name: org/eclipse/papyrus/tabbedproperties/appearance/QualifiedNameApp
+ earanceSection.class
+SHA1-Digest: u3unYVIONuURXcdl6LAudlvu264=
+
+Name: about.html
+SHA1-Digest: a2Fk5/pDnCvlEfl7QwDZj/FCgFc=
+
+Name: org/eclipse/papyrus/tabbedproperties/appearance/MaskManagedLabel
+ Section$1.class
+SHA1-Digest: CVjB1kj5VAOL4ZE3jSmty0DiADc=
+
+Name: org/eclipse/papyrus/tabbedproperties/appearance/MaskManagedLabel
+ Section$2.class
+SHA1-Digest: jViLlRfcrroesTW/chyXLtBGRME=
+
+Name: org/eclipse/papyrus/tabbedproperties/appearance/MaskManagedLabel
+ Section$3.class
+SHA1-Digest: 1wRv12wFPhfhGmdbmMf1lvbnqtw=
+
+Name: org/eclipse/papyrus/tabbedproperties/appearance/MaskManagedLabel
+ Section$4.class
+SHA1-Digest: IyrCahu0ENXofTmZU+S9fpEITw0=
+
+Name: org/eclipse/papyrus/tabbedproperties/appearance/GradientSection.
+ class
+SHA1-Digest: pEJ1lvujkGTsSd+2mbDdY+byIkc=
+
+Name: org/eclipse/papyrus/tabbedproperties/appearance/Activator.class
+SHA1-Digest: EoEAxVTbCOrPiE68fFNceWrhpxQ=
+
+Name: org/eclipse/papyrus/tabbedproperties/appearance/QualifiedNameApp
+ earanceSection$1.class
+SHA1-Digest: SyoE2adIUN25Yqqdt9MqzOgY83M=
+
+Name: org/eclipse/papyrus/tabbedproperties/appearance/IPrimaryEditPart
+ Filter.class
+SHA1-Digest: dHwTVeLOEd1TFg6eFewYAKOOUOM=
+
+Name: org/eclipse/papyrus/tabbedproperties/appearance/MaskManagedLabel
+ SectionFilter.class
+SHA1-Digest: 3WI33k2VDsAb6O82PjMEW7IMCBc=
+

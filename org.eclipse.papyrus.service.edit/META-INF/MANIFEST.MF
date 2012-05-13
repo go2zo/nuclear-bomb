@@ -1,0 +1,112 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.papyrus.service.edit;singleton:=true
+Require-Bundle: org.eclipse.ui;bundle-version="[3.7.0,4.0.0)",org.ecli
+ pse.core.runtime;bundle-version="[3.7.0,4.0.0)",org.eclipse.papyrus.c
+ ore;bundle-version="0.8.0";visibility:="reexport",org.eclipse.emf;bun
+ dle-version="2.6.0",org.eclipse.gmf.runtime.emf.type.core;bundle-vers
+ ion="1.4.0",org.eclipse.papyrus.log;bundle-version="0.8.0"
+Bundle-Activator: org.eclipse.papyrus.service.edit.Activator
+Bundle-Version: 0.8.0.v201106151827
+Export-Package: org.eclipse.papyrus.service.edit,org.eclipse.papyrus.s
+ ervice.edit.commands,org.eclipse.papyrus.service.edit.messages,org.ec
+ lipse.papyrus.service.edit.service,org.eclipse.papyrus.service.edit.u
+ tils
+Ant-Version: Apache Ant 1.7.1
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/papyrus/service/edit/Activator.class
+SHA1-Digest: RJOf0y0Y/7NQ0nMPb4wwRRkgYPU=
+
+Name: org/eclipse/papyrus/service/edit/utils/ElementTypeValidator.clas
+ s
+SHA1-Digest: ncjOnRsH+4d2HKEvewnIAkbupDI=
+
+Name: org/eclipse/papyrus/service/edit/commands/AbstractConfigureComma
+ ndFactory.class
+SHA1-Digest: J9Q3vjyoBS4WwX6voD5D96Y1Y3c=
+
+Name: org/eclipse/papyrus/service/edit/matcher/NoContextEnablementMatc
+ her.class
+SHA1-Digest: dEgKErndFPqJtr9IcrKdWJCUvXw=
+
+Name: org/eclipse/papyrus/service/edit/service/IElementEditService.cla
+ ss
+SHA1-Digest: k1EoTbT0wXa1vI+vWhf8NVunn8A=
+
+Name: plugin.properties
+SHA1-Digest: fpjVnsEROR3S3m4ZnFd080sftnM=
+
+Name: org/eclipse/papyrus/service/edit/commands/AbstractConfigureComma
+ ndFactory$1.class
+SHA1-Digest: iasnrywo8jx8q4zYbYI90U0J+is=
+
+Name: org/eclipse/papyrus/service/edit/service/ElementEditServiceUtils
+ .class
+SHA1-Digest: 81VR/NHyYKA1slQmHIibLxVqcBM=
+
+Name: org/eclipse/papyrus/service/edit/utils/GMFCommandUtils.class
+SHA1-Digest: AdvFDdYmQERdWsn3iWLYwtl1Tow=
+
+Name: messages.properties
+SHA1-Digest: VCd+yKeOM9oHvW7F5g75lqAxq+I=
+
+Name: org/eclipse/papyrus/service/edit/messages/Messages.class
+SHA1-Digest: DfnOh3NwpUmRIZK+QLUijmIjWBM=
+
+Name: org/eclipse/papyrus/service/edit/service/IElementEditServiceProv
+ ider.class
+SHA1-Digest: +DzBDVMeVX+PbIfS8wP5jx3HfoI=
+
+Name: plugin.xml
+SHA1-Digest: jnKea9m7Httf31jEoMKu/mUUfSY=
+
+Name: org/eclipse/papyrus/service/edit/commands/ConfigureFeatureListCo
+ mmandFactory.class
+SHA1-Digest: ymB1L9zI8ewxMKLdWpGy4GSFzRU=
+
+Name: org/eclipse/papyrus/service/edit/context/TypeContext.class
+SHA1-Digest: qD0cD0aiGMHlFrxUBnE8NaIhiEs=
+
+Name: org/eclipse/papyrus/service/edit/commands/ConfigureFeatureComman
+ dFactory.class
+SHA1-Digest: a69L3WgXNsFTq/gmP13tEfcaPgw=
+
+Name: org/eclipse/papyrus/service/edit/internal/ElementEditServiceProv
+ iderFactory.class
+SHA1-Digest: 74bnWpbE3xl7nG3ifj1bZZbAZoo=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/papyrus/service/edit/internal/ElementEditService.cla
+ ss
+SHA1-Digest: LId603MtQLpbviCflFfQxXpBJsc=
+
+Name: org/eclipse/papyrus/service/edit/commands/ConfigureFeatureListCo
+ mmandFactory$1.class
+SHA1-Digest: AfNT016eEJaSMY2YyivL7+rbGtw=
+
+Name: about.html
+SHA1-Digest: a2Fk5/pDnCvlEfl7QwDZj/FCgFc=
+
+Name: org/eclipse/papyrus/service/edit/commands/IConfigureCommandFacto
+ ry.class
+SHA1-Digest: 3DrMpFm/WEzyHpko8oMnhlTnVqs=
+
+Name: org/eclipse/papyrus/service/edit/commands/ConfigureFeatureComman
+ dFactory$1.class
+SHA1-Digest: fNqjmkrqDw2b5yR04NMUMPm2vQA=
+
+Name: build.properties
+SHA1-Digest: aOz2vi/z/tC/hJVPWNTPhutofvE=
+
+Name: org/eclipse/papyrus/service/edit/internal/ElementEditServiceProv
+ ider.class
+SHA1-Digest: l6KnVIe4oQ/fyL5eGOk1dVgdoj8=
+

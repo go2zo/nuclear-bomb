@@ -1,0 +1,52 @@
+Manifest-Version: 1.0
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.papyrus.table.default;singleton:=true
+Bundle-Activator: org.eclipse.papyrus.table.defaultt.Activator
+Require-Bundle: org.eclipse.papyrus.core;bundle-version="[0.8.0,1.0.0)
+ ",org.eclipse.papyrus.table.common;bundle-version="0.8.0",org.eclipse
+ .papyrus.table.instance;bundle-version="0.8.0",org.eclipse.emf.facet.
+ widgets.nattable;bundle-version="0.1.0"
+Bundle-Version: 0.8.0.v201106151827
+Export-Package: org.eclipse.papyrus.table.defaultt,org.eclipse.papyrus
+ .table.defaultt.editor,org.eclipse.papyrus.table.defaultt.factory,org
+ .eclipse.papyrus.table.defaultt.handlers
+Ant-Version: Apache Ant 1.7.1
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/papyrus/table/defaultt/Activator.class
+SHA1-Digest: j7TL8cbeHMS8TNf8eYoVS5vD0Oo=
+
+Name: org/eclipse/papyrus/table/defaultt/editor/DefaultNattableEditor.
+ class
+SHA1-Digest: 7n6ZGVzb0O12tGs4V0GbtTXoQW8=
+
+Name: icons/table.png
+SHA1-Digest: xpflRNORuAHWP2HnH62PMIZeXdg=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/papyrus/table/defaultt/factory/NattableEditorFactory
+ .class
+SHA1-Digest: ArfdzS5NnWVShwqSt5ktxKWJKd8=
+
+Name: org/eclipse/papyrus/table/defaultt/handlers/CreateNattableEditor
+ Command.class
+SHA1-Digest: FANnqmytwouxYVwZyIx0PlBTWS4=
+
+Name: icons/table_UML_default.png
+SHA1-Digest: o4wYvcIFLGlVdZHb2UEJc1PUNHE=
+
+Name: plugin.xml
+SHA1-Digest: Enb8f4lWLV1n78VVDGYhr2uJuZw=
+
+Name: about.html
+SHA1-Digest: a2Fk5/pDnCvlEfl7QwDZj/FCgFc=
+
+Name: plugin.properties
+SHA1-Digest: iznXC36QuyO2RLrLEP3dTFmoEKE=
+

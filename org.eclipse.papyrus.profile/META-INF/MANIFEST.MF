@@ -1,0 +1,906 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.papyrus.profile;singleton:=true
+Require-Bundle: org.eclipse.uml2.uml.editor;bundle-version="[3.1.0,4.0
+ .0)",org.eclipse.papyrus.extensionpoints.uml2;bundle-version="0.8.0",
+ org.eclipse.papyrus.diagram.common;bundle-version="0.8.0",org.eclipse
+ .gmf.runtime.diagram.ui.properties;bundle-version="1.1.0",org.eclipse
+ .emf.facet.infra.browser.uicore;bundle-version="0.1.0"
+Bundle-Activator: org.eclipse.papyrus.profile.Activator
+Bundle-Version: 0.8.0.v201106151827
+Export-Package: org.eclipse.papyrus.profile,org.eclipse.papyrus.profil
+ e.constraints,org.eclipse.papyrus.profile.definition,org.eclipse.papy
+ rus.profile.filter,org.eclipse.papyrus.profile.preference,org.eclipse
+ .papyrus.profile.tree,org.eclipse.papyrus.profile.tree.objects,org.ec
+ lipse.papyrus.profile.ui.actions,org.eclipse.papyrus.profile.ui.compo
+ siteforview,org.eclipse.papyrus.profile.ui.compositesformodel,org.ecl
+ ipse.papyrus.profile.ui.dialogs,org.eclipse.papyrus.profile.ui.items,
+ org.eclipse.papyrus.profile.ui.listeners,org.eclipse.papyrus.profile.
+ ui.panels,org.eclipse.papyrus.profile.ui.section,org.eclipse.papyrus.
+ profile.ui.views,org.eclipse.papyrus.profile.utils,org.eclipse.papyru
+ s.profile.wizard
+Ant-Version: Apache Ant 1.7.1
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/papyrus/profile/ui/compositesformodel/AppliedProfile
+ CompositeOnModel$5.class
+SHA1-Digest: ZjlnNkKEO3SFD6HIERNow5rQy0o=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/ChooseSetAssistedDialog$D
+ ecoratedContentProposalProvider.class
+SHA1-Digest: qRc0+55iGpzrRXahZbGGsmNokRc=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/LabelEditorDialog.class
+SHA1-Digest: 4vD3yD9zpCDWwdwtc3il4qWBZLo=
+
+Name: org/eclipse/papyrus/profile/ui/compositeforview/AppliedStereotyp
+ eCompositeWithView$1$1.class
+SHA1-Digest: /7xhhGbRfDC4Kch+ZhyrdUzVyW8=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/DefinitionHistoryDialog.c
+ lass
+SHA1-Digest: rSwOnhssAQdAbCR6UMgazVZt/fs=
+
+Name: org/eclipse/papyrus/profile/ui/panels/AppliedProfilePanel.class
+SHA1-Digest: UAraIal0mEWn4ZYZ1AD44OSz6YA=
+
+Name: org/eclipse/papyrus/profile/tree/objects/EnumerationValueTreeObj
+ ect.class
+SHA1-Digest: xK3gLT0yLlAQtAExz0ONshv5ubk=
+
+Name: org/eclipse/papyrus/profile/ui/actions/ImportFromFile$ImportFrom
+ FileCommand.class
+SHA1-Digest: luovW0Y3XTpF+VWtdTq8POMgajc=
+
+Name: org/eclipse/papyrus/profile/wizard/UMLModelWithProfileWizard$UML
+ ModelWizardProfilesPage$1.class
+SHA1-Digest: fw62pOXtCPUvHkhRq3JR+Xlh9/s=
+
+Name: org/eclipse/papyrus/profile/ui/items/DataTypeItems.class
+SHA1-Digest: Q5lIzCmlInil1UENqvdyzIne9o0=
+
+Name: org/eclipse/papyrus/profile/ui/actions/AbstractPackageImportActi
+ on.class
+SHA1-Digest: lh8sggVXM4BuerTGf7jfvAAgsv4=
+
+Name: org/eclipse/papyrus/profile/ui/compositeforview/AppearanceForApp
+ liedStereotypeComposite$6.class
+SHA1-Digest: GFJi/9eaatRfWzYwpYkO3tN29qI=
+
+Name: org/eclipse/papyrus/profile/ui/compositesformodel/ISectionCompos
+ ite.class
+SHA1-Digest: tD0zt6iwgFeSBy0Id4Nk8gAPSC8=
+
+Name: resources/icons/Enumeration.gif
+SHA1-Digest: 4XlgKbbMUmmc37H3/3uOQikI0C0=
+
+Name: org/eclipse/papyrus/profile/ui/compositesformodel/AppliedProfile
+ CompositeOnModel$6$1$1.class
+SHA1-Digest: dn0e0ot1LNs3Jqh8n17rFdSH7A0=
+
+Name: org/eclipse/papyrus/profile/ui/items/StereotypeItems.class
+SHA1-Digest: wAnw3K11SYUTs7rG3xB4zV6X7co=
+
+Name: org/eclipse/papyrus/profile/filter/CompartmentEditPartPropertySe
+ ctionFilter.class
+SHA1-Digest: lB4tzsSmjFoFCJj1JjMydqUy3JI=
+
+Name: org/eclipse/papyrus/profile/ui/actions/ImportLibrariesFromReposi
+ toryAction.class
+SHA1-Digest: ZP6OoPP/57LpVeFOOvowIpDzd1Q=
+
+Name: org/eclipse/papyrus/profile/ui/compositeforview/StereotypeProper
+ tiesDoubleClickListener.class
+SHA1-Digest: qMtQG09nMf3H6WRubwX5C3rBB0g=
+
+Name: org/eclipse/papyrus/profile/ui/compositesformodel/AppliedStereot
+ ypeCompositeOnModel$3.class
+SHA1-Digest: T8pTiMAbdNiHpF8E0Nx9FJ3X/Ns=
+
+Name: org/eclipse/papyrus/profile/ui/compositeforview/AppliedStereotyp
+ eCompositeWithView$2.class
+SHA1-Digest: TcFaBBuVwD17DZ95Nb4SUsQm23I=
+
+Name: resources/icons/Manifestation.gif
+SHA1-Digest: NvgiNfTZMRH3hyMCaXeIt/hpcrQ=
+
+Name: org/eclipse/papyrus/profile/ui/compositesformodel/AppliedStereot
+ ypeCompositeOnModel$2$1.class
+SHA1-Digest: Pz2RdbG+iNa6y+PRLnHxe5tVvNc=
+
+Name: org/eclipse/papyrus/profile/ui/compositeforview/AppliedStereotyp
+ eDisplayComposite.class
+SHA1-Digest: BIuZrM5DHr81YvHL1GWIFrzSzMI=
+
+Name: org/eclipse/papyrus/profile/ui/compositesformodel/AppliedProfile
+ CompositeOnModel$2.class
+SHA1-Digest: I6tNEHquCoyb4IeK5dcP2lfHPzE=
+
+Name: org/eclipse/papyrus/profile/ui/section/AppliedStereotypeProperti
+ esPlaceSection$1.class
+SHA1-Digest: keBMWvWqx0Fm0yRUN7iKyH8q2+Q=
+
+Name: resources/icons/ArrowRight.gif
+SHA1-Digest: SUSocWQGQBuR4g6KB7Ttf3f3Kss=
+
+Name: org/eclipse/papyrus/profile/ui/section/AppliedStereotypeDisplayS
+ ection.class
+SHA1-Digest: KFzGlStv0mjeFK3Ks4NgTnydPZg=
+
+Name: org/eclipse/papyrus/profile/ui/actions/ImportProfileAction.class
+SHA1-Digest: ylhVVJD9e766jfQaWeSKk08D5JM=
+
+Name: org/eclipse/papyrus/profile/ui/compositesformodel/AppliedStereot
+ ypeCompositeOnModel$2$1$1.class
+SHA1-Digest: 45EIsSqsnckF7Vvi0nwxEwM9Vq0=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/ChooseSetAssistedDialog$R
+ emoveButtonListener.class
+SHA1-Digest: gbpGx3aFPwcE7oKLH8D3WfePyJ4=
+
+Name: org/eclipse/papyrus/profile/tree/objects/CompositeValueTreeObjec
+ t.class
+SHA1-Digest: Hsnfw/Ed3pDhi2NBZeDJYyE8tM4=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/ElementImportTreeSelectio
+ nDialog.class
+SHA1-Digest: 49CAX4Q193g/wSMoYV159xoOifY=
+
+Name: org/eclipse/papyrus/profile/ui/compositesformodel/AppliedProfile
+ CompositeOnModel$1$1.class
+SHA1-Digest: pvHPAsfXVjGjX76fCF6iZO821E8=
+
+Name: resources/icons/ConsoleViewQN.gif
+SHA1-Digest: aT1p1a8/RjN1xduoKJe08F6lxgk=
+
+Name: org/eclipse/papyrus/profile/constraints/PropertyHasDefaultValueC
+ onstraint.class
+SHA1-Digest: Ra48DJoNfIvLmhmy13TdZFaYW1g=
+
+Name: org/eclipse/papyrus/profile/ui/panels/AppliedStereotypePanel.cla
+ ss
+SHA1-Digest: aUswKp4OSe5AY/Obkozw0Oapp3A=
+
+Name: org/eclipse/papyrus/profile/ui/compositeforview/AppearanceForApp
+ liedStereotypeComposite$3.class
+SHA1-Digest: MfzAexpeZWcpqgJhqvjTUc1gVpo=
+
+Name: org/eclipse/papyrus/profile/definition/PapyrusDefinitionAnnotati
+ on.class
+SHA1-Digest: 1sT8XsS8l+CcxyZudSZ68ld9Wcs=
+
+Name: org/eclipse/papyrus/profile/ui/actions/ImportFromFile$ImportFrom
+ FileCommand$1.class
+SHA1-Digest: QU+8Eq0nvEVNLBl97SkaphrnJgw=
+
+Name: org/eclipse/papyrus/profile/ui/compositesformodel/DecoratedTreeC
+ omposite$AddButtonlistener.class
+SHA1-Digest: +PSz8ru2pys69W0+YEFK43heoVw=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/ChooseSetDialog$BottomBut
+ tonListener.class
+SHA1-Digest: NMgqnPF6A7VEf66erkGmRVQecoo=
+
+Name: org/eclipse/papyrus/profile/ui/compositesformodel/AppliedProfile
+ CompositeOnModel$1$1$1.class
+SHA1-Digest: WRG3EzH4ebNtgfq+vQcYfUA5DqI=
+
+Name: resources/icons/ArrowUp.gif
+SHA1-Digest: nUGy85EowQLrI5hDomzojsZItS4=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/ChooseSetAssistedDialog$A
+ ddItemListener.class
+SHA1-Digest: jEtXLWvQQFLDU5LnVx+v5vmu6Dg=
+
+Name: org/eclipse/papyrus/profile/ui/items/PrimitiveTypeItems.class
+SHA1-Digest: f7k0xvgBBV9VFB9nQ5/YKWWJWro=
+
+Name: resources/icons/ArrowDown.gif
+SHA1-Digest: RQXpLCwGwO2SKbD5h5J894Eotis=
+
+Name: org/eclipse/papyrus/profile/ui/actions/AbstractViewActionDelegat
+ e.class
+SHA1-Digest: gTNM/S9iPoduN9kPsI3RbBGYOEs=
+
+Name: resources/icons/DisplayedStereotypeQN.gif
+SHA1-Digest: B0/9Hy4S+rp73tW++D3dN4FCzrY=
+
+Name: resources/icons/Stereotype.gif
+SHA1-Digest: bUkbSqAYwbqh7DD7QWbn6B3VfZI=
+
+Name: resources/icons/AddReg.gif
+SHA1-Digest: FT+yMU/XrBGk25OwgZC0vvpreSk=
+
+Name: org/eclipse/papyrus/profile/ui/compositesformodel/DecoratedTreeC
+ omposite$RemoveButtonlistener.class
+SHA1-Digest: nOAeS27eHo4J4VDRapRm6k/HviU=
+
+Name: org/eclipse/papyrus/profile/Activator.class
+SHA1-Digest: hHd3pLdl858n+FNYdbYp9K9A/aY=
+
+Name: resources/icons/wizban/Annotation.gif
+SHA1-Digest: xmWybJHsEfBVz7ToQEBveMSCiaw=
+
+Name: resources/icons/Project.gif
+SHA1-Digest: +qtPrDKpe6LoIvP44rxgsSmCEJ4=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/ProfileDefinitionDialog$4
+ .class
+SHA1-Digest: QgFk7HBA3nfb1Na4bf/TY7hY6qE=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/StereotypeQualifiedLabelP
+ rovider.class
+SHA1-Digest: ere3Lhik8qFgr8ciwm36VkEpA30=
+
+Name: org/eclipse/papyrus/profile/ui/compositesformodel/AppliedProfile
+ CompositeOnModel.class
+SHA1-Digest: Ml4nSkmtFZMr2ZGer+9K3ITgFYY=
+
+Name: org/eclipse/papyrus/profile/tree/objects/IntegerValueTreeObject.
+ class
+SHA1-Digest: tBcDnCzfnZWCK/0EzGjmeu/Yl+Q=
+
+Name: org/eclipse/papyrus/profile/ui/compositesformodel/DecoratedTreeC
+ omposite.class
+SHA1-Digest: lwO7PNqYzugRi+WgNnKDWce+mSY=
+
+Name: org/eclipse/papyrus/profile/definition/IPapyrusVersionConstants.
+ class
+SHA1-Digest: /OSagv4bhKA0XcnMFcXeOzO4zXs=
+
+Name: resources/icons/Add.gif
+SHA1-Digest: yoxjmqMtVphUpFQAd45TKQuy8gU=
+
+Name: org/eclipse/papyrus/profile/ui/compositesformodel/AppearanceDeco
+ ratedTreeComposite.class
+SHA1-Digest: npeN27V0wEGboq/y/XHjZY4bZrc=
+
+Name: org/eclipse/papyrus/profile/tree/objects/TreeObject.class
+SHA1-Digest: JgQiXHPE1Ts/9TARR68E9wvbGMs=
+
+Name: org/eclipse/papyrus/profile/utils/ProfileConstraintUtils.class
+SHA1-Digest: SYakaMbUMvWr9KQpJA52wt6H9Hc=
+
+Name: org/eclipse/papyrus/profile/ui/compositeforview/AppearanceForApp
+ liedStereotypeComposite.class
+SHA1-Digest: WXc16obNvazCTk7nfNpUuSody3I=
+
+Name: org/eclipse/papyrus/profile/ui/section/AppliedStereotypeKindAppe
+ aranceSection$2.class
+SHA1-Digest: aKPjCA2tR5Bc2BGjHnW+rpu5DTE=
+
+Name: org/eclipse/papyrus/profile/ImageManager.class
+SHA1-Digest: PWEVWF9mW92w4Icgrt+HkhvPOso=
+
+Name: org/eclipse/papyrus/profile/definition/ProfileRedefinition.class
+SHA1-Digest: Ky0bgHvZgLm9weGEdkucsTpiFs4=
+
+Name: org/eclipse/papyrus/profile/ui/compositeforview/AppliedProfileCo
+ mpositeWithView.class
+SHA1-Digest: dGz6MkvWHDzL6HPAjC4T0gqAUfA=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/ChooseSetDialog$AddButton
+ Listener.class
+SHA1-Digest: T7AgNglnLaYQcxkjZTYEX0mrX/k=
+
+Name: org/eclipse/papyrus/profile/filter/AppliedProfileSectionFilter.c
+ lass
+SHA1-Digest: UHTtCYGRjYnd73Ite3KuvpjAAyc=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/ChooseDialog.class
+SHA1-Digest: iHqTJQSti+es3F0knIIBWZ+C54k=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/ElementImportTreeSelectio
+ nDialog$1.class
+SHA1-Digest: LtPx4zp2cbam1s69sgU+bOaug2I=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/ComboSelectionDialog.clas
+ s
+SHA1-Digest: bpNJ5pJnXgZOOgWONCNx2jP/7rY=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/papyrus/profile/ui/compositeforview/AppliedStereotyp
+ ePropertyCompositeWithView$1.class
+SHA1-Digest: YyBnntLbA9/Tq35gRkthgSrCwZw=
+
+Name: org/eclipse/papyrus/profile/ui/compositeforview/AppearanceForApp
+ liedStereotypeComposite$DisplayButtonListener.class
+SHA1-Digest: X6AwaucD+tMX9afMzbRxI3P/ZcU=
+
+Name: org/eclipse/papyrus/profile/ui/compositeforview/AppliedStereotyp
+ eCompositeWithView.class
+SHA1-Digest: hM9l9U8FWVcUhzblTnRUB7lXPZs=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/ChooseSetAssistedDialog$S
+ electedElementsContentProvider.class
+SHA1-Digest: 4VaanrjzNUtv3kBWl9GA9CvMQQc=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/ProfileDefinitionDialog$1
+ .class
+SHA1-Digest: eoplHvODWWONFQmbV+3Jh17aBV0=
+
+Name: resources/icons/LiteralBoolean.gif
+SHA1-Digest: 5rHsu5FqxQYSjUXUnS+Xl7f8LU8=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/ChooseSetStereotypeDialog
+ $1.class
+SHA1-Digest: 7dLS+o6+w2nHl/OLk9+zMmx6x74=
+
+Name: org/eclipse/papyrus/profile/wizard/UMLModelWithProfileWizard.cla
+ ss
+SHA1-Digest: Wtd6rKlvg45tUQ8BTevrrzZjh2M=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/ChooseSetAssistedDialog$D
+ ecoratedContentProposal.class
+SHA1-Digest: T7Uz9kJlqKetkzAiTvXHdMkrlWw=
+
+Name: org/eclipse/papyrus/profile/ui/section/AppliedStereotypeProperti
+ esPlaceSection.class
+SHA1-Digest: LtzemYAhgqOgkVBLymtJ4tlTLaQ=
+
+Name: resources/icons/LiteralString.gif
+SHA1-Digest: mTnjiHa4CKQZMgV+453++qLeAfM=
+
+Name: org/eclipse/papyrus/profile/tree/DisplayedProfileElementLabelPro
+ vider.class
+SHA1-Digest: m02ynBZOJoZ8hcOhixWdMskCxa8=
+
+Name: org/eclipse/papyrus/profile/ui/section/AppliedStereotypeKindAppe
+ aranceSection.class
+SHA1-Digest: l77U2SY2Rgn1vM/zbKQHFuS6dm4=
+
+Name: org/eclipse/papyrus/profile/wizard/UMLModelWithProfileWizard$UML
+ ModelWizardProfilesPage.class
+SHA1-Digest: QkGW8zmzwqwH+SDAIEs/wFLyXJw=
+
+Name: org/eclipse/papyrus/profile/ui/actions/ImportProfilesAsLibraryFr
+ omRepositoryAction$ImportProfilesAsLibraryFromRepositoryCommand.class
+SHA1-Digest: GBVCeXTu03yFs/rXryAAKpCNLV0=
+
+Name: org/eclipse/papyrus/profile/ui/compositeforview/IViewComposite.c
+ lass
+SHA1-Digest: Ra8rEOEQM2H1O5Iirvv2iOJJOgU=
+
+Name: org/eclipse/papyrus/profile/ui/compositesformodel/AppliedProfile
+ CompositeOnModel$4.class
+SHA1-Digest: XGcHY5piJyhelOEsH7pz1yfGzWY=
+
+Name: resources/icons/LiteralInteger.gif
+SHA1-Digest: 8ZulhO+jLVrxbKwSnjIGkvNPBVs=
+
+Name: org/eclipse/papyrus/profile/ui/compositeforview/ProfileElementWi
+ thDisplayContentProvider.class
+SHA1-Digest: oO8QpXtRGHq86OzMWzT3YiaRO5A=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/InputDialogEnumeration.cl
+ ass
+SHA1-Digest: Ikk1W32TxeK8jSV9LHlQT7e6A0g=
+
+Name: org/eclipse/papyrus/profile/tree/objects/StringValueTreeObject.c
+ lass
+SHA1-Digest: WQa9YHKYXKqThwuH8k6DE0aIcFg=
+
+Name: plugin.properties
+SHA1-Digest: uOw+dH1alkqhzppDX1bZz1zol2E=
+
+Name: org/eclipse/papyrus/profile/ui/views/ProfilePanelView.class
+SHA1-Digest: unbd51RyyYEsx8xLt36eidTBqHE=
+
+Name: org/eclipse/papyrus/profile/ui/compositeforview/AppearanceForApp
+ liedStereotypeComposite$5.class
+SHA1-Digest: v+e5F/k+LJ7lY7YWzqP/UWdP/NI=
+
+Name: org/eclipse/papyrus/profile/ui/items/CompositeItems.class
+SHA1-Digest: dWl6jgiw2EkZ3jOS6pH19PUbwUg=
+
+Name: plugin.xml
+SHA1-Digest: tFRdVnsomOGnLtyU1QCA9DSuqC0=
+
+Name: org/eclipse/papyrus/profile/tree/objects/ValueTreeObject.class
+SHA1-Digest: RfISoJosCb6n6+3Qx/9P6iVnclk=
+
+Name: org/eclipse/papyrus/profile/ui/compositesformodel/AppliedStereot
+ ypeCompositeOnModel.class
+SHA1-Digest: Ot36RBSpqwpYV0jcB5SzGDNE+YU=
+
+Name: org/eclipse/papyrus/profile/ui/compositeforview/AppearanceForApp
+ liedStereotypeComposite$2$1.class
+SHA1-Digest: LLkw7S7CIma1HvHDjCzc2knlrGE=
+
+Name: org/eclipse/papyrus/profile/ui/compositeforview/AppearanceForApp
+ liedStereotypeComposite$4$1.class
+SHA1-Digest: Nf3cr1skBUZ0WqApTEOVVPylEmI=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/FileSelectionFilter.class
+SHA1-Digest: T40Xg9LeWBXlmzQoaFJgyIfQ23E=
+
+Name: org/eclipse/papyrus/profile/ui/compositeforview/AppearanceForApp
+ liedStereotypeComposite$6$1.class
+SHA1-Digest: p1RJ85ViAKTmOy6Q/ycYAWjP9rE=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/ChooseSetAssistedDialog$D
+ ownButtonListener.class
+SHA1-Digest: FvTnKIzFVVwNwAHbJ5uiHZ1jVdE=
+
+Name: resources/icons/ProfileRepository.gif
+SHA1-Digest: 6V8t5YGkRhcycz2iLOdOe7lR0dQ=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/ChooseSetAssistedDialog$R
+ emoveItemListener.class
+SHA1-Digest: 7J8qtbH+txDdU/ULOSW1dQIG+rE=
+
+Name: org/eclipse/papyrus/profile/ui/actions/ImportLibrariesFromReposi
+ toryAction$ImportLibraryFromRepositoryCommand.class
+SHA1-Digest: 7+6G6TpgOgbjcI0M/oobTxyMYUk=
+
+Name: org/eclipse/papyrus/profile/ui/section/AppliedProfileSection.cla
+ ss
+SHA1-Digest: jFoLB4KjGlVbTLWxxDfZzQi1ALo=
+
+Name: org/eclipse/papyrus/profile/ui/compositesformodel/AppliedStereot
+ ypeCompositeOnModel$2.class
+SHA1-Digest: SouXb27vi59Y15uSrism7kwQSOE=
+
+Name: org/eclipse/papyrus/profile/tree/objects/AppliedStereotypeProper
+ tyTreeObject.class
+SHA1-Digest: t3+BIaxfsCQwJSRe0LkE9uX7BB8=
+
+Name: org/eclipse/papyrus/profile/ui/compositeforview/AppliedStereotyp
+ ePropertyCompositeWithView$1$1.class
+SHA1-Digest: ZYpE0bW7/rMiB2LxpBkwTc9qHX0=
+
+Name: resources/icons/Substitution.gif
+SHA1-Digest: xPrX6MFEEIK2B7KaivQxwmjrA4g=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/ProfileDefinitionDialog$6
+ .class
+SHA1-Digest: GK/LLfL5hHvKVQ3R2kl29wn8xZE=
+
+Name: org/eclipse/papyrus/profile/ui/actions/ReApplyProfiles.class
+SHA1-Digest: wxD9QhgzPXUppAPiR0PQ12nFg8E=
+
+Name: org/eclipse/papyrus/profile/ui/compositeforview/AppliedStereotyp
+ eCompositeWithView$1.class
+SHA1-Digest: E0mJbecNqYUhcrWanY3HBPigq40=
+
+Name: org/eclipse/papyrus/profile/ui/listeners/DoubleClickListener.cla
+ ss
+SHA1-Digest: i/4n7rD/qnnzhsJXvGR/CUAgRdE=
+
+Name: resources/icons/Profile.gif
+SHA1-Digest: 2BrPAL4VTeHCF1D6WzqNb55JVzE=
+
+Name: org/eclipse/papyrus/profile/ui/compositesformodel/AppliedProfile
+ CompositeOnModel$1.class
+SHA1-Digest: J4kBqrwH1OTAnUWsDxUy06fBY3M=
+
+Name: org/eclipse/papyrus/profile/ui/listeners/NoValueException.class
+SHA1-Digest: sDWhSWQOKmUfd5LhDCBVVBHrX6A=
+
+Name: org/eclipse/papyrus/profile/ui/compositesformodel/DecoratedTreeC
+ omposite$UpButtonlistener.class
+SHA1-Digest: SI8E3xsuNilB2cxUJHeuyxXMPbc=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/InputDialogPrimitiveType.
+ class
+SHA1-Digest: kX3VqiRzjzR/3wQopqb5y6m1qzU=
+
+Name: org/eclipse/papyrus/profile/ui/compositeforview/AppliedStereotyp
+ eCompositeWithView$2$1.class
+SHA1-Digest: BgxwfgvKT36kq+Gc/BEk1TnQXLI=
+
+Name: org/eclipse/papyrus/profile/ui/compositesformodel/AppliedStereot
+ ypeCompositeOnModel$3$1$1.class
+SHA1-Digest: 7J7E3QZrry4KiaMR7oz8SC5YEPw=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/StereotypeLabelProvider.c
+ lass
+SHA1-Digest: raT4PkpCvM3ERam0beDRXE9dJp4=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/ChooseSetDialog.class
+SHA1-Digest: CCyL2I2wMlIJ1+4UIYxH4KtQHWA=
+
+Name: org/eclipse/papyrus/profile/ui/compositeforview/AppearanceForApp
+ liedStereotypeComposite$2.class
+SHA1-Digest: QpDuxMVRcSSVRqfn7ehlGP2r+PI=
+
+Name: org/eclipse/papyrus/profile/preference/ProfilePreferenceConstant
+ s.class
+SHA1-Digest: xWavlF5fl1ACbfTx3gNW4PwGpjE=
+
+Name: org/eclipse/papyrus/profile/ui/compositeforview/AppliedStereotyp
+ ePropertyCompositeWithView.class
+SHA1-Digest: 4vP0Xyd4hjdUM8LbNeGlvXcIRWE=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/ElementList.class
+SHA1-Digest: yrepZv6WfKMv8Z1sAmC50r+wmHE=
+
+Name: org/eclipse/papyrus/profile/ui/items/EnumerationItems.class
+SHA1-Digest: 7mdxo6sp+FVTWMqgFosZiJgeEUM=
+
+Name: org/eclipse/papyrus/profile/constraints/PropertyHasUniqueNameCon
+ straint.class
+SHA1-Digest: 4xvMqpWtlfxWybFS0cdS5hTiQeg=
+
+Name: resources/icons/Package.gif
+SHA1-Digest: Nj4okV19tPb9FWIZ5og/YsrJ++I=
+
+Name: org/eclipse/papyrus/profile/ui/panels/DefaultPanel.class
+SHA1-Digest: d4CUdVTc8/sZkyY0nUnR0b6tOcU=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/ProfileTreeSelectionDialo
+ g.class
+SHA1-Digest: 6IHnFwrgNWUlwKR14/2DRNR1BBc=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/Message.class
+SHA1-Digest: 3qPeZbH2b6rTZyVgu8dNor1vvNg=
+
+Name: resources/icons/ConsoleViewTest.gif
+SHA1-Digest: ei7tNz5ri/xAlnp1qUi3i4BXXMA=
+
+Name: resources/icons/wizban/Thumbs.db
+SHA1-Digest: UFjI79xOeHl0/nUqglc1Xm9pblY=
+
+Name: org/eclipse/papyrus/profile/constraints/PropertyHasNameConstrain
+ t.class
+SHA1-Digest: c9BTh2n7F0Dsq48Pfq/dpF+YJFM=
+
+Name: resources/icons/LiteralNull.gif
+SHA1-Digest: Wz3Kc0vslXeNyCATtm3WB6wBgHk=
+
+Name: resources/icons/LiteralUnlimitedNatural.gif
+SHA1-Digest: Al+o1xlyc8rZiqr6Q46Lmml/B/o=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/ProfileDefinitionDialog$3
+ .class
+SHA1-Digest: GPKMod5St7BNljZB6dFr56PXJNk=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/ChooseSetAssistedDialog$K
+ eyTextListener.class
+SHA1-Digest: KIRyAPU42MBdnpa/pNH/ITXseBs=
+
+Name: org/eclipse/papyrus/profile/ui/actions/ImportLibrariesFromReposi
+ toryAction$ImportLibraryFromRepositoryCommand$1.class
+SHA1-Digest: A76Mw4RRPZ08ChAZSUij7ovNgFk=
+
+Name: org/eclipse/papyrus/profile/tree/objects/DataTypeValueTreeObject
+ .class
+SHA1-Digest: SkXvAQnmdDzdH674LAPxgCeXS3s=
+
+Name: org/eclipse/papyrus/profile/ui/compositesformodel/AppliedStereot
+ ypeCompositeOnModel$1$1.class
+SHA1-Digest: WE0BlTklyZEakkaNNKjeVmT8v6A=
+
+Name: org/eclipse/papyrus/profile/ui/compositesformodel/AppliedStereot
+ ypeCompositeOnModel$3$1.class
+SHA1-Digest: /WyImhP5P/ZNrXzLJ6AMcCdkF2Q=
+
+Name: org/eclipse/papyrus/profile/tree/ProfileElementContentProvider.c
+ lass
+SHA1-Digest: 2grEGNrajprotTWB4UtrxDFBMeA=
+
+Name: org/eclipse/papyrus/profile/ui/compositesformodel/AppliedProfile
+ CompositeOnModel$6.class
+SHA1-Digest: y241nqTls0WhKkQWJfatl52eXI4=
+
+Name: resources/icons/ArrowLeft.gif
+SHA1-Digest: qx89HZcOfCNP8URrsbXsnJSbNro=
+
+Name: org/eclipse/papyrus/profile/ui/section/AppliedStereotypeKindAppe
+ aranceSection$1.class
+SHA1-Digest: /R/tpWheLtiO1ClOmhAiWT/j7KM=
+
+Name: resources/icons/Property.gif
+SHA1-Digest: tkutZ6OGa7t+eJfCkSBDMLReiRs=
+
+Name: org/eclipse/papyrus/profile/tree/objects/StereotypedElementTreeO
+ bject.class
+SHA1-Digest: cotggG+AUrQLPWeq02NT8T6iRLA=
+
+Name: org/eclipse/papyrus/profile/tree/objects/StereotypeValueTreeObje
+ ct.class
+SHA1-Digest: QRRUR/F1GWgtpImbOuYWWqkoyO8=
+
+Name: org/eclipse/papyrus/profile/ui/items/MetaclassItems.class
+SHA1-Digest: zCFxDY4kHqOEM5NDt5EsAbampxg=
+
+Name: org/eclipse/papyrus/profile/tree/objects/PrimitiveTypeValueTreeO
+ bject.class
+SHA1-Digest: KQiMoE6oHmyQWcz/VgS/pCdiJJY=
+
+Name: org/eclipse/papyrus/profile/ui/compositesformodel/AppliedProfile
+ CompositeOnModel$6$1.class
+SHA1-Digest: /u5x7z1sXU6Emp0XuaHoFzRuG3Q=
+
+Name: org/eclipse/papyrus/profile/ui/panels/AbstractPanel.class
+SHA1-Digest: IfTSWsNux4ZryBRKsABoJpKQkP0=
+
+Name: org/eclipse/papyrus/profile/tree/PropertyValueTreeViewer.class
+SHA1-Digest: uRdMSDcVl0U786iErFzqhW4Pt/I=
+
+Name: resources/icons/Association.gif
+SHA1-Digest: u2j94uXU3F+28e1j0bFlEvLIMlc=
+
+Name: resources/icons/PrimitiveType.gif
+SHA1-Digest: 8WT1WWlmB1aXdiU3FLew/pPPlwI=
+
+Name: org/eclipse/papyrus/profile/utils/Util.class
+SHA1-Digest: 0eaU++m7FC4dry0fjcMql3kdRlA=
+
+Name: org/eclipse/papyrus/profile/ui/section/AppliedStereotypeSectionW
+ ithView.class
+SHA1-Digest: t3xoEz6efBimsNhi5ytGt6vBcAk=
+
+Name: org/eclipse/papyrus/profile/Message.class
+SHA1-Digest: oR7VDOUWoTQd2ilghyYlUcKYbtc=
+
+Name: org/eclipse/papyrus/profile/ui/compositesformodel/PropertyCompos
+ ite.class
+SHA1-Digest: DrVA6N1QftrQGZcKY57wWM52UVA=
+
+Name: org/eclipse/papyrus/profile/ui/actions/ImportProfileAction$Impor
+ tProfileCommand$1.class
+SHA1-Digest: WGy/rrj1iF0QpYoAYTVS4JS4g0c=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/IChooseDialog.class
+SHA1-Digest: lZS/TNWhZe0VUnCPgO7qQGd6nEY=
+
+Name: org/eclipse/papyrus/profile/tree/ProfileElementTreeViewer.class
+SHA1-Digest: NOwbsvXF4iEiCQ8Cl9djql/b380=
+
+Name: about.html
+SHA1-Digest: y0N4Xo0SWk7dkT2S3XYFPomfO1U=
+
+Name: resources/icons/DisplayedProperty.gif
+SHA1-Digest: 1XHQWmyC1v6BFrLAH+gMy1BsJ4Y=
+
+Name: org/eclipse/papyrus/profile/ui/actions/ImportProfilesAsLibraryFr
+ omRepositoryAction.class
+SHA1-Digest: 2Lq3h4u/7rO6yrUVtxppktqADkc=
+
+Name: org/eclipse/papyrus/profile/FontManager.class
+SHA1-Digest: h/rR2vCip66eiwtpR4lw/s19MLQ=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/ChooseSetAssistedDialog$A
+ ddButtonListener.class
+SHA1-Digest: lIZYaatjAgJdh8cgB94UP+8DGK4=
+
+Name: org/eclipse/papyrus/profile/tree/objects/UserPrimitiveTypeValueT
+ reeObject.class
+SHA1-Digest: XXvOEIgRifzyxVx/YpWsp4/+U2o=
+
+Name: org/eclipse/papyrus/profile/filter/AppliedStereotypeSectionFilte
+ r.class
+SHA1-Digest: dVGfCJPR0mwVGPuJmDOw4vAAAYk=
+
+Name: org/eclipse/papyrus/profile/ui/compositesformodel/AppliedProfile
+ CompositeOnModel$3.class
+SHA1-Digest: Fx4RtWfza26qH1kD77WGO/6KleM=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/RegisteredProfileSelectio
+ nDialog.class
+SHA1-Digest: YUnliEt6+Wy1IkRmVt341Xtcfek=
+
+Name: org/eclipse/papyrus/profile/tree/ProfileElementTreeViewerFilter.
+ class
+SHA1-Digest: 1/yorXKAfexIni6Huw65awxZBYA=
+
+Name: resources/icons/InstanceSpecification.gif
+SHA1-Digest: HvK0tP/mbU4cF1Min4kwo3k1s+A=
+
+Name: org/eclipse/papyrus/profile/ui/compositeforview/ProfileElementWi
+ thDisplayLabelProvider.class
+SHA1-Digest: WnGyUTCiOEHNK6SWac9UJXe2RYU=
+
+Name: org/eclipse/papyrus/profile/ui/compositesformodel/AppliedStereot
+ ypeCompositeOnModel$1$1$1.class
+SHA1-Digest: jJdKpIJzByb/sqwLzIpdMMz0KXM=
+
+Name: org/eclipse/papyrus/profile/ui/compositesformodel/DecoratedTreeC
+ omposite$DownButtonlistener.class
+SHA1-Digest: KFV1sWjXj5xte2ZV4jOS1c0EwA8=
+
+Name: resources/icons/Class.gif
+SHA1-Digest: ENhiRLa+biShqwPi0dlyixqHNyk=
+
+Name: org/eclipse/papyrus/profile/ui/actions/ImportProfilesAsLibraryFr
+ omRepositoryAction$ImportProfilesAsLibraryFromRepositoryCommand$1.cla
+ ss
+SHA1-Digest: KItgeWaMVZyM/vKnWVLgmSr6vxg=
+
+Name: org/eclipse/papyrus/profile/ui/actions/ImportFromFile.class
+SHA1-Digest: g442q/QxL1Wz5db5xCDLDH4HnvQ=
+
+Name: org/eclipse/papyrus/profile/ui/actions/ImportProfileAction$Impor
+ tProfileCommand.class
+SHA1-Digest: Gx7XnSs/uAQi+YNFWf7Q9XJ2gcM=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/ChooseSetAssistedDialog$P
+ ossibleElementsContentProvider.class
+SHA1-Digest: TEoyyXoJOqtf8sFEmP9uopjuFvs=
+
+Name: org/eclipse/papyrus/profile/definition/Version.class
+SHA1-Digest: JLYRRUC455qJqGsiP6CbV3d/T5E=
+
+Name: resources/icons/Default.gif
+SHA1-Digest: bGpWOmBYKAIbfGbJVFVBcuFfjck=
+
+Name: org/eclipse/papyrus/profile/ui/compositeforview/AppearanceForApp
+ liedStereotypeComposite$4.class
+SHA1-Digest: oxFMh7esn/DSK5ekTe1O5PMKKKU=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/FileSelectionValidator.cl
+ ass
+SHA1-Digest: sOwJ1hufs3i99WhlAaGHb0OI6VA=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/DefinitionHistoryDialog$D
+ efinitionHistoryContentProvider.class
+SHA1-Digest: ebl9F88e2esPiSDb4OtsoNGnrqY=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/ChooseSetAssistedDialog$I
+ nputOperation.class
+SHA1-Digest: 83E3pr3H5NK6ypKcdE0Ncxpg+2I=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/ProfileDefinitionDialog.c
+ lass
+SHA1-Digest: YKj8JGMgzN+gzJVOQVaDe12ceuk=
+
+Name: resources/icons/DisplayedStereotype_16x16.gif
+SHA1-Digest: zDveg3zlZB6latZpArQISyAK+Ak=
+
+Name: resources/icons/Clause.gif
+SHA1-Digest: WZJ6GIGB45aoYiT53jqJ2utrmSY=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/ChooseSetStereotypeDialog
+ $StereotypeContentProposalProvider.class
+SHA1-Digest: b6Nk0sG57dbvMTDv9Ubim6bWPd4=
+
+Name: org/eclipse/papyrus/profile/constraints/PropertyMultiplicityLowe
+ rConstraint.class
+SHA1-Digest: cvqG4USHdQIm1ekztXO+PfvJ7WI=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/ChooseSetAssistedDialog$I
+ nputOperation$1.class
+SHA1-Digest: f1b7MKWY+UwMzncQCwB44QtXAXo=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/AlphabeticalViewerSorter.
+ class
+SHA1-Digest: kcK3Qtljv728w/4QMWmJ8eIxZ4M=
+
+Name: org/eclipse/papyrus/profile/ui/compositesformodel/AppliedStereot
+ ypeCompositeOnModel$1.class
+SHA1-Digest: qtU7jkLEhY0XUH5tCrQ2CPNQzX8=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/ProfileDefinitionDialog$5
+ .class
+SHA1-Digest: agBCPGJ3eauEnPdeafap/0vAHoE=
+
+Name: org/eclipse/papyrus/profile/ui/compositesformodel/DecoratedTreeC
+ omposite$EditItemListener.class
+SHA1-Digest: /ygzRdoKfh4Ekay16a72WNMT2/U=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/IListViewer.class
+SHA1-Digest: rxgpJvPEEshTeBZb+7grxHRkeiA=
+
+Name: org/eclipse/papyrus/profile/tree/objects/UnlimitedNaturalValueTr
+ eeObject.class
+SHA1-Digest: XgQKcD7tQoxhhXFiSEiaRNJwhn8=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/DefinitionHistoryDialog$D
+ efinitionHistoryTableLabelProvider.class
+SHA1-Digest: 4B+1c6g6Gi+2KCR0ShKemD0H0IY=
+
+Name: org/eclipse/papyrus/profile/tree/objects/MetaclassValueTreeObjec
+ t.class
+SHA1-Digest: 5WAZuyJNReFpoHqzC3VI7DW8Eg4=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/PackageImportTreeSelectio
+ nDialog.class
+SHA1-Digest: KboBschjMGwqKFmbeIHmTDINxrs=
+
+Name: org/eclipse/papyrus/profile/preference/ProfileDefinitionPreferen
+ ceConstants.class
+SHA1-Digest: JUJdu1e8NCQvCAlbGIYT4wPA9dQ=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/ChooseSetDialog$UpButtonL
+ istener.class
+SHA1-Digest: uSmyf4zkRg+xSFU0OPiOVgZyzwc=
+
+Name: org/eclipse/papyrus/profile/ui/section/AppliedStereotypeKindAppe
+ aranceSection$3.class
+SHA1-Digest: ak9jReub4ynK6rgGc1wafL2u+DY=
+
+Name: org/eclipse/papyrus/profile/tree/objects/BooleanValueTreeObject.
+ class
+SHA1-Digest: qZs00KPuF2iE/taUx+w3Qq9wNE0=
+
+Name: resources/icons/DisplayedStereotype.gif
+SHA1-Digest: zDveg3zlZB6latZpArQISyAK+Ak=
+
+Name: org/eclipse/papyrus/profile/tree/objects/ParentTreeObject.class
+SHA1-Digest: bTPDU5HUkEqVKTjMpmN0V1j7l9A=
+
+Name: org/eclipse/papyrus/profile/ui/compositeforview/AppearanceForApp
+ liedStereotypeComposite$1.class
+SHA1-Digest: L1Xp5Byhbcw91EyEyW+6j4kZklw=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/ChooseSetDialog$DeleteBut
+ tonListener.class
+SHA1-Digest: IM/0uuFmq5jLHLaM4qI0hKKm9vM=
+
+Name: org/eclipse/papyrus/profile/constraints/PropertyHasTypeConstrain
+ t.class
+SHA1-Digest: Hrsr23faWduIOIeV5PdYEgnrES4=
+
+Name: resources/icons/Delete.gif
+SHA1-Digest: ORJe0sG1BDPf20zkd9DI+HUjfk8=
+
+Name: resources/icons/wizban/NewDefinition.gif
+SHA1-Digest: xmWybJHsEfBVz7ToQEBveMSCiaw=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/ChooseSetAssistedDialog$U
+ pButtonListener.class
+SHA1-Digest: jDFlz0MbzM5aVUNEMh0BQQaTm9s=
+
+Name: org/eclipse/papyrus/profile/ui/compositeforview/AppearanceForApp
+ liedStereotypeComposite$1$1.class
+SHA1-Digest: OGZ7GqJYPHQRwqsn9TOg8I+ONck=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/ChooseSetStereotypeDialog
+ .class
+SHA1-Digest: PER8v25fcsl988hopjP9OvZe55Q=
+
+Name: org/eclipse/papyrus/profile/ui/compositeforview/AppearanceForApp
+ liedStereotypeComposite$3$1.class
+SHA1-Digest: 5WZ9WhhH/UxhMhxrh+cauxeyugw=
+
+Name: org/eclipse/papyrus/profile/ui/compositeforview/AppearanceForApp
+ liedStereotypeComposite$5$1.class
+SHA1-Digest: KfAhtbwChYB2uVvo7uK9wRuW8s4=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/ProfileDefinitionDialog$2
+ .class
+SHA1-Digest: /0PFeSCpQM7FBR5FMDzEssw9jJs=
+
+Name: resources/icons/Thumbs.db
+SHA1-Digest: Fov1Rpx0dfKgShp/X9jSx86RWkw=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/ChooseSetStereotypeDialog
+ $2.class
+SHA1-Digest: HEJ1vPowwW7Gdm+4iNINP2M1rM4=
+
+Name: resources/icons/ConsoleView.gif
+SHA1-Digest: zUZzXRRtecdO63atvZ4XveqZ878=
+
+Name: org/eclipse/papyrus/profile/ui/dialogs/ChooseSetAssistedDialog.c
+ lass
+SHA1-Digest: PojB9LX8uF77FnRGEHKFZvke314=
+
+Name: resources/icons/DataType.gif
+SHA1-Digest: H6RyYlPlc6lL+O14DuG6GZ6FtiU=
+
+Name: org/eclipse/papyrus/profile/utils/UmlElementFilter.class
+SHA1-Digest: iY5JyFXKvv3M6WsExvIWwKn4rUs=
+
+Name: org/eclipse/papyrus/profile/tree/objects/AppliedStereotypeTreeOb
+ ject.class
+SHA1-Digest: xwPoab/Trd64fVaPVq3T5ZjMSyY=
+
+Name: org/eclipse/papyrus/profile/tree/ProfileElementLabelProvider.cla
+ ss
+SHA1-Digest: JAc7d99gltbST/rMdrS2BqSephE=
+
+Name: org/eclipse/papyrus/profile/tree/objects/AppliedStereotypeProper
+ tyTreeObject$1.class
+SHA1-Digest: v5WFvlju2WC03M8vgLqXlru1DHY=
+
+Name: resources/icons/StringExpression.gif
+SHA1-Digest: 1N2nxlDd/Bqadra/vsm5VKIcxcs=
+

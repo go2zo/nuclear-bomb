@@ -1,0 +1,311 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.papyrus.documentation.view;singleton:
+ =true
+Require-Bundle: org.eclipse.core.expressions;visibility:="reexport";bu
+ ndle-version="[3.4.0,4.0.0)",org.eclipse.ui.editors;visibility:="reex
+ port";bundle-version="[3.7.0,4.0.0)",org.eclipse.ui.ide;visibility:="
+ reexport";bundle-version="[3.7.0,4.0.0)",org.eclipse.emf.edit.ui;bund
+ le-version="[2.7.0,3.0.0)",org.eclipse.jface.text;bundle-version="[3.
+ 7.0,4.0.0)",org.eclipse.core.resources;bundle-version="[3.7.0,4.0.0)"
+ ,org.eclipse.epf.richtext;bundle-version="[1.6.0,2.0.0)",org.eclipse.
+ papyrus.documentation;bundle-version="0.7.3";visibility:="reexport"
+Bundle-Activator: org.eclipse.papyrus.documentation.view.DocViewPlugin
+Export-Package: org.eclipse.papyrus.documentation.view
+Bundle-Version: 0.8.0.v201106151827
+Ant-Version: Apache Ant 1.7.1
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %providerName
+Bundle-Name: %pluginName
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Import-Package: org.eclipse.ui.views.contentoutline
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/papyrus/documentation/view/DocPageComposite$1.class
+SHA1-Digest: ggAyp8+/2ysL0FbYc9cvgmHwlu0=
+
+Name: org/eclipse/papyrus/documentation/view/PlainTextComposite.class
+SHA1-Digest: oitLUBlEaYcvBHrHbq+PAgyXDi0=
+
+Name: org/eclipse/papyrus/documentation/view/ResourcesComposite$2.clas
+ s
+SHA1-Digest: A4PyyUo3nPk8wgPi4LwqCbkRiKs=
+
+Name: org/eclipse/papyrus/documentation/view/ExternalResourceEditorInp
+ ut.class
+SHA1-Digest: ZK1/tjvJ4uWbNAK8YuWSHXTjp/Y=
+
+Name: org/eclipse/papyrus/documentation/view/ResourcesComposite$4.clas
+ s
+SHA1-Digest: PrD2H9expW4b8PYeLDlvw7C2E/U=
+
+Name: org/eclipse/papyrus/documentation/view/TextViewerAction.class
+SHA1-Digest: 5P0bvJQVQx9s0u3JVyITvb36K/k=
+
+Name: org/eclipse/papyrus/documentation/view/DocPage.class
+SHA1-Digest: nTMZ/LTYQugcHfLtC3B7OzcDiik=
+
+Name: icons/TextHighlight.gif
+SHA1-Digest: 5bkrnmmhAWRv68V/R9Em9+vJH7k=
+
+Name: icons/DeleteTableCol.png
+SHA1-Digest: 0Pc1rNk0MfcYwFpBAWVzlH10Y1E=
+
+Name: org/eclipse/papyrus/documentation/view/DocumentionPartHandlerReg
+ istry$DocumentionPartHandlerRegistryHolder.class
+SHA1-Digest: 6qTRF2dqTU6RUaJApvlaBJC/7r4=
+
+Name: org/eclipse/papyrus/documentation/view/SpellingTextComposite$Alw
+ aysTrue.class
+SHA1-Digest: u4CGDI1CvPJsgbpVWK/76AXq6xY=
+
+Name: org/eclipse/papyrus/documentation/view/actions/NumberValidator.c
+ lass
+SHA1-Digest: gK5/Ie6n6V7KCJO9fZrdz1rw/sA=
+
+Name: icons/application_link.png
+SHA1-Digest: O4Ry6ocXLXl0aD3vHmxkibJ6r8k=
+
+Name: icons/InsertTableCol.png
+SHA1-Digest: t7YLcwd5eIEeFVZLFd5uH7/eJFw=
+
+Name: org/eclipse/papyrus/documentation/view/ResourcesComposite$Worksp
+ aceResourceDialog.class
+SHA1-Digest: 2W5GoKoVkEMDC6IrBRW108aEEiA=
+
+Name: org/eclipse/papyrus/documentation/view/DocView.class
+SHA1-Digest: NVZDmzyrGUsYvtJ8s3i1/6wjLl8=
+
+Name: org/eclipse/papyrus/documentation/view/CommentsComposite$1.class
+SHA1-Digest: oyraC61O3thiQn3PxvRUhHq2c7U=
+
+Name: org/eclipse/papyrus/documentation/view/CommentsComposite$3.class
+SHA1-Digest: oiXWgl9PUE/tsgGPH/VAQ02VI/s=
+
+Name: org/eclipse/papyrus/documentation/view/ResourcesComposite$Resour
+ cesLabelProvider.class
+SHA1-Digest: MNWvlL+L80/ON+hfzk0leIFjppE=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: icons/externalResource.gif
+SHA1-Digest: T9nn+eQcxzjSbyQkRq79KR4Z5gg=
+
+Name: org/eclipse/papyrus/documentation/view/SelectResourceDialog.clas
+ s
+SHA1-Digest: AN/8wFCJpcuOwjNK2rrwWFKRC8I=
+
+Name: org/eclipse/papyrus/documentation/view/actions/CommandConstants.
+ class
+SHA1-Digest: uJrqE/rV8X4mSyygxqU7AoXXnR0=
+
+Name: org/eclipse/papyrus/documentation/view/actions/TextHighlightActi
+ on.class
+SHA1-Digest: aTzjDzHBfI0BLKg3MxCr0J+UX1o=
+
+Name: org/eclipse/papyrus/documentation/view/SpellingTextComposite$2.c
+ lass
+SHA1-Digest: 9F0acNKMNRplpyw1wsEJABosMng=
+
+Name: org/eclipse/papyrus/documentation/view/CommentsComposite$3$1.cla
+ ss
+SHA1-Digest: 8tJQeedpEwhHy4CuAMwa3+IY5sY=
+
+Name: org/eclipse/papyrus/documentation/view/SpellingTextComposite$4.c
+ lass
+SHA1-Digest: 1vvcVPpJahgo0BYsYcs2mpLxAik=
+
+Name: org/eclipse/papyrus/documentation/view/DocViewPlugin.class
+SHA1-Digest: yV//u325sqToeENtVGQAwH8dqeU=
+
+Name: org/eclipse/papyrus/documentation/view/actions/DeleteTableRowAct
+ ion.class
+SHA1-Digest: pWrLzTdGGo2c/5cvPs09Sb28MvE=
+
+Name: org/eclipse/papyrus/documentation/view/SelectResourceDialog$1.cl
+ ass
+SHA1-Digest: VNNaRjeTiMO4YVAcuBlNIxdVSyg=
+
+Name: org/eclipse/papyrus/documentation/view/ResourcesComposite.class
+SHA1-Digest: cwomCJaXCMnacadxJO0SZBy/rPA=
+
+Name: icons/edit.gif
+SHA1-Digest: Z9EVk4RR+7F/OXOz1U3jnw1Juq0=
+
+Name: icons/TextColor.gif
+SHA1-Digest: K41B9+XYX5l3FaFzGFDdIB3Qj38=
+
+Name: org/eclipse/papyrus/documentation/view/SpellingTextComposite$1$1
+ .class
+SHA1-Digest: Tcg0AJZ3EeWdWllGpM6aQDO67JE=
+
+Name: org/eclipse/papyrus/documentation/view/actions/DeleteTableColumn
+ Action.class
+SHA1-Digest: x5TDS8TCFTRLBA/ytASpUCaZCKE=
+
+Name: org/eclipse/papyrus/documentation/view/actions/InsertTableRowAct
+ ion.class
+SHA1-Digest: B7HV8Eu17/uIpZ/4gbvz+GQjShI=
+
+Name: org/eclipse/papyrus/documentation/view/DocPageComposite$2.class
+SHA1-Digest: Yko5DICnpXx1KjLsqXPGWz4nmOw=
+
+Name: org/eclipse/papyrus/documentation/view/ResourcesComposite$1.clas
+ s
+SHA1-Digest: uTCu+2OMKFvdHtI3W4s1wAMfJ3Q=
+
+Name: org/eclipse/papyrus/documentation/view/ExternalResourceEditorInp
+ ut$WorkbenchAdapter.class
+SHA1-Digest: oCLC9t7SwZosvldCHvoYXl/31ok=
+
+Name: org/eclipse/papyrus/documentation/view/ResourcesComposite$3.clas
+ s
+SHA1-Digest: gEuVHVBVfEWGx3pqS8vjfoCblq4=
+
+Name: org/eclipse/papyrus/documentation/view/ArrayTreeContentProvider.
+ class
+SHA1-Digest: slLSdlM9baflCZI89opnI401CHA=
+
+Name: org/eclipse/papyrus/documentation/view/ResourcesComposite$5.clas
+ s
+SHA1-Digest: n+z+GPirR225DUpWQXDPAatYb6I=
+
+Name: org/eclipse/papyrus/documentation/view/TypedResourcesSelectionDi
+ alog$1.class
+SHA1-Digest: a8FEKB1f2DLsQrH/58184kD2wOI=
+
+Name: org/eclipse/papyrus/documentation/view/messages.properties
+SHA1-Digest: nLwkMGT0l8tP4e4f3QeiMiAT1hI=
+
+Name: plugin.properties
+SHA1-Digest: bBwXiHX1iptylCyWLUJ3I7+2Viw=
+
+Name: org/eclipse/papyrus/documentation/view/IDocPage.class
+SHA1-Digest: pfhbNnpZ+jEmnXokpgCcsN3ed2M=
+
+Name: org/eclipse/papyrus/documentation/view/RichTextComposite$URLLoca
+ tionListener.class
+SHA1-Digest: PLzfUfLBTpZUjO42c1w9GmrmRkM=
+
+Name: org/eclipse/papyrus/documentation/view/CommentsComposite.class
+SHA1-Digest: GMU4ElInXHlryS85lZy1hHNYKIw=
+
+Name: org/eclipse/papyrus/documentation/view/IText.class
+SHA1-Digest: 2AsYGVzIJIhN6Jd9O7Zc2WCyGm4=
+
+Name: org/eclipse/papyrus/documentation/view/actions/TextColorAction.c
+ lass
+SHA1-Digest: lKl5q0xZ4qNFBRetFDCsq+ZSzno=
+
+Name: icons/documentation.gif
+SHA1-Digest: co5hM0Qz7fNXWWjvl00cDQofyIA=
+
+Name: plugin.xml
+SHA1-Digest: /VgJik6Mx7dWkS5J3cto5coOdzM=
+
+Name: org/eclipse/papyrus/documentation/view/Messages.class
+SHA1-Digest: onb+rSuRlCDH1a9O3WISdWJfFAU=
+
+Name: org/eclipse/papyrus/documentation/view/ResourcesComposite$Remote
+ ResourceDialog.class
+SHA1-Digest: bPFL5mzDiOyCLlwba8JcuIU3PiU=
+
+Name: org/eclipse/papyrus/documentation/view/SpellingTextComposite.cla
+ ss
+SHA1-Digest: sEwAvMNYwtXuBv/13NgzYfe4Dwo=
+
+Name: org/eclipse/papyrus/documentation/view/CommentsComposite$2.class
+SHA1-Digest: MvSK1kuPpCfp4qyIo7Y4a+wJHCI=
+
+Name: icons/htmlEditor.gif
+SHA1-Digest: fqer4NJqErytyiD1i3KwzhOS0qk=
+
+Name: org/eclipse/papyrus/documentation/view/CommentsComposite$4.class
+SHA1-Digest: HJHJPOW3e5rrkJDn+73e87ND3WU=
+
+Name: schema/documentationPartHandler.exsd
+SHA1-Digest: dt/nUT7c4PAEKX+Q2ik9KIqPj6s=
+
+Name: icons/DeleteTableRow.png
+SHA1-Digest: nWEKvlVqr1CQvfcdsDRXDbpiPIU=
+
+Name: org/eclipse/papyrus/documentation/view/IDocumentationPartHandler
+ .class
+SHA1-Digest: e9ma0eKXPXjVyGZ7LdgByN5ERbI=
+
+Name: org/eclipse/papyrus/documentation/view/RichTextComposite$URLPars
+ er.class
+SHA1-Digest: VcPkOme3EoiwlsPx2qmhXLuNJcM=
+
+Name: org/eclipse/papyrus/documentation/view/DocView$1.class
+SHA1-Digest: p0HMcZcWQ9fGEv9sQF1baMbyRw4=
+
+Name: org/eclipse/papyrus/documentation/view/SelectResourceDialog$Sele
+ ctionLabelProvider.class
+SHA1-Digest: cC69cgvHDELGtHb1xfnEDn4MQrA=
+
+Name: about.html
+SHA1-Digest: a2Fk5/pDnCvlEfl7QwDZj/FCgFc=
+
+Name: org/eclipse/papyrus/documentation/view/EmptyDocPage.class
+SHA1-Digest: BtY9FeoPAx3HJdXwVqP0wxKVQdE=
+
+Name: org/eclipse/papyrus/documentation/view/SpellingTextComposite$1.c
+ lass
+SHA1-Digest: YXX0vLpGws5pd58ANtpNlw71qmA=
+
+Name: org/eclipse/papyrus/documentation/view/actions/InsertTableColumn
+ Action.class
+SHA1-Digest: zWC85uwaT4BD+iVQUlNujvtH2w4=
+
+Name: org/eclipse/papyrus/documentation/view/actions/AddElementLinkAct
+ ion.class
+SHA1-Digest: 1X1FFJW/phbFIo5XX5ngB69owVY=
+
+Name: org/eclipse/papyrus/documentation/view/SpellingTextComposite$3.c
+ lass
+SHA1-Digest: 8Kk6OBupX2TEJ6ZRtuAbfjhBg14=
+
+Name: org/eclipse/papyrus/documentation/view/SelectResourceDialog$Sele
+ ctionContentProvider.class
+SHA1-Digest: OuBst46zJXxu8gdKOknC6oc2GV8=
+
+Name: org/eclipse/papyrus/documentation/view/RichTextEditorDialog.clas
+ s
+SHA1-Digest: yYyKUVV5f+OZm4tWZNDv+xOcM70=
+
+Name: org/eclipse/papyrus/documentation/view/SpellingTextComposite$5.c
+ lass
+SHA1-Digest: leuSyFm3EH817fqrTpQ9A64HXn8=
+
+Name: org/eclipse/papyrus/documentation/view/DocPageComposite.class
+SHA1-Digest: ytXa4Vs2arUE6ZHuQedAjXeBxEQ=
+
+Name: icons/InsertTableRow.png
+SHA1-Digest: X1TCXM632JB+DqjUmxH8je7PwAQ=
+
+Name: org/eclipse/papyrus/documentation/view/RichTextComposite$URLPars
+ er$1.class
+SHA1-Digest: RBRjF+ci0hSlW9sxrC1R1sbjqvg=
+
+Name: org/eclipse/papyrus/documentation/view/TypedResourcesSelectionDi
+ alog.class
+SHA1-Digest: m++cSdoPv66l23ycoioqCKLHZJY=
+
+Name: org/eclipse/papyrus/documentation/view/DocumentionPartHandlerReg
+ istry.class
+SHA1-Digest: dwANODYjeaubh9XhMhn+XCYExec=
+
+Name: org/eclipse/papyrus/documentation/view/SelectResourceDialog$Sele
+ ctionContentProvider$1.class
+SHA1-Digest: gtGNXIRzDlJ3RBvXE7I1J7f3hfo=
+
+Name: org/eclipse/papyrus/documentation/view/RichTextEditorDialog$1.cl
+ ass
+SHA1-Digest: 1HNloM+xpr184dBeC57wCvrdL7w=
+
+Name: org/eclipse/papyrus/documentation/view/RichTextComposite.class
+SHA1-Digest: U1IlUKjjj1g9z1B8n8NkZ+h0B/8=
+

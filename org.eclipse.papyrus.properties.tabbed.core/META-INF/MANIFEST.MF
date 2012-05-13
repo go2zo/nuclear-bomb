@@ -1,0 +1,332 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.papyrus.properties.tabbed.core;single
+ ton:=true
+Require-Bundle: org.eclipse.ui;bundle-version="[3.7.0,4.0.0)",org.ecli
+ pse.core.runtime;bundle-version="[3.7.0,4.0.0)",org.eclipse.ui.views.
+ properties.tabbed;bundle-version="[3.5.0,4.0.0)",org.eclipse.emf.ecor
+ e;bundle-version="2.6.0",org.eclipse.emf.edit.ui;bundle-version="2.6.
+ 0",org.eclipse.gmf.runtime.common.core;bundle-version="1.2.0",org.ecl
+ ipse.gmf.runtime.common.ui;bundle-version="1.3.0",org.eclipse.papyrus
+ .core;bundle-version="0.8.0",org.eclipse.papyrus.properties.runtime;b
+ undle-version="0.8.0",org.eclipse.papyrus.log;bundle-version="0.8.0"
+Bundle-Activator: org.eclipse.papyrus.properties.tabbed.core.Activator
+Bundle-Version: 0.8.0.v201106151827
+Export-Package: org.eclipse.papyrus.properties.tabbed.core,org.eclipse
+ .papyrus.properties.tabbed.core.provider,org.eclipse.papyrus.properti
+ es.tabbed.core.view,org.eclipse.papyrus.properties.tabbed.core.view.s
+ ubfeatures
+Ant-Version: Apache Ant 1.7.1
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/papyrus/properties/tabbed/core/view/subfeatures/SubF
+ eatureContainerDescriptorState.class
+SHA1-Digest: 1txFq681tun4SjFYBpCy83QLaxw=
+
+Name: org/eclipse/papyrus/properties/tabbed/core/view/SectionDescripto
+ rState$ReplacedSectionState.class
+SHA1-Digest: F96T/sCzmeVRE5zIBbAjzJuXZfE=
+
+Name: bin/org/eclipse/papyrus/properties/tabbed/core/view/subfeatures/
+ SimpleContainerDescriptor.class
+SHA1-Digest: nZgXJNqhttKH3QV590Hj77dKdtU=
+
+Name: org/eclipse/papyrus/properties/tabbed/core/view/SectionSetDescri
+ ptorState.class
+SHA1-Digest: oa1yYnfhiWr8EpxaAsjFsPLvzZ8=
+
+Name: bin/org/eclipse/papyrus/properties/tabbed/core/view/DynamicTabDe
+ scriptor.class
+SHA1-Digest: 9XBdQ3zLsNdpQLOwt42GOZvlZuY=
+
+Name: org/eclipse/papyrus/properties/tabbed/core/view/subfeatures/Expa
+ ndableContainerDescriptor.class
+SHA1-Digest: 7gIzG+s4xe954fAo6DbF3yT0eJ0=
+
+Name: bin/org/eclipse/papyrus/properties/tabbed/core/view/subfeatures/
+ SubFeatureContainerDescriptorState.class
+SHA1-Digest: 1txFq681tun4SjFYBpCy83QLaxw=
+
+Name: org/eclipse/papyrus/properties/tabbed/core/view/subfeatures/Simp
+ leContainerDescriptor.class
+SHA1-Digest: nZgXJNqhttKH3QV590Hj77dKdtU=
+
+Name: org/eclipse/papyrus/properties/tabbed/core/view/subfeatures/SubF
+ eatureDescriptor.class
+SHA1-Digest: /AA0ZOH+qIJgjjxa3ymhGV72tLI=
+
+Name: org/eclipse/papyrus/properties/tabbed/core/view/SectionDescripto
+ rState.class
+SHA1-Digest: C4WKNa3Z1EOzBSRDpAKokdjyIBw=
+
+Name: org/eclipse/papyrus/properties/tabbed/core/view/XMLPropertyTabVi
+ ewProvider.class
+SHA1-Digest: +ScTkkqHfEgThw0k3MSBq5SC2DI=
+
+Name: bin/org/eclipse/papyrus/properties/tabbed/core/view/subfeatures/
+ SubFeatureDescriptor.class
+SHA1-Digest: /AA0ZOH+qIJgjjxa3ymhGV72tLI=
+
+Name: org/eclipse/papyrus/properties/tabbed/core/view/subfeatures/Dyna
+ micSubFeatureSection.class
+SHA1-Digest: /qjacDlfAttR735lciMY2uktink=
+
+Name: bin/org/eclipse/papyrus/properties/tabbed/core/view/subfeatures/
+ DynamicSubFeatureSectionDescriptor$SubFeatureSectionDescriptorState.c
+ lass
+SHA1-Digest: nANuraxi1x9hmgliiXz5nQg5ZSk=
+
+Name: bin/org/eclipse/papyrus/properties/tabbed/core/view/SectionDescr
+ iptorState.class
+SHA1-Digest: C4WKNa3Z1EOzBSRDpAKokdjyIBw=
+
+Name: bin/org/eclipse/papyrus/properties/tabbed/core/view/subfeatures/
+ SubFeatureContainerDescriptor.class
+SHA1-Digest: NOgvvQ7bTRf+FPHXx6tYSB2SuBs=
+
+Name: bin/org/eclipse/papyrus/properties/tabbed/core/view/XMLPropertyT
+ abViewProvider.class
+SHA1-Digest: +ScTkkqHfEgThw0k3MSBq5SC2DI=
+
+Name: bin/org/eclipse/papyrus/properties/tabbed/core/view/subfeatures/
+ DynamicSubFeatureSection.class
+SHA1-Digest: /qjacDlfAttR735lciMY2uktink=
+
+Name: org/eclipse/papyrus/properties/tabbed/core/view/subfeatures/Dyna
+ micSubFeatureSectionDescriptor$SubFeatureSectionDescriptorState.class
+SHA1-Digest: nANuraxi1x9hmgliiXz5nQg5ZSk=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/papyrus/properties/tabbed/core/view/subfeatures/SubF
+ eatureContainerDescriptor.class
+SHA1-Digest: NOgvvQ7bTRf+FPHXx6tYSB2SuBs=
+
+Name: org/eclipse/papyrus/properties/tabbed/core/view/subfeatures/Expa
+ ndableContainerDescriptor$ExpandableContainerDescriptorState.class
+SHA1-Digest: uRuzpaXJMd/KoUV7128i6h02c90=
+
+Name: icons/Section.gif
+SHA1-Digest: wpe+FGtubQV0RD10QnaunD49bJk=
+
+Name: bin/org/eclipse/papyrus/properties/tabbed/core/provider/XMLBased
+ TabDescriptorProvider$1.class
+SHA1-Digest: QRDXs+nwO2dJqqZT79TXQTfFjCE=
+
+Name: org/eclipse/papyrus/properties/tabbed/core/view/subfeatures/Dyna
+ micSubFeatureSectionDescriptor.class
+SHA1-Digest: jnrKIbLvugwTBJWMoK65AjuWXCo=
+
+Name: bin/org/eclipse/papyrus/properties/tabbed/core/view/PropertyTabV
+ iewProviderParser.class
+SHA1-Digest: FRo7MXedi/ByOuJYHqN1pZ/ENiA=
+
+Name: bin/org/eclipse/papyrus/properties/tabbed/core/view/IEnhancedFil
+ ter.class
+SHA1-Digest: D01TV+zhb1BXzgNSmORV7KmscBI=
+
+Name: bin/org/eclipse/papyrus/properties/tabbed/core/view/subfeatures/
+ ExpandableContainerDescriptor$ExpandableContainerDescriptorState.clas
+ s
+SHA1-Digest: uRuzpaXJMd/KoUV7128i6h02c90=
+
+Name: org/eclipse/papyrus/properties/tabbed/core/provider/XMLBasedTabD
+ escriptorProvider$1.class
+SHA1-Digest: QRDXs+nwO2dJqqZT79TXQTfFjCE=
+
+Name: bin/org/eclipse/papyrus/properties/tabbed/core/view/subfeatures/
+ DynamicSubFeatureSectionDescriptor.class
+SHA1-Digest: jnrKIbLvugwTBJWMoK65AjuWXCo=
+
+Name: org/eclipse/papyrus/properties/tabbed/core/view/PropertyTabViewP
+ roviderParser.class
+SHA1-Digest: FRo7MXedi/ByOuJYHqN1pZ/ENiA=
+
+Name: icons/EMFFeatureDescriptor.gif
+SHA1-Digest: vNLWLFvx9xwbNk5MecZmk902UKU=
+
+Name: org/eclipse/papyrus/properties/tabbed/core/provider/EMFObjectLab
+ elProvider.class
+SHA1-Digest: U3CPDUK+WnwjcOFSf7uBae2M870=
+
+Name: org/eclipse/papyrus/properties/tabbed/core/view/IEnhancedFilter.
+ class
+SHA1-Digest: D01TV+zhb1BXzgNSmORV7KmscBI=
+
+Name: org/eclipse/papyrus/properties/tabbed/core/view/subfeatures/SubF
+ eatureDescriptor$SubFeatureDescriptorState.class
+SHA1-Digest: f37EyAgGqno98rBfnjwsB5UWfos=
+
+Name: org/eclipse/papyrus/properties/tabbed/core/view/subfeatures/Grou
+ pContainerDescriptor$GroupContainerDescriptorState.class
+SHA1-Digest: JK2iByJ5H6bSm9IZLZqfm2piVys=
+
+Name: org/eclipse/papyrus/properties/tabbed/core/view/subfeatures/Grou
+ pContainerDescriptor.class
+SHA1-Digest: 5oxhzo84QNv4ByIrwdc4VqIxjtc=
+
+Name: bin/org/eclipse/papyrus/properties/tabbed/core/provider/EMFObjec
+ tLabelProvider.class
+SHA1-Digest: U3CPDUK+WnwjcOFSf7uBae2M870=
+
+Name: org/eclipse/papyrus/properties/tabbed/core/view/DynamicSection.c
+ lass
+SHA1-Digest: 0nSHkl4w4BmSoj4yU8tsDdbLLyg=
+
+Name: org/eclipse/papyrus/properties/tabbed/core/view/GetTabDescriptor
+ sFromConfiguration.class
+SHA1-Digest: ds2gJAcIOeX9glOyVhlB1TR9pfE=
+
+Name: bin/org/eclipse/papyrus/properties/tabbed/core/view/subfeatures/
+ GroupContainerDescriptor$GroupContainerDescriptorState.class
+SHA1-Digest: JK2iByJ5H6bSm9IZLZqfm2piVys=
+
+Name: bin/org/eclipse/papyrus/properties/tabbed/core/view/subfeatures/
+ SubFeatureDescriptor$SubFeatureDescriptorState.class
+SHA1-Digest: f37EyAgGqno98rBfnjwsB5UWfos=
+
+Name: bin/org/eclipse/papyrus/properties/tabbed/core/view/SectionDispa
+ tcher.class
+SHA1-Digest: cm9atFmL0IaXMxNNJV7NmCejoRg=
+
+Name: bin/org/eclipse/papyrus/properties/tabbed/core/view/subfeatures/
+ GroupContainerDescriptor.class
+SHA1-Digest: 5oxhzo84QNv4ByIrwdc4VqIxjtc=
+
+Name: org/eclipse/papyrus/properties/tabbed/core/Activator.class
+SHA1-Digest: jjzEcgzXOP3xmQ4GZOJl9lhuuBE=
+
+Name: icons/SubFeatureGroupContainer.gif
+SHA1-Digest: MgHxHMJXskdTmO2QU3NAQT3p5vM=
+
+Name: org/eclipse/papyrus/properties/tabbed/core/view/IPropertyTabView
+ Provider.class
+SHA1-Digest: NwJxJ/ukr2I3ckzfz+sADZKDoSk=
+
+Name: bin/org/eclipse/papyrus/properties/tabbed/core/view/DynamicSecti
+ on.class
+SHA1-Digest: 0nSHkl4w4BmSoj4yU8tsDdbLLyg=
+
+Name: bin/org/eclipse/papyrus/properties/tabbed/core/view/GetTabDescri
+ ptorsFromConfiguration.class
+SHA1-Digest: ds2gJAcIOeX9glOyVhlB1TR9pfE=
+
+Name: icons/SectionSet.gif
+SHA1-Digest: wpe+FGtubQV0RD10QnaunD49bJk=
+
+Name: org/eclipse/papyrus/properties/tabbed/core/view/SectionDispatche
+ r.class
+SHA1-Digest: cm9atFmL0IaXMxNNJV7NmCejoRg=
+
+Name: bin/org/eclipse/papyrus/properties/tabbed/core/Activator.class
+SHA1-Digest: jjzEcgzXOP3xmQ4GZOJl9lhuuBE=
+
+Name: org/eclipse/papyrus/properties/tabbed/core/view/DynamicSectionDe
+ scriptor.class
+SHA1-Digest: KPueaoI5wIm39Y298gNMWz8MdcE=
+
+Name: bin/org/eclipse/papyrus/properties/tabbed/core/view/IPropertyTab
+ ViewProvider.class
+SHA1-Digest: NwJxJ/ukr2I3ckzfz+sADZKDoSk=
+
+Name: icons/SubFeatureContainer.gif
+SHA1-Digest: k3VJm4dHsPmsZoZas4mv7fAZ7yY=
+
+Name: plugin.properties
+SHA1-Digest: m2QzIkMdo93ZTAUw6ZnYd2Kr7cQ=
+
+Name: bin/org/eclipse/papyrus/properties/tabbed/core/view/StatesStore.
+ class
+SHA1-Digest: V013bDmdXSFP3i6DZfc3w3NANTk=
+
+Name: bin/org/eclipse/papyrus/properties/tabbed/core/view/DynamicSecti
+ onDescriptor.class
+SHA1-Digest: KPueaoI5wIm39Y298gNMWz8MdcE=
+
+Name: icons/ReplacedSection.gif
+SHA1-Digest: mx95nqtE0VXZioKP4Y1ikECcdYM=
+
+Name: icons/Tab.gif
+SHA1-Digest: waY4lMvxsiCJlAN2pFjJAkkxsWA=
+
+Name: bin/org/eclipse/papyrus/properties/tabbed/core/view/PropertyServ
+ iceUtil.class
+SHA1-Digest: yYcdKmRXn/aGcXU+h+gZ+55Wz+E=
+
+Name: bin/org/eclipse/papyrus/properties/tabbed/core/view/subfeatures/
+ EMFSimpleSubFeatureDescriptor.class
+SHA1-Digest: Mw3nPO2gOOIORqwt9j5Cd0Yy8y0=
+
+Name: bin/org/eclipse/papyrus/properties/tabbed/core/provider/XMLBased
+ TabDescriptorProvider.class
+SHA1-Digest: eto12S/JsfxHOzU5Icdf3w/Jh7Q=
+
+Name: org/eclipse/papyrus/properties/tabbed/core/view/StatesStore.clas
+ s
+SHA1-Digest: V013bDmdXSFP3i6DZfc3w3NANTk=
+
+Name: org/eclipse/papyrus/properties/tabbed/core/view/PropertyServiceU
+ til.class
+SHA1-Digest: yYcdKmRXn/aGcXU+h+gZ+55Wz+E=
+
+Name: org/eclipse/papyrus/properties/tabbed/core/view/subfeatures/EMFS
+ impleSubFeatureDescriptor.class
+SHA1-Digest: Mw3nPO2gOOIORqwt9j5Cd0Yy8y0=
+
+Name: org/eclipse/papyrus/properties/tabbed/core/provider/XMLBasedTabD
+ escriptorProvider.class
+SHA1-Digest: eto12S/JsfxHOzU5Icdf3w/Jh7Q=
+
+Name: org/eclipse/papyrus/properties/tabbed/core/view/SectionSetDescri
+ ptor.class
+SHA1-Digest: gH9ZwALPHi2cMqxOPznWBz1Reyg=
+
+Name: org/eclipse/papyrus/properties/tabbed/core/view/TabDescriptorSta
+ te.class
+SHA1-Digest: 5hDbG+O90w7pSE5WGkAcQ/9pUUo=
+
+Name: bin/org/eclipse/papyrus/properties/tabbed/core/view/SectionSetDe
+ scriptor.class
+SHA1-Digest: gH9ZwALPHi2cMqxOPznWBz1Reyg=
+
+Name: bin/org/eclipse/papyrus/properties/tabbed/core/view/TabDescripto
+ rState.class
+SHA1-Digest: 5hDbG+O90w7pSE5WGkAcQ/9pUUo=
+
+Name: about.html
+SHA1-Digest: y0N4Xo0SWk7dkT2S3XYFPomfO1U=
+
+Name: org/eclipse/papyrus/properties/tabbed/core/view/subfeatures/EMFS
+ impleSubFeatureDescriptor$EMFSimpleSubFeatureDescriptorState.class
+SHA1-Digest: P7VvOb8E72f7Rw304G7vhvLZT9o=
+
+Name: bin/org/eclipse/papyrus/properties/tabbed/core/view/SectionDescr
+ iptorState$ReplacedSectionState.class
+SHA1-Digest: F96T/sCzmeVRE5zIBbAjzJuXZfE=
+
+Name: icons/SubFeatureExpandableContainer.gif
+SHA1-Digest: IG+mULwFBDtBVufDpXhMOMGhoI0=
+
+Name: bin/org/eclipse/papyrus/properties/tabbed/core/view/SectionSetDe
+ scriptorState.class
+SHA1-Digest: oa1yYnfhiWr8EpxaAsjFsPLvzZ8=
+
+Name: org/eclipse/papyrus/properties/tabbed/core/view/DynamicTabDescri
+ ptor.class
+SHA1-Digest: 9XBdQ3zLsNdpQLOwt42GOZvlZuY=
+
+Name: bin/org/eclipse/papyrus/properties/tabbed/core/view/subfeatures/
+ EMFSimpleSubFeatureDescriptor$EMFSimpleSubFeatureDescriptorState.clas
+ s
+SHA1-Digest: P7VvOb8E72f7Rw304G7vhvLZT9o=
+
+Name: bin/org/eclipse/papyrus/properties/tabbed/core/view/subfeatures/
+ ExpandableContainerDescriptor.class
+SHA1-Digest: 7gIzG+s4xe954fAo6DbF3yT0eJ0=
+

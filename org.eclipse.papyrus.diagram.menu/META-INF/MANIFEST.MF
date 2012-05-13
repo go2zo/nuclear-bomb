@@ -1,0 +1,800 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.papyrus.diagram.menu;singleton:=true
+Require-Bundle: org.eclipse.ui;bundle-version="[3.7.0,4.0.0)",org.ecli
+ pse.papyrus.core.adaptor.gmf;bundle-version="0.8.0",org.eclipse.papyr
+ us.preferences;bundle-version="0.8.0",org.eclipse.gmf.runtime.diagram
+ .ui.actions;bundle-version="[1.4.0,2.0.0)",org.eclipse.gmf.runtime.dr
+ aw2d.ui.render;bundle-version="1.4.0",org.eclipse.core.expressions;bu
+ ndle-version="[3.4.0,4.0.0)",org.eclipse.gmf.runtime.diagram.ui.resou
+ rces.editor;bundle-version="[1.4.0,2.0.0)",org.eclipse.gmf.runtime.di
+ agram.ui.providers;bundle-version="1.1.0",org.eclipse.gmf.runtime.dia
+ gram.ui.properties;bundle-version="1.2.0",org.eclipse.gmf.runtime.dia
+ gram.ui.actions;bundle-version="[1.4.0,2.0.0)",org.eclipse.gmf.runtim
+ e.diagram.ui.render;bundle-version="1.2.0",org.eclipse.papyrus.wizard
+ s;bundle-version="[0.8.0,1.0.0)",org.eclipse.papyrus.diagram.common;b
+ undle-version="0.8.0",org.eclipse.ui.views.log;bundle-version="[1.0.0
+ ,2.0.0)"
+Bundle-Activator: org.eclipse.papyrus.diagram.menu.Activator
+Bundle-Version: 0.8.0.v201106151827
+Export-Package: org.eclipse.papyrus.diagram.menu,org.eclipse.papyrus.d
+ iagram.menu.actions,org.eclipse.papyrus.diagram.menu.actions.handlers
+Ant-Version: Apache Ant 1.7.1
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: src/org/eclipse/papyrus/diagram/menu/providers/AbstractLineStyle
+ ToggleState.java
+SHA1-Digest: trAWEoEyNSj+aJbziH9z2iDrA9s=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/DistributeAffixedChildN
+ odeLinkAction.class
+SHA1-Digest: HUfc2aPKhhgwd5L/d+2bIqYTNMw=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/AbstractColorAction.cla
+ ss
+SHA1-Digest: yj6TlAnc4A4fzWMnZCsZ6OnQ+eA=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/AbstractDistributeA
+ ction.java
+SHA1-Digest: ZF/lCgEXynDEhQGw1piKNW5A7xM=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/AbstractShowHideAction$
+ 1.class
+SHA1-Digest: L7FVrExWbRRHOIvFUCUuv37pRaQ=
+
+Name: icons/colors/light_gray.gif
+SHA1-Digest: rZTZpIBUwKDyXgbcUMXbsRkXDYU=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/handlers/ShowHideCompar
+ tmentHandler.class
+SHA1-Digest: JWdYnMvZ9NxgCAUzi1rugi+05B8=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/handlers/AbstractGraphi
+ calCommandHandler.class
+SHA1-Digest: YVQJaC6CACb71CuPsLDjMRRuTbE=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/handlers/ZOrderHand
+ ler.java
+SHA1-Digest: b8dirKdFdK4daOAJ4N325V6REGE=
+
+Name: org/eclipse/papyrus/diagram/menu/providers/RectilinearToggleStat
+ e.class
+SHA1-Digest: WhOVsFHb0CxarUhtEWQMVbptYB8=
+
+Name: org/eclipse/papyrus/diagram/menu/providers/TreeToggleState.class
+SHA1-Digest: IrLmr00F9/8uICFs8mVgkAWB7Ms=
+
+Name: icons/colors/pink.gif
+SHA1-Digest: LPKU4EDn/vsE47TCrri9BM6+35Y=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/handlers/SelectHand
+ ler.java
+SHA1-Digest: Gq0i724O/P6nBKAdHJjN3yvzqv8=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/ShowHideLabelsAction$Ma
+ nageLabelsAction.class
+SHA1-Digest: n+vxT1DrReXGZSfj6AMwVJPRoIw=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/DistributeAffixedCh
+ ildNodeLinkAction.java
+SHA1-Digest: DhkYb47Kyizjx6llt/YsgkJP3Cg=
+
+Name: org/eclipse/papyrus/diagram/menu/dialogs/ShowHideCompartmentSele
+ ctionDialog$CompartmentNameProvider.class
+SHA1-Digest: qpJRvlsXYQTaMqIm1NKfuYkxi5I=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/SelectAction$1.class
+SHA1-Digest: rsHY5Q/2hhZA1gfkXaSdNXnYhPg=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/handlers/LineStyleHandl
+ er.class
+SHA1-Digest: qgGSKWa5/7IsHQAevigUHz8VR6Q=
+
+Name: src/org/eclipse/papyrus/diagram/menu/dialogs/ShowHideCompartment
+ SelectionDialog.java
+SHA1-Digest: nh4EsHJqjv8kN8SPR5dF7Ucek30=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/handlers/DropDownToolBa
+ rSameSizeHandler.class
+SHA1-Digest: UxhaGD3pLCt/heXiEv81Di6Y7FU=
+
+Name: icons/distribute_horizontally.gif
+SHA1-Digest: orvDXFuhmhJeqOm+t4KoF9Dml3Q=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/handlers/ZoomHandle
+ r.java
+SHA1-Digest: otd6KFw28zJg31v0Ihc7odvNq2M=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/DistributeAffixedChildN
+ odeLinkAction$CoordinatesComparator.class
+SHA1-Digest: D0mvLVQvg+FvCIypXw9r/PKmWg8=
+
+Name: src/org/eclipse/papyrus/diagram/menu/providers/HandlerStateSourc
+ eProvider.java
+SHA1-Digest: I0xVVWUlusmUt5t00NMxzB7nHwA=
+
+Name: org/eclipse/papyrus/diagram/menu/toolbar/ZoomToolbar$CustomPartL
+ istener.class
+SHA1-Digest: IjHaJTko3//sDJQe5ug+wD76VgE=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/handlers/ArrangeHan
+ dler.java
+SHA1-Digest: 6UPKyXL6VHiSzTRvf5Kt2KNoxRc=
+
+Name: org/eclipse/papyrus/diagram/menu/selection/SelectTypeAction.clas
+ s
+SHA1-Digest: mFDnTyFgzVgrZVOsbBu2XXyEHug=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/handlers/AbstractViewHa
+ ndler.class
+SHA1-Digest: mfUZ5gS8oXFI0vQU2iY50nIe8ZM=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/DistributeAffixedChildN
+ odeLinkAction$NodeRepresentation.class
+SHA1-Digest: Am3cAy29zIxTw+vW1iqD9rFpL3E=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/AbstractColorAction
+ .java
+SHA1-Digest: hT/jxpInDzI81edEYa2cTwwgxIc=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/handlers/SelectHandler.
+ class
+SHA1-Digest: xCNLuyKUxeJIFmjs+0W7OCENAmw=
+
+Name: icons/colors/orange.gif
+SHA1-Digest: ypcJnFNi0+jjuDWYAKaQWXld4a8=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/ZOrderAction.class
+SHA1-Digest: kuDuWKaIAwQdK17mGQ9Tj9Xapwg=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/DistributeAffixedChildN
+ odeLinkAction$AffixedChildNodeRepresentation.class
+SHA1-Digest: 8e4V2Vfxi8hMA9F5H9TRI5FJW/k=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/ShowHideLabelsAction$La
+ belRoleComparator.class
+SHA1-Digest: lVTq808tvWNz8V8+nOSyqLc2PSg=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/handlers/RoutingHan
+ dler.java
+SHA1-Digest: E59Ok83g9FOZ+sl3OoS2LEPaS5U=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/SelectAction.class
+SHA1-Digest: 6MjNjmSnpqIa0cdL9xiFRUMGDjA=
+
+Name: org/eclipse/papyrus/diagram/menu/dialogs/ShowHideCompartmentSele
+ ctionDialog.class
+SHA1-Digest: bfI2P4DMlKHHZc9SK0NO+L1rM2k=
+
+Name: src/org/eclipse/papyrus/diagram/menu/Activator.java
+SHA1-Digest: qbWJm2lVlv/Y8HqyJV6OzWaS7Jw=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/SizeAction.class
+SHA1-Digest: 0k15EMiyGMBOl2lUj/MaFEbDEsM=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/DistributeNodeAction.cl
+ ass
+SHA1-Digest: 2UXqXju30y7h6/pQKxcY6cGyw6A=
+
+Name: org/eclipse/papyrus/diagram/menu/selection/SelectionContribution
+ ItemProvider.class
+SHA1-Digest: r/mfof7M1Wl+HE+xlEmxR6MFSuA=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/RouteAction.java
+SHA1-Digest: oJzXWKy1QpyaULNUxlJs89JrfBs=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/handlers/Distributi
+ onHandler.java
+SHA1-Digest: hYSK4aNwCzKXw2ZQrP8h2hK5k0s=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/handlers/SizeHandler.cl
+ ass
+SHA1-Digest: +oLuc4udBw8ab1K1IsGHJpsSLgc=
+
+Name: icons/arrow_left.gif
+SHA1-Digest: qx89HZcOfCNP8URrsbXsnJSbNro=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/handlers/ViewGridHa
+ ndler.java
+SHA1-Digest: cW6oJN5OSUKrHjFv/2nPzZ5PbFc=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/CustomAlignAction.j
+ ava
+SHA1-Digest: XBXhySLoz5QqhfGR7roMXwx0aS4=
+
+Name: org/eclipse/papyrus/diagram/menu/dialogs/ShowHideCompartmentSele
+ ctionDialog$CheckBoxLabelProvider.class
+SHA1-Digest: SyqWo3xmut4BP8at2SOCUU1Pj5M=
+
+Name: org/eclipse/papyrus/diagram/menu/toolbar/ZoomToolbar.class
+SHA1-Digest: ksbvQQwtbh2qZft14BbW6yRy27I=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/handlers/DropDownToolBa
+ rHandler.class
+SHA1-Digest: D5Wsyky6qGoi7ia+39ThM4FZqAg=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/handlers/DropDownTo
+ olBarHandler.java
+SHA1-Digest: Pi3CGDDdXedzfwmUNf9yr+mTCFI=
+
+Name: icons/aligncenter.gif
+SHA1-Digest: 6e7+rpHMUyd94QqFUmNPBebV/k4=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/handlers/CopyAppearance
+ PropertiesHandler.class
+SHA1-Digest: cyFddSjhyKRtMd79KJi/nLgdG2I=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/gmf/CustomCreateShapeVi
+ ewAction$1.class
+SHA1-Digest: yMlRF+hqhnacCwPICDibc9fKvjI=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/gmf/CustomCreateSha
+ peViewAction.java
+SHA1-Digest: 26i6fIq7PuWj15WpRvPXF038peA=
+
+Name: icons/colors/gray.gif
+SHA1-Digest: W+l5hoKSqylh4K+xC/lthXo5xx8=
+
+Name: org/eclipse/papyrus/diagram/menu/dialogs/ShowHideLabelSelectionD
+ ialog$TextLabelProvider.class
+SHA1-Digest: HSyuImEdoVe0abi6J9H3DNVFRYw=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/LineStyleAction.jav
+ a
+SHA1-Digest: ZS/+PhHHidegovmK8NMlkf5HDig=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/ShowHideLabelsActio
+ n.java
+SHA1-Digest: SO7VBV4P/rGlNO+3yY6DLU3xRtA=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/SelectAction.java
+SHA1-Digest: P3Nh3768Bayb+RVbV+VNb0PhK0k=
+
+Name: icons/manage_connector_label.gif
+SHA1-Digest: mw5zPAi7ykWNbk2kfshGXgPCZic=
+
+Name: org/eclipse/papyrus/diagram/menu/dialogs/ShowHideLabelSelectionD
+ ialog$RoleLabelProvider.class
+SHA1-Digest: hH+Ozw+Fsf9PwEcJhb+mM4gkGbU=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/handlers/DropDownTo
+ olBarSameSizeHandler.java
+SHA1-Digest: v1CMczTjjPSLgLrJxI0VT0D1ZdI=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/CopyAppearancePropertie
+ sAction.class
+SHA1-Digest: CQzvdoE/+Nf4rAggN71pGfj1i1U=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/SortFilterCompartme
+ ntItemsAction.java
+SHA1-Digest: hy/P5dIhNMRZoF6ktf2Qg/VNqz4=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/AbstractGraphicalParame
+ tricAction.class
+SHA1-Digest: N3no2m5fQ4E2fRvB7DlkDsAg208=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/DistributeNodeActio
+ n.java
+SHA1-Digest: vpS9uUwh/Tnk7YHwEz+Dd3h6dO8=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/SizeAction.java
+SHA1-Digest: HTjDEnkVkmQc+e+sMZXN5Y/j7/U=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/handlers/FontHandle
+ r.java
+SHA1-Digest: yj0FRjKg5tfnA79bn7IGBw5kIzA=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/AbstractParametricActio
+ n.class
+SHA1-Digest: 74SxGhXkR6x8WzZV6WwfER1G+e4=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/FontAction$1.class
+SHA1-Digest: WGR7HCx2tjs8UvYktcXNGRdILW8=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/CustomAlignAction.class
+SHA1-Digest: eXtZ5gmhbZpRKL5CwQjLgMAVRMs=
+
+Name: icons/no_bendpoints.gif
+SHA1-Digest: YDJ1UVUkX42CwlaCAzuDTsuTQqk=
+
+Name: src/org/eclipse/papyrus/diagram/menu/selection/AbstractMenuContr
+ ibutionItemProvider.java
+SHA1-Digest: wSKKYxTHOWnKE4B8zZj7Dg6OOHA=
+
+Name: org/eclipse/papyrus/diagram/menu/providers/AbstractLineStyleTogg
+ leState.class
+SHA1-Digest: vbRblLABGc6Qz0S9HGsGLm1SXs8=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/LineStyleAction.class
+SHA1-Digest: f0Jx8AOgMD5l5M94ViM7L5HDnQw=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/DistributeAffixedChildN
+ odeLinkAction$TypeComparator.class
+SHA1-Digest: H8lr03zuH4BGTOuyxqgqcbHV9YE=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/handlers/DistributionHa
+ ndler.class
+SHA1-Digest: DZB7No6LIkh87R0EjjSVyTMXTUI=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/DiagramUIActionsMessage
+ s.class
+SHA1-Digest: 0LugJpRnfg+xeVsGWqhTt2ihAj8=
+
+Name: icons/fantom.gif
+SHA1-Digest: IjWOSMlsB2zSRt6EG5BrPBAR7Lg=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/gmf/CustomContribut
+ ionItemProvider.java
+SHA1-Digest: jT/5NY9elR3SmUMcfQw5xqr1F+A=
+
+Name: plugin.properties
+SHA1-Digest: 6Wqx3xYomV8FGG01zXbilQXOwRs=
+
+Name: icons/colors/green.gif
+SHA1-Digest: Rx6hcp6RnHovYsDjqU/0ibeK8es=
+
+Name: src/org/eclipse/papyrus/diagram/menu/providers/RectilinearToggle
+ State.java
+SHA1-Digest: bQyAoWe/iCVg0HqwgSHYxu41M4A=
+
+Name: src/org/eclipse/papyrus/diagram/menu/selection/SelectByTypeHandl
+ er.java
+SHA1-Digest: VBDcZzu5t8nzcmtkduEGyrJs7ko=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/handlers/FontHandler.cl
+ ass
+SHA1-Digest: Hd0UZSJnP3oSK9rFHQNwfuiIucA=
+
+Name: org/eclipse/papyrus/diagram/menu/messages/messages.properties
+SHA1-Digest: HkkKxNeC0fBAQ43FNDuikIIm35k=
+
+Name: plugin.xml
+SHA1-Digest: tFgOfktotU5+8GjyqdcTDhl3Naw=
+
+Name: icons/colors/red.gif
+SHA1-Digest: o0K0cfMCH8U0JCn/k/U5nBb6t1g=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/handlers/SnapToGridHand
+ ler.class
+SHA1-Digest: FgtIRfEI8YQ0918mkApTzuwZfVI=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/handlers/SortFilterComp
+ artmentItemsHandler.class
+SHA1-Digest: f+xPVOk0cGWpuyJ2trwEN9YBoNs=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/AbstractGraphicalPa
+ rametricAction.java
+SHA1-Digest: XwCZlDRJaycQXVsg9Dt+R+kmH/4=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/AbstractColorAction$Cus
+ tomColorCommand.class
+SHA1-Digest: LQKZhFp6bB5FrwvuuQMDhEXHYHI=
+
+Name: icons/distribute_horizontally_between_nodes.gif
+SHA1-Digest: 5asyir/KIx3CcJ83nmRBXi/XB0A=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/handlers/LineStyleH
+ andler.java
+SHA1-Digest: twLYZILP/NuQGpNdKegtntrVUNM=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/handlers/AbstractPa
+ rametricHandler.java
+SHA1-Digest: gFwl3FbuGHi/wRR0vPIY3yW0Rns=
+
+Name: src/org/eclipse/papyrus/diagram/menu/selection/SelectionContribu
+ tionItemProvider.java
+SHA1-Digest: plwtVLDaExbrUZ/1R18lld9LvyY=
+
+Name: icons/colors/white.gif
+SHA1-Digest: MjzaLsijX18CTp3hQs14RmjOcWw=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/handlers/ShowHideCo
+ ntentsHandler.java
+SHA1-Digest: k9gg7iONgILLvRw35pmYlp0882Y=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/DistributeLinkNodeActio
+ n.class
+SHA1-Digest: vnlOs4KsIFNMSJKFJspG10qlHO8=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/AbstractParametricA
+ ction.java
+SHA1-Digest: tz0JvafGIeY3QpXMSh39569qmRI=
+
+Name: src/org/eclipse/papyrus/diagram/menu/toolbar/ZoomToolbar.java
+SHA1-Digest: haWHeFgG5eOZTHK77eAeG4aOxCA=
+
+Name: icons/colors/blue.gif
+SHA1-Digest: v57aYcBXj7oQ2dy4Iheyo+rMY1M=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/handlers/SortFilter
+ CompartmentItemsHandler.java
+SHA1-Digest: Ovs3KFgNc3wiTcxVbLMdRJuEuIU=
+
+Name: icons/fantomContents.gif
+SHA1-Digest: Rf8InfYXuW7W2e2UzmwDhDuidKI=
+
+Name: src/org/eclipse/papyrus/diagram/menu/selection/SelectTypeAction.
+ java
+SHA1-Digest: nqsKVNMAuC+c1wF/llmtDML20yc=
+
+Name: org/eclipse/papyrus/diagram/menu/selection/PolicyClass.class
+SHA1-Digest: lU2aAVaJprPS38osmSVMalEKj0Y=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/AbstractShowHideAct
+ ion.java
+SHA1-Digest: KSn9iB3EwTUYU8apuy0fl0LYt94=
+
+Name: icons/zoomplus.gif
+SHA1-Digest: v7vm2rrg/DsczLGm1eIWmyIEI2s=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/ShowHideLabelsAction.cl
+ ass
+SHA1-Digest: zzvx0d1pJtS/hcA45oO3Z+95P0Y=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/ShowHideCompartmentActi
+ on.class
+SHA1-Digest: 1dsOm1uxmiVR+hgzK9wAm54KbxA=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/handlers/RoutingHandler
+ .class
+SHA1-Digest: W44ckxWaesCqKczYjO7mBSlhkr0=
+
+Name: icons/fantomInherited.gif
+SHA1-Digest: CptqiGG6ctcbKsFWIkIJ/KrRKxQ=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/handlers/ViewGridHandle
+ r.class
+SHA1-Digest: PkQFpXtVpex4Wn5BJ26ZnLRRq5A=
+
+Name: icons/alignright.gif
+SHA1-Digest: ha7I4OBquG2lDmlnuX/m3L1E66c=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/handlers/CopyAppear
+ ancePropertiesHandler.java
+SHA1-Digest: hNUraqwrFOowkmWD3P5qfs7rH6E=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/FillColorAction.jav
+ a
+SHA1-Digest: +NGre2xaaG0KiodHHE04DL47h0U=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/handlers/AlignementHand
+ ler.class
+SHA1-Digest: VywItZqVKlqWckEgwhQvZ8PMnLk=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/handlers/RecalculatePag
+ eBreaksHandler.class
+SHA1-Digest: 05obBczBp5PgJT4oJMwi76gYN58=
+
+Name: icons/alignleft.gif
+SHA1-Digest: zxRtMuRff5n+0w00gziGcJPQKR4=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/ZoomAction.class
+SHA1-Digest: KstSMm550FabR03O0+8yG17ydM8=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/gmf/CustomCreateShapeVi
+ ewAction.class
+SHA1-Digest: QWqNFZojl4pWQDg+VrX87OnL5NU=
+
+Name: org/eclipse/papyrus/diagram/menu/providers/HandlerStateSourcePro
+ vider.class
+SHA1-Digest: xGu8OXqsasmNL1Xl9oGxDlWNPYk=
+
+Name: org/eclipse/papyrus/diagram/menu/dialogs/ShowHideLabelSelectionD
+ ialog.class
+SHA1-Digest: s+wOeyi0XV/nYba0eJSr1u4XKnU=
+
+Name: org/eclipse/papyrus/diagram/menu/selection/SelectByTypePropertyT
+ ester.class
+SHA1-Digest: V8WfZO0awG2vr+w5m47q0na5w4c=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/ShowHideCompartment
+ Action.java
+SHA1-Digest: ItbZ3rUAsZiUWS+lZVPXJIqc9hQ=
+
+Name: org/eclipse/papyrus/diagram/menu/Activator.class
+SHA1-Digest: XnE/4VXJRvdZhFVe8N24Nu1LXDg=
+
+Name: icons/size_to_control_height.gif
+SHA1-Digest: pi7w5z2ONTbuXa7iOOH/Ww+Y+c4=
+
+Name: icons/horizontal_by_left.gif
+SHA1-Digest: Gj7Nb9eQVfIPwr9AIM0lja2by2g=
+
+Name: icons/size_to_control_width.gif
+SHA1-Digest: vMDNdG10BrrtS5r9lkCxLOvjj+E=
+
+Name: icons/colors/cyan.gif
+SHA1-Digest: u7BuJXuRJ1iOtmbVk2Cmwn5Gotg=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/handlers/AbstractVi
+ ewHandler.java
+SHA1-Digest: Yr4uwMJ1D/tan3FPnJpyYkyex6M=
+
+Name: icons/arrow_right.gif
+SHA1-Digest: SUSocWQGQBuR4g6KB7Ttf3f3Kss=
+
+Name: src/org/eclipse/papyrus/diagram/menu/selection/PolicyClass.java
+SHA1-Digest: HnhXYne8ieL6SqTZHHklYV5yvN4=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/DistributeLinkNodeA
+ ction.java
+SHA1-Digest: axL2sqnncIkiY48MPKyBMTIYUfw=
+
+Name: icons/alignmid.gif
+SHA1-Digest: UHEfAF05gRd6jWf+VP96xa1xmUY=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/handlers/ShowHideConten
+ tsHandler.class
+SHA1-Digest: 2J+NwYfgmOpEF/nv/QReZtG7tH4=
+
+Name: icons/horizontal_by_right.gif
+SHA1-Digest: KzXIf8ZYR2c5traxyu8+vfb/zTw=
+
+Name: icons/alignbottom.gif
+SHA1-Digest: Emvq+dT9BiE8uMrzYPbrkVEaXMc=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/ArrangeAction.class
+SHA1-Digest: 6hBcpXO51MhrNpkgkub7ECahCVg=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/handlers/ZOrderHandler.
+ class
+SHA1-Digest: cUqVsHDIFnCWfDMtOWbMZWfvWUk=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/AbstractShowHideAction$
+ 1$1.class
+SHA1-Digest: Zjd3euZqVzoctXyj2UyC/SNNP2w=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/handlers/AbstractGr
+ aphicalCommandHandler.java
+SHA1-Digest: e8MrLORQUUY99bRn4ehn8f0Pkps=
+
+Name: icons/papyrus.png
+SHA1-Digest: qRVOaQq19Qq/T2+hjrQ+xwWOo8k=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/ArrangeAction.java
+SHA1-Digest: C61VwTdoYQWJPX5OJtzBvfvTV3w=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/handlers/SizeHandle
+ r.java
+SHA1-Digest: SxyZBnkpRM4eFWyDAwTClEmkJ2c=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/ShowHideLabelsAction$Co
+ ntentProvider.class
+SHA1-Digest: nC7JE+Eak/b2Dt+D41ELARcp/Xw=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/ShowHideCompartmentActi
+ on$ContentProvider.class
+SHA1-Digest: LuFsTCKqQ8HqH2XycpmNhk27MlE=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/handlers/ViewPageBr
+ eaksHandler.java
+SHA1-Digest: rNQhPQ3769iqKQs5MI96maxY+BM=
+
+Name: icons/distibute_vertically.gif
+SHA1-Digest: +/+PngaM4x9XowluA40w+LLrPK0=
+
+Name: about.html
+SHA1-Digest: a2Fk5/pDnCvlEfl7QwDZj/FCgFc=
+
+Name: org/eclipse/papyrus/diagram/menu/providers/InitTrueToggleState.c
+ lass
+SHA1-Digest: y53jUHClYYixK9I3Mszma8lFpDA=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/LineColorAction.class
+SHA1-Digest: VE1ruTOuEiiNMNxWBxFcaPJXc/g=
+
+Name: icons/size_to_control.gif
+SHA1-Digest: k9iV5gnzSCA4O8p2VwORKuAwyUo=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/AbstractShowHideAction.
+ class
+SHA1-Digest: QEU7197h8igoTaSpc6fPYHO1egM=
+
+Name: icons/distribute_vertically_between_nodes.gif
+SHA1-Digest: n/z0iD8kSNDONNbr1s1tcc6r3rw=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/AbstractDistributeActio
+ n.class
+SHA1-Digest: TyXbm3o2SyMrzKyXM1gBBvFk+2Q=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/CopyAppearancePrope
+ rtiesAction.java
+SHA1-Digest: 7yv7fwLawotvRDkMjDgUlHxr/IA=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/handlers/FillColorHandl
+ er.class
+SHA1-Digest: 6OMa/cnbTErDvjTvlQ9q8kJZQBE=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/handlers/ViewPageBreaks
+ Handler.class
+SHA1-Digest: aT6hW0EFLpSWbfYANRGxJU4E8Go=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/handlers/ShowHideCo
+ mpartmentHandler.java
+SHA1-Digest: dgXJ9eIstRMuDdcSXLLllg1TATA=
+
+Name: icons/arrow_down.gif
+SHA1-Digest: RQXpLCwGwO2SKbD5h5J894Eotis=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/handlers/Recalculat
+ ePageBreaksHandler.java
+SHA1-Digest: HJ41WMFI0tf1iOLiV5BeAJdg/0E=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/AbstractShowHideAction$
+ EditPartRepresentation.class
+SHA1-Digest: zM+ZBo6cVbRwxm6ggT0iTFBMhJw=
+
+Name: org/eclipse/papyrus/diagram/menu/messages/Messages.class
+SHA1-Digest: gFCT11DyNGHefG1Fh6e/3fe6j4o=
+
+Name: icons/colors/yellow.gif
+SHA1-Digest: /H168jK/b1kkJp3sJZwBD3DlKAo=
+
+Name: icons/fantomCompartment.gif
+SHA1-Digest: lbyv5gH17bmJkfII8EbN+F7fzJ8=
+
+Name: org/eclipse/papyrus/diagram/menu/dialogs/ShowHideCompartmentSele
+ ctionDialog$NameVisibilityEditingSupport.class
+SHA1-Digest: u/hVTyFqCm9AaVF3I7GpRHZ68RE=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/ZOrderAction.java
+SHA1-Digest: Bnr1CfYBDCrmaZquCRcI2fNTcoY=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/ZoomAction.java
+SHA1-Digest: Gz/gAncGUBbasKnQ+qD76+4cIpM=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/gmf/CustomContributionI
+ temProvider.class
+SHA1-Digest: LFPuWWbMav25IMx6COZHo20jw8E=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/LineColorAction.jav
+ a
+SHA1-Digest: Gd0QS2yDb8R+9zZ5PZxe3qyyxDQ=
+
+Name: src/org/eclipse/papyrus/diagram/menu/providers/ObliqueToggleStat
+ e.java
+SHA1-Digest: TtSyRlnNKMuifK6BK+6pZo2c0n0=
+
+Name: org/eclipse/papyrus/diagram/menu/selection/SelectByTypeHandler.c
+ lass
+SHA1-Digest: GcVp2yje2NfjlAkqBkDlgSyT6TM=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/FontAction.java
+SHA1-Digest: PjEHKMpbkxSInbeu8+Eme9XqBI0=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/handlers/LineColorH
+ andler.java
+SHA1-Digest: zBrcXCz8YnEltKIvY8lwz2CnjgY=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/DiagramUIActionsMes
+ sages.java
+SHA1-Digest: 3nuvSIYRQrCV2aw913oiJb8B4uc=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/AbstractColorAction$Inv
+ entoryColorDescriptor.class
+SHA1-Digest: VazXgEV64uskWNrqUlZ0i5+ZO9w=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/FontAction.class
+SHA1-Digest: Tk4qYDv/CoHW1CaSWfVIftlK2HY=
+
+Name: org/eclipse/papyrus/diagram/menu/providers/ObliqueToggleState.cl
+ ass
+SHA1-Digest: beGkljLnkzinHdLPnMSB6xqZAMI=
+
+Name: src/org/eclipse/papyrus/diagram/menu/selection/SelectByTypePrope
+ rtyTester.java
+SHA1-Digest: 0cbezsjN0cNE6/AviT+oZYDe/bo=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/handlers/LineColorHandl
+ er.class
+SHA1-Digest: yCpu6tC0+SPqvAqGcnn4iDz89I8=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/handlers/AbstractParame
+ tricHandler.class
+SHA1-Digest: Rq7opc3w5joIf/6oANxzHALT0pE=
+
+Name: icons/vertical_by_top.gif
+SHA1-Digest: ySw5FR0Ki2Uzu+8fWKZgKp1pr94=
+
+Name: icons/arrow_up.gif
+SHA1-Digest: nUGy85EowQLrI5hDomzojsZItS4=
+
+Name: src/org/eclipse/papyrus/diagram/menu/messages/Messages.java
+SHA1-Digest: Ft7A1qR+if5oxXo1E+sETen3JtA=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/SortFilterCompartmentIt
+ emsAction.class
+SHA1-Digest: UhJyco8NubtZPxWM9UzxtC3uoSY=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/FillColorAction.class
+SHA1-Digest: ygsQLW7PhphUz6u3wVBADLYo/Kk=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/handlers/ViewRulersHand
+ ler.class
+SHA1-Digest: Ck0EPgH8gDqp88/xKta2mSKeB+8=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/DistributeNodeAction$Co
+ ordinatesComparator.class
+SHA1-Digest: /5kHwDl5ut36+mzpfNU0if6H4+4=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/handlers/ShowHideLabels
+ Handler.class
+SHA1-Digest: u/6Qt5rUmGYTLPfBdOuj/SYmkho=
+
+Name: icons/colors/black.gif
+SHA1-Digest: jnzlhsTmVYH/wZxyZAsQNj/xilI=
+
+Name: src/org/eclipse/papyrus/diagram/menu/dialogs/ShowHideLabelSelect
+ ionDialog.java
+SHA1-Digest: ubRbV7M8DYxhtbz5GwmcgGqTtz8=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/handlers/ZoomHandler.cl
+ ass
+SHA1-Digest: NHaueKM6w77P2/FV1cGgWf1NcZ8=
+
+Name: icons/colors/dark_gray.gif
+SHA1-Digest: P81Rk/cQdAVPOKlfZXcl3iDBHhg=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/handlers/ShowHideLa
+ belsHandler.java
+SHA1-Digest: NUTBdhgTioa6iGoz0xHqKhjo9Ig=
+
+Name: icons/autosize.gif
+SHA1-Digest: PdSutq8UFGuttgsntMSCIEf8zWE=
+
+Name: icons/aligntop.gif
+SHA1-Digest: C0I2l3QchkVOsCGfdE3MXZS3/bM=
+
+Name: src/org/eclipse/papyrus/diagram/menu/providers/TreeToggleState.j
+ ava
+SHA1-Digest: job4CZHgbGKeAJKN4/jGNy32mGc=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/handlers/ViewRulers
+ Handler.java
+SHA1-Digest: c8bDdFlGIZGLFLECB7XhX+cBoMA=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/handlers/SnapToGrid
+ Handler.java
+SHA1-Digest: WJQeE7AO+/dn+4j1vfRBCIvvZi4=
+
+Name: org/eclipse/papyrus/diagram/menu/selection/AbstractMenuContribut
+ ionItemProvider.class
+SHA1-Digest: rjVBae5yGM0sRarFoSZ81ee1SkY=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/handlers/FillColorH
+ andler.java
+SHA1-Digest: JklA5DfZCkCibZHdpeVvXDQ65BQ=
+
+Name: src/org/eclipse/papyrus/diagram/menu/messages/messages.propertie
+ s
+SHA1-Digest: HkkKxNeC0fBAQ43FNDuikIIm35k=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/RouteAction.class
+SHA1-Digest: UpkZb8akIxvPPR1u082pn3gDDwM=
+
+Name: org/eclipse/papyrus/diagram/menu/actions/handlers/ArrangeHandler
+ .class
+SHA1-Digest: Rjui39kdis9tRKVFcM96fP5UwvY=
+
+Name: icons/colors/magenta.gif
+SHA1-Digest: OGhJGZtLz6iYQaI83kMmwCU+EjM=
+
+Name: icons/vertical_by_bottom.gif
+SHA1-Digest: C9shfKpG1TD0/04Y7SVcZJDRbnY=
+
+Name: src/org/eclipse/papyrus/diagram/menu/actions/handlers/Alignement
+ Handler.java
+SHA1-Digest: rUxcHyBUNquK9bd9XiWVl40wH/c=
+
+Name: src/org/eclipse/papyrus/diagram/menu/providers/InitTrueToggleSta
+ te.java
+SHA1-Digest: YVAjilQLJRxx/NdxYCkO6N9kC9w=
+

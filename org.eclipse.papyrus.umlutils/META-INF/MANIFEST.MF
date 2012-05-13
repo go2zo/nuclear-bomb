@@ -1,0 +1,180 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.papyrus.umlutils;singleton:=true
+Require-Bundle: org.eclipse.uml2.uml;bundle-version="[3.2.0,4.0.0)",or
+ g.eclipse.jface;bundle-version="3.4.1",org.eclipse.emf.transaction;bu
+ ndle-version="1.2.1"
+Bundle-Activator: org.eclipse.papyrus.umlutils.Activator
+Bundle-Version: 0.8.0.v201106151827
+Export-Package: org.eclipse.papyrus.umlutils,org.eclipse.papyrus.umlut
+ ils.ui,org.eclipse.papyrus.umlutils.ui.command,org.eclipse.papyrus.um
+ lutils.ui.helper
+Ant-Version: Apache Ant 1.7.1
+Bundle-Vendor: %pluginProvider
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/papyrus/umlutils/ui/command/RemoveAppliedStereotypeT
+ oDisplayCommand.class
+SHA1-Digest: KCHdCtbUQgIfJUs7HOS8CcWsMeM=
+
+Name: org/eclipse/papyrus/umlutils/ElementUtil.class
+SHA1-Digest: 7weShHWqwvPn25gvhpeY523VDSM=
+
+Name: org/eclipse/papyrus/umlutils/MultiplicityElementUtil.class
+SHA1-Digest: eX9SgJEYATeIPlcxUCcwc6NDdHs=
+
+Name: org/eclipse/papyrus/umlutils/TypedElementUtil.class
+SHA1-Digest: JDK5udFKnbBkLc0QyNEthtnN8J4=
+
+Name: org/eclipse/papyrus/umlutils/StereotypeUtil.class
+SHA1-Digest: MjKJzHlzqvP0MSC7te+0sj9Dyxs=
+
+Name: org/eclipse/papyrus/umlutils/ui/command/SetShadowFigureCommand.c
+ lass
+SHA1-Digest: LRqM5oU3eQqHUqHfKJRw76teP/E=
+
+Name: org/eclipse/papyrus/umlutils/PackageUtil.class
+SHA1-Digest: vmgTm7khESxiiFad2XsRUGj7vAE=
+
+Name: org/eclipse/papyrus/umlutils/TypeUtil.class
+SHA1-Digest: /O3IQJ21WcnQNEI0ee5/g3MTYN8=
+
+Name: org/eclipse/papyrus/umlutils/ui/command/SetGradienColorCommand.c
+ lass
+SHA1-Digest: YoqGl+0svf5dEv/KaR+8p/zDH88=
+
+Name: org/eclipse/papyrus/umlutils/MessageUtil.class
+SHA1-Digest: YSPnZ4K3BTyQYmAraTtKfImbs4g=
+
+Name: plugin.properties
+SHA1-Digest: 2z9wGFhMa5DUPvr+ohL+cJIRHu8=
+
+Name: org/eclipse/papyrus/umlutils/ui/command/RemoveAppliedStereotypeP
+ ropertiesToDisplayCommand.class
+SHA1-Digest: jbnBx1wTfyZ83ypDqsa4pyEcjjY=
+
+Name: org/eclipse/papyrus/umlutils/CollaborationUseUtil.class
+SHA1-Digest: Ea06qlnYAXapwB2Br+oJ/hhNesA=
+
+Name: org/eclipse/papyrus/umlutils/ui/command/AddAppliedStereotypeToDi
+ splayCommand.class
+SHA1-Digest: vbOqwp8iyk50CLJK7p+oxoW+5VA=
+
+Name: org/eclipse/papyrus/umlutils/NamedElementUtil.class
+SHA1-Digest: un/j758prk1PJkUBFM87PnEjDB0=
+
+Name: org/eclipse/papyrus/umlutils/ui/command/CreateEAnnotationCommand
+ .class
+SHA1-Digest: HlOpO6WUKAAlttz7mwN5IkKJ3Mw=
+
+Name: plugin.xml
+SHA1-Digest: 7OM6gCcd1mu2QzuoFoMbPlYwLMo=
+
+Name: org/eclipse/papyrus/umlutils/ui/command/SetNameLabelIconCommand.
+ class
+SHA1-Digest: cqpS9EwuHlfkYdR2bx9PrhOSqGA=
+
+Name: org/eclipse/papyrus/umlutils/ui/command/AddMaskManagedLabelDispl
+ ayCommand.class
+SHA1-Digest: qzp7nUAIRx7vbhtbdgGpr4OtPAE=
+
+Name: org/eclipse/papyrus/umlutils/ExecutionSpecificationUtil.class
+SHA1-Digest: Vtl3j7aH12RVz9gprh4Ed2tMe0w=
+
+Name: org/eclipse/papyrus/umlutils/ui/command/RemoveEAnnotationCommand
+ .class
+SHA1-Digest: M6JY0SpvHul7QGjbLrgQOTiPz7g=
+
+Name: org/eclipse/papyrus/umlutils/ICustomAppearence.class
+SHA1-Digest: HZ6j/wZlqUUz1WaQPrdhY43y/RA=
+
+Name: org/eclipse/papyrus/umlutils/ImageUtil.class
+SHA1-Digest: 126IYgITHL9g/zkGr2I2t5Kp8A0=
+
+Name: org/eclipse/papyrus/umlutils/ActivityUtil.class
+SHA1-Digest: qrZoXKfm3yE+MrQX+OTqAI/Y1/k=
+
+Name: org/eclipse/papyrus/umlutils/ui/command/SetAppliedStereotypeProp
+ ertiesLocalizationCommand.class
+SHA1-Digest: n1mulBMU77m9OAIkeqMsP9a9dsM=
+
+Name: org/eclipse/papyrus/umlutils/ExtensionPointUtil.class
+SHA1-Digest: ec7yW+fpw2AACZ0ccIza457B92U=
+
+Name: org/eclipse/papyrus/umlutils/ValueSpecificationUtil.class
+SHA1-Digest: IpbdJEIDEGYXJ8nWyRqsHvi2pc8=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/papyrus/umlutils/TemplateSignatureUtil.class
+SHA1-Digest: ebWTvp7C/ZhDMGPBamxX0kuz7jI=
+
+Name: org/eclipse/papyrus/umlutils/OpaqueBehaviorUtil.class
+SHA1-Digest: +B92rfFGe0eLnAVo4bU6Xcl4kGw=
+
+Name: org/eclipse/papyrus/umlutils/PackageUtil$TypeNameComparator.clas
+ s
+SHA1-Digest: ZwW4ZCnD7wEPNBjFpFP/1Ol8GBc=
+
+Name: org/eclipse/papyrus/umlutils/PropertyUtil.class
+SHA1-Digest: fXPjNvHLbJfyxaez5FfIUCXuDhw=
+
+Name: org/eclipse/papyrus/umlutils/ui/helper/ShadowFigureHelper.class
+SHA1-Digest: hWfUzgVRUxbnTWiprUloVjNchz4=
+
+Name: org/eclipse/papyrus/umlutils/ui/command/AddAppliedStereotypeProp
+ ertiesToDisplayCommand.class
+SHA1-Digest: UUALmrh9/Y3FRGf49qAjGIZwW2g=
+
+Name: org/eclipse/papyrus/umlutils/OpaqueExpressionUtil.class
+SHA1-Digest: da5HK3Bc0rJowC2NkUWMWYOiwfA=
+
+Name: about.html
+SHA1-Digest: a2Fk5/pDnCvlEfl7QwDZj/FCgFc=
+
+Name: org/eclipse/papyrus/umlutils/ui/VisualInformationPapyrusConstant
+ .class
+SHA1-Digest: cpgjYBKWCEAsYUYTVN2USMQVns0=
+
+Name: org/eclipse/papyrus/umlutils/OperationUtil.class
+SHA1-Digest: QP5aCEoYJVW4MniCHNQOLNF3FAA=
+
+Name: org/eclipse/papyrus/umlutils/ui/helper/NameLabelIconHelper.class
+SHA1-Digest: woqcfxLz9UL8VA30aVQM2cfK18M=
+
+Name: org/eclipse/papyrus/umlutils/ParameterUtil.class
+SHA1-Digest: PvG+trjx8a45+UAHMsGdrTYeS4E=
+
+Name: org/eclipse/papyrus/umlutils/ui/command/SetQualifiedNameDepthCom
+ mand.class
+SHA1-Digest: are9W8HI0MTZH4Lhq/XWXR7EgL8=
+
+Name: org/eclipse/papyrus/umlutils/ui/command/AddAppliedQNStereotypeTo
+ DisplayCommand.class
+SHA1-Digest: SDnxAHaUnqOkyvS5Vb7dRYSlsMQ=
+
+Name: org/eclipse/papyrus/umlutils/ui/helper/QualifiedNameHelper.class
+SHA1-Digest: ugTcTFu4GhR43A8qecg3QzUkrl0=
+
+Name: org/eclipse/papyrus/umlutils/ui/command/SetAppliedStereotypeToDi
+ splayCommand.class
+SHA1-Digest: C6EAyMUYnXwIyaR1eAO0E9ixZrw=
+
+Name: org/eclipse/papyrus/umlutils/InstanceSpecificationUtil.class
+SHA1-Digest: 8gqnAm5wGPX6fIUk7t5ivdBOemU=
+
+Name: org/eclipse/papyrus/umlutils/Activator.class
+SHA1-Digest: 45ARlX5mVsULFy22K7V94JLt7k4=
+
+Name: org/eclipse/papyrus/umlutils/SignalUtil.class
+SHA1-Digest: V5jbgV1vIYY20wK3zES4IbSC2AI=
+
+Name: org/eclipse/papyrus/umlutils/ui/helper/AppliedStereotypeHelper.c
+ lass
+SHA1-Digest: 9mX/+BefIE/w/5LRV+pKDSy6JO8=
+

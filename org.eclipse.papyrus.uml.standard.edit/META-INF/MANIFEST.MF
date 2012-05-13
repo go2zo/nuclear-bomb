@@ -1,0 +1,272 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.papyrus.uml.standard.edit;singleton:=
+ true
+Require-Bundle: org.eclipse.papyrus.uml.standard;visibility:="reexport
+ ";bundle-version="[0.8.0,1.0.0)",org.eclipse.uml2.uml.edit;visibility
+ :="reexport";bundle-version="[3.1.0,4.0.0)",org.eclipse.core.runtime;
+ bundle-version="3.6.0"
+Bundle-Activator: org.eclipse.papyrus.uml.standard.provider.standardEd
+ itPlugin$Implementation
+Export-Package: org.eclipse.papyrus.uml.standard.provider
+Bundle-Version: 0.8.0.v201106151827
+Ant-Version: Apache Ant 1.7.1
+Bundle-ClassPath: .
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %providerName
+Bundle-Name: %pluginName
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/papyrus/uml/standard/provider/RealizationItemProvide
+ r.class
+SHA1-Digest: Te9KlMUqaV5r6T3NKNrZ4/D2LYs=
+
+Name: org/eclipse/papyrus/uml/standard/provider/AuxiliaryItemProvider.
+ class
+SHA1-Digest: uBO2s5HW5czWg3V6R3aWi5UX/g0=
+
+Name: icons/full/obj16/Instantiate.gif
+SHA1-Digest: Xg/E1wMKhipTUi/PMzIB+6ZHmyc=
+
+Name: icons/full/obj16/BuildComponent.gif
+SHA1-Digest: T+eAHuq7XeqH1C84ymKDSHf0l3Y=
+
+Name: icons/full/obj16/Utility.gif
+SHA1-Digest: 0gvIhMSrhltUsML916LcDVM3JLc=
+
+Name: icons/full/obj16/Process.gif
+SHA1-Digest: N7A9qzDPPD5maiZs6nD2yOnGVIc=
+
+Name: icons/full/obj16/Subsystem.gif
+SHA1-Digest: 4zQ+1E/DeKGAdyOfzirdzc3srCw=
+
+Name: org/eclipse/papyrus/uml/standard/provider/ScriptItemProvider.cla
+ ss
+SHA1-Digest: zor7rjsl0h+xznNA3uy0W/lpmUM=
+
+Name: org/eclipse/papyrus/uml/standard/provider/MetaclassItemProvider.
+ class
+SHA1-Digest: /KKiit9kDUo+3EOpBDQROQn5qi4=
+
+Name: icons/full/obj16/Type.gif
+SHA1-Digest: ughyu2sf9tjdSsux4ArtI6B9UPY=
+
+Name: org/eclipse/papyrus/uml/standard/provider/ResponsibilityItemProv
+ ider.class
+SHA1-Digest: 5o9jlHpldw6iiERjdehsf747lpM=
+
+Name: icons/full/obj16/Destroy.gif
+SHA1-Digest: I2htjO0OkSaWfMURECqXZqmS68k=
+
+Name: org/eclipse/papyrus/uml/standard/provider/ModelLibraryItemProvid
+ er.class
+SHA1-Digest: yLqrR4e8HXtrqywZ/IkQB+a1x6g=
+
+Name: org/eclipse/papyrus/uml/standard/provider/FocusItemProvider.clas
+ s
+SHA1-Digest: EjQ7pONop6CEukMFpV2Fen/0o8g=
+
+Name: icons/full/obj16/Framework.gif
+SHA1-Digest: 0gvIhMSrhltUsML916LcDVM3JLc=
+
+Name: org/eclipse/papyrus/uml/standard/provider/standardEditPlugin.cla
+ ss
+SHA1-Digest: 7BVtioXvOW107dJXuTk2WuP2kEI=
+
+Name: icons/full/obj16/Specification.gif
+SHA1-Digest: k6QiLCZYrVmMJ6A2ZM7y663F7w0=
+
+Name: org/eclipse/papyrus/uml/standard/provider/DocumentItemProvider.c
+ lass
+SHA1-Digest: l+Tq1zT/pv7BigogbAoHUuO57EI=
+
+Name: org/eclipse/papyrus/uml/standard/provider/ImplementItemProvider.
+ class
+SHA1-Digest: m0LfZwv6k7nNIWWJQ7434I40Xqc=
+
+Name: icons/full/obj16/Realization.gif
+SHA1-Digest: zQtjXniQvLE/hL1niFuMWxxoe0o=
+
+Name: icons/full/obj16/Executable.gif
+SHA1-Digest: +Ntvcq4997BNYPYLZR/UjlAixTo=
+
+Name: icons/full/obj16/Script.gif
+SHA1-Digest: iG4JDPNm+kWXZYgAfvzrknXDKVg=
+
+Name: org/eclipse/papyrus/uml/standard/provider/CallItemProvider.class
+SHA1-Digest: 8mnhDSkaGpaCeMlBN7JVKhixUfU=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/papyrus/uml/standard/provider/EntityItemProvider.cla
+ ss
+SHA1-Digest: pdB6tqQ0wj0x7WwmHHiqJiynDCE=
+
+Name: icons/full/obj16/ModelLibrary.gif
+SHA1-Digest: CAPyOkGpEey0FGNKjB35mmhLhN4=
+
+Name: org/eclipse/papyrus/uml/standard/provider/ProcessItemProvider.cl
+ ass
+SHA1-Digest: VjKXfuPQSRG42jqM3BZcWd7CXjY=
+
+Name: icons/full/obj16/Metaclass.gif
+SHA1-Digest: HkztcHenka8VEe7RvgSXDldhBSA=
+
+Name: org/eclipse/papyrus/uml/standard/provider/RefineItemProvider.cla
+ ss
+SHA1-Digest: UPPsYgMXmxL6zNPmlMeytbWAzVQ=
+
+Name: icons/full/obj16/Call.gif
+SHA1-Digest: Sk87peqtjGOl7ixDme+ldSvxyvY=
+
+Name: org/eclipse/papyrus/uml/standard/provider/SystemModelItemProvide
+ r.class
+SHA1-Digest: g3/u2EMCMmiEm9xxuT040iLCvCw=
+
+Name: icons/full/obj16/Entity.gif
+SHA1-Digest: qVNvkjWIhR/bpGQmozX46fYWzL0=
+
+Name: org/eclipse/papyrus/uml/standard/provider/FrameworkItemProvider.
+ class
+SHA1-Digest: yg80UXhZ0jP1juVePBRuiW8wgeo=
+
+Name: icons/full/obj16/Implement.gif
+SHA1-Digest: iNVc3fEIjB2HS0NQ8OuRztfxmsU=
+
+Name: org/eclipse/papyrus/uml/standard/provider/FileItemProvider.class
+SHA1-Digest: Sg0ZfqjOmoxNtjz+lulZ/zvaXBk=
+
+Name: org/eclipse/papyrus/uml/standard/provider/TraceItemProvider.clas
+ s
+SHA1-Digest: ACbiAqCRw8LK8KJE7kngWeEL6Ck=
+
+Name: icons/full/obj16/Refine.gif
+SHA1-Digest: 3sll8pSMsf2EIoVE311AsB9EBLY=
+
+Name: org/eclipse/papyrus/uml/standard/provider/SendItemProvider.class
+SHA1-Digest: RIWq39cU6Vy52xUc6tn1icuy02s=
+
+Name: org/eclipse/papyrus/uml/standard/provider/ExecutableItemProvider
+ .class
+SHA1-Digest: H6bV4AfyUiYqRvzu5Orph44ZEhI=
+
+Name: icons/full/obj16/Service.gif
+SHA1-Digest: zQtjXniQvLE/hL1niFuMWxxoe0o=
+
+Name: plugin.properties
+SHA1-Digest: iWS76GVK/GMy9rRYa/LtHi9esiI=
+
+Name: icons/full/obj16/Create.gif
+SHA1-Digest: U1oSxTiQ6H6gFyB0/79LhnZmaSY=
+
+Name: icons/full/obj16/File.gif
+SHA1-Digest: AUyZYH7KuCJQIePO6lB59JW3UfM=
+
+Name: icons/full/obj16/SystemModel.gif
+SHA1-Digest: lWmo7ZrF8xnTWBuI04DT2NWotWo=
+
+Name: org/eclipse/papyrus/uml/standard/provider/standardEditPlugin$Imp
+ lementation.class
+SHA1-Digest: srR83XjDLw7J4Tm18TxNGyzF3bQ=
+
+Name: icons/full/obj16/Library.gif
+SHA1-Digest: rw4VY33aZuUltGDueBzQiVgy5M0=
+
+Name: org/eclipse/papyrus/uml/standard/provider/StandardItemProviderAd
+ apterFactory.class
+SHA1-Digest: oxriCxcTc8Op7AoGQEB5klWYte4=
+
+Name: org/eclipse/papyrus/uml/standard/provider/SourceItemProvider.cla
+ ss
+SHA1-Digest: 6QIfTE6MEeSnJ46vI6qmhvinCAM=
+
+Name: icons/full/obj16/Metamodel.gif
+SHA1-Digest: Fw0COYVZufvtYThnaPEdKqw+S6s=
+
+Name: icons/full/obj16/Send.gif
+SHA1-Digest: Fw0COYVZufvtYThnaPEdKqw+S6s=
+
+Name: plugin.xml
+SHA1-Digest: HYoDe1anmZQuRupZOpVEwYm8Iy4=
+
+Name: icons/full/obj16/Trace.gif
+SHA1-Digest: KUAlDeNtrWkqO2Rb8E2NykHphi0=
+
+Name: icons/full/obj16/Auxiliary.gif
+SHA1-Digest: sp33IwukHB8+lYxsOTbjRb/sMDI=
+
+Name: org/eclipse/papyrus/uml/standard/provider/ImplementationClassIte
+ mProvider.class
+SHA1-Digest: aNzQr1in4g8BvsToHMnsiJJSiHE=
+
+Name: icons/full/obj16/Responsibility.gif
+SHA1-Digest: T+eAHuq7XeqH1C84ymKDSHf0l3Y=
+
+Name: org/eclipse/papyrus/uml/standard/provider/InstantiateItemProvide
+ r.class
+SHA1-Digest: QgYfYEbvUzQQ4useQcs/tACk0Nc=
+
+Name: org/eclipse/papyrus/uml/standard/provider/UtilityItemProvider.cl
+ ass
+SHA1-Digest: dsIILE1qEr2p/au/2/G0PQngzOA=
+
+Name: org/eclipse/papyrus/uml/standard/provider/DeriveItemProvider.cla
+ ss
+SHA1-Digest: n6mxHchtbyf/5l8WZjJQNYUIIZs=
+
+Name: org/eclipse/papyrus/uml/standard/provider/SubsystemItemProvider.
+ class
+SHA1-Digest: iPkrKh8WKkFtRNHu9brDUrhqFv0=
+
+Name: about.html
+SHA1-Digest: a2Fk5/pDnCvlEfl7QwDZj/FCgFc=
+
+Name: icons/full/obj16/Document.gif
+SHA1-Digest: eNtcdZQNPwQhrG2rgRpclYKXImU=
+
+Name: icons/full/obj16/Source.gif
+SHA1-Digest: jJvbEj/AnQDDiWrvW+EYo4EE5co=
+
+Name: org/eclipse/papyrus/uml/standard/provider/ServiceItemProvider.cl
+ ass
+SHA1-Digest: DHaBvb8CvYofMqGYHRstI+YmEgw=
+
+Name: icons/full/obj16/Focus.gif
+SHA1-Digest: anDrqczTKuP24CH3saEL4lXNjT4=
+
+Name: org/eclipse/papyrus/uml/standard/provider/BuildComponentItemProv
+ ider.class
+SHA1-Digest: HlcDTjDbdIYTW1oRxwqP6LDzzs0=
+
+Name: org/eclipse/papyrus/uml/standard/provider/DestroyItemProvider.cl
+ ass
+SHA1-Digest: JKouT8klz8Fvb5AUotc1fj0U8GQ=
+
+Name: org/eclipse/papyrus/uml/standard/provider/LibraryItemProvider.cl
+ ass
+SHA1-Digest: o9qrao3GV6Kh0IVpM0vYlB5n0e4=
+
+Name: org/eclipse/papyrus/uml/standard/provider/TypeItemProvider.class
+SHA1-Digest: uOoi1ozKAkRMtjqJAapJwT6sDhs=
+
+Name: icons/full/obj16/Derive.gif
+SHA1-Digest: YOl3x9Xxy/tnV3hFuy0Bwm/Q5UQ=
+
+Name: org/eclipse/papyrus/uml/standard/provider/CreateItemProvider.cla
+ ss
+SHA1-Digest: PSbeeltW/81idgJW7vFnijWMiWg=
+
+Name: org/eclipse/papyrus/uml/standard/provider/SpecificationItemProvi
+ der.class
+SHA1-Digest: awSrcSFc55UYo97sAoyey6H+mRQ=
+
+Name: icons/full/obj16/ImplementationClass.gif
+SHA1-Digest: 9EpYKXVpze5++JkWPeq9RZJSG3I=
+
+Name: org/eclipse/papyrus/uml/standard/provider/MetamodelItemProvider.
+ class
+SHA1-Digest: bZZpIYotUBBhCegBqxHhlt+QDHw=
+

@@ -1,0 +1,434 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.papyrus.sysml.service.types;singleton
+ :=true
+Require-Bundle: org.eclipse.ui;bundle-version="[3.7.0,4.0.0)",org.ecli
+ pse.core.runtime;bundle-version="[3.7.0,4.0.0)",org.eclipse.uml2.uml;
+ bundle-version="3.1.0",org.eclipse.papyrus.sysml;bundle-version="0.8.
+ 0",org.eclipse.papyrus.log;bundle-version="0.8.0",org.eclipse.gmf.run
+ time.emf.type.core;bundle-version="1.4.0",org.eclipse.papyrus.uml.sta
+ ndard;bundle-version="0.7.0",org.eclipse.papyrus.uml.service.types;bu
+ ndle-version="0.8.0"
+Bundle-Activator: org.eclipse.papyrus.sysml.service.types.Activator
+Bundle-Version: 0.8.0.v201106151827
+Export-Package: org.eclipse.papyrus.sysml.service.types,org.eclipse.pa
+ pyrus.sysml.service.types.element,org.eclipse.papyrus.sysml.service.t
+ ypes.helper,org.eclipse.papyrus.sysml.service.types.matcher
+Ant-Version: Apache Ant 1.7.1
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/papyrus/sysml/service/types/matcher/RationaleMatcher
+ .class
+SHA1-Digest: 51Z2nukDZr15juuJVMLHokZ1Gh8=
+
+Name: org/eclipse/papyrus/sysml/service/types/matcher/AllocateMatcher.
+ class
+SHA1-Digest: XgyDD+5fLkZOFx7SAhhYIrcIwjI=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/ReferenceProperty
+ EditHelperAdvice$1.class
+SHA1-Digest: w7eWokcsY/mRmeFsaXreCeCPeV4=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/ValueTypeEditHelp
+ erAdvice$1.class
+SHA1-Digest: EVJBzlO0tFVeRaNYfIlE3tb/T7o=
+
+Name: org/eclipse/papyrus/sysml/service/types/matcher/ConformMatcher.c
+ lass
+SHA1-Digest: z0jj9UPW8sj7UaN1WdAp7GVg9IE=
+
+Name: org/eclipse/papyrus/sysml/service/types/matcher/SatisfyMatcher.c
+ lass
+SHA1-Digest: M6xl8ZS1eCyKoM2SfM8O7iBtN/w=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/FlowPortEditHelpe
+ rAdvice$1.class
+SHA1-Digest: 0EQAuFsW9ayLSn7YSESvH4Ju3ZQ=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/DeriveReqtEditHel
+ perAdvice.class
+SHA1-Digest: Sr7i4XpQnjvIHO2/J/w4t0jMp+Q=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/SatisfyEditHelper
+ Advice.class
+SHA1-Digest: 5KsN+bh8Hc2gZztcPk2ZmT62aow=
+
+Name: org/eclipse/papyrus/sysml/service/types/matcher/UnitMatcher.clas
+ s
+SHA1-Digest: BQQWukU/8K+gGw7kRtrJL2e92WQ=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/ItemFlowEditHelpe
+ rAdvice.class
+SHA1-Digest: rjHBA2v/FjW+z8O7ImWV4w2c30w=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/FlowPortInEditHel
+ perAdvice$1.class
+SHA1-Digest: VN9YWn6q7MXA/Lk22E+FH4nhJCg=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/FlowPortInOutEdit
+ HelperAdvice$1.class
+SHA1-Digest: Jhc4EhAghr3XxxACYyBjfoWjnlY=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/ViewPointEditHelp
+ erAdvice.class
+SHA1-Digest: vKRS5IIC7KgE5YMgRHe76/x8EHs=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/DeriveReqtEditHel
+ perAdvice$1.class
+SHA1-Digest: 0+mIuQQCYmKBXEcuUKUf8XmNWTk=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/ItemFlowEditHelpe
+ rAdvice$1.class
+SHA1-Digest: UQVGiWXdHzK7up2drntyii9NVwg=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/DimensionEditHelp
+ erAdvice$1.class
+SHA1-Digest: lpciqF/1CcVxbnehOcsiBCobB6k=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/ValuePropertyEdit
+ HelperAdvice$1.class
+SHA1-Digest: uVv/JYXv2JyUwIU4Ri4RTKC1WVg=
+
+Name: org/eclipse/papyrus/sysml/service/types/matcher/BlockMatcher.cla
+ ss
+SHA1-Digest: MxFxo2ESdDqOpfj2FbYRejv4xkY=
+
+Name: org/eclipse/papyrus/sysml/service/types/matcher/ValueTypeMatcher
+ .class
+SHA1-Digest: bZdawjCqWlBNlbUo+SJnhH8F+us=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/FlowSpecification
+ EditHelperAdvice.class
+SHA1-Digest: OprV0SQKwQPJhTELCfurY33wOlo=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/RationaleEditHelp
+ erAdvice.class
+SHA1-Digest: 5YSAN5Jn87jDE4mLTA7AvxQGjjQ=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/PartPropertyEditH
+ elperAdvice$1.class
+SHA1-Digest: BE5otHqZ9ErVNjw1HgCQ4yzZYVM=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/VerifyEditHelperA
+ dvice.class
+SHA1-Digest: rsfvU5fNIn0C4JS8HvBkNRxxgFA=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/advice/Associatio
+ nCompositeEditHelperAdvice.class
+SHA1-Digest: eSOsU0xpZeQgsTDidgItDybNS9Y=
+
+Name: org/eclipse/papyrus/sysml/service/types/matcher/RequirementMatch
+ er.class
+SHA1-Digest: Rqv+gTdgyL383HBRtUv6k0n+eTs=
+
+Name: org/eclipse/papyrus/sysml/service/types/matcher/PartPropertyMatc
+ her.class
+SHA1-Digest: z4o8fJh0ODgsqpZsoyusStwTG3o=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/FlowSpecification
+ EditHelperAdvice$1.class
+SHA1-Digest: r4rEzu0w9viaf+EregM7cSWMJy4=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/VerifyEditHelperA
+ dvice$1.class
+SHA1-Digest: DEJbmT6Bp93+9HFJoNo8PuWRkO0=
+
+Name: org/eclipse/papyrus/sysml/service/types/matcher/FlowSpecificatio
+ nMatcher.class
+SHA1-Digest: CfPmBlVghZWqm9QCiQBgiQZqbOw=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/FlowPortOutEditHe
+ lperAdvice$1.class
+SHA1-Digest: AnmSg7Tt2gdWzBPS6mwDbfCHBto=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/BlockEditHelperAd
+ vice.class
+SHA1-Digest: 8nm420IyiV1KMMIu8rXP4yoP6+c=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/ReferenceProperty
+ EditHelperAdvice$2.class
+SHA1-Digest: /SkatPeZ9dCrDxoPQjsh6sja4DU=
+
+Name: org/eclipse/papyrus/sysml/service/types/matcher/VerifyMatcher.cl
+ ass
+SHA1-Digest: uJBbmhJsSLmS6EjhUhfLq/6z7To=
+
+Name: org/eclipse/papyrus/sysml/service/types/matcher/FlowPortInMatche
+ r.class
+SHA1-Digest: pfJZO46g74y25Ca2GXo3CuJfVFs=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/FlowPortInOutEdit
+ HelperAdvice.class
+SHA1-Digest: zsHMtwbKHVhSQ6GrDw1QWItZhws=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/BlockEditHelperAd
+ vice$1.class
+SHA1-Digest: AQr2SnMQobbP50rX8VExUufyRGI=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/ProblemEditHelper
+ Advice.class
+SHA1-Digest: u7T+Nb8bhSKEMSGd/40SMtRMcwc=
+
+Name: org/eclipse/papyrus/sysml/service/types/matcher/ReferencePropert
+ yMatcher.class
+SHA1-Digest: HKg42qL0THTnu04SVlZ81mVGXjM=
+
+Name: org/eclipse/papyrus/sysml/service/types/matcher/ProblemMatcher.c
+ lass
+SHA1-Digest: hNG7tjAI7qQyxhoAhwQkcIROiy4=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/DimensionEditHelp
+ erAdvice.class
+SHA1-Digest: hvTbgi80+UAEeZwtLKf7Jv7oZcI=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/ValuePropertyEdit
+ HelperAdvice.class
+SHA1-Digest: duGMPCa4myJlocrNwXWnVW+tJAI=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/advice/Associatio
+ nNoneDirectedEditHelperAdvice.class
+SHA1-Digest: ilqclgKU7xd0ZxESwzZBcQxh1zw=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/advice/Associatio
+ nSharedEditHelperAdvice.class
+SHA1-Digest: DA9wbF5TIRiaB+gIvA4wKTDftTc=
+
+Name: about.html
+SHA1-Digest: a2Fk5/pDnCvlEfl7QwDZj/FCgFc=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/FlowPropertyEditH
+ elperAdvice$1.class
+SHA1-Digest: JOl2Vhxu8fixJpawFHGsUiQ1WVE=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/PartPropertyEditH
+ elperAdvice$2.class
+SHA1-Digest: IpMFifX0NBYQblKb56kfSkKSZcY=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/advice/Associatio
+ nEditHelperAdvice$1.class
+SHA1-Digest: 4Jcolg7NIALpR8SmvOlHqtfoU54=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/AllocateEditHelpe
+ rAdvice.class
+SHA1-Digest: OqUryWxcP7tjt2ZeyPAlJiORNQA=
+
+Name: org/eclipse/papyrus/sysml/service/types/matcher/FlowPortInOutMat
+ cher.class
+SHA1-Digest: FuXt0JbWt0wIpmqCYP/Q3UYZ0kU=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/UnitEditHelperAdv
+ ice.class
+SHA1-Digest: 7kMTvqjqMmFhfSsOdJwH7TQnN9M=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/ValueTypeEditHelp
+ erAdvice.class
+SHA1-Digest: 8jpx3UgGzvBQRQAXpfPTHdt2Ywk=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/AllocateEditHelpe
+ rAdvice$1.class
+SHA1-Digest: uIr2A5QJ0Kand0IPY1RGB6f785Y=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/RequirementEditHe
+ lperAdvice$1.class
+SHA1-Digest: BIk8SW46Qp6q1Xp9rHUNKwvHruM=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/ConformEditHelper
+ Advice$1.class
+SHA1-Digest: idj6Lg1139zTt1pU9coNXn9x928=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/FlowPortEditHelpe
+ rAdvice.class
+SHA1-Digest: CwWIpAOmwKqXbdI5xs9kVa67Hvg=
+
+Name: org/eclipse/papyrus/sysml/service/types/matcher/ViewPointMatcher
+ .class
+SHA1-Digest: QFpkWmS2yq2OW6hR3gpKfgcea0c=
+
+Name: org/eclipse/papyrus/sysml/service/types/matcher/ConstraintProper
+ tyMatcher.class
+SHA1-Digest: bvM+2RjF6CtAUKBm6NDdnG3nV5M=
+
+Name: org/eclipse/papyrus/sysml/service/types/matcher/ViewMatcher.clas
+ s
+SHA1-Digest: FaPrkhhPXjGDISOIu6L1NkardQg=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/ConstraintPropert
+ yEditHelperAdvice$1.class
+SHA1-Digest: qMzUtehT2aDxsxkLbgLsvd0qpoA=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/advice/Associatio
+ nCompositeDirectedEditHelperAdvice.class
+SHA1-Digest: 6yeM5z4WMOdrElnfXyxdQnM47rM=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/papyrus/sysml/service/types/matcher/ValueTypeEnumera
+ tionMatcher.class
+SHA1-Digest: kAI4+pm+cQH6cqCOWJ4/M+j40pk=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/advice/Associatio
+ nEditHelperAdvice.class
+SHA1-Digest: wdNn3GriY7svjZ2pmz9Dbo4RHhI=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/SatisfyEditHelper
+ Advice$1.class
+SHA1-Digest: Fei7wVYHEqn3+3eR6Z7iO/KpfLU=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/ConstraintBlockEd
+ itHelperAdvice.class
+SHA1-Digest: OtVeHY18i8m9tN5N4yWRq0JtMsE=
+
+Name: org/eclipse/papyrus/sysml/service/types/matcher/ValueTypePrimiti
+ veTypeMatcher.class
+SHA1-Digest: aqgAaM93bldRiz5+Zw7de+W7Kcc=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/ViewPointEditHelp
+ erAdvice$1.class
+SHA1-Digest: HaZ03/fNot8z+wqS3PgKT0mOVfQ=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/CopyEditHelperAdv
+ ice.class
+SHA1-Digest: q4eU28XDQ62r5O2kzse5+KgIoF0=
+
+Name: org/eclipse/papyrus/sysml/service/types/matcher/FlowPortMatcher.
+ class
+SHA1-Digest: SZ0uIRJvnXt/0rHYiBxo94lmkUc=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/FlowPortOutEditHe
+ lperAdvice.class
+SHA1-Digest: HOrLw4j/2lhqoDTaT06t1+tL1zs=
+
+Name: org/eclipse/papyrus/sysml/service/types/matcher/AssociationMatch
+ er.class
+SHA1-Digest: hJgLKRmConjhOYFm/Q60/YvrnEo=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/ReferenceProperty
+ EditHelperAdvice.class
+SHA1-Digest: jeoZ8HwapjIPAQwbCm+EzcUAfPU=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/RationaleEditHelp
+ erAdvice$1.class
+SHA1-Digest: u4zkKXmIo8x63Vu9kIWNYx/IoXo=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/ConformEditHelper
+ Advice.class
+SHA1-Digest: xIz3hRv+CiDNVrsGgJ2LS8PgIY0=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/CopyEditHelperAdv
+ ice$1.class
+SHA1-Digest: ep8utZ8oKxfURH2D1Z0i5ZSD+3I=
+
+Name: org/eclipse/papyrus/sysml/service/types/Activator.class
+SHA1-Digest: giAnonydwMXLIzEKcpgEXzoCetM=
+
+Name: org/eclipse/papyrus/sysml/service/types/element/SysMLElementType
+ s.class
+SHA1-Digest: LZJ6EVQOtfg9sWXFXeCkxqoNrNo=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/advice/Associatio
+ nNoneEditHelperAdvice$1.class
+SHA1-Digest: vkOU10+4uuth3J+drymfZvGsls8=
+
+Name: org/eclipse/papyrus/sysml/service/types/matcher/CopyMatcher.clas
+ s
+SHA1-Digest: f7gZ6Xf8uO4N/bCOvvCsfj5d90k=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/UnitEditHelperAdv
+ ice$1.class
+SHA1-Digest: d8ZTuX9aCSKs7+sVi5p5FgnroL8=
+
+Name: plugin.properties
+SHA1-Digest: M0nfi3DY7D4Jmhnm8x/UTE9zObo=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/ConstraintPropert
+ yEditHelperAdvice.class
+SHA1-Digest: pBud4VO4dFg6+/tTcpr71en02wI=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/FlowPortInEditHel
+ perAdvice.class
+SHA1-Digest: 0uyOaDqQEAvPCjpcA9MYaCR1ovo=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/advice/Associatio
+ nSharedDirectedEditHelperAdvice.class
+SHA1-Digest: T4cpMqkT/UnhfR+CVnkMZnbUzqw=
+
+Name: plugin.xml
+SHA1-Digest: 6YU6zdXrVSMNgdw+Cx7lob9tvxg=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/ConstraintBlockPr
+ opertyEditHelperAdvice.class
+SHA1-Digest: Mq9loaTlKrACu1kTHzjhQ4H3e8M=
+
+Name: org/eclipse/papyrus/sysml/service/types/matcher/FlowPropertyMatc
+ her.class
+SHA1-Digest: +Wt/Q1ExbUyx2giWa06pr7OC+QU=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/FlowPropertyEditH
+ elperAdvice.class
+SHA1-Digest: dHpqBL4CL8HsFr7jMd3QfJnAqZU=
+
+Name: org/eclipse/papyrus/sysml/service/types/matcher/ItemFlowMatcher.
+ class
+SHA1-Digest: 1W2aCCNC3NzMZ7tgVKvHVzO+2A8=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/ViewEditHelperAdv
+ ice.class
+SHA1-Digest: 5TkNbYfJtnEU5dpTMo6nTiNhRVw=
+
+Name: org/eclipse/papyrus/sysml/service/types/matcher/DeriveReqtMatche
+ r.class
+SHA1-Digest: oVZ4A/GUTyTt0taFTuQtzloAV7A=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/ProblemEditHelper
+ Advice$1.class
+SHA1-Digest: wAFMmC9EQOUcmcFCzkTfYPDaS5s=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/PartPropertyEditH
+ elperAdvice.class
+SHA1-Digest: zrR1HnUhlY95DX7DDTMg/7v3s2U=
+
+Name: org/eclipse/papyrus/sysml/service/types/matcher/ConstraintBlockM
+ atcher.class
+SHA1-Digest: acH7DaJyPT9OAoaDnG9VRkyNl44=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/ConstraintBlockPr
+ opertyEditHelperAdvice$1.class
+SHA1-Digest: rpmuEVQzmu7HJ+2qe7tTnLxxrxY=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/ViewEditHelperAdv
+ ice$1.class
+SHA1-Digest: mDKQarSrxF8IPlejfZfFQMVyljg=
+
+Name: org/eclipse/papyrus/sysml/service/types/matcher/DimensionMatcher
+ .class
+SHA1-Digest: eiCHFuxbSKFNGqm/hKfLgRJ99Dw=
+
+Name: org/eclipse/papyrus/sysml/service/types/matcher/ValuePropertyMat
+ cher.class
+SHA1-Digest: C4Kv6gOpFqU7VYvMSJU7/Ahlyh8=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/ConstraintBlockEd
+ itHelperAdvice$1.class
+SHA1-Digest: aemOf9ThzH18KOfC4++CqsvBebk=
+
+Name: org/eclipse/papyrus/sysml/service/types/matcher/FlowPortOutMatch
+ er.class
+SHA1-Digest: D82pfNMi4M2yg2aPteYfvT7hsx0=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/RequirementEditHe
+ lperAdvice.class
+SHA1-Digest: 7Q7tt+LiXMFMBhsz9UJfEs/M64w=
+
+Name: org/eclipse/papyrus/sysml/service/types/helper/advice/Associatio
+ nNoneEditHelperAdvice.class
+SHA1-Digest: wNLpjV9a8BFwkW8fUtRD8esnJ/Y=
+
+Name: org/eclipse/papyrus/sysml/service/types/matcher/NoMatcher.class
+SHA1-Digest: wx8B18RKsgIVKw9GxDv/khRO/y4=
+

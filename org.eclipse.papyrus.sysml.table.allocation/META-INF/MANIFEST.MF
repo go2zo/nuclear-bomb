@@ -1,0 +1,86 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.papyrus.sysml.table.allocation;single
+ ton:=true
+Require-Bundle: org.eclipse.emf.facet.infra.common.core;bundle-version
+ ="[0.1.0,1.0.0)",org.eclipse.emf.facet.infra.query.core;bundle-versio
+ n="[0.1.0,1.0.0)",org.eclipse.papyrus.service.edit;bundle-version="0.
+ 8.0",org.eclipse.papyrus.sysml.service.types;bundle-version="0.8.0",o
+ rg.eclipse.papyrus.diagram.common;bundle-version="0.8.0",org.eclipse.
+ papyrus.table.common;bundle-version="[0.8.0,1.0.0)",org.eclipse.core.
+ expressions;bundle-version="[3.4.0,4.0.0)",org.eclipse.papyrus.table.
+ instance;bundle-version="0.8.0",org.eclipse.emf.facet.widgets.nattabl
+ e;bundle-version="0.1.0",org.eclipse.emf.facet.widgets.nattable.table
+ configuration;bundle-version="0.1.0",org.eclipse.emf.facet.widgets.na
+ ttable.instance;bundle-version="0.1.0",org.eclipse.papyrus.sysml;bund
+ le-version="[0.8.0,1.0.0)"
+Bundle-Activator: org.eclipse.papyrus.sysml.table.allocation.Activator
+Bundle-Version: 0.8.0.v201106151827
+Ant-Version: Apache Ant 1.7.1
+Bundle-ClassPath: .,bin
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/papyrus/sysml/table/allocation/Activator.class
+SHA1-Digest: MH/gPQHtPobZRDhb6QDRF7aqOjc=
+
+Name: resources/allocate.querySet
+SHA1-Digest: SV2EWF9oW3jJcUAEA0ikul/rVOw=
+
+Name: org/eclipse/papyrus/sysml/table/allocation/CreateAllocationTable
+ Factory.class
+SHA1-Digest: 7YlbLwCONZlsEiyqCd5/zLPtsHg=
+
+Name: org/eclipse/papyrus/sysml/table/allocation/CreateAllocationTable
+ Command.class
+SHA1-Digest: AauX4f7yKAY+x8kUREt+tqAJz8M=
+
+Name: org/eclipse/papyrus/sysml/table/allocation/editor/AllocationTabl
+ eEditor.class
+SHA1-Digest: KM1QXYfMA3HoALyff1RJ/SOgYpM=
+
+Name: org/eclipse/papyrus/sysml/table/allocation/queries/IsAllocateQue
+ ry.class
+SHA1-Digest: s1BUDwFtWGX2qEVI86Zw+dEIuHQ=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: about.html
+SHA1-Digest: a2Fk5/pDnCvlEfl7QwDZj/FCgFc=
+
+Name: plugin.properties
+SHA1-Digest: UO46H+tODbyzOtP25a9f8xKDcLg=
+
+Name: resources/allocate.tableconfiguration
+SHA1-Digest: a7LAgtDLVQCZzKOjLSKYx4zmvco=
+
+Name: org/eclipse/papyrus/sysml/table/allocation/tester/AllocationProp
+ ertyTester.class
+SHA1-Digest: ONBPMbT8jYhl99ubQjMfAxGZGlI=
+
+Name: org/eclipse/papyrus/sysml/table/allocation/queries/CreateAbstrac
+ tionQuery.class
+SHA1-Digest: 3h9gwubAZRYtDtzt9A5tdrD9RL0=
+
+Name: org/eclipse/papyrus/sysml/table/allocation/queries/CreateAllocat
+ eQuery.class
+SHA1-Digest: sZ6qY76RfWPCL1H+q8ffZGPupW8=
+
+Name: icons/table_SysML_Allocation.png
+SHA1-Digest: +Ndy+JOOsdkIrY8V7sVkbhfWEfg=
+
+Name: resources/table_SysML_Allocation_showOnlyClientAndSupplier.uiCus
+ tom
+SHA1-Digest: uE7+gxZBIiffrgaagqIKT5K6GZA=
+
+Name: plugin.xml
+SHA1-Digest: MfWeV6ZE3vNWflgMb9iOIekaaTs=
+
+Name: icons/allocation_table.png
+SHA1-Digest: rwEGYRZ79mw44nTQQH06YxI7a0I=
+

@@ -1,0 +1,1901 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.papyrus.sysml.diagram.parametric; sin
+ gleton:=true
+Eclipse-LazyStart: true
+Require-Bundle: org.eclipse.ui;bundle-version="[3.7.0,4.0.0)",org.ecli
+ pse.core.runtime;bundle-version="[3.7.0,4.0.0)",org.eclipse.core.reso
+ urces;bundle-version="[3.7.0,4.0.0)",org.eclipse.core.expressions;bun
+ dle-version="[3.4.0,4.0.0)",org.eclipse.jface;bundle-version="[3.7.0,
+ 4.0.0)",org.eclipse.ui.ide;bundle-version="[3.7.0,4.0.0)",org.eclipse
+ .ui.views;bundle-version="[3.6.0,4.0.0)",org.eclipse.ui.navigator;bun
+ dle-version="[3.5.0,4.0.0)",org.eclipse.ui.navigator.resources;bundle
+ -version="[3.4.0,4.0.0)",org.eclipse.emf.ecore;bundle-version="[2.7.0
+ ,3.0.0)",org.eclipse.emf.ecore.xmi;bundle-version="[2.7.0,3.0.0)",org
+ .eclipse.emf.edit.ui;bundle-version="[2.7.0,3.0.0)",org.eclipse.gmf.r
+ untime.emf.core;bundle-version="[1.4.0,2.0.0)",org.eclipse.gmf.runtim
+ e.emf.commands.core;bundle-version="[1.4.0,2.0.0)",org.eclipse.gmf.ru
+ ntime.emf.ui.properties;bundle-version="[1.5.0,2.0.0)",org.eclipse.gm
+ f.runtime.diagram.ui;bundle-version="[1.5.0,2.0.0)",org.eclipse.gmf.r
+ untime.diagram.ui.properties;bundle-version="[1.4.0,2.0.0)",org.eclip
+ se.gmf.runtime.diagram.ui.providers;bundle-version="[1.5.0,2.0.0)",or
+ g.eclipse.gmf.runtime.diagram.ui.providers.ide;bundle-version="[1.2.0
+ ,2.0.0)",org.eclipse.gmf.runtime.diagram.ui.render;bundle-version="[1
+ .4.0,2.0.0)",org.eclipse.gmf.runtime.diagram.ui.resources.editor;bund
+ le-version="[1.4.0,2.0.0)",org.eclipse.gmf.runtime.diagram.ui.resourc
+ es.editor.ide;bundle-version="[1.2.0,2.0.0)",org.eclipse.draw2d;visib
+ ility:="reexport";bundle-version="[3.7.0,4.0.0)",org.eclipse.papyrus.
+ sysml;visibility:="reexport";bundle-version="[0.8.0,1.0.0)",org.eclip
+ se.papyrus.sysml.edit;visibility:="reexport";bundle-version="[0.8.0,1
+ .0.0)",org.eclipse.emf.ecore;visibility:="reexport";bundle-version="[
+ 2.7.0,3.0.0)",org.eclipse.emf.ecore.edit;visibility:="reexport";bundl
+ e-version="[2.7.0,3.0.0)",org.eclipse.uml2.uml;visibility:="reexport"
+ ;bundle-version="[3.2.0,4.0.0)",org.eclipse.uml2.uml.edit;visibility:
+ ="reexport";bundle-version="[3.1.0,4.0.0)",org.eclipse.papyrus.resour
+ ce;visibility:="reexport";bundle-version="[0.8.0,1.0.0)",org.eclipse.
+ papyrus.resource.edit;visibility:="reexport";bundle-version="[0.8.0,1
+ .0.0)",org.eclipse.gef;bundle-version="[3.7.0,4.0.0)",org.eclipse.pap
+ yrus.preferences;bundle-version="[0.8.0,1.0.0)",org.eclipse.papyrus.e
+ xtensionpoints.editors;bundle-version="[0.8.0,1.0.0)",org.eclipse.pap
+ yrus.diagram.common;bundle-version="[0.8.0,1.0.0)",org.eclipse.papyru
+ s.core.adaptor.gmf;bundle-version="[0.8.0,1.0.0)",org.eclipse.papyrus
+ .uml.standard;visibility:="reexport";bundle-version="[0.8.0,1.0.0)",o
+ rg.eclipse.papyrus.uml.standard.edit;visibility:="reexport";bundle-ve
+ rsion="[0.8.0,1.0.0)",org.eclipse.gmf.runtime.draw2d.ui;visibility:="
+ reexport";bundle-version="[1.5.0,2.0.0)",org.eclipse.papyrus.parsers;
+ bundle-version="[0.8.0,1.0.0)",org.eclipse.ocl.ecore;visibility:="ree
+ xport";bundle-version="[3.1.0,4.0.0)",org.eclipse.emf.validation;visi
+ bility:="reexport";bundle-version="[1.4.0,2.0.0)"
+Bundle-Activator: org.eclipse.papyrus.sysml.diagram.parametric.part.Sy
+ smlDiagramEditorPlugin
+Export-Package: org.eclipse.papyrus.sysml.diagram.parametric,org.eclip
+ se.papyrus.sysml.diagram.parametric.edit.commands,org.eclipse.papyrus
+ .sysml.diagram.parametric.edit.helpers,org.eclipse.papyrus.sysml.diag
+ ram.parametric.edit.parts,org.eclipse.papyrus.sysml.diagram.parametri
+ c.edit.policies,org.eclipse.papyrus.sysml.diagram.parametric.navigato
+ r,org.eclipse.papyrus.sysml.diagram.parametric.parsers,org.eclipse.pa
+ pyrus.sysml.diagram.parametric.part,org.eclipse.papyrus.sysml.diagram
+ .parametric.preferences,org.eclipse.papyrus.sysml.diagram.parametric.
+ providers,org.eclipse.papyrus.sysml.diagram.parametric.sheet
+Bundle-Version: 0.8.0.v201106151827
+Ant-Version: Apache Ant 1.7.1
+Bundle-ClassPath: .
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/policies/S
+ ysmlTextNonResizableEditPolicy$1.class
+SHA1-Digest: Cxquz8wfZINthlS/wvAWJLVDheU=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlDiagramEd
+ itor.class
+SHA1-Digest: LnAQwgBkKecdC5wgSVbk/9syUpk=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Connecto
+ rNameEditPart$3.class
+SHA1-Digest: YyDaL5PxJgDiIpafjDhHsa2tvmY=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Property
+ 2EditPart$1.class
+SHA1-Digest: qBy79JmUnSESYQ25UMP5+ny0msg=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlDocum
+ entProvider$ResourceSetModificationListener.class
+SHA1-Digest: dfK6utAhhTtfHTbi+Po+AhKNuFY=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Prop
+ erty2EditPart$1$1.class
+SHA1-Digest: HJOFzrlEYmd1I8AIrsHIt0Cc3n4=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Property
+ NameEditPart$5.class
+SHA1-Digest: 2iN+f3z7UUhRYZqwE12li5Z0xXo=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlDiagramEd
+ itorPlugin.class
+SHA1-Digest: z+lDZnpj+iCURHBqN9uZR3pGVY4=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/helpers/Pr
+ opertyEditHelper.class
+SHA1-Digest: fUoirsxiGQGR3BCO4J41PhdWwjg=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Cons
+ traintPropertyNameEditPart$3.class
+SHA1-Digest: NLKYHH5AJwLofTIxrSRLobjcnsc=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Prop
+ ertyNameEditPart$5.class
+SHA1-Digest: 2iN+f3z7UUhRYZqwE12li5Z0xXo=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlDiagr
+ amEditorPlugin.class
+SHA1-Digest: z+lDZnpj+iCURHBqN9uZR3pGVY4=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/providers/SysmlPars
+ erProvider.class
+SHA1-Digest: +68t/qPRlvumWU+Z6ciMGRTXi60=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/CreateParametricDia
+ gramWithNavigationHandler.class
+SHA1-Digest: tvho8LIgpe3HSss9wAuEKm5yFvY=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/preferences/Con
+ straintPropertyPreferencePage.class
+SHA1-Digest: P7jNBcPDRnVqv+Z0GN4DvbG7HnM=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/policies/NoDel
+ eteFromModelEditPolicy.class
+SHA1-Digest: CamW2r242XmF9DQ4tio+e3iFbHw=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/navigator/SysmlNavi
+ gatorSorter.class
+SHA1-Digest: bXNqFB9+JpY20JQ5UtqF9Ih+hVo=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/providers/Sysml
+ ParserProvider.class
+SHA1-Digest: +68t/qPRlvumWU+Z6ciMGRTXi60=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/policies/N
+ oDeleteFromModelEditPolicy.class
+SHA1-Digest: CamW2r242XmF9DQ4tio+e3iFbHw=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/navigator/SysmlNavi
+ gatorItem.class
+SHA1-Digest: FT8ZVjO2sTvHMzEmjAT1Rbo6vD0=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/providers/Sysml
+ ValidationProvider$Adapter3.class
+SHA1-Digest: 6Ku2Y5zXTg8fjSlI6klwH6U+sjc=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/policies/Sysml
+ TextSelectionEditPolicy$2.class
+SHA1-Digest: kNWRvWa6qLI/Dk6NU4tDXnVVQfQ=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Property
+ Name2EditPart.class
+SHA1-Digest: THuvQpWS8g/YlcZl5d8wc4RdWeo=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Prop
+ ertyName2EditPart$1.class
+SHA1-Digest: ctv66/b0LMBrXR0gM8zuYBTRY0E=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/navigator/SysmlDoma
+ inNavigatorContentProvider.class
+SHA1-Digest: b8acUNVkyawWoinwmXk37P1p+yU=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/utils/PropertyLinke
+ dToClassifier.class
+SHA1-Digest: uxsfxGrZE6NLmAcjKQJ+WIZ4/mE=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Conn
+ ectorNameEditPart$4.class
+SHA1-Digest: jyMx0mJHVaUbBkStGvp6mdh1N2A=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/navigator/Sysml
+ DomainNavigatorContentProvider.class
+SHA1-Digest: b8acUNVkyawWoinwmXk37P1p+yU=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Property
+ Name2EditPart$5.class
+SHA1-Digest: OB3fC/Gm6eMC4TCx4NOfS/aWSPM=
+
+Name: icons/obj16/ResourceDiagramFile.gif
+SHA1-Digest: xIpZrQRP7GTBmvc17dOtnGY27Nc=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlCreat
+ ionWizard.class
+SHA1-Digest: 7iE26LPBmbc6uM4g8UaIIlnwmC4=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/helpers/Re
+ sourceEditHelper.class
+SHA1-Digest: 8DD9bIZSU6qzCLYl2YAbDVCaANE=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlDocumentP
+ rovider$ResourceSetInfo$SynchronizerDelegate$1.class
+SHA1-Digest: vqCTSbCY+e+WmzBk8/AB9NCvGKA=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlDocum
+ entProvider$ResourceSetInfo$SynchronizerDelegate$1.class
+SHA1-Digest: vqCTSbCY+e+WmzBk8/AB9NCvGKA=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Constrai
+ ntLabelEditPart.class
+SHA1-Digest: EFD7cG5rpIeVUm5kgpUfJ1fU7F8=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/parsers/Propert
+ yLabelParser.class
+SHA1-Digest: v0T1tL+CKabXctSsdVBbrwf6bt4=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Cons
+ traintLabelEditPart$2.class
+SHA1-Digest: qCF5u4ofH9ULWbPGTraESxbtHtA=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/helper/ModelVal
+ idationHelper.class
+SHA1-Digest: +xGakXYsnEXrnSyI8/l2Vn7CSNI=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/navigator/Sysml
+ NavigatorContentProvider.class
+SHA1-Digest: T+i7JozH3DjWesugpc+JHKUQNrU=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/navigator/SysmlNavi
+ gatorLinkHelper.class
+SHA1-Digest: z3MBn2quU/nXXYys3J3eSBTJ3hE=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/navigator/SysmlNavi
+ gatorContentProvider$1.class
+SHA1-Digest: 1oCpslGdnuzjnePreCTNXQpenPs=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Prop
+ ertyNameEditPart$2$1.class
+SHA1-Digest: RtHzIBqvwKHHsjehq4eXsJzbWiI=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlDiagr
+ amEditor$3$1.class
+SHA1-Digest: EwQ6lP667wSt+oARtHiopd9iNjU=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/part/ValidateAction
+ $1.class
+SHA1-Digest: pQKKnJbNuKpNJcvGNNoaty3C/Q8=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/policies/Sysml
+ TextNonResizableEditPolicy.class
+SHA1-Digest: dBrmF6cXlusgsF9GERtOfmaX6kQ=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/commands/Const
+ raintPropertyCreateCommand.class
+SHA1-Digest: oUlOkcVTlPpwNo3oIn84lq+OHfY=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/navigator/Sysml
+ NavigatorContentProvider$1.class
+SHA1-Digest: 1oCpslGdnuzjnePreCTNXQpenPs=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/part/ValidateAc
+ tion$1.class
+SHA1-Digest: pQKKnJbNuKpNJcvGNNoaty3C/Q8=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/helpers/Connec
+ torEditHelper.class
+SHA1-Digest: RWvgD1rcz3YT3uNM0knh2OZJuto=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/policies/S
+ ysmlTextNonResizableEditPolicy.class
+SHA1-Digest: dBrmF6cXlusgsF9GERtOfmaX6kQ=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/commands/C
+ onstraintPropertyCreateCommand.class
+SHA1-Digest: oUlOkcVTlPpwNo3oIn84lq+OHfY=
+
+Name: icons/obj16/Diagram_Parametric.gif
+SHA1-Digest: mtegMgjd30hzSc6dAGgGCaDcW18=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/CreateParametri
+ cDiagramCommand.class
+SHA1-Digest: JQ599kXXqrL2t8kEOZjTtG35uxw=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/commands/C
+ onnectorCreateCommand.class
+SHA1-Digest: 2/Zs8Os8nsgRIZROwiKIRvYfOyM=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlLinkD
+ escriptor$1.class
+SHA1-Digest: WR4rkUPO45uu/WwvnVfedcI1iqc=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/navigator/SysmlNavi
+ gatorItem$1.class
+SHA1-Digest: V0QTXiSQiPqViXW67nhH9SQY3dg=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/providers/Sysml
+ ModelingAssistantProvider.class
+SHA1-Digest: /HivmmpJTanh0UxMrFqiU/MWcbM=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/policies/C
+ reateParameterEditPolicy.class
+SHA1-Digest: sFczDiNWegXd73eQn+ulOnKlPB4=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/policies/Prope
+ rty2ItemSemanticEditPolicy.class
+SHA1-Digest: ux0Uj+XQubSmjLFp+AHF/UIHLXU=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/navigator/SysmlDoma
+ inNavigatorContentProvider$2.class
+SHA1-Digest: N6G5+pO5bEnA9kS8Wa4EbHy8ASg=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/locator/Paramet
+ erPositionLocator.class
+SHA1-Digest: xORQ8jBpBenEy0Qhozp7YHtlo2c=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Constrai
+ ntPropertyNameEditPart$5.class
+SHA1-Digest: 57aUED/57T/q6fcT4eW2QYjfJ9o=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/policies/P
+ roperty2ItemSemanticEditPolicy.class
+SHA1-Digest: ux0Uj+XQubSmjLFp+AHF/UIHLXU=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/part/ModelElementSe
+ lectionPage$1.class
+SHA1-Digest: hv4eP1vlCyRxohgScUNHqRvDWwc=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/parsers/Connect
+ orLabelParser.class
+SHA1-Digest: vs5UuSr9sGLC44VGHuxwt0k/2KE=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/parsers/MessageForm
+ atParser.class
+SHA1-Digest: 6VRKWz6bHQXS/Ip/0RrSTG5Ak0c=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/navigator/Sysml
+ NavigatorActionProvider.class
+SHA1-Digest: EdmeeQP8DACHeGRjsImxDES3FSU=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/policies/OpenD
+ iagramEditPolicy.class
+SHA1-Digest: XsxenTrpgUkFYfFzoP3BEVInQH8=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/helper/Connecto
+ rLinkMappingHelper$2.class
+SHA1-Digest: PZkPtB2kLdJkhXrLqb9cBQRa8vA=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Prop
+ ertyEditPart.class
+SHA1-Digest: bDpGRhpOQVZb8gEb7MvUrRV/YL4=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlCreationW
+ izard$1.class
+SHA1-Digest: wqd9s9RzSzGaC2+FNN6e6CWdQ8U=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/part/ValidateAc
+ tion.class
+SHA1-Digest: LG953hgUEYV5mJdZkGxILXjMJE0=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlDocumentP
+ rovider$1.class
+SHA1-Digest: 8L3t8g/N9rBVoJY7obR88sWXtJo=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlDiagramEd
+ itorUtil.class
+SHA1-Digest: kDouta+1tPTufUvtcRT7QIsyvGc=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/providers/SysmlPars
+ erProvider$HintAdapter.class
+SHA1-Digest: aIo+wSB6hvHtffpABx60NhigOoM=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Constrai
+ ntLabelEditPart$3.class
+SHA1-Digest: 1MKUqKoW86tKBLDR8RK3Z6BamA8=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/ParametricDiagr
+ amEditorFactory.class
+SHA1-Digest: bzF/XuR/zRn4odMzJWAx//IJLdo=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/providers/Sysml
+ ParserProvider$HintAdapter.class
+SHA1-Digest: aIo+wSB6hvHtffpABx60NhigOoM=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Cons
+ traintLabelEditPart$2$1.class
+SHA1-Digest: rnL3w3v3b28kfb31LFklFl/61MU=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/navigator/SysmlAbst
+ ractNavigatorItem.class
+SHA1-Digest: 0qISmao9BxzjSSR+0G/PLgxObGY=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/policies/OpenD
+ iagramEditPolicy$OpenDiagramCommand.class
+SHA1-Digest: +3gRJmsNdUMU5fOSTzwp78Sd37E=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/providers/SysmlVali
+ dationProvider$Adapter1.class
+SHA1-Digest: I/sqsh0Tjl9Q4y8XhMrO2yoUEog=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Cons
+ traintPropertyEditPart$ConstraintPropertyFigureDescriptor.class
+SHA1-Digest: EWN1JqcGqwci9YYh5/u2cOetm/c=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlCreat
+ ionWizardPage.class
+SHA1-Digest: 7WCaeMvzFwEbxCgQDeMAHvUMbuo=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/preferences/Diagram
+ AppearancePreferencePage.class
+SHA1-Digest: i2/CbFuX7tm6087AAdXfaWeElns=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/navigator/SysmlAbst
+ ractNavigatorItem$2.class
+SHA1-Digest: iVvf98XAjQJxK/1jJ7OHurMKr2E=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/policies/P
+ arametricCanonicalEditPolicy.class
+SHA1-Digest: riu7MNKSa1D8Ki+kS5U3v3CiIWQ=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/navigator/Sysml
+ DomainNavigatorLabelProvider.class
+SHA1-Digest: 9er8J2ZZSm2vh1UpJMwjQZjx0hw=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/policies/Sysml
+ BaseItemSemanticEditPolicy$LinkConstraints.class
+SHA1-Digest: GaT8kOQ9NoJ+XOvbB+hJdHiRcbU=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlDocumentP
+ rovider$ResourceSetInfo$SynchronizerDelegate.class
+SHA1-Digest: 4lJzJGlcMT4aKXBYSLjC9LL847A=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Connecto
+ rNameEditPart$2.class
+SHA1-Digest: Mf8piai2qJ9OvcQnnvPnnXMJE9k=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Prop
+ ertyEditPart$PropertyFigure.class
+SHA1-Digest: 6dkjtPXKKkXzNSfAOiU8Gf4ACFQ=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/policies/S
+ ysmlBaseItemSemanticEditPolicy$LinkConstraints.class
+SHA1-Digest: GaT8kOQ9NoJ+XOvbB+hJdHiRcbU=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/navigator/SysmlDoma
+ inNavigatorItem.class
+SHA1-Digest: xlNMslgGBotePZcqQuMLBwESu1A=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/providers/SysmlElem
+ entTypes.class
+SHA1-Digest: vTeRxhkFuAbvgz/PBoMfpchEkJs=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Property
+ NameEditPart$4.class
+SHA1-Digest: mE8j5kYjtV+ijdgIKS0mKjsAW0E=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/command/CreateC
+ onstraintPropertyCommand.class
+SHA1-Digest: KADpjH2T2WMWwCMx7vIDkhySjf8=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Constrai
+ ntPropertyEditPart.class
+SHA1-Digest: 3MT7xlxlJuI9M0YQl5Fj98cJZl8=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Cons
+ traintPropertyNameEditPart$2.class
+SHA1-Digest: Q/rTGlOkHpgWuppHCWk4Hsg500o=
+
+Name: icons/incomingLinksNavigatorGroup.gif
+SHA1-Digest: lUwMuDmTEvmiqtkgC+kWyrYAkVk=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/policies/N
+ oDeleteFromDiagramEditPolicy.class
+SHA1-Digest: pYg09Uepa5O7n+LbhHy10TmHxuw=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlCreat
+ ionWizard$2.class
+SHA1-Digest: X0/oVJQL/NbNYmODH7S6oKrGH3s=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Prop
+ ertyNameEditPart$4.class
+SHA1-Digest: mE8j5kYjtV+ijdgIKS0mKjsAW0E=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/preferences/Diagram
+ ConnectionsPreferencePage.class
+SHA1-Digest: S8upoQ/dC/bjNrpfzXt7G7BwS+k=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Cons
+ traintPropertyEditPart.class
+SHA1-Digest: 3MT7xlxlJuI9M0YQl5Fj98cJZl8=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Property
+ EditPart$1.class
+SHA1-Digest: l7hEIjGxpmT8ExBLAsQjI4l54p4=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlNewDi
+ agramFileWizard$1.class
+SHA1-Digest: a3wSbUJ9JmAaXztkeXGYJeln4fc=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/ParametricDiagr
+ amCondition.class
+SHA1-Digest: J2JawAuumqJK8a+XAW3Ar+nysY8=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlDiagramEd
+ itorUtil$LazyElement2ViewMap.class
+SHA1-Digest: fkeibQiRsUN07OdoOdnWgpt9a/o=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Prop
+ ertyEditPart$1.class
+SHA1-Digest: l7hEIjGxpmT8ExBLAsQjI4l54p4=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/providers/Sysml
+ ViewProvider.class
+SHA1-Digest: iSnTdp8N1SsA5jmPMFe/2ociBhc=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/providers/Sysml
+ ValidationProvider$Adapter2.class
+SHA1-Digest: vuiwpjA0toNZspdBEiBKARrqHZ0=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/policies/Sysml
+ TextSelectionEditPolicy$1.class
+SHA1-Digest: ac9x/BBKKl2PPw0VefZDpxe3c+0=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/preferences/Diagram
+ GeneralPreferencePage.class
+SHA1-Digest: 65uAlzNnqfVCI+xkcnkE0vS+gIo=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlNodeD
+ escriptor.class
+SHA1-Digest: Io3/iLGxBzI+znliftoiRjbxp4E=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Property
+ 2EditPart$ParameterDescriptor.class
+SHA1-Digest: FWt9ZdqFznK3LkOEOVoSweYz1gs=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlInitDiagr
+ amFileAction.class
+SHA1-Digest: 1Z1BY+Bpi6jA2FwXrEi3l+n+/0w=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/policies/Param
+ etricItemSemanticEditPolicy.class
+SHA1-Digest: MJvp3t1T0R5Jb+aw5Yd1Q4joV1k=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Conn
+ ectorNameEditPart$3.class
+SHA1-Digest: YyDaL5PxJgDiIpafjDhHsa2tvmY=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/utils/Route.cla
+ ss
+SHA1-Digest: LhaYL9AVWr80jnmXdBQkyouRd58=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Property
+ Name2EditPart$4.class
+SHA1-Digest: Zd0pctYGNkLnbeE/Uhc4g9M2qhY=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Prop
+ erty2EditPart$1.class
+SHA1-Digest: qBy79JmUnSESYQ25UMP5+ny0msg=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/helper/ConnectorLin
+ kMappingHelper.class
+SHA1-Digest: V4Inqc/YiHtIAtreGlnwSg5NYwY=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/commands/Prope
+ rtyCreateCommand.class
+SHA1-Digest: 3G0GNhD0KBXl6AE3KnRQGA6o1Og=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/providers/Sysml
+ ValidationProvider$1.class
+SHA1-Digest: n5pYeLWdsUMmt8xwLu51Kv0WYDA=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/helper/Connecto
+ rLinkMappingHelper.class
+SHA1-Digest: V4Inqc/YiHtIAtreGlnwSg5NYwY=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/navigator/Sysml
+ DomainNavigatorItem$1.class
+SHA1-Digest: cUyq3zX491icl91i3GJmrnBZuCg=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Conn
+ ectorEditPart$ConnectorFigure.class
+SHA1-Digest: kHPMs7qQOX9YPAnNEX+EAdQHz7o=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Property
+ 2EditPart$1$1.class
+SHA1-Digest: HJOFzrlEYmd1I8AIrsHIt0Cc3n4=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/SysmlEdi
+ tPartFactory$TextCellEditorLocator.class
+SHA1-Digest: 7rVODp2dYp9g/xvt7OOPe6eQaj4=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/policies/P
+ arametricItemSemanticEditPolicy$DuplicateAnythingCommand.class
+SHA1-Digest: T9ZnsOX7oH6pdewqS3d20VRwN14=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Cons
+ traintLabelEditPart$1.class
+SHA1-Digest: cUAEA0bm2fRl46q0HvO3xYAxbGo=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/navigator/Sysml
+ NavigatorSorter.class
+SHA1-Digest: bXNqFB9+JpY20JQ5UtqF9Ih+hVo=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Sysm
+ lEditPartFactory$TextCellEditorLocator.class
+SHA1-Digest: 7rVODp2dYp9g/xvt7OOPe6eQaj4=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/preferences/Constra
+ intPropertyPreferencePage.class
+SHA1-Digest: P7jNBcPDRnVqv+Z0GN4DvbG7HnM=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/helpers/Sy
+ smlBaseEditHelper.class
+SHA1-Digest: 7RXvFIwG1aucNgmOudFp0hWU5mE=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/policies/Sysml
+ TextNonResizableEditPolicy$2.class
+SHA1-Digest: cMgXzuUx3XHpv5TIMd482FI96ak=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlMatchingS
+ trategy.class
+SHA1-Digest: KgLJ5Honul149tiEmZh7l+18yZ8=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/policies/Const
+ raintPropertyItemSemanticEditPolicy.class
+SHA1-Digest: kifnXc/I/a3d+LDh3xhB2dfcBnQ=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Prop
+ ertyName2EditPart$5.class
+SHA1-Digest: OB3fC/Gm6eMC4TCx4NOfS/aWSPM=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/texteditor/Constrai
+ ntPropertyConfiguration.class
+SHA1-Digest: iLZF83tAR8FWWMrLOQZhhBLBFuY=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Sysm
+ lEditPartFactory$CommentCellEditorLocator.class
+SHA1-Digest: WQ+DgOBgRXNTMT249z/IgB6mPnE=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/navigator/SysmlDoma
+ inNavigatorContentProvider$1.class
+SHA1-Digest: Z+QPb8H+39xI4JG+XePE+4Q0FBI=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Constrai
+ ntPropertyNameEditPart$4.class
+SHA1-Digest: RjfFdrpC9tmCRFT4DAln3e84feo=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/ParametricDiagramFo
+ rMultiEditor.class
+SHA1-Digest: mZA4MdqYh6i+QeisNp2Q5DsqOA4=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Cons
+ traintLabelEditPart.class
+SHA1-Digest: EFD7cG5rpIeVUm5kgpUfJ1fU7F8=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlCreationW
+ izard.class
+SHA1-Digest: 7iE26LPBmbc6uM4g8UaIIlnwmC4=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/helper/Connecto
+ rLinkMappingHelper$1.class
+SHA1-Digest: eW8BtmTXKtACyDCMISYU9tQfpRg=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/navigator/Sysml
+ NavigatorLinkHelper.class
+SHA1-Digest: z3MBn2quU/nXXYys3J3eSBTJ3hE=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/policies/Sysml
+ TextSelectionEditPolicy.class
+SHA1-Digest: PN711YInCdiLbvw4WDtJNcEWkMM=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Cons
+ traintLabelEditPart$6.class
+SHA1-Digest: IUKilpvGHk7U3bc1MTLj0DrtcgA=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Constrai
+ ntLabelEditPart$2.class
+SHA1-Digest: qCF5u4ofH9ULWbPGTraESxbtHtA=
+
+Name: about.html
+SHA1-Digest: z1C6i4PGyUsMLf3HSFCVehj4EUI=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/helper/ModelValidat
+ ionHelper.class
+SHA1-Digest: +xGakXYsnEXrnSyI8/l2Vn7CSNI=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/command/RestoreRela
+ tedLinksCommand.class
+SHA1-Digest: t17CcuF1TZltepNw081L3fV0MD4=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlPalet
+ teFactory.class
+SHA1-Digest: qWMxPraiZISPxH5L7E5O+Xjk0Sc=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/preferences/Connect
+ orPreferencePage.class
+SHA1-Digest: cnuoLtrrPaY3D8KDqLGUxnPDZos=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/navigator/Sysml
+ NavigatorItem$1.class
+SHA1-Digest: V0QTXiSQiPqViXW67nhH9SQY3dg=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/navigator/SysmlAbst
+ ractNavigatorItem$1.class
+SHA1-Digest: cvOqktX67p2YXXbUdfL+iphK4P4=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/providers/SysmlVali
+ dationProvider.class
+SHA1-Digest: qjDiFaYxD3wGs6FDWE0kVFleNOg=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/commands/Conne
+ ctorCreateCommand.class
+SHA1-Digest: 2/Zs8Os8nsgRIZROwiKIRvYfOyM=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/commands/Conne
+ ctorReorientCommand.class
+SHA1-Digest: d2aN0E65S+OQGfDNNzf8XBGZEag=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/providers/Sysml
+ ValidationProvider.class
+SHA1-Digest: qjDiFaYxD3wGs6FDWE0kVFleNOg=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Connecto
+ rNameEditPart$1.class
+SHA1-Digest: oxl1t5lRDyn8Wn7kE0n6hoNTbkw=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Prop
+ ertyNameEditPart.class
+SHA1-Digest: 3wobPf7oCOJDLfaFRQPS7hGnHbw=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/texteditor/Cons
+ traintPropertyConfiguration$2.class
+SHA1-Digest: yHeEY7CySk0+qdK1rBFQ+xz/4aI=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/providers/SysmlMode
+ lingAssistantProvider.class
+SHA1-Digest: /HivmmpJTanh0UxMrFqiU/MWcbM=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlDiagramEd
+ itor$4.class
+SHA1-Digest: zfY+bKIL7DckG/tc/1z0x+t98qQ=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/actions/RestoreRela
+ tedLinksAction.class
+SHA1-Digest: cv7/et7q4RWKMt6JcSJCieY7mYU=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Property
+ NameEditPart$3.class
+SHA1-Digest: 0m8k3pgWpuMrY9D98mPQ91ND1gM=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Cons
+ traintPropertyNameEditPart$1.class
+SHA1-Digest: 3YG9Fj/A+acMfe2BWrkksm4/KsE=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/locator/ParameterPo
+ sitionLocator.class
+SHA1-Digest: xORQ8jBpBenEy0Qhozp7YHtlo2c=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlDiagramUp
+ dateCommand.class
+SHA1-Digest: rO6ZHMWRdqZ9bhgUyMlDvs5Vkgo=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlCreat
+ ionWizard$1.class
+SHA1-Digest: wqd9s9RzSzGaC2+FNN6e6CWdQ8U=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/actions/Restore
+ RelatedLinksAction.class
+SHA1-Digest: cv7/et7q4RWKMt6JcSJCieY7mYU=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Prop
+ ertyNameEditPart$3.class
+SHA1-Digest: 0m8k3pgWpuMrY9D98mPQ91ND1gM=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlDiagr
+ amEditor$4.class
+SHA1-Digest: zfY+bKIL7DckG/tc/1z0x+t98qQ=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/parsers/ConnectorLa
+ belParser.class
+SHA1-Digest: vs5UuSr9sGLC44VGHuxwt0k/2KE=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlDiagramEd
+ itor$3$2.class
+SHA1-Digest: SLaH1xpyEnHv9f4tduV5KapiBe4=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/part/LoadResour
+ ceAction.class
+SHA1-Digest: 59GDy15Y36JO/FBwngWAPtrazKM=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/policies/Sysml
+ BaseItemSemanticEditPolicy.class
+SHA1-Digest: RvNhyNM17x1XvVlzSFnuLfL/P4A=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/policies/O
+ penDiagramEditPolicy$OpenDiagramCommand.class
+SHA1-Digest: +3gRJmsNdUMU5fOSTzwp78Sd37E=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/providers/Sysml
+ ValidationProvider$Adapter1.class
+SHA1-Digest: I/sqsh0Tjl9Q4y8XhMrO2yoUEog=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Sysm
+ lEditPartFactory.class
+SHA1-Digest: 60ojKsq2S5QfVWbIav8LXnLLKwk=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/policies/S
+ ysmlBaseItemSemanticEditPolicy.class
+SHA1-Digest: RvNhyNM17x1XvVlzSFnuLfL/P4A=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/parsers/AbstractPar
+ ser$InvalidValue.class
+SHA1-Digest: kikNM8CvHcXbV3zYBpc7AV65zsA=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/navigator/Sysml
+ AbstractNavigatorItem$2.class
+SHA1-Digest: iVvf98XAjQJxK/1jJ7OHurMKr2E=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/figures/Centere
+ dWrappedLabel.class
+SHA1-Digest: K1frdbJOp3igWs/m3d6g9TdVJzw=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/policies/Const
+ raintPropertyCanonicalEditPolicy.class
+SHA1-Digest: ZHKzK4AnDa9zypR9TdMpj/p2Ows=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/parsers/ConstraintP
+ ropertyLabelParser.class
+SHA1-Digest: GrKRPYGnVk3Sj/g+29F9Vqpf54I=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/providers/SysmlIcon
+ Provider.class
+SHA1-Digest: aBgDJNUINK2JuSXlJdjMsHWZg+Q=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/providers/Parametri
+ cDiagramContributionItemProvider.class
+SHA1-Digest: wGeGn4acqpIYmczoWbr1xJaaSm4=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Constrai
+ ntPropertyEditPart$ConstraintPropertyFigureDescriptor.class
+SHA1-Digest: EWN1JqcGqwci9YYh5/u2cOetm/c=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/parsers/Constra
+ intPropertyLabelParser.class
+SHA1-Digest: GrKRPYGnVk3Sj/g+29F9Vqpf54I=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Conn
+ ectorNameEditPart$2.class
+SHA1-Digest: Mf8piai2qJ9OvcQnnvPnnXMJE9k=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlCreationW
+ izardPage.class
+SHA1-Digest: 7WCaeMvzFwEbxCgQDeMAHvUMbuo=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Property
+ Name2EditPart$3.class
+SHA1-Digest: KdEUrXsKCm/V7yD4rQ3QHaC3U9U=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/navigator/Sysml
+ DomainNavigatorItem.class
+SHA1-Digest: xlNMslgGBotePZcqQuMLBwESu1A=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/part/ModelElementSe
+ lectionPage.class
+SHA1-Digest: sJH7NPsMuXZNDfVd2vp2IWxsc1Y=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/commands/P
+ roperty2CreateCommand.class
+SHA1-Digest: onIH4NhZPFRYa4sKO9Tm1LrcDQ0=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Connecto
+ rNameEditPart$6.class
+SHA1-Digest: MpsS2rGEhv1XFmrW+lYYFwvYyj8=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Conn
+ ectorNameEditPart$2$1.class
+SHA1-Digest: jd/yzmZ7Cj8ETYXn8RfIkiw8QaE=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/navigator/Sysml
+ DomainNavigatorContentProvider$3.class
+SHA1-Digest: UfIhQymmDSugKgUsbzpRPDONTh8=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlDocumentP
+ rovider.class
+SHA1-Digest: ohpWiIcnqtLQpsOZrPXeFODK1jI=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/parsers/AbstractPar
+ ser.class
+SHA1-Digest: C+TeVNQi3U2q+mINIXq122Z/jOM=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/navigator/Sysml
+ NavigatorActionProvider$OpenDiagramAction.class
+SHA1-Digest: hUjGlzUfxvZHp1AC9FjpJ+/ccPI=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Cons
+ traintPropertyNameEditPart$6.class
+SHA1-Digest: +pXTJwnv2Oa591ossnWMto3A2GM=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/utils/PropertyL
+ inkedToClassifierNode.class
+SHA1-Digest: WI8kJy8pV+R0ZY5Dl7mHICBSB+0=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/providers/SysmlEdit
+ PartProvider.class
+SHA1-Digest: oKTF1Ercq4uEbKK+K9OXzBCW4jI=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Cons
+ traintPropertyEditPart$1.class
+SHA1-Digest: iVPMBWvcA46/kphWOXIjUQw04iQ=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/preferences/Diagram
+ PrintingPreferencePage.class
+SHA1-Digest: 1153nXxqTAHYvIBwSnV76/lXo10=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/providers/SysmlMark
+ erNavigationProvider.class
+SHA1-Digest: 1OrFxhxRR0NfgwZCOf6pZCJ3F5M=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlNewDiagra
+ mFileWizard$1.class
+SHA1-Digest: a3wSbUJ9JmAaXztkeXGYJeln4fc=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/policies/P
+ arametricItemSemanticEditPolicy.class
+SHA1-Digest: MJvp3t1T0R5Jb+aw5Yd1Q4joV1k=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/preferences/Dia
+ gramPrintingPreferencePage.class
+SHA1-Digest: 1153nXxqTAHYvIBwSnV76/lXo10=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/policies/Sysml
+ TextNonResizableEditPolicy$1.class
+SHA1-Digest: Cxquz8wfZINthlS/wvAWJLVDheU=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlNodeDescr
+ iptor.class
+SHA1-Digest: Io3/iLGxBzI+znliftoiRjbxp4E=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Prop
+ ertyName2EditPart$4.class
+SHA1-Digest: Zd0pctYGNkLnbeE/Uhc4g9M2qhY=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/part/DiagramEdi
+ torContextMenuProvider$1.class
+SHA1-Digest: AKsokX5kPHcA+zkbcZEeCywvXec=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Prop
+ ertyName2EditPart$1$1.class
+SHA1-Digest: EtoRHx0bCncYfAwq8FkUZ0Z6YZw=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Conn
+ ectorEditPart.class
+SHA1-Digest: 2OqOr5iNsR0q/Xk9dCA4G1U4Gs4=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlDiagr
+ amEditor.class
+SHA1-Digest: LnAQwgBkKecdC5wgSVbk/9syUpk=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/helpers/Proper
+ tyEditHelper.class
+SHA1-Digest: fUoirsxiGQGR3BCO4J41PhdWwjg=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/helper/SelfCompartm
+ entNotificationHelper$UIAdapter.class
+SHA1-Digest: Ii9lSbpmLRJ32osSLR8cjL3hLwI=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Constrai
+ ntPropertyNameEditPart$3.class
+SHA1-Digest: NLKYHH5AJwLofTIxrSRLobjcnsc=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/navigator/SysmlDoma
+ inNavigatorItem$1.class
+SHA1-Digest: cUyq3zX491icl91i3GJmrnBZuCg=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlUriEditor
+ InputTester.class
+SHA1-Digest: FWUnaYC3VP2KIRqckATZqKX9XcI=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/providers/Parametri
+ cDiagramContributionPolicyClass.class
+SHA1-Digest: 1Bit8YmqMPh48Nhh8q49xL4ewiY=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/preferences/Dia
+ gramPreferenceInitializer.class
+SHA1-Digest: FsS4iZaAxVuzAEfEr2+C357NXls=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Connecto
+ rEditPart$ConnectorFigure.class
+SHA1-Digest: kHPMs7qQOX9YPAnNEX+EAdQHz7o=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Cons
+ traintLabelEditPart$5.class
+SHA1-Digest: U1PNK5Nj3wyx6RrTENA6V7aiCiM=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Constrai
+ ntLabelEditPart$1.class
+SHA1-Digest: cUAEA0bm2fRl46q0HvO3xYAxbGo=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/utils/PropertyLinke
+ dToClassifierNode$1.class
+SHA1-Digest: ZYYgElzUX8ho53meB2pqJ+ZzqXM=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlMatch
+ ingStrategy.class
+SHA1-Digest: KgLJ5Honul149tiEmZh7l+18yZ8=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlDiagramAc
+ tionBarContributor.class
+SHA1-Digest: iyfIN34aG0hYy5QvNymg9x19hVM=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/policies/C
+ onstraintPropertyItemSemanticEditPolicy.class
+SHA1-Digest: kifnXc/I/a3d+LDh3xhB2dfcBnQ=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/policies/P
+ ropertyItemSemanticEditPolicy.class
+SHA1-Digest: 6ehqlca/ZJmAvvvzKLZvkUKr5bo=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlDiagr
+ amActionBarContributor.class
+SHA1-Digest: iyfIN34aG0hYy5QvNymg9x19hVM=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/helpers/SysmlB
+ aseEditHelper.class
+SHA1-Digest: 7RXvFIwG1aucNgmOudFp0hWU5mE=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/texteditor/Cons
+ traintPropertyConfiguration.class
+SHA1-Digest: iLZF83tAR8FWWMrLOQZhhBLBFuY=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/helpers/Resour
+ ceEditHelper.class
+SHA1-Digest: 8DD9bIZSU6qzCLYl2YAbDVCaANE=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/texteditor/Cons
+ traintPropertyConfiguration$1.class
+SHA1-Digest: uWFYNqkS9uHW6HiYzLxIPZHIMIs=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/helper/SelfComp
+ artmentNotificationHelper.class
+SHA1-Digest: D7c55IP0ucwiP7gnM9sPOncKflY=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlDiagramEd
+ itor$3.class
+SHA1-Digest: OHeXHuTpjVodRj/cBbyCxOPyZcc=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Property
+ NameEditPart$2.class
+SHA1-Digest: ed5f4O7n1scHbY9oUYq0QiHn+nA=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/SysmlEdi
+ tPartFactory$CommentCellEditorLocator.class
+SHA1-Digest: WQ+DgOBgRXNTMT249z/IgB6mPnE=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/providers/Sysml
+ ValidationProvider$DefaultCtx.class
+SHA1-Digest: J0VNJHE5O7qmpTF3XU5PpS6/UhY=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/parsers/PropertyLab
+ elParser.class
+SHA1-Digest: v0T1tL+CKabXctSsdVBbrwf6bt4=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/navigator/SysmlNavi
+ gatorContentProvider.class
+SHA1-Digest: T+i7JozH3DjWesugpc+JHKUQNrU=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Prop
+ ertyNameEditPart$2.class
+SHA1-Digest: ed5f4O7n1scHbY9oUYq0QiHn+nA=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlDiagr
+ amEditor$3.class
+SHA1-Digest: OHeXHuTpjVodRj/cBbyCxOPyZcc=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/policies/S
+ ysmlTextSelectionEditPolicy.class
+SHA1-Digest: PN711YInCdiLbvw4WDtJNcEWkMM=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlDiagramEd
+ itor$3$1.class
+SHA1-Digest: EwQ6lP667wSt+oARtHiopd9iNjU=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Property
+ NameEditPart$2$1.class
+SHA1-Digest: RtHzIBqvwKHHsjehq4eXsJzbWiI=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlVisualIDR
+ egistry.class
+SHA1-Digest: oDiYgAeGvilMBFRIV1YFJnkL0TM=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/command/Restore
+ RelatedLinksCommand.class
+SHA1-Digest: t17CcuF1TZltepNw081L3fV0MD4=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Constrai
+ ntLabelEditPart$6.class
+SHA1-Digest: IUKilpvGHk7U3bc1MTLj0DrtcgA=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/preferences/Propert
+ yPreferencePage.class
+SHA1-Digest: Fks2pqX9UQwMCcZjFaQUv9WhwWk=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/navigator/Sysml
+ AbstractNavigatorItem$1.class
+SHA1-Digest: cvOqktX67p2YXXbUdfL+iphK4P4=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlNewDiagra
+ mFileWizard$DiagramRootElementSelectionPage.class
+SHA1-Digest: vIPVoHXrMML4o7kQJEGNJQjnp/I=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlPaletteFa
+ ctory.class
+SHA1-Digest: qWMxPraiZISPxH5L7E5O+Xjk0Sc=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/providers/SysmlVali
+ dationProvider$Adapter4.class
+SHA1-Digest: I/dGF+U4vmPn1MkZMsdGfDd8ivI=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/commands/C
+ onnectorReorientCommand.class
+SHA1-Digest: d2aN0E65S+OQGfDNNzf8XBGZEag=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/part/DeleteElem
+ entAction.class
+SHA1-Digest: 2ecl1O6ATPSkyle17Gut52lKxHo=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Conn
+ ectorNameEditPart$1.class
+SHA1-Digest: oxl1t5lRDyn8Wn7kE0n6hoNTbkw=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/policies/Creat
+ eParameterEditPolicy.class
+SHA1-Digest: sFczDiNWegXd73eQn+ulOnKlPB4=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Property
+ Name2EditPart$2.class
+SHA1-Digest: kYTbKzlg8aBWT0rlvt5miEy5wbw=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/providers/CustomEdi
+ tPolicyProvider.class
+SHA1-Digest: /P4mQlfZ69Wgq99x20aVB3H6F8A=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Connecto
+ rNameEditPart$5.class
+SHA1-Digest: oBQvuQ2uD8CmoxmBoKBWMxlIURI=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlDiagr
+ amUpdateCommand.class
+SHA1-Digest: rO6ZHMWRdqZ9bhgUyMlDvs5Vkgo=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/navigator/Sysml
+ DomainNavigatorContentProvider$2.class
+SHA1-Digest: N6G5+pO5bEnA9kS8Wa4EbHy8ASg=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/helper/ConnectorLin
+ kMappingHelper$2.class
+SHA1-Digest: PZkPtB2kLdJkhXrLqb9cBQRa8vA=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/texteditor/Constrai
+ ntPropertyConfiguration$2.class
+SHA1-Digest: yHeEY7CySk0+qdK1rBFQ+xz/4aI=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlDiagr
+ amUpdater.class
+SHA1-Digest: LLpzBdxRYZOgvjURvMicanmC4Ls=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Property
+ EditPart.class
+SHA1-Digest: bDpGRhpOQVZb8gEb7MvUrRV/YL4=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/commands/S
+ ysmlReorientConnectionViewCommand.class
+SHA1-Digest: LmL/7j+CIIctpM+p+Ld5d6PRIWk=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Cons
+ traintPropertyNameEditPart$5.class
+SHA1-Digest: 57aUED/57T/q6fcT4eW2QYjfJ9o=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/part/ValidateAction
+ .class
+SHA1-Digest: LG953hgUEYV5mJdZkGxILXjMJE0=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/parsers/Message
+ FormatParser.class
+SHA1-Digest: 6VRKWz6bHQXS/Ip/0RrSTG5Ak0c=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlNewDiagra
+ mFileWizard.class
+SHA1-Digest: QirUVQXSHU7m7BCg7N3wM/LdVA0=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/policies/O
+ penDiagramEditPolicy.class
+SHA1-Digest: XsxenTrpgUkFYfFzoP3BEVInQH8=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlDiagr
+ amEditorUtil.class
+SHA1-Digest: kDouta+1tPTufUvtcRT7QIsyvGc=
+
+Name: .options
+SHA1-Digest: JoeF5cF+yEeuwxatUQ+oQG6jlsc=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/navigator/SysmlDoma
+ inNavigatorLabelProvider.class
+SHA1-Digest: 9er8J2ZZSm2vh1UpJMwjQZjx0hw=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/policies/Param
+ etricCanonicalEditPolicy.class
+SHA1-Digest: riu7MNKSa1D8Ki+kS5U3v3CiIWQ=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Prop
+ erty2EditPart.class
+SHA1-Digest: TrwntGUd65tghojLrqM7jjutMGc=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/policies/O
+ penDiagramEditPolicy$OpenDiagramCommand$1.class
+SHA1-Digest: 5HAMP368NJBRFDx0+iAehpspJL8=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Prop
+ ertyName2EditPart$3.class
+SHA1-Digest: KdEUrXsKCm/V7yD4rQ3QHaC3U9U=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/figures/CenteredWra
+ ppedLabel.class
+SHA1-Digest: K1frdbJOp3igWs/m3d6g9TdVJzw=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/part/ModelEleme
+ ntSelectionPage.class
+SHA1-Digest: sJH7NPsMuXZNDfVd2vp2IWxsc1Y=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlLinkDescr
+ iptor$2.class
+SHA1-Digest: PfZ0tENmB8xR4yShxHd2IHsWgm8=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/preferences/Dia
+ gramAppearancePreferencePage.class
+SHA1-Digest: i2/CbFuX7tm6087AAdXfaWeElns=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Conn
+ ectorNameEditPart$6.class
+SHA1-Digest: MpsS2rGEhv1XFmrW+lYYFwvYyj8=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/preferences/Diagram
+ RulersAndGridPreferencePage.class
+SHA1-Digest: USTEWKV6SQoGvJH2tO03GaDdkJ0=
+
+Name: plugin.properties
+SHA1-Digest: aGm/RyKNskO/xyAVCyu0TXUCf58=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlDocum
+ entProvider$ResourceSetInfo$SynchronizerDelegate.class
+SHA1-Digest: 4lJzJGlcMT4aKXBYSLjC9LL847A=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/command/CreateConst
+ raintPropertyCommand.class
+SHA1-Digest: KADpjH2T2WMWwCMx7vIDkhySjf8=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlDocum
+ entProvider.class
+SHA1-Digest: ohpWiIcnqtLQpsOZrPXeFODK1jI=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/navigator/SysmlNavi
+ gatorGroup.class
+SHA1-Digest: Qe7Y8v91dIgpsAXY2sp6DwpdA9g=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Constrai
+ ntPropertyNameEditPart$2.class
+SHA1-Digest: Q/rTGlOkHpgWuppHCWk4Hsg500o=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/commands/Prope
+ rty2CreateCommand.class
+SHA1-Digest: onIH4NhZPFRYa4sKO9Tm1LrcDQ0=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/parsers/Abstrac
+ tParser.class
+SHA1-Digest: C+TeVNQi3U2q+mINIXq122Z/jOM=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/policies/NoDel
+ eteFromDiagramEditPolicy.class
+SHA1-Digest: pYg09Uepa5O7n+LbhHy10TmHxuw=
+
+Name: icons/outgoingLinksNavigatorGroup.gif
+SHA1-Digest: lUwMuDmTEvmiqtkgC+kWyrYAkVk=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlDocumentP
+ rovider$ResourceSetInfo$SynchronizerDelegate$3.class
+SHA1-Digest: WP1i5GC+roccLcdJyf30NHwmBrc=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/providers/ElementIn
+ itializers.class
+SHA1-Digest: KVxUl4MuBfYhrP+cRs+mzp7syRc=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlDocumentP
+ rovider$ResourceSetInfo.class
+SHA1-Digest: 6SH2NCt6QCP2WLRQZdF1jXzHqRY=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/sheet/SysmlSheetLab
+ elProvider.class
+SHA1-Digest: Cx9yp3SfpeEU1x15t9yENWR2q+k=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/providers/Sysml
+ ElementTypes.class
+SHA1-Digest: vTeRxhkFuAbvgz/PBoMfpchEkJs=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Connecto
+ rNameEditPart$2$1.class
+SHA1-Digest: jd/yzmZ7Cj8ETYXn8RfIkiw8QaE=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/navigator/Sysml
+ NavigatorGroup.class
+SHA1-Digest: Qe7Y8v91dIgpsAXY2sp6DwpdA9g=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/command/CreateParam
+ eterViewCommand.class
+SHA1-Digest: Lr0+A62jzow1U5Orgh7n1WXuTpI=
+
+Name: plugin.xml
+SHA1-Digest: mNRme0PL9NXorbShILlV+7Jg4No=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/providers/Eleme
+ ntInitializers.class
+SHA1-Digest: KVxUl4MuBfYhrP+cRs+mzp7syRc=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlDocum
+ entProvider$ResourceSetInfo$SynchronizerDelegate$3.class
+SHA1-Digest: WP1i5GC+roccLcdJyf30NHwmBrc=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/sheet/SysmlShee
+ tLabelProvider.class
+SHA1-Digest: Cx9yp3SfpeEU1x15t9yENWR2q+k=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlDocum
+ entProvider$2.class
+SHA1-Digest: 0OUeSFOlShxBUjdc8MLUSNy7DR0=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/SysmlEdi
+ tPartFactory$LabelCellEditorLocator.class
+SHA1-Digest: IOQTOTCkXAZIwqSp8GkjQ/GxPUg=
+
+Name: icons/linksNavigatorGroup.gif
+SHA1-Digest: lUwMuDmTEvmiqtkgC+kWyrYAkVk=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/navigator/SysmlNavi
+ gatorActionProvider$OpenDiagramAction.class
+SHA1-Digest: hUjGlzUfxvZHp1AC9FjpJ+/ccPI=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Cons
+ traintLabelEditPart$4.class
+SHA1-Digest: lNWpFHqIc6OY+53Dq/jiAUpdSVY=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/utils/PropertyLinke
+ dToClassifierNode.class
+SHA1-Digest: WI8kJy8pV+R0ZY5Dl7mHICBSB+0=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/providers/SysmlView
+ Provider.class
+SHA1-Digest: iSnTdp8N1SsA5jmPMFe/2ociBhc=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/navigator/SysmlNavi
+ gatorContentProvider$3.class
+SHA1-Digest: WmLYvv7Aa9dh2vKd0flp+BTG+KM=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/part/ValidateAction
+ $3.class
+SHA1-Digest: 7PMqYhN6wmZvx8TT0j1rO6E8tRA=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlLinkD
+ escriptor.class
+SHA1-Digest: B5WeH9o08JubxNPAVCBenl9EdsY=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/part/DiagramEditorC
+ ontextMenuProvider.class
+SHA1-Digest: wlUFuOt94Qx5S3i/aybm8Vzc2Y8=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/sheet/SysmlProperty
+ Section.class
+SHA1-Digest: 3Mf4Xbs5e1MhZ4Gf2vhViUOdqQY=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/navigator/Sysml
+ NavigatorContentProvider$3.class
+SHA1-Digest: WmLYvv7Aa9dh2vKd0flp+BTG+KM=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/part/ValidateAc
+ tion$3.class
+SHA1-Digest: 7PMqYhN6wmZvx8TT0j1rO6E8tRA=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Conn
+ ectorNameEditPart.class
+SHA1-Digest: GidFIGNsDhwl7ljzIYh3KJMezpI=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlDiagr
+ amEditorUtil$LazyElement2ViewMap.class
+SHA1-Digest: fkeibQiRsUN07OdoOdnWgpt9a/o=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/part/DiagramEdi
+ torContextMenuProvider.class
+SHA1-Digest: wlUFuOt94Qx5S3i/aybm8Vzc2Y8=
+
+Name: icons/wizban/NewResourceWizard.gif
+SHA1-Digest: OIcW9ZrsQ0wHSAtNKVn7rm/LZWY=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/part/Messages.class
+SHA1-Digest: XxKehJtDcsN81r4BvdiKDWfJdgY=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/utils/Route.class
+SHA1-Digest: LhaYL9AVWr80jnmXdBQkyouRd58=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlInitD
+ iagramFileAction.class
+SHA1-Digest: 1Z1BY+Bpi6jA2FwXrEi3l+n+/0w=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/part/Messages.c
+ lass
+SHA1-Digest: XxKehJtDcsN81r4BvdiKDWfJdgY=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/helper/SelfComp
+ artmentNotificationHelper$UIAdapter.class
+SHA1-Digest: Ii9lSbpmLRJ32osSLR8cjL3hLwI=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/providers/SysmlVali
+ dationProvider$1.class
+SHA1-Digest: n5pYeLWdsUMmt8xwLu51Kv0WYDA=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/parsers/ConstraintL
+ abelParser.class
+SHA1-Digest: Xz/KAtQmoH2IgNB/PbbpvbT+N9M=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Property
+ Name2EditPart$1$1.class
+SHA1-Digest: EtoRHx0bCncYfAwq8FkUZ0Z6YZw=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlDiagramEd
+ itor$2.class
+SHA1-Digest: LAQIJ3/JjR+tYiOSbPnQpDOjQn0=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Connecto
+ rEditPart.class
+SHA1-Digest: 2OqOr5iNsR0q/Xk9dCA4G1U4Gs4=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Property
+ NameEditPart$1.class
+SHA1-Digest: Li4+UaEa+jYSJO/RRcOkikxEn5g=
+
+Name: messages.properties
+SHA1-Digest: E5gyrmYUz1ac8y+zSXgKt4WKcOY=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/providers/Param
+ etricDiagramContributionPolicyClass.class
+SHA1-Digest: 1Bit8YmqMPh48Nhh8q49xL4ewiY=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlUriEd
+ itorInputTester.class
+SHA1-Digest: FWUnaYC3VP2KIRqckATZqKX9XcI=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/commands/P
+ ropertyCreateCommand.class
+SHA1-Digest: 3G0GNhD0KBXl6AE3KnRQGA6o1Og=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Parametr
+ icEditPart.class
+SHA1-Digest: AspNQvA7g/GGYGWv1UckAyh32j0=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/policies/Param
+ etricItemSemanticEditPolicy$DuplicateAnythingCommand.class
+SHA1-Digest: T9ZnsOX7oH6pdewqS3d20VRwN14=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/parsers/Constra
+ intLabelParser.class
+SHA1-Digest: Xz/KAtQmoH2IgNB/PbbpvbT+N9M=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlDocumentP
+ rovider$ResourceSetModificationListener.class
+SHA1-Digest: dfK6utAhhTtfHTbi+Po+AhKNuFY=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Prop
+ ertyNameEditPart$1.class
+SHA1-Digest: Li4+UaEa+jYSJO/RRcOkikxEn5g=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlDiagr
+ amEditor$2.class
+SHA1-Digest: LAQIJ3/JjR+tYiOSbPnQpDOjQn0=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/CreateParametri
+ cDiagramWithNavigationHandler.class
+SHA1-Digest: tvho8LIgpe3HSss9wAuEKm5yFvY=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Para
+ metricEditPart.class
+SHA1-Digest: AspNQvA7g/GGYGWv1UckAyh32j0=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/preferences/Diagram
+ PreferenceInitializer.class
+SHA1-Digest: FsS4iZaAxVuzAEfEr2+C357NXls=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/navigator/Sysml
+ NavigatorItem.class
+SHA1-Digest: FT8ZVjO2sTvHMzEmjAT1Rbo6vD0=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/utils/PropertyL
+ inkedToClassifierNode$1.class
+SHA1-Digest: 5MTf4kfa1nR7zlbYhl+B9YTa3+k=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/policies/S
+ ysmlTextSelectionEditPolicy$2.class
+SHA1-Digest: kNWRvWa6qLI/Dk6NU4tDXnVVQfQ=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Constrai
+ ntLabelEditPart$5.class
+SHA1-Digest: U1PNK5Nj3wyx6RrTENA6V7aiCiM=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Prop
+ ertyName2EditPart.class
+SHA1-Digest: THuvQpWS8g/YlcZl5d8wc4RdWeo=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/providers/SysmlVali
+ dationProvider$Adapter3.class
+SHA1-Digest: 6Ku2Y5zXTg8fjSlI6klwH6U+sjc=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/utils/PropertyL
+ inkedToClassifier.class
+SHA1-Digest: uxsfxGrZE6NLmAcjKQJ+WIZ4/mE=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/policies/Prope
+ rtyItemSemanticEditPolicy.class
+SHA1-Digest: 6ehqlca/ZJmAvvvzKLZvkUKr5bo=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Constrai
+ ntPropertyNameEditPart.class
+SHA1-Digest: WzFKWoFEQo5X/c9xhJq7cYUbfb4=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/policies/S
+ ysmlTextNonResizableEditPolicy$2.class
+SHA1-Digest: cMgXzuUx3XHpv5TIMd482FI96ak=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Property
+ Name2EditPart$1.class
+SHA1-Digest: ctv66/b0LMBrXR0gM8zuYBTRY0E=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Cons
+ traintPropertyNameEditPart.class
+SHA1-Digest: WzFKWoFEQo5X/c9xhJq7cYUbfb4=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Connecto
+ rNameEditPart$4.class
+SHA1-Digest: jyMx0mJHVaUbBkStGvp6mdh1N2A=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/helpers/Constr
+ aintPropertyEditHelper.class
+SHA1-Digest: 48cD8zkMtK8t4M1REV3SWEyzyHQ=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/navigator/Sysml
+ DomainNavigatorContentProvider$1.class
+SHA1-Digest: Z+QPb8H+39xI4JG+XePE+4Q0FBI=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/helpers/Co
+ nstraintPropertyEditHelper.class
+SHA1-Digest: 48cD8zkMtK8t4M1REV3SWEyzyHQ=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/helper/ConnectorLin
+ kMappingHelper$1.class
+SHA1-Digest: eW8BtmTXKtACyDCMISYU9tQfpRg=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Property
+ NameEditPart$6.class
+SHA1-Digest: ag6/BUcvm1KTGC0sbeJJjIVCm0Y=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/texteditor/Constrai
+ ntPropertyConfiguration$1.class
+SHA1-Digest: uWFYNqkS9uHW6HiYzLxIPZHIMIs=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/helper/SelfCompartm
+ entNotificationHelper.class
+SHA1-Digest: D7c55IP0ucwiP7gnM9sPOncKflY=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Cons
+ traintPropertyNameEditPart$4.class
+SHA1-Digest: RjfFdrpC9tmCRFT4DAln3e84feo=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlVisua
+ lIDRegistry.class
+SHA1-Digest: oDiYgAeGvilMBFRIV1YFJnkL0TM=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/ParametricDiagr
+ amForMultiEditor.class
+SHA1-Digest: mZA4MdqYh6i+QeisNp2Q5DsqOA4=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/providers/SysmlVali
+ dationProvider$DefaultCtx.class
+SHA1-Digest: J0VNJHE5O7qmpTF3XU5PpS6/UhY=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Prop
+ ertyNameEditPart$6.class
+SHA1-Digest: ag6/BUcvm1KTGC0sbeJJjIVCm0Y=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/preferences/Pro
+ pertyPreferencePage.class
+SHA1-Digest: Fks2pqX9UQwMCcZjFaQUv9WhwWk=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/helpers/Co
+ nnectorEditHelper.class
+SHA1-Digest: RWvgD1rcz3YT3uNM0knh2OZJuto=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlNewDi
+ agramFileWizard$DiagramRootElementSelectionPage.class
+SHA1-Digest: vIPVoHXrMML4o7kQJEGNJQjnp/I=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/providers/Sysml
+ ValidationProvider$Adapter4.class
+SHA1-Digest: I/dGF+U4vmPn1MkZMsdGfDd8ivI=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/policies/Custo
+ mDiagramDragDropEditPolicy.class
+SHA1-Digest: mYMQF8j8rcyzzNgi5tLstvFGAzI=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/preferences/Con
+ nectorPreferencePage.class
+SHA1-Digest: cnuoLtrrPaY3D8KDqLGUxnPDZos=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Prop
+ ertyName2EditPart$2.class
+SHA1-Digest: kYTbKzlg8aBWT0rlvt5miEy5wbw=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/providers/Custo
+ mEditPolicyProvider.class
+SHA1-Digest: /P4mQlfZ69Wgq99x20aVB3H6F8A=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/CreateParametricDia
+ gramCommand.class
+SHA1-Digest: JQ599kXXqrL2t8kEOZjTtG35uxw=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlLinkDescr
+ iptor$1.class
+SHA1-Digest: WR4rkUPO45uu/WwvnVfedcI1iqc=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/policies/C
+ ustomDiagramDragDropEditPolicy.class
+SHA1-Digest: mYMQF8j8rcyzzNgi5tLstvFGAzI=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Property
+ NameEditPart.class
+SHA1-Digest: 3wobPf7oCOJDLfaFRQPS7hGnHbw=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Conn
+ ectorNameEditPart$5.class
+SHA1-Digest: oBQvuQ2uD8CmoxmBoKBWMxlIURI=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/part/DeleteElementA
+ ction.class
+SHA1-Digest: 2ecl1O6ATPSkyle17Gut52lKxHo=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/part/ModelEleme
+ ntSelectionPage$1.class
+SHA1-Digest: hv4eP1vlCyRxohgScUNHqRvDWwc=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Constrai
+ ntPropertyNameEditPart$1.class
+SHA1-Digest: 3YG9Fj/A+acMfe2BWrkksm4/KsE=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlDocumentP
+ rovider$ResourceSetInfo$SynchronizerDelegate$2.class
+SHA1-Digest: U4q3vustVN8L+ZXBP6aFCXLkddg=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/part/LoadResourceAc
+ tion.class
+SHA1-Digest: 59GDy15Y36JO/FBwngWAPtrazKM=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlDocum
+ entProvider$ResourceSetInfo$SynchronizerDelegate$2.class
+SHA1-Digest: U4q3vustVN8L+ZXBP6aFCXLkddg=
+
+Name: icons/linkTargetNavigatorGroup.gif
+SHA1-Digest: lUwMuDmTEvmiqtkgC+kWyrYAkVk=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlDocum
+ entProvider$1.class
+SHA1-Digest: 8L3t8g/N9rBVoJY7obR88sWXtJo=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/helper/ConnectorLin
+ kMappingHelper$SingletonHolder.class
+SHA1-Digest: ZjfkiB7Hh8DA+0CH9a6jwvrIG/M=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Constrai
+ ntPropertyNameEditPart$2$1.class
+SHA1-Digest: cFneMuDtICYGVbQUkDQPrdmhTuQ=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlNewDi
+ agramFileWizard.class
+SHA1-Digest: QirUVQXSHU7m7BCg7N3wM/LdVA0=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlDiagramUp
+ dater.class
+SHA1-Digest: LLpzBdxRYZOgvjURvMicanmC4Ls=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/commands/Sysml
+ ReorientConnectionViewCommand.class
+SHA1-Digest: LmL/7j+CIIctpM+p+Ld5d6PRIWk=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Cons
+ traintLabelEditPart$3.class
+SHA1-Digest: 1MKUqKoW86tKBLDR8RK3Z6BamA8=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Cons
+ traintPropertyNameEditPart$2$1.class
+SHA1-Digest: cFneMuDtICYGVbQUkDQPrdmhTuQ=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/helper/Connecto
+ rLinkMappingHelper$SingletonHolder.class
+SHA1-Digest: ZjfkiB7Hh8DA+0CH9a6jwvrIG/M=
+
+Name: icons/linkSourceNavigatorGroup.gif
+SHA1-Digest: lUwMuDmTEvmiqtkgC+kWyrYAkVk=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/navigator/SysmlNavi
+ gatorActionProvider.class
+SHA1-Digest: EdmeeQP8DACHeGRjsImxDES3FSU=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/navigator/Sysml
+ AbstractNavigatorItem.class
+SHA1-Digest: 0qISmao9BxzjSSR+0G/PLgxObGY=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/navigator/SysmlNavi
+ gatorContentProvider$2.class
+SHA1-Digest: 4z/bYIHwvUXH5/nABVCBkYXaKH0=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/SysmlEdi
+ tPartFactory.class
+SHA1-Digest: 60ojKsq2S5QfVWbIav8LXnLLKwk=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlDiagr
+ amEditor$3$2.class
+SHA1-Digest: SLaH1xpyEnHv9f4tduV5KapiBe4=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/part/ValidateAction
+ $2.class
+SHA1-Digest: FXwb8E6/fjqHxfj031zfk1xDQ60=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/navigator/Sysml
+ NavigatorContentProvider$2.class
+SHA1-Digest: 4z/bYIHwvUXH5/nABVCBkYXaKH0=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/part/ValidateAc
+ tion$2.class
+SHA1-Digest: FXwb8E6/fjqHxfj031zfk1xDQ60=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/ParametricDiagramEd
+ itorFactory.class
+SHA1-Digest: bzF/XuR/zRn4odMzJWAx//IJLdo=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Constrai
+ ntLabelEditPart$2$1.class
+SHA1-Digest: rnL3w3v3b28kfb31LFklFl/61MU=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlLinkD
+ escriptor$2.class
+SHA1-Digest: PfZ0tENmB8xR4yShxHd2IHsWgm8=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/parsers/Abstrac
+ tParser$InvalidValue.class
+SHA1-Digest: kikNM8CvHcXbV3zYBpc7AV65zsA=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/policies/C
+ onstraintPropertyCanonicalEditPolicy.class
+SHA1-Digest: ZHKzK4AnDa9zypR9TdMpj/p2Ows=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/preferences/Dia
+ gramRulersAndGridPreferencePage.class
+SHA1-Digest: USTEWKV6SQoGvJH2tO03GaDdkJ0=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Property
+ 2EditPart.class
+SHA1-Digest: TrwntGUd65tghojLrqM7jjutMGc=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/policies/OpenD
+ iagramEditPolicy$OpenDiagramCommand$1.class
+SHA1-Digest: 5HAMP368NJBRFDx0+iAehpspJL8=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/providers/Sysml
+ IconProvider.class
+SHA1-Digest: aBgDJNUINK2JuSXlJdjMsHWZg+Q=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/providers/Param
+ etricDiagramContributionItemProvider.class
+SHA1-Digest: wGeGn4acqpIYmczoWbr1xJaaSm4=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlDocum
+ entProvider$ResourceSetInfo.class
+SHA1-Digest: 6SH2NCt6QCP2WLRQZdF1jXzHqRY=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/navigator/SysmlDoma
+ inNavigatorContentProvider$3.class
+SHA1-Digest: UfIhQymmDSugKgUsbzpRPDONTh8=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlDiagramEd
+ itor$1.class
+SHA1-Digest: ZyvlpJoyni8YRFph7b2Qdz248o0=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/command/CreateP
+ arameterViewCommand.class
+SHA1-Digest: Lr0+A62jzow1U5Orgh7n1WXuTpI=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Property
+ EditPart$PropertyFigure.class
+SHA1-Digest: 6dkjtPXKKkXzNSfAOiU8Gf4ACFQ=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Constrai
+ ntPropertyNameEditPart$6.class
+SHA1-Digest: +pXTJwnv2Oa591ossnWMto3A2GM=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/navigator/SysmlNavi
+ gatorLabelProvider.class
+SHA1-Digest: nNAEDS5NBeca006MMLDqGAsd0FM=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Sysm
+ lEditPartFactory$LabelCellEditorLocator.class
+SHA1-Digest: IOQTOTCkXAZIwqSp8GkjQ/GxPUg=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/preferences/Dia
+ gramConnectionsPreferencePage.class
+SHA1-Digest: S8upoQ/dC/bjNrpfzXt7G7BwS+k=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlDiagr
+ amEditor$1.class
+SHA1-Digest: ZyvlpJoyni8YRFph7b2Qdz248o0=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/policies/Conne
+ ctorItemSemanticEditPolicy.class
+SHA1-Digest: lUkIRisXEMw7nlMWpW9I+J1wkww=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/navigator/Sysml
+ NavigatorLabelProvider.class
+SHA1-Digest: nNAEDS5NBeca006MMLDqGAsd0FM=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlCreationW
+ izard$2.class
+SHA1-Digest: X0/oVJQL/NbNYmODH7S6oKrGH3s=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Constrai
+ ntPropertyEditPart$1.class
+SHA1-Digest: iVPMBWvcA46/kphWOXIjUQw04iQ=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/policies/C
+ onnectorItemSemanticEditPolicy.class
+SHA1-Digest: lUkIRisXEMw7nlMWpW9I+J1wkww=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlDocumentP
+ rovider$2.class
+SHA1-Digest: 0OUeSFOlShxBUjdc8MLUSNy7DR0=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/sheet/SysmlProp
+ ertySection.class
+SHA1-Digest: 3Mf4Xbs5e1MhZ4Gf2vhViUOdqQY=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/providers/Sysml
+ EditPartProvider.class
+SHA1-Digest: oKTF1Ercq4uEbKK+K9OXzBCW4jI=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/preferences/Dia
+ gramGeneralPreferencePage.class
+SHA1-Digest: 65uAlzNnqfVCI+xkcnkE0vS+gIo=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/policies/S
+ ysmlTextSelectionEditPolicy$1.class
+SHA1-Digest: ac9x/BBKKl2PPw0VefZDpxe3c+0=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Constrai
+ ntLabelEditPart$4.class
+SHA1-Digest: lNWpFHqIc6OY+53Dq/jiAUpdSVY=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Prop
+ erty2EditPart$ParameterDescriptor.class
+SHA1-Digest: FWt9ZdqFznK3LkOEOVoSweYz1gs=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlDiagramEd
+ itorUtil$1.class
+SHA1-Digest: +PD33AyqqIbCUEJtNOFSqWWiIiU=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/ParametricDiagramCo
+ ndition.class
+SHA1-Digest: J2JawAuumqJK8a+XAW3Ar+nysY8=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlLinkDescr
+ iptor.class
+SHA1-Digest: B5WeH9o08JubxNPAVCBenl9EdsY=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/providers/Sysml
+ MarkerNavigationProvider.class
+SHA1-Digest: 1OrFxhxRR0NfgwZCOf6pZCJ3F5M=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/providers/SysmlVali
+ dationProvider$Adapter2.class
+SHA1-Digest: vuiwpjA0toNZspdBEiBKARrqHZ0=
+
+Name: bin/org/eclipse/papyrus/sysml/diagram/parametric/part/SysmlDiagr
+ amEditorUtil$1.class
+SHA1-Digest: +PD33AyqqIbCUEJtNOFSqWWiIiU=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/part/DiagramEditorC
+ ontextMenuProvider$1.class
+SHA1-Digest: AKsokX5kPHcA+zkbcZEeCywvXec=
+
+Name: org/eclipse/papyrus/sysml/diagram/parametric/edit/parts/Connecto
+ rNameEditPart.class
+SHA1-Digest: GidFIGNsDhwl7ljzIYh3KJMezpI=
+

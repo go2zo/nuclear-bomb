@@ -1,0 +1,157 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.papyrus.sysml.diagram.requirement;sin
+ gleton:=true
+Bundle-Activator: org.eclipse.papyrus.sysml.diagram.requirement.Activa
+ tor
+Require-Bundle: org.eclipse.ui;bundle-version="[3.7.0,4.0.0)",org.ecli
+ pse.core.runtime;bundle-version="[3.7.0,4.0.0)",org.eclipse.papyrus.d
+ iagram.common;bundle-version="0.8.0",org.eclipse.papyrus.diagram.claz
+ z;bundle-version="[0.8.0,1.0.0)",org.eclipse.gmf.runtime.diagram.ui.r
+ esources.editor;bundle-version="1.3.0",org.eclipse.papyrus.core.adapt
+ or.gmf;bundle-version="0.8.0",org.eclipse.gmf.runtime.diagram.ui.prov
+ iders;bundle-version="1.4.0",org.eclipse.papyrus.preferences;bundle-v
+ ersion="0.8.0",org.eclipse.papyrus.sysml;bundle-version="0.8.0"
+Bundle-Version: 0.8.0.v201106151827
+Ant-Version: Apache Ant 1.7.1
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/papyrus/sysml/diagram/requirement/RequirementDiagram
+ EditorFactory.class
+SHA1-Digest: 3IZXP5BiFjMZSBZ3ApFaRUkEOWI=
+
+Name: org/eclipse/papyrus/sysml/diagram/requirement/provider/Inherited
+ ElementEditPartProvider.class
+SHA1-Digest: RSZfe2L3LNxTtI0vggyqoaoag0g=
+
+Name: org/eclipse/papyrus/sysml/diagram/requirement/factory/Requiremen
+ tDiagramViewFactory.class
+SHA1-Digest: Yq69aOjnsEN9UhB6DXPf/o7FtdY=
+
+Name: icons/obj16/Diagram_Requirement.gif
+SHA1-Digest: BiEoPVricsccSzQuPr0W4uEq5/M=
+
+Name: org/eclipse/papyrus/sysml/diagram/requirement/edit/part/Requirem
+ entDiagramEditPart.class
+SHA1-Digest: lW/VBd8/80hmhmpRalVQRhTjHN0=
+
+Name: org/eclipse/papyrus/sysml/diagram/requirement/provider/Inherited
+ ElementViewProvider.class
+SHA1-Digest: 55o+jCba7tQI3UfHDgtTU9NwwmU=
+
+Name: org/eclipse/papyrus/sysml/diagram/requirement/part/RequirementDi
+ agramEditor.class
+SHA1-Digest: ytTp7jQsJ32ili1rmyAV+4j3qQs=
+
+Name: org/eclipse/papyrus/sysml/diagram/requirement/preferences/Abstra
+ ctionPreferencePage.class
+SHA1-Digest: FaiWj5nKww5iByhhZraV1b96tuo=
+
+Name: org/eclipse/papyrus/sysml/diagram/requirement/preferences/Diagra
+ mPreferenceInitializer.class
+SHA1-Digest: uPaC4fctS1J6Dv7P+Z0YJQpoY3I=
+
+Name: plugin.properties
+SHA1-Digest: QRgZ4g8Il6EiB9e9n+SZfesaxzo=
+
+Name: org/eclipse/papyrus/sysml/diagram/requirement/RequirementDiagram
+ ForMultiEditor.class
+SHA1-Digest: 83S367Q0NtwtIKQjY4Io0mQ5fyg=
+
+Name: org/eclipse/papyrus/sysml/diagram/requirement/provider/Requireme
+ ntDiagramEditPartProvider.class
+SHA1-Digest: Oj9fzjOkT119lvN3IClANrluvaY=
+
+Name: org/eclipse/papyrus/sysml/diagram/requirement/RequirementDiagram
+ CreateCommand.class
+SHA1-Digest: 2vIE8c5slxx+9EGosD7UilMHqNs=
+
+Name: messages.properties
+SHA1-Digest: rzllkITMMrf4/krUsa7/FkvEVr0=
+
+Name: org/eclipse/papyrus/sysml/diagram/requirement/provider/Requireme
+ ntDiagramViewProvider.class
+SHA1-Digest: kyAH+4uF1R8Ld/XCIBh+D40COXM=
+
+Name: org/eclipse/papyrus/sysml/diagram/requirement/preferences/Contai
+ nmentPreferencePage.class
+SHA1-Digest: aVlOOZ89fcl7e0cqt/u6lnALpTo=
+
+Name: org/eclipse/papyrus/sysml/diagram/requirement/provider/Inherited
+ ElementTypes.class
+SHA1-Digest: KyJAKOMgwYLxc3OhL2cuYRvFNDY=
+
+Name: plugin.xml
+SHA1-Digest: 9pFmg/BJ4exNo75rW4XWx7UyF4U=
+
+Name: org/eclipse/papyrus/sysml/diagram/requirement/provider/EditPolic
+ yProvider.class
+SHA1-Digest: ZwotQ1Pyan8mLACfktOL6Eq9B8s=
+
+Name: org/eclipse/papyrus/sysml/diagram/requirement/preferences/Requir
+ ementDiagramGeneralPreferencePage.class
+SHA1-Digest: j+M3ERn0GJO/J3zHw9o6hi3ZPDg=
+
+Name: org/eclipse/papyrus/sysml/diagram/requirement/preferences/ClassP
+ referencePage.class
+SHA1-Digest: NBbHS9SsrXt9VU6qo0a5v9UCNW8=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: palette/requirement.palette.xml
+SHA1-Digest: yjtEBgCT9SzSYIAhYB7yLz49Oqs=
+
+Name: org/eclipse/papyrus/sysml/diagram/requirement/Activator.class
+SHA1-Digest: gs1T/6Gjt6H8ksy9SvD8KBNR2rU=
+
+Name: org/eclipse/papyrus/sysml/diagram/requirement/edit/policy/Custom
+ DragDropEditPolicy.class
+SHA1-Digest: LfkXsT3UTU4hiPazUEMP5gE/dhY=
+
+Name: org/eclipse/papyrus/sysml/diagram/requirement/preferences/Requir
+ ementDiagramLinkPreferencePage.class
+SHA1-Digest: UW70X81vbYnN6qk15Dvp2oGQlD0=
+
+Name: org/eclipse/papyrus/sysml/diagram/requirement/preferences/Packag
+ ePreferencePage.class
+SHA1-Digest: rnqRBEk+3w7Net32ZuF4w8Ni8FQ=
+
+Name: about.html
+SHA1-Digest: a2Fk5/pDnCvlEfl7QwDZj/FCgFc=
+
+Name: org/eclipse/papyrus/sysml/diagram/requirement/Messages.class
+SHA1-Digest: jYTT7lJVFEliS9z+5ansFMoFDNQ=
+
+Name: org/eclipse/papyrus/sysml/diagram/requirement/preferences/Diagra
+ mPrintingPreferencePage.class
+SHA1-Digest: ZQ1RBznAGls4jF+tLnz+2Sn4tW4=
+
+Name: org/eclipse/papyrus/sysml/diagram/requirement/preferences/Diagra
+ mRulersAndGridPreferencePage.class
+SHA1-Digest: LPq0BE/cJIcsKZGUvcPKfOsj3NU=
+
+Name: org/eclipse/papyrus/sysml/diagram/requirement/preferences/Requir
+ ementDiagramNodePreferencePage.class
+SHA1-Digest: QuOGNrnteOsrfS5yYqIBNdd0fo8=
+
+Name: org/eclipse/papyrus/sysml/diagram/requirement/CreateRequirementD
+ iagramWithNavigationHandler.class
+SHA1-Digest: jnhqInxEh5wffuzSLJZegF6szTc=
+
+Name: icons/RequirementDiagramSysML.gif
+SHA1-Digest: HkAD9Ist4P7+8w3bAO5lFFYYcP4=
+
+Name: org/eclipse/papyrus/sysml/diagram/requirement/provider/Requireme
+ ntDiagramElementTypes.class
+SHA1-Digest: /OMXnrQlys7c/Ok+Ni6S/xWAx0Q=
+
+Name: org/eclipse/papyrus/sysml/diagram/requirement/RequirementDiagram
+ Condition.class
+SHA1-Digest: Y9QeLrG2PjhGSaqpJlL2TMrYGVc=
+

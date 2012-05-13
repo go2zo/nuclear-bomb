@@ -1,0 +1,290 @@
+Manifest-Version: 1.0
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.papyrus.connectionpointreference.edit
+ or.xtext; singleton:=true
+Require-Bundle: org.eclipse.xtext;bundle-version="[2.0.0,3.0.0)",org.e
+ clipse.xtext.generator;resolution:="optional";bundle-version="[2.0.0,
+ 3.0.0)",org.apache.commons.logging;resolution:="optional";bundle-vers
+ ion="[1.1.0,2.0.0)",org.eclipse.emf.codegen.ecore;resolution:="option
+ al";bundle-version="[2.7.0,3.0.0)",org.eclipse.emf.mwe.utils;resoluti
+ on:="optional";bundle-version="[1.1.0,2.0.0)",org.eclipse.emf.mwe2.la
+ unch;resolution:="optional";bundle-version="[2.0.0,3.0.0)",com.ibm.ic
+ u;resolution:="optional";bundle-version="[4.4.0,5.0.0)",org.eclipse.x
+ text.xtend;resolution:="optional";bundle-version="[1.0.0,2.0.0)",org.
+ eclipse.xtext.util;bundle-version="[2.0.0,3.0.0)",org.eclipse.emf.eco
+ re;bundle-version="[2.7.0,3.0.0)",org.eclipse.emf.common;bundle-versi
+ on="[2.7.0,3.0.0)",org.antlr.runtime;bundle-version="[3.2.0,4.0.0)",o
+ rg.eclipse.uml2.uml;bundle-version="3.1.0",org.eclipse.uml2.codegen.e
+ core;bundle-version="1.6.0",org.eclipse.xtext.gmf.glue;bundle-version
+ ="0.8.0"
+Bundle-Version: 0.8.0.v201106151827
+Export-Package: org.eclipse.papyrus.connectionpointreference.editor.xt
+ ext,org.eclipse.papyrus.connectionpointreference.editor.xtext.service
+ s,org.eclipse.papyrus.connectionpointreference.editor.xtext.uMLConnec
+ tionPointReference,org.eclipse.papyrus.connectionpointreference.edito
+ r.xtext.uMLConnectionPointReference.impl,org.eclipse.papyrus.connecti
+ onpointreference.editor.xtext.uMLConnectionPointReference.util,org.ec
+ lipse.papyrus.connectionpointreference.editor.xtext.parseTreeConstruc
+ tion,org.eclipse.papyrus.connectionpointreference.editor.xtext.parser
+ .antlr,org.eclipse.papyrus.connectionpointreference.editor.xtext.pars
+ er.antlr.internal,org.eclipse.papyrus.connectionpointreference.editor
+ .xtext.validation
+Ant-Version: Apache Ant 1.7.1
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Import-Package: org.apache.log4j
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/parser
+ /antlr/UMLConnectionPointReferenceAntlrTokenFileProvider.class
+SHA1-Digest: oFhYqhN7f9GUfYa3Nhj8AaCIiOk=
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/UMLCon
+ nectionPointReference.ecore
+SHA1-Digest: v6i/hQ43qFWyykflQdNR+E3W7A4=
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/uMLCon
+ nectionPointReference/util/UMLConnectionPointReferenceSwitch.class
+SHA1-Digest: Rs6Svx5CbhIt41dXTH1UHUwNQJg=
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/valida
+ tion/AbstractUMLConnectionPointReferenceJavaValidator.class
+SHA1-Digest: LkhCMG+dWH444wKTbCU40f9vIzE=
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/parser
+ /antlr/internal/InternalUMLConnectionPointReferenceLexer$DFA12.class
+SHA1-Digest: EYw2SgTIESmCWcyo6pyAtIM4mDA=
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/Abstra
+ ctUMLConnectionPointReferenceRuntimeModule.class
+SHA1-Digest: HUSkBjxn6uTdObR2gQ7YlBNP+oo=
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/parseT
+ reeConstruction/UMLConnectionPointReferenceParsetreeConstructor$Conne
+ ctionPointReferenceRule_ExitKeyword_1_0.class
+SHA1-Digest: jhwj6LQdH+dHwIOO2dfeB1qRsF0=
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/UMLCon
+ nectionPointReferenceStandaloneSetupGenerated.class
+SHA1-Digest: t4F/XlWt2DvO0T74exoEknUfLy0=
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/Genera
+ teUMLConnectionPointReference.mwe2
+SHA1-Digest: XiBD7MJfse58UwunoYHGF3urEsE=
+
+Name: model/Ecore.ecore
+SHA1-Digest: NuQVP7uoo41dvnU4jgcT45jWEf0=
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/servic
+ es/UMLConnectionPointReferenceGrammarAccess.class
+SHA1-Digest: GdVjYqLvIEHI29oVuI4ouwKR9aY=
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/parser
+ /antlr/internal/InternalUMLConnectionPointReference.tokens
+SHA1-Digest: QIR9yGdSWvKVO7B3W1pMDTHVjX8=
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/uMLCon
+ nectionPointReference/util/UMLConnectionPointReferenceResourceImpl.cl
+ ass
+SHA1-Digest: uQuojbXTkLVF/dp4hBi7uQ5Fd/U=
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/parseT
+ reeConstruction/UMLConnectionPointReferenceParsetreeConstructor$Conne
+ ctionPointReferenceRule_Alternatives.class
+SHA1-Digest: ONnaXyZJDBlI5QuHkRgLN8UcljA=
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/parseT
+ reeConstruction/UMLConnectionPointReferenceParsetreeConstructor$Conne
+ ctionPointReferenceRule_CommaKeyword_1_2_0.class
+SHA1-Digest: jJIFE71v74e0FfQCbSvoQq2QUaI=
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/UMLCon
+ nectionPointReference.xtext
+SHA1-Digest: Q+7mPQMR4wb1THo3+TNcfWDnbzc=
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/uMLCon
+ nectionPointReference/util/UMLConnectionPointReferenceResourceFactory
+ Impl.class
+SHA1-Digest: WUQgR6/DVE9OIckPikTEUg2BfJw=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/parseT
+ reeConstruction/UMLConnectionPointReferenceParsetreeConstructor$Conne
+ ctionPointReferenceRule_ExitAssignment_1_1.class
+SHA1-Digest: kFrX9ohyST0/mzZOukxie3QiZaQ=
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/parser
+ /antlr/UMLConnectionPointReferenceParser.class
+SHA1-Digest: gPi/pkMPeT+Qzfcma459U5UbCeI=
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/uMLCon
+ nectionPointReference/UMLConnectionPointReferencePackage.class
+SHA1-Digest: WGS4FE6AJJ5jW7VN/TXky+IyPFM=
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/parseT
+ reeConstruction/UMLConnectionPointReferenceParsetreeConstructor$ThisR
+ ootNode.class
+SHA1-Digest: yLvWkZ8ev1bmlUfm7AL9KPgGBug=
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/parseT
+ reeConstruction/UMLConnectionPointReferenceParsetreeConstructor$Conne
+ ctionPointReferenceRule_Group_0.class
+SHA1-Digest: Sp6EZq/p/RocGXHWXwnTIsanOZQ=
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/servic
+ es/UMLConnectionPointReferenceGrammarAccess$ConnectionPointReferenceR
+ uleElements.class
+SHA1-Digest: 7K/8H8rPwr2bSrYasqOxvf5ryLU=
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/parseT
+ reeConstruction/UMLConnectionPointReferenceParsetreeConstructor$Conne
+ ctionPointReferenceRule_EntryKeyword_0_0.class
+SHA1-Digest: 8oxNFrk7Yh5/v8VGSkYynylHOk0=
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/parseT
+ reeConstruction/UMLConnectionPointReferenceParsetreeConstructor$Conne
+ ctionPointReferenceRule_EntryAssignment_0_2_1.class
+SHA1-Digest: FCZbhRFzSkECxRr3TYYT2cRgGnA=
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/uMLCon
+ nectionPointReference/impl/UMLConnectionPointReferenceFactoryImpl.cla
+ ss
+SHA1-Digest: qbCUIQYkyIgz7/PRDV4O6oO1avw=
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/UMLCon
+ nectionPointReference.genmodel
+SHA1-Digest: a0+mqqvZ/8/L+4LWg8Gaklq0Kno=
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/parseT
+ reeConstruction/UMLConnectionPointReferenceParsetreeConstructor$Conne
+ ctionPointReferenceRule_EntryAssignment_0_1.class
+SHA1-Digest: t+xs1jVdfATvOsUqMit8q4MegeM=
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/valida
+ tion/UMLConnectionPointReferenceJavaValidator.class
+SHA1-Digest: Cdn745uekhvJZ6pKUkRuIzPL2RE=
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/scopin
+ g/UMLConnectionPointReferenceScopeProvider.class
+SHA1-Digest: 0tVrxqFe05igOqwlCnGGrRyXdo0=
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/UMLCon
+ nectionPointReferenceRuntimeModule.class
+SHA1-Digest: +kh2gWhLRHgW56E7t3kHQJgMB84=
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/parser
+ /antlr/internal/InternalUMLConnectionPointReference__.g
+SHA1-Digest: 0luwJARTvgra+p2bM9ATZJRd3vw=
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/parser
+ /antlr/internal/InternalUMLConnectionPointReferenceLexer.class
+SHA1-Digest: izBTFLepcr99mPy9d+RQL0wnYsY=
+
+Name: model/Ecore.genmodel
+SHA1-Digest: h5z7PEfrWGwEy3qt7ondrkh39oI=
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/uMLCon
+ nectionPointReference/util/UMLConnectionPointReferenceXMLProcessor.cl
+ ass
+SHA1-Digest: BOeNoeJh5/Gs+HVjdENHdkepFs4=
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/uMLCon
+ nectionPointReference/util/UMLConnectionPointReferenceAdapterFactory.
+ class
+SHA1-Digest: KtMDA0x5TrTs1ZRvU1SYxlVOkxY=
+
+Name: plugin.properties
+SHA1-Digest: KBLqqY831xQU5MB6/6WJH1WCvQ4=
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/format
+ ting/UMLConnectionPointReferenceFormatter.class
+SHA1-Digest: TxvBkubwoAj/P5CtwYMnkcQy0a4=
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/UMLCon
+ nectionPointReference.xmi
+SHA1-Digest: RmSTtMHQH3YtsbNKLxYZZ1IpOHI=
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/parseT
+ reeConstruction/UMLConnectionPointReferenceParsetreeConstructor.class
+SHA1-Digest: ZLLIHP4HnaNwBMzxQb13J8B765s=
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/uMLCon
+ nectionPointReference/util/UMLConnectionPointReferenceAdapterFactory$
+ 1.class
+SHA1-Digest: 9jWoSqe5nbJiFX7uIXW+ivpJwJg=
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/UMLCon
+ nectionPointReferenceStandaloneSetup.class
+SHA1-Digest: 6MJeiQmK6xkHGI4uIpdijx4KCt8=
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/parseT
+ reeConstruction/UMLConnectionPointReferenceParsetreeConstructor$Conne
+ ctionPointReferenceRule_ExitAssignment_1_2_1.class
+SHA1-Digest: 4c0v9UCxmAjZhoGR648FqaTjP70=
+
+Name: plugin.xml
+SHA1-Digest: bIfUN9gcr7YcGMv8H8+Ds4KDB0k=
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/parseT
+ reeConstruction/UMLConnectionPointReferenceParsetreeConstructor$Conne
+ ctionPointReferenceRule_Group_0_2.class
+SHA1-Digest: PJCgsjTmsYF3XutWvLzX1245IOw=
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/parseT
+ reeConstruction/UMLConnectionPointReferenceParsetreeConstructor$Conne
+ ctionPointReferenceRule_CommaKeyword_0_2_0.class
+SHA1-Digest: oa+T10olUZXI4WE+Of3IFY1jn4k=
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/parseT
+ reeConstruction/UMLConnectionPointReferenceParsetreeConstructor$Conne
+ ctionPointReferenceRule_Group_1_2.class
+SHA1-Digest: wZMhewJaDkA4rIaRWFMeuBx4cnE=
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/uMLCon
+ nectionPointReference/ConnectionPointReferenceRule.class
+SHA1-Digest: uOGpBpMKiUuuvIfZVPQlQAeLWbI=
+
+Name: model/UML.ecore
+SHA1-Digest: TxuItpVFrsIVbW6QMV2+vN54xPw=
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/parser
+ /antlr/internal/InternalUMLConnectionPointReference.g
+SHA1-Digest: XEghHlYNfYIoTbPfdv3k1njk6FE=
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/uMLCon
+ nectionPointReference/impl/ConnectionPointReferenceRuleImpl.class
+SHA1-Digest: 3tajgDRefQMeNzUPgt6a2go3988=
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/uMLCon
+ nectionPointReference/UMLConnectionPointReferenceFactory.class
+SHA1-Digest: 4C/pLhUABVK0CKsRTfKUXW8ouHs=
+
+Name: about.html
+SHA1-Digest: y0N4Xo0SWk7dkT2S3XYFPomfO1U=
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/parseT
+ reeConstruction/UMLConnectionPointReferenceParsetreeConstructor$Conne
+ ctionPointReferenceRule_Group_1.class
+SHA1-Digest: TjTvUDmmaiLoQ9JGwogAk4QntVs=
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/uMLCon
+ nectionPointReference/impl/UMLConnectionPointReferencePackageImpl.cla
+ ss
+SHA1-Digest: 8xcYnPKzWzD/iRtqb6eeRm9nLFo=
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/uMLCon
+ nectionPointReference/UMLConnectionPointReferencePackage$Literals.cla
+ ss
+SHA1-Digest: G67q26f4/VGsAL4XG6r5sP+REa4=
+
+Name: org/eclipse/papyrus/connectionpointreference/editor/xtext/parser
+ /antlr/internal/InternalUMLConnectionPointReferenceParser.class
+SHA1-Digest: RtvLHgC+Vgl40tpR/83bfifk7ts=
+
+Name: model/UML.genmodel
+SHA1-Digest: hBx9gCRRtcZX1NZBS3SK947TW00=
+

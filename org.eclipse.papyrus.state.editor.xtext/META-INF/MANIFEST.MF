@@ -1,0 +1,388 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.papyrus.state.editor.xtext; singleton
+ :=true
+Require-Bundle: org.eclipse.xtext;bundle-version="[2.0.0,3.0.0)",org.e
+ clipse.xtext.generator;resolution:="optional";bundle-version="[2.0.0,
+ 3.0.0)",org.apache.commons.logging;resolution:="optional";bundle-vers
+ ion="[1.1.0,2.0.0)",org.eclipse.emf.codegen.ecore;resolution:="option
+ al";bundle-version="[2.7.0,3.0.0)",org.eclipse.emf.mwe.utils;resoluti
+ on:="optional";bundle-version="[1.1.0,2.0.0)",org.eclipse.emf.mwe2.la
+ unch;resolution:="optional";bundle-version="[2.0.0,3.0.0)",com.ibm.ic
+ u;resolution:="optional";bundle-version="[4.4.0,5.0.0)",org.eclipse.x
+ text.xtend;resolution:="optional";bundle-version="[1.0.0,2.0.0)",org.
+ eclipse.xtext.util;bundle-version="[2.0.0,3.0.0)",org.eclipse.emf.eco
+ re;bundle-version="[2.7.0,3.0.0)",org.eclipse.emf.common;bundle-versi
+ on="[2.7.0,3.0.0)",org.antlr.runtime;bundle-version="[3.2.0,4.0.0)",o
+ rg.eclipse.uml2.uml;bundle-version="3.1.0",org.eclipse.uml2.codegen.e
+ core;bundle-version="1.6.0",org.eclipse.xtext.gmf.glue;bundle-version
+ ="0.8.0"
+Bundle-Version: 0.8.0.v201106151827
+Export-Package: org.eclipse.papyrus.state.editor.xtext,org.eclipse.pap
+ yrus.state.editor.xtext.parseTreeConstruction,org.eclipse.papyrus.sta
+ te.editor.xtext.parser.antlr,org.eclipse.papyrus.state.editor.xtext.p
+ arser.antlr.internal,org.eclipse.papyrus.state.editor.xtext.scoping,o
+ rg.eclipse.papyrus.state.editor.xtext.services,org.eclipse.papyrus.st
+ ate.editor.xtext.umlState,org.eclipse.papyrus.state.editor.xtext.umlS
+ tate.impl,org.eclipse.papyrus.state.editor.xtext.umlState.util,org.ec
+ lipse.papyrus.state.editor.xtext.validation
+Ant-Version: Apache Ant 1.7.1
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Import-Package: org.apache.log4j
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/papyrus/state/editor/xtext/umlState/BehaviorKind.cla
+ ss
+SHA1-Digest: lXPGtS0DSId5/QbA7l9R39jSwa4=
+
+Name: org/eclipse/papyrus/state/editor/xtext/services/UmlStateGrammarA
+ ccess$QualifiedNameElements.class
+SHA1-Digest: djKVaT8Pi94uFhrJsxV29Wi4I/Q=
+
+Name: org/eclipse/papyrus/state/editor/xtext/parseTreeConstruction/Uml
+ StateParsetreeConstructor$StateRule_SubmachineAssignment_1_1.class
+SHA1-Digest: HJUyox6ehaZ7CK5JRPb3kaqdG48=
+
+Name: org/eclipse/papyrus/state/editor/xtext/parser/antlr/internal/Int
+ ernalUmlStateParser.class
+SHA1-Digest: NSSgzF2CmNlt1S2y1cEUDN9I0RQ=
+
+Name: org/eclipse/papyrus/state/editor/xtext/UmlState.xmi
+SHA1-Digest: eqllo1g63KZg2HkOg4Sd98e5+Rk=
+
+Name: org/eclipse/papyrus/state/editor/xtext/umlState/UmlStateFactory.
+ class
+SHA1-Digest: Ia5Ke99PvJppmejzW6OVdLnaWZg=
+
+Name: org/eclipse/papyrus/state/editor/xtext/umlState/StateRule.class
+SHA1-Digest: fLhEpQC7eeQ48TSAYJrzeemgztg=
+
+Name: org/eclipse/papyrus/state/editor/xtext/parseTreeConstruction/Uml
+ StateParsetreeConstructor$EntryRule_BehaviorNameAssignment_2.class
+SHA1-Digest: FhGkNKbuVKLobD7eCHNvqPfJGHo=
+
+Name: org/eclipse/papyrus/state/editor/xtext/UmlState.genmodel
+SHA1-Digest: DL/4LjWxnQx0eGoW5TO7yS6ghXU=
+
+Name: org/eclipse/papyrus/state/editor/xtext/parseTreeConstruction/Uml
+ StateParsetreeConstructor$StateRule_DoAssignment_2_1.class
+SHA1-Digest: ROKwVL52K5li32XUJAqUN1/le/Y=
+
+Name: org/eclipse/papyrus/state/editor/xtext/parseTreeConstruction/Uml
+ StateParsetreeConstructor$StateRule_Group.class
+SHA1-Digest: ZBBQEquQaYprX+2AGc8TZvalMWA=
+
+Name: org/eclipse/papyrus/state/editor/xtext/services/UmlStateGrammarA
+ ccess$SubmachineRuleElements.class
+SHA1-Digest: Yn0DagNYLpIysd4MfUWhU+Zl8Z8=
+
+Name: org/eclipse/papyrus/state/editor/xtext/parseTreeConstruction/Uml
+ StateParsetreeConstructor$StateRule_UnorderedGroup_2.class
+SHA1-Digest: xgYIRncH9GkqICkmE76Xi7Kxmx0=
+
+Name: org/eclipse/papyrus/state/editor/xtext/services/UmlStateGrammarA
+ ccess$EntryRuleElements.class
+SHA1-Digest: r5BG2MqTkPjtT7zIQ+kzIe8SOUo=
+
+Name: org/eclipse/papyrus/state/editor/xtext/umlState/util/UmlStateAda
+ pterFactory$1.class
+SHA1-Digest: KxdDF2mhIL3nITnQoUQLvJb2iB0=
+
+Name: org/eclipse/papyrus/state/editor/xtext/umlState/impl/SubmachineR
+ uleImpl.class
+SHA1-Digest: t0NwfwzLfPEXw//zWiX+WSrgBoQ=
+
+Name: org/eclipse/papyrus/state/editor/xtext/services/UmlStateGrammarA
+ ccess$DoRuleElements.class
+SHA1-Digest: xJosybASLeH9Xvipx3AuQR3gl6Y=
+
+Name: org/eclipse/papyrus/state/editor/xtext/AbstractUmlStateRuntimeMo
+ dule.class
+SHA1-Digest: abVHU+wl/Ng4nhOb9cC4NQK1pcQ=
+
+Name: org/eclipse/papyrus/state/editor/xtext/UmlStateRuntimeModule.cla
+ ss
+SHA1-Digest: gJCkqKNuZiUyQAnp9Ii717hOj1E=
+
+Name: org/eclipse/papyrus/state/editor/xtext/umlState/impl/DoRuleImpl.
+ class
+SHA1-Digest: OHW3WgrAodp9MmrGinMsVBvmGXU=
+
+Name: org/eclipse/papyrus/state/editor/xtext/parseTreeConstruction/Uml
+ StateParsetreeConstructor$DoRule_DoKeyword_0.class
+SHA1-Digest: Mjv200wHFcAwBxAuDVbwjkwHu3U=
+
+Name: org/eclipse/papyrus/state/editor/xtext/umlState/impl/QualifiedNa
+ meImpl.class
+SHA1-Digest: xhVjklxHfw0RQazVpYjSlkesUG8=
+
+Name: org/eclipse/papyrus/state/editor/xtext/parseTreeConstruction/Uml
+ StateParsetreeConstructor$ExitRule_Group.class
+SHA1-Digest: pnsbfEi3x8BDIp16ObCUxp2ITKE=
+
+Name: org/eclipse/papyrus/state/editor/xtext/parseTreeConstruction/Uml
+ StateParsetreeConstructor$StateRule_NameAssignment_0.class
+SHA1-Digest: u9DYw0K6UM3K5gZFmXi0M4udUWo=
+
+Name: org/eclipse/papyrus/state/editor/xtext/parseTreeConstruction/Uml
+ StateParsetreeConstructor$StateRule_ColonKeyword_1_0.class
+SHA1-Digest: nPCrxHDA7l3VgoMvXGQ9G8c2+xs=
+
+Name: org/eclipse/papyrus/state/editor/xtext/umlState/impl/EntryRuleIm
+ pl.class
+SHA1-Digest: e5UwnVQTzf7xlE1u2zva5h9XmrU=
+
+Name: org/eclipse/papyrus/state/editor/xtext/parseTreeConstruction/Uml
+ StateParsetreeConstructor$StateRule_ExitAssignment_2_2.class
+SHA1-Digest: Jv3rpSMqsafPx6NzH8Shhbvb1SE=
+
+Name: org/eclipse/papyrus/state/editor/xtext/parseTreeConstruction/Uml
+ StateParsetreeConstructor$ExitRule_BehaviorNameAssignment_2.class
+SHA1-Digest: K938fKbiOB7CXJcTZEjcmqZGoJg=
+
+Name: org/eclipse/papyrus/state/editor/xtext/parseTreeConstruction/Uml
+ StateParsetreeConstructor$EntryRule_KindAssignment_1.class
+SHA1-Digest: cFMGIc76FLhNGhSugF1jWeeMWQQ=
+
+Name: org/eclipse/papyrus/state/editor/xtext/services/UmlStateGrammarA
+ ccess$ExitRuleElements.class
+SHA1-Digest: W1/Xv643eSVMIwHs/nuc5HV2Khc=
+
+Name: org/eclipse/papyrus/state/editor/xtext/umlState/QualifiedName.cl
+ ass
+SHA1-Digest: JFZAveyV+3nifa1ZR2feaD7Pfw4=
+
+Name: org/eclipse/papyrus/state/editor/xtext/validation/SemanticValida
+ tor.class
+SHA1-Digest: 7DZhsigF7HCwUAekXT6yZdr+fAs=
+
+Name: org/eclipse/papyrus/state/editor/xtext/parseTreeConstruction/Uml
+ StateParsetreeConstructor$QualifiedName_Group.class
+SHA1-Digest: 7DGdDDRvVS9kUjSjAL2YR90MiGM=
+
+Name: org/eclipse/papyrus/state/editor/xtext/umlState/impl/ExitRuleImp
+ l.class
+SHA1-Digest: 6Fr4LFzNNWJYzdCK5KZXa0TeOQw=
+
+Name: org/eclipse/papyrus/state/editor/xtext/UmlStateStandaloneSetup.c
+ lass
+SHA1-Digest: GIMN2EqV8xlmvdwBXHZ1H55Lu6E=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/papyrus/state/editor/xtext/umlState/EntryRule.class
+SHA1-Digest: 8aoNKm997H0wyuWc0Sm7YQOxUeg=
+
+Name: org/eclipse/papyrus/state/editor/xtext/services/UmlStateGrammarA
+ ccess.class
+SHA1-Digest: SVuCFKs3f3xK4ACIzG7VumxjCdo=
+
+Name: org/eclipse/papyrus/state/editor/xtext/scoping/UmlStateScopeProv
+ ider$Visitor_GetOwnedNamespacesAndImportedNamespaces.class
+SHA1-Digest: dKNKYLpA3sjYw7qdvYW6H4vrgqg=
+
+Name: org/eclipse/papyrus/state/editor/xtext/umlState/util/UmlStateRes
+ ourceFactoryImpl.class
+SHA1-Digest: D5yc+u3JdEjWrIfzBzBPxgSlPVY=
+
+Name: org/eclipse/papyrus/state/editor/xtext/scoping/UmlStateScopeProv
+ ider$Visitor_GetImportedNamespaces.class
+SHA1-Digest: OImB6J1LF8Gmmj6RJzGqhHdFdFM=
+
+Name: org/eclipse/papyrus/state/editor/xtext/parseTreeConstruction/Uml
+ StateParsetreeConstructor$ExitRule_ExitKeyword_0.class
+SHA1-Digest: 4ajOzkcpLLQkF3s2p3D/kU1EDl4=
+
+Name: org/eclipse/papyrus/state/editor/xtext/parseTreeConstruction/Uml
+ StateParsetreeConstructor$ExitRule_KindAssignment_1.class
+SHA1-Digest: 9gYuQyqAkcR3xR9p2PI81jNs53E=
+
+Name: org/eclipse/papyrus/state/editor/xtext/umlState/ExitRule.class
+SHA1-Digest: pzY/0bFPpXeQ8aUzOjLqoM3/IVQ=
+
+Name: org/eclipse/papyrus/state/editor/xtext/UmlState.ecore
+SHA1-Digest: /2H/tglLNgIo01Tp1o72URzOlks=
+
+Name: org/eclipse/papyrus/state/editor/xtext/parser/antlr/internal/Int
+ ernalUmlStateLexer$DFA12.class
+SHA1-Digest: Oyh0jfJ25VZhZhTRMIj6ARcUQfQ=
+
+Name: org/eclipse/papyrus/state/editor/xtext/umlState/util/UmlStateSwi
+ tch.class
+SHA1-Digest: tOEIQQQKuC+hS+TUfrqyf9x1Yvw=
+
+Name: org/eclipse/papyrus/state/editor/xtext/umlState/impl/UmlStateFac
+ toryImpl.class
+SHA1-Digest: HZChrV9eR0qgOSXmNi5vWOtcz2Y=
+
+Name: org/eclipse/papyrus/state/editor/xtext/parseTreeConstruction/Uml
+ StateParsetreeConstructor$QualifiedName_RemainingAssignment_2.class
+SHA1-Digest: CxPl3G8MgcLfxbnhCZtbk4TJOo0=
+
+Name: org/eclipse/papyrus/state/editor/xtext/parseTreeConstruction/Uml
+ StateParsetreeConstructor$StateRule_Group_1.class
+SHA1-Digest: zScLkvfPR+3Sbwduquhq7JPEqIo=
+
+Name: org/eclipse/papyrus/state/editor/xtext/parseTreeConstruction/Uml
+ StateParsetreeConstructor$SubmachineRule_Group.class
+SHA1-Digest: PYxvOYrbMHTlht/qapg6IG6fmlY=
+
+Name: org/eclipse/papyrus/state/editor/xtext/parseTreeConstruction/Uml
+ StateParsetreeConstructor.class
+SHA1-Digest: f+nS3imPjyhwaokGzr4LWNe69E0=
+
+Name: org/eclipse/papyrus/state/editor/xtext/parseTreeConstruction/Uml
+ StateParsetreeConstructor$DoRule_Group.class
+SHA1-Digest: 1jB53dT3WTzfF4e08rphHZZBrXs=
+
+Name: org/eclipse/papyrus/state/editor/xtext/UmlStateStandaloneSetupGe
+ nerated.class
+SHA1-Digest: ZXAtpjl98YynMb225ncxMNPuVm0=
+
+Name: org/eclipse/papyrus/state/editor/xtext/umlState/UmlStatePackage.
+ class
+SHA1-Digest: fGHQOG0sasUTfzXrpooPt/ZmOtc=
+
+Name: org/eclipse/papyrus/state/editor/xtext/scoping/UmlStateScopeProv
+ ider$Visitor_GetOwnedAndImportedStatemachines.class
+SHA1-Digest: Fo7mDT3c5YfjmVHQH3TgRNSoN80=
+
+Name: org/eclipse/papyrus/state/editor/xtext/parseTreeConstruction/Uml
+ StateParsetreeConstructor$StateRule_EntryAssignment_2_0.class
+SHA1-Digest: FHyuuma152Sl7pq/yBiqXOLw0/o=
+
+Name: org/eclipse/papyrus/state/editor/xtext/parser/antlr/internal/Int
+ ernalUmlState.tokens
+SHA1-Digest: sxcg9LP+HYxfBGrc7S9NQgjnwqI=
+
+Name: plugin.properties
+SHA1-Digest: LgDjbfh93RdI4e+eavNrk0dJ6h8=
+
+Name: org/eclipse/papyrus/state/editor/xtext/formatting/UmlStateFormat
+ ter.class
+SHA1-Digest: ntFDiFjP3Sr1Vz2dismo+CXTVcM=
+
+Name: org/eclipse/papyrus/state/editor/xtext/parseTreeConstruction/Uml
+ StateParsetreeConstructor$DoRule_BehaviorNameAssignment_2.class
+SHA1-Digest: Ygco2at2n7B6+so/bNvmsAZjLiw=
+
+Name: org/eclipse/papyrus/state/editor/xtext/parser/antlr/UmlStateAntl
+ rTokenFileProvider.class
+SHA1-Digest: 5JFZvxPk2DyklwAL5QdgifdQ6E0=
+
+Name: org/eclipse/papyrus/state/editor/xtext/GenerateUmlState.mwe2
+SHA1-Digest: 4YOWOrS2HHplOqomnkeL2CjLNXo=
+
+Name: org/eclipse/papyrus/state/editor/xtext/umlState/util/UmlStateRes
+ ourceImpl.class
+SHA1-Digest: uaFxDRHnfW1KqH05zhNQ5+ZT3dU=
+
+Name: org/eclipse/papyrus/state/editor/xtext/scoping/UmlStateScopeProv
+ ider.class
+SHA1-Digest: 5BV6yOBnDv2c1T+48lrFIgxwlxU=
+
+Name: org/eclipse/papyrus/state/editor/xtext/parseTreeConstruction/Uml
+ StateParsetreeConstructor$QualifiedName_PathAssignment_0.class
+SHA1-Digest: k8N5A/8VLACyEZjIz7xWRSBMQdU=
+
+Name: org/eclipse/papyrus/state/editor/xtext/parser/antlr/internal/Int
+ ernalUmlState__.g
+SHA1-Digest: 3YM0gcHdVvBOe+9gwaXGwPk69go=
+
+Name: org/eclipse/papyrus/state/editor/xtext/UmlState.xtext
+SHA1-Digest: ob3dQz93mXfNMIntvLGDTM8ZpvU=
+
+Name: org/eclipse/papyrus/state/editor/xtext/umlState/UmlStatePackage$
+ Literals.class
+SHA1-Digest: vQUF4QoMHhICfmdiyf802I1RcrE=
+
+Name: plugin.xml
+SHA1-Digest: gZ8q1BtelMK0W26LQ5axBPazW9s=
+
+Name: org/eclipse/papyrus/state/editor/xtext/umlState/SubmachineRule.c
+ lass
+SHA1-Digest: Cwppe7CD3GxzBGQpKhrBCzajN1I=
+
+Name: org/eclipse/papyrus/state/editor/xtext/parseTreeConstruction/Uml
+ StateParsetreeConstructor$SubmachineRule_SubmachineAssignment_1.class
+SHA1-Digest: 7Tos1NcRA3SA1cp7EcNK/8CvlXU=
+
+Name: org/eclipse/papyrus/state/editor/xtext/parseTreeConstruction/Uml
+ StateParsetreeConstructor$QualifiedName_ColonColonKeyword_1.class
+SHA1-Digest: YKitfcZ5E99t0V4ATEfV/DFgGhE=
+
+Name: org/eclipse/papyrus/state/editor/xtext/umlState/DoRule.class
+SHA1-Digest: 4uMCJUusqSZLuuQhqaeZ1DaT6x0=
+
+Name: org/eclipse/papyrus/state/editor/xtext/parseTreeConstruction/Uml
+ StateParsetreeConstructor$DoRule_KindAssignment_1.class
+SHA1-Digest: QtF/KL572UXcT5EhOprrPJYjDMo=
+
+Name: org/eclipse/papyrus/state/editor/xtext/validation/AbstractUmlSta
+ teJavaValidator.class
+SHA1-Digest: tMogZKKqI+QYC5TtgI5VM6JiM20=
+
+Name: org/eclipse/papyrus/state/editor/xtext/validation/UmlStateJavaVa
+ lidator.class
+SHA1-Digest: SGUgToWBvlo7vm8bD+LiGoeTc/w=
+
+Name: org/eclipse/papyrus/state/editor/xtext/services/UmlStateGrammarA
+ ccess$StateRuleElements.class
+SHA1-Digest: ysQ/7CGAU7IMpQkK+siKyQxOaMU=
+
+Name: org/eclipse/papyrus/state/editor/xtext/parseTreeConstruction/Uml
+ StateParsetreeConstructor$EntryRule_Group.class
+SHA1-Digest: Mihem5kT6Z273ExTXH9GN4P1AwQ=
+
+Name: org/eclipse/papyrus/state/editor/xtext/services/UmlStateGrammarA
+ ccess$BehaviorKindElements.class
+SHA1-Digest: oIGVINdQU822W7TyFa0LdVRUo2Q=
+
+Name: about.html
+SHA1-Digest: a2Fk5/pDnCvlEfl7QwDZj/FCgFc=
+
+Name: org/eclipse/papyrus/state/editor/xtext/parseTreeConstruction/Uml
+ StateParsetreeConstructor$EntryRule_EntryKeyword_0.class
+SHA1-Digest: dIH/5gRuKdciO6/w9tVKhawKrdA=
+
+Name: org/eclipse/papyrus/state/editor/xtext/umlState/impl/UmlStatePac
+ kageImpl.class
+SHA1-Digest: yEl8OnECuyA3e7tDZLv0oOBxvfE=
+
+Name: org/eclipse/papyrus/state/editor/xtext/parser/antlr/internal/Int
+ ernalUmlState.g
+SHA1-Digest: awO+DWzGobEhDhTAq3a1YZMixjg=
+
+Name: org/eclipse/papyrus/state/editor/xtext/parser/antlr/UmlStatePars
+ er.class
+SHA1-Digest: ZwLss2BCbTVifEVlzZyG2Nz0zXo=
+
+Name: org/eclipse/papyrus/state/editor/xtext/umlState/impl/StateRuleIm
+ pl.class
+SHA1-Digest: jIO+15zgP631FMHgSw/e4/DExxw=
+
+Name: org/eclipse/papyrus/state/editor/xtext/parser/antlr/internal/Int
+ ernalUmlStateLexer.class
+SHA1-Digest: ljTdHd+CcHzfJTFuV/YWFqo5N1k=
+
+Name: org/eclipse/papyrus/state/editor/xtext/parseTreeConstruction/Uml
+ StateParsetreeConstructor$SubmachineRule_PathAssignment_0.class
+SHA1-Digest: XpALARMtUIetoGdqzSudd/WZ/Fk=
+
+Name: org/eclipse/papyrus/state/editor/xtext/parseTreeConstruction/Uml
+ StateParsetreeConstructor$ThisRootNode.class
+SHA1-Digest: q/YFsUoyA2aNDgQCxPA8tuxp0eo=
+
+Name: org/eclipse/papyrus/state/editor/xtext/umlState/util/UmlStateXML
+ Processor.class
+SHA1-Digest: wcbtQvOQ9ha4dUB+pTviV30raMo=
+
+Name: org/eclipse/papyrus/state/editor/xtext/umlState/util/UmlStateAda
+ pterFactory.class
+SHA1-Digest: hCi2Fgso4L7+FZvOxEM7v0Va3sg=
+

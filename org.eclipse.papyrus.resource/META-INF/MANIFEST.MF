@@ -1,0 +1,83 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.papyrus.resource;singleton:=true
+Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.7.0,4.0.0)
+ ",org.eclipse.emf.ecore;visibility:="reexport";bundle-version="[2.7.0
+ ,3.0.0)",org.eclipse.ui.navigator;bundle-version="[3.5.0,4.0.0)",org.
+ eclipse.jface;bundle-version="[3.7.0,4.0.0)"
+Bundle-Version: 0.8.0.v201106151827
+Export-Package: org.eclipse.papyrus.resource,org.eclipse.papyrus.resou
+ rce.impl,org.eclipse.papyrus.resource.util
+Ant-Version: Apache Ant 1.7.1
+Bundle-ClassPath: .
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/papyrus/resource/util/ResourceSwitch.class
+SHA1-Digest: XqEemdnxeukd/QEJJrJl91vGbxY=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/papyrus/resource/impl/ResourceEObjectImpl.class
+SHA1-Digest: 5zzDY+W76x757FWe+eeoXjKoMIE=
+
+Name: org/eclipse/papyrus/resource/impl/ResourcePackageImpl.class
+SHA1-Digest: xzanom/YEDVL7mNFgPl/dLpAtOQ=
+
+Name: model/resource.ecore
+SHA1-Digest: Z+haL8O0rfh2ZxuqMSB7wwLE0po=
+
+Name: org/eclipse/papyrus/resource/util/ResourceAdapterFactory.class
+SHA1-Digest: 9gJ/f5K3NBY9nt1n93HGZeeAbs8=
+
+Name: org/eclipse/papyrus/resource/ResourceEObject.class
+SHA1-Digest: b57G16O5E4S9pBLMF/yvkSdtCrg=
+
+Name: about.html
+SHA1-Digest: SghNuLOZ1xBD4DWkMOOVaXIW1tk=
+
+Name: org/eclipse/papyrus/resource/impl/ResourceFactoryImpl.class
+SHA1-Digest: 92t21V+7NT3CjJmwVTlaO2GTMEE=
+
+Name: org/eclipse/papyrus/resource/Resource.class
+SHA1-Digest: GGsj8cfH7Ngldf2BWt3Y3876RP0=
+
+Name: org/eclipse/papyrus/resource/ResourcePackage.class
+SHA1-Digest: /sTmXouTWYFPJD0bfKMxv1Z7jUE=
+
+Name: plugin.properties
+SHA1-Digest: vYDVxSh0hDGWLAgpIvTIy3qAzS8=
+
+Name: org/eclipse/papyrus/resource/ResourcePackage$Literals.class
+SHA1-Digest: I77T8DqQyOkVvNsJlZ7XCtmvfak=
+
+Name: org/eclipse/papyrus/resource/ResourceFactory.class
+SHA1-Digest: GgWss3rmmfSg/wxrvV9K4WfHiiU=
+
+Name: org/eclipse/papyrus/resource/util/ResourceUtil.class
+SHA1-Digest: JfnE4FQ9i41cODVZhXvU0Q0s3ZA=
+
+Name: org/eclipse/papyrus/resource/impl/ResourceImpl.class
+SHA1-Digest: TiIQVIiOW7zl2vVNbdfi0099vH8=
+
+Name: model/resource.genmodel
+SHA1-Digest: StFVaPMs4av5trD+TAPMJBVgKpA=
+
+Name: org/eclipse/papyrus/resource/filters/HideStereotypeApplicationsV
+ iewerFilter.class
+SHA1-Digest: 831mK00HWZ1Byv0pxHcbNHF12bY=
+
+Name: model/resource.ecorediag
+SHA1-Digest: +GuwEG6yKcqeMGlAfnb7CkjB9Ko=
+
+Name: org/eclipse/papyrus/resource/util/ResourceAdapterFactory$1.class
+SHA1-Digest: TCbL1tle5xd4PfBul/eeE9EM6XA=
+
+Name: plugin.xml
+SHA1-Digest: G2JfYhMo+Ll3u+3gsiDQMiuBJWA=
+

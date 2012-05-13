@@ -1,0 +1,282 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Eclipse-LazyStart: true
+Bundle-SymbolicName: org.eclipse.papyrus.uml.standard;singleton:=true
+Require-Bundle: org.eclipse.uml2.uml;visibility:="reexport";bundle-ver
+ sion="[3.2.0,4.0.0)"
+Bundle-Version: 0.8.0.v201106151827
+Export-Package: org.eclipse.papyrus.uml.standard,org.eclipse.papyrus.u
+ ml.standard.impl,org.eclipse.papyrus.uml.standard.util
+Ant-Version: Apache Ant 1.7.1
+Bundle-ClassPath: .
+Bundle-Vendor: %providerName
+Bundle-Name: %pluginName
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/papyrus/uml/standard/impl/ModelLibraryImpl.class
+SHA1-Digest: 7tkUk3tS5h93WgzpUfbCTXORVJg=
+
+Name: org/eclipse/papyrus/uml/standard/Refine.class
+SHA1-Digest: couhQ5Zq/xn0jA8gLzhknQzwrbM=
+
+Name: model/standard.genmodel
+SHA1-Digest: Uo41njujO3IRrNf2oUguzambfSA=
+
+Name: model/uml.ecore
+SHA1-Digest: 1H6dZBQixcBcC3z1lthcaAanojo=
+
+Name: org/eclipse/papyrus/uml/standard/ImplementationClass.class
+SHA1-Digest: WoN7vRUNDiN4BIC6nsH0aRyOCgo=
+
+Name: org/eclipse/papyrus/uml/standard/impl/SourceImpl.class
+SHA1-Digest: 6j5CXMsIoeC06Np0TfsCgBuaPtc=
+
+Name: org/eclipse/papyrus/uml/standard/impl/DocumentImpl.class
+SHA1-Digest: e1AD3oqoxTmnC/5aWICoicjfTuE=
+
+Name: org/eclipse/papyrus/uml/standard/Instantiate.class
+SHA1-Digest: rg84YaZVsS250DJyfYmGO0ZPC9g=
+
+Name: org/eclipse/papyrus/uml/standard/Utility.class
+SHA1-Digest: assmC23FkBgoxcv/lzhYYjHW4mM=
+
+Name: org/eclipse/papyrus/uml/standard/impl/CallImpl.class
+SHA1-Digest: Czc+ctuWqRsvcIv6OmJncaw4AqA=
+
+Name: org/eclipse/papyrus/uml/standard/Subsystem.class
+SHA1-Digest: RHkj7n0fF8MLwlcLARzrVvtFnLI=
+
+Name: org/eclipse/papyrus/uml/standard/File.class
+SHA1-Digest: sci1YyRhOe/ypVxcvFPpppNVnLo=
+
+Name: org/eclipse/papyrus/uml/standard/Service.class
+SHA1-Digest: 9mo/eKDl/+72J3LpP4S/G6XbOPw=
+
+Name: org/eclipse/papyrus/uml/standard/StandardPackage$Literals.class
+SHA1-Digest: lEdrPb264U1onHsDAeZC3iiWYLY=
+
+Name: org/eclipse/papyrus/uml/standard/impl/SubsystemImpl.class
+SHA1-Digest: oZ0CoMq9Ae4XlyDho9vZDjuWTCg=
+
+Name: org/eclipse/papyrus/uml/standard/impl/ProcessImpl.class
+SHA1-Digest: 2V+p2Wk2SgTYueyi6MYHzDmimRo=
+
+Name: org/eclipse/papyrus/uml/standard/impl/DeriveImpl.class
+SHA1-Digest: fJcrg8tIMDckQd3pDg8NOHHPxS0=
+
+Name: org/eclipse/papyrus/uml/standard/Destroy.class
+SHA1-Digest: AUhmBJL00oSxOVdcsI61+qeHvRY=
+
+Name: org/eclipse/papyrus/uml/standard/Library.class
+SHA1-Digest: TPEZkbxepUEMpM+CQAPFqkiQGBY=
+
+Name: org/eclipse/papyrus/uml/standard/Send.class
+SHA1-Digest: EJQWxjoxOW1KdurOTTEiMkH80lU=
+
+Name: org/eclipse/papyrus/uml/standard/impl/BuildComponentImpl.class
+SHA1-Digest: 62ds/35dABUcpE9FgY2DgPDGz0w=
+
+Name: org/eclipse/papyrus/uml/standard/Executable.class
+SHA1-Digest: NNtxhYBHfVhmKV89ftZKbqAB6ZE=
+
+Name: org/eclipse/papyrus/uml/standard/impl/SystemModelImpl.class
+SHA1-Digest: jJLGxKiImgOMqXCZK70L9TdWWBc=
+
+Name: org/eclipse/papyrus/uml/standard/Specification.class
+SHA1-Digest: rj4gi5rEVNZ11MysR3o8qAEObm0=
+
+Name: org/eclipse/papyrus/uml/standard/Metamodel.class
+SHA1-Digest: yzJDZYN3sz/r2/3d0e3PRpWyGb0=
+
+Name: org/eclipse/papyrus/uml/standard/util/StandardAdapterFactory.cla
+ ss
+SHA1-Digest: p4Ge0+FJzIn4py0/zXL/vUJgyro=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: model/Standard.profile.uml
+SHA1-Digest: 1oQqCr44g6roVHEI58g0nlbbejs=
+
+Name: org/eclipse/papyrus/uml/standard/Auxiliary.class
+SHA1-Digest: 8GXwA5S0rYfe9TmxJcagJz2+ov4=
+
+Name: org/eclipse/papyrus/uml/standard/Realization.class
+SHA1-Digest: 3/6SLIquiVsOLM5cBHj6Xm9p1DA=
+
+Name: org/eclipse/papyrus/uml/standard/util/StandardResourceFactoryImp
+ l.class
+SHA1-Digest: pFpSJthdQI6pndxVq5TdjXOYu7U=
+
+Name: org/eclipse/papyrus/uml/standard/StandardPackage.class
+SHA1-Digest: HrN5oVhiLCHlh9ZBeYkYvCy0Fec=
+
+Name: org/eclipse/papyrus/uml/standard/impl/SpecificationImpl.class
+SHA1-Digest: 4nMQQJNeTOowQggCcBq9H/UoYcU=
+
+Name: org/eclipse/papyrus/uml/standard/impl/MetamodelImpl.class
+SHA1-Digest: /VDr1KN6JTMrLWuNCPqf6UhOZ7k=
+
+Name: org/eclipse/papyrus/uml/standard/impl/FileImpl.class
+SHA1-Digest: K4jFxCTTM+oC79Oc+AifsJgraE8=
+
+Name: org/eclipse/papyrus/uml/standard/impl/CreateImpl.class
+SHA1-Digest: 9gCB2lYT5Kn/c+puXf4Vxd+OokA=
+
+Name: org/eclipse/papyrus/uml/standard/impl/AuxiliaryImpl.class
+SHA1-Digest: QhFegXNeyafr8ykdhn/6huppI9k=
+
+Name: org/eclipse/papyrus/uml/standard/Source.class
+SHA1-Digest: QBwIOpZMng34JGfmk1hbEKFFO54=
+
+Name: org/eclipse/papyrus/uml/standard/Metaclass.class
+SHA1-Digest: 4YRdnq7OspZ6UrHIdPClJbT5qyk=
+
+Name: org/eclipse/papyrus/uml/standard/impl/StandardFactoryImpl.class
+SHA1-Digest: tQhtlt9Z921M6cnWydVFCZmBJn8=
+
+Name: model/ecore.ecore
+SHA1-Digest: jSFrUj05oLtEX7r9IdHrZSlTZqA=
+
+Name: org/eclipse/papyrus/uml/standard/impl/SendImpl.class
+SHA1-Digest: RT2C4m4lT0gYfgYm3EJv5AUoCzM=
+
+Name: org/eclipse/papyrus/uml/standard/util/StandardResourceImpl.class
+SHA1-Digest: wrzAVUklo1BUZX9Dow6uTXgfzz0=
+
+Name: org/eclipse/papyrus/uml/standard/Focus.class
+SHA1-Digest: EExEiBaiSx2GLpRSSUBZPK76Stg=
+
+Name: org/eclipse/papyrus/uml/standard/impl/ScriptImpl.class
+SHA1-Digest: 4do6dEKbRexgZDJCpvyt424kC0c=
+
+Name: org/eclipse/papyrus/uml/standard/impl/MetaclassImpl.class
+SHA1-Digest: QToDOTm8KIUJhrzEaePd36oGTAU=
+
+Name: org/eclipse/papyrus/uml/standard/impl/ResponsibilityImpl.class
+SHA1-Digest: dubHnY0FvBxAkxEKgNZyCPTzfo0=
+
+Name: org/eclipse/papyrus/uml/standard/Derive.class
+SHA1-Digest: ljZkdlKrynduqnd4lEqbGaSpgz8=
+
+Name: org/eclipse/papyrus/uml/standard/impl/FocusImpl.class
+SHA1-Digest: Auvb6IKJV9vyDCR4x1PfNAlZNEA=
+
+Name: org/eclipse/papyrus/uml/standard/Implement.class
+SHA1-Digest: y0LU5ZewjmwRDCud8srrMX6Gvuk=
+
+Name: org/eclipse/papyrus/uml/standard/BuildComponent.class
+SHA1-Digest: NOIj3y/OqqMvvyLIbvGrKLgScnQ=
+
+Name: org/eclipse/papyrus/uml/standard/impl/ImplementImpl.class
+SHA1-Digest: FZn31HmJVx9uP6sqfMjk/QXuPvo=
+
+Name: org/eclipse/papyrus/uml/standard/impl/ImplementationClassImpl.cl
+ ass
+SHA1-Digest: ymY7tdCZblKaHixpc0WCv4AhyH4=
+
+Name: plugin.properties
+SHA1-Digest: ZeVRTU+5DuJKvAVwNy9OQ1qS2G4=
+
+Name: org/eclipse/papyrus/uml/standard/Process.class
+SHA1-Digest: yeUtmsZ/ekOC/h4Joik8fEJ07NY=
+
+Name: org/eclipse/papyrus/uml/standard/Type.class
+SHA1-Digest: 9+QpeRfbfocmnM0FMGHausboW/U=
+
+Name: org/eclipse/papyrus/uml/standard/impl/InstantiateImpl.class
+SHA1-Digest: NM37lL+5iFy6MovGOPy4mHjHKIM=
+
+Name: org/eclipse/papyrus/uml/standard/impl/EntityImpl.class
+SHA1-Digest: pRJXG/nC84cIfjZk7I5npyzjr0Q=
+
+Name: org/eclipse/papyrus/uml/standard/Create.class
+SHA1-Digest: imTrfGw7CRb6I2SDqx9O2rQRjZQ=
+
+Name: org/eclipse/papyrus/uml/standard/impl/UtilityImpl.class
+SHA1-Digest: vECfv+PyPSCJKI0YbdL1hUXsl8A=
+
+Name: model/Standard.ecore
+SHA1-Digest: XpUBycMUFQoiknibpmmispfrpeE=
+
+Name: org/eclipse/papyrus/uml/standard/SystemModel.class
+SHA1-Digest: X3HsmhBhluq2cZ462kZKF/8oPRs=
+
+Name: org/eclipse/papyrus/uml/standard/impl/ServiceImpl.class
+SHA1-Digest: SVPfBBoOU+mzYdaTwLYy46F6BiY=
+
+Name: org/eclipse/papyrus/uml/standard/impl/RefineImpl.class
+SHA1-Digest: lbSgbyoR7FqgW3LuDclaYiUCw7Y=
+
+Name: plugin.xml
+SHA1-Digest: GHziA553gCD8jipFySaV0mqMAeE=
+
+Name: org/eclipse/papyrus/uml/standard/util/StandardSwitch.class
+SHA1-Digest: 804JF2nUaZtlrXe8uXtHEJPjyh4=
+
+Name: org/eclipse/papyrus/uml/standard/Framework.class
+SHA1-Digest: 5rWDjekBYrLDagd9+7xiZ9kBpgs=
+
+Name: org/eclipse/papyrus/uml/standard/impl/DestroyImpl.class
+SHA1-Digest: 81crJBCirbCCbhaJvK/pWMBRut4=
+
+Name: org/eclipse/papyrus/uml/standard/Script.class
+SHA1-Digest: TCbbEJN/J8U8AOySwRvD6w506s4=
+
+Name: org/eclipse/papyrus/uml/standard/impl/LibraryImpl.class
+SHA1-Digest: SZSdjYfdnLcEgROuHXtwX+jJDkM=
+
+Name: org/eclipse/papyrus/uml/standard/Responsibility.class
+SHA1-Digest: 8TBj5lTbALNnY7Li1Scx5F//KSs=
+
+Name: org/eclipse/papyrus/uml/standard/util/StandardXMLProcessor.class
+SHA1-Digest: 1ZoHYNMuqC1MvVMGPfrVI2g3VxU=
+
+Name: org/eclipse/papyrus/uml/standard/impl/FrameworkImpl.class
+SHA1-Digest: KeZ+Qo9zyhX5e3r+Zp07J4QLohw=
+
+Name: org/eclipse/papyrus/uml/standard/Trace.class
+SHA1-Digest: 8X/vFiCFh5sQIE09ufUYZiJe0Ps=
+
+Name: org/eclipse/papyrus/uml/standard/ModelLibrary.class
+SHA1-Digest: bJ+ZMHk8ImyerWBI6FfxTALY/Wg=
+
+Name: org/eclipse/papyrus/uml/standard/impl/TypeImpl.class
+SHA1-Digest: KJ7k2PoYj+EEmndU5cq2AB7qcNc=
+
+Name: org/eclipse/papyrus/uml/standard/impl/TraceImpl.class
+SHA1-Digest: OYWKWHKOqqhjo+eNOXqH1Tu8ddM=
+
+Name: org/eclipse/papyrus/uml/standard/impl/RealizationImpl.class
+SHA1-Digest: pd+wTzVGOO5MOn8AJlwXzQNSA3I=
+
+Name: about.html
+SHA1-Digest: a2Fk5/pDnCvlEfl7QwDZj/FCgFc=
+
+Name: org/eclipse/papyrus/uml/standard/StandardFactory.class
+SHA1-Digest: PPUFC45yj5Oe2xBWn7ps8Q+NIlQ=
+
+Name: org/eclipse/papyrus/uml/standard/impl/StandardPackageImpl.class
+SHA1-Digest: f8MPpRJWI23P139Atnj1nch0mJY=
+
+Name: org/eclipse/papyrus/uml/standard/Document.class
+SHA1-Digest: OKX1VvP5/OiEEijYlcegleHBrcg=
+
+Name: org/eclipse/papyrus/uml/standard/util/StandardAdapterFactory$1.c
+ lass
+SHA1-Digest: uSqZiYspTTePZDz37kKJwYa9rl4=
+
+Name: org/eclipse/papyrus/uml/standard/Call.class
+SHA1-Digest: x4mQlQmQqOUZ1mZjoVMGoh+KQJc=
+
+Name: org/eclipse/papyrus/uml/standard/util/StandardResource.class
+SHA1-Digest: fgmVDFXF20KnIwpSi/bepqz2kp4=
+
+Name: org/eclipse/papyrus/uml/standard/impl/ExecutableImpl.class
+SHA1-Digest: uwQefNpbTIiyObqi0lqI0HGVaQA=
+
+Name: org/eclipse/papyrus/uml/standard/Entity.class
+SHA1-Digest: +iAwZCONmbvQgsef4RkqrO9cMag=
+

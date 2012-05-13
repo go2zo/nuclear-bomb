@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.7.1
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-Name: %pluginName
+Bundle-SymbolicName: org.eclipse.papyrus.uml.profile;singleton:=true
+Require-Bundle: org.eclipse.uml2.uml;bundle-version="[3.2.0,4.0.0)"
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-Version: 0.8.0.v201106151827
+Export-Package: org.eclipse.papyrus.uml.profile
+Bundle-ManifestVersion: 2
+
+Name: model/Papyrus.profile.uml
+SHA1-Digest: RnhHzkrRkmF892sQw7Gvx3BTceU=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/papyrus/uml/profile/IUMLDocumentationConstants.class
+SHA1-Digest: dV8qGrn/R8C+9UswWe11jFmo/tw=
+
+Name: plugin.xml
+SHA1-Digest: AE3+O3WTBkXQJMOYfFfwvNU1k5s=
+
+Name: about.html
+SHA1-Digest: a2Fk5/pDnCvlEfl7QwDZj/FCgFc=
+
+Name: plugin.properties
+SHA1-Digest: 0leOCkntK/HKWYzg7sp3jRN9kcI=
+

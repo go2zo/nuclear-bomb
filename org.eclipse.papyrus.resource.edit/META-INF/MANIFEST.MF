@@ -1,0 +1,106 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.papyrus.resource.edit;singleton:=true
+Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.7.0,4.0.0)
+ ",org.eclipse.papyrus.resource;visibility:="reexport";bundle-version=
+ "[0.8.0,1.0.0)",org.eclipse.emf.edit;visibility:="reexport";bundle-ve
+ rsion="[2.7.0,3.0.0)",org.eclipse.emf.ecore;visibility:="reexport";bu
+ ndle-version="[2.7.0,3.0.0)",org.eclipse.emf.ecore.edit;visibility:="
+ reexport";bundle-version="[2.7.0,3.0.0)"
+Bundle-Activator: org.eclipse.papyrus.resource.provider.ResourceEditPl
+ ugin$Implementation
+Export-Package: org.eclipse.papyrus.resource.provider
+Bundle-Version: 0.8.0.v201106151827
+Ant-Version: Apache Ant 1.7.1
+Bundle-ClassPath: .
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %providerName
+Bundle-Name: %pluginName
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: icons/full/ctool16/CreateResource_eobjects_EAttribute.gif
+SHA1-Digest: +XEAIBiHcd4VI1knKXVXsJ/AcYo=
+
+Name: org/eclipse/papyrus/resource/provider/ResourceItemProvider.class
+SHA1-Digest: tRvTV2h6/xCfqinnY/DUbegtBPU=
+
+Name: icons/full/ctool16/CreateResource_eobjects_EObject.gif
+SHA1-Digest: 8s+iu7I3ThnR4HygqyVZqO2ssKU=
+
+Name: icons/full/ctool16/CreateResource_eobjects_EEnum.gif
+SHA1-Digest: cDuv8ONvFQfJZON0xgfChhUT+fY=
+
+Name: icons/full/ctool16/CreateResource_eobjects_EDataType.gif
+SHA1-Digest: +1mYfClkY25seZhZKseVJ0H1Qog=
+
+Name: org/eclipse/papyrus/resource/provider/ResourceEditPlugin$Impleme
+ ntation.class
+SHA1-Digest: RnEYVaMCnA81nVIz8Y0uGhI2ywk=
+
+Name: icons/full/ctool16/CreateResource_eobjects_EOperation.gif
+SHA1-Digest: sjf2T/+1QR7lz/6PifsX2hQjdhM=
+
+Name: plugin.properties
+SHA1-Digest: 3mOFvD4nMNp+5WXrnkFmtCbdstA=
+
+Name: icons/full/ctool16/CreateResource_eobjects_EParameter.gif
+SHA1-Digest: 93YlUQM+EWiaOZv5hXOZReaB3v0=
+
+Name: icons/full/ctool16/CreateResource_eobjects_EEnumLiteral.gif
+SHA1-Digest: R8NjAykPwNbj+0M3Z0Bv6a+g83Y=
+
+Name: icons/full/ctool16/CreateResource_eobjects_EGenericType.gif
+SHA1-Digest: qdOeyHigQbNUbmuMkbQ+mCnlG2s=
+
+Name: icons/full/ctool16/CreateResource_eobjects_ResourceEObject.gif
+SHA1-Digest: 9+XPtbDo86INwNc1V9nCsM87xq8=
+
+Name: icons/full/ctool16/CreateResource_eobjects_Resource.gif
+SHA1-Digest: UBn5dd+kgMWuIw6o5Mk/tkrZXNI=
+
+Name: org/eclipse/papyrus/resource/provider/ResourceEObjectItemProvide
+ r.class
+SHA1-Digest: su5DjNl1LEaNVRN3OL5pF+oaifw=
+
+Name: plugin.xml
+SHA1-Digest: 6ICEB3NwdRJGNYD00FzTSfrHGqg=
+
+Name: icons/full/ctool16/CreateResource_eobjects_EClass.gif
+SHA1-Digest: C/lj2Bu3Hs7v2BC3LCqVAK5kOr4=
+
+Name: org/eclipse/papyrus/resource/provider/ResourceItemProviderAdapte
+ rFactory.class
+SHA1-Digest: 2xC/UgCJNAEJJCucm3uRBMndV1U=
+
+Name: icons/full/obj16/Resource.gif
+SHA1-Digest: +Ntvcq4997BNYPYLZR/UjlAixTo=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: about.html
+SHA1-Digest: SghNuLOZ1xBD4DWkMOOVaXIW1tk=
+
+Name: icons/full/ctool16/CreateResource_eobjects_EPackage.gif
+SHA1-Digest: cDuv8ONvFQfJZON0xgfChhUT+fY=
+
+Name: icons/full/obj16/ResourceEObject.gif
+SHA1-Digest: MZEqK/VaeXNzV8AsLlg4P+pDqDQ=
+
+Name: icons/full/ctool16/CreateResource_eobjects_EFactory.gif
+SHA1-Digest: RVBhiMU/ra4qML8979SPRMjHJIk=
+
+Name: icons/full/ctool16/CreateResource_eobjects_EReference.gif
+SHA1-Digest: 6pXXAtw5DUPNIiggQVOJYTOQtA4=
+
+Name: icons/full/ctool16/CreateResource_eobjects_EAnnotation.gif
+SHA1-Digest: +zs2PI89Ala81VkBrrE5epLc65o=
+
+Name: icons/full/ctool16/CreateResource_eobjects_ETypeParameter.gif
+SHA1-Digest: RVBhiMU/ra4qML8979SPRMjHJIk=
+
+Name: org/eclipse/papyrus/resource/provider/ResourceEditPlugin.class
+SHA1-Digest: ivNVGuHLK6wgK+25/TNQrTn8ox4=
+

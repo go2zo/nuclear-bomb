@@ -1,0 +1,243 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.papyrus.paletteconfiguration;singleto
+ n:=true
+Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.7.0,4.0.0)
+ ",org.eclipse.emf.ecore;visibility:="reexport";bundle-version="[2.7.0
+ ,3.0.0)",org.eclipse.emf.ecore.xmi;visibility:="reexport";bundle-vers
+ ion="[2.7.0,3.0.0)",org.eclipse.papyrus.core.queries.configuration;vi
+ sibility:="reexport";bundle-version="[0.8.0,1.0.0)",org.eclipse.emf.f
+ acet.infra.query;visibility:="reexport";bundle-version="[0.1.0,1.0.0)
+ ",org.eclipse.uml2.uml;visibility:="reexport";bundle-version="[3.2.0,
+ 4.0.0)",org.eclipse.ui;bundle-version="[3.7.0,4.0.0)",org.eclipse.gmf
+ .runtime.common.core;bundle-version="1.4.0",org.eclipse.gmf.runtime.c
+ ommon.ui.services;bundle-version="1.3.0",org.eclipse.gmf.runtime.diag
+ ram.core;bundle-version="1.4.0",org.eclipse.gmf.runtime.diagram.ui;bu
+ ndle-version="1.4.0",org.eclipse.papyrus.log;bundle-version="0.8.0",o
+ rg.eclipse.papyrus.extendedtypes;bundle-version="0.8.0",org.eclipse.p
+ apyrus.core;bundle-version="0.8.0",org.eclipse.papyrus.editor;bundle-
+ version="0.8.0",org.eclipse.papyrus.diagram.common;bundle-version="0.
+ 8.0"
+Bundle-Activator: org.eclipse.papyrus.paletteconfiguration.Activator
+Export-Package: org.eclipse.papyrus.paletteconfiguration,org.eclipse.p
+ apyrus.paletteconfiguration.descriptor,org.eclipse.papyrus.palettecon
+ figuration.impl,org.eclipse.papyrus.paletteconfiguration.provider,org
+ .eclipse.papyrus.paletteconfiguration.util
+Bundle-Version: 0.8.0.v201106151827
+Ant-Version: Apache Ant 1.7.1
+Bundle-ClassPath: .
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %providerName
+Bundle-Name: %pluginName
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/papyrus/paletteconfiguration/provider/ExtendedPlugin
+ PaletteProvider$1.class
+SHA1-Digest: YtfIthpMJa1xS3OdHnMk6yoZPPg=
+
+Name: org/eclipse/papyrus/paletteconfiguration/impl/SeparatorConfigura
+ tionImpl.class
+SHA1-Digest: AO+MKXjZF8FNN56dD507CPIjMT4=
+
+Name: icons/separator.gif
+SHA1-Digest: l+rWncEcySSnAJKwblPaMrihzcw=
+
+Name: org/eclipse/papyrus/paletteconfiguration/impl/DrawerConfiguratio
+ nImpl.class
+SHA1-Digest: Hc+Q96RCU2kuyv2xCq5PB5OpSKA=
+
+Name: org/eclipse/papyrus/paletteconfiguration/descriptor/ExtendedEdit
+ HelperAdvice.class
+SHA1-Digest: SxxN8HbT18atTrCoMkfSo8pMt2M=
+
+Name: org/eclipse/papyrus/paletteconfiguration/provider/ExtendedPlugin
+ PaletteProvider$ExtendedPaletteFactory.class
+SHA1-Digest: qRxBkowRmInXy8eYKcf+xeyW5gc=
+
+Name: org/eclipse/papyrus/paletteconfiguration/PaletteconfigurationPac
+ kage$Literals.class
+SHA1-Digest: AufaW96h83ITjNIbMneABZmQwpk=
+
+Name: org/eclipse/papyrus/paletteconfiguration/PaletteconfigurationFac
+ tory.class
+SHA1-Digest: lm/DDTE8ffcenia6rjHHT3PWFFU=
+
+Name: org/eclipse/papyrus/paletteconfiguration/util/Paletteconfigurati
+ onResourceImpl.class
+SHA1-Digest: 8UbgBm9w0tHDQyG0+c0CPb/dkyE=
+
+Name: org/eclipse/papyrus/paletteconfiguration/Configuration.class
+SHA1-Digest: RxDnQiuQ4eLFbUyspKvSLC3nCEk=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/papyrus/paletteconfiguration/provider/IElementTypesB
+ asedTool.class
+SHA1-Digest: 0gCFqYGVWeSugG9Ew66TtmRemms=
+
+Name: org/eclipse/papyrus/paletteconfiguration/util/Paletteconfigurati
+ onResourceFactoryImpl.class
+SHA1-Digest: a3V64JKTK9Dp88gnqKdAbKnsKFQ=
+
+Name: model/PaletteConfiguration.genmodel
+SHA1-Digest: t92oqP9x1cDRzHMwyd0zq2v+lEU=
+
+Name: icons/stack.gif
+SHA1-Digest: J08i2rueFvxIsJ1Z9BgktWZSpEE=
+
+Name: org/eclipse/papyrus/paletteconfiguration/ChildConfiguration.clas
+ s
+SHA1-Digest: peYxR3owEDSwO+j9p/Qn/z2AmJA=
+
+Name: org/eclipse/papyrus/paletteconfiguration/impl/Paletteconfigurati
+ onFactoryImpl.class
+SHA1-Digest: 1VJW7YQK9rjSCz89fohXdFnPhQ8=
+
+Name: org/eclipse/papyrus/paletteconfiguration/provider/ExtendedPlugin
+ PaletteProvider.class
+SHA1-Digest: w3Fep14Y1V1MyKIzIVq/E+01Ai0=
+
+Name: org/eclipse/papyrus/paletteconfiguration/IconDescriptor.class
+SHA1-Digest: 8FLjwrUgTOmT7dDTIwZDC6bAa3E=
+
+Name: icons/testIcon.png
+SHA1-Digest: vVssws51roXo7cvsEv2wevVc4sY=
+
+Name: org/eclipse/papyrus/paletteconfiguration/impl/LeafConfigurationI
+ mpl.class
+SHA1-Digest: VwklzIoj0ZX6udsmdEmuM/1iM4g=
+
+Name: org/eclipse/papyrus/paletteconfiguration/ToolKind.class
+SHA1-Digest: SxFhpG0Br/fifQcrDRmg1dzmCow=
+
+Name: org/eclipse/papyrus/paletteconfiguration/StackConfiguration.clas
+ s
+SHA1-Digest: UQ6dyo/5+LBo/DntCV1f2ZV6sss=
+
+Name: org/eclipse/papyrus/paletteconfiguration/impl/ToolConfigurationI
+ mpl.class
+SHA1-Digest: K/0fFizl4FAGLWLk5kp6eFve1r8=
+
+Name: model/PaletteConfiguration.ecorediag
+SHA1-Digest: f0PxfXpvQPhfu3n5yjKrxb+aDVc=
+
+Name: icons/tool.gif
+SHA1-Digest: /cDYtgpMpwE6CalF4KLRGKMP6IM=
+
+Name: org/eclipse/papyrus/paletteconfiguration/SeparatorConfiguration.
+ class
+SHA1-Digest: grTfFK013uyDohsHDyYACi9CoVM=
+
+Name: org/eclipse/papyrus/paletteconfiguration/util/Paletteconfigurati
+ onXMLProcessor.class
+SHA1-Digest: ixaFrmBBcP0QwxV3tM8x9S2tjnE=
+
+Name: org/eclipse/papyrus/paletteconfiguration/util/Paletteconfigurati
+ onAdapterFactory.class
+SHA1-Digest: ZtNj/KVNrSc+Drn2/aPTEG6kttM=
+
+Name: org/eclipse/papyrus/paletteconfiguration/descriptor/ExtendedSema
+ nticTypeDescriptor.class
+SHA1-Digest: qCW+CSb6rd4bWlZHXjYwGYcDD78=
+
+Name: org/eclipse/papyrus/paletteconfiguration/PaletteconfigurationPac
+ kage.class
+SHA1-Digest: U2cl20CF/jdsbE3ZkA1Do5DWIlc=
+
+Name: plugin.properties
+SHA1-Digest: P184xQCRa7XjZY3ccHWxCM+WDR0=
+
+Name: org/eclipse/papyrus/paletteconfiguration/impl/ElementDescriptorI
+ mpl.class
+SHA1-Digest: D/pxB3j/s1AjSvu2SY44ft8Kg3Y=
+
+Name: icons/elementTypeIcon.gif
+SHA1-Digest: pPLQbqJcrNkVh80Fz8n5In3iAOA=
+
+Name: org/eclipse/papyrus/paletteconfiguration/util/Paletteconfigurati
+ onAdapterFactory$1.class
+SHA1-Digest: I7kRBcdGGDGW924iAdgROoTBmHY=
+
+Name: model/PaletteConfiguration.ecore
+SHA1-Digest: 1SC/31+8k3z2LB/m3oqri/OodwI=
+
+Name: org/eclipse/papyrus/paletteconfiguration/provider/ExtendedConnec
+ tionToolEntry.class
+SHA1-Digest: bZK9ErCxNlwOyio3X1mq89UTqCU=
+
+Name: org/eclipse/papyrus/paletteconfiguration/LeafConfiguration.class
+SHA1-Digest: 0kGH9pkK4HbkSUSPB19ctZH2rs0=
+
+Name: org/eclipse/papyrus/paletteconfiguration/util/PaletteConfigurati
+ onUtils.class
+SHA1-Digest: lykZtbJX9jz17N7MiXzwmNP5VdI=
+
+Name: plugin.xml
+SHA1-Digest: M4rlU5CkKV8THd4Wy9gJZ75Uy80=
+
+Name: icons/drawer.gif
+SHA1-Digest: 5TF7ftfUsp4Z3KdTaSlgyQoFpuk=
+
+Name: org/eclipse/papyrus/paletteconfiguration/ToolConfiguration.class
+SHA1-Digest: xbABMieOVrVoAXEKJU2k3mxbnz8=
+
+Name: org/eclipse/papyrus/paletteconfiguration/DrawerConfiguration.cla
+ ss
+SHA1-Digest: VwQg1Hf7Aq28isjfo/gOulYx7Y8=
+
+Name: org/eclipse/papyrus/paletteconfiguration/provider/ExtendedPalett
+ eDrawer.class
+SHA1-Digest: C5Vd/zLoWoX94LwruDd0WDSiKwQ=
+
+Name: org/eclipse/papyrus/paletteconfiguration/util/PaletteConfigurati
+ onUtils$1.class
+SHA1-Digest: eGvF0+H9Wfv9nW6r9Bg/u7wfbg8=
+
+Name: org/eclipse/papyrus/paletteconfiguration/impl/ChildConfiguration
+ Impl.class
+SHA1-Digest: i8tbuBnjCUODf1y5Fjfw80VJLJA=
+
+Name: about.html
+SHA1-Digest: a2Fk5/pDnCvlEfl7QwDZj/FCgFc=
+
+Name: org/eclipse/papyrus/paletteconfiguration/impl/PaletteConfigurati
+ onImpl.class
+SHA1-Digest: u4LS4QnhbI1BDQ1YGgwhB6zprRE=
+
+Name: org/eclipse/papyrus/paletteconfiguration/PaletteConfiguration.cl
+ ass
+SHA1-Digest: U02QcuY6TmI0YDmnCsIKjqORtus=
+
+Name: org/eclipse/papyrus/paletteconfiguration/ElementDescriptor.class
+SHA1-Digest: Ab4jRdo5YM8Vsdh8OLVg5EmzlO4=
+
+Name: org/eclipse/papyrus/paletteconfiguration/impl/Paletteconfigurati
+ onPackageImpl.class
+SHA1-Digest: hR8SjMpaP9H3A8UN0moeJNlwOUs=
+
+Name: org/eclipse/papyrus/paletteconfiguration/provider/ExtendedCreati
+ onToolEntry.class
+SHA1-Digest: 56cC/xdqDSLeSlFdGhJysWXFYf4=
+
+Name: org/eclipse/papyrus/paletteconfiguration/Activator.class
+SHA1-Digest: HkjjHSrcfOZgUTW/ADag3KIvqyI=
+
+Name: org/eclipse/papyrus/paletteconfiguration/impl/ConfigurationImpl.
+ class
+SHA1-Digest: czMqBO36ZXuR7Hc3BwrEwuLUADM=
+
+Name: org/eclipse/papyrus/paletteconfiguration/impl/IconDescriptorImpl
+ .class
+SHA1-Digest: m9lxi7DhE9U5jvQLtJUoo3k2F7s=
+
+Name: org/eclipse/papyrus/paletteconfiguration/util/Paletteconfigurati
+ onSwitch.class
+SHA1-Digest: If27RD7h4uoe21greKRB7xj4LWA=
+
+Name: org/eclipse/papyrus/paletteconfiguration/impl/StackConfiguration
+ Impl.class
+SHA1-Digest: khphI+hfufOutkD9IKIvwaN3LKM=
+

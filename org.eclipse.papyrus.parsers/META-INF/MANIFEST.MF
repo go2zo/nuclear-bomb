@@ -1,0 +1,563 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.papyrus.parsers;singleton:=true
+Require-Bundle: org.eclipse.ui;bundle-version="[3.7.0,4.0.0)",org.ecli
+ pse.core.runtime;bundle-version="[3.7.0,4.0.0)",org.eclipse.uml2.uml;
+ bundle-version="[3.2.0,4.0.0)",org.eclipse.jface.text;bundle-version=
+ "[3.7.0,4.0.0)",org.eclipse.ui.editors;bundle-version="[3.7.0,4.0.0)"
+ ,org.eclipse.papyrus.umlutils;bundle-version="[0.8.0,1.0.0)",org.ecli
+ pse.papyrus.extensionpoints.editors;bundle-version="[0.8.0,1.0.0)",or
+ g.antlr.runtime;bundle-version="[3.0.0,4.0.0)"
+Bundle-Activator: org.eclipse.papyrus.parsers.PapyrusParsersPlugin
+Bundle-Version: 0.8.0.v201106151827
+Export-Package: org.eclipse.papyrus.parsers,org.eclipse.papyrus.parser
+ s.antlr,org.eclipse.papyrus.parsers.messages,org.eclipse.papyrus.pars
+ ers.modelgenerator,org.eclipse.papyrus.parsers.preferences,org.eclips
+ e.papyrus.parsers.texteditor,org.eclipse.papyrus.parsers.texteditor.c
+ ollaborationuselabel,org.eclipse.papyrus.parsers.texteditor.completio
+ nproposals,org.eclipse.papyrus.parsers.texteditor.parameterlabel,org.
+ eclipse.papyrus.parsers.texteditor.propertylabel,org.eclipse.papyrus.
+ parsers.util
+Ant-Version: Apache Ant 1.7.1
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/papyrus/parsers/antlr/CollaborationUseLabelParser$la
+ bel_return.class
+SHA1-Digest: UgM77BtAGdJAvLkUYwXtoAKDRt0=
+
+Name: org/eclipse/papyrus/parsers/texteditor/completionproposals/Visib
+ ilityCompletionProposal.class
+SHA1-Digest: Bv4zRmnNrADZ76iedzjpAoynffM=
+
+Name: org/eclipse/papyrus/parsers/antlr/ParameterLabelLexer.class
+SHA1-Digest: W3THXUPzTnmo0hgx/PYxJ9h4XFs=
+
+Name: org/eclipse/papyrus/parsers/antlr/ParameterLabelParser$lowerMult
+ iplicity_return.class
+SHA1-Digest: FeGhd5EiyWVeyoolSRB3pOKbwsg=
+
+Name: org/eclipse/papyrus/parsers/texteditor/collaborationuselabel/ICo
+ llaborationUseLabelColorConstants.class
+SHA1-Digest: ZUwybejbEZZzmuQo84CnzSAhamI=
+
+Name: org/eclipse/papyrus/parsers/antlr/ParameterLabelParser$direction
+ _return.class
+SHA1-Digest: HyaOYAtCaQUMLKM1hajGFQF3uLw=
+
+Name: org/eclipse/papyrus/parsers/texteditor/collaborationuselabel/Col
+ laborationUseLabelSourceViewerConfiguration.class
+SHA1-Digest: NlSvgR3F9DtSKdytmlvHVsfJKog=
+
+Name: org/eclipse/papyrus/parsers/antlr/CollaborationUseLabelLexer.cla
+ ss
+SHA1-Digest: RT92mAne+k+aWzZAlHENld0ZMs8=
+
+Name: org/eclipse/papyrus/parsers/antlr/CollaborationUseLabelParser$co
+ llaboration_use_type_return.class
+SHA1-Digest: GUvK1BX/JLgejQwEYAUX1rOHhv0=
+
+Name: org/eclipse/papyrus/parsers/util/UnboundTemplateRecognitionExcep
+ tion.class
+SHA1-Digest: YTWegZ0K4AEhcDx6Xz53jPEZeVM=
+
+Name: org/eclipse/papyrus/parsers/texteditor/WhitespaceDetector.class
+SHA1-Digest: 985oYQ/LG1eIiUm/Loe5EZF5dPQ=
+
+Name: org/eclipse/papyrus/parsers/texteditor/collaborationuselabel/ICo
+ ntext.class
+SHA1-Digest: RfNaVJrDt4LPlOZFnPGSJP8rXKc=
+
+Name: org/eclipse/papyrus/parsers/texteditor/propertylabel/PropertyLab
+ elColorProvider.class
+SHA1-Digest: mOqY6Cjy5Re63Zen0XrOWUcZRms=
+
+Name: org/eclipse/papyrus/parsers/texteditor/parameterlabel/ParameterL
+ abelCompletionProcessor.class
+SHA1-Digest: Qd8jHctqf4t8eaCi5dY95Z0g+sk=
+
+Name: org/eclipse/papyrus/parsers/texteditor/CompletionFilterSourceVie
+ werConfiguration$NullCompletionFilter.class
+SHA1-Digest: avzGZJX+tJjYgCxwXjTYxxMV19o=
+
+Name: org/eclipse/papyrus/parsers/antlr/CollaborationUseLabelLexer$DFA
+ 7.class
+SHA1-Digest: Jg0bKavuu89YgVVzS9CwfsyhD8s=
+
+Name: org/eclipse/papyrus/parsers/antlr/PropertyLabelParser$property_t
+ ype_return.class
+SHA1-Digest: QEMXPNn8faDLp0X7dSJdO05IsC4=
+
+Name: org/eclipse/papyrus/parsers/texteditor/completionproposals/TypeC
+ ompletionProposalComputer.class
+SHA1-Digest: bmASKqWVjb1yT34yRVkP+K1+JBw=
+
+Name: org/eclipse/papyrus/parsers/texteditor/completionproposals/VSL_E
+ numerationLiteral_CompletionProposal.class
+SHA1-Digest: lNlzBCurI6FI+032mM5kGO9wVsg=
+
+Name: org/eclipse/papyrus/parsers/texteditor/CompletionFilterSourceVie
+ werConfiguration$ICompletionFilter.class
+SHA1-Digest: VEk29R77zMyOBan25L5oRFxWUQg=
+
+Name: org/eclipse/papyrus/parsers/texteditor/completionproposals/Prope
+ rtyModifiersProposal.class
+SHA1-Digest: iD9V6bvx1jA0w1WDt0NA1n6Hjlk=
+
+Name: org/eclipse/papyrus/parsers/antlr/PropertyLabelLexer$DFA7.class
+SHA1-Digest: ZxUUvnMLnOfnoFwskdL/QBoJ5v8=
+
+Name: org/eclipse/papyrus/parsers/texteditor/propertylabel/PropertyLab
+ elContextType.class
+SHA1-Digest: K82zuOPQA0Sr7AbgrI6ZfzPocIk=
+
+Name: org/eclipse/papyrus/parsers/modelgenerator/ParameterGenerator.cl
+ ass
+SHA1-Digest: f0zBFvCoN7NJakqyDTjEBJm2C3s=
+
+Name: org/eclipse/papyrus/parsers/antlr/ParameterLabelParser$parameter
+ Modifiers_return.class
+SHA1-Digest: u14+oX6XAVzVhP5qgEU2O9zqldw=
+
+Name: org/eclipse/papyrus/parsers/antlr/ParameterLabelParser$label_ret
+ urn.class
+SHA1-Digest: D4ZuLd4u3/rGU/ODvICKUVnARdc=
+
+Name: org/eclipse/papyrus/parsers/texteditor/parameterlabel/ParameterC
+ onfigurationForUML.class
+SHA1-Digest: DPSl5tqP91nHsvtSvNtAZwtatIs=
+
+Name: org/eclipse/papyrus/parsers/texteditor/collaborationuselabel/Col
+ laborationUseLabelCompletionProcessor.class
+SHA1-Digest: GEtsdonDXBZyji9g6oDODBN8bMw=
+
+Name: org/eclipse/papyrus/parsers/texteditor/parameterlabel/ParameterL
+ abelColorProvider.class
+SHA1-Digest: 1/7r2iFbNbQAiwQqoSeGxvN19SY=
+
+Name: resources/icons/error.gif
+SHA1-Digest: N97gpTnuqVWSz4TSTF0RPc7Qzrk=
+
+Name: org/eclipse/papyrus/parsers/util/AssertionFailedException.class
+SHA1-Digest: fCnTBZsRHR6aBz4lNCeabwapTR4=
+
+Name: org/eclipse/papyrus/parsers/texteditor/completionproposals/Prope
+ rtySubsetsProposal.class
+SHA1-Digest: hCcYBrMTICB3xWiGrhHlwA4wA48=
+
+Name: org/eclipse/papyrus/parsers/util/TypeRecognitionException.class
+SHA1-Digest: 7agAzylafP6Ix6nzRAoIT3xHQIA=
+
+Name: org/eclipse/papyrus/parsers/antlr/CollaborationUseLabelParser$ty
+ pe_return.class
+SHA1-Digest: VNOHWsdxYb979iUe4iKsMjfJCu0=
+
+Name: org/eclipse/papyrus/parsers/texteditor/parameterlabel/IContext.c
+ lass
+SHA1-Digest: LDLNZJk4GzMpavYot1foulYE4N4=
+
+Name: org/eclipse/papyrus/parsers/texteditor/propertylabel/IPropertyLa
+ belColorConstants.class
+SHA1-Digest: 2ZtKmmUZ7XQ5EMogehit2gaiJ9Q=
+
+Name: resources/icons/Property.gif
+SHA1-Digest: tkutZ6OGa7t+eJfCkSBDMLReiRs=
+
+Name: org/eclipse/papyrus/parsers/preferences/IPreferencesConstants.cl
+ ass
+SHA1-Digest: 2YjHoUUkp376a8E65r43IHv3B7E=
+
+Name: org/eclipse/papyrus/parsers/texteditor/propertylabel/IContext.cl
+ ass
+SHA1-Digest: wnemOCmPkC7gU88Z8fMcmebvlnI=
+
+Name: org/eclipse/papyrus/parsers/antlr/ParameterLabelLexer$DFA7.class
+SHA1-Digest: vARH5Vc1v0pgBHQESpN2aaos6hw=
+
+Name: org/eclipse/papyrus/parsers/antlr/PropertyLabelParser$redefinesP
+ roperty_return.class
+SHA1-Digest: 5zGihYteJ8Pjr0rFRF7jlIf7EzU=
+
+Name: org/eclipse/papyrus/parsers/texteditor/ILabelColorConstants.clas
+ s
+SHA1-Digest: fSqQYajEmrI/nRQnKaFyN7iX/Vk=
+
+Name: org/eclipse/papyrus/parsers/antlr/PropertyLabelParser$type_retur
+ n.class
+SHA1-Digest: kXd1I5F4AWZBRpwBZY7tnM0g33U=
+
+Name: org/eclipse/papyrus/parsers/texteditor/propertylabel/PropertyLab
+ elSourceViewerConfiguration.class
+SHA1-Digest: BjjbJNakVFH+mW96PT3suJks9bY=
+
+Name: org/eclipse/papyrus/parsers/texteditor/completionproposals/Deriv
+ edPropertyCompletionProposal.class
+SHA1-Digest: Zn/MmWKs82Xr211hfDE1vXJ0T4U=
+
+Name: org/eclipse/papyrus/parsers/texteditor/parameterlabel/ParameterL
+ abelSourceViewerConfiguration$SingleTokenScanner.class
+SHA1-Digest: Qi5Un6co5qOPsFT/7DzAdy1erBA=
+
+Name: org/eclipse/papyrus/parsers/util/MultiplicityException.class
+SHA1-Digest: qUNBYs28q25G7A1B88bhO2Id1iY=
+
+Name: org/eclipse/papyrus/parsers/util/Assert.class
+SHA1-Digest: 43aC0qbnPe445C28MUslCZxTLVA=
+
+Name: org/eclipse/papyrus/parsers/antlr/ParameterLabelParser$visibilit
+ y_return.class
+SHA1-Digest: Wvzn3R6WoX+MnMr4oE1a+7IPZzc=
+
+Name: org/eclipse/papyrus/parsers/texteditor/completionproposals/Prope
+ rtyRedefineProposal.class
+SHA1-Digest: u2kJls4EaQJABaYVwKfao/xS+JM=
+
+Name: org/eclipse/papyrus/parsers/texteditor/propertylabel/PropertyCon
+ figurationForUML.class
+SHA1-Digest: pzyqDA9IFqs4uVXnzz0DwJybAH8=
+
+Name: org/eclipse/papyrus/parsers/util/Messages.class
+SHA1-Digest: FLzXTbA1NLytMh9A/884iTNLFjs=
+
+Name: org/eclipse/papyrus/parsers/antlr/PropertyLabelParser.class
+SHA1-Digest: AnjOSpplkP7KQ2wR1wQATaJ9mPg=
+
+Name: org/eclipse/papyrus/parsers/antlr/CollaborationUseLabelLexer$DFA
+ 4.class
+SHA1-Digest: fBaj0dd+z3Di8TYkydIZ94d1Xps=
+
+Name: org/eclipse/papyrus/parsers/texteditor/propertylabel/PropertyLab
+ elScanner.class
+SHA1-Digest: e6sNFqG/PQ52tGut3X1wbeUJFHg=
+
+Name: org/eclipse/papyrus/parsers/antlr/PropertyLabelParser$lowerMulti
+ plicity_return.class
+SHA1-Digest: 0A+A/xiagLXepqivXwJe7BMLqs4=
+
+Name: org/eclipse/papyrus/parsers/texteditor/WordDetector.class
+SHA1-Digest: wy/us/HfTs2SvMzIK4oKJlhqOiI=
+
+Name: org/eclipse/papyrus/parsers/texteditor/completionproposals/VSL_N
+ FP_VS_CompletionProposal.class
+SHA1-Digest: LM/XSphCLIyarQqSliLM8CgyRpY=
+
+Name: org/eclipse/papyrus/parsers/antlr/CollaborationUseLabelParser$vi
+ sibility_return.class
+SHA1-Digest: sPr8iffgELSzFDOmuKTv7BFdSBI=
+
+Name: about.html
+SHA1-Digest: a2Fk5/pDnCvlEfl7QwDZj/FCgFc=
+
+Name: org/eclipse/papyrus/parsers/texteditor/propertylabel/PropertyWor
+ dDetector.class
+SHA1-Digest: rBN7WwlMTIRk+57V9fvk9N/E7Kg=
+
+Name: org/eclipse/papyrus/parsers/antlr/PropertyLabelLexer$DFA4.class
+SHA1-Digest: btD7jxmA2XuiEJAjPmxk6OD/oMo=
+
+Name: org/eclipse/papyrus/parsers/antlr/ParameterLabelParser$type_retu
+ rn.class
+SHA1-Digest: ejoYORy4x9PH3bwYGTbXaQgYN9I=
+
+Name: org/eclipse/papyrus/parsers/texteditor/completionproposals/Multi
+ plicityCompletionProposal.class
+SHA1-Digest: AoOjnAxzBDUQ12DLi1RHmTUiJJs=
+
+Name: org/eclipse/papyrus/parsers/texteditor/CompletionFilterSourceVie
+ werConfiguration.class
+SHA1-Digest: xmHL25FQgm6APBYW0I1VjHvjga0=
+
+Name: org/eclipse/papyrus/parsers/texteditor/parameterlabel/ParameterL
+ abelSourceViewerConfiguration.class
+SHA1-Digest: bAMJOyx0aTSMmt31JNZAm9Fs/N0=
+
+Name: org/eclipse/papyrus/parsers/texteditor/propertylabel/PropertyLab
+ elSourceViewerConfiguration$SingleTokenScanner.class
+SHA1-Digest: tVI4c0ndKSBG0/6HeoFM90psadE=
+
+Name: org/eclipse/papyrus/parsers/texteditor/completionproposals/VSL_N
+ ullValue_CompletionProposal.class
+SHA1-Digest: DlyS3dR70yg3AZLSrMcZyqQd5Sk=
+
+Name: org/eclipse/papyrus/parsers/texteditor/collaborationuselabel/Col
+ laborationUseLabelSourceViewerConfiguration$SingleTokenScanner.class
+SHA1-Digest: VG5NQ3QFoTgG0N+wEo3qoblRU/s=
+
+Name: org/eclipse/papyrus/parsers/texteditor/LabelCompletionProcessor.
+ class
+SHA1-Digest: F2U/ML8cW6Q0jLBrIwJRqA+alTs=
+
+Name: org/eclipse/papyrus/parsers/texteditor/completionproposals/NameC
+ ompletionProposal.class
+SHA1-Digest: BJ5wFRCXNJpuYOOw6mC+714kuxQ=
+
+Name: org/eclipse/papyrus/parsers/antlr/ParameterLabelParser.class
+SHA1-Digest: 0JJECMfJKoARJ0WXfIzTrBV1aUY=
+
+Name: org/eclipse/papyrus/parsers/antlr/PropertyLabelParser$propertyMo
+ difier_return.class
+SHA1-Digest: P8bSb3d8Lp/WfoPDuyDoY8pIxZw=
+
+Name: org/eclipse/papyrus/parsers/texteditor/completionproposals/Colla
+ borationCompletionProposalComputer.class
+SHA1-Digest: wwyx8kWMqVMZzVUj+wUuXlzgXxc=
+
+Name: org/eclipse/papyrus/parsers/antlr/PropertyLabelParser$subsetsPro
+ perty_return.class
+SHA1-Digest: l4qC9dfvd4UY9vT/hcHrYX5lJlI=
+
+Name: org/eclipse/papyrus/parsers/texteditor/parameterlabel/ParameterC
+ onfigurationForUML$1.class
+SHA1-Digest: otJlV168wrcXJqb64oBbUARMI/8=
+
+Name: org/eclipse/papyrus/parsers/texteditor/completionproposals/VSL_B
+ ooleanValue_CompletionProposal.class
+SHA1-Digest: jG8kTEAk9+81lEwYKAMyrEXSaDg=
+
+Name: resources/icons/exception.gif
+SHA1-Digest: En8z6mP79lLeqmKo3XrxJAB9bzI=
+
+Name: org/eclipse/papyrus/parsers/texteditor/parameterlabel/ParameterL
+ abelScanner.class
+SHA1-Digest: 6h6Eq7Kn5ak2JzlUtzAxDCymnac=
+
+Name: org/eclipse/papyrus/parsers/texteditor/completionproposals/VSL_U
+ nlimitedNatural_CompletionProposal.class
+SHA1-Digest: WY+TDzDj19sYNDnmZ/ITosbkvzA=
+
+Name: org/eclipse/papyrus/parsers/texteditor/completionproposals/Param
+ eterModifiersProposal.class
+SHA1-Digest: TP1KYI51vwFzYw91u98W9Tit6mY=
+
+Name: org/eclipse/papyrus/parsers/antlr/ParameterLabelParser$upperMult
+ iplicity_return.class
+SHA1-Digest: r6YAU/cvKnjAQcpn9Awf2iPJYpY=
+
+Name: org/eclipse/papyrus/parsers/antlr/ParameterLabelParser$parameter
+ Modifier_return.class
+SHA1-Digest: ap9lDim79mHJvAW+vNERUXZqc6I=
+
+Name: org/eclipse/papyrus/parsers/antlr/ParameterLabelLexer$DFA4.class
+SHA1-Digest: jZ81senIARGbLBhK7SLBrwgIP8U=
+
+Name: org/eclipse/papyrus/parsers/texteditor/parameterlabel/ParameterW
+ ordDetector.class
+SHA1-Digest: Pz4uSihRS44NIIp6cLCV2B/f9AA=
+
+Name: org/eclipse/papyrus/parsers/antlr/ParameterLabelParser$expressio
+ n_return.class
+SHA1-Digest: DLBF2ldkwQNcEOVS9+aAkX+rRLU=
+
+Name: org/eclipse/papyrus/parsers/antlr/CollaborationUseLabelParser$na
+ me_return.class
+SHA1-Digest: lVzR+tI2g50dobSXDO2ioaQL+eg=
+
+Name: resources/icons/warning.gif
+SHA1-Digest: ephugAqnGSA1Bn2gdY4602d9uxw=
+
+Name: org/eclipse/papyrus/parsers/antlr/PropertyLabelParser$label_retu
+ rn.class
+SHA1-Digest: /VfsRoDKoDD+2E9l44gI1x5Ru5A=
+
+Name: org/eclipse/papyrus/parsers/texteditor/completionproposals/VSL_T
+ uple_CompletionProposal.class
+SHA1-Digest: oId6qkrEFAfk+PAjC1gqbxk0E+g=
+
+Name: org/eclipse/papyrus/parsers/antlr/ParameterLabelParser$parameter
+ _type_return.class
+SHA1-Digest: m/i68NnFAxZInEAc8xXJLiBhpps=
+
+Name: org/eclipse/papyrus/parsers/antlr/PropertyLabelParser$defaultVal
+ ue_return.class
+SHA1-Digest: iYqed7CunCBDtYsRVAzZIa2aRWA=
+
+Name: org/eclipse/papyrus/parsers/texteditor/parameterlabel/ParameterL
+ abelPartitionScanner.class
+SHA1-Digest: DWMyZkfO5/IpE6mzeUFhf3OTyh8=
+
+Name: org/eclipse/papyrus/parsers/antlr/PropertyLabelParser$name_retur
+ n.class
+SHA1-Digest: uMws5TKN6oQAcVp2v9yN2vYvceg=
+
+Name: org/eclipse/papyrus/parsers/texteditor/completionproposals/Defau
+ ltValueCompletionProposal.class
+SHA1-Digest: ajktwf/TmlD96uv53SwRsrxRaB0=
+
+Name: org/eclipse/papyrus/parsers/texteditor/collaborationuselabel/Col
+ laborationUseLabelScanner.class
+SHA1-Digest: gyrSocnitpDgeOB9sDUuxPx68ww=
+
+Name: org/eclipse/papyrus/parsers/PapyrusParsersPlugin.class
+SHA1-Digest: sDnlM8zfnPaRsgZs9pAmQOm+GhE=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/papyrus/parsers/texteditor/completionproposals/IComp
+ letionProposalComputer.class
+SHA1-Digest: BWCx83Ewn977BKQjyCbyFjPa7ng=
+
+Name: org/eclipse/papyrus/parsers/texteditor/propertylabel/PropertyCon
+ figurationForUML$1.class
+SHA1-Digest: DnFDGb+j+UVBe0GafTDb58V1gbQ=
+
+Name: org/eclipse/papyrus/parsers/util/SimpleStringErrorReporter.class
+SHA1-Digest: wFNJ3CIn8k7V0bz4u+CDomvA0/A=
+
+Name: org/eclipse/papyrus/parsers/texteditor/collaborationuselabel/Col
+ laborationUseConfigurationForUML$1.class
+SHA1-Digest: PnwXvwm+NqrBYjGZHiV/Vvg5fCo=
+
+Name: org/eclipse/papyrus/parsers/texteditor/LabelContextType.class
+SHA1-Digest: r0Aj93o2vm0Di5yMmS9ak1vPmIE=
+
+Name: org/eclipse/papyrus/parsers/texteditor/completionproposals/TypeC
+ ompletionProposalComputer$TypeNameComparator.class
+SHA1-Digest: n/HQ92CENP7j79+cnJUpxXBl5ZA=
+
+Name: org/eclipse/papyrus/parsers/util/IErrorReporter.class
+SHA1-Digest: y1v5TT6rJwSQqP3zmpKyVG0mO/0=
+
+Name: org/eclipse/papyrus/parsers/texteditor/completionproposals/VSL_R
+ eal_CompletionProposal.class
+SHA1-Digest: ns+fG5tajrnnroVZ3HhS7EEkOH4=
+
+Name: org/eclipse/papyrus/parsers/messages/NFPMessages.class
+SHA1-Digest: Y7srLgugcw8RdX9eU9xSKzAs29s=
+
+Name: resources/icons/default.gif
+SHA1-Digest: ZE6lBeZSol/uR9TJZFYf5PELdfo=
+
+Name: org/eclipse/papyrus/parsers/antlr/ParameterLabelParser$defaultVa
+ lue_return.class
+SHA1-Digest: Ia6KD4Z3Q7xrbvbfq2EehBO5fcQ=
+
+Name: org/eclipse/papyrus/parsers/antlr/PropertyLabelParser$visibility
+ _return.class
+SHA1-Digest: Orn9lw4xnQvhOhGLwDQKNiPSBMk=
+
+Name: org/eclipse/papyrus/parsers/antlr/ParameterLabelParser$name_retu
+ rn.class
+SHA1-Digest: jCYw6LjJWrKkbFnYrfMRP9fior8=
+
+Name: org/eclipse/papyrus/parsers/texteditor/propertylabel/PropertyLab
+ elPartitionScanner.class
+SHA1-Digest: uI0l7Im9ZloiU3n+WQJ8C6HqXzc=
+
+Name: org/eclipse/papyrus/parsers/texteditor/completionproposals/Direc
+ tionCompletionProposal.class
+SHA1-Digest: e3aIhKQCYz04ZNa7hi+tqgTaSjk=
+
+Name: org/eclipse/papyrus/parsers/texteditor/completionproposals/Prope
+ rtyModifierProposal.class
+SHA1-Digest: /zoXYi/EwwlFB++WKybT5AMantg=
+
+Name: org/eclipse/papyrus/parsers/texteditor/completionproposals/VSL_S
+ tringLiteral_CompletionProposal.class
+SHA1-Digest: p2scUX4RHyyB/p1d9Z1VlGWX/io=
+
+Name: org/eclipse/papyrus/parsers/antlr/PropertyLabelParser$propertyMo
+ difiers_return.class
+SHA1-Digest: w1OKXp5AumkvXtb8g3Ay1nmfe2A=
+
+Name: org/eclipse/papyrus/parsers/messages/messages_en.properties
+SHA1-Digest: WXAp2/HssQCN3b1jhtzVqJtxdQY=
+
+Name: org/eclipse/papyrus/parsers/antlr/PropertyLabelParser$unlimitedN
+ atural_return.class
+SHA1-Digest: pQVyJNaH9aUqI1zvyZniW4kBi9A=
+
+Name: org/eclipse/papyrus/parsers/util/NameException.class
+SHA1-Digest: boifR3XWLUO8YKxZqfKFDCffyJU=
+
+Name: org/eclipse/papyrus/parsers/modelgenerator/PropertyGenerator.cla
+ ss
+SHA1-Digest: JrlKXvAt0CTreJwUfJc59rA7n0g=
+
+Name: plugin.properties
+SHA1-Digest: 9QNIX2Y+dscSXjkVDfV6NTpk3vQ=
+
+Name: org/eclipse/papyrus/parsers/antlr/CollaborationUseLabelParser.cl
+ ass
+SHA1-Digest: tQiWjbHnSwLD8XjQnS0cckXpf1Q=
+
+Name: org/eclipse/papyrus/parsers/antlr/PropertyLabelParser$isDerived_
+ return.class
+SHA1-Digest: blGsFCyx3ARHw6Ji/2c6Qq2Z1cM=
+
+Name: org/eclipse/papyrus/parsers/texteditor/collaborationuselabel/Col
+ laborationUseLabelColorProvider.class
+SHA1-Digest: a9f2vYM+3mAnQn3jkTBeZoKIat0=
+
+Name: org/eclipse/papyrus/parsers/texteditor/LabelColorProvider.class
+SHA1-Digest: xCp5SgO4mns1LzIvS8ya90b6Duo=
+
+Name: org/eclipse/papyrus/parsers/texteditor/propertylabel/PropertyLab
+ elTemplateUI.class
+SHA1-Digest: i/fRIuYFi/Vjf+HvwrzlKIz5Tu8=
+
+Name: org/eclipse/papyrus/parsers/antlr/PropertyLabelParser$fullMultip
+ licity_return.class
+SHA1-Digest: QTtwFZK8Kn79AvTI/jnaUzbkzKA=
+
+Name: plugin.xml
+SHA1-Digest: wY7ZUpMnCZmfKOfGYm97HWZldw0=
+
+Name: org/eclipse/papyrus/parsers/texteditor/collaborationuselabel/Col
+ laborationUseConfigurationForUML.class
+SHA1-Digest: gj0zzOm4K1bo9hO14c5aarfx5Cc=
+
+Name: org/eclipse/papyrus/parsers/texteditor/completionproposals/VSL_D
+ efaultValue_CompletionProposal.class
+SHA1-Digest: Y6o8lMExKNte/m0j/W5ghoyX1bE=
+
+Name: org/eclipse/papyrus/parsers/antlr/PropertyLabelLexer.class
+SHA1-Digest: WJS06TTNKumGJzPd+LlR2SzpT+A=
+
+Name: org/eclipse/papyrus/parsers/antlr/ParameterLabelParser$unlimited
+ Natural_return.class
+SHA1-Digest: LMVLrql+M6vpnzyZbd/XwL3ooQ4=
+
+Name: org/eclipse/papyrus/parsers/texteditor/completionproposals/VSL_I
+ nteger_CompletionProposal.class
+SHA1-Digest: tG/3TJRbtVM0vZFZqHzd9o5uYIk=
+
+Name: org/eclipse/papyrus/parsers/texteditor/completionproposals/Param
+ eterModifierProposal.class
+SHA1-Digest: XW4L0TThBDF4eWCJLGARA98S/xo=
+
+Name: org/eclipse/papyrus/parsers/antlr/PropertyLabelParser$upperMulti
+ plicity_return.class
+SHA1-Digest: APE4fAl3yZDTJ+MivVTbWbUEFVE=
+
+Name: org/eclipse/papyrus/parsers/util/messages.properties
+SHA1-Digest: BDh6weLF9Fx8trLYSb6pOF+WRLA=
+
+Name: org/eclipse/papyrus/parsers/antlr/PropertyLabelParser$expression
+ _return.class
+SHA1-Digest: hP978N0BTWdbFbR7Gzx0jSAvwQo=
+
+Name: org/eclipse/papyrus/parsers/texteditor/parameterlabel/IParameter
+ LabelColorConstants.class
+SHA1-Digest: 9RQjj7Uf0jAF3Mz9YbIK8LjOUGI=
+
+Name: org/eclipse/papyrus/parsers/texteditor/completionproposals/VSL_N
+ umberLiteral_CompletionProposal.class
+SHA1-Digest: /a8zWh2H2Ytpef7YxXetidnz0mE=
+
+Name: org/eclipse/papyrus/parsers/antlr/ParameterLabelParser$fullMulti
+ plicity_return.class
+SHA1-Digest: jbDVOwzcTrH5rDg08zcxweAQ4tk=
+
+Name: org/eclipse/papyrus/parsers/modelgenerator/CollaborationUseGener
+ ator.class
+SHA1-Digest: 1UNq5heib8mQbWuTYAvxndE3amg=
+
+Name: org/eclipse/papyrus/parsers/texteditor/propertylabel/PropertyLab
+ elCompletionProcessor.class
+SHA1-Digest: sUIv9ESLTCNziuJRi4nuC/zTVG4=
+

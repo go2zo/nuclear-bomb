@@ -1,0 +1,436 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.papyrus.properties;singleton:=true
+Require-Bundle: com.ibm.icu;bundle-version="[4.4.0,5.0.0)",org.eclipse
+ .emf;bundle-version="2.6.0",org.eclipse.emf.ecore;bundle-version="2.6
+ .0",org.eclipse.emf.ecore.xmi;bundle-version="2.5.0",org.eclipse.emf.
+ databinding;bundle-version="1.2.0",org.eclipse.equinox.common;bundle-
+ version="3.6.0",org.eclipse.ui;bundle-version="3.6.0",org.eclipse.osg
+ i;bundle-version="3.6.0",org.eclipse.core.runtime;bundle-version="3.6
+ .0",org.eclipse.core.resources;bundle-version="3.6.0",org.eclipse.uml
+ 2.uml;bundle-version="3.1.0",org.eclipse.gmf.runtime.diagram.ui;bundl
+ e-version="1.4.0",org.eclipse.gmf.runtime.notation;bundle-version="1.
+ 4.0",org.eclipse.swt;bundle-version="[3.7.0,4.0.0)",org.eclipse.jface
+ ;bundle-version="[3.7.0,4.0.0)",org.eclipse.jface.databinding;bundle-
+ version="[1.5.0,2.0.0)",org.eclipse.core.databinding;bundle-version="
+ [1.4.0,2.0.0)",org.eclipse.core.databinding.property;bundle-version="
+ 1.3.0",org.eclipse.e4.xwt;bundle-version="0.9.1",org.eclipse.e4.xwt.p
+ de;bundle-version="0.9.1",org.eclipse.papyrus.diagram.clazz;bundle-ve
+ rsion="0.7.0",org.eclipse.papyrus.properties.model;bundle-version="0.
+ 8.0",org.eclipse.papyrus.service.edit;bundle-version="0.8.0",org.ecli
+ pse.papyrus.uml.service.types;bundle-version="0.8.0",org.eclipse.papy
+ rus.widgets;bundle-version="0.8.0",org.eclipse.core.databinding.beans
+ ;bundle-version="1.2.100",org.eclipse.emf.facet.infra.query;bundle-ve
+ rsion="0.1.0",org.eclipse.emf.facet.infra.query.core;bundle-version="
+ 0.1.0",org.eclipse.emf.facet.infra.common.core;bundle-version="0.1.0"
+Bundle-Activator: org.eclipse.papyrus.properties.Activator
+Export-Package: org.eclipse.papyrus.properties,org.eclipse.papyrus.pro
+ perties.constraints,org.eclipse.papyrus.properties.databinding,org.ec
+ lipse.papyrus.properties.modelelement,org.eclipse.papyrus.properties.
+ providers,org.eclipse.papyrus.properties.root,org.eclipse.papyrus.pro
+ perties.runtime,org.eclipse.papyrus.properties.util,org.eclipse.papyr
+ us.properties.widgets,org.eclipse.papyrus.properties.widgets.layout,o
+ rg.eclipse.papyrus.properties.xwt
+Bundle-Version: 0.8.0.v201106151827
+Ant-Version: Apache Ant 1.7.1
+Eclipse-BuddyPolicy: dependent
+Bundle-ClassPath: .,bin
+Bundle-Vendor: %Bundle-Vendor
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/papyrus/properties/xwt/XWTTabDescriptorProvider$1.cl
+ ass
+SHA1-Digest: /IgigX2Hdr68mPwWcAFlgF6e6A8=
+
+Name: org/eclipse/papyrus/properties/widgets/MultiReference.class
+SHA1-Digest: iaXSLmbKa7Pe2SfIMYCu5rMNJhE=
+
+Name: org/eclipse/papyrus/properties/creation/EcorePropertyEditorFacto
+ ry$1.class
+SHA1-Digest: gxGGCPOvBGRGDEsOFW6M/ptAIMU=
+
+Name: org/eclipse/papyrus/properties/creation/EditionDialog$1.class
+SHA1-Digest: HRWp+i/MSmyBUnb2LwkgryqNnFU=
+
+Name: org/eclipse/papyrus/properties/constraints/TrueConstraint.class
+SHA1-Digest: VAYvEpwCsK7lldeC0X0gdxIv8y0=
+
+Name: org/eclipse/papyrus/properties/widgets/ReferenceLabel.class
+SHA1-Digest: 9WL/wJvSTyfCkuPUIRAlylF9gdc=
+
+Name: org/eclipse/papyrus/properties/root/util/RootAdapterFactory$1.cl
+ ass
+SHA1-Digest: mupEbfjAOwKXbC/wOYJhGkzTku8=
+
+Name: org/eclipse/papyrus/properties/databinding/EMFObservableList.cla
+ ss
+SHA1-Digest: Jwq87enAT6ozkp1E03TsZiPv8b8=
+
+Name: org/eclipse/papyrus/properties/runtime/preferences/util/Preferen
+ cesSwitch.class
+SHA1-Digest: ZXi+Jrw46B5ecW++K6X8B12w/nw=
+
+Name: org/eclipse/papyrus/properties/preferences/Preferences$1.class
+SHA1-Digest: JNUObVl94hyLhhEclUhF02IGjXg=
+
+Name: icons/error.gif
+SHA1-Digest: dKlEezESemxdXGAOHjJPXnHdtTk=
+
+Name: org/eclipse/papyrus/properties/runtime/preferences/ContextDescri
+ ptor.class
+SHA1-Digest: rjqgF0QThJyX/Mx9EB2iwQgobKA=
+
+Name: org/eclipse/papyrus/properties/modelelement/AbstractModelElement
+ .class
+SHA1-Digest: 7uaNciId85Di+08ZLziK1eA5INw=
+
+Name: org/eclipse/papyrus/properties/runtime/ConfigurationConflict.cla
+ ss
+SHA1-Digest: I1Go3GI5aV+jhmG3y9fmP1Zuplc=
+
+Name: org/eclipse/papyrus/properties/runtime/preferences/impl/Preferen
+ cesFactoryImpl.class
+SHA1-Digest: zSjhL2/FjX1y4krGAuD61jndp9k=
+
+Name: org/eclipse/papyrus/properties/modelelement/EMFModelElement.clas
+ s
+SHA1-Digest: Kp8MR1Mi5Se2o37XJLO0MGFn6L4=
+
+Name: org/eclipse/papyrus/properties/providers/EcoreReferenceContentPr
+ ovider.class
+SHA1-Digest: Styna/K9kmeFJBG1pz154sMxBPA=
+
+Name: org/eclipse/papyrus/properties/databinding/EMFObservableList$1.c
+ lass
+SHA1-Digest: i2hIOtFsRCnvmuzK9fE0AwiXCRw=
+
+Name: org/eclipse/papyrus/properties/constraints/AbstractConstraint.cl
+ ass
+SHA1-Digest: /PYSojsInf/rJdX9rn+P32QK+Lk=
+
+Name: org/eclipse/papyrus/properties/xwt/XWTSectionDescriptor.class
+SHA1-Digest: gUsGh1pbDj0TDLeCL5b+Qhsc0bQ=
+
+Name: org/eclipse/papyrus/properties/modelelement/ModelElementFactory.
+ class
+SHA1-Digest: o652JhrknzeeAd7jCL3DRQAGdeo=
+
+Name: org/eclipse/papyrus/properties/widgets/IntegerSpinner.class
+SHA1-Digest: ruEgpL/O1meDbFZgPo54D4QL7w0=
+
+Name: org/eclipse/papyrus/properties/widgets/StringMultiline.class
+SHA1-Digest: iWNjGSqlglIbbevZx61ugiy84rQ=
+
+Name: org/eclipse/papyrus/properties/widgets/BooleanToggle.class
+SHA1-Digest: 4oo3uPn4UfN3XANZ9tIYM8SpP5Y=
+
+Name: org/eclipse/papyrus/properties/runtime/preferences/util/Preferen
+ cesAdapterFactory$1.class
+SHA1-Digest: 9cNbZTOSPuOcfZ3q62d6PWYLdl0=
+
+Name: org/eclipse/papyrus/properties/root/PropertiesRoot.class
+SHA1-Digest: GuvnchnyuJAej8IXFjXeaUHEZw4=
+
+Name: org/eclipse/papyrus/properties/widgets/ReferenceCombo.class
+SHA1-Digest: RLLAC/5wCtNTiL5p5yoXjwc5rZo=
+
+Name: org/eclipse/papyrus/properties/widgets/BooleanCombo.class
+SHA1-Digest: HryE3zj3qxKZ3oNSQY2X17tppdY=
+
+Name: org/eclipse/papyrus/properties/databinding/MultipleObservable.cl
+ ass
+SHA1-Digest: c6SfPh9pmnw6+ctY6eFZfdIKUEU=
+
+Name: org/eclipse/papyrus/properties/runtime/ConfigurationManager.clas
+ s
+SHA1-Digest: GY3WUjtgrfApy5g4k0KqPuntrO4=
+
+Name: org/eclipse/papyrus/properties/creation/EcorePropertyEditorFacto
+ ry.class
+SHA1-Digest: IUmLXog11c7TkrIcXIjlASga5ng=
+
+Name: org/eclipse/papyrus/properties/Activator.class
+SHA1-Digest: Lyqq3WwyTX8XjDC+Imvn/wjTWrU=
+
+Name: org/eclipse/papyrus/properties/root/util/RootSwitch.class
+SHA1-Digest: kL4HuePZd2P7bi87DSZ49NbGIHY=
+
+Name: model/PropertiesRoot.ecore
+SHA1-Digest: ajXKPAkMeIjEClbxaSXnAXhvpy8=
+
+Name: org/eclipse/papyrus/properties/runtime/DefaultDisplayEngine.clas
+ s
+SHA1-Digest: LxHA3w0q1ppr2ksQUmwCrXfxK/8=
+
+Name: model/Preferences.genmodel
+SHA1-Digest: 3a7Y45essXUnaj+NGgiuzrEggLw=
+
+Name: org/eclipse/papyrus/properties/modelelement/DataSourceFactory$Se
+ lectionEntry.class
+SHA1-Digest: z6zZepztwMSbt0OscT+HWZm70lc=
+
+Name: org/eclipse/papyrus/properties/databinding/EMFObservableValue.cl
+ ass
+SHA1-Digest: sPJvhcAEvUSrjj0zIljj7DZxEPU=
+
+Name: org/eclipse/papyrus/properties/widgets/ExpandableItem.class
+SHA1-Digest: VpFgH91HIXnpa3XWl9U+fQPrH+M=
+
+Name: org/eclipse/papyrus/properties/xwt/XWTTabDescriptor.class
+SHA1-Digest: PBai83Ml31/sAx1ZPe3Z33Oxq2Y=
+
+Name: org/eclipse/papyrus/properties/extensions/EnvironmentExtensionPo
+ int.class
+SHA1-Digest: dp5PESZRNZuNQYUBR9ny7Kq+GEA=
+
+Name: org/eclipse/papyrus/properties/xwt/XWTSection.class
+SHA1-Digest: aCtFi8iuJcyTfXB/gNTTlI4tkRE=
+
+Name: org/eclipse/papyrus/properties/widgets/IntegerMask.class
+SHA1-Digest: Hj6e+ewdBpV/DQEqJOGiRm7dCRM=
+
+Name: org/eclipse/papyrus/properties/widgets/BooleanCheckbox.class
+SHA1-Digest: gHSsSz8DaTRm4yZ6NhI8p978HjM=
+
+Name: org/eclipse/papyrus/properties/modelelement/ModelElement.class
+SHA1-Digest: juxOKw0mK8BPn4fpIPuV8aem6TY=
+
+Name: org/eclipse/papyrus/properties/runtime/preferences/impl/Preferen
+ cesPackageImpl.class
+SHA1-Digest: MZ0Mi71KfFQkYkIR1AdQzOLndfg=
+
+Name: org/eclipse/papyrus/properties/widgets/ViewEditor.class
+SHA1-Digest: metpZH9WO3HQqa5LN5Ofn6uVilk=
+
+Name: about.html
+SHA1-Digest: a2Fk5/pDnCvlEfl7QwDZj/FCgFc=
+
+Name: org/eclipse/papyrus/properties/runtime/preferences/util/Preferen
+ cesAdapterFactory.class
+SHA1-Digest: m2lgwl2kMXsgRmRLM3tCHFU1WlA=
+
+Name: org/eclipse/papyrus/properties/widgets/layout/GridData.class
+SHA1-Digest: kgrYSUcfz0DVyzMFR4JlZbkq1p0=
+
+Name: org/eclipse/papyrus/properties/runtime/ConstraintEngine.class
+SHA1-Digest: L5c/RWE+y/JEZWrxJaCs3MdHAEM=
+
+Name: org/eclipse/papyrus/properties/runtime/ConstraintFactory.class
+SHA1-Digest: aUuD+K6h1bwAKQp8IVnuD3HzPfc=
+
+Name: org/eclipse/papyrus/properties/root/impl/PropertiesRootImpl.clas
+ s
+SHA1-Digest: 6R3Imb58HD0bs2Q+0p2ilAcYaPw=
+
+Name: org/eclipse/papyrus/properties/widgets/InvalidWidget.class
+SHA1-Digest: JeS/iNzxCvTZqpIegXdP+Ner/BI=
+
+Name: org/eclipse/papyrus/properties/util/ClassLoader.class
+SHA1-Digest: mYPgxHLkQii39MHm6AANBCsuvls=
+
+Name: org/eclipse/papyrus/properties/widgets/MultiInteger.class
+SHA1-Digest: BEIy2g/f6B5uWQTl/y6m3XwNbK0=
+
+Name: org/eclipse/papyrus/properties/extensions/ContextExtensionPoint.
+ class
+SHA1-Digest: 59oIDjjcfFNZCjhNfSaAOjm5PIk=
+
+Name: model/Preferences.ecore
+SHA1-Digest: olyxx4kvZc1ZjUuJNCz7QfCbHV0=
+
+Name: org/eclipse/papyrus/properties/widgets/EnumRadio.class
+SHA1-Digest: obbRatOXXpHxDTUTPPZpKQMaxK4=
+
+Name: org/eclipse/papyrus/properties/root/util/RootAdapterFactory.clas
+ s
+SHA1-Digest: oZesVFjJGGqYmhZUxtvuK05j9bs=
+
+Name: org/eclipse/papyrus/properties/runtime/preferences/PreferencesFa
+ ctory.class
+SHA1-Digest: +EbKaYImI3T8T8+gkeYr5KjhkGM=
+
+Name: org/eclipse/papyrus/properties/preferences/Preferences.class
+SHA1-Digest: VGQ5nUa55Ii0q+EMhvOjzj/BL/M=
+
+Name: org/eclipse/papyrus/properties/root/impl/RootFactoryImpl.class
+SHA1-Digest: GKC2tljjvfTrYHsR2Aaat0pq8/0=
+
+Name: org/eclipse/papyrus/properties/modelelement/DataSourceFactory.cl
+ ass
+SHA1-Digest: RNsFGlPil6MbxgYIQPvoCoaHocI=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/papyrus/properties/runtime/preferences/Preferences.c
+ lass
+SHA1-Digest: joprDdhDFGFjPpy2v0wpgnP0JTg=
+
+Name: org/eclipse/papyrus/properties/widgets/IntegerEditor.class
+SHA1-Digest: 7ovcmRzzcoRvFrCIo7OwNSrroyo=
+
+Name: org/eclipse/papyrus/properties/widgets/StringFileSelector.class
+SHA1-Digest: 0dxLUORI9BeSIVYrBFj3GjilS7w=
+
+Name: org/eclipse/papyrus/properties/runtime/preferences/PreferencesPa
+ ckage$Literals.class
+SHA1-Digest: ywb2TaVt883w5TCG0YmuxpiNm+U=
+
+Name: org/eclipse/papyrus/properties/messages/Messages.class
+SHA1-Digest: ArNmfrM43A3vjlmytqIRpayph9Y=
+
+Name: org/eclipse/papyrus/properties/widgets/AbstractPropertyEditor$1.
+ class
+SHA1-Digest: KDzdtWqsqFTYPNTwuWnrBeX1pC8=
+
+Name: org/eclipse/papyrus/properties/modelelement/EMFModelElementFacto
+ ry.class
+SHA1-Digest: RoXtwrl/RDZ7vEFimcul2FoaeiU=
+
+Name: org/eclipse/papyrus/properties/creation/PropertyEditorFactory.cl
+ ass
+SHA1-Digest: MxH4rqm4DP7ebsdVfxQ6qwLeoBw=
+
+Name: model/Environment.xmi
+SHA1-Digest: UnQA1I5LEQD+u8MZgIZ65L/VR/A=
+
+Name: org/eclipse/papyrus/properties/xwt/XWTTabDescriptorProvider.clas
+ s
+SHA1-Digest: V+W6EPmdi+hKltv0ShCE9ZIvKAQ=
+
+Name: org/eclipse/papyrus/properties/root/RootFactory.class
+SHA1-Digest: fy213TysHc3v6QRKQzDXQxe/+Ug=
+
+Name: org/eclipse/papyrus/properties/runtime/preferences/impl/ContextD
+ escriptorImpl.class
+SHA1-Digest: Av1fRSRAKGQsv0LY+b2RDD7F+QM=
+
+Name: org/eclipse/papyrus/properties/widgets/MaskProvider.class
+SHA1-Digest: DrAIQRqd0mxLoCHdd+yp9aex1oY=
+
+Name: org/eclipse/papyrus/properties/modelelement/CompositeModelElemen
+ t.class
+SHA1-Digest: qBOATkzxNgyGEdwuHGru17fz4kA=
+
+Name: org/eclipse/papyrus/properties/constraints/EMFQueryConstraint.cl
+ ass
+SHA1-Digest: /ux02L/xUMaZy8cRr6RosePp8OQ=
+
+Name: org/eclipse/papyrus/properties/modelelement/DataSource.class
+SHA1-Digest: kAdlB5j7m8IBL9xormuuTphTUgA=
+
+Name: org/eclipse/papyrus/properties/constraints/CompoundConstraint.cl
+ ass
+SHA1-Digest: oVURUa0JDgyfBb5OBncCiOjxRGM=
+
+Name: org/eclipse/papyrus/properties/widgets/StringLabel.class
+SHA1-Digest: f6qEtOixAAatMvlb8sXn3FXn6pw=
+
+Name: org/eclipse/papyrus/properties/messages/messages.properties
+SHA1-Digest: PKnF6XK7F06n5be0UAzMsqgyXT4=
+
+Name: org/eclipse/papyrus/properties/widgets/MultiString.class
+SHA1-Digest: 02CJzEL3iN3LVMgHLXeIcyd998g=
+
+Name: org/eclipse/papyrus/properties/databinding/MultipleObservableVal
+ ue.class
+SHA1-Digest: Nle9T0MVCUoXbHPFvPhN1Bt2Nzg=
+
+Name: org/eclipse/papyrus/properties/constraints/EMFInstanceOfConstrai
+ nt.class
+SHA1-Digest: Gygebk3wTbunfEzjhIp3aV0GFIA=
+
+Name: org/eclipse/papyrus/properties/widgets/ReferenceDialog.class
+SHA1-Digest: dX+qt+xRIm1NDj3BCVeaMRLzQsA=
+
+Name: plugin.properties
+SHA1-Digest: y9Ja7f9p54Ot3VoWlRCM1dlzbPc=
+
+Name: org/eclipse/papyrus/properties/providers/EMFObjectLabelProvider.
+ class
+SHA1-Digest: CKymcQZ+eT/184ldF5CU2Rb60/Y=
+
+Name: org/eclipse/papyrus/properties/creation/EditionDialog.class
+SHA1-Digest: GQtAHKtMLvCRhwFAL6nhjz8P1AI=
+
+Name: schema/context.exsd
+SHA1-Digest: R53w0UaE6IbDeHJ6R6rDRQWAVUo=
+
+Name: org/eclipse/papyrus/properties/runtime/preferences/PreferencesPa
+ ckage.class
+SHA1-Digest: dm81wV3+qwXS1YkJaNBGEKFG/uQ=
+
+Name: org/eclipse/papyrus/properties/widgets/StringEditor.class
+SHA1-Digest: FqA1a7Nufff0ZTMIn8usZ1gvk84=
+
+Name: org/eclipse/papyrus/properties/util/EMFHelper.class
+SHA1-Digest: TMSalM+sYMHxXZOiz8z2hduR4l0=
+
+Name: org/eclipse/papyrus/properties/widgets/layout/PropertiesLayout.c
+ lass
+SHA1-Digest: wxhOM1fDD0q1TjgF3fAZkm7ZdZ8=
+
+Name: plugin.xml
+SHA1-Digest: j9HsHm9P0lm5+huq5MzSzYD0d5Y=
+
+Name: org/eclipse/papyrus/properties/root/impl/RootPackageImpl.class
+SHA1-Digest: /Ow+JX7vsBYiMxt8N90pm6W5fIc=
+
+Name: org/eclipse/papyrus/properties/widgets/AbstractPropertyEditor.cl
+ ass
+SHA1-Digest: GlYgeGY/THBFBV5s+TuYYy2wJvc=
+
+Name: org/eclipse/papyrus/properties/constraints/JavaInstanceOf.class
+SHA1-Digest: XI9elgcQkY90A58d3qq+TnOyyms=
+
+Name: org/eclipse/papyrus/properties/runtime/DefaultConstraintEngine.c
+ lass
+SHA1-Digest: TaAqcD2QxtFYnA+tsKGAOt1leos=
+
+Name: org/eclipse/papyrus/properties/runtime/DisplayEngine.class
+SHA1-Digest: azzKLRGo3Ci3ii2UZIp3VNoy1h8=
+
+Name: org/eclipse/papyrus/properties/widgets/EnumCombo.class
+SHA1-Digest: TyaAjm3QMDi2Uso68bG2fktqfKU=
+
+Name: org/eclipse/papyrus/properties/providers/EcoreEnumeratorContentP
+ rovider.class
+SHA1-Digest: LomxbFWIHCNfd/36yPXBtjoy7Yg=
+
+Name: org/eclipse/papyrus/properties/util/Util.class
+SHA1-Digest: eVdiCOln4tl86EPmjiNnqFOXKr0=
+
+Name: org/eclipse/papyrus/properties/root/RootPackage$Literals.class
+SHA1-Digest: DeYp5+wc2zvXEfza2ZuSwscMlbQ=
+
+Name: model/PropertiesRoot.genmodel
+SHA1-Digest: Fo474YlJY9CJXWREr4v0w/KJ8OU=
+
+Name: schema/environment.exsd
+SHA1-Digest: yybeKYEQpU7DPjnbd8LnKJmpDYc=
+
+Name: org/eclipse/papyrus/properties/widgets/BooleanRadio.class
+SHA1-Digest: 2XF0XNJNnvyVpu3+hmjYp3OKoQA=
+
+Name: org/eclipse/papyrus/properties/constraints/Constraint.class
+SHA1-Digest: b02d5oAzX1bL0ASh9u1FPE7vqBI=
+
+Name: org/eclipse/papyrus/properties/root/RootPackage.class
+SHA1-Digest: GN8+qvse0rgPNMEi8GxehJ55Diw=
+
+Name: org/eclipse/papyrus/properties/runtime/preferences/impl/Preferen
+ cesImpl.class
+SHA1-Digest: cP9MuWDYMp/AaMFmgsI/HouL6Z8=
+
+Name: org/eclipse/papyrus/properties/preferences/Preferences$ContextSt
+ ate.class
+SHA1-Digest: LgH0ymj5qEnJAas1WAlNGniHGMs=
+
+Name: org/eclipse/papyrus/properties/databinding/MultipleObservableLis
+ t.class
+SHA1-Digest: 9G6Dzkp9284PxtRknHUmGvJDftk=
+

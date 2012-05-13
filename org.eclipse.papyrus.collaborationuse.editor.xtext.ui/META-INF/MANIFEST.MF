@@ -1,0 +1,131 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.papyrus.collaborationuse.editor.xtext
+ .ui; singleton:=true
+Require-Bundle: org.eclipse.papyrus.collaborationuse.editor.xtext;visi
+ bility:="reexport";bundle-version="[0.8.0,1.0.0)",org.eclipse.xtext.u
+ i;bundle-version="[2.0.0,3.0.0)",org.eclipse.ui.editors;bundle-versio
+ n="3.5.0",org.eclipse.ui.ide;bundle-version="3.5.0",org.eclipse.xtext
+ .ui.shared;bundle-version="[2.0.0,3.0.0)",org.eclipse.ui;bundle-versi
+ on="[3.7.0,4.0.0)",org.eclipse.xtext.builder;bundle-version="[2.0.0,3
+ .0.0)",org.antlr.runtime;bundle-version="[3.2.0,4.0.0)",org.eclipse.p
+ apyrus.extensionpoints.editors;bundle-version="0.8.0",org.eclipse.pap
+ yrus.umlutils;bundle-version="0.8.0",org.eclipse.gmf.runtime.common.c
+ ore;bundle-version="1.4.0",org.eclipse.gmf.runtime.emf.commands.core;
+ bundle-version="1.4.0",org.eclipse.papyrus.core;bundle-version="0.8.0
+ ",org.eclipse.uml2.uml;bundle-version="3.1.1",org.eclipse.papyrus.pro
+ perties.runtime;bundle-version="0.8.0",org.eclipse.papyrus.service.ed
+ it;bundle-version="[0.8.0,1.0.0)",org.eclipse.papyrus.diagram.common;
+ bundle-version="0.8.0",org.eclipse.papyrus.common.editor.xtext.ui;bun
+ dle-version="[0.8.0,1.0.0)",org.eclipse.xtext.gmf.glue;bundle-version
+ ="0.8.0"
+Bundle-Activator: org.eclipse.papyrus.collaborationuse.editor.xtext.ui
+ .internal.UmlCollaborationUseActivator
+Export-Package: org.eclipse.papyrus.collaborationuse.editor.xtext.ui.c
+ ontentassist.antlr
+Bundle-Version: 0.8.0.v201106151827
+Ant-Version: Apache Ant 1.7.1
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %providerName
+Bundle-Name: %pluginName
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Import-Package: org.apache.log4j
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/papyrus/collaborationuse/editor/xtext/ui/quickfix/Um
+ lCollaborationUseQuickfixProvider.class
+SHA1-Digest: vHzR5z0XfnJfaU5vww+8yVhatvo=
+
+Name: org/eclipse/papyrus/collaborationuse/editor/xtext/ui/outline/Uml
+ CollaborationUseOutlineTreeProvider.class
+SHA1-Digest: oPDU7nf/ICvjXSBNMSktB6/MGj0=
+
+Name: org/eclipse/papyrus/collaborationuse/editor/xtext/ui/UmlCollabor
+ ationUseExecutableExtensionFactory.class
+SHA1-Digest: ASuwviH6bR3u5iA0PJ0UklXZeIs=
+
+Name: org/eclipse/papyrus/collaborationuse/editor/xtext/ui/internal/Um
+ lCollaborationUseActivator.class
+SHA1-Digest: iL+Lamh73cFWNc61kOu5i6RC/b4=
+
+Name: plugin.properties
+SHA1-Digest: X21XYITsfVd8JS4W2hYjW45hXfU=
+
+Name: org/eclipse/papyrus/collaborationuse/editor/xtext/ui/contentassi
+ st/antlr/internal/InternalUmlCollaborationUseLexer$DFA14.class
+SHA1-Digest: jXkCcemzwOWHV4P7lKjnnn3ftl0=
+
+Name: org/eclipse/papyrus/collaborationuse/editor/xtext/ui/contentassi
+ st/antlr/internal/InternalUmlCollaborationUseLexer.class
+SHA1-Digest: d9fQr1oNGtJYRBdbTzfF7usxEfI=
+
+Name: plugin.xml
+SHA1-Digest: Vqp3LBtFLCcE5NkUlLVMxMcrpNU=
+
+Name: org/eclipse/papyrus/collaborationuse/editor/xtext/ui/contentassi
+ st/antlr/internal/InternalUmlCollaborationUse.g
+SHA1-Digest: rJZ0rGS9stG3DpnnEGbDaU0hMDo=
+
+Name: org/eclipse/papyrus/collaborationuse/editor/xtext/ui/contentassi
+ st/antlr/UmlCollaborationUseParser.class
+SHA1-Digest: RjA2/55GgHU6jWXfMkRbmOnyaQ4=
+
+Name: org/eclipse/papyrus/collaborationuse/editor/xtext/ui/contentassi
+ st/antlr/internal/InternalUmlCollaborationUse.tokens
+SHA1-Digest: 5Phx+3HV7HHTOJabVN6e96aBnX8=
+
+Name: org/eclipse/papyrus/collaborationuse/editor/xtext/ui/contentassi
+ st/AbstractUmlCollaborationUseProposalProvider.class
+SHA1-Digest: R2oeUeBjlYJ8YpP45qvg7JH9yHY=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/papyrus/collaborationuse/editor/xtext/ui/contributio
+ ns/CollaborationUsePopupEditor.class
+SHA1-Digest: 1p+maltUl4jixO+MfQ4xm2V3Xww=
+
+Name: org/eclipse/papyrus/collaborationuse/editor/xtext/ui/contentassi
+ st/UmlCollaborationUseProposalProvider.class
+SHA1-Digest: YZXS7eke78OLrDEB68x2goY121I=
+
+Name: org/eclipse/papyrus/collaborationuse/editor/xtext/ui/labeling/Um
+ lCollaborationUseLabelProvider.class
+SHA1-Digest: HaHhKEl+YAlglHaU/cDTFEDWX9A=
+
+Name: about.html
+SHA1-Digest: y0N4Xo0SWk7dkT2S3XYFPomfO1U=
+
+Name: org/eclipse/papyrus/collaborationuse/editor/xtext/ui/contentassi
+ st/antlr/UmlCollaborationUseParser$1.class
+SHA1-Digest: wIubAJm524q9OCGSmJBFAXevNIk=
+
+Name: org/eclipse/papyrus/collaborationuse/editor/xtext/ui/AbstractUml
+ CollaborationUseUiModule.class
+SHA1-Digest: IIYedWkn2M2AWbokupgZXE0eSSw=
+
+Name: org/eclipse/papyrus/collaborationuse/editor/xtext/ui/contentassi
+ st/antlr/internal/InternalUmlCollaborationUseParser.class
+SHA1-Digest: PNhheKups0Fl7ZYH9eEC4dvd6bI=
+
+Name: org/eclipse/papyrus/collaborationuse/editor/xtext/ui/UmlCollabor
+ ationUseUiModule.class
+SHA1-Digest: UnT6Cf1/31/FAZXFi9j6Ud8AiYk=
+
+Name: org/eclipse/papyrus/collaborationuse/editor/xtext/ui/contributio
+ ns/CollaborationUsePopupEditor$1.class
+SHA1-Digest: xy67b2mJd2uXcPAWe43jRDOYO4g=
+
+Name: org/eclipse/papyrus/collaborationuse/editor/xtext/ui/contributio
+ ns/UMLCollaborationUseEditorUtil.class
+SHA1-Digest: 5WqN84uv6SYYEOUeMUSrRbaKCNk=
+
+Name: org/eclipse/papyrus/collaborationuse/editor/xtext/ui/labeling/Um
+ lCollaborationUseDescriptionLabelProvider.class
+SHA1-Digest: lzYxzS1m/vd68NkSU+gNL9YpqIQ=
+
+Name: org/eclipse/papyrus/collaborationuse/editor/xtext/ui/contentassi
+ st/antlr/internal/InternalUmlCollaborationUse__.g
+SHA1-Digest: TN3N5b2XT1kD76voc79YxX1VcD8=
+

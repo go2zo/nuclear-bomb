@@ -1,0 +1,5630 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.papyrus.diagram.usecase; singleton:=t
+ rue
+Eclipse-LazyStart: true
+Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.7.0,4.0.0)
+ ",org.eclipse.core.resources;bundle-version="[3.7.0,4.0.0)",org.eclip
+ se.core.expressions;bundle-version="[3.4.0,4.0.0)",org.eclipse.jface;
+ bundle-version="[3.7.0,4.0.0)",org.eclipse.ui.ide;bundle-version="[3.
+ 7.0,4.0.0)",org.eclipse.ui.views;bundle-version="[3.6.0,4.0.0)",org.e
+ clipse.ui.navigator;bundle-version="[3.5.0,4.0.0)",org.eclipse.ui.nav
+ igator.resources;bundle-version="[3.4.0,4.0.0)",org.eclipse.emf.ecore
+ ;bundle-version="[2.7.0,3.0.0)",org.eclipse.emf.ecore.xmi;bundle-vers
+ ion="[2.7.0,3.0.0)",org.eclipse.emf.edit.ui;bundle-version="[2.7.0,3.
+ 0.0)",org.eclipse.gmf.runtime.emf.core;bundle-version="[1.4.0,2.0.0)"
+ ,org.eclipse.gmf.runtime.emf.commands.core;bundle-version="[1.4.0,2.0
+ .0)",org.eclipse.gmf.runtime.emf.ui.properties;bundle-version="[1.5.0
+ ,2.0.0)",org.eclipse.gmf.runtime.diagram.ui;bundle-version="[1.5.0,2.
+ 0.0)",org.eclipse.gmf.runtime.diagram.ui.properties;bundle-version="[
+ 1.4.0,2.0.0)",org.eclipse.gmf.runtime.diagram.ui.providers;bundle-ver
+ sion="[1.5.0,2.0.0)",org.eclipse.gmf.runtime.diagram.ui.providers.ide
+ ;bundle-version="[1.2.0,2.0.0)",org.eclipse.gmf.runtime.diagram.ui.re
+ nder;bundle-version="[1.4.0,2.0.0)",org.eclipse.gmf.runtime.diagram.u
+ i.resources.editor;bundle-version="[1.4.0,2.0.0)",org.eclipse.gmf.run
+ time.diagram.ui.resources.editor.ide;bundle-version="[1.2.0,2.0.0)",o
+ rg.eclipse.uml2.uml;visibility:="reexport";bundle-version="[3.2.0,4.0
+ .0)",org.eclipse.uml2.uml.edit;visibility:="reexport";bundle-version=
+ "[3.1.0,4.0.0)",org.eclipse.emf.ecore;visibility:="reexport";bundle-v
+ ersion="[2.7.0,3.0.0)",org.eclipse.emf.ecore.edit;visibility:="reexpo
+ rt";bundle-version="[2.7.0,3.0.0)",org.eclipse.ocl.ecore;visibility:=
+ "reexport";bundle-version="[3.1.0,4.0.0)",org.eclipse.draw2d;visibili
+ ty:="reexport";bundle-version="[3.7.0,4.0.0)",org.eclipse.gmf.runtime
+ .draw2d.ui;visibility:="reexport";bundle-version="[1.5.0,2.0.0)",org.
+ eclipse.gef;visibility:="reexport";bundle-version="[3.7.0,4.0.0)",org
+ .eclipse.papyrus.core.adaptor.gmf;bundle-version="0.8.0",org.eclipse.
+ papyrus.diagram.common;bundle-version="[0.8.0,1.0.0)",org.eclipse.pap
+ yrus.preferences;bundle-version="0.8.0",org.eclipse.papyrus.ui.toolbo
+ x;bundle-version="0.8.0",org.eclipse.papyrus.extensionpoints.editors;
+ bundle-version="[0.8.0,1.0.0)",org.eclipse.emf.validation;visibility:
+ ="reexport";bundle-version="[1.4.0,2.0.0)"
+Bundle-Activator: org.eclipse.papyrus.diagram.usecase.part.UMLDiagramE
+ ditorPlugin
+Export-Package: org.eclipse.papyrus.diagram.usecase,org.eclipse.papyru
+ s.diagram.usecase.command,org.eclipse.papyrus.diagram.usecase.draw2d,
+ org.eclipse.papyrus.diagram.usecase.edit.commands,org.eclipse.papyrus
+ .diagram.usecase.edit.helpers,org.eclipse.papyrus.diagram.usecase.edi
+ t.parts,org.eclipse.papyrus.diagram.usecase.edit.policies,org.eclipse
+ .papyrus.diagram.usecase.expressions,org.eclipse.papyrus.diagram.usec
+ ase.figure,org.eclipse.papyrus.diagram.usecase.helper,org.eclipse.pap
+ yrus.diagram.usecase.navigator,org.eclipse.papyrus.diagram.usecase.pa
+ rsers,org.eclipse.papyrus.diagram.usecase.part,org.eclipse.papyrus.di
+ agram.usecase.preferences,org.eclipse.papyrus.diagram.usecase.provide
+ rs,org.eclipse.papyrus.diagram.usecase.sheet
+Bundle-Version: 0.8.0.v201106151827
+Ant-Version: Apache Ant 1.7.1
+Bundle-ClassPath: .
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ExtensionPoin
+ tInRectangleEditPart$3.class
+SHA1-Digest: SNmoz4sCj9uWtTnXK7tC0NXQLVM=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AbstractionNameEd
+ itPart.class
+SHA1-Digest: /4OYppn6ALCl39RoHoQ/DsorHg4=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/PackagePackage
+ ableElementCompartment2ItemSemanticEditPolicy.class
+SHA1-Digest: A9xhYAouIzC86Zhq39q09wxkT4o=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorAsRectangleE
+ ditPartTN$1.class
+SHA1-Digest: uPgwB5ZyB/bfMWQeokdZMKrsTt8=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/sheet/UMLSheetLabelProvi
+ der.class
+SHA1-Digest: DgA0F+lxdbltKt06gs4KnegVSRY=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/navigator/UMLAbstractNav
+ igatorItem$2.class
+SHA1-Digest: 6vcpVAv8phPbxho1niqlny3A8Aw=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentEdit
+ PartTN$UseCaseSubjectFigure$1.class
+SHA1-Digest: gO4M3DdmIbmyJkKxisgRv8qX3Qg=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AbstractionNa
+ meEditPart.class
+SHA1-Digest: nrkK05Z7ARpGEyDrcL90k4lZvUo=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/helpers/ComponentEditHe
+ lper.class
+SHA1-Digest: 4704sdvIOPZ2HOy1pVXy/bYFPEw=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/CustomDiagramD
+ ragDropEditPolicy.class
+SHA1-Digest: 1++DKRtF12yuL5Na5jORD7IyC74=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/RealizationApplie
+ dStereotypeEditPart$2.class
+SHA1-Digest: wZKAIUlFQafn4pNfswv0EEjn9VI=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/ActorItemSeman
+ ticEditPolicyTN.class
+SHA1-Digest: vfS+/fCGX9kgFDi/L+fH2Qm5tT4=
+
+Name: org/eclipse/papyrus/diagram/usecase/navigator/UMLDomainNavigator
+ Item.class
+SHA1-Digest: tb9eMwzGGrn59w6ORwSS0Ysz/TQ=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/CreateUseCaseDiagramWith
+ NavigationHandler.class
+SHA1-Digest: zxyXbfaGSHuId7NaqxmSb84VKVQ=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/commands/Generalization
+ CreateCommand.class
+SHA1-Digest: 6u7C5SWwDu7oL4/cIp12po3srqE=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AbstractionNa
+ meEditPart$4.class
+SHA1-Digest: jAXOaoBd9TYTiHdJtjdOPLqGtQY=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/PackageIte
+ mSemanticEditPolicyTN.class
+SHA1-Digest: 8q72X+oZOnUSk4msVOFncSMVycQ=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/PackageNameEditPa
+ rtCN$2.class
+SHA1-Digest: YvuggnAOyvKfiTi9osWkzyx72bg=
+
+Name: org/eclipse/papyrus/diagram/usecase/preferences/PackageMergePref
+ erencePage.class
+SHA1-Digest: yXCeWPa9X5KTmQS0kIlICwDUoyw=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ExtendApplied
+ StereotypeEditPart$3.class
+SHA1-Digest: 3/m4Ld/JLJnxzW8FBeFJwbBS3Hk=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/part/UMLLinkDescriptor$1
+ .class
+SHA1-Digest: CBg4ao3/+htxgq0aK/aoBgwgIR4=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/navigator/UMLNavigatorCo
+ ntentProvider$3.class
+SHA1-Digest: wrXi9yTXIDHHVLEbI5edJR4qAx4=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/helpers/ShortCutDiagram
+ EditHelper.class
+SHA1-Digest: EbWbMVuVOR9ET55RyTXbFKFAgcA=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/commands/ActorAsRec
+ tangleCreateCommandTN.class
+SHA1-Digest: YVL5NkN50kaaSr9MKKOLZ61YWyQ=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/DependencyNameEdi
+ tPart$5.class
+SHA1-Digest: peXHLnytZhk9QD/g/VI4kqXxCWs=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/PackageNameEd
+ itPartCN$2.class
+SHA1-Digest: YvuggnAOyvKfiTi9osWkzyx72bg=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/PackageNameEd
+ itPartTN.class
+SHA1-Digest: 4DDkxeNPVdgdOilrOwLbtd8wlaY=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/part/LoadResourceAction.
+ class
+SHA1-Digest: EDeaYdfbOW9GY4nRdUwib4YhErA=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/IncludeApplie
+ dStereotypeEditPart$4.class
+SHA1-Digest: mgCurn39pZ7RJBAhVdWw8VndkTI=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/RealizationIte
+ mSemanticEditPolicy.class
+SHA1-Digest: y/4AcTgQJP9q7/EKAEWjUyx9MNg=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorAsRectan
+ gleNameEditPartTN$2.class
+SHA1-Digest: z7FzAl4PSzYbVl0B3vwFI8GqJLQ=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseAsRectangl
+ eEditPartTN$UseCaseAsClassFigure.class
+SHA1-Digest: Tm0Savd6XW7rvGPYYYbqq6BttxU=
+
+Name: org/eclipse/papyrus/diagram/usecase/part/ValidateAction.class
+SHA1-Digest: z9l/wxsu0sYLDZ7/95e56i0MKAw=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInPackageApp
+ liedStereotypeEditPart.class
+SHA1-Digest: Keh4Zw/lDR6ZcWUWwtGpOySSocc=
+
+Name: org/eclipse/papyrus/diagram/usecase/sheet/UMLPropertySection.cla
+ ss
+SHA1-Digest: Xd3K/6NfpeURVQPTEDF7Uoi9KYU=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentInPackag
+ eNameEditPart$1.class
+SHA1-Digest: XzXLP4jQ0Ej+eN2who5LiJJWrww=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/commands/AbstractionReo
+ rientCommand.class
+SHA1-Digest: 1Skk/C4i+9mYmwtu/SQBi6qZQCM=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/PackageImportAppl
+ iedStereotypeEditPart$1$1.class
+SHA1-Digest: 4HWG6gnTFEw7YrXS6NscTWgsic4=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInPackag
+ eAppliedStereotypeEditPart.class
+SHA1-Digest: Keh4Zw/lDR6ZcWUWwtGpOySSocc=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ExtendsLink_fixed
+ EditPart$ExtendsLink_fixed.class
+SHA1-Digest: 4WH0N7b512qGNP+J4gh5YgIgMiQ=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInPackageNam
+ eEditPart$1.class
+SHA1-Digest: 0ynM2Jm3F5OmqJ1Zohqd7MPLmLo=
+
+Name: org/eclipse/papyrus/diagram/usecase/part/ValidateAction$2.class
+SHA1-Digest: E5mMT6C+tXJyYvf6Ov/aI/PMfGg=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/parsers/AbstractParser$I
+ nvalidValue.class
+SHA1-Digest: KpIZiRbPxnocBR4xmggmbJLtnCU=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintInP
+ ackageNameEditPart$1$1.class
+SHA1-Digest: tvaheBOGCaObW4NXPoaq/jxGbSY=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/ComponentI
+ nPackageItemSemanticEditPolicy.class
+SHA1-Digest: xBrDC24PFVl6qAbwp8PxVx3e1tI=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ExtensionPointEdi
+ tPart$1$1.class
+SHA1-Digest: Q0QZdhjb1C80MFeLb5DkcwJjlDI=
+
+Name: org/eclipse/papyrus/diagram/usecase/preferences/GeneralizationPr
+ eferencePage.class
+SHA1-Digest: azgIj1AXvOL9oyD7FO5nkV2pLM0=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorNameEditPart
+ CN$1.class
+SHA1-Digest: gI6Vdoj7chSIfpafi8+8SuwAKQs=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/IncludeLink_f
+ ixedEditPart$1$1.class
+SHA1-Digest: HGRcGlqhggynB/tmzVjLRQsFcJ4=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AbstractionNameEd
+ itPart$1.class
+SHA1-Digest: hY5aoAU+4fFN9pHNjh+9ITRaA+c=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UsageEditPart.cla
+ ss
+SHA1-Digest: 69DI/7ewBdFVAXgPdnfVMrepZQ4=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseInComponen
+ tNameEditPart$1.class
+SHA1-Digest: JlRmye7ZZ+xb8i36rGB43/VeP28=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/Constraint
+ InComponentItemSemanticEditPolicy.class
+SHA1-Digest: 9V1BULNRD/k4GZYS3tuvVHmys5w=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintInCompo
+ nentNameEditPart.class
+SHA1-Digest: 8PpbiGU7gi7ibFJUyCjdWCGExZA=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereo
+ typeRealizationEditPart$4.class
+SHA1-Digest: SOZH8/1+v0Iq3AZ+5c2OCKJ8E4w=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseAsRectangl
+ eEditPartTN.class
+SHA1-Digest: z89kEc+SewojCHc3nswA964aLIY=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorNameEditPart
+ TN$5.class
+SHA1-Digest: jlHkq5Yqr/5CbaJTOGiVtk0PUS0=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentInPa
+ ckageNameEditPart.class
+SHA1-Digest: d2qw7DHtLFixR7u9jrvrHG78Hnw=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UseCasePoints
+ InRectangleEditPart.class
+SHA1-Digest: Pw9wx1rIJSRz8ZY6Rzixx+N8DrY=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintNam
+ eEditPartTN$3.class
+SHA1-Digest: MrAgJb2sVYR+cLpq/ePfPOHXERI=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/RealizationNameEd
+ itPart.class
+SHA1-Digest: f6aVoGaeie2EXjRDz413espdq3o=
+
+Name: org/eclipse/papyrus/diagram/usecase/figure/UseCaseFigure$1.class
+SHA1-Digest: 6P/AgBDZRDi1ldDPVVN2meIJD90=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseInPack
+ ageEditPart$1.class
+SHA1-Digest: lz9A96SiRu73COSJ7QYS2A5MJgI=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentName
+ EditPartTN$1.class
+SHA1-Digest: 3JHK2mVAuDzHrhteMlTFX0e6enM=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/RealizationNa
+ meEditPart.class
+SHA1-Digest: f6aVoGaeie2EXjRDz413espdq3o=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ExtendsLink_fixed
+ EditPart$5.class
+SHA1-Digest: N7WCLWbUdg3wi6TnPqKxTroujZo=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/PackageImportAppl
+ iedStereotypeEditPart$3.class
+SHA1-Digest: rcpJcUUqIT7KOE3s+dwLQYfdfN0=
+
+Name: org/eclipse/papyrus/diagram/usecase/part/UMLDocumentProvider.cla
+ ss
+SHA1-Digest: v1p909zCIsibzy6hUEOR20JWYxM=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintInC
+ omponentNameEditPart$5.class
+SHA1-Digest: Yz8MeOakWNL00ofVqQ+GPM92/sY=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/IncludeAppliedSte
+ reotypeEditPart$5.class
+SHA1-Digest: 1nZ3S12pgoxHHdxdcJpgFx8wwtg=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/CommentIte
+ mSemanticEditPolicyTN.class
+SHA1-Digest: 9tFutpKCSnloQmN6bhoLdKKHeEc=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInPackag
+ eNameEditPart$2.class
+SHA1-Digest: iRgH5LlB9HBgckRA6lKxyyqV+/w=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/IncludeLink_fixed
+ EditPart$4.class
+SHA1-Digest: St5Ae3QrTyN3FNNBjLdYvQTGmAk=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/CreateExtensio
+ nPointEditPolicy$1.class
+SHA1-Digest: djtM3Xe718Qy5i8g6FgxJJ3+is4=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/ComponentI
+ nComponentItemSemanticEditPolicy.class
+SHA1-Digest: /rMbWUr/KNj4GEzNNYZPJBZYdDU=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/RealizationNa
+ meEditPart$4.class
+SHA1-Digest: Woar+dJh0sT7bylaHgko4n7PxrA=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereotype
+ UsageEditPart$3.class
+SHA1-Digest: lbGXRjdtuXrLWC7w6QPQJrHeBzs=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/PackageNameEd
+ itPartTN$1$1.class
+SHA1-Digest: Pdbo5T/S0Rrx6XfqDtQCSSARH/c=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/DiagramNameEditPa
+ rt$3.class
+SHA1-Digest: rey0KZB8EiSz7DSDiXouSWEB3zE=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/part/UMLCreationWizard$2
+ .class
+SHA1-Digest: C7l4Mv+SfWSR/hJsXYluIXVg3as=
+
+Name: org/eclipse/papyrus/diagram/usecase/part/UMLDiagramEditor$4.clas
+ s
+SHA1-Digest: eIVOxT4FY5jnKjWrUTN4bnwM1qA=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentInPa
+ ckageEditPart$1.class
+SHA1-Digest: 5KEfj4epql3TDNIiWO7QCP2J81A=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/DependencyApplied
+ StereotypeEditPart$5.class
+SHA1-Digest: B/OgileimupMnQtUMjrdqZS8R44=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/part/DiagramEditorContex
+ tMenuProvider$1.class
+SHA1-Digest: hM6SGTXO5G1VkZL+jsufHu/145Q=
+
+Name: org/eclipse/papyrus/diagram/usecase/navigator/UMLDomainNavigator
+ ContentProvider$1.class
+SHA1-Digest: M8Pm5fSrg2Y2jamdS16PaO5peWI=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInPackag
+ eEditPart$1.class
+SHA1-Digest: FwSMFOb14nToCZJKtBEu0EkIRLw=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInPackag
+ eAppliedStereotypeEditPart$3.class
+SHA1-Digest: HACMYyobD8rQDdcGfVrrjlm3D0s=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/helper/UseCaseLinkMappin
+ gHelper.class
+SHA1-Digest: 4n+4qyC4Wf+TfGxMVAqquihap6Y=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseAsRect
+ angleNameEditPartTN$4.class
+SHA1-Digest: rVOwqgObxzOr3YGpHKu8WsMoet4=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UMLEditPartFa
+ ctory.class
+SHA1-Digest: KwTvnYxX+1Nd4pYqb08RPRH0SNI=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/Generalizatio
+ nEditPart.class
+SHA1-Digest: yk6l5P8byk0MF643NlC59Pn/Rl4=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UsageNameEditPart
+ $4.class
+SHA1-Digest: vy2MllS1Yf1H3bNaXJI/hmICMaA=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInPackageApp
+ liedStereotypeEditPart$1$1.class
+SHA1-Digest: /GvYMyrOoivA2OQkZBoBikLAngc=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/navigator/UMLNavigatorCo
+ ntentProvider.class
+SHA1-Digest: qn62bTWKM8vZwkKbkUmNigUoAXQ=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseDiagramEdi
+ tPart$LinkLabelDragPolicy.class
+SHA1-Digest: BXNgr0exePQ8FCUMPJiD55llM2s=
+
+Name: org/eclipse/papyrus/diagram/usecase/part/UMLDiagramEditorUtil.cl
+ ass
+SHA1-Digest: MpkBp1JQf7QzG3xJR4SRFuqKW3s=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/IncludeEditPart$U
+ seCases_WithArrow_Polyline.class
+SHA1-Digest: y1ij2bAm22KYCD+azJAD74rbCmM=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ExtendAppliedSter
+ eotypeEditPart$5.class
+SHA1-Digest: fzdq+4poO/dbRwSqzv4N58Rpn5U=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/CommentBodyEditPa
+ rtTN$1.class
+SHA1-Digest: hkzZp73EFQrXzALup7STA+uPEos=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/providers/UMLParserProvi
+ der$HintAdapter.class
+SHA1-Digest: WABiGlL14lwLS8/UhKOwzba2hTk=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/commands/Realizatio
+ nCreateCommand.class
+SHA1-Digest: XZU2dAn4QR0qCVcRzNBXKlH1EWI=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/CommentBodyEd
+ itPartTN$1.class
+SHA1-Digest: hkzZp73EFQrXzALup7STA+uPEos=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorNameEdit
+ PartTN$2.class
+SHA1-Digest: 0kY8+OLBn3sbrrLGDy3428/DaVI=
+
+Name: org/eclipse/papyrus/diagram/usecase/preferences/ConstraintPrefer
+ encePage.class
+SHA1-Digest: XY5cm/DuzZ+6MfYLuIjAf2iM1Uk=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/helpers/UseCaseEditHelp
+ er.class
+SHA1-Digest: S4nmGhDJALzryB1aNvuKpl/1K10=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ExtendEditPar
+ t.class
+SHA1-Digest: RWVFm1iSh0Bx4SvlUUrgK2wfJEQ=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentUsec
+ ases3EditPart.class
+SHA1-Digest: K3M9SRzu18U7X4b/+qSlmq6Nhz0=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintNameEdi
+ tPartTN$4.class
+SHA1-Digest: fFJCt/uTvOZl/b4xLPfnCKaw1I0=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseNameEditPa
+ rtTN.class
+SHA1-Digest: QFZLBqlY6Z0kzO13cTwD+YmhSmk=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/RealizationNameEd
+ itPart$1.class
+SHA1-Digest: edzLzeSzYQbNWKD745dq9IooZCA=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintEditPar
+ tTN.class
+SHA1-Digest: yzJrvGKK2+vK7Yl+Weo7d46wxm4=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/providers/UMLIconProvide
+ r.class
+SHA1-Digest: mULTKX3F+d8eBuSiNU5o57kpQWs=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ExtensionPoin
+ tEditPart$3.class
+SHA1-Digest: sCLAWfCSh7NyAWbNI8BXdW+ERJA=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInCompon
+ entAppliedStereotypeEditPart$1.class
+SHA1-Digest: 6O10OnB0/yrComgMUU5pIvZYaTA=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorAppliedS
+ tereotypeEditPartTN$2.class
+SHA1-Digest: TMNqlJEDLsMajl+T/W2AkBjYj7c=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AssociationApplie
+ dStereotypeEditPart$1.class
+SHA1-Digest: KOWUuPxulGCsN7nbSzFRD1kj7EI=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintInP
+ ackageNameEditPart$1.class
+SHA1-Digest: gpxZ16PTbnYu4Ea0wPTFNTzp3fU=
+
+Name: org/eclipse/papyrus/diagram/usecase/preferences/DiagramRulersAnd
+ GridPreferencePage.class
+SHA1-Digest: 9vB10DaC0nXSpMrn6h6yqRmdTxs=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/part/UMLUriEditorInputTe
+ ster.class
+SHA1-Digest: lYFp5/8/eOXDB6Oli22T/0l4NCk=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/OpenDiagra
+ mEditPolicy$OpenDiagramCommand$1.class
+SHA1-Digest: H6GiOL/VLBzcc8sTPB9DkgeFcFs=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ExtensionPointInR
+ ectangleEditPart$2.class
+SHA1-Digest: oRrXghZPKjxVGmY7xLeW7mUTf0Y=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentInCo
+ mponentEditPart$1.class
+SHA1-Digest: qJJrsA+i3TobHobLp/R/QtMbzYU=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentInCompon
+ entNameEditPart$1$1.class
+SHA1-Digest: HmRBRIQss8GrAto5vFq+TBKj2qI=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseNameEditPa
+ rtTN$3.class
+SHA1-Digest: Ot5OmmSfHvlT+xisOGALxzL/4ng=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/UseCasePoi
+ ntsInComponentItemSemanticEditPolicy.class
+SHA1-Digest: Q9OvXh3ADC5tk9L2QAlQJxRKkt0=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/preferences/ShortCutDiag
+ ramPreferencePage.class
+SHA1-Digest: vOHLYd5prQNXK4SISudmBMNai6w=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/figure/UseCaseNodeFigure
+ .class
+SHA1-Digest: u3XNCMQyS96gOJWvttYEH1uzkI4=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereotype
+ PackageMergeEditPart$5.class
+SHA1-Digest: s8lOhd5pThubbeDezE2LP4pMeSY=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseNameEd
+ itPartTN$3.class
+SHA1-Digest: Ot5OmmSfHvlT+xisOGALxzL/4ng=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/PackageImport
+ VisibilityEditPart$4.class
+SHA1-Digest: /CToWlSB/OF3hHdPz/3HDsa/82c=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/RealizationAp
+ pliedStereotypeEditPart$5.class
+SHA1-Digest: 7tJKsrydZWvorzG9BQCEgsuai8Q=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/DependencyApp
+ liedStereotypeEditPart$2.class
+SHA1-Digest: vlj5tC69U9cOdTcMvHXXuwg+0v8=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereo
+ typePackageMergeEditPart$5.class
+SHA1-Digest: s8lOhd5pThubbeDezE2LP4pMeSY=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/CommentBodyEditPa
+ rtCN$2.class
+SHA1-Digest: acTPDKPD+ALeg4m++Vu9uzls70s=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereotype
+ PackageMergeEditPart$1$1.class
+SHA1-Digest: igr8T/qvGRxwKzgQeCW3TZFHsI8=
+
+Name: org/eclipse/papyrus/diagram/usecase/providers/UMLElementTypes.cl
+ ass
+SHA1-Digest: GyOK3eskmLrOGZTU/FYca5SBev4=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentInPackag
+ eEditPart$UseCaseSubjectFigure.class
+SHA1-Digest: lD6akYi8TrIljnQWYrvjH679m30=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/CommentBodyEd
+ itPartCN$2.class
+SHA1-Digest: acTPDKPD+ALeg4m++Vu9uzls70s=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorNameEdit
+ PartCN$3.class
+SHA1-Digest: RESnzGJxuoICE9Hya/oKfFEHkvA=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/Generalization
+ ItemSemanticEditPolicy.class
+SHA1-Digest: r51KN1OSFY+LGcydj/ZPrn4yGac=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseAsRectangl
+ eNameEditPartTN$5.class
+SHA1-Digest: n8Cuv8BaHUz5xD+ub7kHTNy+oAU=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentInPa
+ ckageEditPart$UseCaseSubjectFigure.class
+SHA1-Digest: lD6akYi8TrIljnQWYrvjH679m30=
+
+Name: icons/incomingLinksNavigatorGroup.gif
+SHA1-Digest: lUwMuDmTEvmiqtkgC+kWyrYAkVk=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/Generaliza
+ tionItemSemanticEditPolicy.class
+SHA1-Digest: r51KN1OSFY+LGcydj/ZPrn4yGac=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintNameEdi
+ tPartTN.class
+SHA1-Digest: 7P3zcZNeEaOueo420lqQ6OscpgI=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/commands/Constraint
+ InPackageCreateCommand.class
+SHA1-Digest: xQew+c4S0m5nyq8hezgnM0dQ1wA=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereo
+ typePackageImportEditPart$5.class
+SHA1-Digest: obBvnbMSrg2WH5j/JUqYXL6cILQ=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseInPackageN
+ ameEditPart$4.class
+SHA1-Digest: nDl/gFqQVBwZMnIN3p0wN+zVq+M=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/CommentEditPa
+ rtTN$1.class
+SHA1-Digest: RupwETcpIo4+/OH0vx6jXsIV+Cg=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/Constraint
+ ConstrainedElementItemSemanticEditPolicy.class
+SHA1-Digest: GilaiAw+WreSB4uFzPjZZU1GdAQ=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentNameEdit
+ PartTN$3.class
+SHA1-Digest: LAv95qwUPUO5Ebft/BEhquqKpGM=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorAppliedS
+ tereotypeEditPartCN$3.class
+SHA1-Digest: PJJyq9Y+v9gyRHFI44bRcjyOqao=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/PackagePackageabl
+ eElementCompartmentEditPart.class
+SHA1-Digest: OfdbR5BNGrM0pTVcGVezSZCTcZg=
+
+Name: org/eclipse/papyrus/diagram/usecase/navigator/UMLNavigatorAction
+ Provider.class
+SHA1-Digest: 6pzNBpADUGSzahLU9a8+NTYHwW8=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorAppliedStere
+ otypeEditPartTN.class
+SHA1-Digest: JP1yXRLC5u+OAkbwxMAKjwqNhWE=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/DiagramNameEditPa
+ rt.class
+SHA1-Digest: UBhWjLr8+2EPoCTUp/5n1au68UA=
+
+Name: org/eclipse/papyrus/diagram/usecase/draw2d/ShadowShape.class
+SHA1-Digest: qhhXpluWX91cmixXaxEpp0qdWsE=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/ComponentUseca
+ ses2ItemSemanticEditPolicy.class
+SHA1-Digest: KKbxu8R/8Lpf77QjT4Z5PalnHqQ=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/part/UMLCreationWizard.c
+ lass
+SHA1-Digest: Xzf5QZImXa2VL9U2AyBiVtEgV2U=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/commands/AbstractionCre
+ ateCommand.class
+SHA1-Digest: 9NOi1RvSF+aROc2gTZyvgTo1V2k=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInComponentN
+ ameEditPart$1.class
+SHA1-Digest: I7Nrv8DsAP25Z3S/o8h53NCKFtw=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentInPa
+ ckageEditPart.class
+SHA1-Digest: 3a1JvIuDUPZIfG9rHH7gQU/5dx0=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorAsRectangleN
+ ameEditPartTN$5.class
+SHA1-Digest: tBXAkbxiLHf02TM3hV4ZXTbrcvA=
+
+Name: org/eclipse/papyrus/diagram/usecase/part/UMLVisualIDRegistry.cla
+ ss
+SHA1-Digest: Ga6tP9BrnuT38V5u6tS9e/slufY=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/draw2d/ShadowShape.class
+SHA1-Digest: qhhXpluWX91cmixXaxEpp0qdWsE=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/ComponentUseca
+ sesCanonicalEditPolicy.class
+SHA1-Digest: 1miDDAi2Fp/P0YYxwRIbDwMKfGk=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/Generalizatio
+ nAppliedStereotypeEditPart$3.class
+SHA1-Digest: 72+dWzjqPB0TiqLS76OaaRYMuMY=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/PackageImportVisi
+ bilityEditPart$1.class
+SHA1-Digest: pn130bYiV6myAIH8WCG4fPUMF+0=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorAppliedStere
+ otypeEditPartTN$3.class
+SHA1-Digest: EY4E2QCLrWROuBJr4OSiqsewZz0=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/commands/PackageMer
+ geReorientCommand.class
+SHA1-Digest: idmDdDhXeyjD+j4Q7ovDsS0O2pQ=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereotype
+ AbstractionEditPart$4.class
+SHA1-Digest: zwLIksewA/15RcVn8/I8J27n8vw=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/providers/UMLValidationD
+ ecoratorProvider$StatusDecorator.class
+SHA1-Digest: kU0akrcv+2/oNKlQnUrDDm6WTUw=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/ComponentU
+ secasesCanonicalEditPolicy.class
+SHA1-Digest: 1miDDAi2Fp/P0YYxwRIbDwMKfGk=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInPackageApp
+ liedStereotypeEditPart$5.class
+SHA1-Digest: LRWGoJgg6yyAbfZrb43mDxdehDo=
+
+Name: icons/wizban/NewUMLWizard.gif
+SHA1-Digest: V9+GnTa2Eps/Z9j0Ylui5kDdHv0=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/Generalizatio
+ nAppliedStereotypeEditPart$1$1.class
+SHA1-Digest: 0xnoSVH/1GQYPDiK0KkTaU5d+Lw=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/DependencyNam
+ eEditPart.class
+SHA1-Digest: EuCF5RSfpqAnxiga3uDujtyI2+o=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/DiagramNameEd
+ itPart$5.class
+SHA1-Digest: ggyM8UrxtHWD7VTlcJ7w6+uO5mo=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/ActorItemS
+ emanticEditPolicyTN.class
+SHA1-Digest: vfS+/fCGX9kgFDi/L+fH2Qm5tT4=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/helpers/GeneralizationE
+ ditHelper.class
+SHA1-Digest: 3D9XbG5wgxkyPaBsJSK2pca1A58=
+
+Name: icons/obj16/Diagram_UseCase.gif
+SHA1-Digest: QZx4WnOPFhinvtYpdNIXkLNRdIE=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/DependencyNam
+ eEditPart$5.class
+SHA1-Digest: peXHLnytZhk9QD/g/VI4kqXxCWs=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/preferences/DependencyPr
+ eferencePage.class
+SHA1-Digest: PLOksTKILAOoL3ml+caU3W+//mA=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/helpers/UMLBaseEdit
+ Helper.class
+SHA1-Digest: GvHkJMBJdEWmnSHo3UgOjH/7wwg=
+
+Name: org/eclipse/papyrus/diagram/usecase/providers/UMLParserProvider.
+ class
+SHA1-Digest: trwKyPoTcxUsjTx1fx//jeGyWMs=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/helpers/ExtensionPointE
+ ditHelper.class
+SHA1-Digest: MjUWoALlJqJL2tT23yei4ELnEBQ=
+
+Name: org/eclipse/papyrus/diagram/usecase/CreateUseCaseDiagramWithNavi
+ gationHandler.class
+SHA1-Digest: zxyXbfaGSHuId7NaqxmSb84VKVQ=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorEditPartTN.c
+ lass
+SHA1-Digest: 4qit2DTWyDA65+1XU9YmpCnsPDM=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/AssociationIte
+ mSemanticEditPolicy.class
+SHA1-Digest: 82HTL5eFCo3wuvG3FshJRimLPg0=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentInCo
+ mponentNameEditPart$2.class
+SHA1-Digest: qrHAbZYGYXeDDXibKyYnUY53Blk=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintInCompo
+ nentNameEditPart$4.class
+SHA1-Digest: JS4IpTkQD/PAZuNtqxRDTkVPebY=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/part/ValidateAction.clas
+ s
+SHA1-Digest: z9l/wxsu0sYLDZ7/95e56i0MKAw=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorEditPart
+ TN.class
+SHA1-Digest: 4qit2DTWyDA65+1XU9YmpCnsPDM=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/UMLTextSelecti
+ onEditPolicy.class
+SHA1-Digest: SxAjoEFfblpD6fRah/A1bzSbd8U=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/commands/Constraint
+ ConstrainedElementCreateCommand.class
+SHA1-Digest: abLO+4MwsdFG+xp3PeR85H0khbU=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentInPa
+ ckageNameEditPart$1.class
+SHA1-Digest: XzXLP4jQ0Ej+eN2who5LiJJWrww=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorAsRectan
+ gleEditPartTN$ActorAsRectangleFigure.class
+SHA1-Digest: Bhnh0NbhKrAPFspjSSvA7PtER8U=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorAppliedStere
+ otypeEditPartCN$4.class
+SHA1-Digest: jiybrh4nZDYmbysreqhmmboezCE=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintInPacka
+ geNameEditPart$3.class
+SHA1-Digest: 1tYBXsJJfbS0UkXwIZkPqaCVPRU=
+
+Name: org/eclipse/papyrus/diagram/usecase/preferences/ActorPreferenceP
+ age.class
+SHA1-Digest: sxRbrM1mn9l8/yMQhmLmNNo+sKE=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ExtendsLink_f
+ ixedEditPart$4.class
+SHA1-Digest: ss6SNJpg9aBQ9oQAfGNjJ3AgxWI=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintEditPar
+ tTN$CornerBentDescriptor.class
+SHA1-Digest: LqTkGj89MS6cTlDwRbf7AZM9qhs=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/helpers/UsageEditHelper
+ .class
+SHA1-Digest: 7EtCO5VbxRLnwXQEBLaYgUMNx64=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/UseCasePointsC
+ anonicalEditPolicyTN.class
+SHA1-Digest: 65kr8grriXtNySYKQLbpyn6Kw6Y=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AssociationNa
+ meEditPart$3.class
+SHA1-Digest: OLzg4/Gzhxe8AJNVso1RDR4k7pQ=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ExtensionPointEdi
+ tPart$1.class
+SHA1-Digest: yOxqZ+djfh0JwK0vAitoeGSdk+c=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintInC
+ omponentNameEditPart$1$1.class
+SHA1-Digest: DspvpZOdqnXcdbNFohNrxQt+HWs=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentInCompon
+ entEditPart$UseCaseSubjectFigure.class
+SHA1-Digest: OUYeGzUakC8WQA/eTJLU3aX3MzI=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/expressions/UMLOCLFactor
+ y$Expression.class
+SHA1-Digest: QvT16VdiezQyF9mmGUjZC98gNOA=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UsageNameEditPart
+ .class
+SHA1-Digest: dOwd7woY0xS7hjHYwjutzrVezJY=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/IncludeLink_f
+ ixedEditPart$3.class
+SHA1-Digest: x+HSW2THViTet20NhHqECtGgg+4=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/UseCaseDiagram
+ ItemSemanticEditPolicy$DuplicateAnythingCommand.class
+SHA1-Digest: eg9rueJF/tVg5CzzP1qDjPNKVGA=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/commands/Associatio
+ nCreateCommand.class
+SHA1-Digest: nCpqIVdeeQwy+YxS+SmefmQc+54=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintCon
+ strainedElementEditPart$DashedLineConnection.class
+SHA1-Digest: dBLerKYZ+ZCpHPma244qLaQpJ0I=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/part/UMLDiagramEditor$3$
+ 1.class
+SHA1-Digest: 6iab6az56VkkBuOwZL+odubRrQs=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/commands/Associatio
+ nReorientCommand.class
+SHA1-Digest: pBlGSLh2hjKHyS/9cpHoA6F+1Hk=
+
+Name: org/eclipse/papyrus/diagram/usecase/preferences/UseCaseDiagramPr
+ eferencePage.class
+SHA1-Digest: 2Xh8M+e0Z4HgdQ2LP4sct+pPMO4=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/figure/AssociationFigure
+ .class
+SHA1-Digest: /Cp6AFcQ4lAyas/aFUhFv+mGlzo=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseInComp
+ onentNameEditPart$1.class
+SHA1-Digest: JlRmye7ZZ+xb8i36rGB43/VeP28=
+
+Name: org/eclipse/papyrus/diagram/usecase/draw2d/StickMan.class
+SHA1-Digest: L08je70+xKSzznD2Msxxgz76aVc=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorNameEditPart
+ TN.class
+SHA1-Digest: dZQfVJesWexVhsRQqKF5lbfiRQQ=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/commands/CommentCre
+ ateCommandCN.class
+SHA1-Digest: Q+KqLwa6b8ysi2zpvmMvvkpIM+I=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseInPack
+ ageNameEditPart$2.class
+SHA1-Digest: 9pbJ1cvZk6HdPB9XX7g4RuengxE=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UsageNameEdit
+ Part$3.class
+SHA1-Digest: MFmQlIu3eCrpK3nmCWpw6qzKmnA=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseAsRect
+ angleNameEditPartTN$1$1.class
+SHA1-Digest: 5xtLGHOmuzxRhOk5mtZwscNXsX0=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/UseCasePointsI
+ nPackageCanonicalEditPolicy.class
+SHA1-Digest: 6rbaQ18kgikvpFjZgS1zdJiO87A=
+
+Name: org/eclipse/papyrus/diagram/usecase/part/UMLLinkDescriptor$2.cla
+ ss
+SHA1-Digest: 8K//GdXRvOyDPWyB1vHFrsVcJTY=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/PackagePackag
+ eableElementCompartment2EditPart.class
+SHA1-Digest: DyNS/lLgpyUTnFMwVVu6sXsPStw=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AbstractionNameEd
+ itPart$1$1.class
+SHA1-Digest: Su0OhgMAh4qidreWaXdJURhL990=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/ConstraintInCo
+ mponentItemSemanticEditPolicy.class
+SHA1-Digest: 9V1BULNRD/k4GZYS3tuvVHmys5w=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereotype
+ RealizationEditPart$4.class
+SHA1-Digest: SOZH8/1+v0Iq3AZ+5c2OCKJ8E4w=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseInPackageE
+ ditPart.class
+SHA1-Digest: ymBdw2BZ8HFL9dOSi1Cy7H7MXtc=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/PackageImport
+ AppliedStereotypeEditPart$3.class
+SHA1-Digest: rcpJcUUqIT7KOE3s+dwLQYfdfN0=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereotype
+ PackageImportEditPart$3.class
+SHA1-Digest: sYpmLjQDURwZVS0ge6WvjTbSalI=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentInPackag
+ eNameEditPart.class
+SHA1-Digest: 6dI2A9Eo2mFqG1hFjwBVWC/do0I=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/ExtensionPoint
+ ItemSemanticEditPolicy.class
+SHA1-Digest: bY84AUfwdMu5xzLuOyIuaSFa2Pk=
+
+Name: org/eclipse/papyrus/diagram/usecase/part/UMLDocumentProvider$Res
+ ourceSetInfo.class
+SHA1-Digest: SSu/4gSf8RDIMlHzlCWli+iRu68=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/UseCaseIte
+ mSemanticEditPolicyTN.class
+SHA1-Digest: ku04vdKmzX6djAvGHzUMmhTKs6I=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentInCompon
+ entNameEditPart$3.class
+SHA1-Digest: v89rb6erZpcVFpbJNe5dDT1Hglw=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/commands/PackageImportC
+ reateCommand.class
+SHA1-Digest: FK7dIN0wdacvRQdSk2aMKI5qRC0=
+
+Name: org/eclipse/papyrus/diagram/usecase/navigator/UMLNavigatorSorter
+ .class
+SHA1-Digest: B8TVSpnwjXCNEXUpvhJo6jimE1Q=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AssociationAp
+ pliedStereotypeEditPart$4.class
+SHA1-Digest: eoJE4TagMRuduAfG0I/Lax4c0tQ=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/ExtensionP
+ ointItemSemanticEditPolicy.class
+SHA1-Digest: bY84AUfwdMu5xzLuOyIuaSFa2Pk=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/providers/UMLValidationP
+ rovider.class
+SHA1-Digest: 2Hghf11J8CenidXsfCjxUisV8Kc=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/PackageMer
+ geItemSemanticEditPolicy.class
+SHA1-Digest: sC79WLBEaUMT/ndMkeNHsb8CWKY=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/expressions/UMLOCLFactor
+ y.class
+SHA1-Digest: A7TjejO3w6/wanUgpKLzxIvjp5w=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereo
+ typeUsageEditPart$3.class
+SHA1-Digest: lbGXRjdtuXrLWC7w6QPQJrHeBzs=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/GeneralizationApp
+ liedStereotypeEditPart$5.class
+SHA1-Digest: d2EnEYqtXTgmWnBo0vdojNPcy2g=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/providers/UMLValidationD
+ ecoratorProvider$1$1.class
+SHA1-Digest: bFjC/22DBnLQIL9VM1Rg1Ocf/1M=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereo
+ typeAbstractionEditPart$2.class
+SHA1-Digest: rX7vjicX8XAPdL9pOyWNuUmEpSA=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorAppliedStere
+ otypeEditPartCN$1$1.class
+SHA1-Digest: SpOvqNBUWl9j7DsJYWda0r+3aFI=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/ComponentU
+ secases3ItemSemanticEditPolicy.class
+SHA1-Digest: wT35msaLVyIO9c87ROW90+h37j0=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/RealizationAp
+ pliedStereotypeEditPart.class
+SHA1-Digest: 4ZkgbuizKQdC4mt0ePmLSQlCKWs=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereo
+ typePackageMergeEditPart.class
+SHA1-Digest: SsVZEISa618I227wGyH9cgTUe38=
+
+Name: org/eclipse/papyrus/diagram/usecase/part/UMLDocumentProvider$2.c
+ lass
+SHA1-Digest: InLyVhkfKbim0bOGyKU2+gSQeWs=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ExtensionPoin
+ tInRectangleEditPart$1.class
+SHA1-Digest: T+/0rqaOstpiRtv6kDFO15MG4oE=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/part/UMLDocumentProvider
+ $2.class
+SHA1-Digest: InLyVhkfKbim0bOGyKU2+gSQeWs=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseEditPartTN
+ .class
+SHA1-Digest: TbSetCTKLO1n9WBow+jeDgxWvp8=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentEditPart
+ TN$UseCaseSubjectFigure.class
+SHA1-Digest: VUk13BqBATXlKnagzjqQ2MfZipo=
+
+Name: org/eclipse/papyrus/diagram/usecase/part/UMLNewDiagramFileWizard
+ $1.class
+SHA1-Digest: 3v1OegyKxZEs/R0BY0wvhLk7sf0=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseDiagra
+ mEditPart.class
+SHA1-Digest: UHFC+EI0CZwh5SBZ6wUIX0MYGuI=
+
+Name: org/eclipse/papyrus/diagram/usecase/part/UMLNodeDescriptor.class
+SHA1-Digest: X/6hvbYnaF8e9eTw5cEFD9pXhKY=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/GeneralizationEdi
+ tPart.class
+SHA1-Digest: yk6l5P8byk0MF643NlC59Pn/Rl4=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AbstractionEditPa
+ rt.class
+SHA1-Digest: 3zUbeU+u/fuqa0kNJJwyDFIkERE=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AbstractionNa
+ meEditPart$2.class
+SHA1-Digest: nETESqsvr8rqsPAPTYuEPWf2qac=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/commands/UsageCreateCom
+ mand.class
+SHA1-Digest: izo0GR1EEFi8ikUbHdFgcuTQdW4=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/preferences/AbstractionP
+ referencePage.class
+SHA1-Digest: lTAyIH2mEZ/iouKUcAkMJ+aqDDY=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/helper/UseCaseLinkMappin
+ gHelper$2.class
+SHA1-Digest: DTmI2skxP3pffPZlN/GD9M23bO4=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/commands/ComponentInCom
+ ponentCreateCommand.class
+SHA1-Digest: 02sYKSI1yxoX45EOEKHda04EoPU=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ExtendApplied
+ StereotypeEditPart$1.class
+SHA1-Digest: IPUU6RIvSo8lmMS35k2b35Lfz/M=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/navigator/UMLNavigatorCo
+ ntentProvider$1.class
+SHA1-Digest: 1KPs+8+wydQ2XYv8WoiejGEqiYU=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/DependencyNameEdi
+ tPart$3.class
+SHA1-Digest: Y5/cb0nDR4uyUcEbhTAmZjBSsWQ=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/helpers/PackageEdit
+ Helper.class
+SHA1-Digest: X+S6wDpjol7QScfbptM5PYGaFWs=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/IncludeApplie
+ dStereotypeEditPart$2.class
+SHA1-Digest: yXhN6wv/Mz4ZX1+NFUhgksdd45U=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/part/UMLDocumentProvider
+ $ResourceSetInfo$SynchronizerDelegate.class
+SHA1-Digest: XfvRRiwjHng0VJcaH/ch+xCYQew=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/PackageEditPa
+ rtCN.class
+SHA1-Digest: l2LGMn+6ZGJMceAZ4V5bgFXu+y4=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/PackageNameEditPa
+ rtTN$4.class
+SHA1-Digest: KofC2+/b1brHX4yNEXVUjrc/oDs=
+
+Name: org/eclipse/papyrus/diagram/usecase/part/UMLDocumentProvider$Res
+ ourceSetModificationListener.class
+SHA1-Digest: SppWQczbS4HcB0J5PwlCoQdHhgY=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/UmlUseCaseDiagramForMult
+ iEditor.class
+SHA1-Digest: DBMqCqYGUJ0k/etyzXtrPERwiC8=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AssociationNameEd
+ itPart$5.class
+SHA1-Digest: hvpoh9jDyfiViYQLucfLdxT31jk=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInComponentA
+ ppliedStereotypeEditPart$5.class
+SHA1-Digest: lE5Njd/1ZUErH6EEZfhHZ4zEhxk=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInCompon
+ entNameEditPart$4.class
+SHA1-Digest: G+c6XOfcTwvRdDsVNWTBRSG/zjs=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/navigator/UMLNavigatorLi
+ nkHelper.class
+SHA1-Digest: JNFn8mFLyCNuRDtkeVxVwxWZE64=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ExtendEditPart.cl
+ ass
+SHA1-Digest: RWVFm1iSh0Bx4SvlUUrgK2wfJEQ=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/PackageNameEd
+ itPartTN$4.class
+SHA1-Digest: KofC2+/b1brHX4yNEXVUjrc/oDs=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/helpers/CommentEdit
+ Helper.class
+SHA1-Digest: Wh7axpUuDMt2FpoXs5GuNZCMnco=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/preferences/PackagePrefe
+ rencePage.class
+SHA1-Digest: IJCmI4H7C7mehsbUKQPD6P6ihQk=
+
+Name: org/eclipse/papyrus/diagram/usecase/providers/UMLIconProvider.cl
+ ass
+SHA1-Digest: mULTKX3F+d8eBuSiNU5o57kpQWs=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/RealizationNameEd
+ itPart$1$1.class
+SHA1-Digest: /+ZMgkdBnMXXj9iDFKZU4cKVlzc=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/commands/ConstraintInCo
+ mponentCreateCommand.class
+SHA1-Digest: /oTc9/QYFJ+FM+iLQiecm1tsSnk=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/commands/ComponentC
+ reateCommandTN.class
+SHA1-Digest: TUYMOZpuk2eIEXGKfwdFa1BeCDw=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorAppliedS
+ tereotypeEditPartTN$1$1.class
+SHA1-Digest: I8QDsTLURjft06fADTetXtP13yA=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentInCompon
+ entEditPart$1.class
+SHA1-Digest: qJJrsA+i3TobHobLp/R/QtMbzYU=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/CommentEditPa
+ rtCN.class
+SHA1-Digest: W1DTkSRNXUYb/fOzQiQyWUUaLVg=
+
+Name: org/eclipse/papyrus/diagram/usecase/navigator/UMLNavigatorItem$1
+ .class
+SHA1-Digest: 8rnEFDJdT6V1B6dgxcprUdXnovA=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/commands/PackageCre
+ ateCommandCN.class
+SHA1-Digest: 3hruaEPowdaKUVFGmGcJYldiC+4=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/CommentEditPartCN
+ $1.class
+SHA1-Digest: bCvfiCl+//a8Pg8hquD9rBi6Vv8=
+
+Name: org/eclipse/papyrus/diagram/usecase/preferences/ShortCutDiagramP
+ referencePage.class
+SHA1-Digest: vOHLYd5prQNXK4SISudmBMNai6w=
+
+Name: org/eclipse/papyrus/diagram/usecase/preferences/DiagramConnectio
+ nsPreferencePage.class
+SHA1-Digest: r8ZulDO4a3jylRWbxly5rJsXx0g=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseInPackageN
+ ameEditPart.class
+SHA1-Digest: H4d6feVazyeRFK0/08qgHj3FFio=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseEditPartTN
+ $1.class
+SHA1-Digest: AQsbNQHHS1NkI/97Z4ZMxNA97FE=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintNam
+ eEditPartTN.class
+SHA1-Digest: k6kbSqjF/s7ZhFvnIMCbqUBT+Hs=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/RealizationApplie
+ dStereotypeEditPart$5.class
+SHA1-Digest: 7tJKsrydZWvorzG9BQCEgsuai8Q=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/UseCaseDiagram
+ ItemSemanticEditPolicy.class
+SHA1-Digest: jatAwRk1uO5TC5j9Y5LzzuXyq/M=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereo
+ typeRealizationEditPart$2.class
+SHA1-Digest: Tp+GZ8sT3zz91/7y4PGnHSZiWZk=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/UseCaseDia
+ gramCanonicalEditPolicy.class
+SHA1-Digest: 1d7+iZM+VpuaHZyI5ZNwSMmgTUI=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorNameEditPart
+ TN$3.class
+SHA1-Digest: RhB5nu0Aiya/R0JB//JpLdeHGk4=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/UseCaseDia
+ gramItemSemanticEditPolicy.class
+SHA1-Digest: jatAwRk1uO5TC5j9Y5LzzuXyq/M=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/providers/UMLViewProvide
+ r.class
+SHA1-Digest: /Ps8Z72RLP2DuDvzcwg02hyjN/c=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/PackageNameEditPa
+ rtCN$5.class
+SHA1-Digest: 1++k7DuJCmnm1AhIzsZzlM+B694=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/CommentBodyEd
+ itPartCN$1$1.class
+SHA1-Digest: m3eVXNeLsvftSotKsut2u3Iy2L8=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintNam
+ eEditPartTN$1.class
+SHA1-Digest: i8BbEuZ49EYSHUzz1kU6YPuZ9nE=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintInPacka
+ geNameEditPart.class
+SHA1-Digest: Xk+0qiAFrsSZ2IXvpCF7dWSl8JM=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/helpers/PackageMergeEdi
+ tHelper.class
+SHA1-Digest: zaP+yOQdYOnZbXHnj2Eq7FZC1aQ=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ExtensionPoin
+ tEditPart.class
+SHA1-Digest: tribFtE3FyY3v6Yi81icbAK1KAI=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorAppliedS
+ tereotypeEditPartTN.class
+SHA1-Digest: JP1yXRLC5u+OAkbwxMAKjwqNhWE=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/preferences/DiagramGener
+ alPreferencePage.class
+SHA1-Digest: xmwyjRJGZpI8ujbQwmpTTLdGAX4=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/PackageNameEd
+ itPartCN$5.class
+SHA1-Digest: 1++k7DuJCmnm1AhIzsZzlM+B694=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintInP
+ ackageNameEditPart.class
+SHA1-Digest: uSLNWiQNF0HLBRJumE2i/B2RZ3w=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ExtendsLink_fixed
+ EditPart$3.class
+SHA1-Digest: 5PnX6Bm5yI8B53hPz/few2R3tOU=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/commands/DependencyCrea
+ teCommand.class
+SHA1-Digest: O3Ilz/Eq8ErI5T/YvyCohF9D/DA=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/PackageImportAppl
+ iedStereotypeEditPart$1.class
+SHA1-Digest: csAl48S1bCm+IpQ74ltaJhZZUDs=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorEditPartTN$1
+ .class
+SHA1-Digest: e2zW7RNN0ZHmAay/CNdl7OfP210=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintInC
+ omponentNameEditPart$3.class
+SHA1-Digest: 9A0Mq/gfHaI+uFv+76ULkZLlyIg=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorAsRectan
+ gleNameEditPartTN$5.class
+SHA1-Digest: tBXAkbxiLHf02TM3hV4ZXTbrcvA=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/IncludeAppliedSte
+ reotypeEditPart$3.class
+SHA1-Digest: CgK6PlHuHBym1b2jnwutP9FHC5A=
+
+Name: org/eclipse/papyrus/diagram/usecase/part/UMLDiagramEditor.class
+SHA1-Digest: 9Qb+JO+Z18TeXpv6p73KwoEXYXs=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/draw2d/AbstractProportio
+ nalShape.class
+SHA1-Digest: kMOsRqWQB4+AuuiNHBwTYsLCUK0=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/IncludeApplie
+ dStereotypeEditPart$1$1.class
+SHA1-Digest: WKe9O5Lui3AmOH5/gO0suLvvaCg=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/IncludeLink_fixed
+ EditPart$2.class
+SHA1-Digest: KzLo1XJOBBMBkCVIlJjkDleT2t8=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/RealizationEditPa
+ rt.class
+SHA1-Digest: 9X5sBc1a0jXOtgZupkFg1KR8SIA=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/RealizationNa
+ meEditPart$2.class
+SHA1-Digest: 2OIVqvVQZIy8rDd5CHG+W4CJTsg=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentInPackag
+ eNameEditPart$4.class
+SHA1-Digest: k4cZGZPhVzYDuNAOKbxSlQzcs3E=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereotype
+ UsageEditPart$1.class
+SHA1-Digest: tSbcI3FzaNqcY5giuA/SF4gJqVM=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/preferences/RealizationP
+ referencePage.class
+SHA1-Digest: jBAOiyOz2whtC96yOYFON7TOHJo=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/helpers/IncludeEditHelp
+ er.class
+SHA1-Digest: NaWg8a+lSQRBr1a5z64fxEha+Es=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorAsRectangleE
+ ditPartTN.class
+SHA1-Digest: 5vShL9xA4EBGFE8yL0Xtd25Dq00=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/DiagramNameEditPa
+ rt$1.class
+SHA1-Digest: T9z86v2/H5xMabpbiXtDLEGKHBs=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInComponentE
+ ditPart.class
+SHA1-Digest: FSc2sI9lXLhFgtXJM3bJjDfaKWs=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/providers/UMLValidationP
+ rovider$1.class
+SHA1-Digest: NXIuQQrTAyHTKuSaW1vcG3EfZBI=
+
+Name: org/eclipse/papyrus/diagram/usecase/part/UMLDiagramEditor$2.clas
+ s
+SHA1-Digest: xrdfztgqnYdME2Pj7hzvIKNhHHw=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/commands/ExtendReorient
+ Command.class
+SHA1-Digest: ce2a9eV0dFVHpipLzQGkZ97of0o=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInPackageNam
+ eEditPart$4.class
+SHA1-Digest: GVOcyiETtA1/4CQcUPMhxSqE1Rs=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/commands/UseCaseAsR
+ ectangleCreateCommandTN.class
+SHA1-Digest: pG7ijldLTdY51HQLSDI361tr10Y=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/navigator/UMLDomainNavig
+ atorContentProvider$3.class
+SHA1-Digest: 7lUpDRz+415NPPTHmLEFbKCEEoc=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintInPacka
+ geEditPart$1.class
+SHA1-Digest: sWHIvuOGUPAfH9M99ehF1ZoMeSE=
+
+Name: org/eclipse/papyrus/diagram/usecase/navigator/UMLAbstractNavigat
+ orItem$2.class
+SHA1-Digest: 6vcpVAv8phPbxho1niqlny3A8Aw=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/DependencyApplied
+ StereotypeEditPart$3.class
+SHA1-Digest: Q/R3Nx0KHiPD7IHHBY5LGBANZ2w=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/CommentBodyEd
+ itPartCN.class
+SHA1-Digest: VLood7QMFRYXS/jCd0gveASBKzI=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/UseCasePoi
+ ntsInRectangleCanonicalEditPolicy.class
+SHA1-Digest: vDfiLmToLXhl1WMpvmEgpz5Eu4s=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/commands/PackageMergeRe
+ orientCommand.class
+SHA1-Digest: idmDdDhXeyjD+j4Q7ovDsS0O2pQ=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInPackag
+ eAppliedStereotypeEditPart$1.class
+SHA1-Digest: /xMc4TTH/m3jcyoTmXCnwMootSM=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseAsRect
+ angleNameEditPartTN$2.class
+SHA1-Digest: WOdU5gMLsIEjXxDipsvCMLoZTa0=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/commands/Constraint
+ CreateCommandTN.class
+SHA1-Digest: UdhdyS+Jl9CtS1HDpFi6XqJdRNk=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UMLEditPartFactor
+ y$TextCellEditorLocator.class
+SHA1-Digest: zjxYTksT79FwIRQWf49EpFhO6WU=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UsageNameEditPart
+ $2.class
+SHA1-Digest: MaE95sfB0/vmKn4nFZKOZIsLU2A=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorNameEditPart
+ CN$4.class
+SHA1-Digest: HkgJ5UIsuwOxLRwrxZZHUwyHCzw=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/DependencyNameEdi
+ tPart.class
+SHA1-Digest: ccQbeTccEwjpc3GIbPO720O+V9s=
+
+Name: org/eclipse/papyrus/diagram/usecase/part/UMLPaletteFactory.class
+SHA1-Digest: ih80MavhSQx8TgGYMV/BAbm0eds=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AbstractionNameEd
+ itPart$4.class
+SHA1-Digest: jAXOaoBd9TYTiHdJtjdOPLqGtQY=
+
+Name: org/eclipse/papyrus/diagram/usecase/navigator/UMLNavigatorLabelP
+ rovider.class
+SHA1-Digest: oblh9wlKIs8VZyIHqx67f7zftIg=
+
+Name: org/eclipse/papyrus/diagram/usecase/preferences/DiagramPreferenc
+ eInitializer.class
+SHA1-Digest: 9Vpx+0QrJSql+4Yx5lqlF7ldbqA=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ExtendAppliedSter
+ eotypeEditPart$3.class
+SHA1-Digest: 3/m4Ld/JLJnxzW8FBeFJwbBS3Hk=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseInComponen
+ tNameEditPart$4.class
+SHA1-Digest: YmsC5VHaW+qtP2J89y7HVrNBUJo=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/helpers/ComponentEd
+ itHelper.class
+SHA1-Digest: 4704sdvIOPZ2HOy1pVXy/bYFPEw=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/providers/UMLParserProvi
+ der.class
+SHA1-Digest: trwKyPoTcxUsjTx1fx//jeGyWMs=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UMLEditPartFactor
+ y$MultilineCellEditorLocator.class
+SHA1-Digest: uZF6Nv68fOGzh9YBFEAKStOSGXQ=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/navigator/UMLDomainNavig
+ atorItem.class
+SHA1-Digest: tb9eMwzGGrn59w6ORwSS0Ysz/TQ=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/ComponentItemS
+ emanticEditPolicyTN.class
+SHA1-Digest: 2PXdOOYED36OQGi/SARMphTgzHo=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseDiagramEdi
+ tPart$1.class
+SHA1-Digest: YBpmg1coolqSw3gst4cx/FX3FoI=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/PackageMergeE
+ ditPart.class
+SHA1-Digest: Qp/H5MCtoe2Hey+qzGRRuF4zm+8=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/DependencyEditPar
+ t.class
+SHA1-Digest: uut75GPQOWMJ/pIl20q4QX93enQ=
+
+Name: org/eclipse/papyrus/diagram/usecase/command/CreateExtensionPoint
+ Command$SetExtensionPropertyCmd.class
+SHA1-Digest: ew9O6V07tDiukxzxtfD1Smv5oZw=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseInComponen
+ tEditPart$1.class
+SHA1-Digest: VtWyywfTaHRZiUOyISzQ0OJFWCA=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/ConstraintInPa
+ ckageItemSemanticEditPolicy.class
+SHA1-Digest: T2ciG+p2bMI5j/lzSRSHjzFBHLo=
+
+Name: org/eclipse/papyrus/diagram/usecase/helper/UseCaseLinkMappingHel
+ per$SingletonHolder.class
+SHA1-Digest: oDN/dRJ1fRQal1T7N+6IJMn3Pug=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintNameEdi
+ tPartTN$2.class
+SHA1-Digest: N9xNcqO2qmQHytx8trd3+djKmrE=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/UMLTextNonResi
+ zableEditPolicy.class
+SHA1-Digest: z8lJ9sQB+HIIH1fsqvagi9M57lo=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/Dependency
+ ItemSemanticEditPolicy.class
+SHA1-Digest: 5W+GjXsYvtrXHODlJVXuWsAy+bo=
+
+Name: org/eclipse/papyrus/diagram/usecase/parsers/MessageFormatParser.
+ class
+SHA1-Digest: p/UeRFnOYwm9DNgjNrqpqWpKFvM=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentName
+ EditPartTN$4.class
+SHA1-Digest: PGJBUEtjkPoEpEjz9RqGVWwAe2s=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/UseCasePoi
+ ntsInRectangleItemSemanticEditPolicy.class
+SHA1-Digest: czgFifwkk8VpCl9tdRx/BvTQ2Uw=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ExtensionPoin
+ tEditPart$1.class
+SHA1-Digest: yOxqZ+djfh0JwK0vAitoeGSdk+c=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentEdit
+ PartTN.class
+SHA1-Digest: MKxUCDrUag0Fyu/1VCPZyETdxfE=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereotype
+ PackageImportEditPart$2$1.class
+SHA1-Digest: sUwnVCldg1GjardWsTMLUn/8aaE=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/part/UMLDiagramEditor$3.
+ class
+SHA1-Digest: krQCF87kXrvKtJu1Bya1vv3pUe0=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/UseCaseDia
+ gramItemSemanticEditPolicy$DuplicateAnythingCommand.class
+SHA1-Digest: eg9rueJF/tVg5CzzP1qDjPNKVGA=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UseCasePoints
+ InPackageEditPart.class
+SHA1-Digest: oZzAhqWxl9Jl+kSRSebwWUl4Xxo=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInPackag
+ eNameEditPart$5.class
+SHA1-Digest: vv9rlTMiP8hNaiOdSWkLZy2LiRU=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintInCompo
+ nentEditPart$1.class
+SHA1-Digest: ZnG4JIlFrZ6ulYiloN6PsecSAlI=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AssociationEd
+ itPart.class
+SHA1-Digest: hFvi1mN1tUwy9FUld2YsZqPurJY=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseNameEditPa
+ rtTN$1.class
+SHA1-Digest: Q2gnDteITr3qtsIxuLNqAPYxbZs=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/sheet/UMLPropertySection
+ .class
+SHA1-Digest: Xd3K/6NfpeURVQPTEDF7Uoi9KYU=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/commands/Abstractio
+ nReorientCommand.class
+SHA1-Digest: 1Skk/C4i+9mYmwtu/SQBi6qZQCM=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintInC
+ omponentEditPart$1.class
+SHA1-Digest: ZnG4JIlFrZ6ulYiloN6PsecSAlI=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereotype
+ PackageMergeEditPart$3.class
+SHA1-Digest: A1vbbEQGZesrmFc++I22JUH1bsw=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseNameEd
+ itPartTN$1.class
+SHA1-Digest: Q2gnDteITr3qtsIxuLNqAPYxbZs=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/PackageImport
+ VisibilityEditPart$2.class
+SHA1-Digest: cLTQRCnZyswqoOMMbuxXcdLJADM=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/RealizationAp
+ pliedStereotypeEditPart$3.class
+SHA1-Digest: Py7Pz/Nznmvh/x5AsIMymiDhox4=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereo
+ typePackageMergeEditPart$3.class
+SHA1-Digest: A1vbbEQGZesrmFc++I22JUH1bsw=
+
+Name: org/eclipse/papyrus/diagram/usecase/part/UMLDiagramEditor$3$1.cl
+ ass
+SHA1-Digest: 6iab6az56VkkBuOwZL+odubRrQs=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/preferences/Generalizati
+ onPreferencePage.class
+SHA1-Digest: azgIj1AXvOL9oyD7FO5nkV2pLM0=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereo
+ typePackageImportEditPart.class
+SHA1-Digest: iZL3YgvvKAEQMHvqvPgV4/UfhsY=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorNameEdit
+ PartCN$1.class
+SHA1-Digest: gI6Vdoj7chSIfpafi8+8SuwAKQs=
+
+Name: org/eclipse/papyrus/diagram/usecase/preferences/DiagramAppearanc
+ ePreferencePage.class
+SHA1-Digest: HX5F+dSq2q3M8p3uFYzLD/b0pZY=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentNameEdit
+ PartTN.class
+SHA1-Digest: 2YupSRqZN4zmR7T3hdc/WAlEi5U=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseAsRectangl
+ eNameEditPartTN$3.class
+SHA1-Digest: 5oCcs4rnfTU9M3lbUVxj0M5MAF0=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/PackageItemSem
+ anticEditPolicyCN.class
+SHA1-Digest: tSVpyLO85uzbV9bx0ofTt8M9xSM=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/AppliedStereot
+ ypeExtensionPointLabelDisplayEditPolicy.class
+SHA1-Digest: EsAyfmds68MLi0lspA3v4bJX9rs=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UsageEditPart
+ .class
+SHA1-Digest: 69DI/7ewBdFVAXgPdnfVMrepZQ4=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseInPack
+ ageEditPart.class
+SHA1-Digest: ymBdw2BZ8HFL9dOSi1Cy7H7MXtc=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentName
+ EditPartTN.class
+SHA1-Digest: ndyWspv5wInRhJ9WlezgK44GNVg=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereo
+ typePackageImportEditPart$3.class
+SHA1-Digest: sYpmLjQDURwZVS0ge6WvjTbSalI=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintConstra
+ inedElementEditPart.class
+SHA1-Digest: niTOuJQ5EhBLtBRo8q29ikneqw0=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/CommentBodyEditPa
+ rtTN$4.class
+SHA1-Digest: ASA3Jj8Jo9dePgyPhzhFfDpdt4I=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseInPackageN
+ ameEditPart$2.class
+SHA1-Digest: 9pbJ1cvZk6HdPB9XX7g4RuengxE=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/ComponentUseca
+ sesItemSemanticEditPolicy.class
+SHA1-Digest: jQQGdiHWaKBEiE+gf9jriyU7fCw=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentNameEdit
+ PartTN$1.class
+SHA1-Digest: 3JHK2mVAuDzHrhteMlTFX0e6enM=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorAppliedS
+ tereotypeEditPartCN$1.class
+SHA1-Digest: /r19I+8r936SWHyTZuD+S13wW6s=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/CommentBodyEd
+ itPartTN$4.class
+SHA1-Digest: ASA3Jj8Jo9dePgyPhzhFfDpdt4I=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorNameEdit
+ PartTN$5.class
+SHA1-Digest: jlHkq5Yqr/5CbaJTOGiVtk0PUS0=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/commands/UMLReorientCon
+ nectionViewCommand.class
+SHA1-Digest: Pg/Bli5Zz+35sk3XuFnabUga7jE=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereotype
+ AbstractionEditPart.class
+SHA1-Digest: Q98JQ+7q7SwhFt7mAfY/hJ4xAWQ=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/ExtendItemSema
+ nticEditPolicy.class
+SHA1-Digest: VG2yyBsLUK4U5XnkGOmWMYVVyy8=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/RealizationNameEd
+ itPart$4.class
+SHA1-Digest: Woar+dJh0sT7bylaHgko4n7PxrA=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/part/UMLDocumentProvider
+ .class
+SHA1-Digest: v1p909zCIsibzy6hUEOR20JWYxM=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInCompon
+ entAppliedStereotypeEditPart$4.class
+SHA1-Digest: 5DJbjAodEvRf6748+2j/imbxGjU=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintInPacka
+ geEditPart.class
+SHA1-Digest: bOMWmUZWoDQcf+JW2F+axLJzBME=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorAsRectangleN
+ ameEditPartTN$3.class
+SHA1-Digest: TjP++xCeeJaDpWTgsdc6pl/kM24=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorAppliedS
+ tereotypeEditPartTN$5.class
+SHA1-Digest: bQw6UjrT8kW+8JWbUPd0ln/A8js=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/PackageNameEditPa
+ rtTN$1$1.class
+SHA1-Digest: Pdbo5T/S0Rrx6XfqDtQCSSARH/c=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AssociationApplie
+ dStereotypeEditPart$4.class
+SHA1-Digest: eoJE4TagMRuduAfG0I/Lax4c0tQ=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintInP
+ ackageNameEditPart$4.class
+SHA1-Digest: 94wnxmk9NtktJESzh86xA+noBGQ=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/ExtendItem
+ SemanticEditPolicy.class
+SHA1-Digest: VG2yyBsLUK4U5XnkGOmWMYVVyy8=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/Generalizatio
+ nAppliedStereotypeEditPart$1.class
+SHA1-Digest: 7rwW8nynmOF1SGQxkV8HThSrSjg=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorAppliedStere
+ otypeEditPartTN$1.class
+SHA1-Digest: 3isXc61N5vbw9LVGqDqsI9ExoHo=
+
+Name: org/eclipse/papyrus/diagram/usecase/expressions/UMLOCLFactory.cl
+ ass
+SHA1-Digest: A7TjejO3w6/wanUgpKLzxIvjp5w=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/part/DiagramEditorContex
+ tMenuProvider.class
+SHA1-Digest: NpPcnjtBrJTbzGbH/LkvF6tRlxo=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ExtensionPointInR
+ ectangleEditPart$5.class
+SHA1-Digest: H4pVqg2XbKbkOs+nGrCcI+9zsCs=
+
+Name: org/eclipse/papyrus/diagram/usecase/navigator/UMLDomainNavigator
+ ContentProvider.class
+SHA1-Digest: rgyWiJvt0bAHObwaSUeTuiPgyiE=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentEdit
+ PartTN$UseCaseSubjectFigure.class
+SHA1-Digest: VUk13BqBATXlKnagzjqQ2MfZipo=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereotype
+ AbstractionEditPart$2.class
+SHA1-Digest: rX7vjicX8XAPdL9pOyWNuUmEpSA=
+
+Name: org/eclipse/papyrus/diagram/usecase/part/UMLDocumentProvider$Res
+ ourceSetInfo$SynchronizerDelegate$2.class
+SHA1-Digest: 89hM4MtzUU8pJv2s1SHu3N8e58o=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/UMLBaseItemSem
+ anticEditPolicy$LinkConstraints.class
+SHA1-Digest: G+FvilE6s72cWNMb5yXhQWR01Vw=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseDiagra
+ mEditPart$NodeLabelDragPolicy.class
+SHA1-Digest: m9BWFA4khMYKJSLTfMqDGRh7cMA=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInPackageApp
+ liedStereotypeEditPart$3.class
+SHA1-Digest: HACMYyobD8rQDdcGfVrrjlm3D0s=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorNameEdit
+ PartCN.class
+SHA1-Digest: ESXirPwiGe7dSivIOndyGX82QSA=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/DiagramNameEd
+ itPart$3.class
+SHA1-Digest: rey0KZB8EiSz7DSDiXouSWEB3zE=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/DependencyApp
+ liedStereotypeEditPart$5.class
+SHA1-Digest: B/OgileimupMnQtUMjrdqZS8R44=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/CommentBodyEditPa
+ rtCN$5.class
+SHA1-Digest: HbTUla8a0wbx7nG+x+pjfS5HC9s=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/PackagePackage
+ ableElementCompartmentCanonicalEditPolicy.class
+SHA1-Digest: +32z2RP3vMfDfYbzw18uSn9tm6M=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseNameEd
+ itPartTN$1$1.class
+SHA1-Digest: cG+s866EdKr9vFNGGZCOpafRMAY=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseDiagramEdi
+ tPart.class
+SHA1-Digest: UHFC+EI0CZwh5SBZ6wUIX0MYGuI=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/DependencyNam
+ eEditPart$3.class
+SHA1-Digest: Y5/cb0nDR4uyUcEbhTAmZjBSsWQ=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/CommentBodyEd
+ itPartCN$5.class
+SHA1-Digest: HbTUla8a0wbx7nG+x+pjfS5HC9s=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/ExtensionPoint
+ InRectangleItemSemanticEditPolicy.class
+SHA1-Digest: 229iWqjkMxgTxAm0OX6F2AzqJTI=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AssociationAp
+ pliedStereotypeEditPart.class
+SHA1-Digest: zuHaDpRMAqxcNE9C6bL4jTqBm/c=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/IncludeAppliedSte
+ reotypeEditPart.class
+SHA1-Digest: QjGMFUp18jkZdlcsaOoxvuSOUZU=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/commands/ActorInPac
+ kageCreateCommand.class
+SHA1-Digest: TGF1VGU8zCI5Oqb/83jZsdfgrHI=
+
+Name: org/eclipse/papyrus/diagram/usecase/helper/UseCaseLinkMappingHel
+ per$2.class
+SHA1-Digest: IckYaox3uEDWX7fZIeeWR0mtteg=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/OpenDiagramEdi
+ tPolicy$OpenDiagramCommand.class
+SHA1-Digest: 3+UP+cJVB07BD2n1Cgmtm9c0OAw=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintInCompo
+ nentNameEditPart$2.class
+SHA1-Digest: 7kVdQCpXYZMxaAdNdtJkY3eH5zs=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorAppliedStere
+ otypeEditPartCN$2.class
+SHA1-Digest: u/VRKZgJjb6z2JTo1kY843fTrdU=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintNam
+ eEditPartTN$1$1.class
+SHA1-Digest: kHspP03U58TTQfwU3iQpVy20+6I=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintInPacka
+ geNameEditPart$1.class
+SHA1-Digest: gpxZ16PTbnYu4Ea0wPTFNTzp3fU=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/CommentItemSem
+ anticEditPolicyCN.class
+SHA1-Digest: VI/WWOTI1jT365+McHzQP4nTSdQ=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ExtendsLink_f
+ ixedEditPart$2.class
+SHA1-Digest: 2q4sh9eucoilb7u0kkAYp9Kjf38=
+
+Name: org/eclipse/papyrus/diagram/usecase/part/UMLUriEditorInputTester
+ .class
+SHA1-Digest: lYFp5/8/eOXDB6Oli22T/0l4NCk=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AssociationNa
+ meEditPart$1.class
+SHA1-Digest: NbId5icluNLa6T0h54c7aO3sphM=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ExtendsLink_fixed
+ EditPart$1$1.class
+SHA1-Digest: 552Po2bcPNk8mL1I5FXo64ORzoU=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseNameEd
+ itPartTN.class
+SHA1-Digest: QFZLBqlY6Z0kzO13cTwD+YmhSmk=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/UseCasePointsI
+ nComponentItemSemanticEditPolicy.class
+SHA1-Digest: Q9OvXh3ADC5tk9L2QAlQJxRKkt0=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInComponentN
+ ameEditPart$4.class
+SHA1-Digest: G+c6XOfcTwvRdDsVNWTBRSG/zjs=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/part/UMLDocumentProvider
+ $ResourceSetInfo$SynchronizerDelegate$3.class
+SHA1-Digest: dcvEfolmqblRDM1DGk0NBmzdl5g=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentInPa
+ ckageNameEditPart$1$1.class
+SHA1-Digest: YhhjPQKgv/feoGUoXzvz6Oi9lgY=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/IncludeLink_f
+ ixedEditPart$1.class
+SHA1-Digest: rcc01OOLPcpxrZ5/AQbyH9aFS0E=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/PackageImportVisi
+ bilityEditPart$4.class
+SHA1-Digest: /CToWlSB/OF3hHdPz/3HDsa/82c=
+
+Name: org/eclipse/papyrus/diagram/usecase/preferences/PackagePreferenc
+ ePage.class
+SHA1-Digest: IJCmI4H7C7mehsbUKQPD6P6ihQk=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/CommentBodyEditPa
+ rtTN.class
+SHA1-Digest: 7BvQ02skCu0OWMCFEN7VxdvhDK8=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereotype
+ RealizationEditPart.class
+SHA1-Digest: KKPQqcyIK+lfDqhp9s8RfKTAbug=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseInComp
+ onentEditPart.class
+SHA1-Digest: AbHRbUqmkpk73hu2v0E+c2FuUo4=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UsageNameEdit
+ Part$1.class
+SHA1-Digest: 2p5MCOz7R/xFdofw56ImH2vXFZ0=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorNameEditPart
+ CN$1$1.class
+SHA1-Digest: W2/aIyf/olbwzmkEhh9TeYS9WOQ=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/helpers/PackageMerg
+ eEditHelper.class
+SHA1-Digest: zaP+yOQdYOnZbXHnj2Eq7FZC1aQ=
+
+Name: org/eclipse/papyrus/diagram/usecase/part/UMLDiagramEditorUtil$La
+ zyElement2ViewMap.class
+SHA1-Digest: QLQtrG5rF/CVObuWD6PLl7aNE8g=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/commands/ExtensionP
+ ointCreateCommand.class
+SHA1-Digest: FZWgT7I+geROFxt5kMF5mQKOAEw=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorNameEdit
+ PartCN$1$1.class
+SHA1-Digest: W2/aIyf/olbwzmkEhh9TeYS9WOQ=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereotype
+ RealizationEditPart$2.class
+SHA1-Digest: Tp+GZ8sT3zz91/7y4PGnHSZiWZk=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInCompon
+ entNameEditPart.class
+SHA1-Digest: EpUYipC5n4QUBDq/UxbmY5xRJ/8=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ExtendsLink_f
+ ixedEditPart.class
+SHA1-Digest: MswQnPYrROymr6vRqqPvo1y4h2o=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/PackageImport
+ AppliedStereotypeEditPart$1.class
+SHA1-Digest: csAl48S1bCm+IpQ74ltaJhZZUDs=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereotype
+ PackageImportEditPart$1.class
+SHA1-Digest: oheKXGPBXK5G7RbrHIjQmtmf8xo=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/ComponentUseca
+ ses2CanonicalEditPolicy.class
+SHA1-Digest: /iVWtAgjupEd68xMdtmVJFFM0R4=
+
+Name: org/eclipse/papyrus/diagram/usecase/part/UMLInitDiagramFileActio
+ n.class
+SHA1-Digest: p21VBRd4Egpwbk1vH7ZWF1wAM/I=
+
+Name: org/eclipse/papyrus/diagram/usecase/providers/UMLViewProvider.cl
+ ass
+SHA1-Digest: /Ps8Z72RLP2DuDvzcwg02hyjN/c=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentInCo
+ mponentNameEditPart$5.class
+SHA1-Digest: VuTiGMZqVVqcqA2En+mVAPyKaLs=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ExtensionPointEdi
+ tPart.class
+SHA1-Digest: tribFtE3FyY3v6Yi81icbAK1KAI=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentInCo
+ mponentEditPart.class
+SHA1-Digest: lQF3UNpCnLKjSFWAg1WTvA6M8Cg=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentInCompon
+ entNameEditPart$1.class
+SHA1-Digest: XRCSa55YplP9qBufyaPyNJ3LQj4=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AssociationAp
+ pliedStereotypeEditPart$2.class
+SHA1-Digest: x9oOjjRR/OhxUYW+cLobwmSrmsM=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/UMLTextNon
+ ResizableEditPolicy$2.class
+SHA1-Digest: WK55paVppZrwE+PuNUZPFR3V7HE=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentInPa
+ ckageNameEditPart$4.class
+SHA1-Digest: k4cZGZPhVzYDuNAOKbxSlQzcs3E=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereo
+ typeUsageEditPart$1.class
+SHA1-Digest: tSbcI3FzaNqcY5giuA/SF4gJqVM=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentUsec
+ asesEditPart.class
+SHA1-Digest: rNwjAdQHiORjLy3Poi/RWwHlA5U=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/GeneralizationApp
+ liedStereotypeEditPart$3.class
+SHA1-Digest: 72+dWzjqPB0TiqLS76OaaRYMuMY=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInCompon
+ entEditPart.class
+SHA1-Digest: FSc2sI9lXLhFgtXJM3bJjDfaKWs=
+
+Name: org/eclipse/papyrus/diagram/usecase/navigator/UMLAbstractNavigat
+ orItem.class
+SHA1-Digest: 6LO11TWjOXnw1nmBulwqpLn/KtI=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintInCompo
+ nentEditPart$CornerBentDescriptor.class
+SHA1-Digest: PXO+kVABXUZB8X6OKFB010IFkhs=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AssociationNameEd
+ itPart$1$1.class
+SHA1-Digest: JGE9Ht0x3dTp0OZU6k6wmiWT6CU=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInComponentA
+ ppliedStereotypeEditPart$1$1.class
+SHA1-Digest: Fe7ORcYZj5wnV3PF2CoVseqATKw=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/commands/ExtendReor
+ ientCommand.class
+SHA1-Digest: ce2a9eV0dFVHpipLzQGkZ97of0o=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/expressions/UMLAbstractE
+ xpression.class
+SHA1-Digest: OAKkTDGdyOBrvIpGjK6jD/d3hWM=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ExtensionPointEdi
+ tPart$4.class
+SHA1-Digest: xm95FeL5Z6libGHM889oADucpoc=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/navigator/UMLAbstractNav
+ igatorItem.class
+SHA1-Digest: 6LO11TWjOXnw1nmBulwqpLn/KtI=
+
+Name: org/eclipse/papyrus/diagram/usecase/preferences/AssociationPrefe
+ rencePage.class
+SHA1-Digest: TCXoNhsbAUmWy7U/eP2a+u1Veuk=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInPackag
+ eEditPart.class
+SHA1-Digest: z+OQGgkU+X7ZTsRuDOvqdrV9t/w=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/part/UMLVisualIDRegistry
+ .class
+SHA1-Digest: Ga6tP9BrnuT38V5u6tS9e/slufY=
+
+Name: org/eclipse/papyrus/diagram/usecase/command/CreateExtensionPoint
+ Command.class
+SHA1-Digest: Pfv4G8GPV71xz+8+p2hRlZo0Rj4=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UMLEditPartFa
+ ctory$TextCellEditorLocator.class
+SHA1-Digest: zjxYTksT79FwIRQWf49EpFhO6WU=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/PackageEditPa
+ rtTN$1.class
+SHA1-Digest: ULVMcLSveBWQ/URi8TLCsk2qink=
+
+Name: org/eclipse/papyrus/diagram/usecase/providers/UMLValidationProvi
+ der$1.class
+SHA1-Digest: NXIuQQrTAyHTKuSaW1vcG3EfZBI=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/CustomDiag
+ ramDragDropEditPolicy.class
+SHA1-Digest: 1++DKRtF12yuL5Na5jORD7IyC74=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/navigator/UMLNavigatorLa
+ belProvider.class
+SHA1-Digest: oblh9wlKIs8VZyIHqx67f7zftIg=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseInComp
+ onentNameEditPart$4.class
+SHA1-Digest: YmsC5VHaW+qtP2J89y7HVrNBUJo=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/UseCasePointsI
+ nRectangleCanonicalEditPolicy.class
+SHA1-Digest: vDfiLmToLXhl1WMpvmEgpz5Eu4s=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/PackageImport
+ VisibilityEditPart$1$1.class
+SHA1-Digest: xYa7KGxcm/3dVGppFq2sLItNN/w=
+
+Name: messages.properties
+SHA1-Digest: sC72dIivGhmQCs06TAxWjJkjgUk=
+
+Name: org/eclipse/papyrus/diagram/usecase/preferences/DependencyPrefer
+ encePage.class
+SHA1-Digest: PLOksTKILAOoL3ml+caU3W+//mA=
+
+Name: org/eclipse/papyrus/diagram/usecase/providers/UMLValidationDecor
+ atorProvider.class
+SHA1-Digest: QJNStXmDHNwPPDRnxIRUs2nTpFY=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseInPack
+ ageNameEditPart$5.class
+SHA1-Digest: uMv/6LSoI0G3LElJJGC0mObKPrE=
+
+Name: org/eclipse/papyrus/diagram/usecase/providers/UMLModelingAssista
+ ntProvider.class
+SHA1-Digest: GkjOF3aADGIYOrGoXaGTHTtc98c=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseDiagra
+ mEditPart$1.class
+SHA1-Digest: YBpmg1coolqSw3gst4cx/FX3FoI=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/DependencyNameEdi
+ tPart$1.class
+SHA1-Digest: IlpC4Ut6jOdl3tYFLGkJ1FAXSVc=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/command/CreateExtensionP
+ ointCommand$SetExtensionPropertyCmd.class
+SHA1-Digest: ew9O6V07tDiukxzxtfD1Smv5oZw=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/UMLTextNon
+ ResizableEditPolicy.class
+SHA1-Digest: z8lJ9sQB+HIIH1fsqvagi9M57lo=
+
+Name: org/eclipse/papyrus/diagram/usecase/part/UMLDiagramActionBarCont
+ ributor.class
+SHA1-Digest: zP44xooKng1Oi/0Hgyer++HCOVY=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/parsers/MessageFormatPar
+ ser.class
+SHA1-Digest: p/UeRFnOYwm9DNgjNrqpqWpKFvM=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorAsRectangleE
+ ditPartTN$ActorAsRectangleFigure.class
+SHA1-Digest: Bhnh0NbhKrAPFspjSSvA7PtER8U=
+
+Name: org/eclipse/papyrus/diagram/usecase/navigator/UMLNavigatorAction
+ Provider$OpenDiagramAction.class
+SHA1-Digest: RB17J+8beVldh3aJjX6i+s6dJxk=
+
+Name: org/eclipse/papyrus/diagram/usecase/navigator/UMLNavigatorConten
+ tProvider$3.class
+SHA1-Digest: wrXi9yTXIDHHVLEbI5edJR4qAx4=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereotype
+ PackageImportEditPart$6.class
+SHA1-Digest: dOvv1uhK0DG7ZkAhLEi50kFbQPc=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/PackageNameEditPa
+ rtTN$2.class
+SHA1-Digest: AVMYkEhDaHrrw+cNsvpbIiVF090=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AssociationNameEd
+ itPart$3.class
+SHA1-Digest: OLzg4/Gzhxe8AJNVso1RDR4k7pQ=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInComponentA
+ ppliedStereotypeEditPart$3.class
+SHA1-Digest: /8v9IAZw6ne2vi/xucAiigcEYHM=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInCompon
+ entNameEditPart$2.class
+SHA1-Digest: oUFdBw68+tshQqAD+8MA9iKLkJw=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentNameEdit
+ PartTN$1$1.class
+SHA1-Digest: Ckd+9TI9fGVnARFWWB18E5Felw8=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ExtendEditPart$Us
+ eCases_WithArrow_Polyline.class
+SHA1-Digest: tMEHPQVjRWr+X6Z9zebGI8NVgQY=
+
+Name: org/eclipse/papyrus/diagram/usecase/part/LoadResourceAction.clas
+ s
+SHA1-Digest: EDeaYdfbOW9GY4nRdUwib4YhErA=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/PackageImport
+ AppliedStereotypeEditPart$1$1.class
+SHA1-Digest: 4HWG6gnTFEw7YrXS6NscTWgsic4=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/UMLTextSel
+ ectionEditPolicy.class
+SHA1-Digest: SxAjoEFfblpD6fRah/A1bzSbd8U=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/PackageNameEd
+ itPartTN$2.class
+SHA1-Digest: AVMYkEhDaHrrw+cNsvpbIiVF090=
+
+Name: org/eclipse/papyrus/diagram/usecase/expressions/UMLOCLFactory$Ex
+ pression.class
+SHA1-Digest: QvT16VdiezQyF9mmGUjZC98gNOA=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/part/ValidateAction$2.cl
+ ass
+SHA1-Digest: E5mMT6C+tXJyYvf6Ov/aI/PMfGg=
+
+Name: org/eclipse/papyrus/diagram/usecase/part/UMLDiagramUpdater.class
+SHA1-Digest: tv7Oj6mIjTzGS2eZ2X/45XGEoK4=
+
+Name: org/eclipse/papyrus/diagram/usecase/part/UMLCreationWizard$1.cla
+ ss
+SHA1-Digest: 3CWyqJrck96waudDO4xkjO5Oo0Y=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereo
+ typeAbstractionEditPart$5.class
+SHA1-Digest: 0cc+yF9jfEdNaqVCoDhrUeb43Sk=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/ActorAsRectang
+ leItemSemanticEditPolicyTN.class
+SHA1-Digest: AJR+XTri9Zn+vqiKxU1f6zmw65U=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/UseCasePoi
+ ntsCanonicalEditPolicyTN.class
+SHA1-Digest: 65kr8grriXtNySYKQLbpyn6Kw6Y=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintConstra
+ inedElementEditPart$DashedLineConnection.class
+SHA1-Digest: dBLerKYZ+ZCpHPma244qLaQpJ0I=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ExtensionPoin
+ tEditPart$1$1.class
+SHA1-Digest: Q0QZdhjb1C80MFeLb5DkcwJjlDI=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UseCasePointsInPa
+ ckageEditPart.class
+SHA1-Digest: oZzAhqWxl9Jl+kSRSebwWUl4Xxo=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/UseCaseDiagramCreationCo
+ ndition.class
+SHA1-Digest: E38993Wp6b5XCEg/90wJxKsTaas=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ExtensionPoin
+ tInRectangleEditPart$4.class
+SHA1-Digest: WGUEwLbAjDIC+CLaCudwsrH+C+s=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/commands/CommentCreateC
+ ommandCN.class
+SHA1-Digest: Q+KqLwa6b8ysi2zpvmMvvkpIM+I=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/preferences/DiagramAppea
+ rancePreferencePage.class
+SHA1-Digest: HX5F+dSq2q3M8p3uFYzLD/b0pZY=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/preferences/UseCaseDiagr
+ amPreferencePage.class
+SHA1-Digest: 2Xh8M+e0Z4HgdQ2LP4sct+pPMO4=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/PackageNameEditPa
+ rtCN.class
+SHA1-Digest: vQ6Uv6Dxav0SuTEVrMa95AlGPJU=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInCompon
+ entEditPart$1$1.class
+SHA1-Digest: 5QdPs1c/6k6Qksq+4ePy/NogMRg=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/AppliedSte
+ reotypeExtensionPointLabelDisplayEditPolicy.class
+SHA1-Digest: EsAyfmds68MLi0lspA3v4bJX9rs=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/RealizationApplie
+ dStereotypeEditPart$3.class
+SHA1-Digest: Py7Pz/Nznmvh/x5AsIMymiDhox4=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/PackageImport
+ AppliedStereotypeEditPart.class
+SHA1-Digest: dpC0anbn2Fiywt1O2SgpuSNvtj0=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereotype
+ PackageImportEditPart.class
+SHA1-Digest: iZL3YgvvKAEQMHvqvPgV4/UfhsY=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorNameEditPart
+ TN$1.class
+SHA1-Digest: 5LL4jTwyWhFkENby07fQYpPibd4=
+
+Name: org/eclipse/papyrus/diagram/usecase/part/UMLCreationWizardPage.c
+ lass
+SHA1-Digest: Lw+ZfJ3abRLgxi29/nhVJtlIyg4=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AbstractionNa
+ meEditPart$5.class
+SHA1-Digest: GlJPtdeW2bfDYukl3ItRgLEfeVc=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/PackageNameEditPa
+ rtCN$3.class
+SHA1-Digest: 9X1j5Yb5P/ptxzAuy9sXAqgVCuA=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ExtendApplied
+ StereotypeEditPart$4.class
+SHA1-Digest: S8lo5NIxXQ51LiByfk+UPaqwY64=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/part/UMLLinkDescriptor$2
+ .class
+SHA1-Digest: 8K//GdXRvOyDPWyB1vHFrsVcJTY=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/UseCaseInC
+ omponentItemSemanticEditPolicy.class
+SHA1-Digest: PSgLQntEiAcrsCtNWXnY6yfLeIU=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/part/UMLCreationWizardPa
+ ge.class
+SHA1-Digest: Lw+ZfJ3abRLgxi29/nhVJtlIyg4=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/PackageNameEd
+ itPartCN$3.class
+SHA1-Digest: 9X1j5Yb5P/ptxzAuy9sXAqgVCuA=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ExtendsLink_fixed
+ EditPart$1.class
+SHA1-Digest: TCIiXQ5l6k4Za6gXg/fTBP6oIAY=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/UMLBaseItemSem
+ anticEditPolicy.class
+SHA1-Digest: bSYNpCBq59ozJ1tjsSTGui+vbfU=
+
+Name: org/eclipse/papyrus/diagram/usecase/providers/ElementInitializer
+ s.class
+SHA1-Digest: U+Syc+YbddL7GCdGyFtrFF6y77I=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/IncludeApplie
+ dStereotypeEditPart$5.class
+SHA1-Digest: 1nZ3S12pgoxHHdxdcJpgFx8wwtg=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintInC
+ omponentNameEditPart$1.class
+SHA1-Digest: 35sQwLBBU8vfDkjhar6ZIdZc2rw=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorAsRectan
+ gleNameEditPartTN$3.class
+SHA1-Digest: TjP++xCeeJaDpWTgsdc6pl/kM24=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/IncludeAppliedSte
+ reotypeEditPart$1.class
+SHA1-Digest: ZJzWPek7D5deeiu5Zql+nzS+3VU=
+
+Name: org/eclipse/papyrus/diagram/usecase/providers/UMLValidationDecor
+ atorProvider$1$1.class
+SHA1-Digest: bFjC/22DBnLQIL9VM1Rg1Ocf/1M=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInPackageNam
+ eEditPart.class
+SHA1-Digest: JuoJ85bnme34k+DqcZ0TXWDQw4o=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/part/UMLDocumentProvider
+ $ResourceSetInfo.class
+SHA1-Digest: SSu/4gSf8RDIMlHzlCWli+iRu68=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentUsecases
+ 2EditPart.class
+SHA1-Digest: xvz29DXu52Sr+P3mkfN+2VfBOX4=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/navigator/UMLDomainNavig
+ atorContentProvider.class
+SHA1-Digest: rgyWiJvt0bAHObwaSUeTuiPgyiE=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/figure/AbstractSubjectFi
+ gure.class
+SHA1-Digest: 4ll8s11kBoPv2KCtz6/YXxw3En4=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentInPackag
+ eNameEditPart$2.class
+SHA1-Digest: vP9Nx7lFIsRR7lSnt0ezDIO5ZPU=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/commands/PackageImp
+ ortCreateCommand.class
+SHA1-Digest: FK7dIN0wdacvRQdSk2aMKI5qRC0=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/UMLBaseIte
+ mSemanticEditPolicy$LinkConstraints.class
+SHA1-Digest: G+FvilE6s72cWNMb5yXhQWR01Vw=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorEditPartTN$1
+ $1.class
+SHA1-Digest: hFaP0LU1o1636AcleAUcgForab0=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/preferences/DiagramPrint
+ ingPreferencePage.class
+SHA1-Digest: JiU3AB0tbbr8n1USaMhZbByugRA=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInPackageNam
+ eEditPart$2.class
+SHA1-Digest: iRgH5LlB9HBgckRA6lKxyyqV+/w=
+
+Name: org/eclipse/papyrus/diagram/usecase/part/ValidateAction$3.class
+SHA1-Digest: lko6UD1XtkvGnjfhTORIpt7t2KQ=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/navigator/UMLDomainNavig
+ atorContentProvider$1.class
+SHA1-Digest: M8Pm5fSrg2Y2jamdS16PaO5peWI=
+
+Name: org/eclipse/papyrus/diagram/usecase/part/ModelElementSelectionPa
+ ge$1.class
+SHA1-Digest: Wf/h0/JpnQphb3029UI+PiK2iu8=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/DependencyApplied
+ StereotypeEditPart$1.class
+SHA1-Digest: Z4LmlyMFUnIfvowwRGnkZrqb/rk=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseDiagra
+ mEditPart$LinkLabelDragPolicy.class
+SHA1-Digest: BXNgr0exePQ8FCUMPJiD55llM2s=
+
+Name: org/eclipse/papyrus/diagram/usecase/part/UMLLinkDescriptor.class
+SHA1-Digest: gx3/wcUZ1CsO8BVxFQXOdWgoWD0=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentInPackag
+ eEditPart$1.class
+SHA1-Digest: 5KEfj4epql3TDNIiWO7QCP2J81A=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorNameEditPart
+ CN$2.class
+SHA1-Digest: UMd2ezF7iHi+VZt6DJ/RczTDrzY=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/helpers/ActorEditHe
+ lper.class
+SHA1-Digest: VUFCo8Og++ghp7NsvdCCKwFPEvw=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AbstractionNameEd
+ itPart$2.class
+SHA1-Digest: nETESqsvr8rqsPAPTYuEPWf2qac=
+
+Name: org/eclipse/papyrus/diagram/usecase/part/DiagramEditorContextMen
+ uProvider$1.class
+SHA1-Digest: hM6SGTXO5G1VkZL+jsufHu/145Q=
+
+Name: org/eclipse/papyrus/diagram/usecase/part/Messages.class
+SHA1-Digest: jjkYnfFyI0f8Ps+5f9JpcNKj3ZI=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/commands/ActorInCompone
+ ntCreateCommand.class
+SHA1-Digest: 8KP1f1LhpmtrP29/HSOb5OW88UI=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ExtendAppliedSter
+ eotypeEditPart$1.class
+SHA1-Digest: IPUU6RIvSo8lmMS35k2b35Lfz/M=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseInComponen
+ tNameEditPart$2.class
+SHA1-Digest: en/q7jr2Q3SBr6qBoO89tSJ8rI0=
+
+Name: org/eclipse/papyrus/diagram/usecase/helper/UseCaseLinkMappingHel
+ per.class
+SHA1-Digest: 4n+4qyC4Wf+TfGxMVAqquihap6Y=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/UseCaseAsRecta
+ ngleItemSemanticEditPolicyTN.class
+SHA1-Digest: rgkUgOen3IwlniSJA4b+rLGKk/4=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/IncludeApplie
+ dStereotypeEditPart.class
+SHA1-Digest: FEsqRiKFyX1Ojm+jf/IZtOwYJwc=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereo
+ typeRealizationEditPart$5.class
+SHA1-Digest: tdZ/W5yRpH2eaoUua8s7yIKZfvA=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/commands/UsageReorientC
+ ommand.class
+SHA1-Digest: Ze6/opEyctwaLRpuNvCqewmqzc0=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorAsRectan
+ gleNameEditPartTN.class
+SHA1-Digest: utbn2WTY9RyKevftpZ1ni2nAtrk=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/figure/UseCaseFigure.cla
+ ss
+SHA1-Digest: CANekVOIJAoZbag7IN7henx+pV4=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ExtendAppliedSter
+ eotypeEditPart$1$1.class
+SHA1-Digest: khyXQQ+qilw51csQPdKkK4K3K1Y=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/commands/UsageCreat
+ eCommand.class
+SHA1-Digest: izo0GR1EEFi8ikUbHdFgcuTQdW4=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/PackageEditPartCN
+ .class
+SHA1-Digest: l2LGMn+6ZGJMceAZ4V5bgFXu+y4=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/IncludeLink_f
+ ixedEditPart$IncludeLink_fixed.class
+SHA1-Digest: SWECJhYEZlAxd7DOOODj9LzUWxI=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintNam
+ eEditPartTN$4.class
+SHA1-Digest: fFJCt/uTvOZl/b4xLPfnCKaw1I0=
+
+Name: org/eclipse/papyrus/diagram/usecase/providers/UMLParserProvider$
+ HintAdapter.class
+SHA1-Digest: WABiGlL14lwLS8/UhKOwzba2hTk=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/commands/UsageReori
+ entCommand.class
+SHA1-Digest: Ze6/opEyctwaLRpuNvCqewmqzc0=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentInPa
+ ckageEditPart$UseCaseSubjectFigure$1.class
+SHA1-Digest: snTDI2Dpp131yia0EBJrm7/jDAc=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentName
+ EditPartTN$2.class
+SHA1-Digest: HJASb+6JkOUJ4VOMWHI9uZuE0Ps=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/commands/ActorInPackage
+ CreateCommand.class
+SHA1-Digest: TGF1VGU8zCI5Oqb/83jZsdfgrHI=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/PackageImportAppl
+ iedStereotypeEditPart$4.class
+SHA1-Digest: ELwdv4foOv+nfniBnu3lIw1gj3c=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/PackageImportVisi
+ bilityEditPart.class
+SHA1-Digest: 3Qo7FlLxDdyLpmHVz+bT0o4hZeM=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/commands/ComponentInPac
+ kageCreateCommand.class
+SHA1-Digest: y58RaCkpdctHjcKvtabkX15lImE=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/commands/ExtendCrea
+ teCommand.class
+SHA1-Digest: JhspWp4/SZ44cHTAcrvNCAGHPqw=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/part/UMLDocumentProvider
+ $ResourceSetModificationListener.class
+SHA1-Digest: SppWQczbS4HcB0J5PwlCoQdHhgY=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/part/UMLDiagramEditor$1.
+ class
+SHA1-Digest: z3AIE02/c1qxdYgIQUbdjnFHHmw=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/PackageImport
+ VisibilityEditPart.class
+SHA1-Digest: 3Qo7FlLxDdyLpmHVz+bT0o4hZeM=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/commands/CommentAnnotat
+ edElementCreateCommand.class
+SHA1-Digest: OrOohi/v8docP+/bXLq0XidkxMY=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/UMLTextSelecti
+ onEditPolicy$1.class
+SHA1-Digest: aFmo4LnypF0imzOLTxpM5bFIg8A=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInPackag
+ eNameEditPart$3.class
+SHA1-Digest: Vf5qx3MeiVTWXY31zWbaXAH2sIw=
+
+Name: org/eclipse/papyrus/diagram/usecase/preferences/ComponentPrefere
+ ncePage.class
+SHA1-Digest: Jr9mn82Woq6vSi4kPlAo6F7f1uA=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/IncludeLink_fixed
+ EditPart$5.class
+SHA1-Digest: NRS564weGueL6y9JlKL1svvNqq0=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/RealizationNa
+ meEditPart$5.class
+SHA1-Digest: ptdQlJjK8HijQczYzKrlT1FDWII=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/CommentEditPartCN
+ .class
+SHA1-Digest: W1DTkSRNXUYb/fOzQiQyWUUaLVg=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereotype
+ UsageEditPart$4.class
+SHA1-Digest: 4aglWQZ0a1EwhUimdP7f+XI73O4=
+
+Name: org/eclipse/papyrus/diagram/usecase/CreateUseCaseDiagramCommand.
+ class
+SHA1-Digest: EMZB/WUNkhd9m9uSKjK20Z6lveI=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/commands/PackageMer
+ geCreateCommand.class
+SHA1-Digest: AoWaKTtv43WXotnU7joMGHbCtUI=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/part/ModelElementSelecti
+ onPage.class
+SHA1-Digest: DmLojatmIjCIOn88Tf8T7/9MkXw=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseInComp
+ onentNameEditPart.class
+SHA1-Digest: aAuIPhpPXMeHWQ9UtOpasjSMjhA=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/preferences/PackageImpor
+ tPreferencePage.class
+SHA1-Digest: TM+qZR4copzmATVe1Ku0ZQoBZW8=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/UMLTextSel
+ ectionEditPolicy$1.class
+SHA1-Digest: aFmo4LnypF0imzOLTxpM5bFIg8A=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/commands/PackageCreateC
+ ommandCN.class
+SHA1-Digest: 3hruaEPowdaKUVFGmGcJYldiC+4=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/commands/CommentAnn
+ otatedElementCreateCommand.class
+SHA1-Digest: OrOohi/v8docP+/bXLq0XidkxMY=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/DiagramNameEditPa
+ rt$4.class
+SHA1-Digest: 3+02oblvIJFmFVmxHhgRcmUoj5A=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereotype
+ PackageMergeEditPart$1.class
+SHA1-Digest: H30gKKlDF0kOFbBKroFI4Xc2anQ=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/commands/Constraint
+ InComponentCreateCommand.class
+SHA1-Digest: /oTc9/QYFJ+FM+iLQiecm1tsSnk=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/RealizationAp
+ pliedStereotypeEditPart$1.class
+SHA1-Digest: Jgvj92uUF4WkBk4yLaZ4wP1yCH0=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereo
+ typePackageMergeEditPart$1.class
+SHA1-Digest: H30gKKlDF0kOFbBKroFI4Xc2anQ=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/DiagramNameEditPa
+ rt$1$1.class
+SHA1-Digest: KGFnjqixWWoE6S4MLbmAS4adosg=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInComponentE
+ ditPart$1.class
+SHA1-Digest: PZvma25riI0aB0imvmxD7kbR7IU=
+
+Name: org/eclipse/papyrus/diagram/usecase/navigator/UMLDomainNavigator
+ ContentProvider$2.class
+SHA1-Digest: zEj6wUWCvdI/qJl9GIAMNpuFzoY=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/IncludeItemSem
+ anticEditPolicy.class
+SHA1-Digest: IH92sbIODo5KbM4mMSMRgtvUqOo=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/parsers/AbstractParser.c
+ lass
+SHA1-Digest: UWXcu68AWf+baOYiQKMfZnS8vcQ=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInPackag
+ eAppliedStereotypeEditPart$4.class
+SHA1-Digest: iXchWXPg9X+osupRRQVQMWxtBY4=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseAsRect
+ angleNameEditPartTN$5.class
+SHA1-Digest: n8Cuv8BaHUz5xD+ub7kHTNy+oAU=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentInCo
+ mponentEditPart$UseCaseSubjectFigure$1.class
+SHA1-Digest: NK9HkD5BkWmg3ZCzFGNAAEOA2PA=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UsageNameEditPart
+ $5.class
+SHA1-Digest: 1TgMVKF4LeLrJQWFtfxx+Nt1zEA=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/DependencyApplied
+ StereotypeEditPart$1$1.class
+SHA1-Digest: jYETlpN+HQ7bP/gdgCU3ZaQu9wg=
+
+Name: org/eclipse/papyrus/diagram/usecase/part/UMLMatchingStrategy.cla
+ ss
+SHA1-Digest: 5jR3yr4JOoA0vlDbiYPO0mt4Gno=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/DiagramNameEd
+ itPart$1$1.class
+SHA1-Digest: KGFnjqixWWoE6S4MLbmAS4adosg=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseAsRectangl
+ eNameEditPartTN$1.class
+SHA1-Digest: m1gjy+xFLnqNhNcK5PqvH9U4XAU=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ShortCutDiagr
+ amEditPart$1.class
+SHA1-Digest: /irOhFPF7Naf0WHUjbTMllnupF4=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/preferences/UsagePrefere
+ ncePage.class
+SHA1-Digest: Iet1WM8kuFoCoLLhvdV4FhAFxt8=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/DependencyApp
+ liedStereotypeEditPart$1$1.class
+SHA1-Digest: jYETlpN+HQ7bP/gdgCU3ZaQu9wg=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/CommentBodyEditPa
+ rtCN$1$1.class
+SHA1-Digest: m3eVXNeLsvftSotKsut2u3Iy2L8=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/commands/RealizationReo
+ rientCommand.class
+SHA1-Digest: C7ntW4oYwl5lraYaMcvvP5lH/RI=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereo
+ typePackageImportEditPart$1.class
+SHA1-Digest: oheKXGPBXK5G7RbrHIjQmtmf8xo=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/CommentBodyEditPa
+ rtTN$2.class
+SHA1-Digest: iAzvIBV7BES48wBIWep5XJhZCi8=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/ComponentU
+ secases2CanonicalEditPolicy.class
+SHA1-Digest: /iVWtAgjupEd68xMdtmVJFFM0R4=
+
+Name: org/eclipse/papyrus/diagram/usecase/providers/UMLEditPartProvide
+ r.class
+SHA1-Digest: Iil4o6kaJsusFO80oYByFAJ5oZA=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInPackageEdi
+ tPart$1$1.class
+SHA1-Digest: 4VL7cBxOiU6tHFr8yu39lrcTbGo=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ShortCutDiagr
+ amEditPart$1$1.class
+SHA1-Digest: 5wzjTV6sxCOaPfg3YMaXaQ8QEwY=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/CommentBodyEd
+ itPartTN$2.class
+SHA1-Digest: iAzvIBV7BES48wBIWep5XJhZCi8=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorNameEdit
+ PartTN$3.class
+SHA1-Digest: RhB5nu0Aiya/R0JB//JpLdeHGk4=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/commands/ExtensionPoint
+ CreateCommand.class
+SHA1-Digest: FZWgT7I+geROFxt5kMF5mQKOAEw=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/providers/UMLValidationD
+ ecoratorProvider$MarkerObserver.class
+SHA1-Digest: mdXknN3fdlZeXWeD7dlaKHNDA5I=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintNameEdi
+ tPartTN$5.class
+SHA1-Digest: FmV/9oLAz2u3gy8J7F7UQJQvDoo=
+
+Name: org/eclipse/papyrus/diagram/usecase/providers/UMLMarkerNavigatio
+ nProvider.class
+SHA1-Digest: czUt+LvD/7g+i2SKUH67DVnp1gk=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/PackageEditPartCN
+ $1.class
+SHA1-Digest: NnLf/5ZfuIQsDy8mXH782k/j+iM=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/RealizationNameEd
+ itPart$2.class
+SHA1-Digest: 2OIVqvVQZIy8rDd5CHG+W4CJTsg=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/PackagePackage
+ ableElementCompartment2CanonicalEditPolicy.class
+SHA1-Digest: pT/p2P8zWs6jQwJ8t0NqEPKIUbc=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ExtensionPoin
+ tEditPart$4.class
+SHA1-Digest: xm95FeL5Z6libGHM889oADucpoc=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInCompon
+ entAppliedStereotypeEditPart$2.class
+SHA1-Digest: KOAf1v8rROjXOTYz9gTy9IVyNBg=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorAsRectangleN
+ ameEditPartTN$1.class
+SHA1-Digest: q7V6NJljSiDBR9CVbFCLpnAFesY=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorAppliedS
+ tereotypeEditPartTN$3.class
+SHA1-Digest: EY4E2QCLrWROuBJr4OSiqsewZz0=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/CommentAnnotatedE
+ lementEditPart.class
+SHA1-Digest: qHW+6aptqp7EV2xrJnZK1kG84Dw=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/commands/UseCaseInCompo
+ nentCreateCommand.class
+SHA1-Digest: SRU0l1ceVm0yLXZ8zdUERxbvpAo=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/DependencyApplied
+ StereotypeEditPart.class
+SHA1-Digest: m0z36g6x2qojngOpCohkIW9nNnk=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AssociationApplie
+ dStereotypeEditPart$2.class
+SHA1-Digest: x9oOjjRR/OhxUYW+cLobwmSrmsM=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintInP
+ ackageNameEditPart$2.class
+SHA1-Digest: pg8UKB3iFLy0w0NZNg3sdVhFxe0=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ExtensionPointInR
+ ectangleEditPart$3.class
+SHA1-Digest: SNmoz4sCj9uWtTnXK7tC0NXQLVM=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/command/CreateExtensionP
+ ointCommand.class
+SHA1-Digest: Pfv4G8GPV71xz+8+p2hRlZo0Rj4=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/CommentAnnota
+ tedElementEditPart.class
+SHA1-Digest: qHW+6aptqp7EV2xrJnZK1kG84Dw=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseNameEditPa
+ rtTN$4.class
+SHA1-Digest: qFk0ppF7u0fBkDfbypry4TwmmFs=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorAsRectangleN
+ ameEditPartTN$1$1.class
+SHA1-Digest: ZXq518sVEZQJzJj8FVn6EdDSyu4=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInPackageApp
+ liedStereotypeEditPart$1.class
+SHA1-Digest: /xMc4TTH/m3jcyoTmXCnwMootSM=
+
+Name: org/eclipse/papyrus/diagram/usecase/expressions/UMLAbstractExpre
+ ssion.class
+SHA1-Digest: OAKkTDGdyOBrvIpGjK6jD/d3hWM=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/helpers/Generalizat
+ ionEditHelper.class
+SHA1-Digest: 3D9XbG5wgxkyPaBsJSK2pca1A58=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/DiagramNameEd
+ itPart$1.class
+SHA1-Digest: T9z86v2/H5xMabpbiXtDLEGKHBs=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseAsRectangl
+ eNameEditPartTN.class
+SHA1-Digest: JmrFifKSG6VulcVUIpEIw+jqgpE=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseNameEd
+ itPartTN$4.class
+SHA1-Digest: qFk0ppF7u0fBkDfbypry4TwmmFs=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInPackageEdi
+ tPart.class
+SHA1-Digest: z+OQGgkU+X7ZTsRuDOvqdrV9t/w=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/PackageImport
+ VisibilityEditPart$5.class
+SHA1-Digest: gHsvcrC+tnm0wS0hzT4ylsH9Vos=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintInP
+ ackageEditPart$1.class
+SHA1-Digest: sWHIvuOGUPAfH9M99ehF1ZoMeSE=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/DependencyApp
+ liedStereotypeEditPart$3.class
+SHA1-Digest: Q/R3Nx0KHiPD7IHHBY5LGBANZ2w=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/CommentBodyEditPa
+ rtCN$3.class
+SHA1-Digest: xeeayADrY+CrCxC/dhjADNnMgcg=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/DependencyNam
+ eEditPart$1.class
+SHA1-Digest: IlpC4Ut6jOdl3tYFLGkJ1FAXSVc=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/CommentBodyEd
+ itPartCN$3.class
+SHA1-Digest: xeeayADrY+CrCxC/dhjADNnMgcg=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorNameEdit
+ PartCN$4.class
+SHA1-Digest: HkgJ5UIsuwOxLRwrxZZHUwyHCzw=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/helpers/ExtensionPo
+ intEditHelper.class
+SHA1-Digest: MjUWoALlJqJL2tT23yei4ELnEBQ=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/part/UMLDiagramActionBar
+ Contributor.class
+SHA1-Digest: zP44xooKng1Oi/0Hgyer++HCOVY=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/IncludeEditPart.c
+ lass
+SHA1-Digest: udDbpyYSkJnpjcP7dxj5K3xFSIg=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/preferences/DiagramPrefe
+ renceInitializer.class
+SHA1-Digest: 9Vpx+0QrJSql+4Yx5lqlF7ldbqA=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/commands/CommentCre
+ ateCommandTN.class
+SHA1-Digest: 7coEM45CXOWeqMNTn+Yc57DiuHQ=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereo
+ typePackageImportEditPart$6.class
+SHA1-Digest: dOvv1uhK0DG7ZkAhLEi50kFbQPc=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseInPackageN
+ ameEditPart$5.class
+SHA1-Digest: uMv/6LSoI0G3LElJJGC0mObKPrE=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UMLEditPartFa
+ ctory$MultilineCellEditorLocator.class
+SHA1-Digest: uZF6Nv68fOGzh9YBFEAKStOSGXQ=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/IncludeEditPa
+ rt.class
+SHA1-Digest: udDbpyYSkJnpjcP7dxj5K3xFSIg=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/preferences/PackageMerge
+ PreferencePage.class
+SHA1-Digest: yXCeWPa9X5KTmQS0kIlICwDUoyw=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentNameEdit
+ PartTN$4.class
+SHA1-Digest: PGJBUEtjkPoEpEjz9RqGVWwAe2s=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/commands/UseCaseCre
+ ateCommandTN.class
+SHA1-Digest: DccP1ue6x2HRKJUoNr93L2P84Vw=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/helpers/PackageImpo
+ rtEditHelper.class
+SHA1-Digest: oJ239Wu3o1jAmBEAKOKXXaGjlgw=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorAppliedS
+ tereotypeEditPartCN$4.class
+SHA1-Digest: jiybrh4nZDYmbysreqhmmboezCE=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/helpers/ShortCutDia
+ gramEditHelper.class
+SHA1-Digest: EbWbMVuVOR9ET55RyTXbFKFAgcA=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/UseCasePointsI
+ nRectangleItemSemanticEditPolicy.class
+SHA1-Digest: czgFifwkk8VpCl9tdRx/BvTQ2Uw=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereotype
+ RealizationEditPart$2$1.class
+SHA1-Digest: GN37gmCPSoJh+raiMbrCZSIN46s=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/commands/ConstraintCons
+ trainedElementCreateCommand.class
+SHA1-Digest: abLO+4MwsdFG+xp3PeR85H0khbU=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInComponentN
+ ameEditPart$2.class
+SHA1-Digest: oUFdBw68+tshQqAD+8MA9iKLkJw=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/part/UMLDocumentProvider
+ $ResourceSetInfo$SynchronizerDelegate$1.class
+SHA1-Digest: 6zBMFo8GnVzPVafq8sDLOmd/Z6o=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/part/UMLDiagramUpdateCom
+ mand.class
+SHA1-Digest: whIbFb+/Q8c6NIIlPG4WhKwv1HU=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintInPacka
+ geNameEditPart$1$1.class
+SHA1-Digest: tvaheBOGCaObW4NXPoaq/jxGbSY=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/ComponentInPac
+ kageItemSemanticEditPolicy.class
+SHA1-Digest: xBrDC24PFVl6qAbwp8PxVx3e1tI=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/Generalizatio
+ nAppliedStereotypeEditPart$4.class
+SHA1-Digest: ig68jZbmWQUfU3qXD5IPzHCVzQk=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/PackageImportVisi
+ bilityEditPart$2.class
+SHA1-Digest: cLTQRCnZyswqoOMMbuxXcdLJADM=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorAppliedStere
+ otypeEditPartTN$4.class
+SHA1-Digest: j/Uzoqw9YeNXTq5jr5bGUWLBa90=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereotype
+ AbstractionEditPart$5.class
+SHA1-Digest: 0cc+yF9jfEdNaqVCoDhrUeb43Sk=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/commands/CommentAnn
+ otatedElementReorientCommand.class
+SHA1-Digest: kyU+dGtjyS7InGzU4dsdEKvX4Q8=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ExtendsLink_f
+ ixedEditPart$ExtendsLink_fixed.class
+SHA1-Digest: 4WH0N7b512qGNP+J4gh5YgIgMiQ=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ExtendAppliedSter
+ eotypeEditPart.class
+SHA1-Digest: KQPlSNdZ+RAg/Mm1iSdTGmXq724=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/preferences/UseCasePrefe
+ rencePage.class
+SHA1-Digest: ZmAAEcO20K0fx9Nmg9v15xuf5j8=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ExtendApplied
+ StereotypeEditPart.class
+SHA1-Digest: 3oBtu89zdQXuqrLBB7kidoManM4=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/PackageImportAppl
+ iedStereotypeEditPart.class
+SHA1-Digest: dpC0anbn2Fiywt1O2SgpuSNvtj0=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseAsRectangl
+ eNameEditPartTN$1$1.class
+SHA1-Digest: 5xtLGHOmuzxRhOk5mtZwscNXsX0=
+
+Name: org/eclipse/papyrus/diagram/usecase/navigator/UMLDomainNavigator
+ Item$1.class
+SHA1-Digest: fk8GSHzp+yyZR8wwEwz91kj8Jec=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/UMLBaseIte
+ mSemanticEditPolicy.class
+SHA1-Digest: bSYNpCBq59ozJ1tjsSTGui+vbfU=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentInCo
+ mponentNameEditPart$3.class
+SHA1-Digest: v89rb6erZpcVFpbJNe5dDT1Hglw=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/CommentAnnotat
+ edElementItemSemanticEditPolicy.class
+SHA1-Digest: tUGCi5uNPGddrS10dGXvyRiiadI=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/commands/Dependency
+ ReorientCommand.class
+SHA1-Digest: UNRODcv0PECjzBWfwz2TpXLlzRI=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/navigator/UMLDomainNavig
+ atorItem$1.class
+SHA1-Digest: fk8GSHzp+yyZR8wwEwz91kj8Jec=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintInCompo
+ nentNameEditPart$5.class
+SHA1-Digest: Yz8MeOakWNL00ofVqQ+GPM92/sY=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintInCompo
+ nentEditPart.class
+SHA1-Digest: F4KNghsSY/8ZA93RiWXgTNSCtSo=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/figure/UseCaseFigure$1.c
+ lass
+SHA1-Digest: 6P/AgBDZRDi1ldDPVVN2meIJD90=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentInPa
+ ckageNameEditPart$2.class
+SHA1-Digest: vP9Nx7lFIsRR7lSnt0ezDIO5ZPU=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/GeneralizationEdi
+ tPart$SolidLineWDstClosedArrow.class
+SHA1-Digest: EAlTptECWPbN+rgrxfbt5gStrTw=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorAppliedStere
+ otypeEditPartCN$5.class
+SHA1-Digest: 5ZPrgdk/wRI5rNj4L01DfNiaYtA=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintInPacka
+ geNameEditPart$4.class
+SHA1-Digest: 94wnxmk9NtktJESzh86xA+noBGQ=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/GeneralizationApp
+ liedStereotypeEditPart$1.class
+SHA1-Digest: 7rwW8nynmOF1SGQxkV8HThSrSjg=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ExtendsLink_f
+ ixedEditPart$5.class
+SHA1-Digest: N7WCLWbUdg3wi6TnPqKxTroujZo=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/CreateExte
+ nsionPointEditPolicy.class
+SHA1-Digest: fT6bJt3Vxg2Frdq9WLe1bWBn1KU=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintEdi
+ tPartTN$1.class
+SHA1-Digest: 2SsWCCLvfuCPbPej07TZ/QMXDeo=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AssociationNa
+ meEditPart$4.class
+SHA1-Digest: lGKpmYvK36StXrIDIpfjpzukpJg=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/Generalizatio
+ nEditPart$SolidLineWDstClosedArrow.class
+SHA1-Digest: EAlTptECWPbN+rgrxfbt5gStrTw=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ExtensionPointEdi
+ tPart$2.class
+SHA1-Digest: YN//iARIZqn8EstfKz74ZuVj+Ro=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/PackageEditPa
+ rtTN.class
+SHA1-Digest: k/Xctqnz1lHo6FCAA4z2+CtOmTE=
+
+Name: org/eclipse/papyrus/diagram/usecase/providers/UMLValidationProvi
+ der.class
+SHA1-Digest: 2Hghf11J8CenidXsfCjxUisV8Kc=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/commands/IncludeReo
+ rientCommand.class
+SHA1-Digest: 8/vMgulRxclizG/7qkdZ/4E9mhk=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ShortCutDiagramEd
+ itPart.class
+SHA1-Digest: vruPo1ZkNm78ZwfBzyHajN+Dm2Q=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/CreateExte
+ nsionPointEditPolicy$1.class
+SHA1-Digest: djtM3Xe718Qy5i8g6FgxJJ3+is4=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/IncludeLink_f
+ ixedEditPart$4.class
+SHA1-Digest: St5Ae3QrTyN3FNNBjLdYvQTGmAk=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AssociationApplie
+ dStereotypeEditPart$1$1.class
+SHA1-Digest: vnOlAYjDvQ47MJuxl0SKkbFvTlY=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/RealizationApplie
+ dStereotypeEditPart.class
+SHA1-Digest: 4ZkgbuizKQdC4mt0ePmLSQlCKWs=
+
+Name: org/eclipse/papyrus/diagram/usecase/preferences/DiagramPrintingP
+ referencePage.class
+SHA1-Digest: JiU3AB0tbbr8n1USaMhZbByugRA=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ExtensionPointInR
+ ectangleEditPart$1$1.class
+SHA1-Digest: LByO1wfDypcUdCGMd8TDPuzeWZg=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/part/UMLDiagramEditor$3$
+ 2.class
+SHA1-Digest: rMuqlGZufDFdtWCuMZqzDJuwnKA=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ShortCutDiagr
+ amEditPart.class
+SHA1-Digest: vruPo1ZkNm78ZwfBzyHajN+Dm2Q=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseNameEditPa
+ rtTN$1$1.class
+SHA1-Digest: cG+s866EdKr9vFNGGZCOpafRMAY=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/commands/ActorInCom
+ ponentCreateCommand.class
+SHA1-Digest: 8KP1f1LhpmtrP29/HSOb5OW88UI=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseInComp
+ onentNameEditPart$2.class
+SHA1-Digest: en/q7jr2Q3SBr6qBoO89tSJ8rI0=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/commands/UseCaseInPacka
+ geCreateCommand.class
+SHA1-Digest: 2gdRcnQI6SXbFt4u6raFb2+ca6E=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintInPacka
+ geEditPart$CornerBentDescriptor.class
+SHA1-Digest: UQgvYXa0mw7jE6EB5WHKUTaEYFA=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/CommentEditPa
+ rtTN.class
+SHA1-Digest: hSENvhxaS1L+AyuduIHQHBeglnM=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/commands/RealizationCre
+ ateCommand.class
+SHA1-Digest: XZU2dAn4QR0qCVcRzNBXKlH1EWI=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseInPack
+ ageNameEditPart$3.class
+SHA1-Digest: SFwttcC6sNZaaCQgvkKKnKP61jg=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UsageNameEdit
+ Part$4.class
+SHA1-Digest: vy2MllS1Yf1H3bNaXJI/hmICMaA=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/commands/PackageCre
+ ateCommandTN.class
+SHA1-Digest: 7dt0N54BJvWlZiiPQTCH4P4b27U=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInPackag
+ eAppliedStereotypeEditPart$1$1.class
+SHA1-Digest: /GvYMyrOoivA2OQkZBoBikLAngc=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/IncludeEditPa
+ rt$UseCases_WithArrow_Polyline.class
+SHA1-Digest: y1ij2bAm22KYCD+azJAD74rbCmM=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseInComponen
+ tNameEditPart$1$1.class
+SHA1-Digest: 88/iRl6N5Gh58SPS/FcqZ9EJ8dg=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereotype
+ RealizationEditPart$5.class
+SHA1-Digest: tdZ/W5yRpH2eaoUua8s7yIKZfvA=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/GeneralizationApp
+ liedStereotypeEditPart.class
+SHA1-Digest: FWM+huw9WoVmiMKA6fgRsQM/7d0=
+
+Name: org/eclipse/papyrus/diagram/usecase/navigator/UMLNavigatorConten
+ tProvider$1.class
+SHA1-Digest: 1KPs+8+wydQ2XYv8WoiejGEqiYU=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/PackageImport
+ AppliedStereotypeEditPart$4.class
+SHA1-Digest: ELwdv4foOv+nfniBnu3lIw1gj3c=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereotype
+ PackageImportEditPart$4.class
+SHA1-Digest: 1p98Qv/9Q9a1xG+afyMDuhBTgJg=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/commands/DiagramCreateC
+ ommand.class
+SHA1-Digest: ZmmvTjcJKsfGKri13zc4KmHtwDU=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorAsRectangleN
+ ameEditPartTN.class
+SHA1-Digest: Vdmqi4/GjpxBE3wrsgQZPWzsBq4=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/PackagePackage
+ ableElementCompartmentItemSemanticEditPolicy.class
+SHA1-Digest: DHjJ9epu6F/snpBM0SB5On+YsMI=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/UseCaseInP
+ ackageItemSemanticEditPolicy.class
+SHA1-Digest: n8MuGyoHMZKc48m0hlbYu9IBi1U=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/helpers/ExtendEditHelpe
+ r.class
+SHA1-Digest: VQM/3wk5sL2P/RTskdWKDIlemyg=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AssociationNameEd
+ itPart$1.class
+SHA1-Digest: NbId5icluNLa6T0h54c7aO3sphM=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInComponentA
+ ppliedStereotypeEditPart$1.class
+SHA1-Digest: 6O10OnB0/yrComgMUU5pIvZYaTA=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/Generalizatio
+ nAppliedStereotypeEditPart.class
+SHA1-Digest: Z8dgRwjNnuN3bNN1IrUMBdjBjSU=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/commands/DiagramCre
+ ateCommand.class
+SHA1-Digest: ZmmvTjcJKsfGKri13zc4KmHtwDU=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentInCompon
+ entNameEditPart$4.class
+SHA1-Digest: nCZNvlTp3gPhPAyo07+/KGs0yoE=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/preferences/ComponentPre
+ ferencePage.class
+SHA1-Digest: Jr9mn82Woq6vSi4kPlAo6F7f1uA=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AssociationAp
+ pliedStereotypeEditPart$5.class
+SHA1-Digest: Z2cHeOA40JSgKYthZ2KmlTY6+zc=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/helpers/UseCaseEdit
+ Helper.class
+SHA1-Digest: S4nmGhDJALzryB1aNvuKpl/1K10=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereo
+ typeUsageEditPart$4.class
+SHA1-Digest: 4aglWQZ0a1EwhUimdP7f+XI73O4=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/CreateUseCaseDiagramComm
+ and.class
+SHA1-Digest: EMZB/WUNkhd9m9uSKjK20Z6lveI=
+
+Name: org/eclipse/papyrus/diagram/usecase/UmlUseCaseDiagramForMultiEdi
+ tor.class
+SHA1-Digest: DBMqCqYGUJ0k/etyzXtrPERwiC8=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/UMLTextNonResi
+ zableEditPolicy$1.class
+SHA1-Digest: 4ZRPB0cNcONVqa8HJ9DsjkHmhfc=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereo
+ typeAbstractionEditPart$3.class
+SHA1-Digest: EN+m7FmWdLAzjIOW0Lx1G0Kt8zA=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ExtendsLink_f
+ ixedEditPart$1$1.class
+SHA1-Digest: 552Po2bcPNk8mL1I5FXo64ORzoU=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/commands/ExtendCreateCo
+ mmand.class
+SHA1-Digest: JhspWp4/SZ44cHTAcrvNCAGHPqw=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/PackageImportEdit
+ Part.class
+SHA1-Digest: RMiH7GZ4yfSPhiKipZJbcjZZzUY=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/preferences/DiagramRuler
+ sAndGridPreferencePage.class
+SHA1-Digest: 9vB10DaC0nXSpMrn6h6yqRmdTxs=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/commands/ActorCreateCom
+ mandTN.class
+SHA1-Digest: Tov06NLlDKXExrW9h7ZV7JJ2ek8=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ExtensionPoin
+ tInRectangleEditPart$2.class
+SHA1-Digest: oRrXghZPKjxVGmY7xLeW7mUTf0Y=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/Abstractio
+ nItemSemanticEditPolicy.class
+SHA1-Digest: p3isC6bGCviXCLQXQXMzQ+ePBYE=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInComponentN
+ ameEditPart$1$1.class
+SHA1-Digest: gIUwqPbUQsqv0+lhTM3Cc9AS3RE=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInPackag
+ eNameEditPart$1$1.class
+SHA1-Digest: 80Su1DcuORKgnXavWEjXdi0rpk4=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/IncludeIte
+ mSemanticEditPolicy.class
+SHA1-Digest: IH92sbIODo5KbM4mMSMRgtvUqOo=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereotype
+ UsageEditPart$1$1.class
+SHA1-Digest: IGWi7vOPGyplv+wXI+Dzihx1d+k=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseInComponen
+ tNameEditPart.class
+SHA1-Digest: aAuIPhpPXMeHWQ9UtOpasjSMjhA=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/commands/ActorCreat
+ eCommandTN.class
+SHA1-Digest: Tov06NLlDKXExrW9h7ZV7JJ2ek8=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorAppliedStere
+ otypeEditPartTN$1$1.class
+SHA1-Digest: I8QDsTLURjft06fADTetXtP13yA=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/draw2d/ShadowShape$Shado
+ wBorder.class
+SHA1-Digest: y320nSXV9eVRT1YX4krloVKC1tw=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/commands/ExtensionP
+ ointInRectangleCreateCommand.class
+SHA1-Digest: Aj0G202oeNXWecjtxAibmR+Y3Sc=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/navigator/UMLAbstractNav
+ igatorItem$1.class
+SHA1-Digest: grxmodbV1Th8lJcHx2EflQ3UFnc=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereotype
+ AbstractionEditPart$1$1.class
+SHA1-Digest: xjb9hreoCVKcHxyTsqNX21M7tLI=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/RealizationApplie
+ dStereotypeEditPart$1.class
+SHA1-Digest: Jgvj92uUF4WkBk4yLaZ4wP1yCH0=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/CommentBodyEd
+ itPartTN.class
+SHA1-Digest: 7BvQ02skCu0OWMCFEN7VxdvhDK8=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/commands/ConstraintInPa
+ ckageCreateCommand.class
+SHA1-Digest: xQew+c4S0m5nyq8hezgnM0dQ1wA=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/CommentEditPartTN
+ $1.class
+SHA1-Digest: RupwETcpIo4+/OH0vx6jXsIV+Cg=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AbstractionNa
+ meEditPart$3.class
+SHA1-Digest: mbUQuhF4p1IEgIxIQtnOhWLc+Dw=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ExtendsLink_fixed
+ EditPart.class
+SHA1-Digest: rsPWkvDlT2yLsTra/5ByzJVqf2g=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/PackageNameEditPa
+ rtCN$1.class
+SHA1-Digest: kqxvgJE6Jrg9T1EAYC4OjiLjFno=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ExtendApplied
+ StereotypeEditPart$2.class
+SHA1-Digest: fxPFGAwh8ESBF45EXx7GORSdK3Y=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/navigator/UMLNavigatorCo
+ ntentProvider$2.class
+SHA1-Digest: MZlGJXaEM/TCHyejWaPBEa8dXUY=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/DependencyNameEdi
+ tPart$4.class
+SHA1-Digest: IpEIbkZ52ItBXlavP4LJoDO1pdU=
+
+Name: org/eclipse/papyrus/diagram/usecase/part/UMLDiagramEditorUtil$1.
+ class
+SHA1-Digest: 6K/+TySPa7vPW4bDtK5ovzTkODE=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/PackageNameEd
+ itPartCN$1.class
+SHA1-Digest: kqxvgJE6Jrg9T1EAYC4OjiLjFno=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/UseCaseDiagram
+ CanonicalEditPolicy.class
+SHA1-Digest: 1d7+iZM+VpuaHZyI5ZNwSMmgTUI=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/commands/Dependency
+ CreateCommand.class
+SHA1-Digest: O3Ilz/Eq8ErI5T/YvyCohF9D/DA=
+
+Name: org/eclipse/papyrus/diagram/usecase/preferences/ExtendPreference
+ Page.class
+SHA1-Digest: 2rdBZrvw8MB/LMaOdWW83NN8x1U=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/helpers/ConstraintE
+ ditHelper.class
+SHA1-Digest: x7HkPwoV4V90Fdr14mq2oLGbTzQ=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/IncludeApplie
+ dStereotypeEditPart$3.class
+SHA1-Digest: CgK6PlHuHBym1b2jnwutP9FHC5A=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/part/UMLDiagramEditor.cl
+ ass
+SHA1-Digest: 9Qb+JO+Z18TeXpv6p73KwoEXYXs=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/DependencyNameEdi
+ tPart$1$1.class
+SHA1-Digest: 1Unhtx/eZHR3yocV5a2sfTS6UAc=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentUsecases
+ EditPart.class
+SHA1-Digest: rNwjAdQHiORjLy3Poi/RWwHlA5U=
+
+Name: org/eclipse/papyrus/diagram/usecase/part/UMLCreationWizard.class
+SHA1-Digest: Xzf5QZImXa2VL9U2AyBiVtEgV2U=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorAsRectan
+ gleNameEditPartTN$1.class
+SHA1-Digest: q7V6NJljSiDBR9CVbFCLpnAFesY=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/PackageNameEditPa
+ rtTN$5.class
+SHA1-Digest: cEyZLIYJCNDP9h4/asyqL6KsSo4=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInCompon
+ entNameEditPart$5.class
+SHA1-Digest: 6J6R8oNd4SkcqNdzEggQLQvSgOs=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorAsRectan
+ gleEditPartTN.class
+SHA1-Digest: 5vShL9xA4EBGFE8yL0Xtd25Dq00=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/PackageNameEd
+ itPartTN$5.class
+SHA1-Digest: cEyZLIYJCNDP9h4/asyqL6KsSo4=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentEditPart
+ TN$1.class
+SHA1-Digest: s0PF85D8rZqyx7e3TmYPp5oo4CQ=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/DiagramNameEd
+ itPart.class
+SHA1-Digest: UBhWjLr8+2EPoCTUp/5n1au68UA=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/ComponentU
+ secases2ItemSemanticEditPolicy.class
+SHA1-Digest: KKbxu8R/8Lpf77QjT4Z5PalnHqQ=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/IncludeAppliedSte
+ reotypeEditPart$1$1.class
+SHA1-Digest: WKe9O5Lui3AmOH5/gO0suLvvaCg=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/commands/Abstractio
+ nCreateCommand.class
+SHA1-Digest: 9NOi1RvSF+aROc2gTZyvgTo1V2k=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseAsRect
+ angleNameEditPartTN.class
+SHA1-Digest: JmrFifKSG6VulcVUIpEIw+jqgpE=
+
+Name: org/eclipse/papyrus/diagram/usecase/part/ValidateAction$1.class
+SHA1-Digest: GVQI9HVHnFET857eJywEfXkjewc=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/GeneralizationApp
+ liedStereotypeEditPart$1$1.class
+SHA1-Digest: 0xnoSVH/1GQYPDiK0KkTaU5d+Lw=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInCompon
+ entAppliedStereotypeEditPart$1$1.class
+SHA1-Digest: Fe7ORcYZj5wnV3PF2CoVseqATKw=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorAsRectan
+ gleEditPartTN$1.class
+SHA1-Digest: uPgwB5ZyB/bfMWQeokdZMKrsTt8=
+
+Name: org/eclipse/papyrus/diagram/usecase/part/UMLDiagramEditorPlugin.
+ class
+SHA1-Digest: DHFV5yO3qcecaAwvBxDw/zdxT7U=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/commands/UseCaseAsRecta
+ ngleCreateCommandTN.class
+SHA1-Digest: pG7ijldLTdY51HQLSDI361tr10Y=
+
+Name: org/eclipse/papyrus/diagram/usecase/navigator/UMLNavigatorGroup.
+ class
+SHA1-Digest: FZuv1FN/sCnfNNMKP/bFRP85mbU=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/part/UMLNewDiagramFileWi
+ zard$DiagramRootElementSelectionPage.class
+SHA1-Digest: a5ZzNl9hhAHzg7Hbn6PjZs4Srps=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentEditPart
+ TN$UseCaseSubjectFigure$1.class
+SHA1-Digest: gO4M3DdmIbmyJkKxisgRv8qX3Qg=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/commands/ConstraintCrea
+ teCommandTN.class
+SHA1-Digest: UdhdyS+Jl9CtS1HDpFi6XqJdRNk=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/helpers/UMLBaseEditHelp
+ er.class
+SHA1-Digest: GvHkJMBJdEWmnSHo3UgOjH/7wwg=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereo
+ typeRealizationEditPart$3.class
+SHA1-Digest: 1VbI2NeKyb6DikCRV2IzHJupeTo=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UsageNameEditPart
+ $1$1.class
+SHA1-Digest: dBerf923duF/AsgLIQnsetWYWe4=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/preferences/IncludePrefe
+ rencePage.class
+SHA1-Digest: 7RPGCadorW0/zvH6KyuvQjjRTE0=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorNameEditPart
+ TN$4.class
+SHA1-Digest: obbo2tx5ZNn1GeSnELWBTtFFrqM=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/providers/UMLValidationD
+ ecoratorProvider.class
+SHA1-Digest: QJNStXmDHNwPPDRnxIRUs2nTpFY=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/DependencyEdi
+ tPart.class
+SHA1-Digest: uut75GPQOWMJ/pIl20q4QX93enQ=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/Realizatio
+ nItemSemanticEditPolicy.class
+SHA1-Digest: y/4AcTgQJP9q7/EKAEWjUyx9MNg=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintNam
+ eEditPartTN$2.class
+SHA1-Digest: N9xNcqO2qmQHytx8trd3+djKmrE=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereo
+ typeRealizationEditPart$2$1.class
+SHA1-Digest: GN37gmCPSoJh+raiMbrCZSIN46s=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/PackageItemSem
+ anticEditPolicyTN.class
+SHA1-Digest: 8q72X+oZOnUSk4msVOFncSMVycQ=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInCompon
+ entAppliedStereotypeEditPart.class
+SHA1-Digest: 3WBfwA5+KnoBDUhf4uZMximsABc=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/commands/ActorAsRectang
+ leCreateCommandTN.class
+SHA1-Digest: YVL5NkN50kaaSr9MKKOLZ61YWyQ=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereo
+ typePackageImportEditPart$2$1.class
+SHA1-Digest: sUwnVCldg1GjardWsTMLUn/8aaE=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseInPackageN
+ ameEditPart$1$1.class
+SHA1-Digest: fhBgFc8X3iLlJUd/rv9hfBi1pgo=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ExtendsLink_fixed
+ EditPart$4.class
+SHA1-Digest: ss6SNJpg9aBQ9oQAfGNjJ3AgxWI=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/PackageImportAppl
+ iedStereotypeEditPart$2.class
+SHA1-Digest: qnPJltRWHhMkrZ8DRaEykmQ/CcY=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/PackageMergeEditP
+ art.class
+SHA1-Digest: Qp/H5MCtoe2Hey+qzGRRuF4zm+8=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/CommentBodyEd
+ itPartTN$1$1.class
+SHA1-Digest: 4/5H7eWGo5x4/vz8SfwhSW6ElVs=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/PackageNameEd
+ itPartCN$1$1.class
+SHA1-Digest: UZMAO4JhOzU5VF5n3hjuGEBiYe0=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintInC
+ omponentNameEditPart$4.class
+SHA1-Digest: JS4IpTkQD/PAZuNtqxRDTkVPebY=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/IncludeAppliedSte
+ reotypeEditPart$4.class
+SHA1-Digest: mgCurn39pZ7RJBAhVdWw8VndkTI=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ExtensionPoin
+ tInRectangleEditPart.class
+SHA1-Digest: kd2Z9GydUrH9Vc0nvy5xo2pjD5Y=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInPackag
+ eNameEditPart$1.class
+SHA1-Digest: 0ynM2Jm3F5OmqJ1Zohqd7MPLmLo=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/IncludeLink_fixed
+ EditPart$3.class
+SHA1-Digest: x+HSW2THViTet20NhHqECtGgg+4=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/commands/AssociationCre
+ ateCommand.class
+SHA1-Digest: nCpqIVdeeQwy+YxS+SmefmQc+54=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/RealizationNa
+ meEditPart$3.class
+SHA1-Digest: nHx+vK6PkYxk6AOi24gXMBBBvNA=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentInPackag
+ eNameEditPart$5.class
+SHA1-Digest: g3bKMjOq+E12ZYqMq/Y1i6lxia8=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereotype
+ UsageEditPart$2.class
+SHA1-Digest: ICc0EnvYqlXivMWnE4Zl10phlQg=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/DiagramNameEditPa
+ rt$2.class
+SHA1-Digest: V0kkYhzKfJoq0zhFSKCU8Tzvt2s=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/UseCasePointsI
+ nPackageItemSemanticEditPolicy.class
+SHA1-Digest: OawB3TsVbCZjeLGoLHOZvFcRILw=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/part/UMLCreationWizard$1
+ .class
+SHA1-Digest: 3CWyqJrck96waudDO4xkjO5Oo0Y=
+
+Name: org/eclipse/papyrus/diagram/usecase/part/UMLDiagramEditor$3.clas
+ s
+SHA1-Digest: krQCF87kXrvKtJu1Bya1vv3pUe0=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInPackageNam
+ eEditPart$5.class
+SHA1-Digest: vv9rlTMiP8hNaiOdSWkLZy2LiRU=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/part/UMLNewDiagramFileWi
+ zard.class
+SHA1-Digest: nQa0G6IWvf73L5KGSK+aNa+v8cc=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/DependencyApplied
+ StereotypeEditPart$4.class
+SHA1-Digest: FMI284hV5TYWMB2myUWpi9PAzL8=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/UseCasePoi
+ ntsInPackageItemSemanticEditPolicy.class
+SHA1-Digest: OawB3TsVbCZjeLGoLHOZvFcRILw=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInPackag
+ eAppliedStereotypeEditPart$2.class
+SHA1-Digest: X5S1oLdL/b7gVkfbZ0hUfpnrAGU=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseAsRect
+ angleNameEditPartTN$3.class
+SHA1-Digest: 5oCcs4rnfTU9M3lbUVxj0M5MAF0=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/PackageIte
+ mSemanticEditPolicyCN.class
+SHA1-Digest: tSVpyLO85uzbV9bx0ofTt8M9xSM=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UsageNameEditPart
+ $3.class
+SHA1-Digest: MFmQlIu3eCrpK3nmCWpw6qzKmnA=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorNameEditPart
+ CN$5.class
+SHA1-Digest: RKgrkyOhcNs0uefBDtco1z6vI44=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseAsRect
+ angleEditPartTN.class
+SHA1-Digest: z89kEc+SewojCHc3nswA964aLIY=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/preferences/CommentPrefe
+ rencePage.class
+SHA1-Digest: ZOqlKte3MA0vTTgv7Oksy/R77v0=
+
+Name: org/eclipse/papyrus/diagram/usecase/preferences/UseCasePreferenc
+ ePage.class
+SHA1-Digest: ZmAAEcO20K0fx9Nmg9v15xuf5j8=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorNameEdit
+ PartTN.class
+SHA1-Digest: dZQfVJesWexVhsRQqKF5lbfiRQQ=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AbstractionNameEd
+ itPart$5.class
+SHA1-Digest: GlJPtdeW2bfDYukl3ItRgLEfeVc=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/ComponentU
+ secasesItemSemanticEditPolicy.class
+SHA1-Digest: jQQGdiHWaKBEiE+gf9jriyU7fCw=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/PackageNameEd
+ itPartCN.class
+SHA1-Digest: vQ6Uv6Dxav0SuTEVrMa95AlGPJU=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ExtendAppliedSter
+ eotypeEditPart$4.class
+SHA1-Digest: S8lo5NIxXQ51LiByfk+UPaqwY64=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseInComponen
+ tNameEditPart$5.class
+SHA1-Digest: YRWE58gDjdrplM1CSmwFzyDqRR8=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/CommentAnn
+ otatedElementItemSemanticEditPolicy.class
+SHA1-Digest: tUGCi5uNPGddrS10dGXvyRiiadI=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorNameEdit
+ PartTN$1.class
+SHA1-Digest: 5LL4jTwyWhFkENby07fQYpPibd4=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseDiagramEdi
+ tPart$2.class
+SHA1-Digest: +K7vSNtrRYpqbUIbWYiYT2Xwtfo=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AbstractionNa
+ meEditPart$1$1.class
+SHA1-Digest: Su0OhgMAh4qidreWaXdJURhL990=
+
+Name: org/eclipse/papyrus/diagram/usecase/UseCaseDiagramEditorFactory.
+ class
+SHA1-Digest: ARUSBS8qruHsI39OjrdeX7aTCsI=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintNameEdi
+ tPartTN$3.class
+SHA1-Digest: MrAgJb2sVYR+cLpq/ePfPOHXERI=
+
+Name: about.html
+SHA1-Digest: a2Fk5/pDnCvlEfl7QwDZj/FCgFc=
+
+Name: org/eclipse/papyrus/diagram/usecase/figure/AbstractSubjectFigure
+ .class
+SHA1-Digest: 4ll8s11kBoPv2KCtz6/YXxw3En4=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentName
+ EditPartTN$5.class
+SHA1-Digest: SQ3Ktr9GxJY1+FywV+PKrjgsKMU=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ExtensionPoin
+ tEditPart$2.class
+SHA1-Digest: YN//iARIZqn8EstfKz74ZuVj+Ro=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseInPackageE
+ ditPart$1.class
+SHA1-Digest: lz9A96SiRu73COSJ7QYS2A5MJgI=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/ShortCutDiagra
+ mItemSemanticEditPolicy.class
+SHA1-Digest: KhaDtdt8iMQBJihNyw/nEm0DajE=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/ComponentUseca
+ ses3ItemSemanticEditPolicy.class
+SHA1-Digest: wT35msaLVyIO9c87ROW90+h37j0=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorAppliedS
+ tereotypeEditPartTN$1.class
+SHA1-Digest: 3isXc61N5vbw9LVGqDqsI9ExoHo=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ExtensionPointInR
+ ectangleEditPart$1.class
+SHA1-Digest: T+/0rqaOstpiRtv6kDFO15MG4oE=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/helpers/AbstractionEdit
+ Helper.class
+SHA1-Digest: MkIR3Ca22l44KEEixKeCiY5jOtM=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/part/UMLDiagramEditor$4.
+ class
+SHA1-Digest: eIVOxT4FY5jnKjWrUTN4bnwM1qA=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/CommentAnnotatedE
+ lementEditPart$CommentLinkDescriptor.class
+SHA1-Digest: yHJbYfeexCPYvITIx7VI6QRy+2g=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AssociationAp
+ pliedStereotypeEditPart$1$1.class
+SHA1-Digest: vnOlAYjDvQ47MJuxl0SKkbFvTlY=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UMLEditPartFa
+ ctory$LabelCellEditorLocator.class
+SHA1-Digest: YF5pNozkiFNNFypbaEtYyY3SF8g=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseNameEditPa
+ rtTN$2.class
+SHA1-Digest: H4dSrVYk6Myi6u61Kz8/iwPOX6A=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/CommentItemSem
+ anticEditPolicyTN.class
+SHA1-Digest: 9tFutpKCSnloQmN6bhoLdKKHeEc=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintEditPar
+ tTN$1.class
+SHA1-Digest: 2SsWCCLvfuCPbPej07TZ/QMXDeo=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/helpers/Abstraction
+ EditHelper.class
+SHA1-Digest: MkIR3Ca22l44KEEixKeCiY5jOtM=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/ActorInCom
+ ponentItemSemanticEditPolicy.class
+SHA1-Digest: R1snPalWVJNkntPn5iVKV9H8xf4=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereotype
+ PackageMergeEditPart$4.class
+SHA1-Digest: GAoQuAdD0DSo6jxkUW1vuKEDBRo=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseNameEd
+ itPartTN$2.class
+SHA1-Digest: H4dSrVYk6Myi6u61Kz8/iwPOX6A=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/commands/UseCaseInP
+ ackageCreateCommand.class
+SHA1-Digest: 2gdRcnQI6SXbFt4u6raFb2+ca6E=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintInP
+ ackageEditPart$CornerBentDescriptor.class
+SHA1-Digest: UQgvYXa0mw7jE6EB5WHKUTaEYFA=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/PackageImport
+ VisibilityEditPart$3.class
+SHA1-Digest: RlTQlm6WbFzSvkPvLe7a6yqNfbE=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/PackagePac
+ kageableElementCompartmentCanonicalEditPolicy.class
+SHA1-Digest: +32z2RP3vMfDfYbzw18uSn9tm6M=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/helpers/ActorEditHelper
+ .class
+SHA1-Digest: VUFCo8Og++ghp7NsvdCCKwFPEvw=
+
+Name: org/eclipse/papyrus/diagram/usecase/providers/UMLValidationDecor
+ atorProvider$StatusDecorator$1.class
+SHA1-Digest: 29NZA17UN66fcQu6mjiowNWTdmI=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/part/ModelElementSelecti
+ onPage$1.class
+SHA1-Digest: Wf/h0/JpnQphb3029UI+PiK2iu8=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/RealizationAp
+ pliedStereotypeEditPart$4.class
+SHA1-Digest: 4mFEPeELY/Fou17fCcD6M95CaEQ=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/DependencyApp
+ liedStereotypeEditPart$1.class
+SHA1-Digest: Z4LmlyMFUnIfvowwRGnkZrqb/rk=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereo
+ typePackageMergeEditPart$4.class
+SHA1-Digest: GAoQuAdD0DSo6jxkUW1vuKEDBRo=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/CommentBodyEditPa
+ rtCN$1.class
+SHA1-Digest: gKRrczfllk5n/UEztZS86duU2z4=
+
+Name: org/eclipse/papyrus/diagram/usecase/part/UMLDiagramEditor$3$2.cl
+ ass
+SHA1-Digest: rMuqlGZufDFdtWCuMZqzDJuwnKA=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/providers/UMLValidationD
+ ecoratorProvider$StatusDecorator$1.class
+SHA1-Digest: 29NZA17UN66fcQu6mjiowNWTdmI=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/part/UMLNewDiagramFileWi
+ zard$1.class
+SHA1-Digest: 3v1OegyKxZEs/R0BY0wvhLk7sf0=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/CommentBodyEd
+ itPartCN$1.class
+SHA1-Digest: gKRrczfllk5n/UEztZS86duU2z4=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorNameEdit
+ PartCN$2.class
+SHA1-Digest: UMd2ezF7iHi+VZt6DJ/RczTDrzY=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/ExtensionP
+ ointInRectangleItemSemanticEditPolicy.class
+SHA1-Digest: 229iWqjkMxgTxAm0OX6F2AzqJTI=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseAsRectangl
+ eNameEditPartTN$4.class
+SHA1-Digest: rVOwqgObxzOr3YGpHKu8WsMoet4=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UMLEditPartFactor
+ y.class
+SHA1-Digest: KwTvnYxX+1Nd4pYqb08RPRH0SNI=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/helpers/PackageEditHelp
+ er.class
+SHA1-Digest: X+S6wDpjol7QScfbptM5PYGaFWs=
+
+Name: org/eclipse/papyrus/diagram/usecase/navigator/UMLNavigatorConten
+ tProvider.class
+SHA1-Digest: qn62bTWKM8vZwkKbkUmNigUoAXQ=
+
+Name: org/eclipse/papyrus/diagram/usecase/figure/UseCaseFigure.class
+SHA1-Digest: CANekVOIJAoZbag7IN7henx+pV4=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/part/UMLNodeDescriptor.c
+ lass
+SHA1-Digest: X/6hvbYnaF8e9eTw5cEFD9pXhKY=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereo
+ typePackageImportEditPart$4.class
+SHA1-Digest: 1p98Qv/9Q9a1xG+afyMDuhBTgJg=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentInPackag
+ eEditPart$UseCaseSubjectFigure$1.class
+SHA1-Digest: snTDI2Dpp131yia0EBJrm7/jDAc=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/CommentBodyEditPa
+ rtTN$5.class
+SHA1-Digest: O2U3mHTXbxFn18zoTjuw2gMPMdQ=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseInPackageN
+ ameEditPart$3.class
+SHA1-Digest: SFwttcC6sNZaaCQgvkKKnKP61jg=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/UseCaseAsR
+ ectangleItemSemanticEditPolicyTN.class
+SHA1-Digest: rgkUgOen3IwlniSJA4b+rLGKk/4=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AbstractionEd
+ itPart.class
+SHA1-Digest: 3zUbeU+u/fuqa0kNJJwyDFIkERE=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentNameEdit
+ PartTN$2.class
+SHA1-Digest: HJASb+6JkOUJ4VOMWHI9uZuE0Ps=
+
+Name: org/eclipse/papyrus/diagram/usecase/command/CreateAssociationSup
+ plement.class
+SHA1-Digest: gt4W9X0pZciezgQQUsBt7ujxqp8=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorAppliedS
+ tereotypeEditPartCN$2.class
+SHA1-Digest: u/VRKZgJjb6z2JTo1kY843fTrdU=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/CommentIte
+ mSemanticEditPolicyCN.class
+SHA1-Digest: VI/WWOTI1jT365+McHzQP4nTSdQ=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/CommentBodyEd
+ itPartTN$5.class
+SHA1-Digest: O2U3mHTXbxFn18zoTjuw2gMPMdQ=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AssociationApplie
+ dStereotypeEditPart.class
+SHA1-Digest: zuHaDpRMAqxcNE9C6bL4jTqBm/c=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintEdi
+ tPartTN.class
+SHA1-Digest: yzJrvGKK2+vK7Yl+Weo7d46wxm4=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/ConstraintItem
+ SemanticEditPolicyTN.class
+SHA1-Digest: 9DfFaD00i/V/wTTYfoWbgQlo82E=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/helpers/CommentEditHelp
+ er.class
+SHA1-Digest: Wh7axpUuDMt2FpoXs5GuNZCMnco=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentInCo
+ mponentNameEditPart$1$1.class
+SHA1-Digest: HmRBRIQss8GrAto5vFq+TBKj2qI=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentUsecases
+ 3EditPart.class
+SHA1-Digest: K3M9SRzu18U7X4b/+qSlmq6Nhz0=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/RealizationNameEd
+ itPart$5.class
+SHA1-Digest: ptdQlJjK8HijQczYzKrlT1FDWII=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintNameEdi
+ tPartTN$1$1.class
+SHA1-Digest: kHspP03U58TTQfwU3iQpVy20+6I=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInCompon
+ entAppliedStereotypeEditPart$5.class
+SHA1-Digest: lE5Njd/1ZUErH6EEZfhHZ4zEhxk=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/commands/ComponentCreat
+ eCommandTN.class
+SHA1-Digest: TUYMOZpuk2eIEXGKfwdFa1BeCDw=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorAsRectangleN
+ ameEditPartTN$4.class
+SHA1-Digest: Xb2KoYvfbBL9lVZzeMdS2YB7mA4=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AssociationApplie
+ dStereotypeEditPart$5.class
+SHA1-Digest: Z2cHeOA40JSgKYthZ2KmlTY6+zc=
+
+Name: org/eclipse/papyrus/diagram/usecase/helper/ExtensionPointLabelHe
+ lper.class
+SHA1-Digest: Zpn2MBLy+BOP6tn1nXHLkueSVuE=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintInP
+ ackageNameEditPart$5.class
+SHA1-Digest: +F2MSq+qVE5F/i0/RQiID4LuhjY=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInCompon
+ entNameEditPart$1$1.class
+SHA1-Digest: gIUwqPbUQsqv0+lhTM3Cc9AS3RE=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/Generalizatio
+ nAppliedStereotypeEditPart$2.class
+SHA1-Digest: gKJYnNjxm1kn3YJntuJbBOMuUFo=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorAppliedStere
+ otypeEditPartTN$2.class
+SHA1-Digest: TMNqlJEDLsMajl+T/W2AkBjYj7c=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/UsageItemS
+ emanticEditPolicy.class
+SHA1-Digest: EIvoTPIbEWirFBUV/XnKmFubHlA=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereotype
+ AbstractionEditPart$3.class
+SHA1-Digest: EN+m7FmWdLAzjIOW0Lx1G0Kt8zA=
+
+Name: org/eclipse/papyrus/diagram/usecase/part/UMLDocumentProvider$Res
+ ourceSetInfo$SynchronizerDelegate$3.class
+SHA1-Digest: dcvEfolmqblRDM1DGk0NBmzdl5g=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereo
+ typeAbstractionEditPart$1$1.class
+SHA1-Digest: xjb9hreoCVKcHxyTsqNX21M7tLI=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/RealizationNa
+ meEditPart$1$1.class
+SHA1-Digest: /+ZMgkdBnMXXj9iDFKZU4cKVlzc=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInPackageApp
+ liedStereotypeEditPart$4.class
+SHA1-Digest: iXchWXPg9X+osupRRQVQMWxtBY4=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/DiagramNameEd
+ itPart$4.class
+SHA1-Digest: 3+02oblvIJFmFVmxHhgRcmUoj5A=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInPackageNam
+ eEditPart$1$1.class
+SHA1-Digest: 80Su1DcuORKgnXavWEjXdi0rpk4=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ShortCutDiagramEd
+ itPart$1.class
+SHA1-Digest: /irOhFPF7Naf0WHUjbTMllnupF4=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/CommentEditPa
+ rtCN$1.class
+SHA1-Digest: bCvfiCl+//a8Pg8hquD9rBi6Vv8=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/part/UMLDiagramEditorUti
+ l$LazyElement2ViewMap.class
+SHA1-Digest: QLQtrG5rF/CVObuWD6PLl7aNE8g=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/part/UMLDiagramEditorUti
+ l$1.class
+SHA1-Digest: 6K/+TySPa7vPW4bDtK5ovzTkODE=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseEditPa
+ rtTN$1.class
+SHA1-Digest: AQsbNQHHS1NkI/97Z4ZMxNA97FE=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/DependencyNam
+ eEditPart$4.class
+SHA1-Digest: IpEIbkZ52ItBXlavP4LJoDO1pdU=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/helpers/RealizationEdit
+ Helper.class
+SHA1-Digest: OkOItxHdlaiorAZWxL0LYUUP3dw=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/part/UMLMatchingStrategy
+ .class
+SHA1-Digest: 5jR3yr4JOoA0vlDbiYPO0mt4Gno=
+
+Name: org/eclipse/papyrus/diagram/usecase/preferences/ExtensionPointPr
+ eferencePage.class
+SHA1-Digest: ZIuHRZvNuujLBzOebcw1q7226EI=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/RealizationApplie
+ dStereotypeEditPart$1$1.class
+SHA1-Digest: rGv9/ZyAauSgWMrlK0gj69ISjig=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/part/UMLInitDiagramFileA
+ ction.class
+SHA1-Digest: p21VBRd4Egpwbk1vH7ZWF1wAM/I=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/commands/Generalization
+ ReorientCommand.class
+SHA1-Digest: iyzzSmnrQ1PeL9JBZxE+TAo51iI=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseAsRect
+ angleEditPartTN$1.class
+SHA1-Digest: eeufuCwHieUskB5wHtqaS08zkV8=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/helpers/Realization
+ EditHelper.class
+SHA1-Digest: OkOItxHdlaiorAZWxL0LYUUP3dw=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentInCompon
+ entNameEditPart.class
+SHA1-Digest: /7UQ2IzCfKpfHU7EDtl1nB1DJXc=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/commands/Realizatio
+ nReorientCommand.class
+SHA1-Digest: C7ntW4oYwl5lraYaMcvvP5lH/RI=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/PackagePackag
+ eableElementCompartmentEditPart.class
+SHA1-Digest: OfdbR5BNGrM0pTVcGVezSZCTcZg=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentInCo
+ mponentNameEditPart$1.class
+SHA1-Digest: XRCSa55YplP9qBufyaPyNJ3LQj4=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintInCompo
+ nentNameEditPart$3.class
+SHA1-Digest: 9A0Mq/gfHaI+uFv+76ULkZLlyIg=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInComponentN
+ ameEditPart.class
+SHA1-Digest: EpUYipC5n4QUBDq/UxbmY5xRJ/8=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/helpers/ConstraintEditH
+ elper.class
+SHA1-Digest: x7HkPwoV4V90Fdr14mq2oLGbTzQ=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintInC
+ omponentEditPart$CornerBentDescriptor.class
+SHA1-Digest: PXO+kVABXUZB8X6OKFB010IFkhs=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorAppliedStere
+ otypeEditPartCN$3.class
+SHA1-Digest: PJJyq9Y+v9gyRHFI44bRcjyOqao=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintInPacka
+ geNameEditPart$2.class
+SHA1-Digest: pg8UKB3iFLy0w0NZNg3sdVhFxe0=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/IncludeLink_f
+ ixedEditPart.class
+SHA1-Digest: TsCgiiUWgXZJOx5w95FgJAVJwBQ=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ExtendsLink_f
+ ixedEditPart$3.class
+SHA1-Digest: 5PnX6Bm5yI8B53hPz/few2R3tOU=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/commands/PackageImportR
+ eorientCommand.class
+SHA1-Digest: pFfrS0qLZTuUIAUXxT3tkm5KVcE=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AssociationNa
+ meEditPart$2.class
+SHA1-Digest: m2x9Eqdx20W4cY4YzRMFSzcHoU0=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/preferences/AssociationP
+ referencePage.class
+SHA1-Digest: TCXoNhsbAUmWy7U/eP2a+u1Veuk=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentInCompon
+ entEditPart.class
+SHA1-Digest: lQF3UNpCnLKjSFWAg1WTvA6M8Cg=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInComponentN
+ ameEditPart$5.class
+SHA1-Digest: 6J6R8oNd4SkcqNdzEggQLQvSgOs=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/commands/PackageImp
+ ortReorientCommand.class
+SHA1-Digest: pFfrS0qLZTuUIAUXxT3tkm5KVcE=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/part/UMLDiagramEditorPlu
+ gin.class
+SHA1-Digest: vkQpHBdmzqn6bbDevxD5lj5DNIM=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentInPackag
+ eEditPart.class
+SHA1-Digest: 3a1JvIuDUPZIfG9rHH7gQU/5dx0=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/IncludeLink_f
+ ixedEditPart$2.class
+SHA1-Digest: KzLo1XJOBBMBkCVIlJjkDleT2t8=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/RealizationEd
+ itPart.class
+SHA1-Digest: 9X5sBc1a0jXOtgZupkFg1KR8SIA=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/PackageImportVisi
+ bilityEditPart$5.class
+SHA1-Digest: gHsvcrC+tnm0wS0hzT4ylsH9Vos=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/helpers/IncludeEdit
+ Helper.class
+SHA1-Digest: NaWg8a+lSQRBr1a5z64fxEha+Es=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/navigator/UMLNavigatorGr
+ oup.class
+SHA1-Digest: FZuv1FN/sCnfNNMKP/bFRP85mbU=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/ComponentUseca
+ ses3CanonicalEditPolicy.class
+SHA1-Digest: B7/eq88Vm9xirpUvTdCVNsPyM94=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseInPack
+ ageNameEditPart$1.class
+SHA1-Digest: CxRK0FtpNqx1VZFkCgaWX74GRE0=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UsageNameEdit
+ Part$2.class
+SHA1-Digest: MaE95sfB0/vmKn4nFZKOZIsLU2A=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/commands/CommentCreateC
+ ommandTN.class
+SHA1-Digest: 7coEM45CXOWeqMNTn+Yc57DiuHQ=
+
+Name: org/eclipse/papyrus/diagram/usecase/part/UMLLinkDescriptor$1.cla
+ ss
+SHA1-Digest: CBg4ao3/+htxgq0aK/aoBgwgIR4=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/part/UMLPaletteFactory.c
+ lass
+SHA1-Digest: ih80MavhSQx8TgGYMV/BAbm0eds=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/Associatio
+ nItemSemanticEditPolicy.class
+SHA1-Digest: 82HTL5eFCo3wuvG3FshJRimLPg0=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/helpers/PackageImportEd
+ itHelper.class
+SHA1-Digest: oJ239Wu3o1jAmBEAKOKXXaGjlgw=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/commands/UseCaseCreateC
+ ommandTN.class
+SHA1-Digest: DccP1ue6x2HRKJUoNr93L2P84Vw=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/PackageNameEditPa
+ rtTN.class
+SHA1-Digest: 4DDkxeNPVdgdOilrOwLbtd8wlaY=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorAppliedStere
+ otypeEditPartCN.class
+SHA1-Digest: q1YxsRYlgaZxAbnaK7/BWKPt+es=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereotype
+ RealizationEditPart$3.class
+SHA1-Digest: 1VbI2NeKyb6DikCRV2IzHJupeTo=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseInPack
+ ageNameEditPart$1$1.class
+SHA1-Digest: fhBgFc8X3iLlJUd/rv9hfBi1pgo=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/DependencyItem
+ SemanticEditPolicy.class
+SHA1-Digest: 5W+GjXsYvtrXHODlJVXuWsAy+bo=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/PackageImport
+ AppliedStereotypeEditPart$2.class
+SHA1-Digest: qnPJltRWHhMkrZ8DRaEykmQ/CcY=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereotype
+ PackageImportEditPart$2.class
+SHA1-Digest: nO41cQXtm+FNqOLzYBpoLyHPY7c=
+
+Name: org/eclipse/papyrus/diagram/usecase/preferences/IncludePreferenc
+ ePage.class
+SHA1-Digest: 7RPGCadorW0/zvH6KyuvQjjRTE0=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorNameEditPart
+ TN$1$1.class
+SHA1-Digest: tr6MSDRun01PvQXv2cfIpqeXEok=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ExtendEditPar
+ t$UseCases_WithArrow_Polyline.class
+SHA1-Digest: tMEHPQVjRWr+X6Z9zebGI8NVgQY=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/preferences/ActorPrefere
+ ncePage.class
+SHA1-Digest: sxRbrM1mn9l8/yMQhmLmNNo+sKE=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentEditPart
+ TN.class
+SHA1-Digest: MKxUCDrUag0Fyu/1VCPZyETdxfE=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorNameEdit
+ PartTN$1$1.class
+SHA1-Digest: tr6MSDRun01PvQXv2cfIpqeXEok=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentInCompon
+ entNameEditPart$2.class
+SHA1-Digest: qrHAbZYGYXeDDXibKyYnUY53Blk=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AssociationAp
+ pliedStereotypeEditPart$3.class
+SHA1-Digest: uHsn1OM7RIVvSBMnmkt/XMPGOmM=
+
+Name: org/eclipse/papyrus/diagram/usecase/part/UMLDiagramUpdateCommand
+ .class
+SHA1-Digest: whIbFb+/Q8c6NIIlPG4WhKwv1HU=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentInPa
+ ckageNameEditPart$5.class
+SHA1-Digest: g3bKMjOq+E12ZYqMq/Y1i6lxia8=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereo
+ typeUsageEditPart$2.class
+SHA1-Digest: ICc0EnvYqlXivMWnE4Zl10phlQg=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AssociationEditPa
+ rt.class
+SHA1-Digest: hFvi1mN1tUwy9FUld2YsZqPurJY=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/OpenDiagramEdi
+ tPolicy.class
+SHA1-Digest: sNU/L2hX5M4oYzmcETjBQryt2jA=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/GeneralizationApp
+ liedStereotypeEditPart$4.class
+SHA1-Digest: ig68jZbmWQUfU3qXD5IPzHCVzQk=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereo
+ typeAbstractionEditPart$1.class
+SHA1-Digest: rsXQSyR3lADvnbm3RjA/Vd0Jh+w=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseAsRect
+ angleEditPartTN$UseCaseAsClassFigure.class
+SHA1-Digest: Tm0Savd6XW7rvGPYYYbqq6BttxU=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/UseCasePoi
+ ntsInComponentCanonicalEditPolicy.class
+SHA1-Digest: WQMXzIygTPAD6FUuJSGYhbGZ1WU=
+
+Name: org/eclipse/papyrus/diagram/usecase/part/UMLDocumentProvider$1.c
+ lass
+SHA1-Digest: hhQQHkpWNZ0JHxhe/tGLRyHFsLs=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/commands/CommentAnnotat
+ edElementReorientCommand.class
+SHA1-Digest: kyU+dGtjyS7InGzU4dsdEKvX4Q8=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ExtensionPointEdi
+ tPart$5.class
+SHA1-Digest: eP0bwcykEkb3ugWXynPUMHBc394=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/part/UMLDocumentProvider
+ $1.class
+SHA1-Digest: hhQQHkpWNZ0JHxhe/tGLRyHFsLs=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/IncludeLink_fixed
+ EditPart$1$1.class
+SHA1-Digest: HGRcGlqhggynB/tmzVjLRQsFcJ4=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/draw2d/StickMan.class
+SHA1-Digest: L08je70+xKSzznD2Msxxgz76aVc=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UseCasePointsEdit
+ PartTN.class
+SHA1-Digest: 4G3cCzyvxlS3Sbx+klMqocwkPXg=
+
+Name: org/eclipse/papyrus/diagram/usecase/UseCaseDiagramCreationCondit
+ ion.class
+SHA1-Digest: E38993Wp6b5XCEg/90wJxKsTaas=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UseCasePoints
+ EditPartTN.class
+SHA1-Digest: 4G3cCzyvxlS3Sbx+klMqocwkPXg=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseInComp
+ onentNameEditPart$5.class
+SHA1-Digest: YRWE58gDjdrplM1CSmwFzyDqRR8=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/UseCasePoi
+ ntsInPackageCanonicalEditPolicy.class
+SHA1-Digest: 6rbaQ18kgikvpFjZgS1zdJiO87A=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/helpers/DependencyE
+ ditHelper.class
+SHA1-Digest: /pnMazAmlVLVYXJK+rSsdNi4Fro=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInComponentE
+ ditPart$1$1.class
+SHA1-Digest: 5QdPs1c/6k6Qksq+4ePy/NogMRg=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AbstractionNa
+ meEditPart$1.class
+SHA1-Digest: hY5aoAU+4fFN9pHNjh+9ITRaA+c=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/helper/UseCaseLinkMappin
+ gHelper$1.class
+SHA1-Digest: OhMHugO+vjstHNnj3JhrqpH0XhQ=
+
+Name: org/eclipse/papyrus/diagram/usecase/preferences/CommentPreferenc
+ ePage.class
+SHA1-Digest: ZOqlKte3MA0vTTgv7Oksy/R77v0=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseDiagra
+ mEditPart$2.class
+SHA1-Digest: +K7vSNtrRYpqbUIbWYiYT2Xwtfo=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/DependencyNameEdi
+ tPart$2.class
+SHA1-Digest: YRyafIC7+yOgFEwEe5ntap3RWqo=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintInC
+ omponentNameEditPart.class
+SHA1-Digest: rfKFhdcuzMUaWeUXqcsBKFtjD0I=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/providers/ElementInitial
+ izers.class
+SHA1-Digest: U+Syc+YbddL7GCdGyFtrFF6y77I=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/UseCaseDiagramEditorFact
+ ory.class
+SHA1-Digest: ARUSBS8qruHsI39OjrdeX7aTCsI=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/IncludeApplie
+ dStereotypeEditPart$1.class
+SHA1-Digest: ZJzWPek7D5deeiu5Zql+nzS+3VU=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/ShortCutDi
+ agramItemSemanticEditPolicy.class
+SHA1-Digest: KhaDtdt8iMQBJihNyw/nEm0DajE=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInPackag
+ eNameEditPart.class
+SHA1-Digest: JuoJ85bnme34k+DqcZ0TXWDQw4o=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentUsec
+ ases2EditPart.class
+SHA1-Digest: xvz29DXu52Sr+P3mkfN+2VfBOX4=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/PackageNameEditPa
+ rtTN$3.class
+SHA1-Digest: wFnOV5h29VF7IByvAQ2P2NH2Sp4=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/CreateExtensio
+ nPointEditPolicy.class
+SHA1-Digest: fT6bJt3Vxg2Frdq9WLe1bWBn1KU=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AssociationNameEd
+ itPart$4.class
+SHA1-Digest: lGKpmYvK36StXrIDIpfjpzukpJg=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInComponentA
+ ppliedStereotypeEditPart$4.class
+SHA1-Digest: 5DJbjAodEvRf6748+2j/imbxGjU=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInCompon
+ entNameEditPart$3.class
+SHA1-Digest: XIL+pTenb2wcQIbMnjjV8BZydXA=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/commands/UMLReorien
+ tConnectionViewCommand.class
+SHA1-Digest: Pg/Bli5Zz+35sk3XuFnabUga7jE=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorAppliedS
+ tereotypeEditPartCN$1$1.class
+SHA1-Digest: SpOvqNBUWl9j7DsJYWda0r+3aFI=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/PackageEditPartTN
+ .class
+SHA1-Digest: k/Xctqnz1lHo6FCAA4z2+CtOmTE=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/ComponentInCom
+ ponentItemSemanticEditPolicy.class
+SHA1-Digest: /rMbWUr/KNj4GEzNNYZPJBZYdDU=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/PackageNameEd
+ itPartTN$3.class
+SHA1-Digest: wFnOV5h29VF7IByvAQ2P2NH2Sp4=
+
+Name: org/eclipse/papyrus/diagram/usecase/providers/CustomEditPolicyPr
+ ovider.class
+SHA1-Digest: HGlIV9NPHLXbFgV/mYlaSoRtaU4=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintInC
+ omponentEditPart.class
+SHA1-Digest: F4KNghsSY/8ZA93RiWXgTNSCtSo=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/UseCaseItemSem
+ anticEditPolicyTN.class
+SHA1-Digest: ku04vdKmzX6djAvGHzUMmhTKs6I=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/commands/IncludeReorien
+ tCommand.class
+SHA1-Digest: 8/vMgulRxclizG/7qkdZ/4E9mhk=
+
+Name: org/eclipse/papyrus/diagram/usecase/navigator/UMLNavigatorItem.c
+ lass
+SHA1-Digest: 0HizWUqeX+A856EtjIgyTVVicHY=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/part/ValidateAction$3.cl
+ ass
+SHA1-Digest: lko6UD1XtkvGnjfhTORIpt7t2KQ=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UseCasePointsInCo
+ mponentEditPart.class
+SHA1-Digest: Aeeytky67N8RwgTkPgZ+5wzCVOM=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/UseCasePointsI
+ temSemanticEditPolicyTN.class
+SHA1-Digest: Y4lK6NYXT9PrT/m6a44jTBOIMoI=
+
+Name: org/eclipse/papyrus/diagram/usecase/part/UMLCreationWizard$2.cla
+ ss
+SHA1-Digest: C7l4Mv+SfWSR/hJsXYluIXVg3as=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/providers/CustomEditPoli
+ cyProvider.class
+SHA1-Digest: HGlIV9NPHLXbFgV/mYlaSoRtaU4=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorNameEditPart
+ CN.class
+SHA1-Digest: ESXirPwiGe7dSivIOndyGX82QSA=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintInP
+ ackageEditPart.class
+SHA1-Digest: bOMWmUZWoDQcf+JW2F+axLJzBME=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/navigator/UMLNavigatorIt
+ em.class
+SHA1-Digest: 0HizWUqeX+A856EtjIgyTVVicHY=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ExtensionPoin
+ tInRectangleEditPart$5.class
+SHA1-Digest: H4pVqg2XbKbkOs+nGrCcI+9zsCs=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/part/Messages.class
+SHA1-Digest: jjkYnfFyI0f8Ps+5f9JpcNKj3ZI=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/CommentEditPartTN
+ .class
+SHA1-Digest: hSENvhxaS1L+AyuduIHQHBeglnM=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ExtensionPoin
+ tInRectangleEditPart$1$1.class
+SHA1-Digest: LByO1wfDypcUdCGMd8TDPuzeWZg=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/commands/PackageCreateC
+ ommandTN.class
+SHA1-Digest: 7dt0N54BJvWlZiiPQTCH4P4b27U=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/RealizationApplie
+ dStereotypeEditPart$4.class
+SHA1-Digest: 4mFEPeELY/Fou17fCcD6M95CaEQ=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/commands/ComponentI
+ nComponentCreateCommand.class
+SHA1-Digest: 02sYKSI1yxoX45EOEKHda04EoPU=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereo
+ typeRealizationEditPart$1.class
+SHA1-Digest: 8tPDRXdGQ/keBD74Rp1tjqz8anM=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorNameEditPart
+ TN$2.class
+SHA1-Digest: 0kY8+OLBn3sbrrLGDy3428/DaVI=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/command/CreateAssociatio
+ nSupplement.class
+SHA1-Digest: gt4W9X0pZciezgQQUsBt7ujxqp8=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/PackageNameEditPa
+ rtCN$4.class
+SHA1-Digest: A5KBztCiJuysP0Chr7wVUct+lw4=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ExtendApplied
+ StereotypeEditPart$5.class
+SHA1-Digest: fzdq+4poO/dbRwSqzv4N58Rpn5U=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/UseCaseInPacka
+ geItemSemanticEditPolicy.class
+SHA1-Digest: n8MuGyoHMZKc48m0hlbYu9IBi1U=
+
+Name: org/eclipse/papyrus/diagram/usecase/preferences/AbstractionPrefe
+ rencePage.class
+SHA1-Digest: lTAyIH2mEZ/iouKUcAkMJ+aqDDY=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/PackageNameEd
+ itPartCN$4.class
+SHA1-Digest: A5KBztCiJuysP0Chr7wVUct+lw4=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/PackageImp
+ ortItemSemanticEditPolicy.class
+SHA1-Digest: H3DWNihQjPLvvvzj+OQTdbP8SCo=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ExtendsLink_fixed
+ EditPart$2.class
+SHA1-Digest: 2q4sh9eucoilb7u0kkAYp9Kjf38=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/commands/ComponentI
+ nPackageCreateCommand.class
+SHA1-Digest: y58RaCkpdctHjcKvtabkX15lImE=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/OpenDiagra
+ mEditPolicy$OpenDiagramCommand.class
+SHA1-Digest: 3+UP+cJVB07BD2n1Cgmtm9c0OAw=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintInC
+ omponentNameEditPart$2.class
+SHA1-Digest: 7kVdQCpXYZMxaAdNdtJkY3eH5zs=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/preferences/ConstraintPr
+ eferencePage.class
+SHA1-Digest: XY5cm/DuzZ+6MfYLuIjAf2iM1Uk=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorAsRectan
+ gleNameEditPartTN$4.class
+SHA1-Digest: Xb2KoYvfbBL9lVZzeMdS2YB7mA4=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/IncludeAppliedSte
+ reotypeEditPart$2.class
+SHA1-Digest: yXhN6wv/Mz4ZX1+NFUhgksdd45U=
+
+Name: .options
+SHA1-Digest: lFAgq7Coz9LFwz7Mxjg+cd6WPcg=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/commands/Constraint
+ ConstrainedElementReorientCommand.class
+SHA1-Digest: s0Mw7YZJAmmOKmREd7AVnwct4Dc=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/PackagePac
+ kageableElementCompartmentItemSemanticEditPolicy.class
+SHA1-Digest: DHjJ9epu6F/snpBM0SB5On+YsMI=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/OpenDiagramEdi
+ tPolicy$OpenDiagramCommand$1.class
+SHA1-Digest: H6GiOL/VLBzcc8sTPB9DkgeFcFs=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/commands/IncludeCreateC
+ ommand.class
+SHA1-Digest: EE3DeiqtyfWwFbAih9MadIt/ftI=
+
+Name: org/eclipse/papyrus/diagram/usecase/part/UMLDocumentProvider$Res
+ ourceSetInfo$SynchronizerDelegate.class
+SHA1-Digest: XfvRRiwjHng0VJcaH/ch+xCYQew=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/IncludeLink_fixed
+ EditPart$1.class
+SHA1-Digest: rcc01OOLPcpxrZ5/AQbyH9aFS0E=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/RealizationNa
+ meEditPart$1.class
+SHA1-Digest: edzLzeSzYQbNWKD745dq9IooZCA=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentInPackag
+ eNameEditPart$3.class
+SHA1-Digest: kF5VOFciKERXBp5yqUNTFU0ZjkQ=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/commands/IncludeCre
+ ateCommand.class
+SHA1-Digest: EE3DeiqtyfWwFbAih9MadIt/ftI=
+
+Name: org/eclipse/papyrus/diagram/usecase/figure/UseCaseNodeFigure.cla
+ ss
+SHA1-Digest: u3XNCMQyS96gOJWvttYEH1uzkI4=
+
+Name: org/eclipse/papyrus/diagram/usecase/part/UMLDiagramEditor$1.clas
+ s
+SHA1-Digest: z3AIE02/c1qxdYgIQUbdjnFHHmw=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInPackageNam
+ eEditPart$3.class
+SHA1-Digest: Vf5qx3MeiVTWXY31zWbaXAH2sIw=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/commands/ExtensionPoint
+ InRectangleCreateCommand.class
+SHA1-Digest: Aj0G202oeNXWecjtxAibmR+Y3Sc=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/navigator/UMLDomainNavig
+ atorContentProvider$2.class
+SHA1-Digest: zEj6wUWCvdI/qJl9GIAMNpuFzoY=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInCompon
+ entEditPart$1.class
+SHA1-Digest: PZvma25riI0aB0imvmxD7kbR7IU=
+
+Name: org/eclipse/papyrus/diagram/usecase/navigator/UMLAbstractNavigat
+ orItem$1.class
+SHA1-Digest: grxmodbV1Th8lJcHx2EflQ3UFnc=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/DependencyApplied
+ StereotypeEditPart$2.class
+SHA1-Digest: vlj5tC69U9cOdTcMvHXXuwg+0v8=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/commands/PackageMergeCr
+ eateCommand.class
+SHA1-Digest: AoWaKTtv43WXotnU7joMGHbCtUI=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/PackageImport
+ EditPart.class
+SHA1-Digest: RMiH7GZ4yfSPhiKipZJbcjZZzUY=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/UsageItemSeman
+ ticEditPolicy.class
+SHA1-Digest: EIvoTPIbEWirFBUV/XnKmFubHlA=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseInPack
+ ageNameEditPart.class
+SHA1-Digest: H4d6feVazyeRFK0/08qgHj3FFio=
+
+Name: org/eclipse/papyrus/diagram/usecase/preferences/PackageImportPre
+ ferencePage.class
+SHA1-Digest: TM+qZR4copzmATVe1Ku0ZQoBZW8=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseAsRect
+ angleNameEditPartTN$1.class
+SHA1-Digest: m1gjy+xFLnqNhNcK5PqvH9U4XAU=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UsageNameEditPart
+ $1.class
+SHA1-Digest: 2p5MCOz7R/xFdofw56ImH2vXFZ0=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorNameEditPart
+ CN$3.class
+SHA1-Digest: RESnzGJxuoICE9Hya/oKfFEHkvA=
+
+Name: plugin.properties
+SHA1-Digest: go40Uig9LGEIKQhwapWavsddnrc=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AbstractionNameEd
+ itPart$3.class
+SHA1-Digest: mbUQuhF4p1IEgIxIQtnOhWLc+Dw=
+
+Name: icons/outgoingLinksNavigatorGroup.gif
+SHA1-Digest: lUwMuDmTEvmiqtkgC+kWyrYAkVk=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/RealizationAp
+ pliedStereotypeEditPart$1$1.class
+SHA1-Digest: rGv9/ZyAauSgWMrlK0gj69ISjig=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereo
+ typePackageMergeEditPart$1$1.class
+SHA1-Digest: igr8T/qvGRxwKzgQeCW3TZFHsI8=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ExtendAppliedSter
+ eotypeEditPart$2.class
+SHA1-Digest: fxPFGAwh8ESBF45EXx7GORSdK3Y=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseInComponen
+ tNameEditPart$3.class
+SHA1-Digest: U9kkBTkoFNCSbE0Gw9t1ulKPlQA=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/providers/UMLEditPartPro
+ vider.class
+SHA1-Digest: Iil4o6kaJsusFO80oYByFAJ5oZA=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/commands/Generaliza
+ tionReorientCommand.class
+SHA1-Digest: iyzzSmnrQ1PeL9JBZxE+TAo51iI=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentInCo
+ mponentNameEditPart.class
+SHA1-Digest: e62lCgpdfw9LLL90bCbqr8agpHs=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInPackag
+ eEditPart$1$1.class
+SHA1-Digest: 4VL7cBxOiU6tHFr8yu39lrcTbGo=
+
+Name: plugin.xml
+SHA1-Digest: 20Km7MCh8x3DEdbOS7Ru6LBL4yM=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereo
+ typeRealizationEditPart$6.class
+SHA1-Digest: YLL63QQOhIE3RG7EeYsU/jMB9As=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/ConstraintCons
+ trainedElementItemSemanticEditPolicy.class
+SHA1-Digest: GilaiAw+WreSB4uFzPjZZU1GdAQ=
+
+Name: org/eclipse/papyrus/diagram/usecase/preferences/UsagePreferenceP
+ age.class
+SHA1-Digest: Iet1WM8kuFoCoLLhvdV4FhAFxt8=
+
+Name: icons/linksNavigatorGroup.gif
+SHA1-Digest: lUwMuDmTEvmiqtkgC+kWyrYAkVk=
+
+Name: org/eclipse/papyrus/diagram/usecase/providers/UMLValidationDecor
+ atorProvider$1.class
+SHA1-Digest: Pr/mn9ElGM8C1GeF7w3RWaB7Mpw=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereo
+ typeUsageEditPart.class
+SHA1-Digest: heZcTTxPz6eMyNzrEpyXEB2A6eU=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintNam
+ eEditPartTN$5.class
+SHA1-Digest: FmV/9oLAz2u3gy8J7F7UQJQvDoo=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/providers/UMLMarkerNavig
+ ationProvider.class
+SHA1-Digest: czUt+LvD/7g+i2SKUH67DVnp1gk=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseAsRectangl
+ eEditPartTN$1.class
+SHA1-Digest: eeufuCwHieUskB5wHtqaS08zkV8=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintNameEdi
+ tPartTN$1.class
+SHA1-Digest: i8BbEuZ49EYSHUzz1kU6YPuZ9nE=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/providers/UMLValidationD
+ ecoratorProvider$1.class
+SHA1-Digest: Pr/mn9ElGM8C1GeF7w3RWaB7Mpw=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentName
+ EditPartTN$3.class
+SHA1-Digest: LAv95qwUPUO5Ebft/BEhquqKpGM=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/preferences/ExtendPrefer
+ encePage.class
+SHA1-Digest: 2rdBZrvw8MB/LMaOdWW83NN8x1U=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/commands/UseCaseInC
+ omponentCreateCommand.class
+SHA1-Digest: SRU0l1ceVm0yLXZ8zdUERxbvpAo=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/navigator/UMLDomainNavig
+ atorLabelProvider.class
+SHA1-Digest: /uXlwfRu50I037GgGZI/OUOZBCc=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/PackageImportAppl
+ iedStereotypeEditPart$5.class
+SHA1-Digest: STlbgCTX4mnxruHZRBcT51zgxA8=
+
+Name: org/eclipse/papyrus/diagram/usecase/providers/UMLValidationDecor
+ atorProvider$MarkerObserver.class
+SHA1-Digest: mdXknN3fdlZeXWeD7dlaKHNDA5I=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/navigator/UMLNavigatorAc
+ tionProvider.class
+SHA1-Digest: 6pzNBpADUGSzahLU9a8+NTYHwW8=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/part/UMLDiagramEditor$2.
+ class
+SHA1-Digest: xrdfztgqnYdME2Pj7hzvIKNhHHw=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/UMLTextSelecti
+ onEditPolicy$2.class
+SHA1-Digest: 3vAHv5cR/bkedF9XvRSXYIs3XVY=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInPackag
+ eNameEditPart$4.class
+SHA1-Digest: GVOcyiETtA1/4CQcUPMhxSqE1Rs=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorAsRectan
+ gleNameEditPartTN$1$1.class
+SHA1-Digest: ZXq518sVEZQJzJj8FVn6EdDSyu4=
+
+Name: org/eclipse/papyrus/diagram/usecase/providers/UMLValidationDecor
+ atorProvider$StatusDecorator.class
+SHA1-Digest: kU0akrcv+2/oNKlQnUrDDm6WTUw=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/ComponentU
+ secases3CanonicalEditPolicy.class
+SHA1-Digest: B7/eq88Vm9xirpUvTdCVNsPyM94=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereotype
+ UsageEditPart$5.class
+SHA1-Digest: FZbHwPYSowBU/tLrYd1bwapkyKE=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/PackagePac
+ kageableElementCompartment2ItemSemanticEditPolicy.class
+SHA1-Digest: A9xhYAouIzC86Zhq39q09wxkT4o=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentEdit
+ PartTN$1.class
+SHA1-Digest: s0PF85D8rZqyx7e3TmYPp5oo4CQ=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/PackageEditPartTN
+ $1.class
+SHA1-Digest: ULVMcLSveBWQ/URi8TLCsk2qink=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/UMLTextSel
+ ectionEditPolicy$2.class
+SHA1-Digest: 3vAHv5cR/bkedF9XvRSXYIs3XVY=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AssociationNa
+ meEditPart$1$1.class
+SHA1-Digest: JGE9Ht0x3dTp0OZU6k6wmiWT6CU=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/DiagramNameEditPa
+ rt$5.class
+SHA1-Digest: ggyM8UrxtHWD7VTlcJ7w6+uO5mo=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereotype
+ PackageMergeEditPart$2.class
+SHA1-Digest: aSpyW94hAHPAHYaXPI/CyRS3YMA=
+
+Name: org/eclipse/papyrus/diagram/usecase/preferences/RealizationPrefe
+ rencePage.class
+SHA1-Digest: jBAOiyOz2whtC96yOYFON7TOHJo=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/PackageImport
+ VisibilityEditPart$1.class
+SHA1-Digest: pn130bYiV6myAIH8WCG4fPUMF+0=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/RealizationAp
+ pliedStereotypeEditPart$2.class
+SHA1-Digest: wZKAIUlFQafn4pNfswv0EEjn9VI=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereo
+ typePackageMergeEditPart$2.class
+SHA1-Digest: aSpyW94hAHPAHYaXPI/CyRS3YMA=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/PackageImportVisi
+ bilityEditPart$1$1.class
+SHA1-Digest: xYa7KGxcm/3dVGppFq2sLItNN/w=
+
+Name: org/eclipse/papyrus/diagram/usecase/navigator/UMLDomainNavigator
+ ContentProvider$3.class
+SHA1-Digest: 7lUpDRz+415NPPTHmLEFbKCEEoc=
+
+Name: org/eclipse/papyrus/diagram/usecase/part/UMLNewDiagramFileWizard
+ $DiagramRootElementSelectionPage.class
+SHA1-Digest: a5ZzNl9hhAHzg7Hbn6PjZs4Srps=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInPackag
+ eAppliedStereotypeEditPart$5.class
+SHA1-Digest: LRWGoJgg6yyAbfZrb43mDxdehDo=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/commands/Generaliza
+ tionCreateCommand.class
+SHA1-Digest: 6u7C5SWwDu7oL4/cIp12po3srqE=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/ComponentI
+ temSemanticEditPolicyTN.class
+SHA1-Digest: 2PXdOOYED36OQGi/SARMphTgzHo=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseAsRectangl
+ eNameEditPartTN$2.class
+SHA1-Digest: WOdU5gMLsIEjXxDipsvCMLoZTa0=
+
+Name: org/eclipse/papyrus/diagram/usecase/sheet/UMLSheetLabelProvider.
+ class
+SHA1-Digest: DgA0F+lxdbltKt06gs4KnegVSRY=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorAppliedS
+ tereotypeEditPartCN.class
+SHA1-Digest: q1YxsRYlgaZxAbnaK7/BWKPt+es=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereo
+ typePackageImportEditPart$2.class
+SHA1-Digest: nO41cQXtm+FNqOLzYBpoLyHPY7c=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/CommentBodyEditPa
+ rtTN$3.class
+SHA1-Digest: gj2Q/BHRS/wvWEIeAXDv2FXkLBQ=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseInPackageN
+ ameEditPart$1.class
+SHA1-Digest: CxRK0FtpNqx1VZFkCgaWX74GRE0=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AssociationNameEd
+ itPart.class
+SHA1-Digest: UVZjLQ+TE47t8XayrSgCmADs/pw=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInComponentA
+ ppliedStereotypeEditPart.class
+SHA1-Digest: 3WBfwA5+KnoBDUhf4uZMximsABc=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/providers/UMLModelingAss
+ istantProvider.class
+SHA1-Digest: GkjOF3aADGIYOrGoXaGTHTtc98c=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/helper/UseCaseLinkMappin
+ gHelper$SingletonHolder.class
+SHA1-Digest: oDN/dRJ1fRQal1T7N+6IJMn3Pug=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/Constraint
+ InPackageItemSemanticEditPolicy.class
+SHA1-Digest: T2ciG+p2bMI5j/lzSRSHjzFBHLo=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseInComp
+ onentEditPart$1.class
+SHA1-Digest: VtWyywfTaHRZiUOyISzQ0OJFWCA=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UsageNameEdit
+ Part$1$1.class
+SHA1-Digest: dBerf923duF/AsgLIQnsetWYWe4=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/CommentBodyEd
+ itPartTN$3.class
+SHA1-Digest: gj2Q/BHRS/wvWEIeAXDv2FXkLBQ=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorNameEdit
+ PartTN$4.class
+SHA1-Digest: obbo2tx5ZNn1GeSnELWBTtFFrqM=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AssociationNa
+ meEditPart.class
+SHA1-Digest: UVZjLQ+TE47t8XayrSgCmADs/pw=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/CommentBodyEditPa
+ rtTN$1$1.class
+SHA1-Digest: 4/5H7eWGo5x4/vz8SfwhSW6ElVs=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/PackageNameEditPa
+ rtCN$1$1.class
+SHA1-Digest: UZMAO4JhOzU5VF5n3hjuGEBiYe0=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ExtensionPointInR
+ ectangleEditPart.class
+SHA1-Digest: kd2Z9GydUrH9Vc0nvy5xo2pjD5Y=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/OpenDiagra
+ mEditPolicy.class
+SHA1-Digest: sNU/L2hX5M4oYzmcETjBQryt2jA=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/navigator/UMLNavigatorAc
+ tionProvider$OpenDiagramAction.class
+SHA1-Digest: RB17J+8beVldh3aJjX6i+s6dJxk=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintInCompo
+ nentNameEditPart$1$1.class
+SHA1-Digest: DspvpZOdqnXcdbNFohNrxQt+HWs=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/RealizationNameEd
+ itPart$3.class
+SHA1-Digest: nHx+vK6PkYxk6AOi24gXMBBBvNA=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ExtensionPoin
+ tEditPart$5.class
+SHA1-Digest: eP0bwcykEkb3ugWXynPUMHBc394=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInCompon
+ entAppliedStereotypeEditPart$3.class
+SHA1-Digest: /8v9IAZw6ne2vi/xucAiigcEYHM=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorAsRectangleN
+ ameEditPartTN$2.class
+SHA1-Digest: z7FzAl4PSzYbVl0B3vwFI8GqJLQ=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentName
+ EditPartTN$1$1.class
+SHA1-Digest: Ckd+9TI9fGVnARFWWB18E5Felw8=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorAppliedS
+ tereotypeEditPartTN$4.class
+SHA1-Digest: j/Uzoqw9YeNXTq5jr5bGUWLBa90=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AssociationApplie
+ dStereotypeEditPart$3.class
+SHA1-Digest: uHsn1OM7RIVvSBMnmkt/XMPGOmM=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintInP
+ ackageNameEditPart$3.class
+SHA1-Digest: 1tYBXsJJfbS0UkXwIZkPqaCVPRU=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintEdi
+ tPartTN$CornerBentDescriptor.class
+SHA1-Digest: LqTkGj89MS6cTlDwRbf7AZM9qhs=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/helpers/UsageEditHe
+ lper.class
+SHA1-Digest: 7EtCO5VbxRLnwXQEBLaYgUMNx64=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ExtensionPointInR
+ ectangleEditPart$4.class
+SHA1-Digest: WGUEwLbAjDIC+CLaCudwsrH+C+s=
+
+Name: org/eclipse/papyrus/diagram/usecase/part/UMLNewDiagramFileWizard
+ .class
+SHA1-Digest: nQa0G6IWvf73L5KGSK+aNa+v8cc=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/commands/AssociationReo
+ rientCommand.class
+SHA1-Digest: pBlGSLh2hjKHyS/9cpHoA6F+1Hk=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereotype
+ AbstractionEditPart$1.class
+SHA1-Digest: rsXQSyR3lADvnbm3RjA/Vd0Jh+w=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/part/UMLDiagramUpdater.c
+ lass
+SHA1-Digest: tv7Oj6mIjTzGS2eZ2X/45XGEoK4=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseNameEditPa
+ rtTN$5.class
+SHA1-Digest: b5i8LIh4gIUQ32q7Lfi/RifN2oE=
+
+Name: org/eclipse/papyrus/diagram/usecase/part/UMLDocumentProvider$Res
+ ourceSetInfo$SynchronizerDelegate$1.class
+SHA1-Digest: 6zBMFo8GnVzPVafq8sDLOmd/Z6o=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/UseCasePointsI
+ nComponentCanonicalEditPolicy.class
+SHA1-Digest: WQMXzIygTPAD6FUuJSGYhbGZ1WU=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/ActorAsRec
+ tangleItemSemanticEditPolicyTN.class
+SHA1-Digest: AJR+XTri9Zn+vqiKxU1f6zmw65U=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentInCo
+ mponentEditPart$UseCaseSubjectFigure.class
+SHA1-Digest: OUYeGzUakC8WQA/eTJLU3aX3MzI=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInPackageApp
+ liedStereotypeEditPart$2.class
+SHA1-Digest: X5S1oLdL/b7gVkfbZ0hUfpnrAGU=
+
+Name: org/eclipse/papyrus/diagram/usecase/figure/AssociationFigure.cla
+ ss
+SHA1-Digest: /Cp6AFcQ4lAyas/aFUhFv+mGlzo=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/ActorInPackage
+ ItemSemanticEditPolicy.class
+SHA1-Digest: mmOqDDmxfk6E2eIXtfoRBpqf8QU=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UsageNameEdit
+ Part.class
+SHA1-Digest: dOwd7woY0xS7hjHYwjutzrVezJY=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/DiagramNameEd
+ itPart$2.class
+SHA1-Digest: V0kkYhzKfJoq0zhFSKCU8Tzvt2s=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseNameEd
+ itPartTN$5.class
+SHA1-Digest: b5i8LIh4gIUQ32q7Lfi/RifN2oE=
+
+Name: org/eclipse/papyrus/diagram/usecase/parsers/AbstractParser$Inval
+ idValue.class
+SHA1-Digest: KpIZiRbPxnocBR4xmggmbJLtnCU=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/ActorInPac
+ kageItemSemanticEditPolicy.class
+SHA1-Digest: mmOqDDmxfk6E2eIXtfoRBpqf8QU=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/DependencyApp
+ liedStereotypeEditPart$4.class
+SHA1-Digest: FMI284hV5TYWMB2myUWpi9PAzL8=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/CommentBodyEditPa
+ rtCN$4.class
+SHA1-Digest: VlLx49xpPDNboItP4WbXXEvIC5M=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/helpers/AssociationEdit
+ Helper.class
+SHA1-Digest: OCrPslMNMTXgOmQk/X2gXCyx2yg=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/PackagePackageabl
+ eElementCompartment2EditPart.class
+SHA1-Digest: DyNS/lLgpyUTnFMwVVu6sXsPStw=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintCon
+ strainedElementEditPart.class
+SHA1-Digest: niTOuJQ5EhBLtBRo8q29ikneqw0=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/DependencyNam
+ eEditPart$2.class
+SHA1-Digest: YRyafIC7+yOgFEwEe5ntap3RWqo=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/CommentBodyEd
+ itPartCN$4.class
+SHA1-Digest: VlLx49xpPDNboItP4WbXXEvIC5M=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorNameEdit
+ PartCN$5.class
+SHA1-Digest: RKgrkyOhcNs0uefBDtco1z6vI44=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/UseCaseInCompo
+ nentItemSemanticEditPolicy.class
+SHA1-Digest: PSgLQntEiAcrsCtNWXnY6yfLeIU=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/helpers/DependencyEditH
+ elper.class
+SHA1-Digest: /pnMazAmlVLVYXJK+rSsdNi4Fro=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/helpers/Association
+ EditHelper.class
+SHA1-Digest: OCrPslMNMTXgOmQk/X2gXCyx2yg=
+
+Name: org/eclipse/papyrus/diagram/usecase/helper/UseCaseLinkMappingHel
+ per$1.class
+SHA1-Digest: pgTQ/pVgTL9VW35fGW8HUlkZttU=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintInCompo
+ nentNameEditPart$1.class
+SHA1-Digest: 35sQwLBBU8vfDkjhar6ZIdZc2rw=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentNameEdit
+ PartTN$5.class
+SHA1-Digest: SQ3Ktr9GxJY1+FywV+PKrjgsKMU=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorAppliedS
+ tereotypeEditPartCN$5.class
+SHA1-Digest: 5ZPrgdk/wRI5rNj4L01DfNiaYtA=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereo
+ typeAbstractionEditPart.class
+SHA1-Digest: Q98JQ+7q7SwhFt7mAfY/hJ4xAWQ=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UseCasePointsInRe
+ ctangleEditPart.class
+SHA1-Digest: Pw9wx1rIJSRz8ZY6Rzixx+N8DrY=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/PackageMergeIt
+ emSemanticEditPolicy.class
+SHA1-Digest: sC79WLBEaUMT/ndMkeNHsb8CWKY=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorAppliedStere
+ otypeEditPartCN$1.class
+SHA1-Digest: /r19I+8r936SWHyTZuD+S13wW6s=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/commands/ShortCutDiagra
+ mCreateCommand.class
+SHA1-Digest: v2Gf/G5bVgS6WXadQJTRkbw8Ehg=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ExtendsLink_f
+ ixedEditPart$1.class
+SHA1-Digest: TCIiXQ5l6k4Za6gXg/fTBP6oIAY=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/commands/DependencyReor
+ ientCommand.class
+SHA1-Digest: UNRODcv0PECjzBWfwz2TpXLlzRI=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/UseCasePoi
+ ntsItemSemanticEditPolicyTN.class
+SHA1-Digest: Y4lK6NYXT9PrT/m6a44jTBOIMoI=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UseCasePoints
+ InComponentEditPart.class
+SHA1-Digest: Aeeytky67N8RwgTkPgZ+5wzCVOM=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereotype
+ PackageMergeEditPart.class
+SHA1-Digest: SsVZEISa618I227wGyH9cgTUe38=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UMLEditPartFactor
+ y$LabelCellEditorLocator.class
+SHA1-Digest: YF5pNozkiFNNFypbaEtYyY3SF8g=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/commands/ShortCutDi
+ agramCreateCommand.class
+SHA1-Digest: v2Gf/G5bVgS6WXadQJTRkbw8Ehg=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/navigator/UMLNavigatorSo
+ rter.class
+SHA1-Digest: B8TVSpnwjXCNEXUpvhJo6jimE1Q=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInComponentN
+ ameEditPart$3.class
+SHA1-Digest: XIL+pTenb2wcQIbMnjjV8BZydXA=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/part/UMLDocumentProvider
+ $ResourceSetInfo$SynchronizerDelegate$2.class
+SHA1-Digest: 89hM4MtzUU8pJv2s1SHu3N8e58o=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/ActorInCompone
+ ntItemSemanticEditPolicy.class
+SHA1-Digest: R1snPalWVJNkntPn5iVKV9H8xf4=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/Generalizatio
+ nAppliedStereotypeEditPart$5.class
+SHA1-Digest: d2EnEYqtXTgmWnBo0vdojNPcy2g=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/PackageImportVisi
+ bilityEditPart$3.class
+SHA1-Digest: RlTQlm6WbFzSvkPvLe7a6yqNfbE=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorAppliedStere
+ otypeEditPartTN$5.class
+SHA1-Digest: bQw6UjrT8kW+8JWbUPd0ln/A8js=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/CommentAnnota
+ tedElementEditPart$CommentLinkDescriptor.class
+SHA1-Digest: yHJbYfeexCPYvITIx7VI6QRy+2g=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorEditPart
+ TN$1$1.class
+SHA1-Digest: hFaP0LU1o1636AcleAUcgForab0=
+
+Name: org/eclipse/papyrus/diagram/usecase/part/DiagramEditorContextMen
+ uProvider.class
+SHA1-Digest: NpPcnjtBrJTbzGbH/LkvF6tRlxo=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseDiagramEdi
+ tPart$NodeLabelDragPolicy.class
+SHA1-Digest: m9BWFA4khMYKJSLTfMqDGRh7cMA=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/part/UMLDiagramEditorUti
+ l.class
+SHA1-Digest: MpkBp1JQf7QzG3xJR4SRFuqKW3s=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseEditPa
+ rtTN.class
+SHA1-Digest: TbSetCTKLO1n9WBow+jeDgxWvp8=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/part/UMLLinkDescriptor.c
+ lass
+SHA1-Digest: gx3/wcUZ1CsO8BVxFQXOdWgoWD0=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInPackageEdi
+ tPart$1.class
+SHA1-Digest: FwSMFOb14nToCZJKtBEu0EkIRLw=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseInComp
+ onentNameEditPart$1$1.class
+SHA1-Digest: 88/iRl6N5Gh58SPS/FcqZ9EJ8dg=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/IncludeLink_fixed
+ EditPart$IncludeLink_fixed.class
+SHA1-Digest: SWECJhYEZlAxd7DOOODj9LzUWxI=
+
+Name: icons/linkTargetNavigatorGroup.gif
+SHA1-Digest: lUwMuDmTEvmiqtkgC+kWyrYAkVk=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereotype
+ RealizationEditPart$1.class
+SHA1-Digest: 8tPDRXdGQ/keBD74Rp1tjqz8anM=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/helpers/ExtendEditH
+ elper.class
+SHA1-Digest: VQM/3wk5sL2P/RTskdWKDIlemyg=
+
+Name: icons/linkSourceNavigatorGroup.gif
+SHA1-Digest: lUwMuDmTEvmiqtkgC+kWyrYAkVk=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentInCo
+ mponentNameEditPart$4.class
+SHA1-Digest: nCZNvlTp3gPhPAyo07+/KGs0yoE=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ExtendApplied
+ StereotypeEditPart$1$1.class
+SHA1-Digest: khyXQQ+qilw51csQPdKkK4K3K1Y=
+
+Name: org/eclipse/papyrus/diagram/usecase/navigator/UMLNavigatorLinkHe
+ lper.class
+SHA1-Digest: JNFn8mFLyCNuRDtkeVxVwxWZE64=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AssociationAp
+ pliedStereotypeEditPart$1.class
+SHA1-Digest: KOWUuPxulGCsN7nbSzFRD1kj7EI=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/UMLTextNon
+ ResizableEditPolicy$1.class
+SHA1-Digest: 4ZRPB0cNcONVqa8HJ9DsjkHmhfc=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/PackageImportI
+ temSemanticEditPolicy.class
+SHA1-Digest: H3DWNihQjPLvvvzj+OQTdbP8SCo=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentInPa
+ ckageNameEditPart$3.class
+SHA1-Digest: kF5VOFciKERXBp5yqUNTFU0ZjkQ=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ConstraintInPacka
+ geNameEditPart$5.class
+SHA1-Digest: +F2MSq+qVE5F/i0/RQiID4LuhjY=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/GeneralizationApp
+ liedStereotypeEditPart$2.class
+SHA1-Digest: gKJYnNjxm1kn3YJntuJbBOMuUFo=
+
+Name: org/eclipse/papyrus/diagram/usecase/part/ModelElementSelectionPa
+ ge.class
+SHA1-Digest: DmLojatmIjCIOn88Tf8T7/9MkXw=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/Constraint
+ ItemSemanticEditPolicyTN.class
+SHA1-Digest: 9DfFaD00i/V/wTTYfoWbgQlo82E=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AssociationNa
+ meEditPart$5.class
+SHA1-Digest: hvpoh9jDyfiViYQLucfLdxT31jk=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/commands/ConstraintCons
+ trainedElementReorientCommand.class
+SHA1-Digest: s0Mw7YZJAmmOKmREd7AVnwct4Dc=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ExtensionPointEdi
+ tPart$3.class
+SHA1-Digest: sCLAWfCSh7NyAWbNI8BXdW+ERJA=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereo
+ typeUsageEditPart$1$1.class
+SHA1-Digest: IGWi7vOPGyplv+wXI+Dzihx1d+k=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/helper/ExtensionPointLab
+ elHelper.class
+SHA1-Digest: Zpn2MBLy+BOP6tn1nXHLkueSVuE=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/IncludeLink_f
+ ixedEditPart$5.class
+SHA1-Digest: NRS564weGueL6y9JlKL1svvNqq0=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentInPackag
+ eNameEditPart$1$1.class
+SHA1-Digest: YhhjPQKgv/feoGUoXzvz6Oi9lgY=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/providers/UMLElementType
+ s.class
+SHA1-Digest: GyOK3eskmLrOGZTU/FYca5SBev4=
+
+Name: org/eclipse/papyrus/diagram/usecase/parsers/AbstractParser.class
+SHA1-Digest: UWXcu68AWf+baOYiQKMfZnS8vcQ=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentInCompon
+ entEditPart$UseCaseSubjectFigure$1.class
+SHA1-Digest: NK9HkD5BkWmg3ZCzFGNAAEOA2PA=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereo
+ typeRealizationEditPart.class
+SHA1-Digest: KKPQqcyIK+lfDqhp9s8RfKTAbug=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/AbstractionIte
+ mSemanticEditPolicy.class
+SHA1-Digest: p3isC6bGCviXCLQXQXMzQ+ePBYE=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/navigator/UMLNavigatorIt
+ em$1.class
+SHA1-Digest: 8rnEFDJdT6V1B6dgxcprUdXnovA=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseInComp
+ onentNameEditPart$3.class
+SHA1-Digest: U9kkBTkoFNCSbE0Gw9t1ulKPlQA=
+
+Name: org/eclipse/papyrus/diagram/usecase/draw2d/ShadowShape$ShadowBor
+ der.class
+SHA1-Digest: y320nSXV9eVRT1YX4krloVKC1tw=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/preferences/DiagramConne
+ ctionsPreferencePage.class
+SHA1-Digest: r8ZulDO4a3jylRWbxly5rJsXx0g=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseInPack
+ ageNameEditPart$4.class
+SHA1-Digest: nDl/gFqQVBwZMnIN3p0wN+zVq+M=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/UsageNameEdit
+ Part$5.class
+SHA1-Digest: 1TgMVKF4LeLrJQWFtfxx+Nt1zEA=
+
+Name: icons/obj16/UMLDiagramFile.gif
+SHA1-Digest: lWlO5N44xJ/ka7KNcvGQu0s8N5I=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ShortCutDiagramEd
+ itPart$1$1.class
+SHA1-Digest: 5wzjTV6sxCOaPfg3YMaXaQ8QEwY=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/UseCaseInComponen
+ tEditPart.class
+SHA1-Digest: AbHRbUqmkpk73hu2v0E+c2FuUo4=
+
+Name: org/eclipse/papyrus/diagram/usecase/preferences/DiagramGeneralPr
+ eferencePage.class
+SHA1-Digest: xmwyjRJGZpI8ujbQwmpTTLdGAX4=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/DependencyNam
+ eEditPart$1$1.class
+SHA1-Digest: 1Unhtx/eZHR3yocV5a2sfTS6UAc=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/preferences/ExtensionPoi
+ ntPreferencePage.class
+SHA1-Digest: ZIuHRZvNuujLBzOebcw1q7226EI=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereotype
+ RealizationEditPart$6.class
+SHA1-Digest: YLL63QQOhIE3RG7EeYsU/jMB9As=
+
+Name: org/eclipse/papyrus/diagram/usecase/navigator/UMLNavigatorConten
+ tProvider$2.class
+SHA1-Digest: MZlGJXaEM/TCHyejWaPBEa8dXUY=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/PackageImport
+ AppliedStereotypeEditPart$5.class
+SHA1-Digest: STlbgCTX4mnxruHZRBcT51zgxA8=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereotype
+ PackageImportEditPart$5.class
+SHA1-Digest: obBvnbMSrg2WH5j/JUqYXL6cILQ=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/IncludeLink_fixed
+ EditPart.class
+SHA1-Digest: 15XAW9LaN+Hc1lTWe2dO8Gsw2vw=
+
+Name: org/eclipse/papyrus/diagram/usecase/draw2d/AbstractProportionalS
+ hape.class
+SHA1-Digest: kMOsRqWQB4+AuuiNHBwTYsLCUK0=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/PackageNameEditPa
+ rtTN$1.class
+SHA1-Digest: z1EplpTnDyVpuBK2a/wjJuZYg4g=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AssociationNameEd
+ itPart$2.class
+SHA1-Digest: m2x9Eqdx20W4cY4YzRMFSzcHoU0=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereotype
+ UsageEditPart.class
+SHA1-Digest: heZcTTxPz6eMyNzrEpyXEB2A6eU=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInComponentA
+ ppliedStereotypeEditPart$2.class
+SHA1-Digest: KOAf1v8rROjXOTYz9gTy9IVyNBg=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorInCompon
+ entNameEditPart$1.class
+SHA1-Digest: I7Nrv8DsAP25Z3S/o8h53NCKFtw=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/ComponentInCompon
+ entNameEditPart$5.class
+SHA1-Digest: VuTiGMZqVVqcqA2En+mVAPyKaLs=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/PackageNameEd
+ itPartTN$1.class
+SHA1-Digest: z1EplpTnDyVpuBK2a/wjJuZYg4g=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereo
+ typeUsageEditPart$5.class
+SHA1-Digest: FZbHwPYSowBU/tLrYd1bwapkyKE=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/part/ValidateAction$1.cl
+ ass
+SHA1-Digest: GVQI9HVHnFET857eJywEfXkjewc=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/ActorEditPart
+ TN$1.class
+SHA1-Digest: e2zW7RNN0ZHmAay/CNdl7OfP210=
+
+Name: org/eclipse/papyrus/diagram/usecase/navigator/UMLDomainNavigator
+ LabelProvider.class
+SHA1-Digest: /uXlwfRu50I037GgGZI/OUOZBCc=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/PackageEditPa
+ rtCN$1.class
+SHA1-Digest: NnLf/5ZfuIQsDy8mXH782k/j+iM=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/policies/UMLTextNonResi
+ zableEditPolicy$2.class
+SHA1-Digest: WK55paVppZrwE+PuNUZPFR3V7HE=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/policies/PackagePac
+ kageableElementCompartment2CanonicalEditPolicy.class
+SHA1-Digest: pT/p2P8zWs6jQwJ8t0NqEPKIUbc=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/AppliedStereo
+ typeAbstractionEditPart$4.class
+SHA1-Digest: zwLIksewA/15RcVn8/I8J27n8vw=
+
+Name: bin/org/eclipse/papyrus/diagram/usecase/edit/parts/DependencyApp
+ liedStereotypeEditPart.class
+SHA1-Digest: jPnxeGn5yTBKLN5WiCwd8HHGSmE=
+
+Name: org/eclipse/papyrus/diagram/usecase/edit/parts/CommentBodyEditPa
+ rtCN.class
+SHA1-Digest: VLood7QMFRYXS/jCd0gveASBKzI=
+

@@ -1,0 +1,576 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.papyrus.properties.tabbed.customizati
+ on;singleton:=true
+Require-Bundle: org.eclipse.ui;bundle-version="[3.7.0,4.0.0)",org.ecli
+ pse.core.runtime;bundle-version="[3.7.0,4.0.0)",org.eclipse.ui.views;
+ bundle-version="3.5.0",org.eclipse.papyrus.properties.tabbed.core;bun
+ dle-version="0.8.0",org.eclipse.papyrus.log;bundle-version="0.8.0",or
+ g.eclipse.papyrus.properties.runtime;bundle-version="0.8.0",org.eclip
+ se.ui.views.properties.tabbed;bundle-version="3.5.0",org.eclipse.gmf.
+ runtime.common.ui.services;bundle-version="1.3.0",org.eclipse.emf.eco
+ re;bundle-version="2.6.0",org.eclipse.emf.ecore.edit;bundle-version="
+ 2.6.0",org.eclipse.papyrus.core;bundle-version="0.8.0",org.eclipse.um
+ l2.uml;bundle-version="3.1.0",org.eclipse.papyrus.umlutils;bundle-ver
+ sion="0.8.0",org.apache.xml.serializer;bundle-version="2.7.1",org.apa
+ che.batik.xml;bundle-version="1.6.0",org.apache.xml.resolver;bundle-v
+ ersion="1.2.0",org.eclipse.emf.facet.infra.browser.custom;bundle-vers
+ ion="0.1.0",org.eclipse.emf.facet.infra.browser.custom.core;bundle-ve
+ rsion="0.1.0",org.eclipse.emf.facet.infra.browser.uicore;bundle-versi
+ on="0.1.0"
+Bundle-Activator: org.eclipse.papyrus.properties.tabbed.customization.
+ Activator
+Bundle-Version: 0.8.0.v201106151827
+Export-Package: org.eclipse.papyrus.properties.tabbed.customization,or
+ g.eclipse.papyrus.properties.tabbed.customization.dialog,org.eclipse.
+ papyrus.properties.tabbed.customization.dialog.actions,org.eclipse.pa
+ pyrus.properties.tabbed.customization.handler,org.eclipse.papyrus.pro
+ perties.tabbed.customization.state
+Ant-Version: Apache Ant 1.7.1
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Custo
+ mizeContentWizardPage$3.class
+SHA1-Digest: GeDs0Fo+bu5CtMIH2ZaBRy7W/mQ=
+
+Name: icons/NewGroupContainer.gif
+SHA1-Digest: MgHxHMJXskdTmO2QU3NAQT3p5vM=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/actio
+ ns/PredefinedFragmentMenuCreator$1.class
+SHA1-Digest: sNloMhBwfVvuz8JzccXpfSuTV6w=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Custo
+ mizeContentWizardPage$7.class
+SHA1-Digest: rjVZeAM4voXjs25fmhizhyoz+BI=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Selec
+ tConfigurationFileWizardPage$INameConfigurationArea.class
+SHA1-Digest: y0yYupFbgPoCNztBp6Mze9twaiQ=
+
+Name: icons/Down_12x12.gif
+SHA1-Digest: RVDZxja+zDoO/w8ddCCTm8nmsQI=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/actio
+ ns/StereotypeMenuCreator$2.class
+SHA1-Digest: FmvKc3IpjR3xKTSBq8QkCpBfgNA=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/actio
+ ns/SectionMenuCreator$3.class
+SHA1-Digest: nxeFM9PMq0Z1Gd6aCxHWFHQ5dHM=
+
+Name: icons/Duplicate.gif
+SHA1-Digest: 02Hdb8j35SO+lER7hBKezrbqs9E=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Selec
+ tConfigurationFileWizardPage$CreateFromScratchArea$3.class
+SHA1-Digest: QLcXS8W2YATsoxqfxyeiK9PmAqk=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/actio
+ ns/ControllerMenuCreator.class
+SHA1-Digest: VVFw8D/LTS/4sIxQNshgpF94GOg=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Custo
+ mizeContentWizardPage$7$1.class
+SHA1-Digest: FvlimJVpX2TPT3MDhRCAXHIXmZw=
+
+Name: icons/delete.gif
+SHA1-Digest: ORJe0sG1BDPf20zkd9DI+HUjfk8=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Conte
+ ntHolder.class
+SHA1-Digest: cAzzOdRRuJpF+Njmvws5FZF6Pyc=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Custo
+ mizePropertyViewWizard.class
+SHA1-Digest: vP6NbVFk5+k8U2Fo+GumyMG44EE=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/state/StateP
+ ropertyTabViewProviderParser.class
+SHA1-Digest: I1camRuLgD4VT7b0iPAz9dA0hhA=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/actio
+ ns/ContentHolderMenuCreator.class
+SHA1-Digest: JpNi+FQVna6cl6O19L4JAuLyL7Q=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/actio
+ ns/ControllerMenuCreator$1.class
+SHA1-Digest: VxJo8ZI9miTrOExfgiI9spz3xj0=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Selec
+ tConfigurationFileWizardPage$ModifyPluginConfigurationArea$1.class
+SHA1-Digest: IaFX8apw94jaBBcqF6VdR1fnUDI=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Metam
+ odelLabelProvider.class
+SHA1-Digest: 2Keq8axIR57foZrK04Jco8ppZJM=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Custo
+ mizeContentWizardPage$13.class
+SHA1-Digest: 9U3MsECrNTBhfNo7XzNh1Lhz6c0=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Custo
+ mizeContentWizardPage$17.class
+SHA1-Digest: UgTrl1Hi7DCdDysGSf49sMSBPtY=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/actio
+ ns/FragmentMenuCreator$4.class
+SHA1-Digest: p4W3heW1/789nbKxh7WWR2N37yk=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/actio
+ ns/ContainerMenuCreator$2.class
+SHA1-Digest: xy7zTgSO38ElVRaoxMd0SvxHZ5Y=
+
+Name: icons/NewSection.gif
+SHA1-Digest: wpe+FGtubQV0RD10QnaunD49bJk=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Confi
+ gurationLabelProvider.class
+SHA1-Digest: CCuB+XVhI8lnzABcGUpRS1Kz2QI=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Metam
+ odelContentProvider$1.class
+SHA1-Digest: MGQe2nv6ETQxrOH6OaSjurWxOw8=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Abstr
+ actValidationProblem.class
+SHA1-Digest: AKIzHHGVfxZCRXYpaa65dbWb3Y0=
+
+Name: icons/NewSimpleContainer.gif
+SHA1-Digest: k3VJm4dHsPmsZoZas4mv7fAZ7yY=
+
+Name: icons/Content.gif
+SHA1-Digest: S9ndOcA1ZwNROFukzN+lAAT2yaM=
+
+Name: icons/Add_12x12.gif
+SHA1-Digest: l2FeR1nAFLoH4bRO9d5WXbvDFo8=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/actio
+ ns/StereotypeMenuCreator.class
+SHA1-Digest: VQJkGG5kbOPW3Akf12IdA3lE3Jk=
+
+Name: icons/Provider.gif
+SHA1-Digest: qmsZVfQVz6J9rVHHKFeRge7yRG4=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/actio
+ ns/SectionMenuCreator.class
+SHA1-Digest: Xi2yy4NacxcakPnvd3A4diJbWBM=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Selec
+ tConfigurationFileWizardPage$CreateFromExistingConfigurationArea$3.cl
+ ass
+SHA1-Digest: Zj+4EH0YVLAnFZ1WxFU+PIIxvE8=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Selec
+ tConfigurationFileWizardPage$ProviderSelectionDialog.class
+SHA1-Digest: CBNYXO+SRPNONCsyK0bP5l5Zu+4=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Custo
+ mizeContentWizardPage$4.class
+SHA1-Digest: DWXpIYPBQ2wE2mWeuTp5yJwYH9c=
+
+Name: icons/NewPredefinedController.gif
+SHA1-Digest: vNLWLFvx9xwbNk5MecZmk902UKU=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/messages.pro
+ perties
+SHA1-Digest: DcbXjaRMXlfYiVXB9NLfN9e+R8E=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Custo
+ mizeContentWizardPage$8.class
+SHA1-Digest: RBDQFmDaJ/zbFTFyDLALC4F/Z7c=
+
+Name: icons/Save.gif
+SHA1-Digest: U9r6zdvy60UCCQJytBcOUSp+Rbg=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Confi
+ gurationValidator$BrokenLink.class
+SHA1-Digest: TZKwOP4EzyA99s1dvqNciud5iUU=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Selec
+ tConfigurationFileWizardPage$ModifyExistingConfigurationArea$1.class
+SHA1-Digest: W9HkoCG0iHbFKdSKd5rkp9D5k3g=
+
+Name: resources/configuration_wizards_dialogs.xml
+SHA1-Digest: B8+QvsMD6R+yAk+q+daeuIFBLVk=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/actio
+ ns/SectionMenuCreator$4.class
+SHA1-Digest: FmrXlnjv7uJd4kDVcDNDeTy8nF0=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Selec
+ tConfigurationFileWizardPage$ProviderSelectionDialog$1.class
+SHA1-Digest: akOzbWBRSw0pffJ1Q5Z0XXyY9zQ=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Selec
+ tConfigurationFileWizardPage$1.class
+SHA1-Digest: GS9AAXRtxMBr/RAhj7K1Vp+9MLk=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/actio
+ ns/FragmentMenuCreator.class
+SHA1-Digest: fTDEWS5ZP2vB3CbZmkqp99b7jXA=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Custo
+ mizeContentWizardPage$TreeSelectionPatternFilter.class
+SHA1-Digest: jrxpej0FW5ubjsc5CS+ow0kO/UA=
+
+Name: icons/type.gif
+SHA1-Digest: S9ndOcA1ZwNROFukzN+lAAT2yaM=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Custo
+ mizeContentWizardPage$10.class
+SHA1-Digest: F4/lNUQQ5gWz+la/rXTGbddN8ms=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/actio
+ ns/EClassifierMenuCreator$1.class
+SHA1-Digest: Xj2PoQfpYO2tHyEW7XKHDQVDbek=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Custo
+ mizeContentWizardPage$14.class
+SHA1-Digest: +8lu6Vi6q4fZbx4J18R5Q0wCBvc=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/actio
+ ns/ContentHolderMenuCreator$1.class
+SHA1-Digest: PdhVOOfVB5mDSH09qFZGDqhTMYQ=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/actio
+ ns/FragmentMenuCreator$1.class
+SHA1-Digest: /+vmwDxjLzVHh27XV/Fla1Y192M=
+
+Name: about.html
+SHA1-Digest: y0N4Xo0SWk7dkT2S3XYFPomfO1U=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Custo
+ mizeContentWizardPage$18.class
+SHA1-Digest: FI9gaf+jq0B5yovZHnwgKKD0S+k=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Selec
+ tConfigurationFileWizardPage$CreateFromExistingConfigurationArea.clas
+ s
+SHA1-Digest: frbX8/NWVa0vRPt5LR8lZLTF+dM=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/state/Constr
+ aintStateUtils.class
+SHA1-Digest: 2HZMVHn/8fNb/M03+7oLJTjrr88=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Metam
+ odelContentProvider$2.class
+SHA1-Digest: KnRPLgozMS/E5Q+Vz8BY52UYeRM=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Confi
+ gurationContentProvider.class
+SHA1-Digest: Alrq75v1gXF4kfwnF9K8IoiSLb8=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/actio
+ ns/PredefinedFragmentMenuCreator.class
+SHA1-Digest: 939nUkFVagsylF4/uXkmNjfKvg4=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/state/Refere
+ nceStateBeanPropertyEditorController$1.class
+SHA1-Digest: myAigQzo/0hW72RxRoI/5EqVn8k=
+
+Name: icons/BrokenLink.gif
+SHA1-Digest: BIL+s5JrCc5pWnpS4zv+K34baLM=
+
+Name: icons/plugin_desc.gif
+SHA1-Digest: FT+yMU/XrBGk25OwgZC0vvpreSk=
+
+Name: icons/NewSectionSet.gif
+SHA1-Digest: wpe+FGtubQV0RD10QnaunD49bJk=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/handler/Cust
+ omizePropertyViewCommandHandler$1.class
+SHA1-Digest: NYglTUrI8RCw+9LM68NMb+OVzjU=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Custo
+ mizeContentWizardPage$1.class
+SHA1-Digest: pDhbBoCHtGkBKLVZXlpuM6hVvB0=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Selec
+ tConfigurationFileWizardPage.class
+SHA1-Digest: 9UZvXIizWOYk47c3BXquG+9saRk=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Custo
+ mizeContentWizardPage$5.class
+SHA1-Digest: /QjK6d/+MgtJf6tuFiC4DJutLGs=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Confi
+ gurationValidator$ReportDialog$1.class
+SHA1-Digest: C0RlCF5fCfI5wilopJVu/gNLezk=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Custo
+ mizeContentWizardPage$9.class
+SHA1-Digest: gJ345H60g1cUcKh/RYxjL627lRY=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/actio
+ ns/SectionMenuCreator$1.class
+SHA1-Digest: XvRXJwki7qFI6qP0CrCMDAWjzc4=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Confi
+ gurationContentProvider$ConstraintHolder.class
+SHA1-Digest: LfxR/2PQK9+7sZaLqzehw0Ara9M=
+
+Name: icons/NewContainer.gif
+SHA1-Digest: k3VJm4dHsPmsZoZas4mv7fAZ7yY=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Selec
+ tConfigurationFileWizardPage$CreateFromScratchArea$1.class
+SHA1-Digest: YqIjfFUBgZO5jdNYZeIGyT6feIM=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/actio
+ ns/ReplacedSectionMenuCreator.class
+SHA1-Digest: ah7I0eRVPb41O3XmMFiZalTUd+Q=
+
+Name: icons/Delete_12x12.gif
+SHA1-Digest: Nj/v8Qq1SwweGplanUGyZ7MVmd0=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Selec
+ tConfigurationFileWizardPage$ProviderSelectionDialog$2.class
+SHA1-Digest: VhEYBfMnLaLTgM+DWG97eLFzlFY=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Selec
+ tConfigurationFileWizardPage$IConfigurationArea.class
+SHA1-Digest: yqcsi5IwyBIGhVhpFuseaj/FMnE=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/actio
+ ns/SectionSetMenuCreator.class
+SHA1-Digest: jdDlvddZLnXrFDgtm9XvYumq5Ck=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Selec
+ tConfigurationFileWizardPage$AbstractNameConfigurationArea.class
+SHA1-Digest: b+el55cpQasf0wyQT0V11kAHJhI=
+
+Name: icons/Refresh.gif
+SHA1-Digest: 3NWUc5UjsZeI5q6NCFvfEyeUB1I=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/actio
+ ns/ContainerMenuCreator.class
+SHA1-Digest: dG4tH7vl6GFBDvoLSlnCXobSYpw=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/Messages.cla
+ ss
+SHA1-Digest: E2ysSms4iz63u5p/J5L6Qv7Zzuw=
+
+Name: resources/configuration_predefined_fragments.xml
+SHA1-Digest: twQR8osISDeZE4AwK2XVLeqi84k=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Custo
+ mizeContentWizardPage$11.class
+SHA1-Digest: ph6xvgpXF2Xe84zTuoNRU4j9QC8=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/state/StateP
+ ropertyTabViewProviderParser$1.class
+SHA1-Digest: ZxZBdj0/tXeRfAygKUfWGxKd2JM=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/actio
+ ns/EClassifierMenuCreator$2.class
+SHA1-Digest: aayszc3QxxqKOZOx57RwhePp34M=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Custo
+ mizeContentWizardPage$15.class
+SHA1-Digest: eYJKUWE+BCxyTqmHefyCVdckVGU=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/actio
+ ns/FragmentMenuCreator$2.class
+SHA1-Digest: awHbCYsvQ/RHWyCFTnp2sLgIRgY=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/state/Boolea
+ nStateBeanPropertyEditorController.class
+SHA1-Digest: 9rMpKNkYfVBRGKerfdmt8NarC48=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Custo
+ mizeContentWizardPage$19.class
+SHA1-Digest: qKGznWJa78rA93hGbcRX7fpY+z8=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/handler/Cust
+ omizePropertyViewCommandHandler.class
+SHA1-Digest: /4RnaNZMfMNGfzY6FkxRZqt0oJk=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Custo
+ mizeContentWizardPage.class
+SHA1-Digest: WwAKr+KwxEtu6yEveWbPKmUOn8c=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Confi
+ gurationValidator$ReportDialog.class
+SHA1-Digest: LZcZUehYExQYFbH8IjYDFqb6xwo=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Metam
+ odelContentProvider$3.class
+SHA1-Digest: g/A4Ygt6T97c03SiFonue8T9XdM=
+
+Name: icons/NewExpandableContainer.gif
+SHA1-Digest: IG+mULwFBDtBVufDpXhMOMGhoI0=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/state/Refere
+ nceStateBeanPropertyEditorController$2.class
+SHA1-Digest: Df5/Cv2xE23G/7MLoE9yoq615Kk=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Selec
+ tConfigurationFileWizardPage$RadioSelectionListener.class
+SHA1-Digest: 0n3zJFXvQMq68vreiIXiaFeV02k=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Selec
+ tConfigurationFileWizardPage$CreateFromExistingConfigurationArea$1.cl
+ ass
+SHA1-Digest: uE3H/U5PvMKYPrp9MLgogrtYo24=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Confi
+ gurationValidator.class
+SHA1-Digest: H95/Wjxb/ZD2WJk2+cNzFrqKqE4=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Custo
+ mizeContentWizardPage$2.class
+SHA1-Digest: RSdRPyw8EfqPfZdkOxhxR2hHnOc=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Custo
+ mizeContentWizardPage$6.class
+SHA1-Digest: PfcAPZR/VZ5JY8r+DKxNUy/qe28=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Confi
+ gurationValidator$ReportDialog$2.class
+SHA1-Digest: 5G+0r2Z7kuEc0Fw4HzckvtNTCew=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Confi
+ gurationValidator$Duplicate.class
+SHA1-Digest: 8dHTNaeg9SovrOwZtn0EXsnTtNM=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/actio
+ ns/StereotypeMenuCreator$1.class
+SHA1-Digest: ecm+LZrpRXVbFAv9dwhx4TjZ/gA=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/actio
+ ns/SectionMenuCreator$2.class
+SHA1-Digest: hoQeqcTEZ2jape2TVWe/uoUHZMU=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/actio
+ ns/AbstractMenuCreator.class
+SHA1-Digest: O8ZVToi/bnw7ZAvZA8s/pQ0lPOo=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Selec
+ tConfigurationFileWizardPage$CreateFromScratchArea$2.class
+SHA1-Digest: QMQyLxgRiFk4d0z5HIMow4WbFFM=
+
+Name: plugin.properties
+SHA1-Digest: IXKj5NwoPG2n5KO0HmYNbhsDI1s=
+
+Name: icons/local_desc.gif
+SHA1-Digest: UcO4ih89QAypCBwquXq/PvlzIbw=
+
+Name: icons/NewGridLayout.gif
+SHA1-Digest: i3OCnEg10l9jTKMLBoO4ckNaY/Y=
+
+Name: icons/NewFragment.gif
+SHA1-Digest: xfmKDP1Q8MRyvYa8C5m1ikxLsZA=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Selec
+ tConfigurationFileWizardPage$ProviderSelectionDialog$ProviderLabelPro
+ vider.class
+SHA1-Digest: k4N8Vb7CRnvs7dAxb5Om5Pdwt+I=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Selec
+ tConfigurationFileWizardPage$ModifyPluginConfigurationArea.class
+SHA1-Digest: ivGSbm+bzQFNfE0k58rCrrVInR4=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/state/Intege
+ rStateBeanPropertyEditorController.class
+SHA1-Digest: 88oqHzTTvm+/zqSS77sEsFQIb44=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/actio
+ ns/ReplacedSectionMenuCreator$1.class
+SHA1-Digest: PBuksjhTVBwMFJW8ju9lj1+tFh8=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/actio
+ ns/EClassifierMenuCreator.class
+SHA1-Digest: N3jCGhrB8v/zn0oZmV+ga7eBTZE=
+
+Name: plugin.xml
+SHA1-Digest: rX5J3giqWocQaYi29uxh/68dzVs=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/actio
+ ns/SectionSetMenuCreator$1.class
+SHA1-Digest: CZHshL6+bVKGJXa2HpZYzIdzfPY=
+
+Name: icons/NewReplacedSection.gif
+SHA1-Digest: mx95nqtE0VXZioKP4Y1ikECcdYM=
+
+Name: icons/Validate.gif
+SHA1-Digest: qJfCSbBSKs4MjrNZ9ysBM7ILLlM=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Custo
+ mizeContentWizardPage$12.class
+SHA1-Digest: jCrOtxE9Ji8H04PpUR9W4QkJ0z8=
+
+Name: icons/Constraint.gif
+SHA1-Digest: rm7YLSf7iZUN1wi1SG/7BwKLhco=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Metam
+ odelContentProvider.class
+SHA1-Digest: 8XsFbnWvJuuOhx+PlSGuwtZmutk=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/state/Refere
+ nceStateBeanPropertyEditorController.class
+SHA1-Digest: sb1dWUVR//S8Hm9VKlMXz+nL9QY=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Custo
+ mizeContentWizardPage$16.class
+SHA1-Digest: PZk+l9kM4a4y43LRsmupy0Dynv0=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Selec
+ tConfigurationFileWizardPage$ProviderSelectionDialog$ProviderDetailsL
+ abelProvider.class
+SHA1-Digest: Ha6Q/SBqBBzWxHtd68hUZH75ydM=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/actio
+ ns/FragmentMenuCreator$3.class
+SHA1-Digest: 9HMFBwNzu5llodby73mFbIs+0uk=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/actio
+ ns/ContainerMenuCreator$1.class
+SHA1-Digest: GSl+qjLQvu00LT4vBlaOsYBIass=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/Activator.cl
+ ass
+SHA1-Digest: vUV91BeLwNwn1tKAInXaR2H/vh0=
+
+Name: icons/newEMFTController.gif
+SHA1-Digest: vNLWLFvx9xwbNk5MecZmk902UKU=
+
+Name: icons/Constraints.gif
+SHA1-Digest: rm7YLSf7iZUN1wi1SG/7BwKLhco=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/state/Refere
+ nceStateBeanPropertyEditorController$3.class
+SHA1-Digest: w8BdHw7jHd69PWcXenSZPAUwSkM=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Selec
+ tConfigurationFileWizardPage$XMLFileViewerFilter.class
+SHA1-Digest: 9y/rKz5WzyP+7mRphoe39ZnjmDU=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/state/StateB
+ eanPropertyEditorController.class
+SHA1-Digest: Kr5YD2i0jQTdcPjjaeiP6gROifQ=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Selec
+ tConfigurationFileWizardPage$ModifyExistingConfigurationArea.class
+SHA1-Digest: gEJw6d0XzkjqFgyZNMQksxSCMQg=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Selec
+ tConfigurationFileWizardPage$CreateFromExistingConfigurationArea$2.cl
+ ass
+SHA1-Digest: uw595gqRuAl6ONhZwdYz+rXy4Vg=
+
+Name: icons/Up_12x12.gif
+SHA1-Digest: FhCTSlwiishTu7WF9m96rlFL9v4=
+
+Name: org/eclipse/papyrus/properties/tabbed/customization/dialog/Selec
+ tConfigurationFileWizardPage$CreateFromScratchArea.class
+SHA1-Digest: voTYA/D5yZPMsZdw5Htp2xVDgP4=
+

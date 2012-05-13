@@ -1,0 +1,233 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.7.1
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %Bundle-Vendor
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-Name: %Bundle-Name
+Bundle-SymbolicName: org.eclipse.papyrus.properties.sysml;singleton:=t
+ rue
+Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.7.0,4.0.0)
+ ",org.eclipse.papyrus.properties.model;bundle-version="0.8.0",org.ecl
+ ipse.papyrus.properties;bundle-version="0.8.0",org.eclipse.papyrus.pr
+ operties.uml;bundle-version="0.8.0"
+Bundle-Activator: org.eclipse.papyrus.properties.sysml.Activator
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-Version: 0.8.0.v201106151827
+Bundle-ManifestVersion: 2
+
+Name: Model/ui/MultipleAllocateActivityPartition.xwt
+SHA1-Digest: +5/NxbjnbzrBrZBiInu6Sl8EsSY=
+
+Name: Model/ui/SingleAllocate.xwt
+SHA1-Digest: 7Xryx+RaPM08aNw3Spyw8GUX6OY=
+
+Name: Model/ui/SingleDistributedProperty.xwt
+SHA1-Digest: wdD9AmdxkPJpemiJLN2MuBGtifE=
+
+Name: Model/ui/MultipleControlOperator.xwt
+SHA1-Digest: hpG7Q8irZbmkPFiaDZOvuxBELgI=
+
+Name: Model/ui/MultipleDimension.xwt
+SHA1-Digest: 8EnzD7eNs0mDEP5bclmEYDcDmdA=
+
+Name: Model/ui/SingleAllocateActivityPartition.xwt
+SHA1-Digest: 7//lars5YLGnRwo7xtbkhzitei8=
+
+Name: Model/ui/MultipleAllocate.xwt
+SHA1-Digest: ZGpIyVva9ExrPmGUDf3BI1KFTPs=
+
+Name: Model/ui/MultipleParticipantProperty.xwt
+SHA1-Digest: CmE7MVoFTi3hWF2oiG0FTh0MO2s=
+
+Name: Model/ui/SingleControlOperator.xwt
+SHA1-Digest: +xZ1EdTL+uOa0MiD733MuWipNtE=
+
+Name: Model/ui/SingleBindingConnector.xwt
+SHA1-Digest: OVXZw+6StWrKVz9WJvk6fetar+w=
+
+Name: Model/ui/MultipleViewPoint.xwt
+SHA1-Digest: hppUFkqsb7/KEzEr/TOjiLLQMiA=
+
+Name: Model/ui/SingleDimension.xwt
+SHA1-Digest: 76KRAPtaN85tS479PMfN28rxCG0=
+
+Name: Model/ui/SingleParticipantProperty.xwt
+SHA1-Digest: udC3cuqQJkpACmsAJRGUpvhZ7fU=
+
+Name: Model/ui/MultipleConstraintBlock.xwt
+SHA1-Digest: xtbe7qzhgnAA+RrHggr7XMp8GU8=
+
+Name: Model/ui/SingleFlowPort.xwt
+SHA1-Digest: TpKWOHfDHdtGCjW1eOdK2tPbAIg=
+
+Name: Model/ui/SingleContinuous.xwt
+SHA1-Digest: d9gt5VHsvjJ9DNlLPezlW9Kz47w=
+
+Name: Model/ui/MultipleBindingConnector.xwt
+SHA1-Digest: 5uUnNGR71UIMOdBdLZREP9bkLqs=
+
+Name: Model/ui/SingleViewPoint.xwt
+SHA1-Digest: LW6KGPalFPekACb5T1rSCIx3xc4=
+
+Name: Model/ui/MultipleFlowSpecification.xwt
+SHA1-Digest: vevd70WqiwXsGwtJjIbCYgyKVqg=
+
+Name: Model/ui/MultipleProbability.xwt
+SHA1-Digest: qm/lHdWRmsgGABlGydcCZRKBvnQ=
+
+Name: Model/ui/SingleConstraintBlock.xwt
+SHA1-Digest: Rhx8eh/UzG2m9IRe0+rbIEeC+tM=
+
+Name: Model/ui/MultipleFlowPort.xwt
+SHA1-Digest: D9ix1XY0WwuQTjmHc8bcZMMj8Ek=
+
+Name: Model/ui/MultipleContinuous.xwt
+SHA1-Digest: rcF6jUBPvJJHa3T0hmdJLIspFO0=
+
+Name: Model/ui/SingleProbability.xwt
+SHA1-Digest: 84K1B8Bfh8T3OiL6L0KIija54bI=
+
+Name: Model/ui/SingleFlowSpecification.xwt
+SHA1-Digest: liRO4dYpXj5ucjpMDys1vA8EJ7w=
+
+Name: Model/ui/SingleRate.xwt
+SHA1-Digest: fRmeeZWfPCOzPyvqAJMNuHthwjs=
+
+Name: Model/ui/SingleOptional.xwt
+SHA1-Digest: Mo3aGsAwZsdH5+slIW2LZ53yf2g=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: Model/ui/SingleNoBuffer.xwt
+SHA1-Digest: ClB/PtHXUOiCvmYn8DcQbDOqpOo=
+
+Name: Model/ui/SingleItemFlow.xwt
+SHA1-Digest: DnnWWnWDBnWlePq3YJI+tgUgTkI=
+
+Name: Model/ui/MultipleRequirement.xwt
+SHA1-Digest: gH1KZzDsHJJfKf+ROBv3qwy+Zt0=
+
+Name: Model/ui/SingleTestCase.xwt
+SHA1-Digest: yMFMLgWVAi12a5BXe7iFSKTjx7k=
+
+Name: Model/ui/MultipleConform.xwt
+SHA1-Digest: NIIoph/qQtEwafK9BtUKMieT3AU=
+
+Name: Model/ui/MultipleOptional.xwt
+SHA1-Digest: IxNHP+kToTx//073O2RYh6cpsis=
+
+Name: Model/ui/MultipleRate.xwt
+SHA1-Digest: ZcTe1mxbH1Ctk6E1mdX1nEEe5sc=
+
+Name: Model/ui/SingleRequirement.xwt
+SHA1-Digest: HEhwW/C7dL2WQOtFE3vh1/l5Emw=
+
+Name: Model/ui/MultipleOverwrite.xwt
+SHA1-Digest: mayLmDKcW04wKzxZZgcMhQqqzh0=
+
+Name: Model/ui/MultipleNoBuffer.xwt
+SHA1-Digest: +7xft6QsXmU7uZ39vpz0IoRiK48=
+
+Name: Model/ui/MultipleItemFlow.xwt
+SHA1-Digest: eVnJ2o30WKgyN31iti11OLpBiIQ=
+
+Name: Model/ui/MultipleTestCase.xwt
+SHA1-Digest: se53zaYcrfN73nIycoVLSMSsGho=
+
+Name: Model/ui/MultipleBlock.xwt
+SHA1-Digest: 5pDDZmLKI+2NIFbjyAty8Ez+Ed4=
+
+Name: Model/ui/SingleConform.xwt
+SHA1-Digest: +A3LNMBJBOc9zQ+i5qFINIuc6Io=
+
+Name: Model/ui/SingleOverwrite.xwt
+SHA1-Digest: TXitAhMZ1Zt2btUBYTct368kPG0=
+
+Name: Model/ui/SingleBlock.xwt
+SHA1-Digest: MmneIWMxl9lxQSJR+Wl7XZh5ekE=
+
+Name: Model/ui/SingleDiscrete.xwt
+SHA1-Digest: 2ErusPKdQnBLHedaUQlXWcdAZKY=
+
+Name: Model/SysML.ctx
+SHA1-Digest: 74WspX8hSrSYHlOvfWRgcAlfoIc=
+
+Name: Model/ui/SinglePropertySpecificType.xwt
+SHA1-Digest: UGLWe55hWeHKL2rZCedG+V738kI=
+
+Name: Model/ui/MultipleDiscrete.xwt
+SHA1-Digest: L3Nz+yb8QH7ZWsu3/POeTwhrfOA=
+
+Name: OSGI-INF/l10n/bundle.properties
+SHA1-Digest: G9t2SFlNp+5DfjnGTP9rBahIap0=
+
+Name: Model/ui/SingleUnit.xwt
+SHA1-Digest: 44FvHlkB26pKtrJOfoqn5PFrdP8=
+
+Name: Model/ui/MultiplePropertySpecificType.xwt
+SHA1-Digest: vevd70WqiwXsGwtJjIbCYgyKVqg=
+
+Name: Model/ui/MultipleUnit.xwt
+SHA1-Digest: k8QpVxFiePvMkZwdp0+igprBlDk=
+
+Name: Model/ui/SingleConstraintProperty.xwt
+SHA1-Digest: /l7Jtw3AUaIwxkr2B5d8QBGtTWk=
+
+Name: plugin.xml
+SHA1-Digest: Zx66ZZtGm2SQ/+BwfYQDNSUHFm8=
+
+Name: Model/ui/MultipleConstraintProperty.xwt
+SHA1-Digest: cxYlKehBK+raZNW5zLs8ZfW6VyQ=
+
+Name: Model/ui/MultipleConnectorProperty.xwt
+SHA1-Digest: BxS0ytJUl1Jykll+CX3TtlC60VE=
+
+Name: Model/ui/SingleFlowProperty.xwt
+SHA1-Digest: y2vJssfGjidJgDi3LTG8Y/uHWOc=
+
+Name: Model/ui/SingleView.xwt
+SHA1-Digest: IXSPydZZuCBO4S9kpLSFD7S67Tg=
+
+Name: Model/ui/SingleNestedConnectorEnd.xwt
+SHA1-Digest: 8PcvUj+Ne5hv/dR/VwwEl812py4=
+
+Name: Model/ui/MultipleAllocated.xwt
+SHA1-Digest: EUAG7urG4W+Q8DqiwQnj+xgJq8M=
+
+Name: org/eclipse/papyrus/properties/sysml/Activator.class
+SHA1-Digest: VicXvZ9DEu07F1JvDcsaxeHfNZc=
+
+Name: about.html
+SHA1-Digest: a2Fk5/pDnCvlEfl7QwDZj/FCgFc=
+
+Name: Model/ui/SingleRequirementRelated.xwt
+SHA1-Digest: hjlc35+l4uzwxzM3M+uheOK8CTA=
+
+Name: Model/ui/SingleConnectorProperty.xwt
+SHA1-Digest: c+e+U15DH+yufrrErYyYxPG7PN0=
+
+Name: Model/ui/MultipleValueType.xwt
+SHA1-Digest: 6lar8ETG8Nx5RYEwa3AvH9BhXb0=
+
+Name: Model/ui/MultipleFlowProperty.xwt
+SHA1-Digest: Bmu1Fsn9QaNnwcQ1pMunvoGW49A=
+
+Name: Model/ui/MultipleNestedConnectorEnd.xwt
+SHA1-Digest: bl/KktFoARTGtvf1JP2o3Oyiims=
+
+Name: Model/ui/MultipleView.xwt
+SHA1-Digest: E/qCx07ps/0NgFk1sXab2iHSxxU=
+
+Name: Model/ui/SingleAllocated.xwt
+SHA1-Digest: ACHoIgKbu9x65V+Jro0O0kjMdn0=
+
+Name: Model/ui/MultipleRequirementRelated.xwt
+SHA1-Digest: 8eCm8dNV/g4Q/VS4Sg0JOOymjGI=
+
+Name: Model/ui/SingleValueType.xwt
+SHA1-Digest: wqoZUm3+rpaFBAawbuoFjfZ3kYc=
+
+Name: Model/ui/MultipleDistributedProperty.xwt
+SHA1-Digest: 82jV16hA2r5oxgOXaUsG4QEcGQg=
+

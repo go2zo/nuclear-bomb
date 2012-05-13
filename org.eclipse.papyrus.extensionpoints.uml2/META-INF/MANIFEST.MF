@@ -1,0 +1,139 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.papyrus.extensionpoints.uml2;singleto
+ n:=true
+Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.7.0,4.0.0)
+ ",org.eclipse.uml2.uml;bundle-version="[3.2.0,4.0.0)",org.eclipse.ui.
+ views.properties.tabbed;bundle-version="[3.5.0,4.0.0)",org.eclipse.em
+ f.mapping.ecore2xml;bundle-version="[2.7.0,3.0.0)"
+Bundle-Activator: org.eclipse.papyrus.extensionpoints.uml2.Activator
+Bundle-Version: 0.8.0.v201106151827
+Export-Package: org.eclipse.papyrus.extensionpoints.uml2,org.eclipse.p
+ apyrus.extensionpoints.uml2.library,org.eclipse.papyrus.extensionpoin
+ ts.uml2.metamodel,org.eclipse.papyrus.extensionpoints.uml2.profile,or
+ g.eclipse.papyrus.extensionpoints.uml2.standard,org.eclipse.papyrus.e
+ xtensionpoints.uml2.utils
+Ant-Version: Apache Ant 1.7.1
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/papyrus/extensionpoints/uml2/utils/Util.class
+SHA1-Digest: fAiwuM+H/CxfSk/kWndlIKsFoSQ=
+
+Name: org/eclipse/papyrus/extensionpoints/uml2/Activator.class
+SHA1-Digest: YSCeRPs8f/hkR+B5Nx4bCFk8BJs=
+
+Name: org/eclipse/papyrus/extensionpoints/uml2/metamodel/RegisteredMet
+ amodel.class
+SHA1-Digest: 47y52Xdk1ByqpIyy76bulXBSto4=
+
+Name: org/eclipse/papyrus/extensionpoints/uml2/standard/ExtensionLabel
+ Provider.class
+SHA1-Digest: n+BxYnr/UswSjAlcyFbFlRsgLkw=
+
+Name: icons/java.gif
+SHA1-Digest: 095E6yV6LDm/81H6zTvLkyoAtkc=
+
+Name: plugin.properties
+SHA1-Digest: cbPiYHc4TZnUUHzV9DvCVzbBLEY=
+
+Name: schema/UMLProfile.exsd
+SHA1-Digest: t1786ia/+9T3PilTGySorTlkgHc=
+
+Name: org/eclipse/papyrus/extensionpoints/uml2/library/RegisteredProfi
+ leAsLibrarySelectionDialog.class
+SHA1-Digest: VDnBBrWk/6YBHckrGHAanF8JAvc=
+
+Name: org/eclipse/papyrus/extensionpoints/uml2/library/RegisteredLibra
+ rySelectionDialog.class
+SHA1-Digest: kd0xQlRkTJJZTszDFve9nQl5ogg=
+
+Name: org/eclipse/papyrus/extensionpoints/uml2/profile/RegisteredProfi
+ le.class
+SHA1-Digest: zdAdbpN84t2isBORIsdci9SN06Y=
+
+Name: org/eclipse/papyrus/extensionpoints/uml2/standard/FilteredRegist
+ eredElementsSelectionDialog.class
+SHA1-Digest: Dxw6hJCT6X/V52c2KpPiXMt4TgM=
+
+Name: schema/UMLMetamodel.exsd
+SHA1-Digest: 3Oiw0aiUwF6saCnHXLquQIkl9Zs=
+
+Name: org/eclipse/papyrus/extensionpoints/uml2/standard/RegisteredElem
+ entExtensionPoint.class
+SHA1-Digest: O81odYLSuEF1DhgH6iJzGMzSMxs=
+
+Name: plugin.xml
+SHA1-Digest: YpiJGorrWNkr8Zd6YxuA4wsmyKs=
+
+Name: org/eclipse/papyrus/extensionpoints/uml2/standard/RegisteredElem
+ entsDetailsLabelProvider.class
+SHA1-Digest: Dpv3XBJwuYBVhFldCxxPnGY+XD4=
+
+Name: org/eclipse/papyrus/extensionpoints/uml2/standard/FilteredRegist
+ eredElementsSelectionDialog$1.class
+SHA1-Digest: jV7nPyGfxUWeiHipEP11g6xDrhw=
+
+Name: org/eclipse/papyrus/extensionpoints/uml2/standard/FilteredRegist
+ eredElementsSelectionDialog$2.class
+SHA1-Digest: MgTTSRBay6V714zaA5oCEmugUP8=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: icons/ecore.gif
+SHA1-Digest: dRrJG8PwCUKRRd6pGp/TfHNJ27A=
+
+Name: org/eclipse/papyrus/extensionpoints/uml2/library/FilteredRegiste
+ redLibrariesSelectionDialog.class
+SHA1-Digest: sbm9N2CKHTz2kKrhbYAyO/z4Tms=
+
+Name: about.html
+SHA1-Digest: a2Fk5/pDnCvlEfl7QwDZj/FCgFc=
+
+Name: org/eclipse/papyrus/extensionpoints/uml2/standard/FilteredRegist
+ eredElementsSelectionDialog$RegisteredElementExtensionPointFilter.cla
+ ss
+SHA1-Digest: h3uphjWhLBpwUJRN3qMyie7hM64=
+
+Name: org/eclipse/papyrus/extensionpoints/uml2/metamodel/FilteredRegis
+ teredMetamodelsSelectionDialog.class
+SHA1-Digest: XGPjoChk3WIgpCyDHYtwWjiuW5I=
+
+Name: icons/uml.gif
+SHA1-Digest: jAX0LuqQxzSmWVrXbjkxcblHr7I=
+
+Name: org/eclipse/papyrus/extensionpoints/uml2/profile/FilteredRegiste
+ redProfilesAsLibrarySelectionDialog.class
+SHA1-Digest: R/uP0LtYZsxGj1hSsT3nTVtgDsM=
+
+Name: org/eclipse/papyrus/extensionpoints/uml2/library/RegisteredLibra
+ ry.class
+SHA1-Digest: UAomSNt6/ezcS8uVgUUwiEOOqnk=
+
+Name: icons/xml.gif
+SHA1-Digest: nCTYn5SbpkC5/gEZ+Vq476DmJUU=
+
+Name: org/eclipse/papyrus/extensionpoints/uml2/standard/RegisteredElem
+ entsLabelProvider.class
+SHA1-Digest: uHOO8Bh/6SgZzi6gQSSHSW6bvsk=
+
+Name: schema/UMLLibrary.exsd
+SHA1-Digest: sQXKEgvPetBPYTcQI0B5qQrIqXo=
+
+Name: org/eclipse/papyrus/extensionpoints/uml2/profile/FilteredRegiste
+ redProfilesSelectionDialog.class
+SHA1-Digest: CDHoc0CkLtRO5b557BG9LBmDYAQ=
+
+Name: org/eclipse/papyrus/extensionpoints/uml2/standard/ExtensionIds.c
+ lass
+SHA1-Digest: Auf9q16/vhe9pdnTL3ernhMXTss=
+
+Name: org/eclipse/papyrus/extensionpoints/uml2/metamodel/RegisteredMet
+ amodelSelectionDialog.class
+SHA1-Digest: YtD1BXnKL+SVJO3y41YRwvYNScM=
+

@@ -1,0 +1,65 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.7.1
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %providerName
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-Name: %pluginName
+Bundle-SymbolicName: org.eclipse.papyrus.constraintwithessentialocl.ed
+ itor.xtext;singleton:=true
+Require-Bundle: org.eclipse.ui;bundle-version="[3.7.0,4.0.0)",org.ecli
+ pse.core.runtime;bundle-version="[3.7.0,4.0.0)",org.eclipse.papyrus.e
+ xtensionpoints.editors;bundle-version="[0.8.0,1.0.0)",org.eclipse.xte
+ xt.gmf.glue;bundle-version="[0.8.0,1.0.0)",com.google.inject;bundle-v
+ ersion="2.0.0",org.eclipse.uml2.uml;bundle-version="3.2.0",org.eclips
+ e.ocl.examples.xtext.essentialocl.ui;bundle-version="3.1.0",org.eclip
+ se.gef;bundle-version="3.7.0",org.eclipse.gmf.runtime.diagram.ui;bund
+ le-version="1.5.0",org.eclipse.papyrus.properties.runtime;bundle-vers
+ ion="0.8.0",org.eclipse.papyrus.core;bundle-version="0.8.0",org.eclip
+ se.core.expressions;bundle-version="[3.4.0,4.0.0)"
+Bundle-Activator: org.eclipse.ocl.examples.xtext.papyrus.EssentialOCLP
+ opupPlugin
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-Version: 3.1.0.v201106151827
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/ocl/examples/xtext/papyrus/EssentialOCLPopupPlugin.c
+ lass
+SHA1-Digest: vT7HQt7//escmsTJrr7hhBZv4a8=
+
+Name: org/eclipse/ocl/examples/xtext/papyrus/EssentialOCLPopupEditorCo
+ nfiguration.class
+SHA1-Digest: NJwkpA68G9pEr0Oa67lqjS0dTEA=
+
+Name: org/eclipse/ocl/examples/xtext/papyrus/EssentialOCLPopupEditorCo
+ nfiguration$UpdateConstraintCommand.class
+SHA1-Digest: ILz8QCukMcHgOfWI8SoC17t7DcY=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/ocl/examples/xtext/papyrus/IXtextEMFReconciler2.clas
+ s
+SHA1-Digest: 8Z6kBo1gsRt9u2DPzymZNfN+cAs=
+
+Name: org/eclipse/ocl/examples/xtext/papyrus/EssentialOCLPartialModelE
+ ditor.class
+SHA1-Digest: iN9MimamDhEsx94iSyjGNmERqRE=
+
+Name: org/eclipse/ocl/examples/xtext/papyrus/EssentialOCLPopupRuntimeM
+ odule.class
+SHA1-Digest: I9Mv5CSY32SQH6iyLX7aNVM9Kl0=
+
+Name: plugin.xml
+SHA1-Digest: LSSEMaUN6Hov+zkIgzTAvVT+zwo=
+
+Name: about.html
+SHA1-Digest: y0N4Xo0SWk7dkT2S3XYFPomfO1U=
+
+Name: org/eclipse/ocl/examples/xtext/papyrus/EssentialOCLPopupEditorCo
+ nfiguration$Reconciler.class
+SHA1-Digest: du+Tq5UKIuY6CQtSWXslAVtCjXg=
+
+Name: org/eclipse/ocl/examples/xtext/papyrus/EssentialOCLPopupUiModule
+ .class
+SHA1-Digest: /hivNfROpTlBAE8ODoHPzAdObgk=
+

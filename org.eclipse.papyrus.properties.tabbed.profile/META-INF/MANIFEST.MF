@@ -1,0 +1,146 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.papyrus.properties.tabbed.profile;sin
+ gleton:=true
+Bundle-Activator: org.eclipse.papyrus.properties.tabbed.profile.Activa
+ tor
+Require-Bundle: org.eclipse.ui;bundle-version="[3.7.0,4.0.0)",org.ecli
+ pse.core.runtime;bundle-version="[3.7.0,4.0.0)",org.eclipse.ui.views.
+ properties.tabbed;bundle-version="3.5.0",org.eclipse.uml2.uml;bundle-
+ version="3.1.0",org.eclipse.gmf.runtime.diagram.ui.properties;bundle-
+ version="[1.4.0,2.0.0)",org.eclipse.papyrus.diagram.common;bundle-ver
+ sion="0.8.0"
+Bundle-Version: 0.8.0.v201106151827
+Ant-Version: Apache Ant 1.7.1
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/papyrus/properties/tabbed/profile/imagesection/Image
+ KindSection$KindSelectionListener$1.class
+SHA1-Digest: Ytm1L62e0wMGRTs+HrII4K+wJAg=
+
+Name: org/eclipse/papyrus/properties/tabbed/profile/imagesection/Image
+ ContentSection.class
+SHA1-Digest: PsdNQDP6rKOV8i2lJo2cmukoksw=
+
+Name: org/eclipse/papyrus/properties/tabbed/profile/Activator.class
+SHA1-Digest: Toe1iAcQo9g2UNSkGioTSShuJyQ=
+
+Name: org/eclipse/papyrus/properties/tabbed/profile/imagesection/Image
+ IndexSection$IndexSelectionListener$1.class
+SHA1-Digest: qNgemDEGELznS5hvmoSUC79YeXY=
+
+Name: org/eclipse/papyrus/properties/tabbed/profile/imagesection/Image
+ ExpressionSection.class
+SHA1-Digest: 2ZqGjquBNoQc3bXhTedHxfeYnT8=
+
+Name: org/eclipse/papyrus/properties/tabbed/profile/imagesection/Image
+ FormatSection.class
+SHA1-Digest: tTUK/Zdbjwnp/+YGjGXn+q32vME=
+
+Name: org/eclipse/papyrus/properties/tabbed/profile/imagesection/Image
+ LocationSection.class
+SHA1-Digest: O9cMdwVdvrdvi73ny3Pyb+eSn/A=
+
+Name: org/eclipse/papyrus/properties/tabbed/profile/imagesection/Image
+ KindSection.class
+SHA1-Digest: aHQWfLvfNTAKwR5FEXFcrqqRLhs=
+
+Name: org/eclipse/papyrus/properties/tabbed/profile/imagesection/Image
+ IndexSection.class
+SHA1-Digest: oqAnd9rM+pH19mdcExkEzNoshmI=
+
+Name: plugin.properties
+SHA1-Digest: faP7Xo0H2p/oKU6Inu3rjMyCTac=
+
+Name: org/eclipse/papyrus/properties/tabbed/profile/composite/ExprText
+ Composite.class
+SHA1-Digest: aXr8pKOpUqZmJz1/GeVj2/8MpUE=
+
+Name: org/eclipse/papyrus/properties/tabbed/profile/imagesection/Image
+ ContentSection$1.class
+SHA1-Digest: 5TilP4y+fOWx+oC20DS4M5crSNM=
+
+Name: org/eclipse/papyrus/properties/tabbed/profile/composite/StringPr
+ opertyModelAccessor.class
+SHA1-Digest: ZmORC8/by0itfS+6pVrh8lMcmSo=
+
+Name: org/eclipse/papyrus/properties/tabbed/profile/imagesection/Image
+ ContentSection$2.class
+SHA1-Digest: 0cgheVdIy5CCmkk+2HI4TTEx52w=
+
+Name: org/eclipse/papyrus/properties/tabbed/profile/composite/ISection
+ Composite.class
+SHA1-Digest: 4Gh7XwHX89ki3aWIYWqT5VLH70I=
+
+Name: icons/delete.gif
+SHA1-Digest: ORJe0sG1BDPf20zkd9DI+HUjfk8=
+
+Name: org/eclipse/papyrus/properties/tabbed/profile/imagesection/Image
+ SectionFilter.class
+SHA1-Digest: xg0QV1mmzzOr7RZBCzNswu6z0j8=
+
+Name: org/eclipse/papyrus/properties/tabbed/profile/composite/SimpleTe
+ xtComposite$FocusListener.class
+SHA1-Digest: whWoR+BOipN7jEgcipl4VUUtqnI=
+
+Name: org/eclipse/papyrus/properties/tabbed/profile/composite/ExprText
+ Composite$1.class
+SHA1-Digest: IyIqJPtJZuprUc39N29NDSPIJH4=
+
+Name: plugin.xml
+SHA1-Digest: X9OG3Vy6C7ckiqXRHeNX5CPT10c=
+
+Name: org/eclipse/papyrus/properties/tabbed/profile/imagesection/Image
+ ContentSection$1$1.class
+SHA1-Digest: USpEUX35K2RlNAB1YuX3jrV6y4Y=
+
+Name: org/eclipse/papyrus/properties/tabbed/profile/imagesection/Image
+ ContentSection$2$1.class
+SHA1-Digest: 2y9uoSp3AL4sTfWUBdb01jABCGU=
+
+Name: org/eclipse/papyrus/properties/tabbed/profile/composite/SimpleTe
+ xtComposite$EditKeyAdapter.class
+SHA1-Digest: bpXdBN77Lt4fbQyDvu4N3KQUTvM=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/papyrus/properties/tabbed/profile/composite/StringMo
+ delAccessor.class
+SHA1-Digest: FenEozqGAvuQ7WuIu12HJ8FHpj0=
+
+Name: about.html
+SHA1-Digest: a2Fk5/pDnCvlEfl7QwDZj/FCgFc=
+
+Name: org/eclipse/papyrus/properties/tabbed/profile/AbstractViewSectio
+ n.class
+SHA1-Digest: uQn0vwj4rI3oMwuUObv0F2k9Py4=
+
+Name: org/eclipse/papyrus/properties/tabbed/profile/composite/SimpleTe
+ xtComposite.class
+SHA1-Digest: 2o56t0wbpMvnEYhHioIZ+eHSIPM=
+
+Name: org/eclipse/papyrus/properties/tabbed/profile/imagesection/Image
+ KindSection$KindSelectionListener.class
+SHA1-Digest: PNw2Z6sxzn69sPAzZGpf2inAhCI=
+
+Name: org/eclipse/papyrus/properties/tabbed/profile/imagesection/Image
+ IndexSection$IndexSelectionListener.class
+SHA1-Digest: yUN7phD72ajlwZL2JnUeJklkiAo=
+
+Name: icons/Add_32x32.gif
+SHA1-Digest: BQtX/ggfRf+DKUT2lnPNmreMPLQ=
+
+Name: org/eclipse/papyrus/properties/tabbed/profile/composite/TextComp
+ ositeWithModelAccessor.class
+SHA1-Digest: pO1raGsnsN2vBmT8i4Qo8tccSt4=
+
+Name: org/eclipse/papyrus/properties/tabbed/profile/composite/SimpleTe
+ xtComposite$1.class
+SHA1-Digest: cih4EYvlW7o+dGzdhn8c/X7ObJg=
+

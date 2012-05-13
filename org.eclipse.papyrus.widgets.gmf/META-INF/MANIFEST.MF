@@ -1,0 +1,62 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.7.1
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %Bundle-Vendor
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-Name: %Bundle-Name
+Bundle-SymbolicName: org.eclipse.papyrus.widgets.gmf;singleton:=true
+Require-Bundle: org.eclipse.ui;bundle-version="[3.7.0,4.0.0)",org.ecli
+ pse.core.runtime;bundle-version="[3.7.0,4.0.0)",org.eclipse.papyrus.w
+ idgets;bundle-version="0.8.0",org.eclipse.gmf.runtime.diagram.ui;bund
+ le-version="1.5.0",org.eclipse.gmf.runtime.diagram.ui.properties;bund
+ le-version="1.4.2",org.eclipse.core.databinding;bundle-version="1.4.0
+ ",org.eclipse.jface.databinding;bundle-version="1.5.0",org.eclipse.co
+ re.databinding.property;bundle-version="1.4.0",org.eclipse.papyrus.pr
+ operties;bundle-version="0.8.0"
+Bundle-Activator: org.eclipse.papyrus.widgets.gmf.Activator
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-Version: 0.8.0.v201106151827
+Bundle-ManifestVersion: 2
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/papyrus/widgets/gmf/Activator.class
+SHA1-Digest: 6zgbtWDeR6hrKzyktuzuDJvOmV4=
+
+Name: org/eclipse/papyrus/widgets/gmf/editors/ColorPickerEditor.class
+SHA1-Digest: jB5EpWQaX5V2VPVjEN+OggzZ3Qc=
+
+Name: OSGI-INF/l10n/bundle.properties
+SHA1-Digest: 56FwnOCO3L2brEIDSCW69lIIwaA=
+
+Name: org/eclipse/papyrus/widgets/gmf/editors/FontEditor.class
+SHA1-Digest: 83duz+lDawvnjeu+eOjRUks4V2A=
+
+Name: about.html
+SHA1-Digest: a2Fk5/pDnCvlEfl7QwDZj/FCgFc=
+
+Name: org/eclipse/papyrus/widgets/gmf/editors/XWTAwareColorPicker.clas
+ s
+SHA1-Digest: Ne5T1K9Hhc7siVnO2Q4um5ZJdgA=
+
+Name: org/eclipse/papyrus/widgets/gmf/editors/ColorPickerEditor$1.clas
+ s
+SHA1-Digest: 42flUwZ7ZksL51VVUjaNo9m7kIM=
+
+Name: org/eclipse/papyrus/widgets/gmf/editors/ColorPickerEditor$2.clas
+ s
+SHA1-Digest: +6bKb8f/y/oWlewxHU5LZy1DDi0=
+
+Name: org/eclipse/papyrus/widgets/gmf/editors/XWTAwareFontEditor.class
+SHA1-Digest: +KKwcd0W9lLLWkLTJq82kSPZ9rk=
+
+Name: model/Environment.xmi
+SHA1-Digest: uQvKJFSlAdeL72LuFJfkekJR/9A=
+
+Name: org/eclipse/papyrus/widgets/gmf/editors/FontEditor$1.class
+SHA1-Digest: +dR1maT8pOD/KPxWbgBIOUBqf2g=
+
+Name: plugin.xml
+SHA1-Digest: lG7FfPvjDz2bCddOor3y3qScCAY=
+

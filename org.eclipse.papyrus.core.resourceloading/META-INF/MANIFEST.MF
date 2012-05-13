@@ -1,0 +1,117 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.papyrus.core.resourceloading;singleto
+ n:=true
+Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.7.0,4.0.0)
+ ",org.eclipse.papyrus.core;bundle-version="[0.8.0,1.0.0)",org.eclipse
+ .papyrus.controlmode.history;bundle-version="[0.8.0,1.0.0)",org.eclip
+ se.papyrus.ui.toolbox;bundle-version="0.8.0"
+Bundle-Activator: org.eclipse.papyrus.core.resourceloading.Activator
+Bundle-Version: 0.8.0.v201106151827
+Export-Package: org.eclipse.papyrus.core.resourceloading,org.eclipse.p
+ apyrus.core.resourceloading.impl,org.eclipse.papyrus.core.resourceloa
+ ding.strategies
+Ant-Version: Apache Ant 1.7.1
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/papyrus/core/resourceloading/HistoryRoutingManager.c
+ lass
+SHA1-Digest: Eg88BO5uSDnikG7vk2BEnOsGeMk=
+
+Name: org/eclipse/papyrus/core/resourceloading/HistoryRoutingUtils.cla
+ ss
+SHA1-Digest: UIy8fGLeN9EyyqReDUD6m2huVm4=
+
+Name: org/eclipse/papyrus/core/resourceloading/strategies/LoadAllResou
+ rces.class
+SHA1-Digest: oqBoI9bVzGfiU+DiGsAgzDJvOJ8=
+
+Name: org/eclipse/papyrus/core/resourceloading/IStrategyChooser.class
+SHA1-Digest: 0AxbrPBFFMoJaxEOsyVCcVfprOg=
+
+Name: plugin.properties
+SHA1-Digest: n7W1yYjcUqWginOwQqmeAN/h1kU=
+
+Name: org/eclipse/papyrus/core/resourceloading/strategies/LoadCurrentR
+ esource.class
+SHA1-Digest: Erb8trt6E9c3Z+JmlvFBeTvvh60=
+
+Name: schema/currentStrategyChooser.exsd
+SHA1-Digest: w/MbxCvD5LKs1xXwYF9brSHpKP4=
+
+Name: org/eclipse/papyrus/core/resourceloading/ILoadingStrategy.class
+SHA1-Digest: XATbyAQTyHulU24YcN4zIkwsXhE=
+
+Name: org/eclipse/papyrus/core/resourceloading/Activator.class
+SHA1-Digest: 0yB6pKdO9zBSTrmAI15uD6a7VJg=
+
+Name: plugin.xml
+SHA1-Digest: 5A5+Ga0bRY6pJRYgPME42qwSP2E=
+
+Name: org/eclipse/papyrus/core/resourceloading/editor/UnloadResourcesE
+ ditorModel.class
+SHA1-Digest: J7xIYuAm0JrAE/DEQtfwnoI1IFc=
+
+Name: org/eclipse/papyrus/core/resourceloading/editor/UnloadResourcesE
+ ditorModel$UnloadResourcesEditorPart.class
+SHA1-Digest: +yr7Od6MIqqKvJGn4WBjpv8wkIg=
+
+Name: org/eclipse/papyrus/core/resourceloading/strategies/LoadControll
+ edResources.class
+SHA1-Digest: pIo9r+j9u58IFlV+cRWLMSDytP0=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/papyrus/core/resourceloading/OnDemandLoadingModelSet
+ ServiceFactory.class
+SHA1-Digest: ZmlhMm6j9+w6H2wtgLxK/MtGICY=
+
+Name: org/eclipse/papyrus/core/resourceloading/strategies/AskUserStrat
+ egy.class
+SHA1-Digest: eO4jMK5VqHx1bWGvB+KnE5o8zLw=
+
+Name: schema/loadingStrategyExtender.exsd
+SHA1-Digest: xr3OJLrRDrQiJQfhFQZgw57OXjI=
+
+Name: about.html
+SHA1-Digest: a2Fk5/pDnCvlEfl7QwDZj/FCgFc=
+
+Name: org/eclipse/papyrus/core/resourceloading/IProxyManager.class
+SHA1-Digest: ufNhWANp4V1EhzmTuRghVyf/Hp0=
+
+Name: org/eclipse/papyrus/core/resourceloading/OnDemandLoadingModelSet
+ .class
+SHA1-Digest: JeCUAiZL2oeDObz4kSTK0DShW3c=
+
+Name: schema/loadingStrategy.exsd
+SHA1-Digest: W3b+0hfQVkYrg1FJ3SFz8bWSSWg=
+
+Name: org/eclipse/papyrus/core/resourceloading/impl/ProxyManager.class
+SHA1-Digest: Xacsd/O9d5bB8beuaVJqPReLlK8=
+
+Name: org/eclipse/papyrus/core/resourceloading/ControledResourceAdapte
+ r.class
+SHA1-Digest: 7gjCZgzwvuZ5SEUScFLbVQE5KOA=
+
+Name: org/eclipse/papyrus/core/resourceloading/strategies/AskUserStrat
+ egy$1.class
+SHA1-Digest: V+ScGduc4lGkawo/WegmcDqsYAY=
+
+Name: org/eclipse/papyrus/core/resourceloading/strategies/AskUserStrat
+ egy$2.class
+SHA1-Digest: j7FtJshn8heYP/YOkd9lvWbWVOo=
+
+Name: org/eclipse/papyrus/core/resourceloading/editor/UnloadResourcesE
+ ditorFactory.class
+SHA1-Digest: VHS6e7+Qwzf5S9ohri8idsuHhao=
+
+Name: org/eclipse/papyrus/core/resourceloading/ILoadingStrategyExtensi
+ on.class
+SHA1-Digest: Em57JtO4h54EY0qDYqQGRQKSzFM=
+

@@ -1,0 +1,172 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.7.1
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %providerName
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-Name: %pluginName
+Bundle-SymbolicName: org.eclipse.papyrus.uml.diagram.pkg;singleton:=tr
+ ue
+Require-Bundle: org.eclipse.ui;bundle-version="[3.7.0,4.0.0)",org.ecli
+ pse.core.runtime;bundle-version="[3.7.0,4.0.0)",org.eclipse.papyrus.d
+ iagram.common;bundle-version="[0.8.0,1.0.0)",org.eclipse.papyrus.core
+ .adaptor.gmf;bundle-version="[0.8.0,1.0.0)",org.eclipse.gmf.runtime.d
+ iagram.ui.providers;bundle-version="[1.5.0,2.0.0)",org.eclipse.gmf.ru
+ ntime.diagram.ui.resources.editor;bundle-version="[1.4.0,2.0.0)",org.
+ eclipse.papyrus.diagram.clazz;bundle-version="[0.8.0,1.0.0)",org.ecli
+ pse.papyrus.preferences;bundle-version="[0.8.0,1.0.0)"
+Bundle-Activator: org.eclipse.papyrus.uml.diagram.pkg.Activator
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-Version: 0.8.0.v201106151827
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/papyrus/uml/diagram/pkg/preferences/PackageDiagramNo
+ dePreferencePage.class
+SHA1-Digest: 9g7yUNX1Ll7PrkJZyszBPpf3L8I=
+
+Name: org/eclipse/papyrus/uml/diagram/pkg/provider/IGraphicalTypeRegis
+ try.class
+SHA1-Digest: P4aiQPkBT+X/PSxrCf26DSaBu/U=
+
+Name: palettes/package.palette.xml
+SHA1-Digest: hNVpe0N+fhdGf68mUYH3WbrZPfw=
+
+Name: org/eclipse/papyrus/uml/diagram/pkg/PackageDiagramCreateCommand.
+ class
+SHA1-Digest: t8jsTf7c16Fz0c9rjhouFUlO6yQ=
+
+Name: org/eclipse/papyrus/uml/diagram/pkg/preferences/PackageDiagramPr
+ eferenceInitializer.class
+SHA1-Digest: OAoHH8/VG2sbqjKCpUVHuYqobqo=
+
+Name: icons/obj16/Diagram_Package.gif
+SHA1-Digest: qyycLKPadpuGApmtzWXQSfKYjAU=
+
+Name: plugin.properties
+SHA1-Digest: or1h6zWMy/3xTzNJ22aOrlfQszE=
+
+Name: org/eclipse/papyrus/uml/diagram/pkg/preferences/CommentLinkPrefe
+ rencePage.class
+SHA1-Digest: oo7MUpWWmt4RKYFm53G7UrJqUTc=
+
+Name: org/eclipse/papyrus/uml/diagram/pkg/edit/part/PackageDiagramEdit
+ Part.class
+SHA1-Digest: QjhtdWLjwLM193p1CPeeQYzOFjw=
+
+Name: org/eclipse/papyrus/uml/diagram/pkg/preferences/PackageDiagramGe
+ neralPreferencePage.class
+SHA1-Digest: nxqaP/iip96hxAP4Wrb2T3aRkZ8=
+
+Name: org/eclipse/papyrus/uml/diagram/pkg/PackageDiagramCreationCondit
+ ion.class
+SHA1-Digest: IwiwOAHVQbOFA+tUPtpwnBIUlxg=
+
+Name: org/eclipse/papyrus/uml/diagram/pkg/edit/policy/PackageDiagramDr
+ agDropEditPolicy.class
+SHA1-Digest: bxXZCmoQi9o/LGBds5TQooIEQMo=
+
+Name: org/eclipse/papyrus/uml/diagram/pkg/edit/policy/CustomDragDropEd
+ itPolicy.class
+SHA1-Digest: yeNspjfTUvOhWfbQF638DWqm8O8=
+
+Name: org/eclipse/papyrus/uml/diagram/pkg/Activator.class
+SHA1-Digest: E1r9wd253SjvAGS69pSE6Ul4PZA=
+
+Name: org/eclipse/papyrus/uml/diagram/pkg/PackageDiagramForMultiEditor
+ .class
+SHA1-Digest: ZKVVvM+C28RVxlHIG3LgVOhRwqU=
+
+Name: org/eclipse/papyrus/uml/diagram/pkg/part/PackageDiagramEditor.cl
+ ass
+SHA1-Digest: 6QmQ3XyIcE6mAnl4CMNUYhs5iOQ=
+
+Name: org/eclipse/papyrus/uml/diagram/pkg/provider/PackageDiagramEditP
+ olicyProvider.class
+SHA1-Digest: oudgXOwyTn4iEd73Dinkh7pLnK0=
+
+Name: plugin.xml
+SHA1-Digest: o7GaXU8J897yXSvxEbN/1DRuMxA=
+
+Name: org/eclipse/papyrus/uml/diagram/pkg/provider/PackageDiagramEditP
+ artProvider.class
+SHA1-Digest: fGb9Jbg2TV1/SVA5RP9DJAmsRXA=
+
+Name: org/eclipse/papyrus/uml/diagram/pkg/preferences/PackagePreferenc
+ ePage.class
+SHA1-Digest: bXtmyY6dpd8tPALpCsW2XndhlT0=
+
+Name: org/eclipse/papyrus/uml/diagram/pkg/preferences/PackageImportPre
+ ferencePage.class
+SHA1-Digest: Eiz6iPTmdYpPSYlxICvyA9l/VqQ=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/papyrus/uml/diagram/pkg/provider/PackageDiagramViewP
+ rovider.class
+SHA1-Digest: VtQIC1Jj8HJv3xe0f6GvT7ThTfg=
+
+Name: palettes/package.palette.gen.xml
+SHA1-Digest: QwTmi5O3LKglHBIoOCIFjZAXRQk=
+
+Name: org/eclipse/papyrus/uml/diagram/pkg/part/PackageDiagramEditor$1.
+ class
+SHA1-Digest: zK23RAthO4aKSGFox8beQ0KoPHQ=
+
+Name: org/eclipse/papyrus/uml/diagram/pkg/part/PackageDiagramEditor$2.
+ class
+SHA1-Digest: 4lUG6bJA1aQoi3yeOFRBQsVpNZM=
+
+Name: org/eclipse/papyrus/uml/diagram/pkg/part/PackageDiagramEditor$3.
+ class
+SHA1-Digest: UIJ09GUGNmjtY6coL5EBq9Wcwek=
+
+Name: org/eclipse/papyrus/uml/diagram/pkg/CreatePackageDiagramWithNavi
+ gationHandler.class
+SHA1-Digest: EL0VujmjT7rSp+CPyxknq4jszWs=
+
+Name: about.html
+SHA1-Digest: mLkmRLtG3amkcY0I7KSYZX6qKhs=
+
+Name: org/eclipse/papyrus/uml/diagram/pkg/PackageDiagramEditorFactory.
+ class
+SHA1-Digest: x912Hq5bIsbL/q3fLoATjBWSbCg=
+
+Name: org/eclipse/papyrus/uml/diagram/pkg/provider/InheritedClassDiagr
+ amEditPartProvider.class
+SHA1-Digest: bBeNop1hsynjaDk3goN8yCKeKTg=
+
+Name: org/eclipse/papyrus/uml/diagram/pkg/part/PackageDiagramEditor$2$
+ 1.class
+SHA1-Digest: fXvv8pJH9yk3eBnSNnlrB45qHww=
+
+Name: org/eclipse/papyrus/uml/diagram/pkg/preferences/CommentPreferenc
+ ePage.class
+SHA1-Digest: nQBTZAMj17gdgc0y4/DlegjDgxE=
+
+Name: org/eclipse/papyrus/uml/diagram/pkg/part/PackageDiagramEditor$2$
+ 2.class
+SHA1-Digest: 9K5kYIPcJ/sVUVPnQumaONJrF00=
+
+Name: org/eclipse/papyrus/uml/diagram/pkg/factory/PackageDiagramViewFa
+ ctory.class
+SHA1-Digest: We8LagHZWgtaCB3X6okYLfqFp+o=
+
+Name: org/eclipse/papyrus/uml/diagram/pkg/preferences/PackageDiagramLi
+ nkPreferencePage.class
+SHA1-Digest: 6I8Nr/wJBzzNyQGee3oXcSiQxZY=
+
+Name: org/eclipse/papyrus/uml/diagram/pkg/provider/GraphicalTypeRegist
+ ry.class
+SHA1-Digest: NE5+0PXiGL0l13wybCTIyKsay5w=
+
+Name: org/eclipse/papyrus/uml/diagram/pkg/preferences/DependencyPrefer
+ encePage.class
+SHA1-Digest: TOFrzOm2iNRvXooVnl1bLgdTmgA=
+
+Name: org/eclipse/papyrus/uml/diagram/pkg/provider/InheritedClassDiagr
+ amViewProvider.class
+SHA1-Digest: X7VAFwztGZ2AhkllJQroFaRMFAE=
+
+Name: org/eclipse/papyrus/uml/diagram/pkg/provider/ElementTypes.class
+SHA1-Digest: +zvaXNhVAF1PZcFgTz6AoBEwXz0=
+

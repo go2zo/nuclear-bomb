@@ -1,0 +1,4714 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.papyrus.diagram.common;singleton:=tru
+ e
+Require-Bundle: org.eclipse.uml2.uml.edit;visibility:="reexport";bundl
+ e-version="[3.1.0,4.0.0)",org.eclipse.papyrus.core;bundle-version="0.
+ 8.0";visibility:="reexport",org.eclipse.gmf.runtime.diagram.ui.resour
+ ces.editor;bundle-version="[1.4.0,2.0.0)",org.eclipse.gmf.runtime.dia
+ gram.ui.providers;bundle-version="1.1.0",org.eclipse.papyrus.extensio
+ npoints.editors;bundle-version="0.8.0",org.eclipse.papyrus.umlutils;b
+ undle-version="0.8.0";visibility:="reexport",org.eclipse.gmf.runtime.
+ diagram.ui.properties;bundle-version="1.2.0",org.eclipse.papyrus.wiza
+ rds;bundle-version="0.8.0",org.eclipse.papyrus.log;bundle-version="0.
+ 8.0";visibility:="reexport",org.eclipse.papyrus.ui.toolbox;bundle-ver
+ sion="0.8.0",org.eclipse.core.databinding;bundle-version="1.2.0",org.
+ eclipse.papyrus.editor;bundle-version="0.8.0",org.eclipse.gmf.runtime
+ .diagram.ui.render;bundle-version="1.3.0",org.eclipse.papyrus.pastema
+ nager;bundle-version="0.8.0",org.eclipse.ui;bundle-version="[3.7.0,4.
+ 0.0)",org.eclipse.papyrus.core.adaptor.gmf;bundle-version="0.8.0",org
+ .eclipse.papyrus.preferences;bundle-version="0.8.0",org.eclipse.gmf.r
+ untime.diagram.ui.actions;bundle-version="[1.4.0,2.0.0)",org.eclipse.
+ gmf.runtime.draw2d.ui.render;bundle-version="1.4.0",org.eclipse.core.
+ expressions;bundle-version="[3.4.0,4.0.0)",org.eclipse.papyrus.valida
+ tion;bundle-version="0.8.0",org.eclipse.papyrus.extendedtypes;bundle-
+ version="0.8.0";visibility:="reexport",org.eclipse.papyrus.service.ed
+ it;bundle-version="0.8.0";visibility:="reexport",org.eclipse.papyrus.
+ navigation;bundle-version="0.8.0";visibility:="reexport",org.eclipse.
+ papyrus.navigation.uml;bundle-version="0.8.0",org.eclipse.gmf.runtime
+ .diagram.ui.printing;bundle-version="[1.4.0,2.0.0)",org.eclipse.gmf.r
+ untime.diagram.ui.providers.ide;bundle-version="[1.2.0,2.0.0)"
+Bundle-Activator: org.eclipse.papyrus.diagram.common.Activator
+Export-Package: org.eclipse.papyrus.diagram.common,org.eclipse.papyrus
+ .diagram.common.actions,org.eclipse.papyrus.diagram.common.actions.ha
+ ndlers,org.eclipse.papyrus.diagram.common.command.wrappers,org.eclips
+ e.papyrus.diagram.common.commands,org.eclipse.papyrus.diagram.common.
+ dialogs,org.eclipse.papyrus.diagram.common.directedit,org.eclipse.pap
+ yrus.diagram.common.draw2d,org.eclipse.papyrus.diagram.common.draw2d.
+ anchors,org.eclipse.papyrus.diagram.common.editparts,org.eclipse.papy
+ rus.diagram.common.editpolicies,org.eclipse.papyrus.diagram.common.fi
+ gure.edge,org.eclipse.papyrus.diagram.common.figure.layout,org.eclips
+ e.papyrus.diagram.common.figure.node,org.eclipse.papyrus.diagram.comm
+ on.handlers,org.eclipse.papyrus.diagram.common.helper,org.eclipse.pap
+ yrus.diagram.common.ids,org.eclipse.papyrus.diagram.common.layout,org
+ .eclipse.papyrus.diagram.common.listeners,org.eclipse.papyrus.diagram
+ .common.locator,org.eclipse.papyrus.diagram.common.parser,org.eclipse
+ .papyrus.diagram.common.parser.assist,org.eclipse.papyrus.diagram.com
+ mon.parser.custom,org.eclipse.papyrus.diagram.common.parser.lookup,or
+ g.eclipse.papyrus.diagram.common.parser.packageimport,org.eclipse.pap
+ yrus.diagram.common.parser.stereotype,org.eclipse.papyrus.diagram.com
+ mon.parser.structural,org.eclipse.papyrus.diagram.common.part,org.ecl
+ ipse.papyrus.diagram.common.preferences,org.eclipse.papyrus.diagram.c
+ ommon.providers,org.eclipse.papyrus.diagram.common.providers.assistan
+ t,org.eclipse.papyrus.diagram.common.resourceupdate,org.eclipse.papyr
+ us.diagram.common.service,org.eclipse.papyrus.diagram.common.service.
+ palette,org.eclipse.papyrus.diagram.common.sheet,org.eclipse.papyrus.
+ diagram.common.ui.dialogs,org.eclipse.papyrus.diagram.common.ui.helpe
+ r,org.eclipse.papyrus.diagram.common.ui.hyperlinkshell,org.eclipse.pa
+ pyrus.diagram.common.util
+Bundle-Version: 0.8.0.v201106151827
+Ant-Version: Apache Ant 1.7.0
+Bundle-ClassPath: .
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %providerName
+Bundle-Name: %pluginName
+Created-By: 1.5.0_06-b05 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/papyrus/diagram/common/sheet/UMLPropertySource.class
+SHA1-Digest: umNLmBT81GqM6BM2ZsV1BtJGkcU=
+
+Name: org/eclipse/papyrus/diagram/common/part/UMLElementChooserDialog$
+ OkButtonEnabler.class
+SHA1-Digest: MVO81aU+jU1osToEbyW5Pi/zH1w=
+
+Name: org/eclipse/papyrus/diagram/common/directedit/PropertyAccessor.c
+ lass
+SHA1-Digest: IILAr/9vxLrda0fupvsHmD1xYSI=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$5.class
+SHA1-Digest: Ourtaqeg6Sy1Nr5kN+Ixvwb85Dk=
+
+Name: icons/local_desc_destroy.gif
+SHA1-Digest: ORJe0sG1BDPf20zkd9DI+HUjfk8=
+
+Name: icons/obj16/DeploymentSpecification.gif
+SHA1-Digest: VIJdjpcfU2/qIxnGYbTSxzNIEl4=
+
+Name: icons/obj16/ElementImport.gif
+SHA1-Digest: r9MUdzfFC7n+tyK72dmBV/Hp2LQ=
+
+Name: icons/obj16/Stereotype.gif
+SHA1-Digest: bUkbSqAYwbqh7DD7QWbn6B3VfZI=
+
+Name: org/eclipse/papyrus/diagram/common/actions/ValidationPopupMenuCo
+ ntributionPolicy.class
+SHA1-Digest: nGtiu7eECIQ1N6UynpQWOTWrEwo=
+
+Name: org/eclipse/papyrus/diagram/common/util/CommandUtil$1.class
+SHA1-Digest: 98I+7Rs5qNuvqQUMIlUb1LWePBc=
+
+Name: org/eclipse/papyrus/diagram/common/commands/RemoveValueCommand.c
+ lass
+SHA1-Digest: 00+N09lT3+TAOOMThFFTqtbgABM=
+
+Name: org/eclipse/papyrus/diagram/common/editparts/IEditpartListenerAc
+ cess.class
+SHA1-Digest: vZQWFtRSs2JDi7hL21sy9n+Nzeo=
+
+Name: org/eclipse/papyrus/diagram/common/part/DocumentProviderRegistry
+ .class
+SHA1-Digest: 3yLVI1PBoGIKx3jtdotcpIp3xVE=
+
+Name: icons/LiteralInteger.gif
+SHA1-Digest: 8ZulhO+jLVrxbKwSnjIGkvNPBVs=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/AppliedStereotyp
+ eUsageLabelDisplayEditPolicy.class
+SHA1-Digest: Qpk/lWbZkW61uBDg05V0n06HBMQ=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$22.class
+SHA1-Digest: WSE+WdIDEb26XtHnDiiJlyw9M0Q=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/Messages.clas
+ s
+SHA1-Digest: Xsnj7vCoFWVqE+ojACP8kLIpvcI=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/EditorLookF
+ orDiagram.class
+SHA1-Digest: UObBHuP2gUYUpFFMoZFD+g6txJE=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/StereotypePos
+ tAction$RuntimeEditingSupport.class
+SHA1-Digest: aSD4llZ3Rj9mMGEiTMX7MS/03j0=
+
+Name: icons/obj16/MergeNode.gif
+SHA1-Digest: abZUEjzXxlFYSe6MS029nPyePCM=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/DynamicConfig
+ ureRequest.class
+SHA1-Digest: Zj7nVBhTcopcBnlJXQlve6eOv00=
+
+Name: org/eclipse/papyrus/diagram/common/listeners/DropTargetListener.
+ class
+SHA1-Digest: t8Lk/nrJjyQ5D4Fx1VycDSvOCzQ=
+
+Name: org/eclipse/papyrus/diagram/common/commands/DeleteHyperLinkDocum
+ entCommand.class
+SHA1-Digest: PchDmfiSL8Ws0SNrRFzK+1lLxws=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/LocalDefaul
+ tLinkDiagramTab$1.class
+SHA1-Digest: /nhR4q/2bB0yRJErK3nfYjkb7Fo=
+
+Name: icons/Generalization-15x15.gif
+SHA1-Digest: EK//Xr3tAErjPjdTaQNB599ly3U=
+
+Name: icons/obj16/DestroyLinkAction.gif
+SHA1-Digest: sKW+MY0W4q+iv1sOl7lVE2Pu6ts=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/EditorLookF
+ orDiagram$6.class
+SHA1-Digest: fET+wLJXKJ5avs7horMn5UCsqHs=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/HyperLinkMa
+ nagerShell$1.class
+SHA1-Digest: 9a59L1MLRZZgw69SBYvv/oswUO8=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$50.class
+SHA1-Digest: VLJYLolKchPFvPrR4trzkIsq0cg=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$33.class
+SHA1-Digest: hkifFVQMVZ+Wm7PgQ+UhhLI7g9k=
+
+Name: org/eclipse/papyrus/diagram/common/helper/NamedElementHelper.cla
+ ss
+SHA1-Digest: Jrze9skCJ7j7VuGmE+zgntgNjjk=
+
+Name: icons/obj16/Message_synchCall.gif
+SHA1-Digest: vjzYTZ3i607Q5c4xC8gm9DU/wxU=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$16.class
+SHA1-Digest: +7kTnaI6w6+gdMTzcnaQfIpIGpw=
+
+Name: icons/obj16/InterruptibleActivityRegion.gif
+SHA1-Digest: 1QcDBeZW4zGG/arbf7kAFx28cIk=
+
+Name: org/eclipse/papyrus/diagram/common/util/CommandUtil.class
+SHA1-Digest: jU+55m1/mdvG7R1snDbfQtAJcQU=
+
+Name: icons/obj16/InformationFlow.gif
+SHA1-Digest: i5NSNsyVwAc8RjMur0qiM9IDAls=
+
+Name: icons/obj16/CreationEvent.gif
+SHA1-Digest: CrnPFyKqquTuhuDsRrPA1ZuvjQw=
+
+Name: org/eclipse/papyrus/diagram/common/actions/AbstractShowHideActio
+ n$1$1.class
+SHA1-Digest: d59jhx2WSA3Pb3LCspjdy0VbxZQ=
+
+Name: org/eclipse/papyrus/diagram/common/helper/OperationLabelHelper.c
+ lass
+SHA1-Digest: SeRZiqskBurjLRrTSU+/PyxvSzk=
+
+Name: icons/Port.gif
+SHA1-Digest: Luam9WYiq7lse6kWJhtfSiOWvTw=
+
+Name: org/eclipse/papyrus/diagram/common/sheet/ReferencePropertyDescri
+ ptor.class
+SHA1-Digest: own5I4oVHUNiRX7iorqFG8EReog=
+
+Name: org/eclipse/papyrus/diagram/common/dialogs/SelectDiagramViewsFil
+ terDialog$1.class
+SHA1-Digest: NzBPf7yWFd+n4wDXad9JD26Oivo=
+
+Name: org/eclipse/papyrus/diagram/common/directedit/IPropertyAccessor.
+ class
+SHA1-Digest: YwBTtIFTCDCvNt26qHEwr1MdvXM=
+
+Name: icons/obj16/hyperlink.gif
+SHA1-Digest: DEFucazydzaJHwV/+UlUAcO9yLc=
+
+Name: org/eclipse/papyrus/diagram/common/service/PapyrusPaletteService
+ $ProviderDescriptor.class
+SHA1-Digest: AIip/ABf8rKZsC/xj1QmldCqa/8=
+
+Name: org/eclipse/papyrus/diagram/common/sheet/ReferenceComboAndDialog
+ CellEditor$1.class
+SHA1-Digest: SGpGWgbgnOmYmXYH1qzUwcg0K2k=
+
+Name: org/eclipse/papyrus/diagram/common/commands/RemoveValueRequest.c
+ lass
+SHA1-Digest: +L4+4ysywZUrnV0j4oBKn4wUiNo=
+
+Name: org/eclipse/papyrus/diagram/common/providers/IMOSKittEditorFacto
+ ry.class
+SHA1-Digest: XmwnPZyJAs+0EEpUtmwUkWr/CCc=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/EditorHyper
+ linkWebShell.class
+SHA1-Digest: Zpn+bhblY+XPHy68KehO6/mfozs=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$61.class
+SHA1-Digest: Eb9nuFlqbbEvlQYezgU26qxVVUY=
+
+Name: icons/obj16/Substitution.gif
+SHA1-Digest: xPrX6MFEEIK2B7KaivQxwmjrA4g=
+
+Name: icons/obj16/Pseudostate_junction.gif
+SHA1-Digest: Vbrss1jgUFr32i+zwUDtoG3Sjdo=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$44.class
+SHA1-Digest: B9MDd3HX/aqGZUVgjSd7f/xcowg=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$27.class
+SHA1-Digest: OZmtHJnWCkq93uthYP6/xWXeRaU=
+
+Name: org/eclipse/papyrus/diagram/common/service/AspectUnspecifiedType
+ CreationTool.class
+SHA1-Digest: PFazg89W+kJ9ci49JtpZJTHl7Hg=
+
+Name: org/eclipse/papyrus/diagram/common/part/CustomMessages.class
+SHA1-Digest: y2uPxaTwJ9nk2KjGD39i7KxRo0Y=
+
+Name: icons/obj16/ObjectFlow.gif
+SHA1-Digest: G8d4pdqJDETi1Zjlo3laLsmP8x4=
+
+Name: org/eclipse/papyrus/diagram/common/providers/assistant/Assistant
+ .class
+SHA1-Digest: oEuFTRvMZ9tgLcpBcEXBR/ZQVhU=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/RemoveEleme
+ ntListener.class
+SHA1-Digest: CdMFCTD1xM77ySXD4b9DhFO+KD4=
+
+Name: org/eclipse/papyrus/diagram/common/helper/StereotypeFigureHelper
+ .class
+SHA1-Digest: FTV6rQgmkYvw12eUcPrwdX2lpJU=
+
+Name: org/eclipse/papyrus/diagram/common/draw2d/PileLayout$5.class
+SHA1-Digest: VbgbjXSoK0jC10hmOrtOBZoV5Oo=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/GetAllAspectT
+ oolProvidersOperation.class
+SHA1-Digest: 2GfprJgMH1zVY2+FTn+MLhdX+jc=
+
+Name: org/eclipse/papyrus/diagram/common/dialogs/CustomCheckedTreeSele
+ ctionDialog$3.class
+SHA1-Digest: MZiAJscOLHz0JOXSOXRDMCiFg18=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$72.class
+SHA1-Digest: IdJBgpN2Z/mH5fnu8/VF72kj7sw=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/StereotypePos
+ tAction$RuntimePropertiesDialog$5.class
+SHA1-Digest: RpWuAGzrtIxatNqNxSsiZ1k1OcI=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/HyperLinkMa
+ nagerShell$6.class
+SHA1-Digest: wOgEVa2oERxvsiKJnv3supMIzYE=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$55.class
+SHA1-Digest: tlGsdhReEnggpgd+aydMAfu9ei0=
+
+Name: org/eclipse/papyrus/diagram/common/figure/layout/AutomaticCompar
+ tmentToolBox.class
+SHA1-Digest: 6l2xr5o36mJ62o9hOhnnw2h9pJQ=
+
+Name: org/eclipse/papyrus/diagram/common/part/PapyrusPaletteViewer.cla
+ ss
+SHA1-Digest: Yeo4Pl5sVpgcCT83bzj9tiidcKo=
+
+Name: org/eclipse/papyrus/diagram/common/preferences/UMLPreferencesCon
+ stants.class
+SHA1-Digest: 9ivvooPNTNoITCAbZcFLe53DDvs=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$38.class
+SHA1-Digest: bu7+YsckFaQ4zJa/xJtDXFvlq0Q=
+
+Name: icons/obj16/Parameter_out.gif
+SHA1-Digest: SIMTeWjqYJC2DPGnCeD/RNXPatI=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/HyperLinkPopupBa
+ rEditPolicy$PopupBarMouseListener.class
+SHA1-Digest: L3NfHBKxRpUdAemum8nRmYKWg64=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$102.class
+SHA1-Digest: NzOaAN9pQJumMPUCI35Y6MUJ4+Q=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/EditorHyper
+ linkDiagramShell$4.class
+SHA1-Digest: t9NbwW41YQb/uxrTDVS49M71UY0=
+
+Name: icons/obj16/StateInvariant.gif
+SHA1-Digest: q1a6bX8wrXl1/UAyrnBgOHFJXPg=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$83.class
+SHA1-Digest: ciFDVMhiy0ththqCO1CsIlJLFD8=
+
+Name: icons/obj16/Connector.gif
+SHA1-Digest: 75JP0FSXoWvuhnEBRrwA8PVMFbo=
+
+Name: org/eclipse/papyrus/diagram/common/layout/RoutingConstants.class
+SHA1-Digest: OtOPc64UQS24SO6KZAvDkcEcVgg=
+
+Name: org/eclipse/papyrus/diagram/common/draw2d/LaneLayout.class
+SHA1-Digest: 09Oikenc6pDgrSfMquQYFx8fER0=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/PackageFigure$Pac
+ kageLayoutManager.class
+SHA1-Digest: Yn+lDhgbd1wWSSdmy+1SR7dQYHk=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$66.class
+SHA1-Digest: KRXYPZRBZUeGmmCPhcEQN5Tnids=
+
+Name: icons/obj16/SignalEvent.gif
+SHA1-Digest: aYO/11CACKZFipPvSSWPRgIVpxw=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$130.class
+SHA1-Digest: YPqiEZuxiAGpb1x31lKXKBeRTv4=
+
+Name: icons/obj16/TestIdentityAction.gif
+SHA1-Digest: seh6vTrn/DeeW/4iLkL5Z6T+QsQ=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$49.class
+SHA1-Digest: KgpAwLW+blVzV3vUE7tkci/jmvQ=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/DiagramNodeFigure
+ .class
+SHA1-Digest: KfzWYLC/YQP31omztWH6siu++c8=
+
+Name: org/eclipse/papyrus/diagram/common/layout/LayoutUtils.class
+SHA1-Digest: 53eDP0LHdQMAotMca3/3rZslikU=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$113.class
+SHA1-Digest: NdB96MXkVdNJUs34ZrCM5ls1Mwk=
+
+Name: org/eclipse/papyrus/diagram/common/ui/dialogs/AbstractChooseElem
+ ent.class
+SHA1-Digest: ABkHZIC8hTWlKD47rgIph/TXuGg=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/ComponentFigure.c
+ lass
+SHA1-Digest: 6wDR6g6zY+GAjgHbV2urjiwtihE=
+
+Name: org/eclipse/papyrus/diagram/common/actions/ShowHideContentsActio
+ n$ContentProvider.class
+SHA1-Digest: ok/zCfEdxFbFNWV8Q05YlRjtD3k=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/DataTypeFigure.cl
+ ass
+SHA1-Digest: ZlEoltMdyMxR5xFuhcEjvCGBpQA=
+
+Name: org/eclipse/papyrus/diagram/common/service/AspectUnspecifiedType
+ ConnectionTool$2.class
+SHA1-Digest: a79VIACJQKXcPT9+IhCDadEYaLE=
+
+Name: org/eclipse/papyrus/diagram/common/service/AspectUnspecifiedType
+ CreationTool$1.class
+SHA1-Digest: Ls4jV4lFn0GKtbzs4XTUYw+YZlk=
+
+Name: icons/obj16/Transition.gif
+SHA1-Digest: BurOODvgfZ/PckMD70fno1uDuJY=
+
+Name: icons/obj16/ReadSelfAction.gif
+SHA1-Digest: 3nn0bqes1SJNNWREdYl/75uBU4w=
+
+Name: icons/obj16/ConsiderIgnoreFragment.gif
+SHA1-Digest: ya8O61o1APjN1lV7ZhUpDvWuOM0=
+
+Name: org/eclipse/papyrus/diagram/common/dialogs/DiagramNavigationDial
+ og.class
+SHA1-Digest: SgoDnW4IEzA7yyvZJXYsI+IERxw=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$94.class
+SHA1-Digest: ZUgNxAzOSD3aAVlJnE4+2OLTuM8=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/EditorHyper
+ linkDocumentShell$3.class
+SHA1-Digest: 2CcQ9LmRe2lZP6xI36DvezjPs7U=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/ApplyStereotypeE
+ ditPolicy$2.class
+SHA1-Digest: jaAVp1NWpTMZUmGxBQsdf62b3sU=
+
+Name: org/eclipse/papyrus/diagram/common/command/wrappers/GEFtoEMFComm
+ andWrapper.class
+SHA1-Digest: igL5mcqG/zmq4gy7gcufgTvsqHo=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$77.class
+SHA1-Digest: ei2v7MW8R8oGQqY7gzUTcilSJCM=
+
+Name: icons/obj16/ClearStructuralFeatureAction.gif
+SHA1-Digest: chu/FHK5fUVrqZsle7tEaTy32aA=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$141.class
+SHA1-Digest: nq6x7pMTa8yPerrywoRP5k6Fibs=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/AssociationEn
+ dPostAction$PropertyEndComposite$3.class
+SHA1-Digest: +UeQ3M0JqvdBTT6sb6yroE5JCtw=
+
+Name: icons/obj16/ReadStructuralFeatureAction.gif
+SHA1-Digest: w3gjsMvqvTwKcjguSGKxHKpUZeA=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$124.class
+SHA1-Digest: Q42OZy+THlzF6X33cGOj2JaENKU=
+
+Name: icons/obj16/Pseudostate_fork.gif
+SHA1-Digest: 1d60/r25SqgLKqw9M5lhrA2Txpg=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$107.class
+SHA1-Digest: WLwZVGqpmcYLpe2NCk2cI4xsx1o=
+
+Name: icons/obj16/Lifeline.gif
+SHA1-Digest: DfYK/Rv071LhHPn2qAKyCHMEy5k=
+
+Name: icons/obj16/Association.gif
+SHA1-Digest: 75JP0FSXoWvuhnEBRrwA8PVMFbo=
+
+Name: icons/local_desc.gif
+SHA1-Digest: UcO4ih89QAypCBwquXq/PvlzIbw=
+
+Name: org/eclipse/papyrus/diagram/common/actions/handlers/ClipboardAct
+ ionHandler$4.class
+SHA1-Digest: XDe2vMe49pjgMHe6Pe/eINjslXs=
+
+Name: icons/obj16/AnyReceiveEvent.gif
+SHA1-Digest: bJORTr6X+H3nFttKvEMqXGhywsg=
+
+Name: org/eclipse/papyrus/diagram/common/util/MultiDiagramUtil.class
+SHA1-Digest: c5UGAxDrls9AZQDJBGVlyl+LP6k=
+
+Name: org/eclipse/papyrus/diagram/common/parser/lookup/LookupResolver$
+ 1.class
+SHA1-Digest: +WAwaeiP93FLG+p7ZrBrvBd0YXY=
+
+Name: icons/obj16/PackageImport.gif
+SHA1-Digest: PJHw6NLQwpSWBYySuZCBeDI9YL4=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/HyperLinkPopupBa
+ rEditPolicy.class
+SHA1-Digest: zxL/3XEfOmjTJy//+wiI1/cSUXY=
+
+Name: icons/new_drawer.gif
+SHA1-Digest: UJ9nAklqg9UDmmodF7ph1bDQRQY=
+
+Name: icons/obj16/DecisionNode.gif
+SHA1-Digest: 8b2iE1iKMBY6cJfKnfMXKxkUb5w=
+
+Name: icons/obj16/InteractionConstraint.gif
+SHA1-Digest: fo6pIhxWIsUGVD1O/lkRFcjGEgs=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$88.class
+SHA1-Digest: vLyUrCkMMv4/c6it9VA4mHLDJtI=
+
+Name: org/eclipse/papyrus/diagram/common/providers/PapyrusGlobalAction
+ HandlerProvider.class
+SHA1-Digest: 8H1nwliTSUFB1JLdepMkUfO//So=
+
+Name: icons/obj16/Node.gif
+SHA1-Digest: T2twu2f289dUD7w8ovmuFW4Snug=
+
+Name: org/eclipse/papyrus/diagram/common/figure/layout/ILayoutToolBox.
+ class
+SHA1-Digest: 4OGyU8dT+octH0KV5RYTmRy/sRk=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$152.class
+SHA1-Digest: HV35XlcfSTERZHAAsqQsfRr3tsQ=
+
+Name: org/eclipse/papyrus/diagram/common/service/AspectUnspecifiedType
+ ConnectionTool.class
+SHA1-Digest: kFHb9YrzJJJZ/D9ZSE4mlppjV64=
+
+Name: icons/obj16/ReadVariableAction.gif
+SHA1-Digest: cqr+ZC8ye9SgbNnA11aQbXyIkB4=
+
+Name: icons/obj16/DestructionEvent.gif
+SHA1-Digest: R8t0SrU193Jm0WfmXF2yzlsiibI=
+
+Name: icons/obj16/StringExpression.gif
+SHA1-Digest: 1N2nxlDd/Bqadra/vsm5VKIcxcs=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$135.class
+SHA1-Digest: o1KRgz4rbxE2MrFIuLpjf+InHWY=
+
+Name: icons/obj16/CreateLinkObjectAction.gif
+SHA1-Digest: YEYgHjLoKzXiT6zHO7Ynip8D58I=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/StereotypePos
+ tAction$1.class
+SHA1-Digest: NdywSEFeMvX0+c7L3SQpQ9Syyp8=
+
+Name: icons/distribute_horizontally_between_nodes.gif
+SHA1-Digest: 5asyir/KIx3CcJ83nmRBXi/XB0A=
+
+Name: org/eclipse/papyrus/diagram/common/util/ExtensionPointParser.cla
+ ss
+SHA1-Digest: t3xbxbk3FrKunNTnfvRt5xKzv/k=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/StereotypePos
+ tAction$RuntimePropertiesDialog.class
+SHA1-Digest: csvIVV1j6qdDafJo3NR6OJMS6wo=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$118.class
+SHA1-Digest: 13XNNWcEqm1lMLXkpbdIDcggl2g=
+
+Name: org/eclipse/papyrus/diagram/common/util/CompartmentTitleRepresen
+ tation.class
+SHA1-Digest: vIRry/uoqeG4WJHVyHSpTVBsl8o=
+
+Name: icons/Papyrus_16x16.gif
+SHA1-Digest: 03GOz6+LQbCoWZ+xxCwpaFVDAdQ=
+
+Name: org/eclipse/papyrus/diagram/common/actions/AbstractAction.class
+SHA1-Digest: syi1wEQKLqcNd3j10zGFpxuQeIY=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/SemanticPostA
+ ction$AttributeLabelProvider.class
+SHA1-Digest: 2c+G8Mx0RNSvasXKaaS6ju43M1E=
+
+Name: org/eclipse/papyrus/diagram/common/providers/DiagramValidationDe
+ coratorProvider.class
+SHA1-Digest: 7JftFfThV2NjcFFV3sOJhF7eEgM=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/AppliedStereotype
+ WrappingLabelFigure.class
+SHA1-Digest: TDBCyFXXs9MWOKhpt0fZvtA6Gfc=
+
+Name: icons/obj16/OpaqueExpression.gif
+SHA1-Digest: J7dHlCRZcfGhGRsMhlQHETsj2/w=
+
+Name: org/eclipse/papyrus/diagram/common/resourceupdate/SaveListener.c
+ lass
+SHA1-Digest: sxRvCFW45PZbtYbloxSLdtVQJes=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/IAspectAction
+ .class
+SHA1-Digest: 65ua+ev+6jZ2inMAYibWaL6k7DM=
+
+Name: org/eclipse/papyrus/diagram/common/resourceupdate/SaveListener$P
+ ostSaveRunnable.class
+SHA1-Digest: Jfs3oZXmH2QNVB68Q5veaw25/T8=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/SemanticPostA
+ ction$1.class
+SHA1-Digest: XhgfF1ILD/LyO1/QcL49NhfCZeU=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$180.class
+SHA1-Digest: 1yQhzDO4la8vxLaHnmoKcHw+nC0=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$99.class
+SHA1-Digest: y4MObdDwOWD7TKEdR5O1UnvCTJs=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$163.class
+SHA1-Digest: K58IGuhfNyXx9mLO2TuIeHKQ0M0=
+
+Name: icons/obj16/CentralBufferNode.gif
+SHA1-Digest: yyvIY0WgI+HKoNPeeK1/QWRPySw=
+
+Name: icons/obj16/Add_16x16.gif
+SHA1-Digest: yoxjmqMtVphUpFQAd45TKQuy8gU=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$146.class
+SHA1-Digest: oVfU26Kvmzn2l2qlFSqEZAxbqSI=
+
+Name: org/eclipse/papyrus/diagram/common/sheet/UMLPropertySource$Custo
+ mPropertyDescriptor.class
+SHA1-Digest: PLee33BEt/SUuSyoK6ATUIEN6co=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$129.class
+SHA1-Digest: Rp1gWUUZLcLdo1sPUzgtY/n7KOU=
+
+Name: org/eclipse/papyrus/diagram/common/actions/handlers/ClipboardAct
+ ionHandlerProvider.class
+SHA1-Digest: ODAtadgbctx8K6N5uf9ck71GT5c=
+
+Name: org/eclipse/papyrus/diagram/common/commands/DuplicateNamedElemen
+ tCommand.class
+SHA1-Digest: znITLx8GADCCgklrvTnHvEu/PG8=
+
+Name: org/eclipse/papyrus/diagram/common/actions/MoveCompartmentObject
+ Action.class
+SHA1-Digest: Nm826234AAzygp8OhiYaTwP6O8M=
+
+Name: icons/obj16/Association_none.gif
+SHA1-Digest: u2j94uXU3F+28e1j0bFlEvLIMlc=
+
+Name: org/eclipse/papyrus/diagram/common/part/IPaletteDescription.clas
+ s
+SHA1-Digest: uUK8aWB6segOAhqUUZxI0IZ08HU=
+
+Name: org/eclipse/papyrus/diagram/common/handlers/ParametricAndListeni
+ ngHandler.class
+SHA1-Digest: L0qbc6V8j0w39+iC6+3GfrN7lOs=
+
+Name: icons/obj16/LinkEndData.gif
+SHA1-Digest: ewaj86/uLe2x0iVGfMcrUBWvuuY=
+
+Name: icons/obj16/ReduceAction.gif
+SHA1-Digest: hX293EyJV35jBknY0ATNVlbXdQI=
+
+Name: org/eclipse/papyrus/diagram/common/editparts/BorderUMLNodeEditPa
+ rt.class
+SHA1-Digest: mWbrACEcmIwYOrx3nihoO6Uftj0=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$191.class
+SHA1-Digest: 5BPUvdY64+HX5AgIIcXre38DLG8=
+
+Name: icons/Property.gif
+SHA1-Digest: tkutZ6OGa7t+eJfCkSBDMLReiRs=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/DisplayApplie
+ dStereotypeAspectActionProvider.class
+SHA1-Digest: 9xw6pqiZUzdrQhlQr769M0D5Sgo=
+
+Name: org/eclipse/papyrus/diagram/common/handlers/PasteWithModelComman
+ dHandler.class
+SHA1-Digest: Ca8nRVfKFSGC8ycHPtsNC/Kiqtg=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$174.class
+SHA1-Digest: ejiwcYq8Vdg1cnBwSH3GCeSo9CA=
+
+Name: org/eclipse/papyrus/diagram/common/service/ExtendedPaletteProvid
+ erConfiguration.class
+SHA1-Digest: v2j8ObPLoJizoa/BdCQm2cxGDmY=
+
+Name: icons/obj16/PartDecomposition.gif
+SHA1-Digest: TOHwuWnsH1cUsw0OzDyU0ZXRbzg=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/AppliedStereotyp
+ eManifestationLabelDisplayEditPolicy.class
+SHA1-Digest: o/+b2hzLxE+FPlapKHF5oxH1x+o=
+
+Name: org/eclipse/papyrus/diagram/common/util/ColorManager.class
+SHA1-Digest: I6M40EsfAi0KIP0WCxZWL0fKzpY=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/NoteShadowBorder.
+ class
+SHA1-Digest: 0nGSH+n9tewXT1llZIENQ55HNvA=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$157.class
+SHA1-Digest: uTRGVjO12H0PHh9vB5J5yEF830Q=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/EditorHyper
+ linkWebShell$4.class
+SHA1-Digest: F2N/NzIDHm1mGbYqUSxtKsmYLLM=
+
+Name: icons/obj16/TemplateSignature.gif
+SHA1-Digest: MZenqYAfCQOF/F8KBxDtawNHAjw=
+
+Name: icons/alignleft.gif
+SHA1-Digest: zxRtMuRff5n+0w00gziGcJPQKR4=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/StereotypePos
+ tAction$6.class
+SHA1-Digest: 541sc0BTVkxUGQkWaw5cQeM5bZ8=
+
+Name: org/eclipse/papyrus/diagram/common/providers/ValidationDecorator
+ Provider$1$1.class
+SHA1-Digest: rgKuHhYFp+AUtdn4jM4xAcYR8Ek=
+
+Name: org/eclipse/papyrus/diagram/common/helper/DiagramHyperLinkHelper
+ .class
+SHA1-Digest: t4J2U0T3aR/4z5I8CklB25juDMk=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/Value.class
+SHA1-Digest: r/CTsb5kxKNnnNrWJ/mVk6LiE5U=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/StereotypeRep
+ resentation.class
+SHA1-Digest: AHGsnQ5K+mR+LcnvBwCi1CikqnQ=
+
+Name: icons/obj16/InitialNode.gif
+SHA1-Digest: kMRnGM9NvHoDM2Gmc74UbD/vRJE=
+
+Name: org/eclipse/papyrus/diagram/common/actions/FilterViewsLabelsActi
+ on$1.class
+SHA1-Digest: HxXtevpesElmHe8VBX/CB7PYXyU=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/AbstractAppliedS
+ tereotypeDisplayEditPolicy.class
+SHA1-Digest: +krIIXcu/fFsCz0hDc/zX3HAp+E=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/SemanticPostA
+ ction$AttributeContentProvider.class
+SHA1-Digest: teERIMwc/y5TQ5cVNFj4mVidsNY=
+
+Name: org/eclipse/papyrus/diagram/common/part/CachedResourcesDocumentP
+ rovider$ResourceSetModificationListener.class
+SHA1-Digest: dY5wDZbVHJPznmThjkiKliZJzDc=
+
+Name: org/eclipse/papyrus/diagram/common/providers/UIAdapterImpl.class
+SHA1-Digest: bG6MINEQ0jSk/fCVCcx1yHrIm8M=
+
+Name: org/eclipse/papyrus/diagram/common/layout/EditPartRepresentation
+ .class
+SHA1-Digest: 7i6RELj2puqs2kxguNGShTVbDz4=
+
+Name: org/eclipse/papyrus/diagram/common/helper/StereotypedElementLabe
+ lHelper.class
+SHA1-Digest: NOGgkyIa7b6uzGOvgC0QQzjbAMY=
+
+Name: icons/size_to_control_width.gif
+SHA1-Digest: vMDNdG10BrrtS5r9lkCxLOvjj+E=
+
+Name: icons/label_role/name.png
+SHA1-Digest: nuQDPuqgIyt8nq4uthAr2ovclu4=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$185.class
+SHA1-Digest: YbHCF69fD5H3oIM1Nb8aUAz5gks=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/ChangeStereot
+ ypeDisplayPostAction$1.class
+SHA1-Digest: lb19G8q/6vvegewz0CN6DiFKUXc=
+
+Name: icons/obj16/QualifierValue.gif
+SHA1-Digest: sfmdM2yb2axhWOH3ZtKMx5OkwlE=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$168.class
+SHA1-Digest: MKeOqcr+5+Tz23YS0ujAX/hNaq4=
+
+Name: icons/obj16/Component.gif
+SHA1-Digest: lNiHfQNsaIQ5Dos8iaNU2NV7RbY=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/HyperLinkPopupBa
+ rEditPolicy$PopupBarLabelHandle.class
+SHA1-Digest: aK2/bpAFLmVUswJUyklIErv4Kpc=
+
+Name: org/eclipse/papyrus/diagram/common/service/AbstractXMLDefinition
+ PaletteFactory.class
+SHA1-Digest: 7eJyrqr6cXUk7z5P6aCCiURjoYM=
+
+Name: org/eclipse/papyrus/diagram/common/helper/ElementHelper.class
+SHA1-Digest: 7tYaBSjhP7tWTqriKdqFO4JOsFU=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/OLDCompartmentFig
+ ure.class
+SHA1-Digest: LLMw8roTz10S80ktxti1oRj9/pw=
+
+Name: icons/Activity.gif
+SHA1-Digest: YFRpR8y8ndCXpE649E0wYuIGLpI=
+
+Name: icons/obj16/IntervalConstraint.gif
+SHA1-Digest: rBMf9xgP0jXiBj2G/VCxknUTzHE=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/NavigationEditPo
+ licy$2.class
+SHA1-Digest: qyEakUY1YAZEPdJ22P+azTu/DaQ=
+
+Name: org/eclipse/papyrus/diagram/common/ids/UMLDiagramEditorIDs.class
+SHA1-Digest: 5VgpT0pMSJMd/g6lH+YUp78ED2s=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$196.class
+SHA1-Digest: dDpA1uCMA+5G1oX4sAxfxDG/2Yw=
+
+Name: icons/local_desc_delete.gif
+SHA1-Digest: ORJe0sG1BDPf20zkd9DI+HUjfk8=
+
+Name: icons/obj16/AddVariableValueAction.gif
+SHA1-Digest: vR0+WGeGMlazQawC09UZI+8H9nQ=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$179.class
+SHA1-Digest: ZJDJy6ifaQr8KlAhKYOKmM9CKIU=
+
+Name: icons/obj16/ProtocolTransition.gif
+SHA1-Digest: vsxqbWHQhiZfao6rfMG2zHpmgIQ=
+
+Name: org/eclipse/papyrus/diagram/common/commands/EmptyAllHyperLinkCom
+ mand.class
+SHA1-Digest: tUshQsmTcCf/7U1PR9nA2mI2atk=
+
+Name: org/eclipse/papyrus/diagram/common/part/PapyrusPaletteEntryState
+ .class
+SHA1-Digest: Gjay031rWiCvNMyuRO3MZaeDs7E=
+
+Name: org/eclipse/papyrus/diagram/common/ui/dialogs/ElementChooseDialo
+ g$2.class
+SHA1-Digest: qVqg4UZb2n6c4cz9b6NjMi6SwXc=
+
+Name: org/eclipse/papyrus/diagram/common/resourceupdate/PartActivation
+ Listener$1.class
+SHA1-Digest: al87WJ3rt0lKCB3cbjeHkAq+fFQ=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/PrimitiveTypeFigu
+ re.class
+SHA1-Digest: H/LJENCVj8tbvQDTZx1SyibD5ow=
+
+Name: org/eclipse/papyrus/diagram/common/Messages.class
+SHA1-Digest: j5cKt3z0nlsMpBJ+1aGYxH4yOCg=
+
+Name: icons/obj16/Include.gif
+SHA1-Digest: Y1nSuUYBX4WJcgybIbHYvJzLcjQ=
+
+Name: org/eclipse/papyrus/diagram/common/providers/DiagramValidationDe
+ coratorProvider$1.class
+SHA1-Digest: LLsNqbilyIl7qWPNQRe1OqPo6KE=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/ExtendedDirectEd
+ itPolicy.class
+SHA1-Digest: jr2Az3olZru8onH6tMPqawbmCpA=
+
+Name: org/eclipse/papyrus/diagram/common/util/Visitor.class
+SHA1-Digest: y3B6eD0lA7zss8whvJ1kbvPhinI=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$3.class
+SHA1-Digest: a8eME0BBjZdDcCeBuKzSqK+Htto=
+
+Name: org/eclipse/papyrus/diagram/common/providers/DiagramValidationMa
+ rkerNavigationProvider.class
+SHA1-Digest: 3Yvn9PAbOtlGK1PCkB5QhQbt2EU=
+
+Name: icons/obj16/CallOperationAction.gif
+SHA1-Digest: 8mlTcnqdlgK45o0SJARwaK+CFDE=
+
+Name: icons/obj16/TimeInterval.gif
+SHA1-Digest: hD9tYl5kRSYPCzrB0DPAVXAouLA=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/DownElement
+ Listener.class
+SHA1-Digest: LvR6uhYAoFUez1bN/r18++IjRZU=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$20.class
+SHA1-Digest: wMtHYale1YoKdSwdUYjMSwHYLL4=
+
+Name: icons/stereotype_display.gif
+SHA1-Digest: zDveg3zlZB6latZpArQISyAK+Ak=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/ShowHideCompartm
+ entEditPolicy.class
+SHA1-Digest: 1m8sy8DHOrP4RpIEM+SJNbatwM4=
+
+Name: icons/paste_edit.gif
+SHA1-Digest: wMU2/pJ0Y+TtS2NlKKKcvTcUFQQ=
+
+Name: org/eclipse/papyrus/diagram/common/providers/UMLComposedAdapterF
+ actory.class
+SHA1-Digest: Sbgm0U8hpuDPH0NXldA6Z7FXYC0=
+
+Name: org/eclipse/papyrus/diagram/common/helper/HyperlinkHelperFactory
+ .class
+SHA1-Digest: bhN4DXTCBYKkV/IDC7udjhIO1gw=
+
+Name: org/eclipse/papyrus/diagram/common/draw2d/ManuallyDrawnShortcutD
+ ecorator.class
+SHA1-Digest: uuaoRt1rW+8tgii/ChTfqvvQgeQ=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/DisplayApplie
+ dStereotypePostAction$2.class
+SHA1-Digest: lcO6gohElIdIararP7os5mioRrw=
+
+Name: org/eclipse/papyrus/diagram/common/actions/FilterViewsLabelsPopu
+ pMenuContributionPolicy.class
+SHA1-Digest: 79j3Wex0PvRoenmoRrOhiTozMRM=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/EditorLookF
+ orDiagram$4.class
+SHA1-Digest: 0afZ9PCIGgxJbrADwexDy/6YNso=
+
+Name: icons/vertical_by_top.gif
+SHA1-Digest: ySw5FR0Ki2Uzu+8fWKZgKp1pr94=
+
+Name: icons/none_comp_vis.gif
+SHA1-Digest: JLxSuKiq+hzSDn6II5YpmvsPOj4=
+
+Name: icons/obj16/TemplateParameterSubstitution.gif
+SHA1-Digest: JqyiGeEh3iXGsGEOROMa0GA8rnA=
+
+Name: org/eclipse/papyrus/diagram/common/part/UmlGmfDiagramEditor$Part
+ NameSynchronizer.class
+SHA1-Digest: eWcomKdrM6R6GCpPhQtYzlmmNms=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/PapyrusReceiveNod
+ eFigure.class
+SHA1-Digest: WcUfjdev1uO+4OHIryXxVgLI9ZE=
+
+Name: org/eclipse/papyrus/diagram/common/commands/CreateBehavioredClas
+ sifierDiagramCommand.class
+SHA1-Digest: icFTZMkhezDpAQcU/r60yb1ROUc=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$31.class
+SHA1-Digest: geJQo6JJW8U6yyK/X9ON6cswprg=
+
+Name: org/eclipse/papyrus/diagram/common/editparts/NodeEditPart.class
+SHA1-Digest: 9h01tD4XXYsV2N4VouCweA4odco=
+
+Name: org/eclipse/papyrus/diagram/common/helper/UMLBaseEditHelper.clas
+ s
+SHA1-Digest: 9H/hFh2VBlrgLHovgnXkfbz7jSM=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/PapyrusCreationE
+ ditPolicy.class
+SHA1-Digest: fu48mQw6mNYFZUWuwDVaMNamaBM=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$14.class
+SHA1-Digest: XsEBRu+tlP3rL4IEl62CZU8nO2o=
+
+Name: icons/tool.gif
+SHA1-Digest: /cDYtgpMpwE6CalF4KLRGKMP6IM=
+
+Name: icons/obj16/Transition_external.gif
+SHA1-Digest: 5pA5UDMpsgIA5m9qaEN1Jcgfsh4=
+
+Name: org/eclipse/papyrus/diagram/common/actions/handlers/UMLClipboard
+ ActionHandler.class
+SHA1-Digest: KxviWtEc/ej2+8KlOkp31GHCeaI=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/ClassifierFigure.
+ class
+SHA1-Digest: zcdtpggf5Q7SxOXOdjyQt9OOgek=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$8.class
+SHA1-Digest: NSxcE68tq63t5DEMWhBJfXEhJaU=
+
+Name: org/eclipse/papyrus/diagram/common/parser/packageimport/PackageI
+ mportVisibilityParser.class
+SHA1-Digest: Ybg2CXWv6uZ7mn0laufwoWdoVF0=
+
+Name: icons/DataType.gif
+SHA1-Digest: H6RyYlPlc6lL+O14DuG6GZ6FtiU=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/ExtendedDirectEd
+ itPolicy$2.class
+SHA1-Digest: wRXhy80xaB1g0efEhc/51teqCuQ=
+
+Name: org/eclipse/papyrus/diagram/common/editparts/AbstractShapeEditPa
+ rt.class
+SHA1-Digest: wvXCspKz4dstx3l1KGXnkugowfo=
+
+Name: icons/help/delete_obj.gif
+SHA1-Digest: ORJe0sG1BDPf20zkd9DI+HUjfk8=
+
+Name: icons/obj16/CombinedFragment.gif
+SHA1-Digest: k/DAt5r0PYp5/G6ekyOIwdCeipM=
+
+Name: org/eclipse/papyrus/diagram/common/parser/CommentParser.class
+SHA1-Digest: BVq5fnp7GPtb1Lkb8McfbFbW674=
+
+Name: org/eclipse/papyrus/diagram/common/helper/AssociationHelper.clas
+ s
+SHA1-Digest: S4+hR1jm9QYC89PT3hJj4mybmr0=
+
+Name: icons/obj16/AssociationClass.gif
+SHA1-Digest: V748pryWyy0c8y1PyCBMSp45baQ=
+
+Name: icons/aligntop.gif
+SHA1-Digest: C0I2l3QchkVOsCGfdE3MXZS3/bM=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$42.class
+SHA1-Digest: cM5EBJd4WQ7UXddev6LSicne4+Q=
+
+Name: icons/obj16/Interaction.gif
+SHA1-Digest: gon29yAaXdpEeJrxQcaIseEd+DE=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$25.class
+SHA1-Digest: 4RFalOdU323kk3kUFXJYvlldu0w=
+
+Name: org/eclipse/papyrus/diagram/common/commands/PreserveAnchorsPosit
+ ionCommand.class
+SHA1-Digest: +RG2wDxxQNyHnjCr+duquq+5oGQ=
+
+Name: org/eclipse/papyrus/diagram/common/util/PathsUtil.class
+SHA1-Digest: 8GpI0SFnbbF0SKdME+bCVHm0D/o=
+
+Name: icons/obj16/ExtensionPoint.gif
+SHA1-Digest: yLu6wVcCgzpiG1YHsTx+E1fg/wA=
+
+Name: org/eclipse/papyrus/diagram/common/helper/LinkMappingHelper$Comm
+ onTargetUMLSwitch.class
+SHA1-Digest: 8aqz5EIzAeyfo/3o3WjaWlxq4Sg=
+
+Name: icons/obj16/OpaqueBehavior.gif
+SHA1-Digest: i+Wua/EKzICdxLvtGxyOvBVKQmQ=
+
+Name: icons/complete_tsk.gif
+SHA1-Digest: Ka6cTIH6PVjzjBFO5FbyHku+EDU=
+
+Name: org/eclipse/papyrus/diagram/common/draw2d/PileLayout$3.class
+SHA1-Digest: QY98xckcWk733VFbKZovey+PBTs=
+
+Name: icons/obj16/Parameter.gif
+SHA1-Digest: H3ET9S1RFHRPuVqCr0XQqiDNfr4=
+
+Name: org/eclipse/papyrus/diagram/common/dialogs/CustomCheckedTreeSele
+ ctionDialog$1.class
+SHA1-Digest: zQ2uPLtJnyMamOxwMk1rxMQ69cQ=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$70.class
+SHA1-Digest: ir8/JqwPRI49RJ3RoyDr79TxClI=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/StereotypePos
+ tAction$RuntimePropertiesDialog$3.class
+SHA1-Digest: 6A+mf50uRDreCTW4xNWJd0FHPog=
+
+Name: icons/obj16/ClassifierTemplateParameter.gif
+SHA1-Digest: hILmg0HjD6Gy3Fnry+KGzOmRtuI=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/HyperLinkMa
+ nagerShell$4.class
+SHA1-Digest: 6aD0dr6bk7Wi3V5uw35QFkvdw+Q=
+
+Name: org/eclipse/papyrus/diagram/common/ids/ReorientLinkIDs.class
+SHA1-Digest: gyQrL0zPpMVsMfTPusCXa5flMCQ=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$53.class
+SHA1-Digest: QaTvNrMGr1KxlOZ77FsXEuchwug=
+
+Name: org/eclipse/papyrus/diagram/common/providers/ValidationProvider.
+ class
+SHA1-Digest: btLRIyklf8GweSgkQ3h0PCTv+18=
+
+Name: org/eclipse/papyrus/diagram/common/providers/DiagramValidationPr
+ ovider.class
+SHA1-Digest: 5cYMNhNZpXXsEHuTiKqUd/BlFBE=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/HyperLinkTa
+ b.class
+SHA1-Digest: F6ETm7VSmmQI1Cytt3nPMZHV6FI=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/HTMLCommentParser
+ .class
+SHA1-Digest: 67HqJmJSNJ3Wt/GNHz9REqMsu0E=
+
+Name: org/eclipse/papyrus/diagram/common/service/InheritedDecorator.cl
+ ass
+SHA1-Digest: AoZWYtXrI+w0cjUiHNMFcgXxPow=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$36.class
+SHA1-Digest: RQTPzjua1Qux9XLW4odfk4YPgIs=
+
+Name: org/eclipse/papyrus/diagram/common/part/CachedResourcesEditorInp
+ ut.class
+SHA1-Digest: 1bSkOqwNKmd2tOfnHqPi5orAw4g=
+
+Name: org/eclipse/papyrus/diagram/common/service/PapyrusPaletteService
+ .class
+SHA1-Digest: P63CNhYkcC3mgdNXbhZ5nLeMJao=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$100.class
+SHA1-Digest: 8C1ZOaPU3C+bD9uPhqZPVPZEOik=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$19.class
+SHA1-Digest: VwGKk+4G7IiHInoeCANcjZ6LFZc=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/EditorHyper
+ linkDiagramShell$2.class
+SHA1-Digest: p5GHoTVZF9gc0BEJR2IX4p8AwGw=
+
+Name: org/eclipse/papyrus/diagram/common/figure/edge/GeneralizationFig
+ ure.class
+SHA1-Digest: MjMQoRQCL73mXMK/s0FKOmHlu9A=
+
+Name: org/eclipse/papyrus/diagram/common/parser/assist/EObjectCompleti
+ onProcessor.class
+SHA1-Digest: Thfc6CxxKnGWXJtHrLfuAVPK3Yg=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/ShowViewEditPoli
+ cy$1.class
+SHA1-Digest: wsL+d3ws2CvWNwe5BD9eI83YH6w=
+
+Name: org/eclipse/papyrus/diagram/common/dialogs/SelectModelElementsFo
+ rDiagramDialog$2.class
+SHA1-Digest: hYVHcGTpCnwzCHhBe9tWht49y7A=
+
+Name: org/eclipse/papyrus/diagram/common/commands/ShowHideLabelsReques
+ t.class
+SHA1-Digest: zIhUhp2HxLfV+aO/mDtwK1+QAoQ=
+
+Name: org/eclipse/papyrus/diagram/common/part/PapyrusPaletteCustomizer
+ $PapyrusDefaultEntryPage.class
+SHA1-Digest: lty2rJ+ntCO/be9w4TfAORvJ9t4=
+
+Name: icons/obj16/Package.gif
+SHA1-Digest: nzrzEL1bM5za+HnXMhlnMxAGMXI=
+
+Name: org/eclipse/papyrus/diagram/common/helper/CleanDiagramHelper$1.c
+ lass
+SHA1-Digest: jWKxCQVkJrArOh/7YHM2o6PdtzE=
+
+Name: icons/obj16/OpaqueAction.gif
+SHA1-Digest: gz6KMoQ5uGsvPk0o7c1USmwQdoM=
+
+Name: org/eclipse/papyrus/diagram/common/ui/helper/HelpDialog.class
+SHA1-Digest: ablbgUBahzCus2GTuJ44VQJgUZQ=
+
+Name: org/eclipse/papyrus/diagram/common/actions/ValidationAction$2.cl
+ ass
+SHA1-Digest: yflGcTd7dQ+F/thGXoUy9pwQnp4=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/AbstractAspec
+ tActionProvider.class
+SHA1-Digest: B127VD3zzQ3UPRtXPBkwyp3lhhE=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$81.class
+SHA1-Digest: V9b4fgP7fWHZ6T9+CqQ8wCCnOWM=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AbstractActionState
+ SourceProvider$PartListener.class
+SHA1-Digest: yv28eiD79J8sE6VW3LIVq7/hVxg=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/AspectActionF
+ actoryRegistry.class
+SHA1-Digest: Ri2Qlizvoc/OSx1hlGkg03p/0bs=
+
+Name: icons/obj16/Reception.gif
+SHA1-Digest: FH8uhD+7/D3p/rlbe4a85/9Gzig=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$64.class
+SHA1-Digest: bOGYjQ8PA1oipcUY0FwOa4jWqfQ=
+
+Name: org/eclipse/papyrus/diagram/common/actions/handlers/ClipboardAct
+ ionHandlerProvider$1.class
+SHA1-Digest: aIARCjrCTguzutC4EPip9Lm06Wg=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/CustomAdapt
+ erFactoryContentProvider.class
+SHA1-Digest: OV2/jbeYYGwlxwS3DbBu71op+X4=
+
+Name: org/eclipse/papyrus/diagram/common/ui/helper/HelpDialog$1.class
+SHA1-Digest: 83h5iOJaL27zPIuBjN3cQWk+xm8=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$47.class
+SHA1-Digest: wmM9taOmAxJl7eQSJ9jeHRetEd0=
+
+Name: icons/obj16/Interval.gif
+SHA1-Digest: +n9b/70i8edDAnHpwDHv0W2930g=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/DefaultHype
+ rLinkTab$3.class
+SHA1-Digest: +/q3+J098D0yZ42UfJEjMwfKdkQ=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$111.class
+SHA1-Digest: 4VRzv0Aa67iPcUWr2Yp3kFr1nm8=
+
+Name: org/eclipse/papyrus/diagram/common/providers/ModelTypesProviderF
+ actory.class
+SHA1-Digest: ftrJMdosFazj4Jfn7/aNXg3BppM=
+
+Name: icons/obj16/ConnectorEnd.gif
+SHA1-Digest: f3kuqs/0+O2vEWF6u/lpe1qa2/w=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/ContainerFigure.c
+ lass
+SHA1-Digest: xJPLCWE+fTGmkIVB2Fx/AruJ7Tw=
+
+Name: org/eclipse/papyrus/diagram/common/commands/SupplementCommand.cl
+ ass
+SHA1-Digest: gLSJQE3W+N3S12xx765ZTkO94bk=
+
+Name: icons/obj16/ArrowDown_16x16.gif
+SHA1-Digest: RQXpLCwGwO2SKbD5h5J894Eotis=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/AssociationEn
+ dPostAction$PropertyEndComposite.class
+SHA1-Digest: Dn1UJAMFtMWP8db+b5D9l7+kc5g=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$92.class
+SHA1-Digest: MQ/n0wpcaFIOKsL29CffJyjXA8U=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/EditorHyper
+ linkDocumentShell$1.class
+SHA1-Digest: IkCN7JEHajfUkUrDzYXyL3F0X9U=
+
+Name: org/eclipse/papyrus/diagram/common/actions/handlers/AbstractShow
+ HideHandler.class
+SHA1-Digest: JWtWV9lSWOaYCdikPNTYbpDbPSA=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/CustomContainerE
+ ditPolicy.class
+SHA1-Digest: mvNfj+NIsv6eozFz3UwEQz0zTmI=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$75.class
+SHA1-Digest: UPhZSf2Mo+1yD3IXVxKjtc1pz2Q=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/AbstractMaskMana
+ gedEditPolicy.class
+SHA1-Digest: 9hf1wIXr5OqnX7KgC0CVjCevr5g=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/ShowHideLabelEdi
+ tPolicy.class
+SHA1-Digest: XSo6y4emXcq6lz/uYOHxDWoG+Jg=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$58.class
+SHA1-Digest: KMGvzpyyhuWO+sQByav3NChUKgo=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/AssociationEn
+ dPostAction$PropertyEndComposite$1.class
+SHA1-Digest: goSoi0ulhW9fvkI/+RrMu2gqIN8=
+
+Name: icons/obj16/ProfileApplication.gif
+SHA1-Digest: nvnfxxy7uovrT0TsVTBt5iW6VTs=
+
+Name: icons/obj16/EnumerationLiteral.gif
+SHA1-Digest: stVIrRb8Nu3u8Mu5MDnRhvzADOk=
+
+Name: org/eclipse/papyrus/diagram/common/draw2d/CenterLayout.class
+SHA1-Digest: rEywqstCSuoct2PYzQBG5AcTCMg=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$122.class
+SHA1-Digest: uu4zAKb1rHx8i/GbJyuossVThh8=
+
+Name: org/eclipse/papyrus/diagram/common/part/CachedResourcesDiagramEd
+ itor.class
+SHA1-Digest: zYo2Oicx8y1rJvIxBgeVi1U6FHs=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/StereotypePos
+ tAction$RuntimeLabelProvider.class
+SHA1-Digest: dhIUhOLictGHzjJFWIGOKWnwuy8=
+
+Name: icons/obj16/eraser.gif
+SHA1-Digest: +t8/f2vNMeMGz3NcpdPCXlgSjzQ=
+
+Name: icons/obj16/Message_asynchSignal.gif
+SHA1-Digest: hkyJrzGw8i4W8Pxmfh6ds2Fb0vE=
+
+Name: org/eclipse/papyrus/diagram/common/util/DiagramTester.class
+SHA1-Digest: Q7N0MGmZ2sT+W4JNeYDAtrnWcq4=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$105.class
+SHA1-Digest: 3xP9rxX/C4fzMmq/WAbnw4vGX1s=
+
+Name: org/eclipse/papyrus/diagram/common/actions/handlers/ClipboardAct
+ ionHandler$2.class
+SHA1-Digest: 8McmhO+W3IUKZNqjI9aph2cqH9M=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/DeleteOnlyViewCo
+ mponentEditPolicy.class
+SHA1-Digest: BRJTIqoFyLVv5JiU4ruW+8fQ7a8=
+
+Name: org/eclipse/papyrus/diagram/common/service/PapyrusPaletteService
+ $1.class
+SHA1-Digest: qp7mfMQ0Qd4lB0tUihTdrz8zXYc=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AbstractActionState
+ SourceProvider$2.class
+SHA1-Digest: W7O3xvWj/Fq3DtNym5nqOFq4rXQ=
+
+Name: icons/obj16/ExceptionHandler.gif
+SHA1-Digest: IsT3HkDNz1qdEk2tMphuiioSKSE=
+
+Name: icons/help/help_contents-1.gif
+SHA1-Digest: GDhay4oMkYB95ewy0R5RkMLttF8=
+
+Name: org/eclipse/papyrus/diagram/common/part/CachedResourcesDocumentP
+ rovider$CachedResourceSetInfo$SynchronizerDelegate$3.class
+SHA1-Digest: a5byjOsGvnUeTawQVsudMiC11DQ=
+
+Name: icons/obj16/Generalization.gif
+SHA1-Digest: DQp/nAyasQrCy0bd83ZCTBt2AL4=
+
+Name: org/eclipse/papyrus/diagram/common/sheet/ReferencePropertyDescri
+ ptor$1.class
+SHA1-Digest: hgmjXgXcVNznE7Gf62SnhDPzmbA=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$86.class
+SHA1-Digest: WBnQA4j1vgzL/OQ27jX06t2INQQ=
+
+Name: org/eclipse/papyrus/diagram/common/parser/HTMLCleaner.class
+SHA1-Digest: mCQbT6FqM0LJNzXviSYJ7vEfM6o=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$150.class
+SHA1-Digest: nwlJgq1UqPgOQTjLPUbUeuMGUeY=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$69.class
+SHA1-Digest: vBhehJkpFEumduMo2NFQOHCjyfI=
+
+Name: org/eclipse/papyrus/diagram/common/util/IObjectWithContributorId
+ .class
+SHA1-Digest: OoBsGl2/vfNkv5ijOVNufxDoHk8=
+
+Name: org/eclipse/papyrus/diagram/common/draw2d/OneLineDashedBorder.cl
+ ass
+SHA1-Digest: 7AmjYlv5VJIJxnhv4UR0b+QXg2A=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/AppliedStereotyp
+ eLinkLabelDisplayEditPolicy.class
+SHA1-Digest: 7FO1a960pFOEcDOenAgcQWfd+FA=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$133.class
+SHA1-Digest: 21rXUD63RtOXNCuRFgM1WPlqy8I=
+
+Name: icons/obj16/CommunicationPath.gif
+SHA1-Digest: yEpCQc/fztkqBMi+q5rEfc/PYOI=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$116.class
+SHA1-Digest: zcXSZsnWo1fwQJVSO2Sa/eosQMU=
+
+Name: icons/obj16/Message_deleteMessage.gif
+SHA1-Digest: Nd8hJqVN/a45riNaPdecxs+goWM=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/AspectToolSer
+ vice$ProviderDescriptor.class
+SHA1-Digest: vH8sW/YaFvkNKhHS6hoPs3Bctek=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/DefinedProper
+ tiesAtRuntimeDialog$2.class
+SHA1-Digest: pzlAtn9uDRRS0msj7Gkcr26aesM=
+
+Name: icons/help/help_contents.gif
+SHA1-Digest: 4Sg1i6nuDO42kWFv6i1jeOcfNJE=
+
+Name: icons/obj16/ConditionalNode.gif
+SHA1-Digest: shXqZy1m+Lp0E6o+xHlw6u6qhmU=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/ExtendedDirectEd
+ itPolicy$TextCellEditorLocator.class
+SHA1-Digest: 1A6+a2NowSBf7okz2y+Uyfuagbw=
+
+Name: icons/aligncenter.gif
+SHA1-Digest: 6e7+rpHMUyd94QqFUmNPBebV/k4=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$97.class
+SHA1-Digest: 1lxfSG8PpsRVAA/6CzWEPDJCPcQ=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/HyperLinkWe
+ b.class
+SHA1-Digest: y0cnFpJqFjv0OhPSlhajjJuhNI4=
+
+Name: icons/obj16/StructuredActivityNode.gif
+SHA1-Digest: ARjOTaHqce9rppe7IjN58XvrPa8=
+
+Name: icons/obj16/OccurrenceSpecification.gif
+SHA1-Digest: O5l16U94nRioimSY0yxmKlwHCsY=
+
+Name: icons/obj16/Message_reply.gif
+SHA1-Digest: Ywksc9Q3r5vCwipeEMWpbP6SRIc=
+
+Name: icons/obj16/Message_createMessage.gif
+SHA1-Digest: ch21wSCa9EPKfyl3GG5+sGhlj1E=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$161.class
+SHA1-Digest: +8viVHtHyIJbmlqZjYxfVCx1EMw=
+
+Name: icons/obj16/Trigger.gif
+SHA1-Digest: s4NnnDkdjUPALiGvyKaw4jaDcts=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$144.class
+SHA1-Digest: 0J63Oh+a866lwLjJ9TiXs25Ncc0=
+
+Name: icons/Enumeration.gif
+SHA1-Digest: 4XlgKbbMUmmc37H3/3uOQikI0C0=
+
+Name: org/eclipse/papyrus/diagram/common/command/wrappers/EMFtoGMFComm
+ andWrapper.class
+SHA1-Digest: kYqHWyUUJjR02BROmdU22LC9B8I=
+
+Name: icons/obj16/ArrowRight_16x16.gif
+SHA1-Digest: SUSocWQGQBuR4g6KB7Ttf3f3Kss=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$127.class
+SHA1-Digest: O21SdEjUipJN/KzVHsUo7N0zQZ8=
+
+Name: icons/obj16/ReplyAction.gif
+SHA1-Digest: TH5q22gbXwmBGeCIs6DNoUueNJ8=
+
+Name: org/eclipse/papyrus/diagram/common/util/MessageDirection.class
+SHA1-Digest: 0WI6hXe6xXeqCknChWzxpgYbMZs=
+
+Name: org/eclipse/papyrus/diagram/common/providers/BaseViewInfo.class
+SHA1-Digest: ssPWj334D6lH4o53iRomjeGX6KA=
+
+Name: org/eclipse/papyrus/diagram/common/ui/helper/HelpComponentFactor
+ y.class
+SHA1-Digest: innWZD0cgTleZgUBzc/7NnBfXNo=
+
+Name: icons/stereotype.gif
+SHA1-Digest: bUkbSqAYwbqh7DD7QWbn6B3VfZI=
+
+Name: icons/LiteralString.gif
+SHA1-Digest: mTnjiHa4CKQZMgV+453++qLeAfM=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$172.class
+SHA1-Digest: i0VyMgI3R7nrODtD6eP8NELkcIE=
+
+Name: icons/obj16/Delete_16x16.gif
+SHA1-Digest: ORJe0sG1BDPf20zkd9DI+HUjfk8=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$155.class
+SHA1-Digest: kDF4IHJQ8BoJKw+rg22SGTUVChk=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/EditorHyper
+ linkWebShell$2.class
+SHA1-Digest: ijTelYldNy1PocaqawBwjK10CYQ=
+
+Name: icons/obj16/Image.gif
+SHA1-Digest: d3AaZ35fG43f+eJYpJDVIPId8Ek=
+
+Name: icons/obj16/InstanceValue.gif
+SHA1-Digest: 9VsPxlHpJXhMbIta/0SZ55w4G8E=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/AdvancedHLM
+ anager.class
+SHA1-Digest: i4CYmOuYAJPWq2NDuXCGEyFElyU=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$138.class
+SHA1-Digest: sLbIsPg/m9SJioAXrM71s578wLA=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/StereotypePos
+ tAction$4.class
+SHA1-Digest: GOmuDePBmSDDmNeuLpPERVwZE+k=
+
+Name: org/eclipse/papyrus/diagram/common/parser/custom/OnlyStereotypes
+ NamesParser$ParserEditStatusimpl.class
+SHA1-Digest: 7/+yvFS7ye7N0dmdsaV35LHN8y8=
+
+Name: org/eclipse/papyrus/diagram/common/editparts/ILabelRoleProvider.
+ class
+SHA1-Digest: h2el6BtcSWS60NPZ2pZ/mcaXY2I=
+
+Name: org/eclipse/papyrus/diagram/common/editparts/PapyrusStereotypeLi
+ stener.class
+SHA1-Digest: k9mZXraXrHIMsINcCCPY4WOU3s0=
+
+Name: icons/drawers_shown.gifold
+SHA1-Digest: 8mtHaZFrt+wBoBPXP2ZMlcYe5xU=
+
+Name: org/eclipse/papyrus/diagram/common/part/CachedResourcesDocumentP
+ rovider$CachedResourceSetInfo.class
+SHA1-Digest: /land+Jv14WLJzhqJfJM45H6xlw=
+
+Name: org/eclipse/papyrus/diagram/common/directedit/TextFlowCellEditor
+ Locator.class
+SHA1-Digest: AzJP8RWyfHj2OPgp0Sc0kobrfJE=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/GraphicalPost
+ Action$1.class
+SHA1-Digest: ORi7nwkIrzwdAMAyMKFhwLKgpvo=
+
+Name: custom-messages.properties
+SHA1-Digest: fQgy5e2xVrjaciZv8qVwLrxyvZI=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/SemanticAspec
+ tActionProvider.class
+SHA1-Digest: 9Kfj+3eYGORz7qpa/Ge2jQXflWA=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/IPapyrusNodeFigur
+ e.class
+SHA1-Digest: eCYjqrL3QrY9uJPv5eR2ya6GOXU=
+
+Name: org/eclipse/papyrus/diagram/common/editparts/PrimaryShapeEditPar
+ t.class
+SHA1-Digest: 5UrRDj8+v46QrtmT3QrbDIYcSxM=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/ShortCutDiagramE
+ ditPolicy$OpenDiagramCommand.class
+SHA1-Digest: MGQGzx9UiGNo69PuAomXaUs5khY=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$183.class
+SHA1-Digest: Eplg/7ArKFpdPpkKr6DR2NRRgLY=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$166.class
+SHA1-Digest: w9Pxd+0w0+3w3FurBbjgcGnByYo=
+
+Name: org/eclipse/papyrus/diagram/common/providers/ActionStateSourcePr
+ ovider.class
+SHA1-Digest: Say9ZysUKtkssl+DlkUrZ7e/0pY=
+
+Name: icons/obj16/CreateLinkAction.gif
+SHA1-Digest: AghkwMcrDo1rxrq6f3J6TmZa6zs=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/AbstractEdi
+ tHyperlinkDocumentShell.class
+SHA1-Digest: IqFojuCJ/HlzpUekmTtddDAiBdU=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$149.class
+SHA1-Digest: Bvz/NBU6zpd06lafohzhSpXRELo=
+
+Name: org/eclipse/papyrus/diagram/common/providers/DiagramValidationDe
+ coratorProvider$1$1.class
+SHA1-Digest: R0CGh/bXS6890wS2bEbyiwD5w3U=
+
+Name: org/eclipse/papyrus/diagram/common/layout/EditPartTree.class
+SHA1-Digest: ZLuykR4DmmJwh7b6OZE86EwL5Ww=
+
+Name: icons/obj16/CreateObjectAction.gif
+SHA1-Digest: CGvWDi7j5FsydGFjPdVibsMS15g=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/SignalFigure.clas
+ s
+SHA1-Digest: yWQaCbe9z8tD8RV0cfSm5XvHOx8=
+
+Name: org/eclipse/papyrus/diagram/common/providers/DiagramValidationDe
+ coratorProvider$StatusDecorator.class
+SHA1-Digest: +l8kzzYGswWfBB0CxlZld4JCCcc=
+
+Name: org/eclipse/papyrus/diagram/common/layout/SameAlignment.class
+SHA1-Digest: kt0VLRqjqN4RXRv0SqpUWWRothQ=
+
+Name: org/eclipse/papyrus/diagram/common/providers/MOSKittEditorFactor
+ yRegistry.class
+SHA1-Digest: bUNqDeO/2GyZ+tTWPXh+t45li8k=
+
+Name: icons/obj16/State.gif
+SHA1-Digest: i2YEiVlP74IxRKMS9ItmEnMmqko=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$194.class
+SHA1-Digest: Qe9KRxpdj/aMGj3iHsAg7S2qfv0=
+
+Name: org/eclipse/papyrus/diagram/common/editparts/UMLConnectionNodeEd
+ itPart.class
+SHA1-Digest: DL55ldhYFPUcI8Llr1ad2Ks6QsQ=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$177.class
+SHA1-Digest: qk8c/Baf1FKZ4OY6d6r/qcUsn3E=
+
+Name: org/eclipse/papyrus/diagram/common/providers/RootViewInfo.class
+SHA1-Digest: Qgp6Qoqnwa/HFygADGyirbv5wTs=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/StereotypePos
+ tAction$9.class
+SHA1-Digest: vppxKJRSo6Ld28YmIURrVD3XL4M=
+
+Name: org/eclipse/papyrus/diagram/common/parser/lookup/LookupSuite$2.c
+ lass
+SHA1-Digest: PyPzPze0oecVkrtYu7Zaw+6GQwI=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/PackageFigure.cla
+ ss
+SHA1-Digest: YbXSIuYSxFV9dDanGAonS477C3s=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/StereotypePos
+ tAction$2$1.class
+SHA1-Digest: eqoyGHbsO9WQ+o8Td0f2vA0MEms=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/AppliedStereotyp
+ eInformationFlowLabelDisplayEditPolicy.class
+SHA1-Digest: f2F+LXmHG2kDlSjrIbPJu1ugUL4=
+
+Name: icons/warning.gif
+SHA1-Digest: ephugAqnGSA1Bn2gdY4602d9uxw=
+
+Name: icons/switch_provider.gif
+SHA1-Digest: BtNHLBdOBOrkuqR5QGDMR1yYOPU=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/DisplayApplie
+ dStereotypePostAction$StereotypeToDisplayEditingSupport.class
+SHA1-Digest: 7HIRKDRyREr3psZQu9ySug+EBcE=
+
+Name: icons/obj16/Pseudostate_terminate.gif
+SHA1-Digest: Wnxi4V1Yo77RLopDoGBgKX+dAqI=
+
+Name: icons/fantomContents.gif
+SHA1-Digest: Rf8InfYXuW7W2e2UzmwDhDuidKI=
+
+Name: icons/separator.gif
+SHA1-Digest: l+rWncEcySSnAJKwblPaMrihzcw=
+
+Name: org/eclipse/papyrus/diagram/common/part/CachedResourcesDocumentP
+ rovider$1.class
+SHA1-Digest: OKfFQ2rQApNtt205STSghYGyK9M=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$1.class
+SHA1-Digest: 37rUmQQOMoNL9wRtQGbiHl3FoMY=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$188.class
+SHA1-Digest: VCRkOjz4Gq97837OXCuti2rohxI=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/ChangeStereot
+ ypeDisplayPostAction$4.class
+SHA1-Digest: WoDZMyh8g2UDJ2PDMVYrv8CclcU=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/UMLBaseItemSeman
+ ticEditPolicy.class
+SHA1-Digest: sz4yBK8CVdMJBx4TfSo/8jPAguM=
+
+Name: icons/obj16/PrimitiveType.gif
+SHA1-Digest: UzOnGv29TluBJLx/cFa1uyeU9vI=
+
+Name: messages.properties
+SHA1-Digest: KexIYlXbckx70O70P66G7zQrsho=
+
+Name: icons/obj16/RemoveVariableValueAction.gif
+SHA1-Digest: FaOplma5BrzlIxQLu4MYsSWEMQI=
+
+Name: icons/delete.gif
+SHA1-Digest: ORJe0sG1BDPf20zkd9DI+HUjfk8=
+
+Name: org/eclipse/papyrus/diagram/common/helper/AbstractHyperLinkHelpe
+ r.class
+SHA1-Digest: sgaqIBQ3XAFd6yQ+qPnRgngwNVQ=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/HTMLCornerBentBod
+ yFigure.class
+SHA1-Digest: 9IdPfuJB7DNpmmucHGFuukIsRJU=
+
+Name: icons/obj16/LinkEndDestructionData.gif
+SHA1-Digest: I4app29lC4ucz1+TCKDX1qX4ElA=
+
+Name: org/eclipse/papyrus/diagram/common/part/UMLElementChooserDialog$
+ ModelElementsTreeLabelProvider.class
+SHA1-Digest: qEfKirH0+E40XUsFYBnE/nQGi4U=
+
+Name: icons/obj16/call.gif
+SHA1-Digest: Y7P7/QbA84lNzkIapCIT+z34CxI=
+
+Name: org/eclipse/papyrus/diagram/common/figure/edge/UMLEdgeFigure.cla
+ ss
+SHA1-Digest: UlvPsbi9ZtaN5b9BCbUBVScWuGI=
+
+Name: org/eclipse/papyrus/diagram/common/directedit/MultilineLabelDire
+ ctEditManager.class
+SHA1-Digest: K0NvjhZG7wiExJcrLMGcegqetA4=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/ChangeStereot
+ ypeDisplayPostAction$1$1$1.class
+SHA1-Digest: IzmLTrEOKo0TS8zc9KMu80V3p+Y=
+
+Name: org/eclipse/papyrus/diagram/common/actions/LabelHelper.class
+SHA1-Digest: KgOHv+nJK753t0qg7D1pMPVXWxk=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/ChangeStereotype
+ dShapeEditPolicy.class
+SHA1-Digest: YbUfG/z1pE21gR9Gg8Ydaa/fkiA=
+
+Name: icons/obj16/ActionInputPin.gif
+SHA1-Digest: D+iAHX4aeICWBVZiWAbUCLEP60I=
+
+Name: org/eclipse/papyrus/diagram/common/figure/edge/DashedEdgeFigure.
+ class
+SHA1-Digest: Rca4OUHcKCxo/lSN6/cSpxoFs3A=
+
+Name: org/eclipse/papyrus/diagram/common/parser/assist/FixedSetComplet
+ ionProcessor.class
+SHA1-Digest: 8C8xed0w2vYsVTUFlqiiJGecNNo=
+
+Name: icons/alignright.gif
+SHA1-Digest: ha7I4OBquG2lDmlnuX/m3L1E66c=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/DefinedProper
+ tiesAtRuntimeDialog.class
+SHA1-Digest: yw8gZcJn9U8D09+zNIJ68GGYywM=
+
+Name: icons/obj16/Gate.gif
+SHA1-Digest: g9cyDTPPad4W1XSEPAW8H47N6jE=
+
+Name: org/eclipse/papyrus/diagram/common/dialogs/CustomCheckedTreeSele
+ ctionDialog.class
+SHA1-Digest: JjVj+R498/TqE/t/anpU8KJYKhM=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/CenteredWrappedLa
+ bel.class
+SHA1-Digest: yr75Y1sL49DOJG3CNram4XCiUXU=
+
+Name: org/eclipse/papyrus/diagram/common/service/ApplyStereotypeReques
+ t.class
+SHA1-Digest: eUaFxIEiMXBZSpLktWSwoDdJVTE=
+
+Name: org/eclipse/papyrus/diagram/common/ui/dialogs/ComboInputDialog.c
+ lass
+SHA1-Digest: E82t0RSg+e0ytpFwpdWIEhxqGLg=
+
+Name: icons/obj16/Property.gif
+SHA1-Digest: tkutZ6OGa7t+eJfCkSBDMLReiRs=
+
+Name: icons/obj16/Pseudostate_exitPoint.gif
+SHA1-Digest: LsV7FcyixqOxo+8Fi/5e36s9cAI=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/EditorLookF
+ orDiagram$2.class
+SHA1-Digest: +7Y3IWEVZ3uNN6zH2B0yJkD7L4M=
+
+Name: icons/obj16/Connector_delegation.gif
+SHA1-Digest: 1GZhMj15XBSrtovHyf647FQ0LzY=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/LocalDefaul
+ tLinkDiagramTab$NavigableGroupKey.class
+SHA1-Digest: VZoE6vZ8K2yNrK98L3HWe3y8zas=
+
+Name: org/eclipse/papyrus/diagram/common/ids/MOSKittEditorIDs.class
+SHA1-Digest: Bmo4OOlIgPeAdUDn2OjOL6Q+EKU=
+
+Name: icons/Interface.gif
+SHA1-Digest: rsSv0RkoIz56KH+O96S5zImA0Hg=
+
+Name: icons/horizontal_by_left.gif
+SHA1-Digest: Gj7Nb9eQVfIPwr9AIM0lja2by2g=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/ManualCompartment
+ LayoutManager.class
+SHA1-Digest: 0rN13jzl+mHZRirzneqZYfLRETI=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$12.class
+SHA1-Digest: xO7vaAO3NmKzS4rFYwX8zOXhd+M=
+
+Name: org/eclipse/papyrus/diagram/common/dialogs/SelectDiagramViewsFil
+ terDialog.class
+SHA1-Digest: BKtmDMw3uyZWzv8AGxnBEYPpx0c=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/FinalNode.class
+SHA1-Digest: Ca66aTZ1P8Jk+f24mMEMSAR7zEE=
+
+Name: org/eclipse/papyrus/diagram/common/actions/ValidationAction.clas
+ s
+SHA1-Digest: bpv3a+S0p6po6WQMKWX2yTJchD0=
+
+Name: icons/obj16/Pseudostate_entryPoint.gif
+SHA1-Digest: 67T+zB/O7GygmRDMzwhtPJE1FXg=
+
+Name: org/eclipse/papyrus/diagram/common/editparts/BorderNodeEditPart.
+ class
+SHA1-Digest: EE5x9d4DmG/hIuQIrFNysxkZ56w=
+
+Name: icons/obj16/RedefinableTemplateSignature.gif
+SHA1-Digest: zQNL8mUWGH7wU7hQH1Qd2iIbhEc=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$6.class
+SHA1-Digest: SuanSXFORFUtXZbzubXQXSt5SFM=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/ConstrainedItemB
+ orderLayoutEditPolicy.class
+SHA1-Digest: Yz7LJS7esWyHvYZIT611yi2L8Es=
+
+Name: icons/horizontal_by_right.gif
+SHA1-Digest: KzXIf8ZYR2c5traxyu8+vfb/zTw=
+
+Name: org/eclipse/papyrus/diagram/common/directedit/LabelDirectEditMan
+ ager.class
+SHA1-Digest: dTsRUqybjZwPBYe9hj4X1hHkzcU=
+
+Name: icons/obj16/StateMachine.gif
+SHA1-Digest: C5ub0OmmzxDbUiSRfKvmnKkAiuU=
+
+Name: org/eclipse/papyrus/diagram/common/helper/InteractionFragmentHel
+ per.class
+SHA1-Digest: dQuJU41OA5yC3w84PsgalH5BKiA=
+
+Name: icons/obj16/ParameterSet.gif
+SHA1-Digest: iPfpDYKGCjnnEk46SPwMUrFyQpY=
+
+Name: icons/obj16/ArrowLeft_16x16.gif
+SHA1-Digest: qx89HZcOfCNP8URrsbXsnJSbNro=
+
+Name: icons/obj16/SendObjectAction.gif
+SHA1-Digest: 261t9dsBDVrUB6yaZz6Ufjt8Sv4=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$40.class
+SHA1-Digest: PZSlpCe0pZTEW83LDjgQ741hPY0=
+
+Name: icons/drawer.gif
+SHA1-Digest: 5TF7ftfUsp4Z3KdTaSlgyQoFpuk=
+
+Name: icons/obj16/Transition_local.gif
+SHA1-Digest: q2LtXPC45euySch06T+ElVTORag=
+
+Name: org/eclipse/papyrus/diagram/common/parser/custom/AssociationMult
+ iplicityParser.class
+SHA1-Digest: VjITsfklUfB2wFEdQ2ZKoK0U9R4=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$23.class
+SHA1-Digest: j/JsXBl8IBC0LWxXcFHqTUB/zhI=
+
+Name: org/eclipse/papyrus/diagram/common/commands/EObjectInheritanceCo
+ pyCommand$CustomSetCommand.class
+SHA1-Digest: BPYnu31kjkQ1KCd6aoV63tVeFl4=
+
+Name: icons/obj16/Parameter_return.gif
+SHA1-Digest: ij4aJoxjetPk4JRYotIf8d5RvR8=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/AssociationEn
+ dPostAction$PropertyEndConfiguration.class
+SHA1-Digest: rY25GkEoFMuHs9HHQZYmFIGDh2E=
+
+Name: icons/obj16/ConnectableElementTemplateParameter.gif
+SHA1-Digest: Cf5wukOxLnq/xwpRuvrD8GLQRDY=
+
+Name: org/eclipse/papyrus/diagram/common/directedit/MultiLineCellEdito
+ r.class
+SHA1-Digest: LbTffuPHtCbEZbAPHbJqAF+jwso=
+
+Name: org/eclipse/papyrus/diagram/common/service/AspectUnspecifiedType
+ ConnectionTool$CreateAspectUnspecifiedTypeConnectionRequest.class
+SHA1-Digest: Q29ouTtT2abAkypNcs4YQcTppTE=
+
+Name: org/eclipse/papyrus/diagram/common/locator/AdvancedBorderItemLoc
+ ator.class
+SHA1-Digest: thrgjzZi03uM6ch/YGy1HvpfxA0=
+
+Name: org/eclipse/papyrus/diagram/common/service/XMLRequiredProfileFac
+ tory.class
+SHA1-Digest: POVal/XAzBszz13UE+Z73AGKnJs=
+
+Name: icons/obj16/Activity.gif
+SHA1-Digest: L+gD2ywuB8BUqyee8UIUF3L1F2M=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/ApplyStereotypeE
+ ditPolicy.class
+SHA1-Digest: JTrCU1hGX0JdAsMtF8Sd9PoKASY=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/HyperLinkLa
+ belProvider.class
+SHA1-Digest: gXPNAkrq8gu/Y/XNmwzSveq6cQE=
+
+Name: org/eclipse/papyrus/diagram/common/draw2d/PileLayout$1.class
+SHA1-Digest: KY9mJHerWbCwQWPPqdd81/OB1FM=
+
+Name: org/eclipse/papyrus/diagram/common/locator/TemplateClassifierBor
+ derItemLocator.class
+SHA1-Digest: KquThwjiWWEQuwg35uEKZzV+kzA=
+
+Name: icons/obj16/ReadLinkObjectEndQualifierAction.gif
+SHA1-Digest: RkhRDEy2AmgD9pEMvaNDCrelq64=
+
+Name: icons/obj16/Duration.gif
+SHA1-Digest: rIR3lYD4A3E0WdhikAMgCGJU95o=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/GraphicalAspe
+ ctActionProvider.class
+SHA1-Digest: xYn/Lb/MAPiumQZafJdpcDyiRsQ=
+
+Name: org/eclipse/papyrus/diagram/common/providers/DiagramValidationDe
+ coratorProvider$MarkerObserver.class
+SHA1-Digest: aXhbddnm/YR3qi5Mh7dF73exT3o=
+
+Name: icons/obj16/Connector_assembly.gif
+SHA1-Digest: 4SSvGnN5FoZ6Gt9MBUlptAPQ1Y0=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/StereotypePos
+ tAction$RuntimePropertiesDialog$1.class
+SHA1-Digest: 6qR1UpMvRflAlR4Woi403KdA/5I=
+
+Name: icons/obj16/StartClassifierBehaviorAction.gif
+SHA1-Digest: h0o57p29hLI8hh1VkhG44i8wfA0=
+
+Name: icons/obj16/SendOperationEvent.gif
+SHA1-Digest: ohPtKuzrOaN1iPWZYK0VznW19k8=
+
+Name: icons/obj16/ControlFlow.gif
+SHA1-Digest: FqVho0w73GhOlZZ8fH/mPPJjsvU=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/EditorLookF
+ orDiagram$7.class
+SHA1-Digest: Qnxwt7Dt3leU57sFjb9O+64i7ic=
+
+Name: org/eclipse/papyrus/diagram/common/ui/dialogs/InputDialog.class
+SHA1-Digest: PblH/3rRLu3TEHyWobev8jt/QeM=
+
+Name: icons/papyrus/PapyrusLogo32x32.gif
+SHA1-Digest: TnCj8MUUFLEDzL99Tpw3E0gUW4I=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/HyperLinkMa
+ nagerShell$2.class
+SHA1-Digest: x8ogpBLQvvbzCeThIvI6J1V97Qs=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$51.class
+SHA1-Digest: px1X9ho93LT7mfVGieFdzAQBYsk=
+
+Name: org/eclipse/papyrus/diagram/common/commands/setLayoutKindCommand
+ .class
+SHA1-Digest: qf1D4PEWgzWurkItd6MiqOIKXXo=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$34.class
+SHA1-Digest: ZpM++GFBxrq0/6WzGW5SeErycyA=
+
+Name: icons/arrow_down.gif
+SHA1-Digest: RQXpLCwGwO2SKbD5h5J894Eotis=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/HTMLCornerBentFig
+ ure$Styles.class
+SHA1-Digest: 7r26cQJKK2eV9jkG0eaZ+gMDGzk=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$17.class
+SHA1-Digest: 3fWPUT8PkHe0Ji3K5UqDhxljtnY=
+
+Name: icons/obj16/Interface.gif
+SHA1-Digest: OgkOljnrIt3SY4Yp0hfTg79Vt/w=
+
+Name: org/eclipse/papyrus/diagram/common/helper/TimeConstraintHelper.c
+ lass
+SHA1-Digest: y+/F8n77rY7v/gpUWCw+E745vqw=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/ConstraintFigure.
+ class
+SHA1-Digest: 75CMLxVL/TQxe1bEvv6bchQcSME=
+
+Name: org/eclipse/papyrus/diagram/common/providers/UIAdapterImpl$1.cla
+ ss
+SHA1-Digest: GjciVSvY/kPl3o1dFd4lsRXnbVM=
+
+Name: org/eclipse/papyrus/diagram/common/providers/assistant/AssistedE
+ ditPart.class
+SHA1-Digest: txbfVa62DFofUEyCV8d10H/VPj0=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/DiagramNodeFigure
+ $PropertiesCompatmentLayoutManager.class
+SHA1-Digest: Pb19qa54QUNNX5OqjTV+dym8QmM=
+
+Name: icons/obj16/ReadExtentAction.gif
+SHA1-Digest: CN8YkQAdqFkkq/YFoc1x5/JlJ68=
+
+Name: icons/fantomCompartment.gif
+SHA1-Digest: lbyv5gH17bmJkfII8EbN+F7fzJ8=
+
+Name: icons/sample.gif
+SHA1-Digest: AFju2Q2+1Vh+Fu1wE08m60Jwc0g=
+
+Name: icons/obj16/Enumeration.gif
+SHA1-Digest: dvbviGB4V6ckwFNdYhwFWXpv0Jk=
+
+Name: org/eclipse/papyrus/diagram/common/sheet/ReferenceComboAndDialog
+ CellEditor$2.class
+SHA1-Digest: g3m2GFMyUxAwwe+Gy57K1/2U4XA=
+
+Name: org/eclipse/papyrus/diagram/common/sheet/UMLPropertySource$Custo
+ mPropertyDescriptor$1.class
+SHA1-Digest: l+JY+GdOjCycRG2cl4TxPgYWlX0=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$62.class
+SHA1-Digest: nGHMW5tc9VUAtdZuD3W53KUAFx8=
+
+Name: icons/obj16/TemplateParameter.gif
+SHA1-Digest: Oow347VB7nmOXRUklzZ19Ojk3yQ=
+
+Name: org/eclipse/papyrus/diagram/common/command/wrappers/CommandProxy
+ WithResult.class
+SHA1-Digest: /Kg2UXnLM0HXTLmk2PjbWCk/hCo=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$45.class
+SHA1-Digest: yB1epicWZK6h2WWB+thlxEyocPY=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/DefaultHype
+ rLinkTab$1.class
+SHA1-Digest: m3vH1zvOdTUPl2YYh8R3qRYWHXc=
+
+Name: icons/obj16/LoopNode.gif
+SHA1-Digest: dYO3yZI2BhIhfldxJPk3McKwr6g=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/EditorLookF
+ orDiagram$DiagramCreateListener.class
+SHA1-Digest: 2FSF+v4/VkChtvzyTfk5NCVmwg0=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$28.class
+SHA1-Digest: WrY4oULWoiTDa3Dv3aJmfS3yLcI=
+
+Name: org/eclipse/papyrus/diagram/common/service/IPapyrusPaletteConsta
+ nt.class
+SHA1-Digest: FyI5hYTRvsM3hTfyrf6rqzIOqOA=
+
+Name: org/eclipse/papyrus/diagram/common/editparts/IUMLEditPart.class
+SHA1-Digest: pNc7k5I9LwIlpoF4oOrM8hN5/Cw=
+
+Name: icons/obj16/Dependency.gif
+SHA1-Digest: NOBZElt1ASnDHs6iApXlnC3UHHs=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/InteractionRectan
+ gleFigure.class
+SHA1-Digest: KegyowidMvduWm9mY8YxPILEDLE=
+
+Name: org/eclipse/papyrus/diagram/common/util/ServiceUtilsForGMF.class
+SHA1-Digest: oe8e/urbg3N8+LL/DhQifHhVztc=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/SemanticPostA
+ ction.class
+SHA1-Digest: 2gXsS27q5+QQW4RAFB26IAd+R4Y=
+
+Name: org/eclipse/papyrus/diagram/common/helper/ICompartmentLayoutHelp
+ er.class
+SHA1-Digest: hfP7j5PlXgrup8ulxoGDns8YNzE=
+
+Name: org/eclipse/papyrus/diagram/common/helper/PropertyLabelHelper.cl
+ ass
+SHA1-Digest: MVT9wPzmXXMtNL98TG3QNS9sp+Q=
+
+Name: org/eclipse/papyrus/diagram/common/handlers/GraphicalCommandHand
+ ler.class
+SHA1-Digest: eY4y2RFx91We4msmo3tQKdrN69s=
+
+Name: icons/obj16/Transition_internal.gif
+SHA1-Digest: Uw3SWB0hUH28584cle0sIasgIX4=
+
+Name: org/eclipse/papyrus/diagram/common/draw2d/PileLayout$6.class
+SHA1-Digest: Ob7qGqJxMwBfdNAGRdqucbASXJg=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$90.class
+SHA1-Digest: EMR4Nw3RoSuAXt/dx+HYHfUz3Fs=
+
+Name: org/eclipse/papyrus/diagram/common/util/MDTUtil.class
+SHA1-Digest: dfI/RrKo+kEaYoVtpJvY+QkWJHo=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/UpElementLi
+ stener.class
+SHA1-Digest: o+/wYMhhCLFuOPGyqSzb3qoHj4w=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/QualifiedNameDis
+ playEditPolicy.class
+SHA1-Digest: r0tSWe6qN4V65KTuM70e4TyLCO0=
+
+Name: org/eclipse/papyrus/diagram/common/dialogs/CustomCheckedTreeSele
+ ctionDialog$4.class
+SHA1-Digest: B6iO/1qsl0ztDG1oNai7+XgKNlY=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$73.class
+SHA1-Digest: Mr7vrvY2dsPQr2TPu4AEpmGf2Sg=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/StereotypePos
+ tAction$RuntimePropertiesDialog$6.class
+SHA1-Digest: PXgaxYj6jvTqqRWWofeUzBCoVto=
+
+Name: org/eclipse/papyrus/diagram/common/editparts/AbstractShortCutDia
+ gramEditPart.class
+SHA1-Digest: HjWhVXq+MeD1whKxdolvB6BJ0MM=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/HyperLinkMa
+ nagerShell$7.class
+SHA1-Digest: p6O53u9eAdNBZ8HFyPNb4klOeQk=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$56.class
+SHA1-Digest: /Zrbd8kWjBiRWWBBw7rdltykUHY=
+
+Name: icons/obj16/SequenceNode.gif
+SHA1-Digest: tczRcTLoC9wvWmN0LBt6Fzx8fKU=
+
+Name: icons/obj16/ForkNode.gif
+SHA1-Digest: 1d60/r25SqgLKqw9M5lhrA2Txpg=
+
+Name: org/eclipse/papyrus/diagram/common/providers/BaseViewInfoLabelPr
+ ovider.class
+SHA1-Digest: AUzn7DiHja51mnLRYivq3pgtppQ=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$120.class
+SHA1-Digest: QE4CFdThmzPakjTt6tyI5gZpKtQ=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$39.class
+SHA1-Digest: GV/w1313BGkrmqqY7m6DlO2Kgi8=
+
+Name: org/eclipse/papyrus/diagram/common/providers/BaseViewInfoContent
+ Provider.class
+SHA1-Digest: qAwDwYtfLeLyH897kfu4FYlTi40=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$103.class
+SHA1-Digest: UZLXs7iRKRZ2Eu1tj6xEokaX/RE=
+
+Name: org/eclipse/papyrus/diagram/common/providers/DiagramValidationPr
+ ovider$1.class
+SHA1-Digest: BE+xIWUm35amXVLP9ZAveEM39g0=
+
+Name: org/eclipse/papyrus/diagram/common/helper/WebHyperLinkHelper.cla
+ ss
+SHA1-Digest: M2pIkwWx3XS01L2vu6m809+D1r4=
+
+Name: icons/Triangle.gif
+SHA1-Digest: 770uc4xiGqdcShFaAcczkkcF9sU=
+
+Name: org/eclipse/papyrus/diagram/common/handlers/DeleteFromModelComma
+ ndHandler.class
+SHA1-Digest: RBkB8AgpaqCQK6g7Yi7VNYswp5c=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/HTMLCornerBentFig
+ ure.class
+SHA1-Digest: cJZhpXeGvlC1WmsrBEwnRi+/iuI=
+
+Name: icons/incomplete_tsk.gif
+SHA1-Digest: VTkpSjZcroZuvSbxIu8jegoPCj8=
+
+Name: org/eclipse/papyrus/diagram/common/part/CachedResourcesDocumentP
+ rovider$CachedResourceSetInfo$SynchronizerDelegate$1.class
+SHA1-Digest: izGNrUlR47eYcR2VL2SUJimCOhw=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/ProfileFigure.cla
+ ss
+SHA1-Digest: sWf913OilQXLnn2DpHVXRig+4O8=
+
+Name: org/eclipse/papyrus/diagram/common/providers/EditorLabelProvider
+ .class
+SHA1-Digest: GwqHiZYSivmBs1HSgMM73p6jL5M=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/ClassifierFigure$
+ 1.class
+SHA1-Digest: UwaoMIRtbAHLvNIHeOYT5OueCrs=
+
+Name: org/eclipse/papyrus/diagram/common/editparts/AbstractConstraintE
+ ditPart.class
+SHA1-Digest: bYHGfj+FN9jBeZhMqqeYIPFC7rc=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$84.class
+SHA1-Digest: k6Gu7pZQUP3jNEiw5jnCDU0tlRY=
+
+Name: icons/obj16/insp_sbook.gif
+SHA1-Digest: 0mQRZe4v2gbhVrjbVyJKsCM0MmQ=
+
+Name: icons/obj16/Port.gif
+SHA1-Digest: hfgtHvDCWzzRgMwZ3PgpGW/hiig=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$67.class
+SHA1-Digest: M8cTwDI6yKD5JVyt6DG9d7yZ/QM=
+
+Name: icons/obj16/ExpansionRegion.gif
+SHA1-Digest: j7K7JDGXOC8pcvQVQ3QIWPI1j2s=
+
+Name: icons/obj16/DataType.gif
+SHA1-Digest: pOG2Qc++16ezRSlNoftJDMY7W5w=
+
+Name: org/eclipse/papyrus/diagram/common/util/StringComparator.class
+SHA1-Digest: 3mV/Ok6VZswdijIindiQMxhdS14=
+
+Name: org/eclipse/papyrus/diagram/common/layout/AlignmentTree.class
+SHA1-Digest: s5JuTvhw0/qOqAxq1M8xhPi8E9A=
+
+Name: icons/obj16/Pin.gif
+SHA1-Digest: ZkiXbGlbddkFEs8kOqYSuc3HDYY=
+
+Name: org/eclipse/papyrus/diagram/common/editparts/AbstractLabelEditPa
+ rt.class
+SHA1-Digest: JxAsqrXWL8IY0McY2UWOVhRPipU=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$131.class
+SHA1-Digest: LVn5HFUk9idAhHmEXxEwKJrX41E=
+
+Name: org/eclipse/papyrus/diagram/common/parser/lookup/LookupSuiteImpl
+ .class
+SHA1-Digest: JxbcIhAcKIWQJVQxxtl0Is0wQ7U=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$114.class
+SHA1-Digest: dw7PLUOR2telxs3kX0r7bj8FxLw=
+
+Name: org/eclipse/papyrus/diagram/common/parser/TagsAdderParser.class
+SHA1-Digest: yqp2gfxGiitcKbbf0d4mwL0O/4Y=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/EditorHyper
+ linkDocumentShell.class
+SHA1-Digest: 3izxnrW71R/ODWYKchxf8AFB/X8=
+
+Name: icons/obj16/Usage.gif
+SHA1-Digest: eNkk+KNuN1dE3qEQ7JYbWVHSmec=
+
+Name: icons/obj16/DurationConstraint.gif
+SHA1-Digest: ZG+mRIfS4ZpyGkM6RCntFZkzRCc=
+
+Name: org/eclipse/papyrus/diagram/common/commands/EObjectInheritanceCo
+ pyCommand.class
+SHA1-Digest: KglUqofztvqtqSY7+VMlWt2QdOc=
+
+Name: org/eclipse/papyrus/diagram/common/util/EcoreSwitch.class
+SHA1-Digest: G0pu6GgMruuRSfC2x6cNP4kc0dA=
+
+Name: org/eclipse/papyrus/diagram/common/service/AspectUnspecifiedType
+ ConnectionTool$PapyrusCreateViewRequestFactory.class
+SHA1-Digest: 3yGfdd43qg0r8yCEMa7Ma07jgIA=
+
+Name: icons/EnumerationLiteral.gif
+SHA1-Digest: /f/aKdEvFSmUI91Yjkak98qyVAU=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/IMultilineEditabl
+ eFigure.class
+SHA1-Digest: Nr0UInoNwe0ekdJ0ARshKHM80Ks=
+
+Name: org/eclipse/papyrus/diagram/common/commands/UpdateDiagramCommand
+ .class
+SHA1-Digest: RtcbYTur04RlcaNRaZeSsfrLktU=
+
+Name: icons/obj16/SendSignalEvent.gif
+SHA1-Digest: RA0QJ6Kig3zASr1A+BE/IPnX9fA=
+
+Name: icons/obj16/Extend.gif
+SHA1-Digest: sAcS+oZ7QbZ2k1NMJthBDPtuf+4=
+
+Name: org/eclipse/papyrus/diagram/common/part/CachedResourcesDocumentP
+ rovider.class
+SHA1-Digest: AvR5a3fnlb9Y0Fnky5OW8B3NGas=
+
+Name: org/eclipse/papyrus/diagram/common/preferences/IconStylePreferen
+ cePage.class
+SHA1-Digest: exSeXBTjiv4/LQQyRd9WXA1VIj4=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory.class
+SHA1-Digest: g9/VhWNSGPz5Eehfm5BVsMLifOQ=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/EditorHyper
+ linkDiagramShell.class
+SHA1-Digest: yGFVQkXfUXVq/aCwxQtnA5Oha/0=
+
+Name: org/eclipse/papyrus/diagram/common/actions/FilterViewsLabelItemP
+ rovider.class
+SHA1-Digest: v7drN4/6Mnr7/vrwMV4DxXz336I=
+
+Name: org/eclipse/papyrus/diagram/common/parser/lookup/OCLLookup.class
+SHA1-Digest: XCxacKuQSIiLngAXj8LwjSNFoa8=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$95.class
+SHA1-Digest: 1VIGBuq7HtDWDfnaG92uFkcJE/w=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/EditorHyper
+ linkDocumentShell$4.class
+SHA1-Digest: hjALjgkDnB0TfcgXDhQrDJYV2y0=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/AppliedStereotyp
+ ePackageMergeLabelDisplayEditPolicy.class
+SHA1-Digest: 9v/4GRjAJdLGa+0Nxk2x2BQ81Ew=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/ApplyStereotypeE
+ ditPolicy$3.class
+SHA1-Digest: lr49jdewQFblbDP6hBn26JO22jY=
+
+Name: org/eclipse/papyrus/diagram/common/part/PaletteMenuAction$Displa
+ yPaletteChangeAction.class
+SHA1-Digest: Kf5VWiIOPRlzVgMO8qzAHyKsWHI=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/IAspectToolPr
+ oviderService.class
+SHA1-Digest: Umz7MaVaH3FV5O/LhQKs1e9UAyE=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$78.class
+SHA1-Digest: aqo3lKWbPWTvlwlKosfe/zzEoMM=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/CompartmentFigure
+ .class
+SHA1-Digest: XQCOZTCzSAR44G9LdMoAtAkz5lc=
+
+Name: icons/obj16/CallBehaviorAction.gif
+SHA1-Digest: gdIzSUrVwHcUn4TFvPniCGYyrlQ=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$142.class
+SHA1-Digest: aMX5QBHksRY7rjVs/vF8ceOLeEo=
+
+Name: org/eclipse/papyrus/diagram/common/commands/DefferedAppliedStere
+ otypeToDisplayCommand.class
+SHA1-Digest: RPp62LXBxn9TetxxXVKy2jOF1c8=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/AssociationEn
+ dPostAction$PropertyEndComposite$4.class
+SHA1-Digest: 8vQjhcU0Eci+rnjph7GpSGtHhMM=
+
+Name: org/eclipse/papyrus/diagram/common/commands/UpdateLifelineRepres
+ entsCommand.class
+SHA1-Digest: eTcWAjRXwFDqc3et2eWGZS98y1M=
+
+Name: org/eclipse/papyrus/diagram/common/service/AspectUnspecifiedType
+ CreationTool$CreateAspectUnspecifiedTypeRequest.class
+SHA1-Digest: v9x+TUaRMe2UUFo7Wl2T9qvITOg=
+
+Name: org/eclipse/papyrus/diagram/common/editparts/AbstractShortcutDia
+ gramNameEditPart.class
+SHA1-Digest: wmk0DZXUymSkX0X5VufZemhuxGI=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$125.class
+SHA1-Digest: 8/kg68Vyq6oSxq9TkhkiDH6l89E=
+
+Name: org/eclipse/papyrus/diagram/common/editparts/IUMLNamedElementEdi
+ tPart.class
+SHA1-Digest: x32Zi6s9SYib6T/0iLEWPXnvcCQ=
+
+Name: org/eclipse/papyrus/diagram/common/parser/lookup/LookupResolverI
+ mpl.class
+SHA1-Digest: ziibgnI/oDYtawNF+eMl9vUtNjg=
+
+Name: org/eclipse/papyrus/diagram/common/editparts/BorderNamedElementE
+ ditPart.class
+SHA1-Digest: NsNyFnrt+0NPKBcIyoj8+/P3Jmg=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/CustomConnection
+ LabelsEditPolicy.class
+SHA1-Digest: ynCXwViw48Z3jrxrXQeQ0XzUQv8=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$108.class
+SHA1-Digest: 7mUy5o7mS3p/nTAinEBcgDXiLjo=
+
+Name: org/eclipse/papyrus/diagram/common/service/XMLDefinitionPaletteP
+ arser.class
+SHA1-Digest: KwHEgSjx5Ir39/QxtV8FEMPNnhg=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/AffixedNodeAlign
+ mentEditPolicy.class
+SHA1-Digest: HGi+sc/bAPWyP1zUx/a8ZLd3W2s=
+
+Name: org/eclipse/papyrus/diagram/common/locator/TemplateBorderItemLoc
+ ator.class
+SHA1-Digest: 4ruv/5tWWV49GI9/92dexaUFPMM=
+
+Name: org/eclipse/papyrus/diagram/common/actions/AbstractShowHideActio
+ n$EditPartRepresentation.class
+SHA1-Digest: gubcDIIbGyHl2D75gFxMKgIYzu0=
+
+Name: icons/obj16/GeneralizationSet.gif
+SHA1-Digest: WGqNgstdYl0YFibq0qobQRUEiTE=
+
+Name: icons/obj16/LinkEndCreationData.gif
+SHA1-Digest: AHhZ5hZr6T/cuiKQjEXX/9PhPG0=
+
+Name: org/eclipse/papyrus/diagram/common/layout/OverlayLocator.class
+SHA1-Digest: m1IXh9z6rQCfR/nv4L9mt8+b9I0=
+
+Name: org/eclipse/papyrus/diagram/common/layout/LinkRepresentation.cla
+ ss
+SHA1-Digest: mSLNdtZ8gvskWFCGJL5EsLD2PoE=
+
+Name: icons/obj16/TimeEvent.gif
+SHA1-Digest: fJ/vKen2K1/lPQ85HCoQvuEC8Ao=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$170.class
+SHA1-Digest: HuN1KveuSHFYe/II2cZ5Z+h4gkQ=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$89.class
+SHA1-Digest: BmcvCUaACCtqqitXEf57dZXJUqo=
+
+Name: org/eclipse/papyrus/diagram/common/providers/ValidationDecorator
+ Provider$1.class
+SHA1-Digest: EYHH1UPMITE9jczkclRxUht77JY=
+
+Name: org/eclipse/papyrus/diagram/common/parser/ShortcutDiagramParser.
+ class
+SHA1-Digest: kVrP7OMi7VLuuhmm54vdTXLCzy0=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$153.class
+SHA1-Digest: CrDsmCCi5HA+zatx9Gy0z9uErFA=
+
+Name: icons/obj16/LiteralUnlimitedNatural.gif
+SHA1-Digest: Al+o1xlyc8rZiqr6Q46Lmml/B/o=
+
+Name: org/eclipse/papyrus/diagram/common/parser/lookup/LookupSuite.cla
+ ss
+SHA1-Digest: 1GabVOzKcbqSAtZZWXTQZUXZD0s=
+
+Name: icons/obj16/ClearAssociationAction.gif
+SHA1-Digest: W8PjrtFs5OURy4Xj9aXAxdFBGiU=
+
+Name: org/eclipse/papyrus/diagram/common/actions/RotateAction.class
+SHA1-Digest: reW1fuR7AzB/+9B4AhmKhm9CjJg=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$136.class
+SHA1-Digest: nM7xqKwC312ivu9SMogBC8cTvRs=
+
+Name: icons/obj16/Pseudostate_deepHistory.gif
+SHA1-Digest: 7CzxSIPjkwP11CpurULfUWNJhiM=
+
+Name: icons/obj16/JoinNode.gif
+SHA1-Digest: K5PcQcxKGdV76ZMCMM2vegD510Y=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/StereotypePos
+ tAction$2.class
+SHA1-Digest: YJ8mFesJxPlKwh/pEWpnBAIgKVw=
+
+Name: org/eclipse/papyrus/diagram/common/helper/BasicClassifierCompart
+ mentLayoutHelper.class
+SHA1-Digest: gE7qxN6rHxT0LA+Yug7+3IhM560=
+
+Name: icons/obj16/ProtocolConformance.gif
+SHA1-Digest: qQ+mcKDcGuj43aeBTpUk4VVT14M=
+
+Name: org/eclipse/papyrus/diagram/common/parser/custom/AssociationEndP
+ arser.class
+SHA1-Digest: hObtoZZLt54yZ4WNL6ZmbwOi1as=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$119.class
+SHA1-Digest: I92UG0m1vcztNY39B2u1bkS0Hlw=
+
+Name: icons/local_desc_new.gif
+SHA1-Digest: yoxjmqMtVphUpFQAd45TKQuy8gU=
+
+Name: org/eclipse/papyrus/diagram/common/dialogs/AbstractCheckedTreeCo
+ lumnViewerSelectionDialog.class
+SHA1-Digest: vvUBfOzM5+hTLm1c6bUcpZSVTak=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/HyperLinkCo
+ ntentProvider.class
+SHA1-Digest: Y9k5WNmgt7PSbVcVMsQSkSM51vM=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/DynamicResizeDir
+ ectionsEditPolicy.class
+SHA1-Digest: EAOSxEzdVNRoFck2x7qZ4AgMfpg=
+
+Name: org/eclipse/papyrus/diagram/common/providers/assistant/Include.c
+ lass
+SHA1-Digest: v5ocMZcPn+n5VsqKYF9XvY2Xd6Y=
+
+Name: org/eclipse/papyrus/diagram/common/handlers/DeleteFromDiagramCom
+ mandHandler.class
+SHA1-Digest: MVAM44Z+t7p59g0ozjQ2BtduLG4=
+
+Name: org/eclipse/papyrus/diagram/common/part/PapyrusPalettePreference
+ s.class
+SHA1-Digest: 6EW3yRWxpZvhzxGRWfe28Z5SBZU=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$181.class
+SHA1-Digest: AIIw/1pDIwxrgnMog1JJAWnRgro=
+
+Name: icons/obj16/ValuePin.gif
+SHA1-Digest: m6lOXl9QTbHxlTiitiCVUwkgf3M=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$164.class
+SHA1-Digest: 9XEVdUyJ6jWxvBvacUyL/sHjLgo=
+
+Name: icons/obj16/Class.gif
+SHA1-Digest: a20nVb1DJx0ysDCbqsHKYYA1hxw=
+
+Name: icons/obj16/DataStoreNode.gif
+SHA1-Digest: 68P6JzxzEreps6y+tjNPzD5FlEs=
+
+Name: org/eclipse/papyrus/diagram/common/helper/LinkMappingHelper.clas
+ s
+SHA1-Digest: cpQVkaCuX7rek/tKIZJ1uD+WpaA=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$147.class
+SHA1-Digest: Ft8A8LdCHIlGZoNUwkD4KZZOvKE=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/ExtendedDirectEd
+ itPolicy$LabelCellEditorLocator.class
+SHA1-Digest: UwiMlzY28nYD6bEVeCM11RTo9jk=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/AppliedStereotyp
+ eLabelDisplayEditPolicy.class
+SHA1-Digest: X8ACkMIrP44P93kBk1YmcF1tMeE=
+
+Name: icons/obj16/ReceiveSignalEvent.gif
+SHA1-Digest: lhlr5fYplk8e/cVpJKatpfolEDw=
+
+Name: org/eclipse/papyrus/diagram/common/sheet/PropertySourceExtension
+ .class
+SHA1-Digest: LWRmLnliNU7sNUcIB1KXuNYtcbU=
+
+Name: org/eclipse/papyrus/diagram/common/service/InheritedDecoratorPro
+ vider.class
+SHA1-Digest: XJXCosVVAVmm6H8Q+6KxTMnE9m8=
+
+Name: org/eclipse/papyrus/diagram/common/parser/lookup/OCLLookup$Expre
+ ssion.class
+SHA1-Digest: USFnhcwE9iWyelXooeJGqJZQ+ZQ=
+
+Name: icons/obj16/Variable.gif
+SHA1-Digest: nJV3W45WL1K5Iz6iDh115OeTIiU=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/IPapyrusNodeNamed
+ ElementFigure.class
+SHA1-Digest: 12TY3xrAdBl3dCseqwWir7MrlXc=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/CustomAbstractFig
+ ure.class
+SHA1-Digest: WMsBxSvA3qFk2i28Dwzs7XnGhuE=
+
+Name: org/eclipse/papyrus/diagram/common/actions/ShowHideContentsActio
+ n$ClassifierRepresentation.class
+SHA1-Digest: oSsCYaKdoLvnv597sBrbFNZwAJI=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$192.class
+SHA1-Digest: IRvSwYUQV0kaWf7aGBceVYl5ts0=
+
+Name: org/eclipse/papyrus/diagram/common/ui/dialogs/InputDialogMessage
+ .class
+SHA1-Digest: 0ltz0ahE61uplKR6ph8kZkk5bUs=
+
+Name: icons/validation.gif
+SHA1-Digest: yaiGHkRrT1Se10NQH6VE/EQPwIo=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$175.class
+SHA1-Digest: N6eGKe/ipVIizR2/vZ1re4/5dOo=
+
+Name: org/eclipse/papyrus/diagram/common/actions/MoveCompartmentPopupC
+ ontributionPolicy.class
+SHA1-Digest: g54qSxGgxyzy2ifFCHQflHSoN3c=
+
+Name: icons/arrow_left.gif
+SHA1-Digest: qx89HZcOfCNP8URrsbXsnJSbNro=
+
+Name: icons/Operation.gif
+SHA1-Digest: 8BTBWLZcDbjp7/hM0JC1HueiFn8=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$158.class
+SHA1-Digest: eF55Crfyh6Oldz7fBzvcTviLAL8=
+
+Name: org/eclipse/papyrus/diagram/common/layout/DistributionConstants.
+ class
+SHA1-Digest: 07RT261Xi2AlP2k9LWm4CNLcha8=
+
+Name: org/eclipse/papyrus/diagram/common/commands/DestroyElementPapyru
+ sCommand.class
+SHA1-Digest: aArJiNUySmURpM2ybZYbuVMhHMU=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/AppliedStereotyp
+ eNodeLabelDisplayEditPolicy.class
+SHA1-Digest: kWNgTVWMDVVSgCgkjFtRFjRxl2c=
+
+Name: icons/obj16/TimeObservation.gif
+SHA1-Digest: RITl6ngOIjyRJx2ox5w/bKESNEc=
+
+Name: icons/obj16/LiteralString.gif
+SHA1-Digest: mTnjiHa4CKQZMgV+453++qLeAfM=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/StereotypePos
+ tAction$7.class
+SHA1-Digest: vsNcK3UBKExDLSMXboBixD0vf28=
+
+Name: org/eclipse/papyrus/diagram/common/actions/AbstractShowHideActio
+ n.class
+SHA1-Digest: CK9t3rPotIrTOHvgnmsV3sU4rQc=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/StereotypePos
+ tAction$EditorLabelProvider.class
+SHA1-Digest: 5pgDF24F3SANaT4eYckBiXKEqBY=
+
+Name: org/eclipse/papyrus/diagram/common/part/EditingDomainRegistry$1.
+ class
+SHA1-Digest: Dq5g5FnXTgE6tvD67WXksh04Afc=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/DisplayApplie
+ dStereotypePostAction$StereotypeToDisplayLabelProvider.class
+SHA1-Digest: 9ugcq3+qcfJk8mkkKtGSJu3GEZE=
+
+Name: icons/obj16/Expression.gif
+SHA1-Digest: na0cySZDozTa+DqeEbowgllQrC4=
+
+Name: icons/obj16/Plus.gif
+SHA1-Digest: yoxjmqMtVphUpFQAd45TKQuy8gU=
+
+Name: org/eclipse/papyrus/diagram/common/actions/MoveCompartmentObject
+ ItemProvider$MenuBuilder.class
+SHA1-Digest: mV+2EFDL6EtuJzDO3HNflcN6TMs=
+
+Name: icons/obj16/AddStructuralFeatureValueAction.gif
+SHA1-Digest: l0ndIiuaSfHolvywKE5LmwzbYvw=
+
+Name: org/eclipse/papyrus/diagram/common/layout/LinkRepresentationForL
+ ayoutAction.class
+SHA1-Digest: 9pd2fLqKy18T/VBBZDopUVx9iqk=
+
+Name: org/eclipse/papyrus/diagram/common/providers/ViewInfoRegistry.cl
+ ass
+SHA1-Digest: s+Ctss7CrSj4eRpOzwgLCIGnaDI=
+
+Name: org/eclipse/papyrus/diagram/common/figure/layout/PropertiesCompa
+ rtmentLayoutManager.class
+SHA1-Digest: yVytvVoK5rTwzxWHCWpxuF5OlMs=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$186.class
+SHA1-Digest: s2t6G52i73kRW5UakxnM3OPC4og=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/ChangeStereot
+ ypeDisplayPostAction$2.class
+SHA1-Digest: h2dd6bpdWUCi/OCu/VP4VgXv0so=
+
+Name: icons/obj16/Signal.gif
+SHA1-Digest: /7GaTowbDEhRlvRDN5Bt8qNcU9Q=
+
+Name: org/eclipse/papyrus/diagram/common/commands/GMFToEMFCommand.clas
+ s
+SHA1-Digest: /bfoMQ9DHRma+duOYQWX7jlgG3o=
+
+Name: org/eclipse/papyrus/diagram/common/part/UmlGmfDiagramEditor$Part
+ NameSynchronizer$1.class
+SHA1-Digest: EZg6JAzi4C2jdWptGSQkUxF4by0=
+
+Name: org/eclipse/papyrus/diagram/common/commands/SemanticAdapter.clas
+ s
+SHA1-Digest: eCdFJxAHNiErHkRlrh35a5gmh/s=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$169.class
+SHA1-Digest: Y+7V3Ynf+Gfb+VnzvB6Lpi2gxh4=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/ViewAndFeatureRe
+ solver.class
+SHA1-Digest: LatwBwW3SKus79CWZz82B1oAHjM=
+
+Name: org/eclipse/papyrus/diagram/common/helper/DurationConstraintHelp
+ er.class
+SHA1-Digest: zvxqVx5xe9meVNVbDCPbz5YV2g8=
+
+Name: org/eclipse/papyrus/diagram/common/commands/DeleteHyperLinkDiagr
+ amCommand.class
+SHA1-Digest: bTaz+3zx+LopmY72ewphtKlBHUc=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/IPaletteAspec
+ tToolEntryProxy.class
+SHA1-Digest: r62Qjkey8lW/bFlRy4dOATuWfac=
+
+Name: icons/obj16/ActivityFinalNode.gif
+SHA1-Digest: ECdCfYJMT+YIyqqsBcn7fNIHbHI=
+
+Name: icons/obj16/ChangeEvent.gif
+SHA1-Digest: uSvUQk3f2nCO1zeI6BvNqTBWeXA=
+
+Name: icons/papyrus/PapyrusLogo24x24.gif
+SHA1-Digest: k5lKJFgKPw4FvRk8MQiWNdjgzxY=
+
+Name: icons/obj16/UnmarshallAction.gif
+SHA1-Digest: joG0+klp+hEbIeclcPRql+5YqmU=
+
+Name: org/eclipse/papyrus/diagram/common/locator/PortPositionLocator.c
+ lass
+SHA1-Digest: vcX0F5Z7ETFLfQ/uR+smFnjh+2I=
+
+Name: org/eclipse/papyrus/diagram/common/service/LocalPaletteProvider.
+ class
+SHA1-Digest: 47wRl5Owm6M/DZ0AycG2gDDpi08=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/OrphanViewPolicy
+ .class
+SHA1-Digest: kk2jz7SRk7FKxLuWiRApN9uzlho=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/NavigationEditPo
+ licy$3.class
+SHA1-Digest: U10HxEqY822BQ2jX2QdWgvTuKWY=
+
+Name: icons/obj16/TimeExpression.gif
+SHA1-Digest: uRCeOkMzB9nsIj0nrmrpobITyao=
+
+Name: icons/obj16/LiteralNull.gif
+SHA1-Digest: Wz3Kc0vslXeNyCATtm3WB6wBgHk=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$197.class
+SHA1-Digest: IvpqjJ/vfPsnaPv9SCLywKs6Vw4=
+
+Name: icons/obj16/Thumbs.db
+SHA1-Digest: Y0MU/K9wPv6QhOfi8jVpHXAS0QM=
+
+Name: org/eclipse/papyrus/diagram/common/util/URIUtil.class
+SHA1-Digest: 3JLnu+mmSOwO+AQ5IaE09vpPqmQ=
+
+Name: org/eclipse/papyrus/diagram/common/helper/PreferenceInitializerF
+ orElementHelper.class
+SHA1-Digest: qm6POVp1piofi4ln9kWYHVKKhFM=
+
+Name: org/eclipse/papyrus/diagram/common/commands/SetValueSpecificatio
+ nValueCommand.class
+SHA1-Digest: AtlRtYy4fkOw0JvZDY7N7KYXZ7c=
+
+Name: org/eclipse/papyrus/diagram/common/service/PapyrusPaletteService
+ $ExtendedProviderDescriptor.class
+SHA1-Digest: FhXypvxKikOI6Yq9DDJhaF8TU4s=
+
+Name: icons/obj16/Artifact.gif
+SHA1-Digest: 0Q/tWS3UwEdwf7bIasJvwlfgBYU=
+
+Name: org/eclipse/papyrus/diagram/common/ui/dialogs/ElementChooseDialo
+ g$3.class
+SHA1-Digest: UYbMXTc0nXsoqjVzvHwgzRJ916c=
+
+Name: org/eclipse/papyrus/diagram/common/parser/lookup/LookupResolver$
+ Callback.class
+SHA1-Digest: wJ9UyP6Oo1pnMuF4n9l254qvy/c=
+
+Name: org/eclipse/papyrus/diagram/common/providers/assistant/ModelingA
+ ssistantRegistry.class
+SHA1-Digest: 9G3yrKF2yvDce7kmJVrzKBrTqfI=
+
+Name: icons/obj16/Operation.gif
+SHA1-Digest: 4IeUFhYxjfP8i6sVvsTBiWYuP6k=
+
+Name: icons/obj16/InteractionOperand.gif
+SHA1-Digest: nJdIDxFK1woJCYs8mSnX+In/gK0=
+
+Name: org/eclipse/papyrus/diagram/common/providers/PapyrusDiagramGloba
+ lActionHandler.class
+SHA1-Digest: jIewpQsKKwqb09VWIHFtW8UB8G8=
+
+Name: icons/tools_hidden.gif
+SHA1-Digest: W2pnr+hUzyI3A+W1jIK2WAZnAt4=
+
+Name: icons/obj16/DestroyObjectAction.gif
+SHA1-Digest: AJ+GC9+x+x6coBgcEwL2aroKtCg=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/HyperLinkDi
+ agram.class
+SHA1-Digest: ZeiC7Apld8meVknsEbqYjpe7ZOM=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$10.class
+SHA1-Digest: wgImhMC/nxxoRxGMJXymARR0zWs=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/ModelPostActi
+ on.class
+SHA1-Digest: gtv/Lg3XzhOc/APxPw27aSEgwds=
+
+Name: org/eclipse/papyrus/diagram/common/dialogs/AbstractCheckedTreeCo
+ lumnViewerSelectionDialog$1.class
+SHA1-Digest: qmORNAaKtd2L/LTSkvxpPupuibA=
+
+Name: icons/extended_plugin_desc.gif
+SHA1-Digest: DxcAYaOnvyK8MZc3ufiifVkFMlI=
+
+Name: org/eclipse/papyrus/diagram/common/part/PapyrusPaletteContextMen
+ uProvider.class
+SHA1-Digest: o4zBkpXE6lzZDM88uuMJx/HuJcs=
+
+Name: icons/Collaboration.gif
+SHA1-Digest: J3kDdsYpfD+cKxEim23K3DBMhV8=
+
+Name: org/eclipse/papyrus/diagram/common/commands/ShowHideTitleOfCompa
+ rtmentCommand.class
+SHA1-Digest: PMYNNX142zULSrVFF8hL6DqQec8=
+
+Name: org/eclipse/papyrus/diagram/common/part/CreateLinkToolBase.class
+SHA1-Digest: 27jK2S0xHPafNk+849aKu2p59rw=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$4.class
+SHA1-Digest: 3j/hTt7+0kxHB8B1AP/FqFyVGVQ=
+
+Name: icons/fantom.gif
+SHA1-Digest: IjWOSMlsB2zSRt6EG5BrPBAR7Lg=
+
+Name: icons/obj16/ClearVariableAction.gif
+SHA1-Digest: 6rTcxeCC8IFcyXdNM45Nk3Kvzbw=
+
+Name: icons/obj16/FlowFinalNode.gif
+SHA1-Digest: qpMAADCJwc3lSrF8VKSDu7SY4pI=
+
+Name: icons/local_desc_wiz.png
+SHA1-Digest: rq7guwf80TDgloxWk62HitJo1t0=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$21.class
+SHA1-Digest: F5xWjFbcF3/hNyogI3ee1S98Hd8=
+
+Name: icons/obj16/Pseudostate.gif
+SHA1-Digest: sCYyqbusu+9x3MNay/p5xbamSXs=
+
+Name: org/eclipse/papyrus/diagram/common/handlers/ParametricAndListeni
+ ngHandler$1.class
+SHA1-Digest: lePWNTHKlANTNfmI1V0ZsbAq/Xc=
+
+Name: org/eclipse/papyrus/diagram/common/resourceupdate/PartActivation
+ Listener.class
+SHA1-Digest: 3z+cIMCjJB1/hMPwwFtsNM1XiNE=
+
+Name: org/eclipse/papyrus/diagram/common/draw2d/anchors/FixedAnchor.cl
+ ass
+SHA1-Digest: JxQWMMIhnR4g027OLAWGQgosrH8=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/AppliedStereotyp
+ eSubstitutionLabelDisplayEditPolicy.class
+SHA1-Digest: +m2XWOxHNu+J3rRy8GivAk/BLpk=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/AutomaticCompartm
+ entLayoutManager.class
+SHA1-Digest: sgNBnkoHjFfDnsaPg2nbvL6C+Is=
+
+Name: org/eclipse/papyrus/diagram/common/resourceupdate/ResourceUpdate
+ Service.class
+SHA1-Digest: dkGXtj8FHSHHpkLUKhtaOG8vUWw=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/EditorLookF
+ orDiagram$5.class
+SHA1-Digest: YlAmKHVOmiJMxhwG5N1Q5fEKias=
+
+Name: icons/Clause.gif
+SHA1-Digest: WZJ6GIGB45aoYiT53jqJ2utrmSY=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$32.class
+SHA1-Digest: OyZeS5w5ctrwD5mVfO7T+5Qv2/U=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/ChangeStereot
+ ypeDisplayAspectActionProvider.class
+SHA1-Digest: q4Mz3MhErA3AGzz6K/dQHb1Lvp0=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/IPostAction.c
+ lass
+SHA1-Digest: 8w2Wb4jVaAUyFeSQkGVqK7mCt+4=
+
+Name: icons/hyperlink_13x13.gif
+SHA1-Digest: LMtOncnncmS66kOLBvOdWl83+sw=
+
+Name: org/eclipse/papyrus/diagram/common/actions/MoveCompartmentObject
+ ItemProvider.class
+SHA1-Digest: LFJYCK7t+e/nKKZG1dHPj8w639g=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/ShowViewEditPoli
+ cy.class
+SHA1-Digest: Zbqxx5GjE1hDtMN4SRULs9LClkA=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$15.class
+SHA1-Digest: ca3hVHQUiG7fRrZ/FEgoge4qHOw=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/AppliedStereotyp
+ ePackageImportLabelDisplayEditPolicy.class
+SHA1-Digest: y+x2aOPmzfLVTbgn8uOdr/PKlno=
+
+Name: org/eclipse/papyrus/diagram/common/part/CachedResourcesDocumentP
+ rovider$CachedResourceSetInfo$SynchronizerDelegate.class
+SHA1-Digest: D1IZaXQx2c+AIiVjfpGkcpEwTTM=
+
+Name: org/eclipse/papyrus/diagram/common/service/PapyrusPaletteService
+ $LocalProviderDescriptor.class
+SHA1-Digest: 9tgHWF+gj8KnniR9BKn1KQGRehY=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/AssociationEn
+ dAspectActionProvider.class
+SHA1-Digest: zpttz5KzyZlNgecnyk4vNvw/fmM=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$9.class
+SHA1-Digest: ncpT4zLwjAIJN6t4bSMbQbGMp1o=
+
+Name: org/eclipse/papyrus/diagram/common/helper/AlignmentLinkHelper.cl
+ ass
+SHA1-Digest: oX5gc0KUZRhZEIYKu09JnaTjQ+I=
+
+Name: org/eclipse/papyrus/diagram/common/draw2d/SplitEllipseLayout.cla
+ ss
+SHA1-Digest: TERBa8aEg1f9k1IN3z636Tz7CQg=
+
+Name: schema/moskittEditorFactory.exsd
+SHA1-Digest: wWfYQIYFo9LVc1gedOB/1pWy9Ho=
+
+Name: org/eclipse/papyrus/diagram/common/ui/dialogs/PropertyEditors.cl
+ ass
+SHA1-Digest: AA+TEgtD8WmQZl6wjZJ+0qVKSV8=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/PapyrusSendNodeSh
+ adowBorder.class
+SHA1-Digest: 0hxSX3ZXRVNgAQKFWPCNjAPEjsM=
+
+Name: icons/obj16/FinalState.gif
+SHA1-Digest: VmO0UPAuASSdsMY7Ss3gOKo8nXE=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$60.class
+SHA1-Digest: FHDVCjhsTMW7aHZu2/yH4MlyTsc=
+
+Name: icons/obj16/BehaviorExecutionSpecification.gif
+SHA1-Digest: 07cWxlDL6L/djQDsF1XJyJEaDgo=
+
+Name: icons/fantomInherited.gif
+SHA1-Digest: CptqiGG6ctcbKsFWIkIJ/KrRKxQ=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$43.class
+SHA1-Digest: 8YWd3HZfdXaqfx0SNptLeDXtBhw=
+
+Name: org/eclipse/papyrus/diagram/common/part/UMLElementChooserDialog$
+ ModelElementsTreeContentProvider.class
+SHA1-Digest: vt36rUbKhM/jayGf6kHR/dxt/uM=
+
+Name: org/eclipse/papyrus/diagram/common/commands/CommonDeferredCreate
+ ConnectionViewCommand.class
+SHA1-Digest: IBJdrTxm7ZJl5+Y9kP7DAyLem5g=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/DiamondNode.class
+SHA1-Digest: XmniCTJvaANw1Ecaz7+0stsntsM=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$26.class
+SHA1-Digest: URQnrOHVJOe+jJ2Ukuz+I6IQx2I=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/HTMLCornerBentFig
+ ure$HTMLTags.class
+SHA1-Digest: wrExdAFbayTFsvnlFuOm+PolhVg=
+
+Name: org/eclipse/papyrus/diagram/common/part/PaletteUtil.class
+SHA1-Digest: J3OTSlJ8X8xitiQo5FMd1XCh2X4=
+
+Name: icons/obj16/FunctionBehavior.gif
+SHA1-Digest: nRMpfkHRK0xSpWD1NFc7FiAFBhE=
+
+Name: org/eclipse/papyrus/diagram/common/service/PaletteProfileApplica
+ tionListener.class
+SHA1-Digest: r2Q8PyF7kL3ze+QaXnUeVe+njfY=
+
+Name: icons/obj16/Pseudostate_choice.gif
+SHA1-Digest: Ubbi+boIiWhzYUnkLW4bnoOywgI=
+
+Name: icons/obj16/ArrowUp_16x16.gif
+SHA1-Digest: nUGy85EowQLrI5hDomzojsZItS4=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/EditorLookF
+ orDiagram$DiagramListContentProvider.class
+SHA1-Digest: qftZD2j2GPnF5kIBXVoXkVyd1TE=
+
+Name: org/eclipse/papyrus/diagram/common/commands/AddEObjectReferences
+ ToDiagram.class
+SHA1-Digest: qeUCupllNqcH6Nt7J6sksYE4R8E=
+
+Name: org/eclipse/papyrus/diagram/common/ui/dialogs/InputDialogMessage
+ $1.class
+SHA1-Digest: c3qozruzt+cxycZbsG7CFKdOnEA=
+
+Name: org/eclipse/papyrus/diagram/common/draw2d/PileLayout$4.class
+SHA1-Digest: hw+VeR7nCtn2NG3VS5QbBH7Rgsw=
+
+Name: icons/obj16/Pseudostate_join.gif
+SHA1-Digest: K5PcQcxKGdV76ZMCMM2vegD510Y=
+
+Name: icons/obj16/Device.gif
+SHA1-Digest: ggs5ZkzOPxi9NsXmRN/9dPcXMWM=
+
+Name: icons/obj16/RaiseExceptionAction.gif
+SHA1-Digest: okG4IWrBZZ5PqWT5cT439SuwM9Q=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/AdvancedHLM
+ anager$1.class
+SHA1-Digest: j53CgBGWpcxYkTqfny7G6oddi/Y=
+
+Name: org/eclipse/papyrus/diagram/common/dialogs/CustomCheckedTreeSele
+ ctionDialog$2.class
+SHA1-Digest: e5IqYVsRfuvhPWQPB2jRKp33b9k=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$71.class
+SHA1-Digest: YGfCFIIQbwkoURM47xggpXyxwZE=
+
+Name: icons/size_to_control_height.gif
+SHA1-Digest: pi7w5z2ONTbuXa7iOOH/Ww+Y+c4=
+
+Name: icons/obj16/Constraint.gif
+SHA1-Digest: rm7YLSf7iZUN1wi1SG/7BwKLhco=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/AbstractEdi
+ tHyperlinkDiagramShell.class
+SHA1-Digest: 9+1M8hMxKNs1e/SbRuVj6JConEA=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/StereotypePos
+ tAction$RuntimePropertiesDialog$4.class
+SHA1-Digest: 6UxqzuMtO62zFmlsWXZha0i2/0M=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/HyperLinkMa
+ nagerShell$5.class
+SHA1-Digest: eWe9p+PwmjmClq2ZGIUrdvzKiIc=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$54.class
+SHA1-Digest: ljHh+kIZxbq+s/RJXBsezyHoe2w=
+
+Name: org/eclipse/papyrus/diagram/common/draw2d/PileLayout$SizeExtract
+ or.class
+SHA1-Digest: 5KUQgmjBYoimKloI/4js7uQvi8k=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$37.class
+SHA1-Digest: TrTaCa7d7hSFiZPMqnDBsOiJDM4=
+
+Name: org/eclipse/papyrus/diagram/common/part/UMLElementChooserDialog.
+ class
+SHA1-Digest: BD5hTNmJDEMWzlWL2M0Y0zBr8oo=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$101.class
+SHA1-Digest: oL21gshMRInNpwmTpfOtHAnsZxc=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/IAspectAction
+ Provider.class
+SHA1-Digest: EqxcA6f1BmmdQ/Oe0Luoy1rQDVo=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/EditorHyper
+ linkDiagramShell$3.class
+SHA1-Digest: cH7riwJxGmyt1SiI7pFT+EFumO4=
+
+Name: org/eclipse/papyrus/diagram/common/sheet/ReferenceComboAndDialog
+ CellEditor.class
+SHA1-Digest: v1jheI5/aT2uekJDRqAJ+LYByjU=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/AppliedStereotyp
+ eIconlDisplayEditPolicy.class
+SHA1-Digest: v2iW+Sj5wuxwhy378YsqQ3JNiUI=
+
+Name: icons/alignmid.gif
+SHA1-Digest: UHEfAF05gRd6jWf+VP96xa1xmUY=
+
+Name: org/eclipse/papyrus/diagram/common/dialogs/SelectModelElementsFo
+ rDiagramDialog$3.class
+SHA1-Digest: uqqtDKyK03sdnbZh6jl86QbfAks=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/StereotypePos
+ tAction$StereotypeContentProvider.class
+SHA1-Digest: uPYY1qonjJp5yTHvp4Tc/yWBqCA=
+
+Name: icons/alignbottom.gif
+SHA1-Digest: Emvq+dT9BiE8uMrzYPbrkVEaXMc=
+
+Name: icons/drawers_hidden.gif
+SHA1-Digest: q7Xx1+NKbEtg+uPCw4VsKs4W7GE=
+
+Name: org/eclipse/papyrus/diagram/common/resourceupdate/SaveListener$P
+ ostSaveListener.class
+SHA1-Digest: 03Tq6JScUq97VXCQOFyoSf22Wr0=
+
+Name: icons/obj16/Message.gif
+SHA1-Digest: HBu9V2lw2xk/t47JNZzaHBGzTKk=
+
+Name: org/eclipse/papyrus/diagram/common/editparts/PapyrusStereotypeLi
+ stener$StereotypeCustomNotification.class
+SHA1-Digest: GO5/f+BO35kZo/ar/Y3TpBb+YXM=
+
+Name: org/eclipse/papyrus/diagram/common/service/XMLPaletteProviderCon
+ figuration.class
+SHA1-Digest: JkFGKEe+wlPRVLDHyZP7b4RZdss=
+
+Name: org/eclipse/papyrus/diagram/common/actions/ValidationAction$3.cl
+ ass
+SHA1-Digest: 6m46ohARI/hF4D1Crvo2mtm8/Y4=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$82.class
+SHA1-Digest: THnZzeYK626x8LTYrW5JRlhLwHY=
+
+Name: icons/papyrus/PapyrusLogo48x48.gif
+SHA1-Digest: l6fPd/jk4H2sj5r9vApk9vnpNM4=
+
+Name: org/eclipse/papyrus/diagram/common/util/Util.class
+SHA1-Digest: 6kRJwaOdp8bLWXXbXnJYjJMhiak=
+
+Name: schema/editorAssistantProvider.exsd
+SHA1-Digest: tZyzXcG+OY2QdhHfs/Yz/3YeBkA=
+
+Name: org/eclipse/papyrus/diagram/common/draw2d/LifelineDotLineFigure.
+ class
+SHA1-Digest: zobgbVfbu3Wh0k65re6BwlvrVyQ=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$65.class
+SHA1-Digest: xesO6TMhNYPg6ZGNSnhQUx90gTk=
+
+Name: org/eclipse/papyrus/diagram/common/ui/dialogs/ElementChooseDialo
+ g.class
+SHA1-Digest: /w71ucucEZdwyYZKdzfaSz5eEIs=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/IPaletteEntry
+ Proxy.class
+SHA1-Digest: 5MdObqd0QzcWYumswI/BHFtX+ag=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$48.class
+SHA1-Digest: Ed8HOIAGP4V1odsygJUpwIy2mXg=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/DefaultHype
+ rLinkTab$4.class
+SHA1-Digest: fM2Z4/o4/mKVdA0dlzqEMxFMF8g=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/GetAspectTool
+ ProviderOperation.class
+SHA1-Digest: N7pk5zYmzEk83rKCo6dlQowtuZ0=
+
+Name: icons/obj16/ReadIsClassifiedObjectAction.gif
+SHA1-Digest: eSQ2v0h6jca8Z8jwoXgAFyC8484=
+
+Name: icons/obj16/Pseudostate_initial.gif
+SHA1-Digest: bdDXyg/NUI2tZ/Pjmsioj/DCti8=
+
+Name: org/eclipse/papyrus/diagram/common/ui/helper/HelpComponentFactor
+ y$1.class
+SHA1-Digest: XiYgXclReYyCDXGwxsAFXlwsnR4=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/Rectangular3DBord
+ er.class
+SHA1-Digest: Y3O4nsH03l265taLqLHZZXtiQe0=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$112.class
+SHA1-Digest: vnSJByvIcT/pk4CecSCYfkxawU4=
+
+Name: icons/obj16/TimeConstraint.gif
+SHA1-Digest: iWtmzBenCC7gGR+5dOWm4qO+gpM=
+
+Name: org/eclipse/papyrus/diagram/common/layout/SameAlignment$LinkComp
+ arator.class
+SHA1-Digest: 3tnjyEm0gsgCZROOWa/1jeL0QFY=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/CornerBentFigure.
+ class
+SHA1-Digest: n9xtJhADJdBaMOp+vzKfhDb1Fms=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/StereotypePos
+ tAction$AttributeEditingSupport.class
+SHA1-Digest: OTbyHdX9JUlyQb1kzxm8sHUDtkg=
+
+Name: about.html
+SHA1-Digest: a2Fk5/pDnCvlEfl7QwDZj/FCgFc=
+
+Name: org/eclipse/papyrus/diagram/common/figure/edge/CAssociationFigur
+ e.class
+SHA1-Digest: g4K5GrT4FU42EzOEjyY+Vc6VqKg=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/OrphanViewPolicy
+ $1.class
+SHA1-Digest: jPKgV0LQ9nPYvDN9GglVXOr4M4c=
+
+Name: icons/obj16/RemoveStructuralFeatureValueAction.gif
+SHA1-Digest: rk3uYGlhWuJJzZgSo343CFeTSBs=
+
+Name: icons/obj16/ReadLinkObjectEndAction.gif
+SHA1-Digest: v2S0PdGYdfQqD3dlRym5DSkvgtY=
+
+Name: org/eclipse/papyrus/diagram/common/service/AspectUnspecifiedType
+ ConnectionTool$1.class
+SHA1-Digest: ag5R2+7RCkpODL6G0zLiNovPA2c=
+
+Name: org/eclipse/papyrus/diagram/common/commands/ShowHideCompartmentR
+ equest.class
+SHA1-Digest: IVUYco3Xz1tp0uizT/9AvIjinMM=
+
+Name: icons/obj16/InteractionUse.gif
+SHA1-Digest: nsFyxw8qPKI6wMPf4zM4F/UD9Oo=
+
+Name: org/eclipse/papyrus/diagram/common/handlers/RenamedElementHandle
+ r.class
+SHA1-Digest: 2I26aROn1a9D1w8KISlzpFi9Uyo=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/ChangeStereot
+ ypeDisplayPostAction.class
+SHA1-Digest: MdONrNYoFkVqEmV+6KwOm9mXzd4=
+
+Name: icons/obj16/Model.gif
+SHA1-Digest: d8noDPY3t/Qm9v9iQX8ig7f0nx8=
+
+Name: icons/obj16/ConnectionPointReference.gif
+SHA1-Digest: 7X2lTVeNImYfCkvjM6YNG59gFtg=
+
+Name: icons/size_to_control.gif
+SHA1-Digest: k9iV5gnzSCA4O8p2VwORKuAwyUo=
+
+Name: icons/Class.gif
+SHA1-Digest: ENhiRLa+biShqwPi0dlyixqHNyk=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/ContainerBorder.c
+ lass
+SHA1-Digest: hUsByDuMHkOM1+4yVkMROxKqeAI=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$93.class
+SHA1-Digest: QJvP/IEdrE15WNK7Nz4SGibS/Ck=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/EditorHyper
+ linkDocumentShell$2.class
+SHA1-Digest: +oOKqnWXRjCbd7No1XzSEvmPpLU=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/ApplyStereotypeE
+ ditPolicy$1.class
+SHA1-Digest: VqL0KkHKHwmzk2WrIZ3UABcid8Y=
+
+Name: icons/distribute_vertically_between_nodes.gif
+SHA1-Digest: n/z0iD8kSNDONNbr1s1tcc6r3rw=
+
+Name: icons/plugin_desc.gif
+SHA1-Digest: FT+yMU/XrBGk25OwgZC0vvpreSk=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$76.class
+SHA1-Digest: CzA9oc28aJYR8C3aREQUCDswBgQ=
+
+Name: org/eclipse/papyrus/diagram/common/commands/CreateHyperLinkWebCo
+ mmand.class
+SHA1-Digest: L0vLigJ1Jhhj32Ze8NJe5aq5WOE=
+
+Name: org/eclipse/papyrus/diagram/common/dialogs/SelectModelElementsFo
+ rDiagramDialog.class
+SHA1-Digest: voMSeDirK53uny3iSZVYgmPDzYE=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$140.class
+SHA1-Digest: 2GmGd184FsOtdC6B2nYTgd0aC3I=
+
+Name: schema/aspectToolProvider.exsd
+SHA1-Digest: ekIrYEMMLK0LTmoFMpI920pEJ+Q=
+
+Name: org/eclipse/papyrus/diagram/common/sheet/ReferenceComboAndDialog
+ CellEditor$DialogCellLayout.class
+SHA1-Digest: BbXzpAmESCdjQGJhmCnC8Is4ylg=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$59.class
+SHA1-Digest: z05raoHKEsihHR8I9ktrJvC9zwY=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/AssociationEn
+ dPostAction$PropertyEndComposite$2.class
+SHA1-Digest: aF176IrEMRRh9QKurRlKwmwQxEs=
+
+Name: org/eclipse/papyrus/diagram/common/commands/EObjectInheritanceCo
+ pyCommand$CustomAddCommand.class
+SHA1-Digest: hcKGjX0KTC/BRZGGLRRTKOamNfk=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/PapyrusRoundedNod
+ eFigure.class
+SHA1-Digest: HJl4fSbBlTcv/52vmuaiO/x4Y0c=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$123.class
+SHA1-Digest: vRANaIrzAepqM12UOxSo/NZRLpk=
+
+Name: icons/obj16/ReclassifyObjectAction.gif
+SHA1-Digest: UrsF6Zb70UZupH9U/a/BaDKhrnE=
+
+Name: org/eclipse/papyrus/diagram/common/listeners/RemoveStereotypeApp
+ licationListener.class
+SHA1-Digest: YIs71MU61cqCk5G2BS11XOLVlA4=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$106.class
+SHA1-Digest: YycSnJgXErmOuIo1Ub6B/6Oy5A8=
+
+Name: org/eclipse/papyrus/diagram/common/actions/handlers/ClipboardAct
+ ionHandler$3.class
+SHA1-Digest: 1wcsOwSL1/FCqVwWlk03NCVr3HY=
+
+Name: org/eclipse/papyrus/diagram/common/command/wrappers/EMFtoGEFComm
+ andWrapper.class
+SHA1-Digest: SJFnYAKCn7MOPFhsS67XDjB2Ito=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/NavigationEditPo
+ licy.class
+SHA1-Digest: lVvg68lvYCB4QG1WmkyIpjf6nE4=
+
+Name: icons/obj16/Modify.gif
+SHA1-Digest: b6URlV3bBrPou18oWp4jiatC4Bw=
+
+Name: org/eclipse/papyrus/diagram/common/util/CompartmentUtils.class
+SHA1-Digest: qK9ceXSsQwF1aOzF7fy2Am1/hmw=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/InstanceSpecifica
+ tionFigure.class
+SHA1-Digest: drqZumQs30FMBUbyAsjxOl+NcAI=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$87.class
+SHA1-Digest: 03c66xrVWO/l5xF/CepTALrXEwo=
+
+Name: icons/obj16/OutputPin.gif
+SHA1-Digest: EffYap+dZzFoMU5kB/m2enIr+T0=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$151.class
+SHA1-Digest: SewOjQRykPrWpFShLS18Rznu4i0=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/IPreAction.cl
+ ass
+SHA1-Digest: 4DSXqwncmExsEtxw5TSGHv2JO1o=
+
+Name: org/eclipse/papyrus/diagram/common/parser/lookup/Lookup.class
+SHA1-Digest: 0dumDKYgIJNflTdRab3nrO/foaY=
+
+Name: org/eclipse/papyrus/diagram/common/actions/FilterViewsLabelsActi
+ on.class
+SHA1-Digest: W3scJCfZCABw95bGtbjR8MhX36E=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$134.class
+SHA1-Digest: Cnx70wY+1IzRTe8B3sWrdLFEyA0=
+
+Name: org/eclipse/papyrus/diagram/common/part/DiagramCanvasSwitch.clas
+ s
+SHA1-Digest: SXsoMiX97xymim6BblPJMzwTS0I=
+
+Name: icons/obj16/GeneralOrdering.gif
+SHA1-Digest: 53yLA3lrWiyqXQVMBXlj4dn3KdM=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$117.class
+SHA1-Digest: 3OdHc+eAYS4HSYaBy/MTAlpHCIQ=
+
+Name: icons/obj16/BroadcastSignalAction.gif
+SHA1-Digest: 5XFT7RbzxY12xcC/UbjHRm7qlM4=
+
+Name: icons/obj16/ExpansionNode.gif
+SHA1-Digest: qOHytvN4omHNBnFoszEJMJJlCVo=
+
+Name: org/eclipse/papyrus/diagram/common/service/AspectCreationEntry.c
+ lass
+SHA1-Digest: 9Waojn2aIAckSajvcqsTnsKBQRU=
+
+Name: org/eclipse/papyrus/diagram/common/commands/CreateElementAndInit
+ ializeFeatureCommand.class
+SHA1-Digest: KLFPEH1b5YvETdxfCii7A3+p8Gg=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/DefinedProper
+ tiesAtRuntimeDialog$3.class
+SHA1-Digest: EXFHqTL5FF2YF3Bug6bosN1JgdQ=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/RectangularShadow
+ Border.class
+SHA1-Digest: 5HDiS3/rpcQKl6LTgpuOAW7KErQ=
+
+Name: org/eclipse/papyrus/diagram/common/commands/ChangeZOrderOfCreate
+ dEP.class
+SHA1-Digest: zXVHVp5jI5NTYDm7wbmZcKGxek4=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/CommonDiagramDra
+ gDropEditPolicy.class
+SHA1-Digest: RwXfr9sdLgy0FIDwrbIW1oc+xnY=
+
+Name: icons/papyrus/PapyrusLogo16x16.gif
+SHA1-Digest: 03GOz6+LQbCoWZ+xxCwpaFVDAdQ=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$98.class
+SHA1-Digest: 6UGGP86PtPwiJMiZbNBlwU9lAGs=
+
+Name: org/eclipse/papyrus/diagram/common/actions/handlers/ClipboardAct
+ ionHandler.class
+SHA1-Digest: hJSDxP0pkVUXN9igztocnROzNVA=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$162.class
+SHA1-Digest: D3o7ecCUwPu8Ee3U6uT67emc35Q=
+
+Name: org/eclipse/papyrus/diagram/common/Activator.class
+SHA1-Digest: 2jBhDO/5ZslRTnTV8HCL7qY5r/s=
+
+Name: org/eclipse/papyrus/diagram/common/commands/DeleteLinkDuringCrea
+ tionCommand.class
+SHA1-Digest: 144l/pcUowaIxeATKG2bihnL0LE=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$145.class
+SHA1-Digest: 73tnqVY6u2AGaVr4VIuNDAb9Xl4=
+
+Name: org/eclipse/papyrus/diagram/common/resourceupdate/SaveListener$P
+ reSaveListener.class
+SHA1-Digest: pg1Re6zdvEqWjkWbHAQ7GZo5KeM=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/HyperlinkOb
+ ject.class
+SHA1-Digest: rxQn97wAF0xQRR2lEL4yH/3wjlY=
+
+Name: org/eclipse/papyrus/diagram/common/helper/DurationObservationHel
+ per.class
+SHA1-Digest: O5HoZjC6IvEWlmpBHtZ4nkwIC8M=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$128.class
+SHA1-Digest: b2iV2UW4vmFPnRhTGzH0DIGbIv8=
+
+Name: org/eclipse/papyrus/diagram/common/editparts/AbstractCommentEdit
+ Part.class
+SHA1-Digest: YRaKmBvlKUsdjzHTZjYjwUdO4gE=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/ChangeStereot
+ ypeDisplayPostAction$1$1.class
+SHA1-Digest: 5j5ym6DFqsiGDJitPDTM1t7kCLE=
+
+Name: org/eclipse/papyrus/diagram/common/util/UMLSelectionTester.class
+SHA1-Digest: Px9wBaRw4pfh99QMk9Id4FLlDgw=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/OLDCompartmentFig
+ ure$CompartmentLayoutManager.class
+SHA1-Digest: Vqm+t5cwBNwWC1eYeJquZ9k39cw=
+
+Name: icons/obj16/LiteralBoolean.gif
+SHA1-Digest: 5rHsu5FqxQYSjUXUnS+Xl7f8LU8=
+
+Name: icons/obj16/DurationInterval.gif
+SHA1-Digest: hT7U3ZgxKb56YFgNNjaZ3UKURto=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$190.class
+SHA1-Digest: 0NHp0cYFfO2/1p0PrqRBIrp/YbE=
+
+Name: org/eclipse/papyrus/diagram/common/figure/edge/InterfaceRealizat
+ ionFigure.class
+SHA1-Digest: O4y157Z9QzHAUU8+oUdyFIcX8gY=
+
+Name: org/eclipse/papyrus/diagram/common/util/CrossReferencerUtil.clas
+ s
+SHA1-Digest: Hd4HtJ3rfBGHZems3LnCZIEWd7A=
+
+Name: org/eclipse/papyrus/diagram/common/actions/LoadResourceAction.cl
+ ass
+SHA1-Digest: /gNobK061nIW4bkRNFEN4Yv7/J4=
+
+Name: org/eclipse/papyrus/diagram/common/draw2d/anchors/CenterAnchor.c
+ lass
+SHA1-Digest: y29uBTL2TXNE80nZm8Nvz4kZlLE=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AbstractActionState
+ SourceProvider$SelectionListener.class
+SHA1-Digest: Hl7Xd71kEfMy6MPjCoVc1un1tFk=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$173.class
+SHA1-Digest: WlZIs05bvCSllC2ca1gnebzm6rA=
+
+Name: org/eclipse/papyrus/diagram/common/providers/ViewInfo.class
+SHA1-Digest: 5yVDdv2YJrJ3H6AUerqFBp4w6hc=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$156.class
+SHA1-Digest: 48tkGyNHtoYTFGOgT38jXW7srCw=
+
+Name: icons/label_role/MultiplicityHandler.gif
+SHA1-Digest: Al+o1xlyc8rZiqr6Q46Lmml/B/o=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/EditorLookF
+ orDiagram$ObjectLabelProvider.class
+SHA1-Digest: 0E1UtBAO/zsMHXeNoDIsPgtCGQY=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/EditorHyper
+ linkWebShell$3.class
+SHA1-Digest: h9mCeczS01aXR3LUwrK5+8SRB5s=
+
+Name: icons/obj16/ActivityPartition.gif
+SHA1-Digest: nmwlc3qcfoMGQEmGk6xLLFszYCk=
+
+Name: org/eclipse/papyrus/diagram/common/editparts/IPapyrusEditPart.cl
+ ass
+SHA1-Digest: kr/BSzxJnHxoyOLtxM9IQJ2/V8E=
+
+Name: org/eclipse/papyrus/diagram/common/actions/ShowHideContentsActio
+ n$CustomEditPartRepresentation.class
+SHA1-Digest: nth5QEtaI1u/SNU9savcdxVcL6k=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$139.class
+SHA1-Digest: LAa/xIlQkAlgs+wXjHwJU93brPg=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/StereotypePos
+ tAction$5.class
+SHA1-Digest: KsMom+8GCt1wjTROGkl2l/BCTnw=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/IDirectEdition.c
+ lass
+SHA1-Digest: IIP0l/tml3IgM0zJmQrTHSa9u50=
+
+Name: org/eclipse/papyrus/diagram/common/commands/AbstractCommonTransa
+ ctionalCommmand.class
+SHA1-Digest: /by+5LFSBx+k9FfMvFAjPVHOZFw=
+
+Name: org/eclipse/papyrus/diagram/common/helper/TimeObservationHelper.
+ class
+SHA1-Digest: REAKlgQ0oI0tkEjNIDV49folIG0=
+
+Name: icons/obj16/Manifestation.gif
+SHA1-Digest: OH4XLAph4Xes9AEDGiePUzO1GJU=
+
+Name: icons/obj16/Profile.gif
+SHA1-Digest: 2BrPAL4VTeHCF1D6WzqNb55JVzE=
+
+Name: org/eclipse/papyrus/diagram/common/util/FontManager.class
+SHA1-Digest: xabcthZJstjvm+xVR6KHPs/w/3g=
+
+Name: icons/obj16/ExtensionEnd.gif
+SHA1-Digest: kVZ6intAf5r18mKSeSdk+Apu1Bg=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/ShortCutDiagramE
+ ditPolicy.class
+SHA1-Digest: 4dzrTbAHg2u/Zhcg4dH8V62Usnw=
+
+Name: org/eclipse/papyrus/diagram/common/actions/AbstractShowHideActio
+ n$1.class
+SHA1-Digest: M9ZWBVOpLGwUpQICtLMA0IunSNQ=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/IAbstractElementF
+ igure.class
+SHA1-Digest: cBpU5X9Dw1g2bJ+c+aTfG+mJPuQ=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/DataTypeFigure$1.
+ class
+SHA1-Digest: lH03FaOA1Yt56DA/PQpuQnu6EmY=
+
+Name: org/eclipse/papyrus/diagram/common/commands/ReconnectToIntersect
+ ionPoints.class
+SHA1-Digest: LsMLAeaFZzfHIzmTXF/qTpqIpgQ=
+
+Name: org/eclipse/papyrus/diagram/common/commands/AnnotateNodeStyleCom
+ mand.class
+SHA1-Digest: fry1DAiVrgcSIPcjJODdnhPmeSw=
+
+Name: org/eclipse/papyrus/diagram/common/actions/PasteWithModelAction.
+ class
+SHA1-Digest: 5/s/BqcbSeIzh3eImqLNCmRcaIc=
+
+Name: icons/obj16/ActionExecutionSpecification.gif
+SHA1-Digest: RQBLdpCJNZWwAgFeB5E89Ng44Lw=
+
+Name: icons/obj16/Message_asynchCall.gif
+SHA1-Digest: yVRPzZ9VAFjDCAl3sLAHRxhIdmI=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/DragDropEditPoli
+ cy.class
+SHA1-Digest: RyfVSNxBf92IrUWlkbNCKfoswfA=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$184.class
+SHA1-Digest: oW9eqfrVLJHMQJcTweoiE4zuacc=
+
+Name: icons/LiteralBoolean.gif
+SHA1-Digest: 5rHsu5FqxQYSjUXUnS+Xl7f8LU8=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/EnumerationFigure
+ $1.class
+SHA1-Digest: bFoQ2fsJueeZgOdWCJEc89PDDRQ=
+
+Name: org/eclipse/papyrus/diagram/common/draw2d/RoundedRectangleDashed
+ Border.class
+SHA1-Digest: 6nsJ7yb/qFabThwNCQm0qnp6oPo=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$167.class
+SHA1-Digest: M6EO/tia4XNSRuL1UqYvu2kA7bc=
+
+Name: org/eclipse/papyrus/diagram/common/helper/ILinkMappingHelper.cla
+ ss
+SHA1-Digest: ylzCXIOrjhcxia39nzw9InEhKXg=
+
+Name: org/eclipse/papyrus/diagram/common/directedit/ILabelControler.cl
+ ass
+SHA1-Digest: teA5qqxvCfMV/kw2E93AqbZGQUo=
+
+Name: org/eclipse/papyrus/diagram/common/service/LocalPaletteProvider$
+ EmptyNodeList.class
+SHA1-Digest: DOPrQJ6PEN6TH2OxtIwZEtaqICY=
+
+Name: icons/obj16/ProtocolStateMachine.gif
+SHA1-Digest: HWKrfRF7uOVL7qP/Zk/FR+6gP04=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/ForkNode.class
+SHA1-Digest: gPOt3NPmUcqZeX9r5cVNT8X70cM=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/PapyrusSendNodeFi
+ gure.class
+SHA1-Digest: aWxIki7ayympzO24I/u18gXT1m0=
+
+Name: org/eclipse/papyrus/diagram/common/directedit/FigureControler.cl
+ ass
+SHA1-Digest: vkRvURZkP7uKUG7cFl/OAXnZilQ=
+
+Name: org/eclipse/papyrus/diagram/common/ui/helper/CustomPopupDialog$C
+ loseAction.class
+SHA1-Digest: ccJgvbNIYLONvi3iVKNQkXjvk2Q=
+
+Name: icons/obj16/AcceptEventAction.gif
+SHA1-Digest: eNxdHUrewD8x6VUeHmP08OkAlsY=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/HyperLinkPopupBa
+ rEditPolicy$RoundedRectangleWithTail.class
+SHA1-Digest: i6oWXb0DrykpLZE3bTiiTy1PMhc=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/ShowHideClassifi
+ erContentsEditPolicy.class
+SHA1-Digest: NC/FAJs5PU0qSm/s4IDeCzBBQXc=
+
+Name: org/eclipse/papyrus/diagram/common/part/ICustomDiagramUpdater.cl
+ ass
+SHA1-Digest: MPLA+ZVMnXw5OHU4EV10KuuT1nw=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/NavigationEditPo
+ licy$1.class
+SHA1-Digest: I8m0brUmJ6OQPvlprOb9X4vHuFM=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$195.class
+SHA1-Digest: EADYG8H7WzpkzSt94Efq6RuyhgU=
+
+Name: icons/obj16/Deployment.gif
+SHA1-Digest: 628WS5ryRW64O9aubBr/aFQd11c=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/IPapyrusNodeUMLEl
+ ementFigure.class
+SHA1-Digest: LsSzERluxBu7mQmO+NDp/zDVVgA=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/AppliedStereotyp
+ eAbstractionLabelDisplayEditPolicy.class
+SHA1-Digest: Gr4rdeM0tUmTnwlHFD1PcdZZb5Q=
+
+Name: org/eclipse/papyrus/diagram/common/helper/LinkMappingHelper$Comm
+ onSourceUMLSwitch.class
+SHA1-Digest: EjyzKLBQYVHNT4PVQ3hEy49O7QU=
+
+Name: org/eclipse/papyrus/diagram/common/providers/DiagramValidationDe
+ coratorProvider$StatusDecorator$1.class
+SHA1-Digest: wo0JGgyzJ37VXh9Fq+H/Lj+qekw=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$178.class
+SHA1-Digest: hQVy3Qy/aAgJz/xQGDJgeMxS2bw=
+
+Name: org/eclipse/papyrus/diagram/common/editparts/UMLNodeEditPart.cla
+ ss
+SHA1-Digest: iFB2mw5Rv4YpAXL4JCuSqMkquzc=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/HyperLinkMa
+ nagerShell.class
+SHA1-Digest: TYQzuhnzhnK69hXXnj3ywJPU22s=
+
+Name: org/eclipse/papyrus/diagram/common/ui/dialogs/ElementChooseDialo
+ g$1.class
+SHA1-Digest: +myZVFaUd5w/4mt7ZT62sluPo6c=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/AppliedStereotyp
+ eDeploymentLabelDisplayEditPolicy.class
+SHA1-Digest: ef999ucCS9C2omrZ2722KwKfA0E=
+
+Name: icons/distribute_horizontally.gif
+SHA1-Digest: orvDXFuhmhJeqOm+t4KoF9Dml3Q=
+
+Name: org/eclipse/papyrus/diagram/common/service/IProfileDependantPale
+ tteProvider.class
+SHA1-Digest: P8kkhUYTBMYJGrZFhadcWu5DZSA=
+
+Name: schema/paletteDefinition.exsd
+SHA1-Digest: kebwNrRlneol8bV2PqRnqKNoHmU=
+
+Name: org/eclipse/papyrus/diagram/common/ProfileApplicationPreferenceP
+ age.class
+SHA1-Digest: +ubNPLsFVF6HzROCkAgGoZSN9Sw=
+
+Name: icons/obj16/ExecutionEnvironment.gif
+SHA1-Digest: iDrWBKmARV0n5EZkkJvq18ZzwsU=
+
+Name: org/eclipse/papyrus/diagram/common/handlers/PasteWithModelHandle
+ r.class
+SHA1-Digest: +7/AOfwDWNV1UvRy9IIbSOmON/I=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/PackageNodePlateF
+ igure.class
+SHA1-Digest: 0elsdB+/kYRSbB9Bj2A1BoCHatk=
+
+Name: icons/obj16/InstanceSpecification.gif
+SHA1-Digest: ITgo6ToWpEdXCRbiKUKbMyNdag0=
+
+Name: icons/obj16/Association_shared.gif
+SHA1-Digest: F4pa6YI9/iR07ETgpiGZqwetjEY=
+
+Name: org/eclipse/papyrus/diagram/common/part/PapyrusPaletteDescriptio
+ n.class
+SHA1-Digest: qJ955oWB2s2tTC9Buus1eWotJUM=
+
+Name: icons/obj16/Actor.gif
+SHA1-Digest: 9OT7FDtmB+6tXXinoITpgk3h0Fg=
+
+Name: org/eclipse/papyrus/diagram/common/locator/ExternalLabelPosition
+ Locator.class
+SHA1-Digest: /13oCWseAY5DS+KxOKXH9C9CedE=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/AspectToolSer
+ vice.class
+SHA1-Digest: kRnddPROXQYBh1cDrca01/SVL2Q=
+
+Name: org/eclipse/papyrus/diagram/common/util/DiagramCoreServiceUtils.
+ class
+SHA1-Digest: NZ6BbXEnoj6rhv6+5IfswWLjBhA=
+
+Name: org/eclipse/papyrus/diagram/common/figure/layout/ManualCompartme
+ ntToolBox.class
+SHA1-Digest: l0vEdVcsRUAvoej8w7P1+kQQg88=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$189.class
+SHA1-Digest: 9IZP+4by0SQLiyTKA4UYukT3bXk=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$2.class
+SHA1-Digest: L6NoNXmfMxx3cdgOclMkA1CFD2E=
+
+Name: org/eclipse/papyrus/diagram/common/parser/lookup/LookupResolver.
+ class
+SHA1-Digest: ZLR9qgN+qdwRMxfpiNAhmAY+E9o=
+
+Name: org/eclipse/papyrus/diagram/common/helper/ClassifierCompartmentL
+ ayoutHelper.class
+SHA1-Digest: IuuAjcPuRauWF4fwWIY0k8wyJmA=
+
+Name: org/eclipse/papyrus/diagram/common/parser/stereotype/AppliedSter
+ eotypeParser.class
+SHA1-Digest: K3670KNo9s3TfKj6JNEgwbDMusU=
+
+Name: org/eclipse/papyrus/diagram/common/part/PapyrusPaletteCustomizer
+ $PapyrusDrawerEntryPage.class
+SHA1-Digest: WfbFxy4Av/tyRo3k5/aKXzyAYzo=
+
+Name: org/eclipse/papyrus/diagram/common/commands/CleanDiagram.class
+SHA1-Digest: 802kikcnIn7M0ZtqREImHpxH62I=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/DiagramDragDropE
+ ditPolicy.class
+SHA1-Digest: cOFxWjv89kzI2WrbYZL1PH3U/gk=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/DisplayApplie
+ dStereotypePostAction$1.class
+SHA1-Digest: 1rbDeZpX/buSS0nx1f+8Hv+mQcU=
+
+Name: icons/flower.svg
+SHA1-Digest: Tc6j1zOAY/nBVnBD4vODh750qLw=
+
+Name: org/eclipse/papyrus/diagram/common/providers/assistant/ElementTy
+ pe.class
+SHA1-Digest: 8F0ZQRrG39cRM5J5eRPop1z2ZrM=
+
+Name: org/eclipse/papyrus/diagram/common/actions/ShowHideContentsActio
+ n.class
+SHA1-Digest: 0kUFAb4icrtsRrBFzLvmFmCth2s=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/PapyrusNodeFigure
+ .class
+SHA1-Digest: zOPDRQ0S/uKr2g5mUkhzm6JAFl8=
+
+Name: org/eclipse/papyrus/diagram/common/providers/PapyrusGlobalAction
+ HandlerProvider$1.class
+SHA1-Digest: A/Gym7XPvReRd8cY35HOGofafis=
+
+Name: org/eclipse/papyrus/diagram/common/draw2d/PolylineContainer.clas
+ s
+SHA1-Digest: kr9abh5RrSLKUeVrZVjrZB02SJY=
+
+Name: icons/obj16/PackageMerge.gif
+SHA1-Digest: 9Nsfa0ec3oWYijlhitW91Um688c=
+
+Name: schema/viewInfo.exsd
+SHA1-Digest: lLfCXfMWWqaBGo2lOgUC5LOOZf0=
+
+Name: org/eclipse/papyrus/diagram/common/commands/DuplicateAnythingCom
+ mand.class
+SHA1-Digest: qkLiA/8TQoWro01RBmW6PRx2rZ4=
+
+Name: icons/obj16/Abstraction.gif
+SHA1-Digest: WzQN2EO+ISTnoLZQAPzXXU33Ocs=
+
+Name: org/eclipse/papyrus/diagram/common/providers/ValidationDecorator
+ Provider$MarkerObserver.class
+SHA1-Digest: Mjw9/rargQsNyEx6folSo+qLp4w=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/EditorLookF
+ orDiagram$3.class
+SHA1-Digest: zoErxE+XuW4YE3Niy5435GCDuNI=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/EnumerationFigure
+ .class
+SHA1-Digest: ia7yfbBy9DqyBaLxu295VadQePc=
+
+Name: org/eclipse/papyrus/diagram/common/ui/dialogs/ComboDialogWithMes
+ sage.class
+SHA1-Digest: KMJecxcPGEDg2yT4ELFziMxnawc=
+
+Name: org/eclipse/papyrus/diagram/common/actions/ShowHideContentsActio
+ n$CustomComparator.class
+SHA1-Digest: bCycI5wzcUIuxxpfJAVxP9Doqv0=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/StereotypePropert
+ iesCompartment.class
+SHA1-Digest: ag+xz0pFsWWjUPVKOSpBPCW+gJg=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$30.class
+SHA1-Digest: K9ZcsuKrbqgrBFnWU5xwr9gFpFU=
+
+Name: org/eclipse/papyrus/diagram/common/draw2d/anchors/LifelineAnchor
+ .class
+SHA1-Digest: zI3SPsPCz25RK52rC01QMMJzrwM=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/SemanticPostA
+ ction$AttributeEditingSupport.class
+SHA1-Digest: K4itJxWcQBmGvgftBnidnTUVBX4=
+
+Name: org/eclipse/papyrus/diagram/common/editparts/NamedElementEditPar
+ t.class
+SHA1-Digest: dmtnbZ5G2QIrbVAyDczqzU9rCkk=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$13.class
+SHA1-Digest: v5tKjqlD5MnrD+hefoU5XFjECHM=
+
+Name: org/eclipse/papyrus/diagram/common/dialogs/IWizardModelElementPr
+ ovider.class
+SHA1-Digest: vQye0Xa0IOBjgbgftXmPHxFrXqQ=
+
+Name: org/eclipse/papyrus/diagram/common/providers/assistant/Assistant
+ CustomizeEditPart.class
+SHA1-Digest: IcgWZ6otZwJWxAIJqZ0MPT/Uk/U=
+
+Name: org/eclipse/papyrus/diagram/common/helper/CleanDiagramHelper.cla
+ ss
+SHA1-Digest: XmM9/MejKTIIPGn267vrV+AS8lo=
+
+Name: icons/profile.gif
+SHA1-Digest: 2BrPAL4VTeHCF1D6WzqNb55JVzE=
+
+Name: org/eclipse/papyrus/diagram/common/parser/structural/UMLStructur
+ alFeatureParser.class
+SHA1-Digest: 14fDw6LZUoKFsORxf+LVhyFbuFo=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$7.class
+SHA1-Digest: APbXTSsAjDNGzUM9bDBUNQJm9L8=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/ExtendedDirectEd
+ itPolicy$1.class
+SHA1-Digest: WSJavPFEFZ4821RsW/Lf5771Gvk=
+
+Name: icons/obj16/Collaboration.gif
+SHA1-Digest: joAyNe0FUNjFurSpW6jRlkSmoU8=
+
+Name: icons/obj16/Continuation.gif
+SHA1-Digest: kTsD2Ev/Rs7Y3aTua30zjXy4zjA=
+
+Name: icons/obj16/Association_composite.gif
+SHA1-Digest: ZTetoEronZSzwNrV0jbzaFjv4jQ=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/IMaskManagedLabe
+ lEditPolicy.class
+SHA1-Digest: TRnein6+H4eehmMZWuA5AJ6rrUA=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/CResizableCompar
+ tmentEditPolicy.class
+SHA1-Digest: 4m/J75yNHPNzvaB185VI32nYxlU=
+
+Name: icons/LiteralUnlimitedNatural.gif
+SHA1-Digest: Al+o1xlyc8rZiqr6Q46Lmml/B/o=
+
+Name: org/eclipse/papyrus/diagram/common/parser/lookup/LookupResolverI
+ mpl$1.class
+SHA1-Digest: Kz/mN7vsRpWkSW3CxBYwXowa9Rw=
+
+Name: org/eclipse/papyrus/diagram/common/commands/ShowHideElementsRequ
+ est.class
+SHA1-Digest: SY/bAPdpzgswqXgDCG8NLIUzBL8=
+
+Name: org/eclipse/papyrus/diagram/common/draw2d/LinesBorder.class
+SHA1-Digest: fTnA3ClKj4cghXu/i5yZ31BhRVE=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/StereotypePos
+ tAction.class
+SHA1-Digest: j4prs1RNA0jDuBKEqe5Ujdm0/Dk=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$41.class
+SHA1-Digest: BjJ0ZpaSyK8PWTAxgdE07bMkQRw=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$24.class
+SHA1-Digest: SoFAH4MheH+3UUYWh+eFsqhgQyo=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/OldCommonDiagram
+ DragDropEditPolicy.class
+SHA1-Digest: ZYki85C9D5Hia+PnhHO8Nvz4r+4=
+
+Name: icons/obj16/message_info.gif
+SHA1-Digest: Jp6jc3eHNNEwzbCLjn7smofN+VY=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: icons/obj16/UseCase.gif
+SHA1-Digest: V7dsnxGb1m7zNBUPoZIRCNUZpZ0=
+
+Name: org/eclipse/papyrus/diagram/common/util/BasicEcoreSwitch.class
+SHA1-Digest: kFXgwmp1XqJTELyLJzfw8CZiq9o=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/HyperlinkDo
+ cument.class
+SHA1-Digest: re3xDMmV6zRVtXqeGSkxg/C85+c=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/StereotypeAsp
+ ectActionProvider.class
+SHA1-Digest: 7qAe7OTN05Lt8O8XcVXTa5SXwZc=
+
+Name: org/eclipse/papyrus/diagram/common/parser/custom/OnlyStereotypes
+ NamesParser.class
+SHA1-Digest: cRTQMIPJoE/U6DuaVqIBm4K8Hxg=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/ShapeNamedElement
+ Figure$ShapeLayoutManager.class
+SHA1-Digest: Ae7Fb3tCEHfYTd5/55fAXsjNXXI=
+
+Name: icons/stack.gif
+SHA1-Digest: J08i2rueFvxIsJ1Z9BgktWZSpEE=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/AbstractHyp
+ erLinkManagerShell.class
+SHA1-Digest: pPW7j7xrQBhI2NCmfDHjIxmfCmk=
+
+Name: org/eclipse/papyrus/diagram/common/draw2d/PileLayout$2.class
+SHA1-Digest: 3qU2LWMoX6rnM6lFuv5BYn/2Dac=
+
+Name: org/eclipse/papyrus/diagram/common/sheet/UMLPropertySection.clas
+ s
+SHA1-Digest: UPufxcls/y7jsb73/0lYFj74jEY=
+
+Name: org/eclipse/papyrus/diagram/common/ui/dialogs/PropertyEditors$In
+ tegerValidator.class
+SHA1-Digest: SZI4CnIv5WmeKxZY2kz3blvZKWc=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/StereotypePos
+ tAction$RuntimePropertiesDialog$2.class
+SHA1-Digest: L65u7zyJH/TCeJBrdsZjxj1Khd8=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/BorderItemResiza
+ bleEditPolicy.class
+SHA1-Digest: hSvkkI4X9fZhV/rt4uYIJUqTMPY=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/HyperLinkMa
+ nagerShell$3.class
+SHA1-Digest: ix7vbIZ9+bwoLZSzUksPJxy/UKw=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$52.class
+SHA1-Digest: uElG7qoO2mm0N0XRNSiTGjUvuLE=
+
+Name: org/eclipse/papyrus/diagram/common/part/PapyrusPaletteCustomizer
+ .class
+SHA1-Digest: BUneEezWb55Z5tEmus20qwnk3NI=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$35.class
+SHA1-Digest: 2uSTg6/VhAI5p+e96alKTOqiOII=
+
+Name: org/eclipse/papyrus/diagram/common/command/wrappers/GMFtoEMFComm
+ andWrapper.class
+SHA1-Digest: wo20vcOQdCDHxlCRpvMGQwrsr3U=
+
+Name: icons/obj16/DurationObservation.gif
+SHA1-Digest: Le8AutYoR/7DAvoO4ZXmryd0Yfo=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$18.class
+SHA1-Digest: kL1yVke1AyM2z2sifqzG8JN2PYQ=
+
+Name: org/eclipse/papyrus/diagram/common/providers/ValidationDecorator
+ Provider$StatusDecorator$1.class
+SHA1-Digest: Cr7Sxp1sd2yBANJvFFxozKwxWB8=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/EditorHyper
+ linkDiagramShell$1.class
+SHA1-Digest: 1Dun8RsMwCoDJGdf4ECWzeOHrt0=
+
+Name: org/eclipse/papyrus/diagram/common/commands/PapyrusDuplicateView
+ sCommand.class
+SHA1-Digest: FQDlRSNzEomNutihDJeij5OKibc=
+
+Name: org/eclipse/papyrus/diagram/common/dialogs/SelectModelElementsFo
+ rDiagramDialog$1.class
+SHA1-Digest: JUf/IIpSDJ+CriPttZ0Xc9ICpps=
+
+Name: plugin.properties
+SHA1-Digest: 4AOdnw0S+XxawlD7GLYNn9ZL6cI=
+
+Name: icons/papyrus/PapyrusLogo256x256.gif
+SHA1-Digest: CDdgSCWMdgwy2KMYFmyv3Tq7HRA=
+
+Name: icons/obj16/Region.gif
+SHA1-Digest: 0JjMeHM7SMOF1GRNXH7vR+2weO4=
+
+Name: org/eclipse/papyrus/diagram/common/commands/ShowHideConnectionLa
+ belsRequest.class
+SHA1-Digest: 0OOVLqX509/hBfwkUulNjj89xbU=
+
+Name: icons/obj16/Realization.gif
+SHA1-Digest: yU5XBm6dcBdT0g4F4q5GCTkVx4U=
+
+Name: org/eclipse/papyrus/diagram/common/actions/ValidationAction$1.cl
+ ass
+SHA1-Digest: xl3dp05alojpJbSDoE9IoVneIyU=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/PropertyRepre
+ sentation.class
+SHA1-Digest: IIv3WZWbes5M9+r4dU66AKkxm78=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$80.class
+SHA1-Digest: RKmjTISV6zhmAc/m1Puy+nuzbDc=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/DisplayApplie
+ dStereotypePostAction.class
+SHA1-Digest: XezwK0NlVOLCa4qq69PuV1IT88E=
+
+Name: org/eclipse/papyrus/diagram/common/sheet/ReferenceComboAndDialog
+ CellEditor$3.class
+SHA1-Digest: n63kGkrC3P7vABGxhjMH9QwkA+Y=
+
+Name: schema/modelToEditorMap.exsd
+SHA1-Digest: Kdp2jRjKEum3S17rxe2fgjNgyWc=
+
+Name: plugin.xml
+SHA1-Digest: IR8WCP6EmBKIlDU4oc9JpfgoRGA=
+
+Name: icons/obj16/Slot.gif
+SHA1-Digest: BENUR43aEUzvXjOahGtKcfdKEuQ=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$63.class
+SHA1-Digest: aZcOO12TN6Py/OLv2ERpf1v6huc=
+
+Name: org/eclipse/papyrus/diagram/common/commands/CreateHyperLinkDiagr
+ amCommand.class
+SHA1-Digest: XoSLYzdUfJwI78/nR88/7gObUPk=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$46.class
+SHA1-Digest: JtKT50DwPaLXCYKeEKVPHctDDX8=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/DefaultHype
+ rLinkTab$2.class
+SHA1-Digest: fGvfYeDuVPznloa2xDql+5CgNEg=
+
+Name: org/eclipse/papyrus/diagram/common/draw2d/PileLayout.class
+SHA1-Digest: fUCnHwcQJpSP/T23dG4BUQhsmHQ=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$110.class
+SHA1-Digest: 4hPvTB0YNWY4xun9XIiEyFmvCso=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/AbstractEdi
+ tHyperlinkShell.class
+SHA1-Digest: FULN3xS6YeD1wsbD3zN0idY/3HA=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$29.class
+SHA1-Digest: r1pNQfUkQeOcnLQ0z9BOaFupnTo=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/HTMLCommentParser
+ $EmptyNodeList.class
+SHA1-Digest: xRruOPM7T601KKFnl6Q9qmpjNFE=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/InterfaceFigure.c
+ lass
+SHA1-Digest: GCIlXtM0GCmeCuG0gVupRpkMdyE=
+
+Name: org/eclipse/papyrus/diagram/common/providers/IModelTypesProvider
+ .class
+SHA1-Digest: 3DmIzaKc/P/n/oy2ZPM/WqhiZU0=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/ShapeNamedElement
+ Figure.class
+SHA1-Digest: 5M2+NiM7dJNF1/S/oB8UBy8SGgc=
+
+Name: org/eclipse/papyrus/diagram/common/layout/DistributionTree.class
+SHA1-Digest: ou695QRcTjEOCi8oQHhurXBXDt4=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/Configuration
+ .class
+SHA1-Digest: IaUGTplubYJokt7XpLoklATlLkg=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$91.class
+SHA1-Digest: TjznvS7FzQVpvEuUr9qWyA4Cl9k=
+
+Name: org/eclipse/papyrus/diagram/common/parser/ConstraintParser.class
+SHA1-Digest: Kacc0U27tVy9ktbJSsfm+ET4mu0=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$74.class
+SHA1-Digest: IXrIA6/OPLXabQ0XeZmnGHhIJj4=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/StereotypePos
+ tAction$RuntimePropertiesDialog$7.class
+SHA1-Digest: cVvW7r/3SCy3KZH4H/8ttgP59D8=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/IPapyrusUMLElemen
+ tFigure.class
+SHA1-Digest: 2IWdk/h1OzCRUdRblBUW8CMDuYM=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$57.class
+SHA1-Digest: x1fz8zlsEluoeXpQYJhQEN+/mK8=
+
+Name: icons/obj16/ReceiveOperationEvent.gif
+SHA1-Digest: 5CdWObZGDEPCBOfMck/K4oLaXjo=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/AssociationEn
+ dPostAction.class
+SHA1-Digest: MCTWnxTtr1GykkYH1lf+JKbOKP4=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$121.class
+SHA1-Digest: 5vldRghTDbXR3MTvYUEh0Ay5gFw=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/RoundedRectangleD
+ ashedShadowBorder.class
+SHA1-Digest: IxdjqwJIz7+0L6RL3BMWbrQm4R0=
+
+Name: icons/obj16/MessageOccurrenceSpecification.gif
+SHA1-Digest: AeOR7Gn6RawjdZ6O1e0NOhI4xv0=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$104.class
+SHA1-Digest: UXzM9l8OJsI+S4wG+iUXh0lWVKE=
+
+Name: org/eclipse/papyrus/diagram/common/actions/handlers/ClipboardAct
+ ionHandler$1.class
+SHA1-Digest: w0zav91fiPmh+Y0wsWetj3S8aMM=
+
+Name: icons/tools_shown.gif
+SHA1-Digest: /cDYtgpMpwE6CalF4KLRGKMP6IM=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/ViewResolver.cla
+ ss
+SHA1-Digest: CC/2pnd1ACbr+XKMHeGxCt8u4kw=
+
+Name: org/eclipse/papyrus/diagram/common/service/InheritedDecorator$1.
+ class
+SHA1-Digest: r1Kftny4vuZ5kgbM3lFv4g8sj/0=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/InitialNode.class
+SHA1-Digest: GvVuk0G7Gop7nQmwu0ncyUKjmdU=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AbstractActionState
+ SourceProvider$1.class
+SHA1-Digest: rcQrUScJGwsL3EpLWrC4CLORvR8=
+
+Name: org/eclipse/papyrus/diagram/common/part/CachedResourcesDocumentP
+ rovider$CachedResourceSetInfo$SynchronizerDelegate$2.class
+SHA1-Digest: /YNq9qEc5twXgX5rKcoEzmHYoQk=
+
+Name: org/eclipse/papyrus/diagram/common/part/PaletteMenuAction.class
+SHA1-Digest: fnT6C4hQdqGjemTr5gMG1kKuf3U=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$85.class
+SHA1-Digest: WvUE6RUlGWogfREjpc5SiLPM+N4=
+
+Name: org/eclipse/papyrus/diagram/common/service/XMLPaletteProviderCon
+ figuration$EditorDescriptor.class
+SHA1-Digest: b24OlR0XxWMnIkEd6pX3wtgiBhY=
+
+Name: org/eclipse/papyrus/diagram/common/util/DiagramEditPartsUtil.cla
+ ss
+SHA1-Digest: rzqAQlvn6pNCJWSkoyZ53BzuXa8=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/SignalFigure$1.cl
+ ass
+SHA1-Digest: ZzlZaDS2Vq+1WSwz9G25zJN9CBY=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$68.class
+SHA1-Digest: 9sdgU7faYquqUKBz8XePwqSirY4=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$132.class
+SHA1-Digest: V+OoG3wrI2sA43P4AO9ar1/hELM=
+
+Name: icons/obj16/ComponentRealization.gif
+SHA1-Digest: U84eyUixOUyhTZzewCdKgHy1QP0=
+
+Name: org/eclipse/papyrus/diagram/common/part/UMLDiagramActionBarContr
+ ibutor.class
+SHA1-Digest: danNWBYniNAW4WiI0E+sQlVBp5k=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$115.class
+SHA1-Digest: yQlb6K0qYsLa01nXs4N+3cQf/6M=
+
+Name: org/eclipse/papyrus/diagram/common/service/PluginPaletteProvider
+ .class
+SHA1-Digest: lWsEQ/E31+9UQveeodYJVhUv82o=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/DefinedProper
+ tiesAtRuntimeDialog$1.class
+SHA1-Digest: P3QOq6p/E8zxVBdTrlY9XLCaxfw=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/FlowFinalNode.cla
+ ss
+SHA1-Digest: P473EoRDjwSq2zM0rKIK8IscSnI=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/HyperLinkEx
+ ception.class
+SHA1-Digest: eEdAoagwlzM8aOcq8U9ogT8MBHY=
+
+Name: icons/obj16/file.gif
+SHA1-Digest: W/g5aAjqkO1zHdTBnZSe7zOvamA=
+
+Name: icons/obj16/AcceptCallAction.gif
+SHA1-Digest: Dp3S8l/QCTg53GLw7tOjTTz5Qfw=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$96.class
+SHA1-Digest: hHolVP4gvNJGZLuExd4a2TOmslw=
+
+Name: icons/obj16/ExecutionEvent.gif
+SHA1-Digest: z9Vhrdvn5fFUsAEzwWKyE6kGezU=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$160.class
+SHA1-Digest: 7yaCkIwvYiI1V2pftaNHQAq8dLI=
+
+Name: icons/obj16/Parameter_inout.gif
+SHA1-Digest: tQ7WY2OnNYnChJoaK68dz5BvhKs=
+
+Name: org/eclipse/papyrus/diagram/common/parser/structural/UMLAbstract
+ Parser.class
+SHA1-Digest: 2/21QBsCiXlrQjFqIaLLasKisys=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$79.class
+SHA1-Digest: 1A5lpvT+98MLwzFAlMd5aCMBO+Q=
+
+Name: org/eclipse/papyrus/diagram/common/providers/MOSKittEditorFactor
+ y.class
+SHA1-Digest: dEx0Uq7TDviO6g6XEsJrMMNoDrw=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/AffixedNamedEleme
+ ntFigure.class
+SHA1-Digest: mfsP6qkBz7WYoqeInEehbylc5a0=
+
+Name: icons/label_role/role.gif
+SHA1-Digest: AUp3HbEow/mnpvIuqJNKLtWbkS4=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$143.class
+SHA1-Digest: Y7FdB+QzlgYy6OR6SWNbTp2ds+Y=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AbstractActionState
+ SourceProvider.class
+SHA1-Digest: pfwrQm/w59M3U3JHjRS3abzKEHU=
+
+Name: icons/arrow_right.gif
+SHA1-Digest: SUSocWQGQBuR4g6KB7Ttf3f3Kss=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/DuplicatePasteEd
+ itPolicy.class
+SHA1-Digest: Ql2WKr1XwoThsm/JAqmjbMligx0=
+
+Name: org/eclipse/papyrus/diagram/common/parser/lookup/LookupResolveRe
+ quest.class
+SHA1-Digest: UrqFq3E/X6laWA4eg4VU0fJHw8Q=
+
+Name: org/eclipse/papyrus/diagram/common/OverlayVisibilityIcon.class
+SHA1-Digest: Rqv5AlXHRXq4M7W3fYWxc651o1M=
+
+Name: icons/obj16/ActivityParameterNode.gif
+SHA1-Digest: 3/Jv6uME82cFBkNLp3i7l2nxfUQ=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$126.class
+SHA1-Digest: YRfHFQ5A1wytuBXc5pbCyvuCuQA=
+
+Name: org/eclipse/papyrus/diagram/common/service/XMLDefinitionPaletteF
+ actory.class
+SHA1-Digest: 75SK/NYUgYYuBQeoP1rVbQipiG0=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$109.class
+SHA1-Digest: cWyT7NwD6+t9ylERf9eCQ8p2e50=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/AssociationEn
+ dPostAction$1.class
+SHA1-Digest: tth3+Xh2BtNZO4SQ2gTXsH2y2y4=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/AssociationNodeFi
+ gure.class
+SHA1-Digest: uPvI6m0Haa5/lSafadOujlAfWoY=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/DefaultHype
+ rLinkTab.class
+SHA1-Digest: 2xQCN6wbiJWF17S0QYYkxfp6M7Y=
+
+Name: icons/drawers_shown.gif
+SHA1-Digest: 5TF7ftfUsp4Z3KdTaSlgyQoFpuk=
+
+Name: icons/obj16/ExecutionOccurrenceSpecification.gif
+SHA1-Digest: onVKYaLNHxH/P/aKfRG1U2/4Rp4=
+
+Name: org/eclipse/papyrus/diagram/common/editparts/ResizeableListCompa
+ rtmentEditPart.class
+SHA1-Digest: KR1Etm1uNH949L9WVHPdR7xXYUI=
+
+Name: org/eclipse/papyrus/diagram/common/editparts/UMLCompartmentEditP
+ art.class
+SHA1-Digest: GXj32ECfP6hmgnvy/tnT9Cs+R3s=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/StereotypePos
+ tAction$ProfileContentProvider.class
+SHA1-Digest: vYZ6ltqprxKeABjeRr6gMU7OoeI=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$171.class
+SHA1-Digest: BNYvc5CwYDuWRydgi5Nhv7nKFnQ=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/LocalDefaul
+ tLinkDiagramTab.class
+SHA1-Digest: nOSt7joveC5IeqGWc8PTVqmH5uU=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$154.class
+SHA1-Digest: NzssYWRcEM1KLlYEF3WFu4n9O/4=
+
+Name: icons/distibute_vertically.gif
+SHA1-Digest: +/+PngaM4x9XowluA40w+LLrPK0=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/EditorHyper
+ linkWebShell$1.class
+SHA1-Digest: quBlcucuUtO9NAkcte8d/3zfncw=
+
+Name: icons/new_drawer_wiz.png
+SHA1-Digest: U4M/RsZreBrI8rNs5fWCyfWiERk=
+
+Name: org/eclipse/papyrus/diagram/common/editparts/AbstractBorderEditP
+ art.class
+SHA1-Digest: zQbNUe5fNxfgn/vDBhYAlpM8m3Q=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$137.class
+SHA1-Digest: rbs7JKjG2fU8MIUXwW3Pk2/0DDs=
+
+Name: icons/obj16/InterfaceRealization.gif
+SHA1-Digest: mVn5ASQ8hCDqwWPqPLl/OwlsT4c=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/StereotypePos
+ tAction$3.class
+SHA1-Digest: CX2GEfZUUAhAc1PoS5imu1kwwas=
+
+Name: org/eclipse/papyrus/diagram/common/parser/lookup/DefaultOclLooku
+ ps.class
+SHA1-Digest: 5Hzoiv8jb71zlr81v70ktitlD4g=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/InstanceSpecifica
+ tionFigure$1.class
+SHA1-Digest: zDktYVrSiI/y6V+oAkRtIRukQYQ=
+
+Name: org/eclipse/papyrus/diagram/common/providers/IModelTypesProvider
+ Factory.class
+SHA1-Digest: 43vkn7ZHFrCHPiWWF7I8H9QY2k8=
+
+Name: org/eclipse/papyrus/diagram/common/ui/dialogs/AbstractChooseElem
+ ent$1.class
+SHA1-Digest: dLiz7kwoMm1lyQMjEcJfM0jEObw=
+
+Name: org/eclipse/papyrus/diagram/common/ui/dialogs/PropertyEditors$Un
+ limitedNaturalValidator.class
+SHA1-Digest: nBeLbXB5FjDcNnWiYiI75BucDeE=
+
+Name: org/eclipse/papyrus/diagram/common/part/UmlGmfDiagramEditor.clas
+ s
+SHA1-Digest: vIyGmFGMhPzZPyBnHX86Nt/v2bA=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$182.class
+SHA1-Digest: YaCT8Sm+xEHGY5J4cIAIZr2Au7k=
+
+Name: icons/obj16/SendSignalAction.gif
+SHA1-Digest: suUeJyxOKyTcxs0IN6vZT8k1OwE=
+
+Name: org/eclipse/papyrus/diagram/common/providers/BaseModelTypeProvid
+ er.class
+SHA1-Digest: pCe4ga9z4clDT+6ug9JVRRnao28=
+
+Name: icons/local_desc_edit.gif
+SHA1-Digest: gp/lAOry0c9mS2ZbvjRG9CDbUk0=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/HyperLinkPopupBa
+ rEditPolicy$PopupBarLabelPlusHandle.class
+SHA1-Digest: 32INyMy943JW+vljOrZmqMX2ysQ=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$165.class
+SHA1-Digest: f4VL6Wzni6bYnq+B/Kghwe+qmCc=
+
+Name: icons/obj16/OperationTemplateParameter.gif
+SHA1-Digest: 9i9++MVy3rJcpYAyMTuUWHfOZm4=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/AppliedStereotyp
+ eExternalNodeEditPolicy.class
+SHA1-Digest: 09STcSQNlbfN2FlMHnYq8Y46OLs=
+
+Name: org/eclipse/papyrus/diagram/common/actions/ShowHideContentsActio
+ n$CustomEditorLabelProvider.class
+SHA1-Digest: gNiAMg7kx62yBNK7dJuKA6F/Xws=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$148.class
+SHA1-Digest: xLdKjUEYfa43lBLz6r362YB02VU=
+
+Name: org/eclipse/papyrus/diagram/common/util/ViewServiceUtil.class
+SHA1-Digest: jmn+4BBok0snBHZQIMcYLCBzAtU=
+
+Name: org/eclipse/papyrus/diagram/common/ui/helper/CustomPopupDialog.c
+ lass
+SHA1-Digest: 9gEyBOSx1zbWpuXNmDNVk6HTkAk=
+
+Name: icons/obj16/Extension.gif
+SHA1-Digest: 7qOune4vUu1CWe0+GDVq/pCwUF0=
+
+Name: icons/Metaclass.gif
+SHA1-Digest: AQwwe3KouwKT6mRsDUpctCgKevU=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/AspectToolPro
+ viderConfiguration.class
+SHA1-Digest: UvLhi4uYAbn8NMlu7XmCEVPU5Vg=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/SemanticPostA
+ ction$DynamicFeatureEditingSupport.class
+SHA1-Digest: vNdRrcvBDU3c+qU+H9uFaVU10II=
+
+Name: org/eclipse/papyrus/diagram/common/commands/CreateUMLModelComman
+ d.class
+SHA1-Digest: 6GgVlCWfiyEzt9BpnVm2axl+o6Y=
+
+Name: org/eclipse/papyrus/diagram/common/providers/IDiagramInitializer
+ .class
+SHA1-Digest: XsbFhK7o7X4abqiP6m59VaFtNE0=
+
+Name: icons/change_display.gif
+SHA1-Digest: zUZzXRRtecdO63atvZ4XveqZ878=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$193.class
+SHA1-Digest: ey4C5WO7LoQ/wVS+gjnJbVtXVkc=
+
+Name: org/eclipse/papyrus/diagram/common/draw2d/InteractionFigure.clas
+ s
+SHA1-Digest: RSSDocfR/dDNbYMCPQD0xk1wFY8=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$176.class
+SHA1-Digest: ULFddyhGnzGvqSXOIAgMXH60Z0g=
+
+Name: org/eclipse/papyrus/diagram/common/helper/NotificationHelper.cla
+ ss
+SHA1-Digest: Q18hXW3AvIRqRXOnRTgpWy90sDI=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/GraphicalPost
+ Action.class
+SHA1-Digest: QX7Fy4OJEw83rC/J4+7qo7D0arI=
+
+Name: icons/obj16/CallEvent.gif
+SHA1-Digest: 06N1dy4VruBQ+txSuMUWvAdyPW0=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$159.class
+SHA1-Digest: 3VV1w+GH1CzxUrzk7ZchT2X1QGw=
+
+Name: org/eclipse/papyrus/diagram/common/commands/UnapplyAllStereotype
+ sCommand.class
+SHA1-Digest: z1+iD8MnTIl4CtiAyds4MzSlPL0=
+
+Name: icons/obj16/InformationItem.gif
+SHA1-Digest: jYd1Oij5cnFbJgkQLgzPcm0QVSg=
+
+Name: icons/obj16/Comment.gif
+SHA1-Digest: 2QDiD0W8IBMdzq0lI64G5D8/A8Y=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/StereotypePos
+ tAction$8.class
+SHA1-Digest: HGpY4P/9pSx84pwbfajUvaQ4hJo=
+
+Name: org/eclipse/papyrus/diagram/common/parser/structural/UMLAbstract
+ Parser$InvalidValue.class
+SHA1-Digest: iu1e776jusR98kD/UqFSXQBxrL0=
+
+Name: icons/label_role/alias.png
+SHA1-Digest: Z4rIqn9SsEFQHkh/G63p+OXYvf4=
+
+Name: org/eclipse/papyrus/diagram/common/editpolicies/ShowHideRelatedC
+ ontentsEditPolicy.class
+SHA1-Digest: t6c/e5WghGKyFMmgSAIAbrETWBU=
+
+Name: org/eclipse/papyrus/diagram/common/parser/lookup/LookupSuite$1.c
+ lass
+SHA1-Digest: 5bL66ay3KMD4qmdn03FoJ6lGhtE=
+
+Name: org/eclipse/papyrus/diagram/common/commands/RemoveEObjectReferen
+ cesFromDiagram.class
+SHA1-Digest: yWoQQKc++M2UtRvohizykQskC7g=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/ILabelFigure.clas
+ s
+SHA1-Digest: Mcz/yzrijk6ZHgUuvJ+2pb/m+VA=
+
+Name: org/eclipse/papyrus/diagram/common/providers/ValidationDecorator
+ Provider$StatusDecorator.class
+SHA1-Digest: /h18ayYylTBM5EMQHFBI1WpVSqQ=
+
+Name: org/eclipse/papyrus/diagram/common/commands/CreateHyperLinkDocum
+ entCommand.class
+SHA1-Digest: 6esVKguV5+jetX018tbvF99Nrlk=
+
+Name: icons/arrow_up.gif
+SHA1-Digest: nUGy85EowQLrI5hDomzojsZItS4=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/SubCompartmentLay
+ outManager.class
+SHA1-Digest: GSY8hLHgU/Ym9sl1LHkui4aPxRk=
+
+Name: icons/category_uml.gif
+SHA1-Digest: iouZHNYb0c3xy4pywOo4iTfa5rQ=
+
+Name: org/eclipse/papyrus/diagram/common/helper/DocumentHyperLinkHelpe
+ r.class
+SHA1-Digest: 1vjgZzNa3VOmkqZCDn5ZHKWo9Pc=
+
+Name: org/eclipse/papyrus/diagram/common/draw2d/PileLayout$PileConstra
+ int.class
+SHA1-Digest: jafbzfEbMtuSMMpK8Mjur98wjog=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$187.class
+SHA1-Digest: WJRbS1XrFF62XvFujwbOAlIjy5Y=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/ChangeStereot
+ ypeDisplayPostAction$3.class
+SHA1-Digest: 36xL3fh0W/gU1DTMLuOSqNKNG3M=
+
+Name: icons/obj16/ValueSpecificationAction.gif
+SHA1-Digest: c01wfF985tKo2UNTa6cPdkRSrJY=
+
+Name: icons/obj16/InputPin.gif
+SHA1-Digest: 7WYlBTbgXennVfItGimtPl7kG94=
+
+Name: org/eclipse/papyrus/diagram/common/service/palette/SetDynamicVal
+ ueCommand.class
+SHA1-Digest: HeO8Yn5kNZ7/3IBrsaBtbXOdems=
+
+Name: org/eclipse/papyrus/diagram/common/draw2d/LeftToolbarLayout.clas
+ s
+SHA1-Digest: JF8ZPYqksVn8jbsd1LMiSzNrZGU=
+
+Name: icons/obj16/Clause.gif
+SHA1-Digest: WZJ6GIGB45aoYiT53jqJ2utrmSY=
+
+Name: org/eclipse/papyrus/diagram/common/figure/node/NodeNamedElementF
+ igure.class
+SHA1-Digest: fGn/jum0HpmCqNQf11RXaTqpxI8=
+
+Name: org/eclipse/papyrus/diagram/common/providers/ValidationDecorator
+ Provider.class
+SHA1-Digest: LUn08MnKYlXqXF2CtM22evmeeFk=
+
+Name: icons/obj16/UMLDiagramFile.gif
+SHA1-Digest: lWlO5N44xJ/ka7KNcvGQu0s8N5I=
+
+Name: icons/obj16/Parameter_in.gif
+SHA1-Digest: WspUd0tLvfud55oXeK7JWPQ64DI=
+
+Name: icons/autosize.gif
+SHA1-Digest: PdSutq8UFGuttgsntMSCIEf8zWE=
+
+Name: org/eclipse/papyrus/diagram/common/editparts/ClassifierEditPart.
+ class
+SHA1-Digest: beHymnaiB3l+Yt+7Ov80uFJrGEI=
+
+Name: icons/obj16/CollaborationUse.gif
+SHA1-Digest: SzN93xdqi7odkPWrj8I+nQL1mc8=
+
+Name: org/eclipse/papyrus/diagram/common/part/EditingDomainRegistry.cl
+ ass
+SHA1-Digest: 2NkzBynHnmWUg8JDiAW4CQ/vXsU=
+
+Name: icons/obj16/ReadLinkAction.gif
+SHA1-Digest: 1Wh77Kq2GoPLSP8u9DgQozoxpgM=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$198.class
+SHA1-Digest: 2bgbXwHisjkD+xE5i5Jqb0OcB/A=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/AbstractLoo
+ kForDiagramShell.class
+SHA1-Digest: oKYxW+fSZX3RobGJnv3bZ9B1Z7I=
+
+Name: icons/obj16/Pseudostate_shallowHistory.gif
+SHA1-Digest: +ee22lf/ZpzW1hTYtq1kkTH5qKY=
+
+Name: org/eclipse/papyrus/diagram/common/providers/assistant/Exclude.c
+ lass
+SHA1-Digest: dPxkPrGLrBmJLOM8KIhrAuAjgkM=
+
+Name: icons/obj16/LiteralInteger.gif
+SHA1-Digest: 8ZulhO+jLVrxbKwSnjIGkvNPBVs=
+
+Name: org/eclipse/papyrus/diagram/common/parser/custom/AbstractAssocia
+ tionEndParser.class
+SHA1-Digest: 07vXuHkNyKpaxsmaT5nzxsaj2oE=
+
+Name: org/eclipse/papyrus/diagram/common/sheet/ReferenceElementChooser
+ Dialog.class
+SHA1-Digest: kygSOxNvRSyPBuVuXOlCxGWx90A=
+
+Name: org/eclipse/papyrus/diagram/common/ui/dialogs/ElementChooseDialo
+ g$4.class
+SHA1-Digest: r5UwFssevO4oYulZFk8bdNdUSac=
+
+Name: org/eclipse/papyrus/diagram/common/ui/hyperlinkshell/EditorLookF
+ orDiagram$1.class
+SHA1-Digest: ZRbwm5yEDqTKZgSu09yTWYNC1FE=
+
+Name: icons/vertical_by_bottom.gif
+SHA1-Digest: C9shfKpG1TD0/04Y7SVcZJDRbnY=
+
+Name: icons/obj16/TemplateBinding.gif
+SHA1-Digest: BATmIOeUTdQFz2WpvSFAstLiRIQ=
+
+Name: org/eclipse/papyrus/diagram/common/providers/AlternativeUMLItemP
+ roviderAdapterFactory$11.class
+SHA1-Digest: Uhh0axs67uVAgwa+FgdihMSyw+g=
+

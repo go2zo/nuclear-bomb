@@ -1,0 +1,117 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.papyrus.layouttool;singleton:=true
+Require-Bundle: org.eclipse.ui;bundle-version="[3.7.0,4.0.0)",org.ecli
+ pse.core.runtime;bundle-version="[3.7.0,4.0.0)",org.eclipse.gef;bundl
+ e-version="[3.7.0,4.0.0)",org.eclipse.zest.layouts;bundle-version="[1
+ .1.0,2.0.0)",org.eclipse.core.expressions;bundle-version="[3.4.0,4.0.
+ 0)"
+Bundle-Activator: org.eclipse.papyrus.layouttool.Activator
+Bundle-Version: 0.8.0.v201106151827
+Export-Package: org.eclipse.papyrus.layouttool,org.eclipse.papyrus.lay
+ outtool.managealgorithms
+Ant-Version: Apache Ant 1.7.1
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/papyrus/layouttool/LayoutToolToolbar.class
+SHA1-Digest: YzhylKQDp5+7AGwLNwU71XLYcgE=
+
+Name: org/eclipse/papyrus/layouttool/LayoutTool.class
+SHA1-Digest: NyE9zWXPTHi4XdHB1OFr5+MOFWY=
+
+Name: plugin.properties
+SHA1-Digest: 8MVhWNvwsgr3uW/yGoFQ9mBlSGU=
+
+Name: org/eclipse/papyrus/layouttool/LayoutToolToolbar$1.class
+SHA1-Digest: doEaXVqrU690qo4ND8U+QrMYqDg=
+
+Name: org/eclipse/papyrus/layouttool/LayoutToolToolbar$2.class
+SHA1-Digest: ogn4l2yMzul9N8nYeNYXFtCQabc=
+
+Name: org/eclipse/papyrus/layouttool/LayoutToolToolbar$3.class
+SHA1-Digest: 8ocn2iM7QnE9Hxe6JNGv6bJbsXY=
+
+Name: org/eclipse/papyrus/layouttool/LayoutToolAlgorithms.class
+SHA1-Digest: cLYCioHN9/y/dMc40/rh5DMNkr0=
+
+Name: org/eclipse/papyrus/layouttool/LayoutToolToolbar$4.class
+SHA1-Digest: S4or8UyQwGBEaQ4ed5/3LyYrxk0=
+
+Name: org/eclipse/papyrus/layouttool/LayoutToolToolbar$5.class
+SHA1-Digest: YMZGKKr2KdZA+U45vuUO3ft6PMw=
+
+Name: org/eclipse/papyrus/layouttool/LayoutToolToolbar$6.class
+SHA1-Digest: cx38QyGAV6PbxcKnLKmMXJPOlR8=
+
+Name: icons/sample.gif
+SHA1-Digest: AFju2Q2+1Vh+Fu1wE08m60Jwc0g=
+
+Name: org/eclipse/papyrus/layouttool/LayoutToolToolbar$7.class
+SHA1-Digest: 9s4RWbhtO9xbL4yKISZXwTZilTg=
+
+Name: org/eclipse/papyrus/layouttool/managealgorithms/ZestAlgortihms.c
+ lass
+SHA1-Digest: YAl/uovsKD9T83cZ+PTIlg2Wl/M=
+
+Name: org/eclipse/papyrus/layouttool/LayoutToolToolbar$8.class
+SHA1-Digest: 7BTsbNgFfzRMeZ8kizBoTW9ncDA=
+
+Name: plugin.xml
+SHA1-Digest: ckRcMeHL++JYJgHRvR21L7ZtHs8=
+
+Name: org/eclipse/papyrus/layouttool/Activator.class
+SHA1-Digest: BEUNMFG92h9t6mscpbFIeqG5dyE=
+
+Name: org/eclipse/papyrus/layouttool/LayouttoolInterface.class
+SHA1-Digest: bSjemRAFcFHZyDJYLKXXI0bfukE=
+
+Name: org/eclipse/papyrus/layouttool/managealgorithms/ZestAlgortihms$1
+ .class
+SHA1-Digest: pflBsSwifJXNO6QogyiI5rt0QT0=
+
+Name: icons/layout_area.gif
+SHA1-Digest: kVHAXn8muoZzWacFX3XMO7Y9Qxc=
+
+Name: org/eclipse/papyrus/layouttool/LayoutToolExtensionPointManager.c
+ lass
+SHA1-Digest: J/QEIK1l53MLPdS82ku0DEBFBxM=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/papyrus/layouttool/LayouttoolController.class
+SHA1-Digest: JyWOt22kS6I3ZdX6tZXt6/s4pZI=
+
+Name: org/eclipse/papyrus/layouttool/managealgorithms/AlgorithmFactory
+ .class
+SHA1-Digest: qseUGatpHhZSV9tXS/hhlxuxl5A=
+
+Name: icons/compare_view.gif
+SHA1-Digest: kesB9CSdkPuw3UWIkRQyMmt1YeM=
+
+Name: org/eclipse/papyrus/layouttool/EditorPropertyTester.class
+SHA1-Digest: dPwpZAbE1k/0dGarh/OwKkdPu8I=
+
+Name: about.html
+SHA1-Digest: SghNuLOZ1xBD4DWkMOOVaXIW1tk=
+
+Name: icons/layoutIcon.gif
+SHA1-Digest: ekyrmPaHEkWDdyFd0iW0ei54QTM=
+
+Name: org/eclipse/papyrus/layouttool/LayoutToolAreaInterface.class
+SHA1-Digest: mdYqgfIVI2pNAadQW6k5f/J2X4M=
+
+Name: schema/org.eclipse.papyrus.layouttool.exsd
+SHA1-Digest: GzhCvrN7pIu7irBhjPGc1iRsLIQ=
+
+Name: schema/org.eclipse.papyrus.layouttool.algorithms.exsd
+SHA1-Digest: rlrnnc25jL6xsGmxaAAzE2hn9tw=
+
+Name: org/eclipse/papyrus/layouttool/utils/Constants.class
+SHA1-Digest: f9tXWG0BZbKy/Ju72PnYXNCClh0=
+

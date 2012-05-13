@@ -1,0 +1,1761 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.papyrus.diagram.communication; single
+ ton:=true
+Eclipse-LazyStart: true
+Require-Bundle: org.eclipse.ui;bundle-version="[3.7.0,4.0.0)",org.ecli
+ pse.core.runtime;bundle-version="[3.7.0,4.0.0)",org.eclipse.emf.ecore
+ ;bundle-version="[2.7.0,3.0.0)",org.eclipse.core.resources;bundle-ver
+ sion="[3.7.0,4.0.0)",org.eclipse.core.expressions;bundle-version="[3.
+ 4.0,4.0.0)",org.eclipse.ui.ide;bundle-version="[3.7.0,4.0.0)",org.ecl
+ ipse.ui.views;bundle-version="[3.6.0,4.0.0)",org.eclipse.ui.navigator
+ ;bundle-version="[3.5.0,4.0.0)",org.eclipse.ui.navigator.resources;bu
+ ndle-version="[3.4.0,4.0.0)",org.eclipse.emf.ecore.xmi;bundle-version
+ ="[2.7.0,3.0.0)",org.eclipse.emf.edit.ui;bundle-version="[2.7.0,3.0.0
+ )",org.eclipse.gmf.runtime.emf.core;bundle-version="[1.4.0,2.0.0)",or
+ g.eclipse.gmf.runtime.emf.commands.core;bundle-version="[1.4.0,2.0.0)
+ ",org.eclipse.gmf.runtime.emf.ui.properties;bundle-version="[1.5.0,2.
+ 0.0)",org.eclipse.gmf.runtime.diagram.ui;bundle-version="[1.5.0,2.0.0
+ )",org.eclipse.gmf.runtime.diagram.ui.properties;bundle-version="[1.4
+ .0,2.0.0)",org.eclipse.gmf.runtime.diagram.ui.providers;bundle-versio
+ n="[1.5.0,2.0.0)",org.eclipse.gmf.runtime.diagram.ui.providers.ide;bu
+ ndle-version="[1.2.0,2.0.0)",org.eclipse.gmf.runtime.diagram.ui.rende
+ r;bundle-version="[1.4.0,2.0.0)",org.eclipse.gmf.runtime.diagram.ui.r
+ esources.editor;bundle-version="[1.4.0,2.0.0)",org.eclipse.gmf.runtim
+ e.diagram.ui.resources.editor.ide;bundle-version="[1.2.0,2.0.0)",org.
+ eclipse.uml2.uml;visibility:="reexport";bundle-version="[3.2.0,4.0.0)
+ ",org.eclipse.uml2.uml.edit;visibility:="reexport";bundle-version="[3
+ .1.0,4.0.0)",org.eclipse.papyrus.ui.toolbox;bundle-version="[0.8.0,1.
+ 0.0)",org.eclipse.ocl.ecore;visibility:="reexport";bundle-version="[3
+ .1.0,4.0.0)",org.eclipse.papyrus.core.adaptor.gmf;bundle-version="0.8
+ .0",org.eclipse.papyrus.diagram.common;bundle-version="0.8.0",org.ecl
+ ipse.papyrus.preferences;bundle-version="[0.8.0,1.0.0)",org.eclipse.p
+ apyrus.editor;bundle-version="0.8.0",org.eclipse.uml2.uml.resources;b
+ undle-version="3.0.0",org.eclipse.papyrus.extensionpoints.editors;bun
+ dle-version="[0.8.0,1.0.0)",org.eclipse.jface;bundle-version="[3.7.0,
+ 4.0.0)",org.eclipse.emf.ecore.edit;visibility:="reexport";bundle-vers
+ ion="[2.7.0,3.0.0)",org.eclipse.emf.validation;visibility:="reexport"
+ ;bundle-version="[1.4.0,2.0.0)",org.eclipse.gef;bundle-version="[3.7.
+ 0,4.0.0)",org.eclipse.draw2d;visibility:="reexport";bundle-version="[
+ 3.7.0,4.0.0)",org.eclipse.gmf.runtime.draw2d.ui;visibility:="reexport
+ ";bundle-version="[1.5.0,2.0.0)"
+Bundle-Activator: org.eclipse.papyrus.diagram.communication.part.UMLDi
+ agramEditorPlugin
+Export-Package: org.eclipse.papyrus.diagram.communication,org.eclipse.
+ papyrus.diagram.communication.custom.commands,org.eclipse.papyrus.dia
+ gram.communication.custom.edit.parts,org.eclipse.papyrus.diagram.comm
+ unication.custom.edit.policies,org.eclipse.papyrus.diagram.communicat
+ ion.custom.factory,org.eclipse.papyrus.diagram.communication.custom.f
+ igures,org.eclipse.papyrus.diagram.communication.custom.helper,org.ec
+ lipse.papyrus.diagram.communication.custom.parser,org.eclipse.papyrus
+ .diagram.communication.custom.policies.itemsemantic,org.eclipse.papyr
+ us.diagram.communication.custom.providers,org.eclipse.papyrus.diagram
+ .communication.edit.commands,org.eclipse.papyrus.diagram.communicatio
+ n.edit.helpers,org.eclipse.papyrus.diagram.communication.edit.parts,o
+ rg.eclipse.papyrus.diagram.communication.edit.policies,org.eclipse.pa
+ pyrus.diagram.communication.expressions,org.eclipse.papyrus.diagram.c
+ ommunication.navigator,org.eclipse.papyrus.diagram.communication.pars
+ ers,org.eclipse.papyrus.diagram.communication.part,org.eclipse.papyru
+ s.diagram.communication.preferences,org.eclipse.papyrus.diagram.commu
+ nication.providers
+Bundle-Version: 0.8.0.v201106151827
+Ant-Version: Apache Ant 1.7.1
+Bundle-ClassPath: .
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+Import-Package: org.eclipse.papyrus.diagram.communication.custom.edit.
+ policies,org.eclipse.papyrus.diagram.communication.custom.helper,org.
+ eclipse.papyrus.service.edit.service
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/ConstraintC
+ onstrainedElementEditPart$CommentLinkDescriptor.class
+SHA1-Digest: 1BceroMl1hAF7OWOV8RDwOCO1DU=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/AppliedSter
+ eotypeMessageEditPart$4.class
+SHA1-Digest: ruyVgWkgQSOe9cz/wgE3VJf54Dc=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/TimeObserva
+ tionNameEditPartCN$1$1.class
+SHA1-Digest: Z+1GzJ//55P11MQ6MWlD8sRQWPk=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/helper/MessageD
+ irection.class
+SHA1-Digest: 4Po6+XtwIEzy5hQ+cgDlkBoKjtQ=
+
+Name: org/eclipse/papyrus/diagram/communication/part/UMLInitDiagramFil
+ eAction.class
+SHA1-Digest: jwKng/l+xBOj/0RqP0OONQaCPSo=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/mess
+ ages/messages.properties
+SHA1-Digest: 56A/0NCKyuTMF9v6y80w61dB1aM=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/DurationObs
+ ervationStereotypeLabelEditPartCN$1$1.class
+SHA1-Digest: ny939/8621Wi/p0t3s1DST+UWD4=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/ConstraintE
+ ditPartCN$1.class
+SHA1-Digest: XWwza8v50PKHGTG0+vZcpKOzoHs=
+
+Name: org/eclipse/papyrus/diagram/communication/part/ValidateAction.cl
+ ass
+SHA1-Digest: 6xgYOk5qM/ZG8IlVhhM9n5fHN2o=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/DurationObs
+ ervationLabelEditPartCN$5.class
+SHA1-Digest: JKVMOJ8vKgjLVOg6kUhojyJzH/U=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/policies/OpenDiag
+ ramEditPolicy.class
+SHA1-Digest: SOXrgV2HVjlWsey25nAg1+PPUoM=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/helpers/LifelineE
+ ditHelper.class
+SHA1-Digest: ECM28uD9+T4KyxVl5cAQTBWgMao=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/policies/Duration
+ ObservationItemSemanticEditPolicyCN.class
+SHA1-Digest: irIkxnBg+Lz/jMyXYDT5Eb4MbqU=
+
+Name: org/eclipse/papyrus/diagram/communication/preferences/Interactio
+ nPreferencePage.class
+SHA1-Digest: muG+Sso3qAgJxWebv8583uht5rU=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/DurationObs
+ ervationStereotypeLabelEditPartCN.class
+SHA1-Digest: JfgYV9mcsWnfXunFhwk5UiDGu6A=
+
+Name: icons/arrow1.gif
+SHA1-Digest: Ig5SJVEvQGRAl4GSEhXpCGPSlng=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/MessageName
+ EditPart$3.class
+SHA1-Digest: 2aiNzlvkRCZ/XgInoAC1p1cQ/Gg=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/commands/Custom
+ MessagesReorientCommand.class
+SHA1-Digest: Zqd9ZYKkooi6vEWFelGG5l6kAFU=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/TimeObserva
+ tionNameEditPartCN$1.class
+SHA1-Digest: WG8gZGjZ9pqIn2EDqgz/ok6G8zU=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/policies/UMLTextS
+ electionEditPolicy$2.class
+SHA1-Digest: 43IqFS1HH1mqodahBagUkLiTW0w=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/figu
+ res/MessageFigure.java
+SHA1-Digest: UYiVrWDJifi48P9lT3Qs6i5uVD0=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/edit/policies/C
+ ommunicationGraphicalNodeEditPolicy.class
+SHA1-Digest: 6YHYyb3EitkSD1KxDcAxesOPQEE=
+
+Name: org/eclipse/papyrus/diagram/communication/preferences/LifelinePr
+ eferencePage.class
+SHA1-Digest: Cbzx93cVt6b7H3ppeGBGbgVv5S0=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/parser/MessageP
+ arser.class
+SHA1-Digest: PxwtWfMvcNzdl+Nj2fcJkQvQeQ4=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/DurationObs
+ ervationStereotypeLabelEditPartCN$3.class
+SHA1-Digest: T37811oD/cJXQ+efgUeFSFMXbkA=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/Interaction
+ NameEditPart$3.class
+SHA1-Digest: 7mNT8li6k7p36pe1sq15FQARbOc=
+
+Name: org/eclipse/papyrus/diagram/communication/CreateCommunicationDia
+ gramWithNavigationHandler.class
+SHA1-Digest: D3k6FyBsxu78XDUBtgLZQHd3gbo=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/poli
+ cies/itemsemantic/CustomMessageNameItemSemanticEditPolicy.java
+SHA1-Digest: /4KpVZKnC5qtoDQqPWoZk5p/6pU=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/help
+ er/ReconnectMessageHelper.java
+SHA1-Digest: 3n4BsoALNz+ZbHA1SDFm0AHkkyk=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/policies/itemse
+ mantic/CustomShortcutDiagramItemSemanticEditPolicy.class
+SHA1-Digest: Tx02pEvtG4bBPmlc8ngIXHltmdY=
+
+Name: org/eclipse/papyrus/diagram/communication/part/UMLNewDiagramFile
+ Wizard$1.class
+SHA1-Digest: F5d3Z5mBBdYinlFxkhn5vQe7+DM=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/TimeObserva
+ tionEditPartCN$1.class
+SHA1-Digest: +IOo6iZC7VUWP6TUCl5wJ0+aayA=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/messages/messag
+ es.properties
+SHA1-Digest: 56A/0NCKyuTMF9v6y80w61dB1aM=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/providers/Custo
+ mUMLEditPartProvider.class
+SHA1-Digest: NbmelhEBE4WH1g7RzEv6i1+3RFQ=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/commands/Constrai
+ ntConstrainedElementReorientCommand.class
+SHA1-Digest: AcillN7Y2LA8+/lm9fyHQ0Uluxg=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/providers/Custo
+ mUMLViewProvider.class
+SHA1-Digest: aRgVWAPzkBnf23xEjpokRpG/BuE=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/helpers/PackageEd
+ itHelper.class
+SHA1-Digest: c4lxxWq5xvO9RGyjXvL0S7eA12w=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/helper/MessageI
+ nfo.class
+SHA1-Digest: HGpifIQEfoFLjsAzVgFXM92lsQU=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/policies/Interact
+ ionCompartmentCanonicalEditPolicy.class
+SHA1-Digest: draJxESrcSWOVOem9jCdckNIkSQ=
+
+Name: org/eclipse/papyrus/diagram/communication/part/ValidateAction$2.
+ class
+SHA1-Digest: 8LmXkjMJFkNFUYgk2IRhUT860e4=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/DurationObs
+ ervationEditPartCN$1.class
+SHA1-Digest: dBynQ1b7JJ5VHngW/Ofm2WKiwa4=
+
+Name: org/eclipse/papyrus/diagram/communication/preferences/ShortCutDi
+ agramPreferencePage.class
+SHA1-Digest: 8o4k7ObtENUb+EBpD9uuY1J8egs=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/helper/Communic
+ ationLinkMappingHelper$SingletonHolder.class
+SHA1-Digest: gN28SEBQZ/XeA5zp4oRvWSmYwUQ=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/poli
+ cies/itemsemantic/CustomInteractionCompartmentSemanticEditPolicy.java
+SHA1-Digest: pk/eTsPKwM/PodddA0LYvsnUqE8=
+
+Name: org/eclipse/papyrus/diagram/communication/navigator/UMLNavigator
+ Sorter.class
+SHA1-Digest: n/1QvfGfhGcoMxJrqwgh9oD6+D8=
+
+Name: icons/alt_launcher.ico
+SHA1-Digest: uPNgffyQzsAREsjkPS6vd2MU4Qk=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/helpers/CommentEd
+ itHelper.class
+SHA1-Digest: rYWtadyafpMIQ/jGLC8YrhBg91k=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/help
+ er/DurationObservationHelper.java
+SHA1-Digest: iLffuZgBJPaiIUO/1bfN12irMbg=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/policies/Interact
+ ionCompartmentItemSemanticEditPolicy.class
+SHA1-Digest: qE5kUuLIpsJ6gqIRegBD3eMNFkQ=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/MessageEdit
+ Part.class
+SHA1-Digest: mxDZY2F7aQPi7Y1VMAa3FxpQKdY=
+
+Name: org/eclipse/papyrus/diagram/communication/part/UMLVisualIDRegist
+ ry.class
+SHA1-Digest: 9n9RKd7Nc10WoEfDCnDJLpDhzLg=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/ConstraintN
+ ameEditPartCN$3.class
+SHA1-Digest: /nNkFB/hqq/ASot6pV6m8r6OrKE=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/DiagramName
+ EditPart$1.class
+SHA1-Digest: +Rr7xpVO7gP99QVukK3nGQQyLwU=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/ConnectorDu
+ rationObservationEditPart$DurationObservationLinkDescriptor.class
+SHA1-Digest: ygN1Rk0pUbMEbH3nufmu5r7+hp8=
+
+Name: org/eclipse/papyrus/diagram/communication/providers/ElementIniti
+ alizers.class
+SHA1-Digest: u0Q7vzQt/nzpcaPQNFRncFSaRys=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/CommentEdit
+ PartCN$1.class
+SHA1-Digest: uw4lWZbm8krGjzxs1rfsS6ffXMY=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/ConstraintB
+ odyEditPartCN$2.class
+SHA1-Digest: E/HdoH08HRPPosMFmzJkHE5Pqko=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/Interaction
+ EditPart$1.class
+SHA1-Digest: D+bKUUX9d2TsLKMFmsppkEyqKok=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/commands/Constrai
+ ntConstrainedElementCreateCommand.class
+SHA1-Digest: qIoinfloyIsIivlJtq03mtGhRYA=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/edit/policies/S
+ hortCutDiagramItemSemanticEditPolicy.class
+SHA1-Digest: OGBR0XfrK0PLMHcr0439JoY2zH8=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/mess
+ ages/Messages.java
+SHA1-Digest: L9zlVK9xd4rqt3Sp0nfPvw1DvM8=
+
+Name: org/eclipse/papyrus/diagram/communication/providers/UMLValidatio
+ nDecoratorProvider.class
+SHA1-Digest: OZGvNSHQWppLbxuAMioA2x+O/Rc=
+
+Name: icons/alt_about.gif
+SHA1-Digest: iRLbbwV4EIYS5bq98PNvudGkO/4=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/edit/parts/Abst
+ ractObservationEditPart.class
+SHA1-Digest: WdWii7SzNK+OnM5M9rss3ccB3rc=
+
+Name: org/eclipse/papyrus/diagram/communication/part/UMLDocumentProvid
+ er$ResourceSetInfo$SynchronizerDelegate$1.class
+SHA1-Digest: meoxfj/FU4Cz2ErNdp1qKU+z86I=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/commands/Constrai
+ ntCreateCommandCN.class
+SHA1-Digest: ff6p5yD4X9h9oe1F7rdzqpHgevs=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/LifelineNam
+ eEditPart$4.class
+SHA1-Digest: Oz6pTFxj+GHYOSwem6NlaGFFA1w=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/helper/Communic
+ ationLinkMappingHelper$1.class
+SHA1-Digest: DPQPvEzgvpoSqfDRQ6K+Gwm7dlE=
+
+Name: org/eclipse/papyrus/diagram/communication/providers/UMLValidatio
+ nProvider$1.class
+SHA1-Digest: WrDG+R/xyxh0Xiwz1hZHLbtmjTw=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/ModelEditPa
+ rt$2.class
+SHA1-Digest: t2K/31EGi5MbicmnUQyxsYwVAgY=
+
+Name: org/eclipse/papyrus/diagram/communication/part/UMLCreationWizard
+ .class
+SHA1-Digest: ldx+UKmWaEk2jjXIhTKu18BgDXY=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/commands/ShortCut
+ DiagramCreateCommand.class
+SHA1-Digest: t2aODwC5YPRBvtKn1UCzxP/Qzoo=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/Interaction
+ NameEditPart.class
+SHA1-Digest: lCYflA12I1lIVbnKx927PA76q60=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/DurationObs
+ ervationEditPartCN$1$1.class
+SHA1-Digest: 50uOnqn+xky+zCp8RDM4lI/q1EU=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/TimeObserva
+ tionStereotypeLabelEditPartCN$4.class
+SHA1-Digest: 4YxufF9xqZVDK8X7fztLN9v9o4I=
+
+Name: org/eclipse/papyrus/diagram/communication/preferences/TimeObserv
+ ationPreferencePage.class
+SHA1-Digest: 4zlpaiX7Jqib40mv+6uvfqfQTZo=
+
+Name: org/eclipse/papyrus/diagram/communication/part/UMLDocumentProvid
+ er$2.class
+SHA1-Digest: i5wF8j5xnWVxsR3Nzb13LyDqlKc=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/helper/Communic
+ ationUtil.class
+SHA1-Digest: gd+ldVd3yp7oAvzriWzO4Cm39MI=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/AppliedSter
+ eotypeMessageEditPart$3.class
+SHA1-Digest: iPXPDa3DhcE3iVaWIO37MrJ3Wf4=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/Interaction
+ EditPart.class
+SHA1-Digest: p8JI7cF7DgTetrgfpTX9RbDcc90=
+
+Name: org/eclipse/papyrus/diagram/communication/navigator/UMLNavigator
+ Item$1.class
+SHA1-Digest: iJ9V6cRW78KTL/ncbRi1MvfhPZg=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/ConstraintN
+ ameEditPartCN$1$1.class
+SHA1-Digest: uTXR2fkb9Hli6skKbLTx98P2lMM=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/commands/Custom
+ MessageViewCreateCommand.class
+SHA1-Digest: 2J1MlLfjWRoEfZHoKNVjMTz+Q/Q=
+
+Name: org/eclipse/papyrus/diagram/communication/CommunicationDiagramEd
+ itorFactory.class
+SHA1-Digest: n0VqH+fuRcU4EvM5sWI3VVdYX8s=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/DurationObs
+ ervationLabelEditPartCN$4.class
+SHA1-Digest: 0eMl2G3M6OJMAa3Dilnal5+9xGE=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/CommentBody
+ EditPartCN$5.class
+SHA1-Digest: s9AcbsULTrXVLhirL2hGGM0nhKQ=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/DurationObs
+ ervationEditPartCN.class
+SHA1-Digest: 2/xBqUteBX2Dt7u555xBVK6Q7xM=
+
+Name: org/eclipse/papyrus/diagram/communication/part/UMLLinkDescriptor
+ $2.class
+SHA1-Digest: uCeuneYiPrWA82Gw/epe1rOpMLc=
+
+Name: org/eclipse/papyrus/diagram/communication/providers/UMLModelingA
+ ssistantProvider.class
+SHA1-Digest: vvOjxiuUgdMAyFhzD9O9QsUthT0=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/DurationObs
+ ervationLabelEditPartCN$1$1.class
+SHA1-Digest: jW7PR42XGSLShzyh67HOOLXzL50=
+
+Name: org/eclipse/papyrus/diagram/communication/part/UMLDiagramEditor$
+ 4.class
+SHA1-Digest: gpYSVixCOf66nqagxqHgo4+aFug=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/edit
+ /parts/CustomLifelineEditPartCN.java
+SHA1-Digest: xsUTxwVK1H3sYdhvWUUCM+0EUyo=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/comm
+ ands/CustomDurationObservationCreateCommandCN.java
+SHA1-Digest: CrB/G07fAuV8cDXOTkmKu8Md+lg=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/comm
+ ands/CustomMessageSemanticCreateCommand.java
+SHA1-Digest: MwAVeJmfGT4RSPV3Ds3tK3J305c=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/policies/itemse
+ mantic/CustomInteractionCompartmentSemanticEditPolicy.class
+SHA1-Digest: KE+9aY42VXLX1rJS/xKqim9D6Z4=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/comm
+ ands/DiagramShortCutCreationViewCommand.java
+SHA1-Digest: VdfymFCzRWb1E9yPWhoOS64Fhq8=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/providers/Custo
+ mEditPolicyProvider.class
+SHA1-Digest: rLqeLN/Ngz3j4H52lCaGFLjtlVc=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/MessageName
+ EditPart$2.class
+SHA1-Digest: NSOkE7/zk0NzBEaiYU1eSoPx4lQ=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/policies/UMLTextS
+ electionEditPolicy$1.class
+SHA1-Digest: YrpXlw3w0a2CozY8ud8wpmNpmDE=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/messages/Messag
+ es.class
+SHA1-Digest: MDOUkXoXrox2hn8kixJ+zHv0hLk=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/DurationObs
+ ervationStereotypeLabelEditPartCN$2.class
+SHA1-Digest: ijuVTTQCaRCG+TDd+U8heXsuTNQ=
+
+Name: org/eclipse/papyrus/diagram/communication/providers/UMLEditPartP
+ rovider.class
+SHA1-Digest: bPg2xOMCc5NwFxZsrhFvfI60YAc=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/Interaction
+ NameEditPart$2.class
+SHA1-Digest: d/y1QWJoJSn1ZKB+Uq8MQgacxww=
+
+Name: org/eclipse/papyrus/diagram/communication/part/UMLDiagramActionB
+ arContributor.class
+SHA1-Digest: 6X2vjknAiRQpTGgvc6vvoaYk6fA=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/ConstraintB
+ odyEditPartCN.class
+SHA1-Digest: oEjCumcx8HxoAf9MoBefG/5KvLE=
+
+Name: icons/wizban/NewUMLWizard.gif
+SHA1-Digest: V9+GnTa2Eps/Z9j0Ylui5kDdHv0=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/policies/UMLTextN
+ onResizableEditPolicy.class
+SHA1-Digest: Az/m+FtkoBDxL4nw0k13M1J2O+M=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/helper/Duration
+ ObservationHelper.class
+SHA1-Digest: uIdUqu6YL9Yrfug/ySF33GLby+o=
+
+Name: org/eclipse/papyrus/diagram/communication/preferences/DurationOb
+ servationPreferencePage.class
+SHA1-Digest: Jjjtl5ysYky45mgiEEeP1Nv9jZA=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/LifelineEdi
+ tPartCN.class
+SHA1-Digest: ymIag1KwDi+UrAc1oeB2cLnZK5I=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/Communicati
+ onDiagramCreationCondition.java
+SHA1-Digest: kWRQi0nCpPOlCuEWE+Twpop4Xfg=
+
+Name: org/eclipse/papyrus/diagram/communication/part/ValidateAction$1.
+ class
+SHA1-Digest: szET2juZFWHDo4bhj04VoAf0Nug=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/policies/itemse
+ mantic/CustomLifelineItemSemanticEditPolicyCN.class
+SHA1-Digest: RHV5VcivNVVLetS70bjm/LMiIvs=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/LifelineEdi
+ tPartCN$1.class
+SHA1-Digest: NIEqCNz1BZioYN+1CoSW9TN/rc0=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/helpers/Interacti
+ onEditHelper.class
+SHA1-Digest: yX3kPM1K0n4/HLMURxw6m+BTrWA=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/figures/Interac
+ tionRectangleFigure.class
+SHA1-Digest: Ux2DDn6TaM6wRGCRj7PDsSlkP+U=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/TimeObserva
+ tionNameEditPartCN.class
+SHA1-Digest: yXdfq12qNG2pJbaMr2HcGMr8ilQ=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/commands/Commun
+ icationDeferredCreateConnectionViewCommand.class
+SHA1-Digest: kzWuMceUqY6Cc9g7P/2ecQ0OTh8=
+
+Name: org/eclipse/papyrus/diagram/communication/parsers/AbstractParser
+ $InvalidValue.class
+SHA1-Digest: lGH46xsv3OkIhPTU0eJek0bcjfw=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/help
+ er/advice/MessageHelperAdvice.java
+SHA1-Digest: GdYQsZI1b4bbuuGo1NYSMD51cjE=
+
+Name: org/eclipse/papyrus/diagram/communication/part/UMLDocumentProvid
+ er$ResourceSetModificationListener.class
+SHA1-Digest: hcTg9G2O5cX+WasqTS+S1Ew+Qzc=
+
+Name: org/eclipse/papyrus/diagram/communication/part/UMLDiagramUpdateC
+ ommand.class
+SHA1-Digest: iZ5uX8dq47UHdjZRHb1KIoxhHDM=
+
+Name: org/eclipse/papyrus/diagram/communication/part/UMLDiagramEditorU
+ til.class
+SHA1-Digest: VQwusm6T3GbUKlga2eY0JNYqaHk=
+
+Name: org/eclipse/papyrus/diagram/communication/preferences/DiagramApp
+ earancePreferencePage.class
+SHA1-Digest: Me6aNZGJkuKDWGZva4ePNshfguw=
+
+Name: org/eclipse/papyrus/diagram/communication/expressions/UMLOCLFact
+ ory$Expression.class
+SHA1-Digest: yEKd339K66Qpzlq+V4dh9YLe6Sc=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/CommentAnno
+ tatedElementEditPart.class
+SHA1-Digest: YOvae+28kh9F6YcZXcws1x4qvZU=
+
+Name: org/eclipse/papyrus/diagram/communication/navigator/UMLAbstractN
+ avigatorItem.class
+SHA1-Digest: tqDU3Xm8PrkKgXyg03JGuM2MdK4=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/TimeObserva
+ tionNameEditPartCN$5.class
+SHA1-Digest: O5pRN1QOISAr35+GKhAPnW9pHsE=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/ConstraintN
+ ameEditPartCN$2.class
+SHA1-Digest: H0Tv1KsquQdLJAr233NZq1E+Hww=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/advices/Destroy
+ MessageAdvice.class
+SHA1-Digest: UTtwWnq7VZkfmRdhyIt19sgdRj8=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/commands/Messag
+ eLabelInverseOrientation.class
+SHA1-Digest: XdR8QvOWl8xSG26RD28gAOifrvY=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/advi
+ ces/DestroyMessageAdvice.java
+SHA1-Digest: X+pxgyUhKu+uU2AxMRnmV+8WY5A=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/figu
+ res/TimeObservationNodeFigure.java
+SHA1-Digest: Ibno4lovvE6PUAxu9uByZKnUFlc=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/policies/CommentA
+ nnotatedElementItemSemanticEditPolicy.class
+SHA1-Digest: ssIV4O/AuHoWV7976xgkIwhy000=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/commands/CommentC
+ reateCommandCN.class
+SHA1-Digest: 6fvjqQUs7Vrab+P1Hd1VDhXeNoo=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/policies/PackageI
+ temSemanticEditPolicy.class
+SHA1-Digest: qe1ykw1aqoF+XSmN5LkQDMJ1utg=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/ConnectorTi
+ meObservationEditPart$TimeObservationLinkDescriptor.class
+SHA1-Digest: 207K5mRkgvBz79uuoxg8hQcSIYA=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/ModelEditPa
+ rt$NodeLabelDragPolicy.class
+SHA1-Digest: Xjtc2TIb2HilCJsE/djwz1mDeWw=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/ConstraintB
+ odyEditPartCN$1.class
+SHA1-Digest: 6kV5vuCG+a7d3tmAQG2erLYH9FI=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/policies/ShortCut
+ DiagramItemSemanticEditPolicy.class
+SHA1-Digest: hwJ81nkTEiJZkyx42YEqw9Cj/Ks=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/poli
+ cies/itemsemantic/CustomMessageItemSemanticEditPolicy.java
+SHA1-Digest: eH6w2F22zzSiwlQsEn2iBq+ZAoQ=
+
+Name: org/eclipse/papyrus/diagram/communication/part/UMLNodeDescriptor
+ .class
+SHA1-Digest: KzaoA9bcczKn5bazQHVCpMyORh4=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/figures/Message
+ Figure.class
+SHA1-Digest: oXHbiFKn1PyLxVuob0uaJyvoY7U=
+
+Name: org/eclipse/papyrus/diagram/communication/navigator/UMLDomainNav
+ igatorContentProvider.class
+SHA1-Digest: UipcTP+UIPcbNebiQHXq8nynIaw=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/policies/Constrai
+ ntConstrainedElementItemSemanticEditPolicy.class
+SHA1-Digest: 8Wib8bT2E2uBAHs/2CR6Wne4YI8=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/edit/policies/M
+ essageNameEditPolicy.class
+SHA1-Digest: EyKHOuKbr6VftXle3hy/+08/efk=
+
+Name: org/eclipse/papyrus/diagram/communication/preferences/DiagramGen
+ eralPreferencePage.class
+SHA1-Digest: CMiHQueOQRErQ8BnJkbgbH/CDgo=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/LifelineNam
+ eEditPart$3.class
+SHA1-Digest: w7qBcW2fej3ieg4+5hPcXAEvgCQ=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/helper/advice/M
+ essageHelperAdvice.class
+SHA1-Digest: HjrfkQs4sq4l/mBCsWERLFZc6NE=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/ModelEditPa
+ rt$1.class
+SHA1-Digest: dRcNIiJzmN4OXrLd+cqKK8p496o=
+
+Name: about.html
+SHA1-Digest: a2Fk5/pDnCvlEfl7QwDZj/FCgFc=
+
+Name: org/eclipse/papyrus/diagram/communication/providers/UMLElementTy
+ pes.class
+SHA1-Digest: hasyh5hgjuw/yMPW2rJMyHAuXrk=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/AppliedSter
+ eotypeMessageEditPart.class
+SHA1-Digest: fEVPBj6V2EYB87Ig+43apxGGgwQ=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/edit/policies/C
+ ustomDiagramDragDropEditPolicy.class
+SHA1-Digest: DKEt4+eWkkDuICAqFvg0CJmoG40=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/edit/parts/Cust
+ omLifelineEditPartCN$1.class
+SHA1-Digest: +e+cfgQto7PuY3+4Ga2jWUHEc7o=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/TimeObserva
+ tionStereotypeLabelEditPartCN$3.class
+SHA1-Digest: 6AxhA4rh37t7Y+El1wL3WZMix+A=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/help
+ er/InconsistentMessageViewsHelper.java
+SHA1-Digest: txpOHTUsmV5ksP79j5Q4iX9w7C8=
+
+Name: org/eclipse/papyrus/diagram/communication/preferences/DiagramRul
+ ersAndGridPreferencePage.class
+SHA1-Digest: 3Nv+WebHHqS4zKZ35sgHjyPU0zw=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/help
+ er/CommunicationLinkMappingHelper.java
+SHA1-Digest: sdYFEAblMAMxPqorTV2POuyS5rM=
+
+Name: org/eclipse/papyrus/diagram/communication/part/UMLDocumentProvid
+ er$1.class
+SHA1-Digest: 70i8xhuCVDdULTcp2mpwEkosVhg=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/AppliedSter
+ eotypeMessageEditPart$2.class
+SHA1-Digest: Uhes9w4p9nLtSP5tzJJaUyN4Jsk=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/poli
+ cies/itemsemantic/CustomLifelineItemSemanticEditPolicyCN.java
+SHA1-Digest: q0W8deZY9BATNR/ZKRmmzDrVLwA=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/comm
+ ands/CustomMessageReorientCommand.java
+SHA1-Digest: J0IB88wqDyyHUilbWxXFpF6uRPc=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/help
+ er/CommunicationUtil.java
+SHA1-Digest: ECkJn1oW1OBkHU9qmzYhy3+G/wA=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/DiagramName
+ EditPart$5.class
+SHA1-Digest: 41DpXQInY93d/iMkHVxgJwqQNaM=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/CreateCommu
+ nicationDiagramCommand.java
+SHA1-Digest: gTlv/8RIXceVweRbOFa+HjkrVTg=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/comm
+ ands/CustomMessageCreateCommand.java
+SHA1-Digest: 1dmCdENCfabrmp72rgzkOcVrV+Y=
+
+Name: org/eclipse/papyrus/diagram/communication/navigator/UMLNavigator
+ ContentProvider$3.class
+SHA1-Digest: /WdQ6VV639b2lW3OTRTiNb1xA5Q=
+
+Name: images/arrow.gif
+SHA1-Digest: djP0bw7nF/GFI5078f5uRA4LyZw=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/commands/TimeObse
+ rvationCreateCommandCN.class
+SHA1-Digest: hDqptB0rmcKqF3eaZruEmLWRvMo=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/comm
+ ands/CommunicationDeferredCreateConnectionViewCommand.java
+SHA1-Digest: x+S6TeRHgsS3ze7KJupAUrOcnGs=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/policies/MessageI
+ temSemanticEditPolicy.class
+SHA1-Digest: oX6XZoeUECt8mba0PpIUSRUOx38=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/ConnectorTi
+ meObservationEditPart.class
+SHA1-Digest: BudpuXsYM+kFkQbYYFrfAHefxTo=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/help
+ er/MessageDirection.java
+SHA1-Digest: ayeHH3w/OispNuz5/nXlD086ojs=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/policies/TimeObse
+ rvationItemSemanticEditPolicyCN.class
+SHA1-Digest: ABbd9vN5C++IdmYMcSMVZbMrgr0=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/DurationObs
+ ervationLabelEditPartCN$3.class
+SHA1-Digest: 4+lR/XwLt2KU5cPKccF0ijfow2w=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/CommentBody
+ EditPartCN$4.class
+SHA1-Digest: Fl4jXWcROVMelD9erU36TeviOZ0=
+
+Name: org/eclipse/papyrus/diagram/communication/part/UMLLinkDescriptor
+ $1.class
+SHA1-Digest: dJAQeOGmM18ZPMXXP9p+3dc87H0=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/Interaction
+ CompartmentEditPart.class
+SHA1-Digest: lizLVlyX0X81cTYbg7jF0CkWv54=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/ShortCutDia
+ gramEditPart$1$1.class
+SHA1-Digest: T0oKBfDC20NxCe28KAUFbCquz3U=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/UMLEditPart
+ Factory$MultilineCellEditorLocator.class
+SHA1-Digest: jYIqkqJhASyxAuRuNRnCTskw6no=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/edit
+ /policies/CustomDiagramDragDropEditPolicy.java
+SHA1-Digest: CmvxtXfZEP+R9pAuwPiniOUeM5A=
+
+Name: org/eclipse/papyrus/diagram/communication/part/UMLDiagramEditor$
+ 3.class
+SHA1-Digest: A5UW4HxSQVp11l93AB7Gggw3cgw=
+
+Name: org/eclipse/papyrus/diagram/communication/expressions/UMLAbstrac
+ tExpression.class
+SHA1-Digest: pOeZSTkFFpHdg0TyxbM7EvI+WGc=
+
+Name: org/eclipse/papyrus/diagram/communication/preferences/MessagePre
+ ferencePage.class
+SHA1-Digest: ZaLDfpuS4npJmzD3ZtwNi0zSMGE=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/pars
+ er/MessageParser.java
+SHA1-Digest: Twn1e+spbJD5ykTd0I9iXxUiJjE=
+
+Name: org/eclipse/papyrus/diagram/communication/part/DiagramEditorCont
+ extMenuProvider.class
+SHA1-Digest: IFO5yZsN+SsdQKyI08uLQwRf32g=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/ConnectorDu
+ rationObservationEditPart.class
+SHA1-Digest: utR9EvmlQ6CSc7JEITcjc9GhpEQ=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/commands/Connecto
+ rTimeObservationReorientCommand.class
+SHA1-Digest: sQ2e8jxvyyB1gehfv9zojGeAtns=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/commands/Connecto
+ rDurationObservationCreateCommand.class
+SHA1-Digest: W/q2eOMOevGeC/b2UoQl9kcMdiQ=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/helper/DiagramS
+ hortCutHelper.class
+SHA1-Digest: /EOx8xLvVZ4iQYkkCgilNEo2WnE=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/commands/Custom
+ MessageCreateCommand.class
+SHA1-Digest: EzSI3IIj6QkRAhPH84LHyRGXtNY=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/MessageName
+ EditPart$1.class
+SHA1-Digest: Utfhn/gRYrSG94d/LVqo58+9zw0=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/helper/TimeObse
+ rvationHelper.class
+SHA1-Digest: U1Fh6+qG3XHzipwTktU/vffHMFA=
+
+Name: org/eclipse/papyrus/diagram/communication/part/UMLUriEditorInput
+ Tester.class
+SHA1-Digest: 7R0m0G/Zpl0PYZiR7A714hVqe6k=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/factory/CustomU
+ MLeditPartFactory.class
+SHA1-Digest: 0NzWH+oVJPwlLr77dMSloGpt5nI=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/help
+ er/RotationHelper.java
+SHA1-Digest: epBLz5loB8AGW+yUVdw6BI0E/FQ=
+
+Name: org/eclipse/papyrus/diagram/communication/navigator/UMLNavigator
+ Item.class
+SHA1-Digest: ZRxEXTF5KyyayYwePLZ/5Bkd2AY=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/DurationObs
+ ervationStereotypeLabelEditPartCN$1.class
+SHA1-Digest: ZLdEo+rAuZgrsJ0ghH1vmz45kdo=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/ConstraintC
+ onstrainedElementEditPart.class
+SHA1-Digest: mN3XWt5BFG9RcQyCj1FHc5PEPGw=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/Interaction
+ NameEditPart$1.class
+SHA1-Digest: w5uc7foDW0oerGgDa1vjBqY64fE=
+
+Name: org/eclipse/papyrus/diagram/communication/part/UMLDiagramEditorU
+ til$1.class
+SHA1-Digest: ZbOfB36ysetKuG55ZRd/FkOToVc=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/edit
+ /policies/ExternalLabelPrimaryDragRoleEditPolicy.java
+SHA1-Digest: DHg8JqNuyjfQW3XjIY610o9mTdw=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/commands/Interact
+ ionCreateCommand.class
+SHA1-Digest: xF7J4Xi1oZp+tzvCX0HpoHt8WEQ=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/helper/Reconnec
+ tMessageHelper.class
+SHA1-Digest: 0XrxO1YiPUhAd/nuThVPbRYKm28=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/policies/itemse
+ mantic/CustomMessageNameItemSemanticEditPolicy.class
+SHA1-Digest: MIB/JQ5sQvJ/h12QgXRNXhwaaXo=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/policies/CommentI
+ temSemanticEditPolicyCN.class
+SHA1-Digest: 6ii9TkAE0qK/CCFbQSME76hPgPU=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/edit/parts/Cust
+ omInteractionEditPart.class
+SHA1-Digest: YjvBhfP9oZyAITsHLKsMHP4YvHk=
+
+Name: org/eclipse/papyrus/diagram/communication/part/UMLPaletteFactory
+ .class
+SHA1-Digest: fBKoZz4ii4oAIxK/r0GVRbYhOQk=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/help
+ er/EventHelper.java
+SHA1-Digest: 59zyM/HjSuopjDN1kJoC3EACMP4=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/prov
+ iders/CustomUMLViewProvider.java
+SHA1-Digest: THhbcl4GJyuyDIhpgwPdtFn2eFk=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/CommentBody
+ EditPartCN$1$1.class
+SHA1-Digest: yqU+LWlMjijKpZzmz7vPE4iEsd4=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/helper/Communic
+ ationLinkMappingHelper.class
+SHA1-Digest: Wv2Tdrqzznlj+GmiKtKVuBUYzoo=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/helper/Inconsis
+ tentMessageViewsHelper.class
+SHA1-Digest: 9XlhktqgUnbb3eBGWlg1MU14Xjg=
+
+Name: org/eclipse/papyrus/diagram/communication/providers/UMLValidatio
+ nProvider.class
+SHA1-Digest: SsepVaTu/0srMugyOAz9F4MSDBg=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/helpers/ShortCutD
+ iagramEditHelper.class
+SHA1-Digest: wdNF1gKX+ve0C3YNY5Z19x3gqPs=
+
+Name: org/eclipse/papyrus/diagram/communication/part/UMLDiagramEditorP
+ lugin.class
+SHA1-Digest: tUclmclkpcq/UQPJkIsbQmshD9o=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/edit/policies/O
+ bservationLayoutEditPolicy.class
+SHA1-Digest: bRp2AEx7ENCTNXStSv/Gk4X26tw=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/MessageName
+ EditPart.class
+SHA1-Digest: gFsWtj9Bv5QCM2m1j4P+38a4yz0=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/edit
+ /parts/AbstractObservationEditPart.java
+SHA1-Digest: B4TKLOur35nc/ngH+i1VXOK2Ztg=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/poli
+ cies/itemsemantic/CustomShortcutDiagramItemSemanticEditPolicy.java
+SHA1-Digest: 72htgdO/gq8+n0JAzyaUbEL2M+Q=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/UMLEditPart
+ Factory$TextCellEditorLocator.class
+SHA1-Digest: WQqxhBInLkZmXBkoQpGSBiUPKlY=
+
+Name: org/eclipse/papyrus/diagram/communication/navigator/UMLNavigator
+ Group.class
+SHA1-Digest: KZNnOMcIXXJGYozFaIYA+VYsJZM=
+
+Name: org/eclipse/papyrus/diagram/communication/part/DiagramEditorCont
+ extMenuProvider$1.class
+SHA1-Digest: Q4bY6W38RzD9FWpuEf0XOY5edKw=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/policies/Lifeline
+ ItemSemanticEditPolicyCN.class
+SHA1-Digest: k8VaUJjMGdHYdI/smQAjuavrzLk=
+
+Name: org/eclipse/papyrus/diagram/communication/UmlCommunicationDiagra
+ mForMultiEditor.class
+SHA1-Digest: GvS2efern9EXbSdxe/3kL7ut2Jg=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/TimeObserva
+ tionNameEditPartCN$4.class
+SHA1-Digest: nbe5G97YiMwHlYX8q2HVx7oBa4E=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/ConstraintN
+ ameEditPartCN$1.class
+SHA1-Digest: UnxsAMEDjXFHoAsvj+NFFZhxzik=
+
+Name: org/eclipse/papyrus/diagram/communication/part/UMLCreationWizard
+ $2.class
+SHA1-Digest: QAIy88VNvRwooDfyFYGgKR4GI4E=
+
+Name: org/eclipse/papyrus/diagram/communication/part/UMLDiagramEditorU
+ til$LazyElement2ViewMap.class
+SHA1-Digest: l9HRPK34HXBGaZMnnj81A8dLMyE=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/commands/Custom
+ TimeObservationCreateCommandCN.class
+SHA1-Digest: MDcABevYr2qOesrVS4occjH9KSI=
+
+Name: org/eclipse/papyrus/diagram/communication/providers/UMLParserPro
+ vider.class
+SHA1-Digest: 0ko6ofwAOVPpb8o/NGhUZmINVVQ=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/DurationObs
+ ervationLabelEditPartCN.class
+SHA1-Digest: InPgMwGkY0ss2h0iK5GknOI+TPM=
+
+Name: org/eclipse/papyrus/diagram/communication/part/ModelElementSelec
+ tionPage$1.class
+SHA1-Digest: BTkToo2fRNqf+iOGVp5k+GrRgi8=
+
+Name: org/eclipse/papyrus/diagram/communication/providers/UMLParserPro
+ vider$HintAdapter.class
+SHA1-Digest: 6P+MSNeHuIXZDXSzy1aYBOkKNgM=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/commands/Custom
+ MessageSemanticCreateCommand.class
+SHA1-Digest: C0HDcxMoCBkQqq+g7Ns3tPYOZWQ=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/DiagramName
+ EditPart$1$1.class
+SHA1-Digest: 4OqyPvULNU5EF5SllliJgWdACLo=
+
+Name: org/eclipse/papyrus/diagram/communication/part/UMLNewDiagramFile
+ Wizard$DiagramRootElementSelectionPage.class
+SHA1-Digest: QNzjwmuc0YQPmTOeg8C6CZD/PoY=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/prov
+ iders/CustomEditPolicyProvider.java
+SHA1-Digest: CbnGOAthcVJZAHTsc+6G+OyuemA=
+
+Name: org/eclipse/papyrus/diagram/communication/providers/UMLMarkerNav
+ igationProvider.class
+SHA1-Digest: qpd/USM7MlIxAceSqG4JNmzovSo=
+
+Name: org/eclipse/papyrus/diagram/communication/part/UMLDiagramEditor.
+ class
+SHA1-Digest: zhiLUc6n/Eb1bRoRtGinDmaJj0o=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/helpers/MessageEd
+ itHelper.class
+SHA1-Digest: XSv4lStDmuM1Racix+QFaMdc8+Y=
+
+Name: icons/alt_launcher.icns
+SHA1-Digest: OkhboMCGige6hMkyqaYuNChjGrc=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/LifelineNam
+ eEditPart$2.class
+SHA1-Digest: YPupuZh9ycNmydiODsffzx61MUk=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/commands/Connecto
+ rTimeObservationCreateCommand.class
+SHA1-Digest: aR02FeN6aoD/8Y5ZW9WxZotTt9g=
+
+Name: org/eclipse/papyrus/diagram/communication/navigator/UMLDomainNav
+ igatorContentProvider$3.class
+SHA1-Digest: 1AWM7FF4+llUw8g1hWSSqjuxozs=
+
+Name: org/eclipse/papyrus/diagram/communication/navigator/UMLNavigator
+ LinkHelper.class
+SHA1-Digest: J4TIEyRnD6O3DBejuOxg7W7mHvY=
+
+Name: org/eclipse/papyrus/diagram/communication/part/UMLDiagramEditor$
+ 3$2.class
+SHA1-Digest: 3B69NGCHKKqXnOa1Q3LDp640wUQ=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/helper/Communic
+ ationCommandHelper.class
+SHA1-Digest: kRl1+ZWEEHsGyD0fQkEgTUPdbQs=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/policies/OpenDiag
+ ramEditPolicy$OpenDiagramCommand$1.class
+SHA1-Digest: tT3VFUqGT7kf3Ul/21QIajXjKcU=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/TimeObserva
+ tionStereotypeLabelEditPartCN$2.class
+SHA1-Digest: wHle1iG2HTS/DGQJ5Dl1HHRixHE=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/commands/CommentA
+ nnotatedElementReorientCommand.class
+SHA1-Digest: TdTXMdiFQDdpjOLHRgq4I9BbbpA=
+
+Name: org/eclipse/papyrus/diagram/communication/part/UMLNewDiagramFile
+ Wizard.class
+SHA1-Digest: x3v9a/X/9L98tKhcraT1b2bjlYI=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/AppliedSter
+ eotypeMessageEditPart$1.class
+SHA1-Digest: JPKsAVr9FHf5HWMzrgVHqKEMEqo=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/MessageName
+ EditPart$1$1.class
+SHA1-Digest: pdy4PivdeSnci0N3qRjuLtTz1B0=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/DiagramName
+ EditPart$4.class
+SHA1-Digest: /LXGUa4zvN5YjikbrLmDw/LtUgw=
+
+Name: org/eclipse/papyrus/diagram/communication/navigator/UMLNavigator
+ ContentProvider$2.class
+SHA1-Digest: ZOCEINIpwf9F6Ww3YNKncc2r98o=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/figu
+ res/DurationObservationNodeFigure.java
+SHA1-Digest: 2dfKg4q+RKCgPvUbiShd/K7Y1v0=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/policies/UMLBaseI
+ temSemanticEditPolicy.class
+SHA1-Digest: 6I4i9sjZDdYRCIcC1UumbvljP2g=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/DurationObs
+ ervationLabelEditPartCN$2.class
+SHA1-Digest: dbWuKTPwNyZlgjapxqYhJeNaCwI=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/CommentBody
+ EditPartCN$3.class
+SHA1-Digest: TiaZM/f1ld7/tEJo1JFESGJB9V0=
+
+Name: icons/alt_launcher.xpm
+SHA1-Digest: gHc2/hih2iBcaEn4mE8T5j/yt8k=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/ConstraintB
+ odyEditPartCN$5.class
+SHA1-Digest: +Te3kqrZo+qrKmxcfMqHhcZyxKA=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/pars
+ er/LifelineCustomParsers.java
+SHA1-Digest: kqXJ5kPPLKwc/I2j7y82HbcAuDs=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/Communicati
+ onDiagramEditorFactory.java
+SHA1-Digest: VG0JYOHMM6QbBeFuXSHPYRSPoOA=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/ModelEditPa
+ rt$LinkLabelDragPolicy.class
+SHA1-Digest: HiOFxJszeglCF8L/bHZVXMktdH4=
+
+Name: org/eclipse/papyrus/diagram/communication/providers/UMLIconProvi
+ der.class
+SHA1-Digest: HND2bYAttGB3uzF6apzOwW57WOk=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/ConstraintB
+ odyEditPartCN$1$1.class
+SHA1-Digest: 0R0uDmJHSaLNV0/Zbn0IAqbkHyM=
+
+Name: org/eclipse/papyrus/diagram/communication/part/UMLDiagramEditor$
+ 2.class
+SHA1-Digest: 12lzT57qGXt8P+I2/dItWG1k0+I=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/prov
+ iders/CustomUMLEditPartProvider.java
+SHA1-Digest: bowj0NyjOK6dDwqTqicaSNbur6w=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/policies/OpenDiag
+ ramEditPolicy$OpenDiagramCommand.class
+SHA1-Digest: FvKHRlfKzZviUtC5fcQ5Nt2Urls=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/help
+ er/TimeObservationHelper.java
+SHA1-Digest: Bw+yBqld92CLuW1xY256ic4H20U=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/edit
+ /parts/CustomMessageNameEditPart.java
+SHA1-Digest: VUyImQhq4Gy7Za9dlv6gm7gPFYM=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/edit/policies/C
+ ustomOrphanViewPolicy.class
+SHA1-Digest: waGJOi8V0noyo0x55rEczJWbbrY=
+
+Name: org/eclipse/papyrus/diagram/communication/part/ModelElementSelec
+ tionPage.class
+SHA1-Digest: ZnJT38yn7xjBY+q2Tq06VzB2HmI=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/commands/MessageR
+ eorientCommand.class
+SHA1-Digest: taLuw210JDPx6pk6+mym7ilK0BQ=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/TimeObserva
+ tionEditPartCN.class
+SHA1-Digest: eurtTz1fsq0VeCFHUo+8m4ic3hg=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/CommentBody
+ EditPartCN.class
+SHA1-Digest: TMScDNRwnFZfwW5qNtlLalZ5TN0=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/comm
+ ands/CustomMessageViewCreateCommand.java
+SHA1-Digest: TgHYmSX5JTn2YpkuMNOJ8sa591o=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/fact
+ ory/CustomUMLeditPartFactory.java
+SHA1-Digest: ZO2Sbd/+CfcYGz6vPEhGaimseqI=
+
+Name: org/eclipse/papyrus/diagram/communication/navigator/UMLDomainNav
+ igatorItem.class
+SHA1-Digest: bgf5Z0GRkM6JIJLFt/l/b49upnU=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/policies/Interact
+ ionItemSemanticEditPolicy.class
+SHA1-Digest: MLClnLn26o03M+DT4UAdcDFAmkI=
+
+Name: org/eclipse/papyrus/diagram/communication/navigator/UMLDomainNav
+ igatorLabelProvider.class
+SHA1-Digest: H5FM+VrgIQFqj4bLMHCm6xx8WP4=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/helper/MessageH
+ elper.class
+SHA1-Digest: kj9gAdP3nGPQgRMOBEW4pIV7d0A=
+
+Name: org/eclipse/papyrus/diagram/communication/part/UMLCreationWizard
+ Page.class
+SHA1-Digest: qytZDOKnhHogio1NJHzySPVfGls=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/policies/itemse
+ mantic/CustomMessageItemSemanticEditPolicy.class
+SHA1-Digest: aEy+n1luDRKK0dkrUE7h4G0XnyQ=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/commands/Diagra
+ mShortCutCreationViewCommand.class
+SHA1-Digest: //JexLQ5h0i7+cr1SaodNMOfsPE=
+
+Name: org/eclipse/papyrus/diagram/communication/navigator/UMLDomainNav
+ igatorItem$1.class
+SHA1-Digest: 3W5ZeG9DDvMGl1uKPLSeA8Bk55I=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/papyrus/diagram/communication/CommunicationDiagramCr
+ eationCondition.class
+SHA1-Digest: 5pMwJr2GpZiqnZgJr9uYE5Is+I4=
+
+Name: org/eclipse/papyrus/diagram/communication/preferences/Constraint
+ PreferencePage.class
+SHA1-Digest: 90eswHF6n8u9SfyXt+2MEo/Dll0=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/edit/parts/Cust
+ omLifelineEditPartCN.class
+SHA1-Digest: nZ6rfmgII0M+Z0b6Q+xbvcATZv8=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/policies/UMLTextS
+ electionEditPolicy.class
+SHA1-Digest: jY+XnqkvyTEKlbIe+iU+jM+5U7M=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/commands/Lifeline
+ CreateCommandCN.class
+SHA1-Digest: BeeWzFr1eQSrz51Xu40ClwhYbPY=
+
+Name: org/eclipse/papyrus/diagram/communication/part/Messages.class
+SHA1-Digest: EXTS54mrGAuKL1iSnhkZp7NesMY=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/UMLEditPart
+ Factory.class
+SHA1-Digest: v+OWxlGQz/WWHMyHtx7piNL1NFo=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/MessageName
+ EditPart$5.class
+SHA1-Digest: btKAI4yH4SVSTT9k+Vr7E4jYixM=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/TimeObserva
+ tionNameEditPartCN$3.class
+SHA1-Digest: BdUPWItvJPWchWt9LA7UA08HnAc=
+
+Name: org/eclipse/papyrus/diagram/communication/part/UMLCreationWizard
+ $1.class
+SHA1-Digest: D4egb6Er0ezH+61JPNglvFm81Bg=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/CommentEdit
+ PartCN.class
+SHA1-Digest: v/Bz9zjVsjfWcLpOdeucFg5rQJ8=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/DurationObs
+ ervationStereotypeLabelEditPartCN$5.class
+SHA1-Digest: XK5xkm+905093XMGEl2E6Dcx0uI=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/ShortCutDia
+ gramEditPart.class
+SHA1-Digest: BI+ktPAknq2zYsSLVTxiE/aGH2c=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/Interaction
+ NameEditPart$5.class
+SHA1-Digest: O3coDZnJxjtqNdpSaV4Geou/a3w=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/help
+ er/CommunicationCommandHelper.java
+SHA1-Digest: nZCTjUVUMYo7AK7gotc1J1OBMt4=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/comm
+ ands/CustomMessagesReorientCommand.java
+SHA1-Digest: cQLAJj8MwwGzVCIqEaDkB7Qlmwg=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/policies/ModelCan
+ onicalEditPolicy.class
+SHA1-Digest: Da+XzfBq3hBudgFHKjX3UQ4NjBo=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/providers/Eleme
+ ntInitializers.class
+SHA1-Digest: tre5svK7EQ34UVSi+cSyyVepzlM=
+
+Name: plugin.properties
+SHA1-Digest: H/G8ki1xcYMo86ONRQKnlnXIJL8=
+
+Name: org/eclipse/papyrus/diagram/communication/preferences/DiagramCon
+ nectionsPreferencePage.class
+SHA1-Digest: iDE7/eILEx26GXmkUPCxSuOX8qA=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/commands/Duration
+ ObservationCreateCommandCN.class
+SHA1-Digest: Aw/Z9kE6VOHS1Vvs1lM5TYnbNoU=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/LifelineNam
+ eEditPart.class
+SHA1-Digest: MtS0MiEVZkbAEz7wu43Ro3HYmqA=
+
+Name: icons/obj16/Link.gif
+SHA1-Digest: rIUuhQQqp8zE33keUz/P2wicZaU=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/TimeObserva
+ tionEditPartCN$1$1.class
+SHA1-Digest: U+sZLoILN9jy3zXIyo1zG5zH4i4=
+
+Name: plugin.xml
+SHA1-Digest: w0Eu2mDN53NPqAKWjJmfKQZr7jU=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/LifelineNam
+ eEditPart$1.class
+SHA1-Digest: 0F7RsTIqDmqC7ljatPqmxHjIpYk=
+
+Name: org/eclipse/papyrus/diagram/communication/navigator/UMLNavigator
+ ActionProvider$OpenDiagramAction.class
+SHA1-Digest: iH5e19dWI8zH9iSPZNH1MwVYgUU=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/parser/Lifeline
+ CustomParsers.class
+SHA1-Digest: BUL6nlt5GZwK3WyOZ/LZPxpKxJM=
+
+Name: org/eclipse/papyrus/diagram/communication/navigator/UMLDomainNav
+ igatorContentProvider$2.class
+SHA1-Digest: d0R3pYk6meYmXmRxf1AWFnZ6p38=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/figures/Duratio
+ nObservationNodeFigure.class
+SHA1-Digest: tiYzuZRq5qOIsuEhjOqXfm0EQ1A=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/policies/Connecto
+ rTimeObservationItemSemanticEditPolicy.class
+SHA1-Digest: soRRE9lmlkKeNMh8bwKv/WqEFWA=
+
+Name: org/eclipse/papyrus/diagram/communication/navigator/UMLNavigator
+ ActionProvider.class
+SHA1-Digest: O7raQN/rWDodl5on3UqFb/5NcT0=
+
+Name: org/eclipse/papyrus/diagram/communication/part/UMLDiagramEditor$
+ 3$1.class
+SHA1-Digest: L6v74DuKqRICy8wv5q68XbxdgLE=
+
+Name: org/eclipse/papyrus/diagram/communication/part/UMLDocumentProvid
+ er$ResourceSetInfo.class
+SHA1-Digest: K8jktUSWM4vojVKfs2ttqLDojNI=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/edit
+ /policies/CustomOrphanViewPolicy.java
+SHA1-Digest: z6cuVHCqAc2Cn3vIv6g8O8QGfxM=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/commands/Custom
+ MessageReorientCommand.class
+SHA1-Digest: RwxzRrTsiEElPeKqVyW/VkgN0X8=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/edit/parts/Cust
+ omMessageNameEditPart.class
+SHA1-Digest: FUVMpOEAr7oA8JeXxn5GrKh5WBQ=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/comm
+ ands/MessageLabelInverseOrientation.java
+SHA1-Digest: dW1aSWC/+cqFmCzoHujnLjuu5Xc=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/TimeObserva
+ tionStereotypeLabelEditPartCN$1.class
+SHA1-Digest: c+7PVyyh1JOkYoQh8DCLnZIWOcw=
+
+Name: org/eclipse/papyrus/diagram/communication/part/UMLDiagramUpdater
+ .class
+SHA1-Digest: 8HJcaXCfIQjyK5p83r4ZKGbn0y0=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/ConstraintN
+ ameEditPartCN$5.class
+SHA1-Digest: rokvUNj84vuhuMLVGBVvWZoRLME=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/DiagramName
+ EditPart$3.class
+SHA1-Digest: HTQdFCX8GjOG0OfYYTGATVmy6+Y=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/TimeObserva
+ tionStereotypeLabelEditPartCN$1$1.class
+SHA1-Digest: vCugnx5y9yqmMo9WULVOckcW92c=
+
+Name: org/eclipse/papyrus/diagram/communication/navigator/UMLNavigator
+ ContentProvider$1.class
+SHA1-Digest: FbSEQVh3KBdbycjMpQlI1lcgIfA=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/edit/parts/Cust
+ omMessageEditPart.class
+SHA1-Digest: gVBW6qpi7kUHmmpdwqVMEPNmvrg=
+
+Name: org/eclipse/papyrus/diagram/communication/parsers/MessageFormatP
+ arser.class
+SHA1-Digest: ER6LzxjrGZM4/ue7WFeU7SC8/lQ=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/helpers/DurationO
+ bservationEditHelper.class
+SHA1-Digest: EWJ/w7/7G4m8NnT7bcax+7YAjH4=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/DurationObs
+ ervationLabelEditPartCN$1.class
+SHA1-Digest: D25sPGvRplT+YMM9uD9cIxipst0=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/CommentBody
+ EditPartCN$2.class
+SHA1-Digest: CNR8+boUJ30dkVmmLAgc2giBgnQ=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/ConstraintB
+ odyEditPartCN$4.class
+SHA1-Digest: V3CCz3UavBKhCs5hBZpK5SfNGHE=
+
+Name: messages.properties
+SHA1-Digest: Gnx/HjE43GRJ8+levNpfz+AtyrM=
+
+Name: icons/obj16/Diagram_Communication.gif
+SHA1-Digest: svhx4OdzXQ4q8KrgSozPMIox5yU=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/policies/UMLTextN
+ onResizableEditPolicy$2.class
+SHA1-Digest: TSDdN87yvswwfe/G3JDE370DyiA=
+
+Name: icons/alt_window_32.gif
+SHA1-Digest: K8N2N3FZnwski6CPeJQ0NS/6cNI=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/figu
+ res/InteractionRectangleFigure.java
+SHA1-Digest: RMw1EiWFwcb2baPdRkXVLlLLEsg=
+
+Name: org/eclipse/papyrus/diagram/communication/expressions/UMLOCLFact
+ ory.class
+SHA1-Digest: w/YLo7XIVDYQvB+y98AYzrVxtN4=
+
+Name: org/eclipse/papyrus/diagram/communication/part/UMLDiagramEditor$
+ 1.class
+SHA1-Digest: F5XBMiSxkoheXmVvv4D6HylvhyQ=
+
+Name: org/eclipse/papyrus/diagram/communication/part/UMLDocumentProvid
+ er$ResourceSetInfo$SynchronizerDelegate$3.class
+SHA1-Digest: Dh3IJagCrDr/P24k5p0WJiLn35g=
+
+Name: org/eclipse/papyrus/diagram/communication/preferences/DiagramPri
+ ntingPreferencePage.class
+SHA1-Digest: RyXI1dnbK/Jcc6BYrA4vIApdwvE=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/prov
+ iders/ElementInitializers.java
+SHA1-Digest: l9Ee5ELR7OFmOtnrAV9CzCSENDg=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/helpers/TimeObser
+ vationEditHelper.class
+SHA1-Digest: TarNAhL6XakqwLEE2+XCOXjrazM=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/help
+ er/DiagramShortCutHelper.java
+SHA1-Digest: RLMQnUyKMAtOgA2oOqS8fKspi2Y=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/commands/MessageC
+ reateCommand.class
+SHA1-Digest: M8f0WgKaqgOqEx6tKVIRjL9T3HY=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/edit
+ /parts/CustomMessageEditPart.java
+SHA1-Digest: /qedgp8YtfvSIv/x7xIjX/7/ncQ=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/ConstraintE
+ ditPartCN.class
+SHA1-Digest: A5Rw7XZxpkHzNw9Btw3Ng1Qv8Js=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/AppliedSter
+ eotypeMessageEditPart$5.class
+SHA1-Digest: CCmk1RfZoVUEABo6hBVT0oFfn2o=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/policies/Connecto
+ rDurationObservationItemSemanticEditPolicy.class
+SHA1-Digest: ztqOKvE7gx8hIrjjzXtYerCeIvk=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/commands/Custom
+ DurationObservationCreateCommandCN.class
+SHA1-Digest: 0q1VITww1+gP2cF5sV4/zMJ8xpw=
+
+Name: images/arrow.bmp
+SHA1-Digest: SBIk9mmQYo9rKjMumg93o2ltZSY=
+
+Name: icons/arrow-rotate.gif
+SHA1-Digest: 4p6PLHD7kT+pRknHhw5RJfTT9ME=
+
+Name: org/eclipse/papyrus/diagram/communication/part/UMLLinkDescriptor
+ .class
+SHA1-Digest: GjkC6ltOOr/EPsU2KyUqiEO/X/8=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/edit
+ /policies/MessageNameEditPolicy.java
+SHA1-Digest: LpKzxIBjw+34cZ2IJG5Yv0Y8wpc=
+
+Name: org/eclipse/papyrus/diagram/communication/part/UMLMatchingStrate
+ gy.class
+SHA1-Digest: 0dOwLvklpcs/h5+5H/HebdEq8j4=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/figu
+ res/AbstractObservationNodeFigure.java
+SHA1-Digest: Tnnxugji8oM89mpXiaBkNdrp1mA=
+
+Name: org/eclipse/papyrus/diagram/communication/CreateCommunicationDia
+ gramCommand.class
+SHA1-Digest: h6zsj8itlPg0a09vwGJFmDaUPmc=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/ModelEditPa
+ rt.class
+SHA1-Digest: hAKl7co9i6pHIpQaP2Lu9t1pj8s=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/figu
+ res/CustomWrappingLabel.java
+SHA1-Digest: TVBt+ccsfaMAaoVrx2pp+0BXWdo=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/policies/UMLBaseI
+ temSemanticEditPolicy$LinkConstraints.class
+SHA1-Digest: a3tKPfRK7wgz+IJSm1g0dsqeWaw=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/policies/Constrai
+ ntItemSemanticEditPolicyCN.class
+SHA1-Digest: uqn9qCPVW1/pz2KV+auXhZ4XrjA=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/policies/PackageI
+ temSemanticEditPolicy$DuplicateAnythingCommand.class
+SHA1-Digest: Vf8gDxAd6cT00Zo2TRk/8nATLwc=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/commands/Connecto
+ rDurationObservationReorientCommand.class
+SHA1-Digest: ke3ZvriCtHcCSRExS7e1XvrSIOo=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/UMLEditPart
+ Factory$LabelCellEditorLocator.class
+SHA1-Digest: OtP/cs365b/doRC4pYS8T7xZ4uE=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/MessageName
+ EditPart$4.class
+SHA1-Digest: YhQsXZOIHZ3TMOKWG2Oa051DH44=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/TimeObserva
+ tionNameEditPartCN$2.class
+SHA1-Digest: s+Ij1F/jOr3HUBwPr6CwN4EuX7c=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/DurationObs
+ ervationStereotypeLabelEditPartCN$4.class
+SHA1-Digest: srD3yVY4ACbqV8+01xLEr3beGms=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/Interaction
+ NameEditPart$4.class
+SHA1-Digest: /GaxAwSiBZSGU3K85sWsPASleLo=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/edit
+ /policies/CommunicationGraphicalNodeEditPolicy.java
+SHA1-Digest: fyTrC32rqqysV6+2RXSuvAvqsZM=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/help
+ er/MessageInfo.java
+SHA1-Digest: rP8VGeECt3452lxL8W55UFfcnpM=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/help
+ er/MessageHelper.java
+SHA1-Digest: vzaf7WijhvVTSYu/djW4u3/fplc=
+
+Name: org/eclipse/papyrus/diagram/communication/providers/UMLViewProvi
+ der.class
+SHA1-Digest: s+yYnx2onDt5Ce98kYa4Y3TUNrA=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/helper/Notifica
+ tionHelper.class
+SHA1-Digest: 1Mt3COD6IyD1rGeL3/m59OoaeXo=
+
+Name: org/eclipse/papyrus/diagram/communication/parsers/AbstractParser
+ .class
+SHA1-Digest: koWd6lz1Uaz71kJMIT5gaah4M/Y=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/Interaction
+ NameEditPart$1$1.class
+SHA1-Digest: uAt4Q9GTM8OuAqRvAm40baOs/04=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/helpers/Constrain
+ tEditHelper.class
+SHA1-Digest: T8N4OTBDQXMqRNk8uubgklXi8pE=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/edit
+ /policies/ObservationLayoutEditPolicy.java
+SHA1-Digest: /3n4u43gQ1o4/D2YI6egB2ezzHk=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/edit
+ /parts/CustomInteractionEditPart.java
+SHA1-Digest: m/lQ6GW0k74UgFICfLc3Rpfxflc=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/figures/TimeObs
+ ervationNodeFigure.class
+SHA1-Digest: nd6kiqKOyhVAOjrvTxA7ApAHY+Q=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/comm
+ ands/CustomTimeObservationCreateCommandCN.java
+SHA1-Digest: 2kAquIhEQmJFeIowyt789DXPsQk=
+
+Name: org/eclipse/papyrus/diagram/communication/preferences/DiagramPre
+ ferenceInitializer.class
+SHA1-Digest: a9FICbHHFASf8wBXaMwG/G1xKjc=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/helper/Rotation
+ Helper.class
+SHA1-Digest: Prc12BNKTN1IPLKxfF1SSctOOh8=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/figures/Abstrac
+ tObservationNodeFigure.class
+SHA1-Digest: vvcbIqdmeDLdgfCtn1Brmdm/1a8=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/edit
+ /policies/ShortCutDiagramItemSemanticEditPolicy.java
+SHA1-Digest: MRGLWr0FyUmK6gz7/DFDt6bOsuU=
+
+Name: org/eclipse/papyrus/diagram/communication/part/ValidateAction$3.
+ class
+SHA1-Digest: 9ckq4Jne6NFUs7AKrx20Rh/Vds4=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/TimeObserva
+ tionStereotypeLabelEditPartCN.class
+SHA1-Digest: pPskF9ycBhlQ1bTgcyziq28ScXA=
+
+Name: org/eclipse/papyrus/diagram/communication/navigator/UMLDomainNav
+ igatorContentProvider$1.class
+SHA1-Digest: AAQRDjEQQKH3fgdS+wzXHIlrak8=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/helper/Communic
+ ationRequestConstant.class
+SHA1-Digest: RKpp0VoErwB8F334lG74IExKOSg=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/help
+ er/NotificationHelper.java
+SHA1-Digest: UUEdlwcrMNmwDkDnhqhNLkzTWlA=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/helper/EventHel
+ per.class
+SHA1-Digest: oOFM7eVzIrgyxLkndSjVyRxD/+4=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/LifelineNam
+ eEditPart$1$1.class
+SHA1-Digest: YpFD/eqJWF8BXO+X6OTsSizFQGI=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/DiagramName
+ EditPart.class
+SHA1-Digest: KVuIXNAAXSFRNll94DVDBcyFFTw=
+
+Name: org/eclipse/papyrus/diagram/communication/navigator/UMLNavigator
+ ContentProvider.class
+SHA1-Digest: SqUK3NV6LkiwE/0yEqMFvGljQ5U=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/ConstraintN
+ ameEditPartCN$4.class
+SHA1-Digest: 49H4SAC3nkjuDdJphLsyA8biP2U=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/DiagramName
+ EditPart$2.class
+SHA1-Digest: mEUfLugOHd0+qB2y4a405XXp3/A=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/edit/policies/E
+ xternalLabelPrimaryDragRoleEditPolicy.class
+SHA1-Digest: YpwP+eKhi+Tw/hqxvAmq1EwDN9s=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/CreateCommu
+ nicationDiagramWithNavigationHandler.java
+SHA1-Digest: pPx2+Qw5i1/zdXNmvAvSFxB0Vdk=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/custom/help
+ er/CommunicationRequestConstant.java
+SHA1-Digest: RTrHhXn2VT+uUENG5uwU8u+xqbE=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/AppliedSter
+ eotypeMessageEditPart$1$1.class
+SHA1-Digest: 2jbZoUmoAupZc6OwPkPm5BQ/6UE=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/CommentBody
+ EditPartCN$1.class
+SHA1-Digest: KCU8WuybzhYdhqFun4SIOtiL+YE=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/ShortCutDia
+ gramEditPart$1.class
+SHA1-Digest: +m7XNBy2If0KuvqNnX2p4OBZhb8=
+
+Name: org/eclipse/papyrus/diagram/communication/part/UMLDocumentProvid
+ er$ResourceSetInfo$SynchronizerDelegate.class
+SHA1-Digest: Kl0YEfUaimxEit2jsk1zWxefHUM=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/ConstraintB
+ odyEditPartCN$3.class
+SHA1-Digest: V/1b4COinzyzuQOO8sVi9kyNoac=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/policies/UMLTextN
+ onResizableEditPolicy$1.class
+SHA1-Digest: j0QlDEZEmHCn7FIOYLUyj/rG9YM=
+
+Name: icons/obj16/UMLDiagramFile.gif
+SHA1-Digest: lWlO5N44xJ/ka7KNcvGQu0s8N5I=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/helpers/UMLBaseEd
+ itHelper.class
+SHA1-Digest: qFa3x/8lyO1F+JLC22cck05FXDo=
+
+Name: icons/alt_window_16.gif
+SHA1-Digest: hqphjmrNpWdZDNhMp6njS09WmlA=
+
+Name: org/eclipse/papyrus/diagram/communication/part/UMLDocumentProvid
+ er$ResourceSetInfo$SynchronizerDelegate$2.class
+SHA1-Digest: 2XThxHnU1+eg8bE/0l6VQmhJ44o=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/LifelineNam
+ eEditPart$5.class
+SHA1-Digest: wZZMda4yJiZzNLMz/9hPLwMONbk=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/helper/Communic
+ ationLinkMappingHelper$2.class
+SHA1-Digest: 4Sp8LexxGbhRz7PaLQDFG0bKIQc=
+
+Name: custom-src/org/eclipse/papyrus/diagram/communication/UmlCommunic
+ ationDiagramForMultiEditor.java
+SHA1-Digest: UneLoOL6Surkv1u73CRBZezDaP0=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/ConstraintN
+ ameEditPartCN.class
+SHA1-Digest: vf166YyMT9Si95VREz20NsPMiP8=
+
+Name: org/eclipse/papyrus/diagram/communication/part/UMLDocumentProvid
+ er.class
+SHA1-Digest: UJj80O1V+wj2CgOU2DPijGAzRLw=
+
+Name: org/eclipse/papyrus/diagram/communication/navigator/UMLNavigator
+ LabelProvider.class
+SHA1-Digest: +F1H6LR6zrpjup4XjZcspdGAYzA=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/figures/CustomW
+ rappingLabel.class
+SHA1-Digest: 7Abx0caamjytRtAuDi5xYmKENIY=
+
+Name: org/eclipse/papyrus/diagram/communication/custom/figures/Abstrac
+ tObservationNodeFigure$AbstractObservationLayoutManager.class
+SHA1-Digest: 3CuS4QfFwXPxnQSXzfera44L7OE=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/commands/CommentA
+ nnotatedElementCreateCommand.class
+SHA1-Digest: LM0bWzk6OZMNrsIQPxKbNNs31DE=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/TimeObserva
+ tionStereotypeLabelEditPartCN$5.class
+SHA1-Digest: pV1sc+D7EOo+xAHS2dPcBNeLX/Y=
+
+Name: org/eclipse/papyrus/diagram/communication/edit/parts/CommentAnno
+ tatedElementEditPart$CommentLinkDescriptor.class
+SHA1-Digest: a3fTG+PX2mkouMFgJEpnTo1Rdnc=
+
+Name: org/eclipse/papyrus/diagram/communication/preferences/CommentPre
+ ferencePage.class
+SHA1-Digest: ipmvqOASWjGk2ge7wQcZsOcRnkk=
+

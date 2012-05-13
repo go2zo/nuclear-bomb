@@ -1,0 +1,46 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.papyrus.sysml.diagram.ui;singleton:=t
+ rue
+Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.7.0,4.0.0)
+ ",org.eclipse.papyrus.wizards;bundle-version="0.8.0",org.eclipse.papy
+ rus.core;bundle-version="0.8.0",org.eclipse.papyrus.sysml.diagram.com
+ mon;bundle-version="0.8.0"
+Bundle-Activator: org.eclipse.papyrus.sysml.diagram.ui.Activator
+Bundle-Version: 0.8.0.v201106151827
+Export-Package: org.eclipse.papyrus.sysml.diagram.ui
+Ant-Version: Apache Ant 1.7.1
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/papyrus/sysml/diagram/ui/NewSysMLProjectWizard.class
+SHA1-Digest: +wsKJPkEPJUJH4ufVT2rsRxRVo8=
+
+Name: org/eclipse/papyrus/sysml/diagram/ui/NewSysMLModelWizard.class
+SHA1-Digest: l9V2bSMFSmhbQVRJu5+irGTAELo=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: plugin.xml
+SHA1-Digest: Bb3l2Lhw21nu3Ez5p7fhnhJmJ/s=
+
+Name: about.html
+SHA1-Digest: a2Fk5/pDnCvlEfl7QwDZj/FCgFc=
+
+Name: plugin.properties
+SHA1-Digest: Ztpj+gr9H6s83WWIPapKhTSYIIM=
+
+Name: icons/papyrus/new_sysml_project.gif
+SHA1-Digest: 9k8g/go45TvupILhIqcqFUBXNYM=
+
+Name: icons/papyrus/new_sysml_model.gif
+SHA1-Digest: Mt9Zu99XKiwvhlgdWXcD6Hs35P8=
+
+Name: org/eclipse/papyrus/sysml/diagram/ui/Activator.class
+SHA1-Digest: nGHHvb6wmUiMhTBSJ53QYtiYylg=
+

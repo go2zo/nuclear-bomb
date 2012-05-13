@@ -1,0 +1,86 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.papyrus.table.menu;singleton:=true
+Require-Bundle: org.eclipse.core.expressions;bundle-version="[3.4.0,4.
+ 0.0)",org.eclipse.papyrus.table.default;bundle-version="[0.8.0,1.0.0)
+ ",org.eclipse.papyrus.diagram.common;bundle-version="[0.8.0,1.0.0)",o
+ rg.eclipse.papyrus.diagram.menu;bundle-version="[0.8.0,1.0.0)",org.ec
+ lipse.emf.facet.infra.common.core;bundle-version="0.1.0",org.eclipse.
+ papyrus.table.common;bundle-version="0.8.0",org.eclipse.emf.facet.wid
+ gets.nattable;bundle-version="[0.1.0,1.0.0)",org.eclipse.emf.facet.wi
+ dgets.nattable.instance;bundle-version="0.1.0",org.eclipse.emf.facet.
+ widgets.nattable.workbench;bundle-version="0.1.0"
+Bundle-Activator: org.eclipse.papyrus.table.menu.Activator
+Bundle-Version: 0.8.0.v201106151827
+Export-Package: org.eclipse.papyrus.table.menu,org.eclipse.papyrus.tab
+ le.menu.handler,org.eclipse.papyrus.table.menu.providers
+Ant-Version: Apache Ant 1.7.1
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: icons/select_column_to_hide.png
+SHA1-Digest: /5XNb6O7daw18dDKdCvpvSOB2u0=
+
+Name: org/eclipse/papyrus/table/menu/providers/TableTester.class
+SHA1-Digest: pDmZceA9GkaZEnwjcSN+dtAdGZI=
+
+Name: icons/rename.gif
+SHA1-Digest: mS/l+FYNG7YxINYiuATz3coUq3c=
+
+Name: org/eclipse/papyrus/table/menu/handler/CommonColumnHandler.class
+SHA1-Digest: qfPnVh1u7wjuOUX1oUIz5FGu/G8=
+
+Name: about.html
+SHA1-Digest: a2Fk5/pDnCvlEfl7QwDZj/FCgFc=
+
+Name: plugin.properties
+SHA1-Digest: SISfxEEUMHrlwhI0jHRPSgjahbk=
+
+Name: icons/not_NA.png
+SHA1-Digest: xv4Okqpkl/qVa1iWJjbJ5en1MIc=
+
+Name: org/eclipse/papyrus/table/menu/handler/states/AbstractToggleStat
+ eProvider.class
+SHA1-Digest: UdLi41xPjzxXsi7+MibhH6m79bo=
+
+Name: icons/empty.png
+SHA1-Digest: vj70lQ1FFa5myn6mnK4X1HXTPmk=
+
+Name: org/eclipse/papyrus/table/menu/messages/messages.properties
+SHA1-Digest: lfSo3gZluhrowCnUIfHZMj56EHo=
+
+Name: org/eclipse/papyrus/table/menu/messages/Messages.class
+SHA1-Digest: H6mT3k30+QYuu49RWYFlzwinH/Y=
+
+Name: icons/select_column_to_hide_2.png
+SHA1-Digest: r82rcH15ZXdImHcOJunHaR02A1s=
+
+Name: org/eclipse/papyrus/table/menu/handler/HideEmptyColumnsHandler.c
+ lass
+SHA1-Digest: kEV8nUJppcPrgAcghzUPxRXKFKM=
+
+Name: org/eclipse/papyrus/table/menu/handler/states/OnlyCommonColumnsS
+ tate.class
+SHA1-Digest: vr036yeVVa11HySumg0FBoPewPk=
+
+Name: plugin.xml
+SHA1-Digest: wMqit59gsCl5FgrTCV5ScZ9r3fg=
+
+Name: org/eclipse/papyrus/table/menu/Activator.class
+SHA1-Digest: 3/A2AfqAuWK785gATfhbcJyp3GQ=
+
+Name: org/eclipse/papyrus/table/menu/handler/states/AbstractToggleStat
+ eProvider$1.class
+SHA1-Digest: p/Lrzhz3pI6Q4cNtHlP8BIcuODM=
+
+Name: org/eclipse/papyrus/table/menu/handler/states/HideEmptyColumnSta
+ te.class
+SHA1-Digest: 3fgcqaF9M3kt+Tcd7D0uX+5Oqg4=
+

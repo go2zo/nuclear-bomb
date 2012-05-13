@@ -1,0 +1,172 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.papyrus.extendedtypes.emf;singleton:=
+ true
+Require-Bundle: org.eclipse.core.runtime;bundle-version="3.7.0",org.ec
+ lipse.emf.ecore;bundle-version="2.7.0";visibility:=reexport,org.eclip
+ se.emf.ecore.xmi;bundle-version="2.6.0";visibility:=reexport,org.ecli
+ pse.papyrus.core.queries.configuration;bundle-version="0.8.0";visibil
+ ity:=reexport,org.eclipse.papyrus.extendedtypes;bundle-version="0.8.0
+ ";visibility:=reexport,org.eclipse.emf.facet.infra.query;bundle-versi
+ on="0.1.0";visibility:=reexport,org.eclipse.uml2.uml;bundle-version="
+ 3.2.0";visibility:=reexport,org.eclipse.papyrus.log;bundle-version="0
+ .8.0",org.eclipse.ui;bundle-version="3.7.0",org.eclipse.papyrus.servi
+ ce.edit;bundle-version="0.8.0",org.eclipse.papyrus.core.queries;bundl
+ e-version="0.8.0"
+Bundle-Activator: org.eclipse.papyrus.extendedtypes.emf.Activator
+Export-Package: org.eclipse.papyrus.extendedtypes.emf,org.eclipse.papy
+ rus.extendedtypes.emf.modifysemanticvaluesactionconfiguration,org.ecl
+ ipse.papyrus.extendedtypes.emf.modifysemanticvaluesactionconfiguratio
+ n.impl,org.eclipse.papyrus.extendedtypes.emf.modifysemanticvaluesacti
+ onconfiguration.util,org.eclipse.papyrus.extendedtypes.emf.providers
+Bundle-Version: 0.8.0.v201106151827
+Ant-Version: Apache Ant 1.7.1
+Bundle-ClassPath: .
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %providerName
+Bundle-Name: %pluginName
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/papyrus/extendedtypes/emf/modifysemanticvaluesaction
+ configuration/ListValue.class
+SHA1-Digest: W1+sxkGqLkQ4XztsVr42r5l3dUM=
+
+Name: org/eclipse/papyrus/extendedtypes/emf/modifysemanticvaluesaction
+ configuration/FeatureValue.class
+SHA1-Digest: chCgcjiUYUIEaGlruxmQ2p+rFhU=
+
+Name: org/eclipse/papyrus/extendedtypes/emf/modifysemanticvaluesaction
+ configuration/util/ModifySemanticValuesActionConfigurationSwitch.clas
+ s
+SHA1-Digest: gBfL8xJwW+/mn6yKhP9+7ktELYY=
+
+Name: plugin.properties
+SHA1-Digest: G4x3BVg6GHDlPlIsofmNI6qGI0I=
+
+Name: org/eclipse/papyrus/extendedtypes/emf/modifysemanticvaluesaction
+ configuration/impl/DynamicValueImpl.class
+SHA1-Digest: OnezW/OY2UQaNa4qPdWYmcDLTSM=
+
+Name: org/eclipse/papyrus/extendedtypes/emf/modifysemanticvaluesaction
+ configuration/util/ModifySemanticValuesActionConfigurationXMLProcesso
+ r.class
+SHA1-Digest: QIyalC/tL1qvIFOIVdhw5/lrY84=
+
+Name: org/eclipse/papyrus/extendedtypes/emf/Activator.class
+SHA1-Digest: 1TlcgM6WWoSdLlwNoUQqrL6mQfo=
+
+Name: org/eclipse/papyrus/extendedtypes/emf/modifysemanticvaluesaction
+ configuration/util/ModifySemanticValuesActionConfigurationAdapterFact
+ ory.class
+SHA1-Digest: jixjDFRs5BZa2ZcOwsJKgMy+AXo=
+
+Name: org/eclipse/papyrus/extendedtypes/emf/modifysemanticvaluesaction
+ configuration/impl/ModifySemanticValuesActionConfigurationImpl.class
+SHA1-Digest: TIDd8FluTVi9gnTtEfWyyeETXlY=
+
+Name: org/eclipse/papyrus/extendedtypes/emf/modifysemanticvaluesaction
+ configuration/util/ModifySemanticValuesActionConfigurationResourceFac
+ toryImpl.class
+SHA1-Digest: G72c/Pqj63WTUA4uDYWuvAU/i6k=
+
+Name: model/ModifySemanticValuesActionConfiguration.ecorediag
+SHA1-Digest: 7yfobY1nSIFRphXhxUWtx5bZ2j8=
+
+Name: org/eclipse/papyrus/extendedtypes/emf/modifysemanticvaluesaction
+ configuration/DynamicValue.class
+SHA1-Digest: 9ly5Rn/8M2APtqiyNngs8XvkGvw=
+
+Name: org/eclipse/papyrus/extendedtypes/emf/modifysemanticvaluesaction
+ configuration/impl/QueryExecutionValueImpl.class
+SHA1-Digest: Er9rJ7ukbp00ADz0dWv/zHcyKSA=
+
+Name: plugin.xml
+SHA1-Digest: 1fHuGI6TfeHhPP9Bt1mSw2VYlDQ=
+
+Name: org/eclipse/papyrus/extendedtypes/emf/modifysemanticvaluesaction
+ configuration/util/ModifySemanticValuesActionConfigurationAdapterFact
+ ory$1.class
+SHA1-Digest: thwkUMjaOPe7AHd/fslNxsykzeU=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/papyrus/extendedtypes/emf/modifysemanticvaluesaction
+ configuration/impl/ModifySemanticValuesActionConfigurationPackageImpl
+ .class
+SHA1-Digest: WdnNcTRGWZnWAHxCDyyhvIw2WjM=
+
+Name: org/eclipse/papyrus/extendedtypes/emf/modifysemanticvaluesaction
+ configuration/impl/ConstantValueImpl.class
+SHA1-Digest: KBLtP0L9/mgk9LoCS+qQpXP9src=
+
+Name: org/eclipse/papyrus/extendedtypes/emf/modifysemanticvaluesaction
+ configuration/util/ModifySemanticValuesActionConfigurationResourceImp
+ l.class
+SHA1-Digest: 5QzESPdaCo9ifW+opsdd8WXIBuY=
+
+Name: org/eclipse/papyrus/extendedtypes/emf/modifysemanticvaluesaction
+ configuration/impl/ModifySemanticValuesActionConfigurationFactoryImpl
+ .class
+SHA1-Digest: bp4E5pDuh6hvsqe/1Cp2bbDH160=
+
+Name: org/eclipse/papyrus/extendedtypes/emf/modifysemanticvaluesaction
+ configuration/ModifySemanticValuesActionConfiguration.class
+SHA1-Digest: Q5jAwKe5ep+k0IrAkCfAHSHOyzA=
+
+Name: org/eclipse/papyrus/extendedtypes/emf/modifysemanticvaluesaction
+ configuration/impl/ListValueImpl.class
+SHA1-Digest: cafGEXvZ2LC/qhXSpdk1iVr1nNw=
+
+Name: about.html
+SHA1-Digest: a2Fk5/pDnCvlEfl7QwDZj/FCgFc=
+
+Name: org/eclipse/papyrus/extendedtypes/emf/providers/ModifySemanticVa
+ luesActionProvider.class
+SHA1-Digest: iklenD/ilQeMQlNhsIZLi+CetIg=
+
+Name: org/eclipse/papyrus/extendedtypes/emf/modifysemanticvaluesaction
+ configuration/ModifySemanticValuesActionConfigurationPackage$Literals
+ .class
+SHA1-Digest: 2/66q3LMcyeHf2g+U8FKiamUywM=
+
+Name: org/eclipse/papyrus/extendedtypes/emf/modifysemanticvaluesaction
+ configuration/impl/FeatureToSetImpl.class
+SHA1-Digest: HhfAPlNpcXJfQwOdyv4/PVbTrBc=
+
+Name: model/ModifySemanticValuesActionConfiguration.ecore
+SHA1-Digest: +b/SoF1B1Fs0kWdbrEYJ6Ixk0II=
+
+Name: org/eclipse/papyrus/extendedtypes/emf/modifysemanticvaluesaction
+ configuration/QueryExecutionValue.class
+SHA1-Digest: PazaDQxCErBlU2CRS2iu8ITe2z8=
+
+Name: model/ModifySemanticValuesActionConfiguration.genmodel
+SHA1-Digest: XSTo+kb5YplfFa2KM3KGE3Yf4LA=
+
+Name: org/eclipse/papyrus/extendedtypes/emf/modifysemanticvaluesaction
+ configuration/ModifySemanticValuesActionConfigurationPackage.class
+SHA1-Digest: f4n8voF7mvfUtxOSwvoZQX8GMP0=
+
+Name: org/eclipse/papyrus/extendedtypes/emf/modifysemanticvaluesaction
+ configuration/ModifySemanticValuesActionConfigurationFactory.class
+SHA1-Digest: 9uoeLiv8YkmGtCmxRNmI5mKfMeY=
+
+Name: org/eclipse/papyrus/extendedtypes/emf/modifysemanticvaluesaction
+ configuration/impl/FeatureValueImpl.class
+SHA1-Digest: bTVKKJgSsYgvrAK0YImuiRUI3Jk=
+
+Name: org/eclipse/papyrus/extendedtypes/emf/modifysemanticvaluesaction
+ configuration/FeatureToSet.class
+SHA1-Digest: qsasCjlethTJX2AH0NI0sCMf88U=
+
+Name: org/eclipse/papyrus/extendedtypes/emf/providers/ModifySemanticVa
+ luesActionProvider$1.class
+SHA1-Digest: qqFZGX7lfSEPwmSekUCTARrSGjM=
+
+Name: org/eclipse/papyrus/extendedtypes/emf/modifysemanticvaluesaction
+ configuration/ConstantValue.class
+SHA1-Digest: hDB6CdT5NHltM6tdFZfg4406N9I=
+

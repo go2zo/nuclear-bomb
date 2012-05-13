@@ -1,0 +1,436 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.papyrus.parameter.editor.xtext; singl
+ eton:=true
+Require-Bundle: org.eclipse.xtext;bundle-version="[2.0.0,3.0.0)",org.e
+ clipse.xtext.generator;resolution:="optional";bundle-version="[2.0.0,
+ 3.0.0)",org.apache.commons.logging;resolution:="optional";bundle-vers
+ ion="[1.1.0,2.0.0)",org.eclipse.emf.codegen.ecore;resolution:="option
+ al";bundle-version="[2.7.0,3.0.0)",org.eclipse.emf.mwe.utils;resoluti
+ on:="optional";bundle-version="[1.1.0,2.0.0)",org.eclipse.emf.mwe2.la
+ unch;resolution:="optional";bundle-version="[2.0.0,3.0.0)",com.ibm.ic
+ u;resolution:="optional";bundle-version="[4.4.0,5.0.0)",org.eclipse.x
+ text.xtend;resolution:="optional";bundle-version="[1.0.0,2.0.0)",org.
+ eclipse.uml2.codegen.ecore;bundle-version="1.6.0",org.eclipse.uml2.um
+ l;bundle-version="3.1.0",org.eclipse.xtext.util;bundle-version="[2.0.
+ 0,3.0.0)",org.eclipse.emf.ecore;bundle-version="[2.7.0,3.0.0)",org.ec
+ lipse.emf.common;bundle-version="[2.7.0,3.0.0)",org.antlr.runtime;bun
+ dle-version="[3.2.0,4.0.0)",org.eclipse.papyrus.common.editor.xtext;b
+ undle-version="0.8.0",org.eclipse.xtext.gmf.glue;bundle-version="[0.8
+ .0,1.0.0)"
+Bundle-Version: 0.8.0.v201106151827
+Export-Package: org.eclipse.papyrus.parameter.editor.xtext,org.eclipse
+ .papyrus.parameter.editor.xtext.services,org.eclipse.papyrus.paramete
+ r.editor.xtext.umlParameter,org.eclipse.papyrus.parameter.editor.xtex
+ t.umlParameter.impl,org.eclipse.papyrus.parameter.editor.xtext.umlPar
+ ameter.util,org.eclipse.papyrus.parameter.editor.xtext.parseTreeConst
+ ruction,org.eclipse.papyrus.parameter.editor.xtext.parser.antlr,org.e
+ clipse.papyrus.parameter.editor.xtext.parser.antlr.internal,org.eclip
+ se.papyrus.parameter.editor.xtext.validation
+Ant-Version: Apache Ant 1.7.1
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Import-Package: org.apache.log4j
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/umlParameter/util/Uml
+ ParameterSwitch.class
+SHA1-Digest: ajlaErQH1sQtLZixcjo3Nulgsms=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/services/UmlParameter
+ GrammarAccess$ParameterRuleElements.class
+SHA1-Digest: gxNiGlpLa3DFf4b8rl686HQ/v8c=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/parseTreeConstruction
+ /UmlParameterParsetreeConstructor$MultiplicityRule_BoundsAssignment_1
+ .class
+SHA1-Digest: HLTKOarnQvGBmNs8sNPyEBRECU0=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/parser/antlr/internal
+ /InternalUmlParameter__.g
+SHA1-Digest: Cu792sosq8w5nYXysNXbQoymHU0=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/parseTreeConstruction
+ /UmlParameterParsetreeConstructor$ParameterRule_MultiplicityAssignmen
+ t_5.class
+SHA1-Digest: fvvmW28C4l5M1pB6t8WUX/ipLZo=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/UmlParameter.xtext
+SHA1-Digest: I5wtWssqsR7EgxWwxRwjaleYy2E=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/parser/antlr/internal
+ /InternalUmlParameterLexer$DFA14.class
+SHA1-Digest: g6WrCsP3DMP5jVMc8ZTSuS3QPHU=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/parseTreeConstruction
+ /UmlParameterParsetreeConstructor$QualifiedName_ColonColonKeyword_1.c
+ lass
+SHA1-Digest: L+BL4BqgQuamXWuBoyqUSXY0f8M=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/parseTreeConstruction
+ /UmlParameterParsetreeConstructor$EffectRule_LeftCurlyBracketKeyword_
+ 0.class
+SHA1-Digest: xdh0D/Cs5UT75O3LD2ACKQKwFRY=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/services/UmlParameter
+ GrammarAccess$EffectRuleElements.class
+SHA1-Digest: xN3n94Blt7zZUxqNlB6IIsI8dA0=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/services/UmlParameter
+ GrammarAccess$ModifiersRuleElements.class
+SHA1-Digest: KIr0uZb5HNdw7Sw0+X0P+3PVgws=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/umlParameter/Modifier
+ Kind.class
+SHA1-Digest: m6L2VqgAhvhYRkOGad7fE/i9dsk=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/parseTreeConstruction
+ /UmlParameterParsetreeConstructor$EffectRule_Group.class
+SHA1-Digest: 2ZHpHmfZo2NUp4yF2JGA7uqsNTY=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/umlParameter/util/Uml
+ ParameterResourceImpl.class
+SHA1-Digest: O6I/CvDHzOpZh+6n9GoKWezyJsI=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/parser/antlr/internal
+ /InternalUmlParameter.tokens
+SHA1-Digest: Sj3FHsWBOLDh7CXISWL3YyP725w=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/parseTreeConstruction
+ /UmlParameterParsetreeConstructor$ModifiersRule_LeftCurlyBracketKeywo
+ rd_0.class
+SHA1-Digest: yOgY/o2VSYBP1D2xhuip8Dh7Bng=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/umlParameter/UmlParam
+ eterFactory.class
+SHA1-Digest: R8o+UVIeFlOBfiQJbSCpC0iARng=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/GenerateUmlParameter.
+ mwe2
+SHA1-Digest: e4MnQNoF3h6RGQopZhiZUv81AU0=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/parseTreeConstruction
+ /UmlParameterParsetreeConstructor$ParameterRule_ColonKeyword_3.class
+SHA1-Digest: VHLcb/KZoB1we54hLcgxe+MFSGw=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/scoping/UmlParameterS
+ copeProvider.class
+SHA1-Digest: n+hiRUVyMv4KZsQqo9KdlB8YkGY=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/parseTreeConstruction
+ /UmlParameterParsetreeConstructor$ModifiersRule_Group.class
+SHA1-Digest: BXAYd2W9DDwSh7T9LsL/XjZNNm0=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/parseTreeConstruction
+ /UmlParameterParsetreeConstructor$EffectRule_RightCurlyBracketKeyword
+ _3.class
+SHA1-Digest: 2zUZ0CvFgxZi22jP2XSbnHcUJog=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/parseTreeConstruction
+ /UmlParameterParsetreeConstructor$QualifiedName_PathAssignment_0.clas
+ s
+SHA1-Digest: BSrio413dHhzakcurBT2oM0jeNA=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/parseTreeConstruction
+ /UmlParameterParsetreeConstructor$ModifiersRule_ValuesAssignment_2_1.
+ class
+SHA1-Digest: 5DypTnTDMQjBhafLHueEpTpThG0=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/parser/antlr/internal
+ /InternalUmlParameter.g
+SHA1-Digest: Pi3FEaBb8VLipSjKOspEZ9lUDFU=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/parseTreeConstruction
+ /UmlParameterParsetreeConstructor$MultiplicityRule_LeftSquareBracketK
+ eyword_0.class
+SHA1-Digest: slP3B6g5yKUJ7y52O3N5o6Apg7I=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/services/UmlParameter
+ GrammarAccess.class
+SHA1-Digest: b3k/0FRhbhmiJYj9rYLwFwnFr/A=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/services/UmlParameter
+ GrammarAccess$EffectKindElements.class
+SHA1-Digest: TFVyC8lm88lmuSsgEDloPuZpBtE=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/umlParameter/impl/Uml
+ ParameterPackageImpl.class
+SHA1-Digest: hOSvIVBf6jLwSGKt/0d8nL7L29c=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/parseTreeConstruction
+ /UmlParameterParsetreeConstructor$BoundSpecification_ValueAssignment.
+ class
+SHA1-Digest: tzlVqgGH63JrMwYhVOhK3Bro+G0=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/parseTreeConstruction
+ /UmlParameterParsetreeConstructor$MultiplicityRule_FullStopFullStopKe
+ yword_2_0.class
+SHA1-Digest: YXppyqlfZIDdp7Va42VRn9tsozY=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/services/UmlParameter
+ GrammarAccess$ModifierKindElements.class
+SHA1-Digest: UHkaa1HOBvqVBAFeJlmXE80vbak=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/parseTreeConstruction
+ /UmlParameterParsetreeConstructor$ModifiersRule_ValuesAssignment_1.cl
+ ass
+SHA1-Digest: hhDZ2YCx1hFMXnEEbZZ6a4TL9VA=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/parser/antlr/internal
+ /InternalUmlParameterParser.class
+SHA1-Digest: 4QaYyuH9QSVRSZMRp6XK3LhJRZs=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/UmlParameter.xmi
+SHA1-Digest: bgluAyhW9XchVeDilqk6AGiIQvY=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/umlParameter/Modifier
+ Specification.class
+SHA1-Digest: j2RTqdeJ1cg1Q/1taFhOeb0WClY=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/parseTreeConstruction
+ /UmlParameterParsetreeConstructor$ModifiersRule_RightCurlyBracketKeyw
+ ord_3.class
+SHA1-Digest: 579GWlkChHaEhSyNT3IOo5HFOvQ=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/umlParameter/EffectRu
+ le.class
+SHA1-Digest: IY75F9u4Bf5BrHBbrTHsdqeT5+Y=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/parseTreeConstruction
+ /UmlParameterParsetreeConstructor$MultiplicityRule_Group_2.class
+SHA1-Digest: aQppkwLvrbS2ZF08NaJvlINSgOw=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/validation/SemanticVa
+ lidator.class
+SHA1-Digest: iL1E2G9kGAefzGDMEVad1A/ZRbs=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/parseTreeConstruction
+ /UmlParameterParsetreeConstructor$ParameterRule_Alternatives_4.class
+SHA1-Digest: 3yRUrVkO7oCaQOLzE3HFsO8trSo=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/umlParameter/UmlParam
+ eterPackage$Literals.class
+SHA1-Digest: o+svk0mfiVpGDNgOKU3srqkj9PA=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/parseTreeConstruction
+ /UmlParameterParsetreeConstructor$EffectRule_EffectKindAssignment_2.c
+ lass
+SHA1-Digest: fgjBfp/C8XmK7Ann87rQ0efxx5U=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/parseTreeConstruction
+ /UmlParameterParsetreeConstructor$ParameterRule_UndefinedKeyword_4_1.
+ class
+SHA1-Digest: G6d36ClYKKpr7wATPZIPq3psO7Q=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/parseTreeConstruction
+ /UmlParameterParsetreeConstructor$MultiplicityRule_Group.class
+SHA1-Digest: 1eaRp8xiTOXFkHwjsQZS2fgSmZc=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/umlParameter/impl/Eff
+ ectRuleImpl.class
+SHA1-Digest: vxDDu5l+bDkfnSJ9G/ccJJM6iAE=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/umlParameter/util/Uml
+ ParameterXMLProcessor.class
+SHA1-Digest: 7gcoHiH7rFnTPymSH3hJ9oqeeLc=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/umlParameter/util/Uml
+ ParameterAdapterFactory.class
+SHA1-Digest: HxFMiZ+Yh/YtgHtaBt59brHYS9w=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/umlParameter/impl/Mod
+ ifierSpecificationImpl.class
+SHA1-Digest: +XAQn3qNfc3EjFyK63niFUKrjHM=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/parser/antlr/internal
+ /InternalUmlParameterLexer.class
+SHA1-Digest: Jm5ImD6wjb6M+QBtUa0TzVCQdv4=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/parseTreeConstruction
+ /UmlParameterParsetreeConstructor$ThisRootNode.class
+SHA1-Digest: 7n1LGFMEdPKfASSALg1W0+/1+bw=
+
+Name: plugin.properties
+SHA1-Digest: VVVvFHmoWSHxxfZH6YPd0YcN+9Y=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/parseTreeConstruction
+ /UmlParameterParsetreeConstructor$ParameterRule_NameAssignment_2.clas
+ s
+SHA1-Digest: j/dePzfj1DTa3AnLwKMV4uixpUw=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/umlParameter/Paramete
+ rRule.class
+SHA1-Digest: OkjzZATcqInVg/qlVejct4bag/s=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/umlParameter/EffectKi
+ nd.class
+SHA1-Digest: 5DrqeYurp1Aj+zao99N9SenmaNE=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/formatting/UmlParamet
+ erFormatter.class
+SHA1-Digest: 38US9ZoyfnLASA7PiOuFXplZVFk=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/parser/antlr/UmlParam
+ eterAntlrTokenFileProvider.class
+SHA1-Digest: quiqPZZeAeOcjVUvCcApSM5vQPc=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/parseTreeConstruction
+ /UmlParameterParsetreeConstructor$ParameterRule_Group.class
+SHA1-Digest: svmzQxtBIoKA7+S0s4rYU3JumSY=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/parseTreeConstruction
+ /UmlParameterParsetreeConstructor$QualifiedName_Group.class
+SHA1-Digest: 6NPmfR8akQjI9QFX1luFtNDR2qg=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/parseTreeConstruction
+ /UmlParameterParsetreeConstructor$MultiplicityRule_RightSquareBracket
+ Keyword_3.class
+SHA1-Digest: Iy37S3ITdcB9sbBFhHbarAy/YOs=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/parseTreeConstruction
+ /UmlParameterParsetreeConstructor$ParameterRule_VisibilityAssignment_
+ 0.class
+SHA1-Digest: 2ksh3NL38Hqzcn1CItwNRr3dDt0=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/umlParameter/util/Uml
+ ParameterAdapterFactory$1.class
+SHA1-Digest: M0yLwN18rbbRmbFyhwHcvkzkuZw=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/parseTreeConstruction
+ /UmlParameterParsetreeConstructor$ModifiersRule_Group_2.class
+SHA1-Digest: ndspC0vDWh338Tae2R5QNzov87M=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/parseTreeConstruction
+ /UmlParameterParsetreeConstructor$ModifierSpecification_ValueAssignme
+ nt.class
+SHA1-Digest: IY3CHLtuBH8sSjBiV0atsL4zeNI=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/parseTreeConstruction
+ /UmlParameterParsetreeConstructor$TypeRule_PathAssignment_0.class
+SHA1-Digest: 3Lg73ZUF7W0JSuOHAhazFQ3HJyI=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/UmlParameter.genmodel
+SHA1-Digest: vhnrsaCVpCxPLsvUv2y8gAjcQhU=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/parseTreeConstruction
+ /UmlParameterParsetreeConstructor$ParameterRule_EffectAssignment_7.cl
+ ass
+SHA1-Digest: r0Etuya1gy3GArVbBaXv/Tnq5zw=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/umlParameter/UmlParam
+ eterPackage.class
+SHA1-Digest: ynityR8i4+9RXuLzryMR5FbJIcY=
+
+Name: plugin.xml
+SHA1-Digest: 9zlZj2kSiP7G8TjdGVpzJgrtZ2I=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/AbstractUmlParameterR
+ untimeModule.class
+SHA1-Digest: 1KlROZbahhTOayq3ls3SpwHOEMU=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/UmlParameterRuntimeMo
+ dule.class
+SHA1-Digest: Dtk3+/C+4Wkm3ODQiWD2I7MfSBo=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/umlParameter/impl/Par
+ ameterRuleImpl.class
+SHA1-Digest: JogJlA9Vftw0TuL1AfAYlAbs15c=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/parseTreeConstruction
+ /UmlParameterParsetreeConstructor$EffectRule_EffectKeyword_1.class
+SHA1-Digest: fLuG5RtONrbEkGxpAaz1ordD7Q8=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/umlParameter/Modifier
+ sRule.class
+SHA1-Digest: Phvj0BK+TaYV3Q94/tMsZGjJUk4=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/umlParameter/util/Uml
+ ParameterResourceFactoryImpl.class
+SHA1-Digest: jwguNZFgXUuEsInJSxpd2Ix1z1w=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/UmlParameter.ecore
+SHA1-Digest: eFo4Pn/C5MXhF4hsf2F3uYPO2Xs=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/validation/AbstractUm
+ lParameterJavaValidator.class
+SHA1-Digest: aEEUg9ZmzwrJzMJ16HaD9Oa3nKU=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/services/UmlParameter
+ GrammarAccess$ModifierSpecificationElements.class
+SHA1-Digest: 7uEh73i0FGCAJMPR0giMbyfD+0Y=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/parseTreeConstruction
+ /UmlParameterParsetreeConstructor$ModifiersRule_CommaKeyword_2_0.clas
+ s
+SHA1-Digest: nfNRyVWiYu+YxKWBIIgU8G6Qq2Q=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/validation/UmlParamet
+ erJavaValidator.class
+SHA1-Digest: ANNXKH/1oTVTOZC+dv1J8zRvuDM=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/parseTreeConstruction
+ /UmlParameterParsetreeConstructor$QualifiedName_RemainingAssignment_2
+ .class
+SHA1-Digest: SFjHnp67O23dVUUXPeUOQQSNdIE=
+
+Name: about.html
+SHA1-Digest: a2Fk5/pDnCvlEfl7QwDZj/FCgFc=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/parseTreeConstruction
+ /UmlParameterParsetreeConstructor$TypeRule_TypeAssignment_1.class
+SHA1-Digest: zsq+uusL2Izp+/nb9iBbWFGu7sE=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/parseTreeConstruction
+ /UmlParameterParsetreeConstructor.class
+SHA1-Digest: pEmI1m9o1RIt7RvPpkw7H3g7OSY=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/parseTreeConstruction
+ /UmlParameterParsetreeConstructor$ParameterRule_DirectionAssignment_1
+ .class
+SHA1-Digest: ebxEbiUOzaC/LtrmvNrpfz0fs+w=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/umlParameter/impl/Uml
+ ParameterFactoryImpl.class
+SHA1-Digest: eFMhbosq6KkPnwmgub928lK4YK0=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/UmlParameterStandalon
+ eSetupGenerated.class
+SHA1-Digest: xhqGx/demCHSnawmcEnqHgk258s=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/parseTreeConstruction
+ /UmlParameterParsetreeConstructor$ParameterRule_TypeAssignment_4_0.cl
+ ass
+SHA1-Digest: ChaC1bJUiqjRJTQo+DePl6EODkk=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/parseTreeConstruction
+ /UmlParameterParsetreeConstructor$ParameterRule_ModifiersAssignment_6
+ .class
+SHA1-Digest: XtD1ylq8tiA1ObNL4PN/odlWluA=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/umlParameter/impl/Mod
+ ifiersRuleImpl.class
+SHA1-Digest: K63lvMa5krGlvnGeyogmVKXrOAM=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/UmlParameterStandalon
+ eSetup.class
+SHA1-Digest: JyZtJRos08CuBtFBKSTpKtsKTQw=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/parser/antlr/UmlParam
+ eterParser.class
+SHA1-Digest: Okb3leRbWIiM1YjBHfhkfks1a4c=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/parseTreeConstruction
+ /UmlParameterParsetreeConstructor$MultiplicityRule_BoundsAssignment_2
+ _1.class
+SHA1-Digest: R9upksHfvGFewd0xASS4Z8xhkFE=
+
+Name: org/eclipse/papyrus/parameter/editor/xtext/parseTreeConstruction
+ /UmlParameterParsetreeConstructor$TypeRule_Group.class
+SHA1-Digest: OAuZFf9igwigyY/AsQnPmrlWL38=
+

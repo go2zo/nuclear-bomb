@@ -1,0 +1,61 @@
+Manifest-Version: 1.0
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.papyrus.validation;singleton:=true
+Bundle-Activator: org.eclipse.papyrus.validation.Activator
+Require-Bundle: org.eclipse.ui;bundle-version="[3.7.0,4.0.0)",org.ecli
+ pse.core.runtime;bundle-version="[3.7.0,4.0.0)",org.eclipse.emf;bundl
+ e-version="2.6.0",org.eclipse.emf.ecore;bundle-version="2.6.1",org.ec
+ lipse.core.resources;bundle-version="3.6.0",org.apache.commons.lang;b
+ undle-version="2.3.0",org.eclipse.emf.edit.ui;bundle-version="2.6.0",
+ org.eclipse.gmf.runtime.emf.commands.core;bundle-version="1.0.100",or
+ g.eclipse.emf.facet.infra.browser.uicore;bundle-version="0.1.0",org.e
+ clipse.papyrus.core;bundle-version="0.8.0"
+Bundle-Version: 0.8.0.v201106151827
+Export-Package: org.eclipse.papyrus.validation
+Ant-Version: Apache Ant 1.7.1
+Bundle-Vendor: %pluginProvider
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/papyrus/validation/AbstractValidateCommand$1.class
+SHA1-Digest: jgCJGp73zlxI/gAaUIBxKau/z1o=
+
+Name: org/eclipse/papyrus/validation/AbstractValidateCommand$2.class
+SHA1-Digest: rtXHZJVa9vEEzErsguk2pTBbffk=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/papyrus/validation/ValidationTool.class
+SHA1-Digest: yG4U8qgvi4xoBAOlvXDLnXoC4Zo=
+
+Name: org/eclipse/papyrus/validation/preferences/Initializer.class
+SHA1-Digest: semAcBOHVvKevLuBE3Xb+AH/BkI=
+
+Name: about.html
+SHA1-Digest: y0N4Xo0SWk7dkT2S3XYFPomfO1U=
+
+Name: org/eclipse/papyrus/validation/AbstractValidateCommand$1$1.class
+SHA1-Digest: 9Ngj6cYsbUor2p+YAs/+uOfuVus=
+
+Name: plugin.properties
+SHA1-Digest: At6U2q/2B1pbW2IcJO8teAA8IkI=
+
+Name: org/eclipse/papyrus/validation/preferences/PreferencePage$MarkCh
+ ildren.class
+SHA1-Digest: vF64nu2sl77xKrrqhIzZIEtex4E=
+
+Name: org/eclipse/papyrus/validation/AbstractValidateCommand.class
+SHA1-Digest: IfNCYekrjBUpCR/d8MbsrIWvr/A=
+
+Name: org/eclipse/papyrus/validation/preferences/PreferencePage.class
+SHA1-Digest: 6Fu9fSR8jCQVABjYFD4jousExtM=
+
+Name: org/eclipse/papyrus/validation/Activator.class
+SHA1-Digest: PVKWz6q7o0OmCPYJ67NSUbeHUd0=
+
+Name: org/eclipse/papyrus/validation/ValidationUtils.class
+SHA1-Digest: s4e9y2eFsSYImkMU9U7crmea0vM=
+

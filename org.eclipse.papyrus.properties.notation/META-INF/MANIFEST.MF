@@ -1,0 +1,541 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.7.1
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %Bundle-Vendor
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-Name: %Bundle-Name
+Bundle-SymbolicName: org.eclipse.papyrus.properties.notation;singleton
+ :=true
+Require-Bundle: org.eclipse.ui;bundle-version="[3.7.0,4.0.0)",org.ecli
+ pse.core.runtime;bundle-version="[3.7.0,4.0.0)",org.eclipse.papyrus.p
+ roperties;bundle-version="0.8.0",org.eclipse.papyrus.properties.model
+ ;bundle-version="0.8.0",org.eclipse.gmf.runtime.notation;bundle-versi
+ on="1.4.1",org.eclipse.gef;bundle-version="3.7.0",org.eclipse.emf.edi
+ t;bundle-version="2.7.0",org.eclipse.papyrus.widgets;bundle-version="
+ 0.8.0",org.eclipse.core.databinding;bundle-version="1.4.0",org.eclips
+ e.emf.databinding;bundle-version="1.2.0",org.eclipse.core.databinding
+ .property;bundle-version="1.4.0",org.eclipse.core.databinding.beans;b
+ undle-version="1.2.100",org.eclipse.papyrus.properties.uml;bundle-ver
+ sion="0.8.0",org.eclipse.papyrus.log;bundle-version="0.8.0"
+Bundle-Activator: org.eclipse.papyrus.properties.notation.Activator
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-Version: 0.8.0.v201106151827
+Bundle-ManifestVersion: 2
+
+Name: model/ui/SingleBendpoints.xwt
+SHA1-Digest: E3JiujRS4GjZtfY5eqf64XnKdLI=
+
+Name: model/ui/MultipleDescriptionStyle.xwt
+SHA1-Digest: G/SkqA67juJaZGC39ny3nVssdLk=
+
+Name: model/ui/SingleDiagramStyle.xwt
+SHA1-Digest: H7sYR7qVohn6UGJDRAmwVTJ3DhM=
+
+Name: model/ui/MultipleLineTypeStyle.xwt
+SHA1-Digest: Kp6uhPmxdTT/2Ea0xju67trLplY=
+
+Name: model/ui/SingleGuide.xwt
+SHA1-Digest: gWn9Fm3TDeXB9urrkKjRHYPnCro=
+
+Name: model/ui/SingleDrawerStyle.xwt
+SHA1-Digest: 9YAONbt8189xsDglzi48zwfzH6A=
+
+Name: model/ui/MultipleBasicSemanticCompartment.xwt
+SHA1-Digest: R3pjulYMKSruoj4ZDcqEUUYLUek=
+
+Name: model/ui/MultipleBooleanValueStyle.xwt
+SHA1-Digest: f3qhju28T+2k4XuCsTJAIPUdTX0=
+
+Name: org/eclipse/papyrus/properties/notation/constraint/HasEditPolicy
+ .class
+SHA1-Digest: vnwHwM6CdTD/pBLs95i0qr3+v2Y=
+
+Name: model/ui/SingleLayoutConstraint.xwt
+SHA1-Digest: G/SkqA67juJaZGC39ny3nVssdLk=
+
+Name: model/ui/SingleFilteringStyle.xwt
+SHA1-Digest: 2wakiTn08fLNCQ1pWC75cbmjB/s=
+
+Name: model/ui/SingleSingleValueStyle.xwt
+SHA1-Digest: DRmpCK+KtcGsLl1lMAyDfvTT/x8=
+
+Name: model/ui/MultipleRatio.xwt
+SHA1-Digest: r+l5pLZWVscvDi3+HoK+UaQA/B4=
+
+Name: model/ui/SingleTextStyle.xwt
+SHA1-Digest: UdDMiyK5AWjFa1uGq32rNj80bLo=
+
+Name: model/ui/MultipleDataTypeStyle.xwt
+SHA1-Digest: ejmwsdTDkzL7AUevfGTCo8gNlyo=
+
+Name: model/ui/MultipleConnectorStyle.xwt
+SHA1-Digest: ZTXaId95rbOvzfvYxAz3I8BD0bY=
+
+Name: model/ui/MultipleIntValueStyle.xwt
+SHA1-Digest: 7Cxi0eQmoHP1sAWb6oWmPn9dsY0=
+
+Name: model/ui/MultipleView.xwt
+SHA1-Digest: uYPFBH1+bhEuF0Fq5/+cJp/9bY0=
+
+Name: model/ui/SingleDoubleListValueStyle.xwt
+SHA1-Digest: ovAqIVqDqm5vHNLJOmBLtDF9udw=
+
+Name: org/eclipse/papyrus/properties/notation/constraint/GMFNotationCo
+ nstraint.class
+SHA1-Digest: L09qbqHMVkk8Wdo4EmD+ViNYzg0=
+
+Name: model/ui/SingleStringValueStyle.xwt
+SHA1-Digest: UO8JHDGuGWHcLwNu3Bm3MCS6h0A=
+
+Name: model/ui/MultipleDiagram.xwt
+SHA1-Digest: W31h2Eyvz+hBaEQ9jA4tj2Qu36Q=
+
+Name: model/ui/MultipleStandardDiagram.xwt
+SHA1-Digest: yzs99B4scqG3cfGqGMFhTtgOc+M=
+
+Name: model/ui/SingleLocation.xwt
+SHA1-Digest: SQFQsP3Pet+PjvvdEFthfdBgc60=
+
+Name: model/ui/SingleNodeEntry.xwt
+SHA1-Digest: TQ2BmAPaxmLTltSaaJoYWCDRasc=
+
+Name: model/ui/SingleByteArrayValueStyle.xwt
+SHA1-Digest: S4CGeL/R4cTiGxHeQUtOYnQ6SkI=
+
+Name: model/ui/SingleCompartment.xwt
+SHA1-Digest: 7l/c0mrruxji1gwEopnDnTEgQB0=
+
+Name: model/ui/SingleListCompartment.xwt
+SHA1-Digest: uGMT/uNqd9s+CBmICmxLW1yxLCE=
+
+Name: model/ui/MultiplePropertyValue.xwt
+SHA1-Digest: G/SkqA67juJaZGC39ny3nVssdLk=
+
+Name: org/eclipse/papyrus/properties/notation/modelelement/NotationMod
+ elElementFactory.class
+SHA1-Digest: K4NszlXR+RGRDbT0vdjEMtlaEt4=
+
+Name: model/ui/FillStyle.xwt
+SHA1-Digest: mIU0cQnFS0cLme6+41MLt3KJlyk=
+
+Name: org/eclipse/papyrus/properties/notation/Activator.class
+SHA1-Digest: 7SpByMxsTEZdUGj2WHzJAYOGgxQ=
+
+Name: model/ui/SingleListValueStyle.xwt
+SHA1-Digest: +vJLft5hz+mMo5noE3hBBFHqe+4=
+
+Name: model/ui/MultipleRoundedCornersStyle.xwt
+SHA1-Digest: xqcTU5oMkzM5eoS33yOQRjbRjqg=
+
+Name: org/eclipse/papyrus/properties/notation/modelelement/GradientDat
+ aModelElement$1.class
+SHA1-Digest: 1Fyd4OzAmoIInbgDPff+wGJHX58=
+
+Name: model/ui/MultipleNamedStyle.xwt
+SHA1-Digest: Cv1rPXS47yIZUOsMnZgonuhjz28=
+
+Name: model/ui/SingleMultiDiagramLinkStyle.xwt
+SHA1-Digest: BPakKdZpc7nmvfFeiRL57e9cIyM=
+
+Name: model/ui/SingleLineStyle.xwt
+SHA1-Digest: 9CAEJM1YWI6rTFobiqHbMcEoXks=
+
+Name: model/ui/SingleDiagramLinkStyle.xwt
+SHA1-Digest: nJjC6TdIQlocKjc3WfAKY8tUhHE=
+
+Name: model/ui/SingleBasicCompartment.xwt
+SHA1-Digest: hyf3xgQweOE5gxxkGsLh9JBzQx4=
+
+Name: model/ui/MultipleEdge.xwt
+SHA1-Digest: Dj51X6egtMZcr3UpD5BlB/dIoP4=
+
+Name: model/ui/SingleShape.xwt
+SHA1-Digest: oN2YAYH7IHCMnhgO28drstPA7ho=
+
+Name: model/ui/SingleFontStyle.xwt
+SHA1-Digest: 1N3w0CYAmT8GGNcdmFlquMpUOU0=
+
+Name: model/ui/SingleEObjectListValueStyle.xwt
+SHA1-Digest: N7q0bIWtqb45GoHkGI298qFug3g=
+
+Name: model/ui/SingleStringToPropertyValueMapEntry.xwt
+SHA1-Digest: ZELk/yAsvxEPOC48zj6zTHauO/A=
+
+Name: model/ui/SingleShapeStyle.xwt
+SHA1-Digest: 8ybkgrNMTHY+NNId2ISdEwdG+0Q=
+
+Name: model/ui/SingleGuideStyle.xwt
+SHA1-Digest: yehwJL9oRZyylc2jTPgpmq0Tbow=
+
+Name: model/ui/SingleStyle.xwt
+SHA1-Digest: wmv0mZ5ZakUKGveY36VY/tpBdkA=
+
+Name: model/notation.ecore
+SHA1-Digest: HYOBYDqoM7lvEFSkKxSBkS0Hz/g=
+
+Name: model/ui/MultipleIdentityAnchor.xwt
+SHA1-Digest: 7Cxi0eQmoHP1sAWb6oWmPn9dsY0=
+
+Name: model/ui/MultipleImageStyle.xwt
+SHA1-Digest: /zIPlFkj86XlsfglnVD2O5CmxOU=
+
+Name: model/ui/MultipleCanonicalStyle.xwt
+SHA1-Digest: VMhod+M/p0AfhvFHzbECVWByqg4=
+
+Name: model/ui/MultipleIntListValueStyle.xwt
+SHA1-Digest: yehwJL9oRZyylc2jTPgpmq0Tbow=
+
+Name: model/ui/SingleBooleanListValueStyle.xwt
+SHA1-Digest: hy8fHfpJeLgmvpqBmSHjIv2hqAw=
+
+Name: model/ui/MultipleStringObjectConverter.xwt
+SHA1-Digest: uz0dCzkDrm6XknnBaLABpOoKAhU=
+
+Name: model/ui/RoundedCornersStyle.xwt
+SHA1-Digest: zVl9Tq73p3ONPii2DkdnHFjhLmM=
+
+Name: model/ui/SingleStringListValueStyle.xwt
+SHA1-Digest: Ud7UBRsbZM0VROH+oV+Lh7cBnTc=
+
+Name: model/ui/MultipleArrowStyle.xwt
+SHA1-Digest: OuPAizGv0vuqQnuxc/wIduMGqH0=
+
+Name: org/eclipse/papyrus/properties/notation/modelelement/GradientDat
+ aModelElement.class
+SHA1-Digest: JGKaGD3W26SOaAUmFcsQxLoDQJQ=
+
+Name: model/ui/SingleConnector.xwt
+SHA1-Digest: Cz+7WwYjuLG+7C1J3hWH9+cqg64=
+
+Name: model/ui/SingleAnchor.xwt
+SHA1-Digest: Cy15uC9MrLAnohLzmL0fAdL1ksg=
+
+Name: model/ui/SingleBounds.xwt
+SHA1-Digest: 7Cxi0eQmoHP1sAWb6oWmPn9dsY0=
+
+Name: model/ui/SingleTitleStyle.xwt
+SHA1-Digest: ySHKxgwoS5+vz4WR7T57k04nSLE=
+
+Name: model/ui/MultipleImage.xwt
+SHA1-Digest: SQFQsP3Pet+PjvvdEFthfdBgc60=
+
+Name: model/ui/MultipleDoubleValueStyle.xwt
+SHA1-Digest: uz0dCzkDrm6XknnBaLABpOoKAhU=
+
+Name: model/ui/SingleGradientData.xwt
+SHA1-Digest: s5x/2J5aMhAiuZQL6GqJ9OcK2MA=
+
+Name: model/notation.ctx
+SHA1-Digest: 73Xq9XR9n++z7wS1Mv53kx5l/Bc=
+
+Name: model/ui/MultipleImageBufferStyle.xwt
+SHA1-Digest: 66usB9GKd5fAbxFQNKSKNW1M8TM=
+
+Name: org/eclipse/papyrus/properties/notation/modelelement/GradientDat
+ aModelElement$2.class
+SHA1-Digest: Ovcw93t9xAJsReYVLxb2iPlZ8ww=
+
+Name: model/ui/MultiplePageStyle.xwt
+SHA1-Digest: orLLOL1BttarSJNlQYzuQWhaF/c=
+
+Name: model/ui/SinglePropertiesSetStyle.xwt
+SHA1-Digest: Gkhn1IOKDcmlJeszTVwto+hK7bM=
+
+Name: model/ui/SingleNode.xwt
+SHA1-Digest: bkLC8FTBQACJmzmEUyXH3LygxoU=
+
+Name: model/ui/SingleBasicDecorationNode.xwt
+SHA1-Digest: GRwQPVgJeBqEc0chiDw4yLK3aJk=
+
+Name: about.html
+SHA1-Digest: a2Fk5/pDnCvlEfl7QwDZj/FCgFc=
+
+Name: model/ui/MultipleSize.xwt
+SHA1-Digest: fWGQ76IKAI0awXUko8rbxFM80PI=
+
+Name: model/ui/SingleEObjectValueStyle.xwt
+SHA1-Digest: 3HkVFsabElgy8zU/RdSkQ+NSlZE=
+
+Name: model/ui/SingleRoutingStyle.xwt
+SHA1-Digest: SBTvH02mgDl66uPDNQghQM8JQBs=
+
+Name: org/eclipse/papyrus/properties/notation/databinding/GradientData
+ ObservableValue$GradientProperty.class
+SHA1-Digest: V0Nf/S3CMDp1F13j5gPhzPfh8DY=
+
+Name: model/ui/SingleSortingStyle.xwt
+SHA1-Digest: ym5nPQTSbvImMXIXICh4tXxpx/c=
+
+Name: model/ui/MultipleRelativeBendpoints.xwt
+SHA1-Digest: E3JiujRS4GjZtfY5eqf64XnKdLI=
+
+Name: model/ui/MultipleHintedDiagramLinkStyle.xwt
+SHA1-Digest: uz0dCzkDrm6XknnBaLABpOoKAhU=
+
+Name: model/ui/SingleSemanticListCompartment.xwt
+SHA1-Digest: JCu1gZ5pbezRuhdWtO09T2cyskc=
+
+Name: model/ui/SingleFillStyle.xwt
+SHA1-Digest: 8BHUByEfHPSklSok5KyZZaGYtQc=
+
+Name: model/ui/SingleDescriptionStyle.xwt
+SHA1-Digest: Nzedn9X5fhF0KGsug+0CLB50A8g=
+
+Name: org/eclipse/papyrus/properties/notation/messages/Messages.class
+SHA1-Digest: SGhE3h9JMNJnWXV5epr8+H1uO+c=
+
+Name: org/eclipse/papyrus/properties/notation/modelelement/GMFModelEle
+ ment.class
+SHA1-Digest: MifmI3SzOMXQWf1eenC+X/k3qlQ=
+
+Name: model/ui/MultipleGuide.xwt
+SHA1-Digest: ucvBFAT1J3iFt0awlHDCy8xIDTY=
+
+Name: model/ui/MultipleDecorationNode.xwt
+SHA1-Digest: sp598pnlayeeOv8TG2W401iXLE0=
+
+Name: model/ui/MultipleDrawerStyle.xwt
+SHA1-Digest: azfyW7yRLYhqqnWaqCAFEG1GS6E=
+
+Name: model/ui/SingleBasicSemanticCompartment.xwt
+SHA1-Digest: PKM54aXX6YxPmDRG35pEKYqAxK4=
+
+Name: model/ui/MultipleTextStyle.xwt
+SHA1-Digest: oSLzAxK5dMe3QZktu+KUSLce+6w=
+
+Name: model/ui/MultipleBendpoints.xwt
+SHA1-Digest: XFZA6xmmE2x4G1d6a0BxBh4Xmrs=
+
+Name: model/ui/SingleConnectorStyle.xwt
+SHA1-Digest: nsv6OPXYh2bjPo751HV1KxQlFXA=
+
+Name: model/ui/SingleView.xwt
+SHA1-Digest: ShSNpT5QGPmAzQ36ud5BAOX+zPg=
+
+Name: model/ui/MultipleDiagramStyle.xwt
+SHA1-Digest: taOzh8CMPl+Zkij2yY+itb/c4Wk=
+
+Name: model/ui/ShapeStyle.xwt
+SHA1-Digest: iOgGiwT2NYRchxAMiyojnz/xEF8=
+
+Name: model/ui/SingleLineTypeStyle.xwt
+SHA1-Digest: zxQdv8u/QpHG5T08cX99a5Re7V0=
+
+Name: model/ui/MultipleNodeEntry.xwt
+SHA1-Digest: CrM9jZEBaqFouIR5qx+gI7Kc09A=
+
+Name: model/ui/SingleBooleanValueStyle.xwt
+SHA1-Digest: h1pN//zBc+majijfic4P2PWLekY=
+
+Name: model/ui/MultipleLayoutConstraint.xwt
+SHA1-Digest: qjV6tt06toULgwSrox4UM7BEOlE=
+
+Name: model/ui/MultipleFilteringStyle.xwt
+SHA1-Digest: pqyBIJD9LOvd+D6l7SmJqBnSFCw=
+
+Name: model/ui/MultipleByteArrayValueStyle.xwt
+SHA1-Digest: Cy15uC9MrLAnohLzmL0fAdL1ksg=
+
+Name: model/ui/MultipleCompartment.xwt
+SHA1-Digest: Y/kt26SJMzZBEt3lOeL9p70jVzI=
+
+Name: model/ui/MultipleSingleValueStyle.xwt
+SHA1-Digest: a9QBEVXII1IFU7QDIwBfDWFMVsA=
+
+Name: model/ui/SingleRatio.xwt
+SHA1-Digest: se8pk4YiMfmtRa0Y6T7UEOP/+xE=
+
+Name: model/ui/MultipleListCompartment.xwt
+SHA1-Digest: wKqIlMoW0adxuMF98bUSjh2J8pc=
+
+Name: model/ui/SingleDataTypeStyle.xwt
+SHA1-Digest: uY+O0EPC2vxJcX2W52HJTyLdTAM=
+
+Name: model/ui/SingleIntValueStyle.xwt
+SHA1-Digest: 7INWRg1z7Zijd1xCo9mqvpX6TYs=
+
+Name: model/ui/MultipleDoubleListValueStyle.xwt
+SHA1-Digest: a9QBEVXII1IFU7QDIwBfDWFMVsA=
+
+Name: model/ui/SingleNamedStyle.xwt
+SHA1-Digest: gPaiDMWsNQ1LLEEoqnq5GabGh38=
+
+Name: model/ui/SingleDiagram.xwt
+SHA1-Digest: I1KtAY7k5nAaTTXAThvnLiw5p/c=
+
+Name: model/ui/MultipleStringValueStyle.xwt
+SHA1-Digest: E3JiujRS4GjZtfY5eqf64XnKdLI=
+
+Name: model/ui/MultipleLineStyle.xwt
+SHA1-Digest: 8rvM9H4hwCFTKCkeacjoWMExJOw=
+
+Name: model/ui/MultipleMultiDiagramLinkStyle.xwt
+SHA1-Digest: WvZum0uaUlCSFaS62xQI4lhxeM8=
+
+Name: model/ui/SingleStandardDiagram.xwt
+SHA1-Digest: HEeUhQ5yIwRowlbkbUQWkQokzVY=
+
+Name: model/ui/SingleEdge.xwt
+SHA1-Digest: tblyeG9tMBQsSuD91lT+Hz8qk78=
+
+Name: model/ui/MultipleLocation.xwt
+SHA1-Digest: ejmwsdTDkzL7AUevfGTCo8gNlyo=
+
+Name: model/ui/MultipleShape.xwt
+SHA1-Digest: zNAsDYd8STnkjEr+cbFnAjSxf+w=
+
+Name: model/ui/MultipleFontStyle.xwt
+SHA1-Digest: BbiFyNi6dLJISDEhXSv1F1f7sjc=
+
+Name: model/ui/MultipleEObjectListValueStyle.xwt
+SHA1-Digest: EUH2WEe4qG99kQRdivhwFLVhtEg=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: model/ui/SinglePropertyValue.xwt
+SHA1-Digest: SLSLEGT8w0qCMoLzLEP+eEdPlCs=
+
+Name: model/ui/MultipleStringToPropertyValueMapEntry.xwt
+SHA1-Digest: aNDIgAy/wrFKh3XMmqtwm+NGq+0=
+
+Name: model/ui/SingleRoundedCornersStyle.xwt
+SHA1-Digest: 1zy+CVDx+BKuTshetsb+LJEzXOs=
+
+Name: model/ui/MultipleListValueStyle.xwt
+SHA1-Digest: WvZum0uaUlCSFaS62xQI4lhxeM8=
+
+Name: org/eclipse/papyrus/properties/notation/databinding/GradientData
+ ObservableValue.class
+SHA1-Digest: xyR5luxLotpzIAF0KDmzkq6BLJ4=
+
+Name: model/ui/MultipleDiagramLinkStyle.xwt
+SHA1-Digest: yehwJL9oRZyylc2jTPgpmq0Tbow=
+
+Name: model/ui/MultipleBasicCompartment.xwt
+SHA1-Digest: XF1XL9P72S4YfSc1J6Jqoq5btgY=
+
+Name: model/Environment.xmi
+SHA1-Digest: Qu0b5n1yBW9CgYFCc/E6bKHm5zU=
+
+Name: model/ui/MultipleStyle.xwt
+SHA1-Digest: Cv1rPXS47yIZUOsMnZgonuhjz28=
+
+Name: org/eclipse/papyrus/properties/notation/databinding/GradientObse
+ rvableValue.class
+SHA1-Digest: SkWAOEIuiOrMPxSuNZPjS5jT5jc=
+
+Name: model/ui/SingleIdentityAnchor.xwt
+SHA1-Digest: 63SaJsUMbZyZ4JnFfFlUzPjwFIo=
+
+Name: org/eclipse/papyrus/properties/notation/databinding/ObservableGr
+ adientData.class
+SHA1-Digest: X8YV2kiqEERKa/tvDzWIMbWVLDg=
+
+Name: model/ui/SingleImageStyle.xwt
+SHA1-Digest: CnkFhAM2PHC6zBjWXuK50yFpeuk=
+
+Name: model/ui/MultipleShapeStyle.xwt
+SHA1-Digest: 1zy+CVDx+BKuTshetsb+LJEzXOs=
+
+Name: model/ui/MultipleGuideStyle.xwt
+SHA1-Digest: f3qhju28T+2k4XuCsTJAIPUdTX0=
+
+Name: model/ui/SingleCanonicalStyle.xwt
+SHA1-Digest: kzZt6/iOOr/Jui3qme8/rL9IYQI=
+
+Name: OSGI-INF/l10n/bundle.properties
+SHA1-Digest: ZMya6YEvboqTTny4NSjK77FMvFQ=
+
+Name: model/ui/MultipleBooleanListValueStyle.xwt
+SHA1-Digest: SQFQsP3Pet+PjvvdEFthfdBgc60=
+
+Name: model/ui/SingleArrowStyle.xwt
+SHA1-Digest: FpX/s0BIJgkZQw1VyR77tnUyAFw=
+
+Name: org/eclipse/papyrus/properties/notation/messages/messages.proper
+ ties
+SHA1-Digest: L+qto6hGoQsRQdHz1CJxK5RCpdE=
+
+Name: model/ui/LineStyle.xwt
+SHA1-Digest: Nt0rfpjnYwui15NRPBJinw842Fk=
+
+Name: model/ui/MultipleConnector.xwt
+SHA1-Digest: Y5uvzz0o+TpuqMhqn5gQoVF/A1M=
+
+Name: model/ui/FontStyle.xwt
+SHA1-Digest: CXbLlrU8bqKpImgodszLfTF1xmo=
+
+Name: model/ui/SingleDoubleValueStyle.xwt
+SHA1-Digest: tm1DSkyGPTramPzzv4Tuo8HheVY=
+
+Name: model/ui/SingleIntListValueStyle.xwt
+SHA1-Digest: x9VoKm6x0H8SRCqm/JkT4lN/Ls4=
+
+Name: model/ui/SingleStringObjectConverter.xwt
+SHA1-Digest: wmv0mZ5ZakUKGveY36VY/tpBdkA=
+
+Name: model/ui/SingleImageBufferStyle.xwt
+SHA1-Digest: PXIGN2Y6s2mRdt1aBAbiYwhR3o8=
+
+Name: model/ui/MultipleStringListValueStyle.xwt
+SHA1-Digest: ejmwsdTDkzL7AUevfGTCo8gNlyo=
+
+Name: plugin.xml
+SHA1-Digest: 7lKhlmThrDLUaxpbeVjS7aFe+Yk=
+
+Name: model/ui/MultipleAnchor.xwt
+SHA1-Digest: EUH2WEe4qG99kQRdivhwFLVhtEg=
+
+Name: model/ui/MultipleBounds.xwt
+SHA1-Digest: XFZA6xmmE2x4G1d6a0BxBh4Xmrs=
+
+Name: model/ui/MultipleBasicDecorationNode.xwt
+SHA1-Digest: +Ri0lfMF82bJ74Ozc9zGYxeQJ64=
+
+Name: org/eclipse/papyrus/properties/notation/constraint/IsEditPartCon
+ straint.class
+SHA1-Digest: Ide2vDxsOeptSJcR0OiUPA8G8AE=
+
+Name: model/ui/SingleSize.xwt
+SHA1-Digest: /zIPlFkj86XlsfglnVD2O5CmxOU=
+
+Name: model/ui/SingleImage.xwt
+SHA1-Digest: MU27Munin6OEBjAzCIYx3BaHI3o=
+
+Name: model/ui/MultipleTitleStyle.xwt
+SHA1-Digest: efmZl8WilXbNTnQoC3nqt9Qwd/k=
+
+Name: model/ui/MultipleEObjectValueStyle.xwt
+SHA1-Digest: yehwJL9oRZyylc2jTPgpmq0Tbow=
+
+Name: model/ui/SingleRelativeBendpoints.xwt
+SHA1-Digest: uwXO3qZ88Kq1XQyIOyltsUKCyok=
+
+Name: model/ui/SinglePageStyle.xwt
+SHA1-Digest: /mpNlTnzbWS8NeC4N10UgJlIFp8=
+
+Name: model/ui/SingleHintedDiagramLinkStyle.xwt
+SHA1-Digest: Xu+EyHZqYU87I8/rbz70ORxhQ8A=
+
+Name: model/ui/MultipleNode.xwt
+SHA1-Digest: 4bSws0NPl7HkxfHvs3gCPVFQcK0=
+
+Name: model/ui/MultiplePropertiesSetStyle.xwt
+SHA1-Digest: Cv1rPXS47yIZUOsMnZgonuhjz28=
+
+Name: model/ui/MultipleFillStyle.xwt
+SHA1-Digest: OZH+lHOBJZFR4EJbGt3t/MvF0bw=
+
+Name: model/ui/MultipleSemanticListCompartment.xwt
+SHA1-Digest: 9PCG75oT8fgQnh4zq2BrgZ/D3q4=
+
+Name: model/ui/SingleDecorationNode.xwt
+SHA1-Digest: GarRJxW7+8L3BM8brt3JJrTswkE=
+
+Name: model/ui/MultipleRoutingStyle.xwt
+SHA1-Digest: Fvzbf8rm9oKfPJL1JYcvV2vQ9eQ=
+
+Name: model/ui/MultipleSortingStyle.xwt
+SHA1-Digest: YlNfO1Rv0Np/kOlCZmDPZSaYudM=
+

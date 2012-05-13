@@ -1,0 +1,202 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.papyrus.diagram.common.groups;singlet
+ on:=true
+Require-Bundle: org.eclipse.ui;bundle-version="[3.7.0,4.0.0)",org.ecli
+ pse.core.runtime;bundle-version="[3.7.0,4.0.0)",org.eclipse.gmf.runti
+ me.diagram.ui.properties;bundle-version="[1.4.0,2.0.0)",org.eclipse.p
+ apyrus.diagram.common;bundle-version="[0.8.0,1.0.0)",org.eclipse.papy
+ rus.ui.toolbox;bundle-version="[0.8.0,1.0.0)",org.eclipse.papyrus.pre
+ ferences;bundle-version="[0.8.0,1.0.0)"
+Bundle-Activator: org.eclipse.papyrus.diagram.common.groups.Activator
+Bundle-Version: 0.8.0.v201106151827
+Export-Package: org.eclipse.papyrus.diagram.common.groups.commands,org
+ .eclipse.papyrus.diagram.common.groups.core.utils,org.eclipse.papyrus
+ .diagram.common.groups.edit.policies,org.eclipse.papyrus.diagram.comm
+ on.groups.groupcontainment,org.eclipse.papyrus.diagram.common.groups.
+ preferences,org.eclipse.papyrus.diagram.common.groups.tabbedpropertie
+ s.appearance,org.eclipse.papyrus.diagram.common.groups.utils
+Ant-Version: Apache Ant 1.7.1
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/papyrus/diagram/common/groups/Activator.class
+SHA1-Digest: M/Pe/+2BSiKh/XsacRTXcQTYW8k=
+
+Name: org/eclipse/papyrus/diagram/common/groups/commands/ChooseParentN
+ otificationCommand.class
+SHA1-Digest: q83+FGywGhRcXpO9UDiel1wQmCI=
+
+Name: org/eclipse/papyrus/diagram/common/groups/core/ui/ChooseParentNo
+ tificationConfigurator$1.class
+SHA1-Digest: hX86Rw8qaCQp2k39ccTjSW5V6+g=
+
+Name: org/eclipse/papyrus/diagram/common/groups/tabbedproperties/appea
+ rance/ChooseGraphicalParentSection.class
+SHA1-Digest: H+L8Wkj7Ujlnok00MO6wk7UqTbc=
+
+Name: org/eclipse/papyrus/diagram/common/groups/core/ui/utils/CreatorU
+ tils$1.class
+SHA1-Digest: TR65Dt9nfGOrm4vf7p6iwlMiorU=
+
+Name: org/eclipse/papyrus/diagram/common/groups/commands/CommandResult
+ MessagesError.class
+SHA1-Digest: mEvFRAc+RHtXkr0EIoqGgHYaPbM=
+
+Name: org/eclipse/papyrus/diagram/common/groups/core/ui/NotificationCo
+ nfigurator$Mode.class
+SHA1-Digest: CrYsmtyr90ANl3VYuKiowLulb8U=
+
+Name: org/eclipse/papyrus/diagram/common/groups/core/PendingGroupNotif
+ icationsManager.class
+SHA1-Digest: a5LuhZDORef3p/ICaKuMZGaEFqg=
+
+Name: org/eclipse/papyrus/diagram/common/groups/core/ui/ChooseChildren
+ NotificationConfigurator.class
+SHA1-Digest: HaHlmV1xxwu8KK90pttOQeuTHNw=
+
+Name: org/eclipse/papyrus/diagram/common/groups/edit/policies/CreateIn
+ GroupEditPolicy.class
+SHA1-Digest: m0wONblKIqMh9V0yhHAEJ2Xy0Lk=
+
+Name: org/eclipse/papyrus/diagram/common/groups/commands/ChooseChildre
+ nNotificationCommand.class
+SHA1-Digest: hDXjUs4EN9v++Sbb02+kaiHwpNA=
+
+Name: org/eclipse/papyrus/diagram/common/groups/preferences/OpacityFac
+ toryHelper.class
+SHA1-Digest: ggnYcXbA4xVISAPZV8GSXMT9EVc=
+
+Name: org/eclipse/papyrus/diagram/common/groups/edit/policies/XYLayout
+ EditGroupPolicy.class
+SHA1-Digest: m2uIB53dAnjjK14p8lV4hF14/cM=
+
+Name: plugin.properties
+SHA1-Digest: TvDVx+dtNaFAreqbtIC/aCJmEE8=
+
+Name: org/eclipse/papyrus/diagram/common/groups/commands/ChangeGraphic
+ alParentCommand.class
+SHA1-Digest: 0JZ25mvhcqHx8Y8fJ8fb+xsJ0T0=
+
+Name: org/eclipse/papyrus/diagram/common/groups/commands/utlis/Command
+ sUtils.class
+SHA1-Digest: C/bzwdXrBrMQjumzBzmNeSC+EXc=
+
+Name: org/eclipse/papyrus/diagram/common/groups/utils/GraphicalAndMode
+ lElementComparator.class
+SHA1-Digest: m/tE/nG0P7Fbrynnegc343A6m+8=
+
+Name: org/eclipse/papyrus/diagram/common/groups/Messages.class
+SHA1-Digest: xCfxFVxLVzvgu+jHgWe0RJxV9Xs=
+
+Name: messages.properties
+SHA1-Digest: qqjVireLqCzCkY5yhCTBqHP8P7s=
+
+Name: org/eclipse/papyrus/diagram/common/groups/core/ui/ChooseChildren
+ NotificationConfigurator$1.class
+SHA1-Digest: 8pLLgrqi3JlDBtgXz5UIWWb99fk=
+
+Name: org/eclipse/papyrus/diagram/common/groups/commands/SetUpReferenc
+ esCommand.class
+SHA1-Digest: LSSOuAKm2niOFfY3+KLs4CGV3dk=
+
+Name: org/eclipse/papyrus/diagram/common/groups/core/ui/ChooseChildren
+ NotificationConfigurator$2.class
+SHA1-Digest: 4P/e2RYraJARMugaAvf2TKXL2M4=
+
+Name: org/eclipse/papyrus/diagram/common/groups/preferences/OpacityFac
+ toryHelper$1.class
+SHA1-Digest: 8QiAM0WqJ/RvN6mkqo/3CczSs+w=
+
+Name: org/eclipse/papyrus/diagram/common/groups/tabbedproperties/appea
+ rance/ChooseGraphicalParentSectionFilter.class
+SHA1-Digest: FMp0sREU5gd1ImY2iNh3YayY+yU=
+
+Name: plugin.xml
+SHA1-Digest: SxXtwITcVr0sDgw2AQAgdYSLxQg=
+
+Name: org/eclipse/papyrus/diagram/common/groups/commands/UpdateReferen
+ cesCommand.class
+SHA1-Digest: NGL5Z4vGto1fmZBnIecwGp4ywTM=
+
+Name: org/eclipse/papyrus/diagram/common/groups/core/ui/CheckboxIGraph
+ icalFocusListenner.class
+SHA1-Digest: xwwh+otN/yOH5MYM+JwuHeCf/kU=
+
+Name: org/eclipse/papyrus/diagram/common/groups/core/ui/CompositeCreat
+ orWithCommand.class
+SHA1-Digest: HY/CdiK8Vgo8n+By+fGhj3s+W9o=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/papyrus/diagram/common/groups/core/groupcontainment/
+ GroupContainmentRegistry.class
+SHA1-Digest: bwy/eQQGmht3xIF6cxcfABuOzak=
+
+Name: org/eclipse/papyrus/diagram/common/groups/utils/GraphicalAndMode
+ lElementComparator$Mode.class
+SHA1-Digest: x2bQT3HuIbKtJTtJNT/PtQQx49Q=
+
+Name: org/eclipse/papyrus/diagram/common/groups/core/utils/DefaultMode
+ lParent.class
+SHA1-Digest: D/8FPhBFpoEZX0Gc97adD9FgohI=
+
+Name: org/eclipse/papyrus/diagram/common/groups/commands/ChangeGraphic
+ alParentCommand$Mode.class
+SHA1-Digest: 7hcLvVTRwwvAonWcGE0oVtQuTZY=
+
+Name: org/eclipse/papyrus/diagram/common/groups/utils/GroupRequestCons
+ tants.class
+SHA1-Digest: 0dd0RC9hN6fnVhkgsq/+VAHA4L8=
+
+Name: org/eclipse/papyrus/diagram/common/groups/core/utils/Utils.class
+SHA1-Digest: YYxzxkegcnEWfgZuu4FKRYKylb4=
+
+Name: about.html
+SHA1-Digest: a2Fk5/pDnCvlEfl7QwDZj/FCgFc=
+
+Name: org/eclipse/papyrus/diagram/common/groups/core/ui/CompositeCreat
+ orWithCommand$1.class
+SHA1-Digest: 4iWsi8wS+h3sULHR9lTjdKhkAyw=
+
+Name: org/eclipse/papyrus/diagram/common/groups/core/GroupNotification
+ BuilderFactory.class
+SHA1-Digest: sSaOFAVf+CNweP72POphC/FhbKw=
+
+Name: org/eclipse/papyrus/diagram/common/groups/core/GroupNotification
+ BuilderFactory$NotificationBuilderAndResultingCommand.class
+SHA1-Digest: vsSlwYvrluuwGx96eNTJWItBxPE=
+
+Name: org/eclipse/papyrus/diagram/common/groups/preferences/OpacityGro
+ up.class
+SHA1-Digest: c6d5ResSGPHw7CcnIV5k0ij6tU0=
+
+Name: org/eclipse/papyrus/diagram/common/groups/core/ui/NotificationCo
+ nfigurator.class
+SHA1-Digest: RGTobd59Cgr54P/s0SmLgOXL0/k=
+
+Name: org/eclipse/papyrus/diagram/common/groups/core/ui/ChooseParentNo
+ tificationConfigurator.class
+SHA1-Digest: qiyEHjFZqc9raUxiJXXUwChEaDo=
+
+Name: schema/org.eclipse.papyrus.diagram.common.groups.groupcontainmen
+ t.exsd
+SHA1-Digest: qCXOJkQeQk27P9NX5QbmPBlIqpk=
+
+Name: org/eclipse/papyrus/diagram/common/groups/core/ui/utils/CreatorU
+ tils.class
+SHA1-Digest: JmSYrV/nYVBBzwR4WI8RHKd80do=
+
+Name: org/eclipse/papyrus/diagram/common/groups/commands/ChangeModelPa
+ rentCommand.class
+SHA1-Digest: J5drslmNVDop1suoe/4tBDc8D5A=
+
+Name: org/eclipse/papyrus/diagram/common/groups/groupcontainment/Abstr
+ actContainerNodeDescriptor.class
+SHA1-Digest: T7D4xscXZ3/76t1VU3mogNCZ24U=
+

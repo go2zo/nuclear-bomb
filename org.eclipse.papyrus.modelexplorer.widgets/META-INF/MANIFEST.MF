@@ -1,0 +1,73 @@
+Manifest-Version: 1.0
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.papyrus.modelexplorer.widgets;singlet
+ on:=true
+Bundle-Activator: org.eclipse.papyrus.modelexplorer.widgets.Activator
+Require-Bundle: org.eclipse.ui;bundle-version="[3.7.0,4.0.0)",org.ecli
+ pse.core.runtime;bundle-version="[3.7.0,4.0.0)",org.eclipse.papyrus.w
+ idgets;bundle-version="0.8.0";visibility:="reexport",org.eclipse.papy
+ rus.modelexplorer;bundle-version="0.8.0";visibility:="reexport",org.e
+ clipse.emf.facet.infra.browser;bundle-version="0.1.0";visibility:="re
+ export",org.eclipse.emf.facet.infra.browser.uicore;bundle-version="0.
+ 1.0";visibility:="reexport",org.eclipse.papyrus.service.edit;bundle-v
+ ersion="0.8.0"
+Bundle-Version: 0.8.0.v201106151827
+Export-Package: org.eclipse.papyrus.modelexplorer.widgets
+Ant-Version: Apache Ant 1.7.1
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/papyrus/modelexplorer/widgets/IMetaclassFilteredCont
+ entProvider.class
+SHA1-Digest: FKJrt0QJUIX5tkhLSx2bipRUxoE=
+
+Name: org/eclipse/papyrus/modelexplorer/widgets/EclassModelExplorerBas
+ edContentProvider.class
+SHA1-Digest: 1zY09RzNHrxn6voeyNH88jx4hsQ=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/papyrus/modelexplorer/widgets/EditServiceValidator.c
+ lass
+SHA1-Digest: lzpxO/0EFuBnOgRSFJ8oO3/nYQg=
+
+Name: org/eclipse/papyrus/modelexplorer/widgets/HierarchicViewerFilter
+ .class
+SHA1-Digest: fYlX2mAPLOqTTqGxRy4K07WPFU4=
+
+Name: org/eclipse/papyrus/modelexplorer/widgets/EclassComparator.class
+SHA1-Digest: fTdRcMcgH6L/898FRladeJpmuoo=
+
+Name: org/eclipse/papyrus/modelexplorer/widgets/AdvancedMETreeDialog$1
+ .class
+SHA1-Digest: FWsWMhkrbA6P3/45u+K931TvMKU=
+
+Name: about.html
+SHA1-Digest: a2Fk5/pDnCvlEfl7QwDZj/FCgFc=
+
+Name: org/eclipse/papyrus/modelexplorer/widgets/Activator.class
+SHA1-Digest: DK/sYmkh+AxSVHa89juo1a5finw=
+
+Name: org/eclipse/papyrus/modelexplorer/widgets/ModelExplorerBasedTree
+ SelectorDialog.class
+SHA1-Digest: MqGt9to/h+kOYbz3eH/hHx4LY/I=
+
+Name: org/eclipse/papyrus/modelexplorer/widgets/MetaclassLabelProvider
+ .class
+SHA1-Digest: Msp7Xjb/v5TMosZsjuscsWXv2RM=
+
+Name: plugin.xml
+SHA1-Digest: aVcnrTVvS4ovx2ACiBUE74GjSzU=
+
+Name: org/eclipse/papyrus/modelexplorer/widgets/AdvancedMETreeDialog.c
+ lass
+SHA1-Digest: Y+e7BvSPRj61u5pAhlf0ckNqWqY=
+
+Name: org/eclipse/papyrus/modelexplorer/widgets/ModelContentProvider.c
+ lass
+SHA1-Digest: oEBGyd1rHZTIqp7wl/dG0gWOE3U=
+

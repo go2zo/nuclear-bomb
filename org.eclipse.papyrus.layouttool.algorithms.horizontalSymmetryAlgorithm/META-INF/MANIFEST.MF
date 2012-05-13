@@ -1,0 +1,46 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.papyrus.layouttool.algorithms.horizon
+ talSymmetryAlgorithm;singleton:=true
+Bundle-Activator: org.eclipse.papyrus.layouttool.algorithms.horizontal
+ symmetryalgorithm.Activator
+Require-Bundle: org.eclipse.ui;bundle-version="[3.7.0,4.0.0)",org.ecli
+ pse.core.runtime;bundle-version="[3.7.0,4.0.0)",org.eclipse.papyrus.l
+ ayouttool;bundle-version="[0.8.0,1.0.0)",org.eclipse.zest.layouts;bun
+ dle-version="[1.1.0,2.0.0)"
+Bundle-Version: 0.8.0.v201106151827
+Ant-Version: Apache Ant 1.7.1
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/papyrus/layouttool/algorithms/horizontalsymmetryalgo
+ rithm/HorizontalSymmetryLayoutAlgorithm.class
+SHA1-Digest: 7+dgiw7s2uastf8wEEkzVKZbKyQ=
+
+Name: org/eclipse/papyrus/layouttool/algorithms/horizontalsymmetryalgo
+ rithm/Activator.class
+SHA1-Digest: iIzI9pvruA+VyerUv52P2Z+2gDs=
+
+Name: icons/horizsym.gif
+SHA1-Digest: e7CJiHuj88GVoPLF96cP0NjTQ2w=
+
+Name: plugin.xml
+SHA1-Digest: Z5K9V29c2W0csphwPium+pdihn8=
+
+Name: about.html
+SHA1-Digest: SghNuLOZ1xBD4DWkMOOVaXIW1tk=
+
+Name: plugin.properties
+SHA1-Digest: iwK0NWKQhb+lQs9rxShYKIN879Q=
+
+Name: org/eclipse/papyrus/layouttool/algorithms/horizontalsymmetryalgo
+ rithm/HorizontalSymmetryAlgorithm.class
+SHA1-Digest: /YW3QLiELoT85tPg1iPsPqJ8bjA=
+

@@ -1,0 +1,99 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.papyrus.sysml.facets;singleton:=true
+Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.7.0,4.0.0)
+ ",org.eclipse.emf.facet.infra.common.core;bundle-version="[0.1.0,1.0.
+ 0)",org.eclipse.emf.facet.infra.query.core;bundle-version="[0.1.0,1.0
+ .0)",org.eclipse.emf.ecore;bundle-version="[2.7.0,3.0.0)",org.eclipse
+ .uml2.uml;bundle-version="[3.2.0,4.0.0)",org.eclipse.papyrus.sysml;bu
+ ndle-version="0.8.0",org.eclipse.emf.edit;bundle-version="[2.7.0,3.0.
+ 0)",org.eclipse.emf.transaction;bundle-version="[1.4.0,2.0.0)",org.ec
+ lipse.uml2.common.edit;bundle-version="[1.5.0,2.0.0)"
+Bundle-Activator: org.eclipse.papyrus.sysml.facets.Activator
+Bundle-Version: 0.8.0.v201106151827
+Ant-Version: Apache Ant 1.7.1
+Bundle-ClassPath: .,bin
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/papyrus/sysml/facets/query/value/getter/GetRequireme
+ ntBase_ClassQuery.class
+SHA1-Digest: x7rWYTBXdvFqZFxSsT/jFWe0NFs=
+
+Name: resources/requirementsFacets.facetSet
+SHA1-Digest: HSU0G7PMMx/Ys1rHP9mUiMEHo3M=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/papyrus/sysml/facets/query/value/getter/GetRequireme
+ ntMasterQuery.class
+SHA1-Digest: dotJrLfXQ1BoTOlK+D5btNAwgd0=
+
+Name: org/eclipse/papyrus/sysml/facets/query/value/setter/SetRequireme
+ ntTextQuery$1.class
+SHA1-Digest: CCMQqQTwjuPzvP+NTgH9OFs4DVI=
+
+Name: org/eclipse/papyrus/sysml/facets/query/value/getter/GetRequireme
+ ntVerifiedByQuery.class
+SHA1-Digest: OX9K3NjNNrEGVDsEB27temgWCjY=
+
+Name: about.html
+SHA1-Digest: a2Fk5/pDnCvlEfl7QwDZj/FCgFc=
+
+Name: org/eclipse/papyrus/sysml/facets/query/value/getter/GetRequireme
+ ntRefinedByQuery.class
+SHA1-Digest: qVriS1yMwdSvLDdcUCgtOQ30tJs=
+
+Name: plugin.properties
+SHA1-Digest: LGj2ofRZK9b7oHL8XbbFfMHs6PA=
+
+Name: org/eclipse/papyrus/sysml/facets/query/value/getter/GetRequireme
+ ntSatifiedByQuery.class
+SHA1-Digest: FlywzbOdDI6ud4xs7KEui01PIVU=
+
+Name: org/eclipse/papyrus/sysml/facets/query/value/setter/SetRequireme
+ ntIdQuery.class
+SHA1-Digest: qmKoWlaMcOrzIaqKJgDmjDsVCCU=
+
+Name: org/eclipse/papyrus/sysml/facets/query/value/getter/GetRequireme
+ ntIdQuery.class
+SHA1-Digest: 1Te42x1Ze2BLVitn3q4SMzF5dTg=
+
+Name: org/eclipse/papyrus/sysml/facets/query/value/getter/GetRequireme
+ ntTracedToQuery.class
+SHA1-Digest: ugPa0Qnym9jDucnC473fYkxYCFg=
+
+Name: org/eclipse/papyrus/sysml/facets/query/value/getter/GetRequireme
+ ntDerivedFromQuery.class
+SHA1-Digest: tedMbkeb2BMIhml9kClxb4beGiM=
+
+Name: org/eclipse/papyrus/sysml/facets/Activator.class
+SHA1-Digest: HgfbRpcEF/v6z/94V7VGh+aIcJU=
+
+Name: resources/requirementsQueries.querySet
+SHA1-Digest: tnMmU3Y3m4F3awUw2SYubLj8+qo=
+
+Name: plugin.xml
+SHA1-Digest: zBRfI/Mdjo6CaXArgXHbdUGSE34=
+
+Name: org/eclipse/papyrus/sysml/facets/query/value/setter/SetRequireme
+ ntIdQuery$1.class
+SHA1-Digest: RXT/Ll6aubSh/pv6nTscmemvY08=
+
+Name: org/eclipse/papyrus/sysml/facets/query/value/setter/SetRequireme
+ ntTextQuery.class
+SHA1-Digest: LNBRctJJ4hvyoSHur3NYXp9qpKk=
+
+Name: org/eclipse/papyrus/sysml/facets/query/value/getter/GetRequireme
+ ntDerivedQuery.class
+SHA1-Digest: 94Z3dEo43i8mMmySz+bpaXrOcts=
+
+Name: org/eclipse/papyrus/sysml/facets/query/value/getter/GetRequireme
+ ntTextQuery.class
+SHA1-Digest: xUehtb4Tq265KqRd6e1BK/XuWOI=
+
