@@ -105,7 +105,7 @@ public abstract class CreateCommandHandler extends AbstractCommandHandler {
 	@Override
 	public Object execute(ExecutionEvent event) throws ExecutionException {
 		Object result = super.execute(event);
-		
+
 		// Find newly created element
 		EObject newElement = null;
 		

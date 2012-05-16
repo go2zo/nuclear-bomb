@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Trident
+Bundle-SymbolicName: org.pushingpixels.trident
+Bundle-Version: 1.2.0.v20110609-1700
+Bundle-ClassPath: org.pushingpixels.trident_1.2.0.v20110609-1700.jar
+Export-Package: org.pushingpixels.trident,
+ org.pushingpixels.trident.callback,
+ org.pushingpixels.trident.ease,
+ org.pushingpixels.trident.interpolator,
+ org.pushingpixels.trident.swt
+Require-Bundle: org.eclipse.swt;bundle-version="3.5.0"
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Eclipse-SourceReferences: scm:cvs:pserver:dev.eclipse.org:/cvsroot/eclipse:e4/org.eclipse.e4.ui/bundles/org.pushingpixels.trident;tag=v20110609-1700
