@@ -50,14 +50,15 @@ import org.eclipse.gmf.runtime.notation.NotationPackage;
 import org.eclipse.gmf.runtime.notation.View;
 import org.eclipse.jface.preference.IPreferenceStore;
 import org.eclipse.jface.preference.PreferenceConverter;
+import org.eclipse.papyrus.diagram.common.ApexEditPolicyRoles;
 import org.eclipse.papyrus.diagram.common.editpolicies.BorderItemResizableEditPolicy;
 import org.eclipse.papyrus.diagram.common.helper.PreferenceInitializerForElementHelper;
 import org.eclipse.papyrus.diagram.common.providers.UIAdapterImpl;
+import org.eclipse.papyrus.diagram.sequence.edit.policies.ApexInteractionOperandSelectionEditPolicy;
 import org.eclipse.papyrus.diagram.sequence.edit.policies.CombinedFragmentCreationEditPolicy;
 import org.eclipse.papyrus.diagram.sequence.edit.policies.InteractionOperandComponentEditPolicy;
 import org.eclipse.papyrus.diagram.sequence.edit.policies.InteractionOperandItemSemanticEditPolicy;
 import org.eclipse.papyrus.diagram.sequence.edit.policies.InteractionOperandLayoutEditPolicy;
-import org.eclipse.papyrus.diagram.sequence.edit.policies.InteractionOperandSelectionEditPolicy;
 import org.eclipse.papyrus.diagram.sequence.edit.policies.SequenceGraphicalNodeEditPolicy;
 import org.eclipse.papyrus.diagram.sequence.figures.InteractionOperandFigure;
 import org.eclipse.papyrus.diagram.sequence.locator.ContinuationLocator;
@@ -144,8 +145,10 @@ AbstractBorderedShapeEditPart {
 
 		installEditPolicy(EditPolicy.LAYOUT_ROLE, createLayoutEditPolicy());
 		installEditPolicy(EditPolicy.LAYOUT_ROLE, new InteractionOperandLayoutEditPolicy());
-		installEditPolicy("SELECTION_FOCUS_ROLE", new InteractionOperandSelectionEditPolicy());
-		//		installEditPolicy(EditPolicy.PRIMARY_DRAG_ROLE, new InteractionOperandDragDropEditPolicy());
+		/* omw */
+		installEditPolicy(ApexEditPolicyRoles.INTERACTIONOPERAND_SELECTION_FOCUS_ROLE, new ApexInteractionOperandSelectionEditPolicy());
+		/* omw */
+		//		installEditPolicy(EditPolicy.PRIMARY_DRAG_ROLE, new ApexInteractionOperandDragDropEditPolicy());
 		installEditPolicy(EditPolicy.COMPONENT_ROLE, new InteractionOperandComponentEditPolicy());
 		installEditPolicy(EditPolicy.GRAPHICAL_NODE_ROLE, new SequenceGraphicalNodeEditPolicy());
 		// XXX need an SCR to runtime to have another abstract superclass that would let children add reasonable editpolicies
