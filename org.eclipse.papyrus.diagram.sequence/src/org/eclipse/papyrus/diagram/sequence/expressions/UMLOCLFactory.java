@@ -61,7 +61,8 @@ public class UMLOCLFactory {
 		if(cached.expressions[index] == null) {
 			final String[] exprBodies = new String[]{ "\' \'", //$NON-NLS-1$
 			"self.messageSort=MessageSort::synchCall and self.sendEvent<>null and self.receiveEvent<>null", //$NON-NLS-1$
-			/* apex added start - jiho */
+			/* apex added start */
+			/** jiho - OCL분석 전 날코드 수정 */
 			"self.oclIsKindOf(uml::InteractionFragment) or self.oclIsKindOf(uml::Lifeline)", //$NON-NLS-1$
 			/* apex added end */
 			"self.oclIsKindOf(uml::InteractionFragment) or self.oclIsKindOf(uml::Lifeline)", //$NON-NLS-1$

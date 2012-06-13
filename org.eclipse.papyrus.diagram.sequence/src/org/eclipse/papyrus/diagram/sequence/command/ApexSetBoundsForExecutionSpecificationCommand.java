@@ -17,9 +17,9 @@ import org.eclipse.gmf.runtime.notation.NotationPackage;
 import org.eclipse.gmf.runtime.notation.View;
 
 /**
+ * Target ExecutionSpecification의 위치에 따라 Source ExecutionSpecification의 Bounds 자동 조정
  * 
  * @author Jiho 20120611
- *
  */
 public class ApexSetBoundsForExecutionSpecificationCommand extends
 		AbstractTransactionalCommand {

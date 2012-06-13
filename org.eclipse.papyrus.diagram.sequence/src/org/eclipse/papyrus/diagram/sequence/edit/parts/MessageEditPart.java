@@ -72,7 +72,8 @@ implements ITreeBranchEditPart {
 	 */
 	protected void installRouter() {
 		getConnectionFigure().setConnectionRouter(LifelineChildGraphicalNodeEditPolicy.messageRouter);
-		/* apex added start - jiho */
+		/* apex added start */
+		/** jiho - 마우스 오버시 커서 변경 */
 //		getConnectionFigure().setCursor(Cursors.ARROW);
 		getConnectionFigure().setCursor(Cursors.SIZENS);
 		/* apex added end */
