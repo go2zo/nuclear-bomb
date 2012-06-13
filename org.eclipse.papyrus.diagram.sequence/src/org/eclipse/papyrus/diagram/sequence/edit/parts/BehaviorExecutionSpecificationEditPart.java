@@ -167,7 +167,10 @@ public class BehaviorExecutionSpecificationEditPart extends ShapeNodeEditPart {
 		EditPolicy result = super.getPrimaryDragEditPolicy();
 		if(result instanceof ResizableEditPolicy) {
 			ResizableEditPolicy ep = (ResizableEditPolicy)result;
+			/* apex added start - jiho */
 			ep.setResizeDirections(PositionConstants.NORTH | PositionConstants.SOUTH);
+//			ep.setResizeDirections(PositionConstants.NONE);
+			/* apex added end */
 		}
 		return result;
 	}
