@@ -13,9 +13,12 @@
  *****************************************************************************/
 package org.eclipse.papyrus.diagram.sequence.edit.policies;
 
+import org.eclipse.draw2d.ConnectionAnchor;
+import org.eclipse.draw2d.geometry.Point;
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.transaction.TransactionalEditingDomain;
 import org.eclipse.gef.EditPart;
+import org.eclipse.gef.Request;
 import org.eclipse.gef.commands.Command;
 import org.eclipse.gef.commands.CompoundCommand;
 import org.eclipse.gef.requests.CreateConnectionRequest;
@@ -24,12 +27,16 @@ import org.eclipse.gmf.runtime.diagram.ui.commands.ICommandProxy;
 import org.eclipse.gmf.runtime.diagram.ui.editparts.IGraphicalEditPart;
 import org.eclipse.gmf.runtime.diagram.ui.editparts.ShapeNodeEditPart;
 import org.eclipse.gmf.runtime.diagram.ui.requests.CreateConnectionViewAndElementRequest;
+import org.eclipse.gmf.runtime.emf.core.util.EObjectAdapter;
 import org.eclipse.gmf.runtime.emf.type.core.IHintedType;
 import org.eclipse.gmf.runtime.notation.View;
 import org.eclipse.papyrus.diagram.sequence.command.ChangeEdgeTargetCommand;
 import org.eclipse.papyrus.diagram.sequence.command.CreateElementAndNodeCommand;
+import org.eclipse.papyrus.diagram.sequence.command.ApexPreserveAnchorsPositionCommand;
+import org.eclipse.papyrus.diagram.sequence.command.ApexSetBoundsForExecutionSpecificationCommand;
 import org.eclipse.papyrus.diagram.sequence.edit.parts.ActionExecutionSpecificationEditPart;
 import org.eclipse.papyrus.diagram.sequence.edit.parts.BehaviorExecutionSpecificationEditPart;
+import org.eclipse.papyrus.diagram.sequence.edit.parts.LifelineEditPart;
 import org.eclipse.papyrus.diagram.sequence.providers.UMLElementTypes;
 import org.eclipse.papyrus.diagram.sequence.util.SequenceRequestConstant;
 import org.eclipse.papyrus.diagram.sequence.util.SequenceUtil;
@@ -63,7 +70,12 @@ public class ElementCreationWithMessageEditPolicy extends LifelineChildGraphical
 				EditPart sourceEP = viewRequest.getSourceEditPart();
 				EObject source = ViewUtil.resolveSemanticElement((View)sourceEP.getModel());
 
-				if(getSyncMessageHint().equals(viewRequest.getConnectionViewDescriptor().getSemanticHint()) || getReplyMessageHint().equals(viewRequest.getConnectionViewDescriptor().getSemanticHint())) {
+				if(getSyncMessageHint().equals(viewRequest.getConnectionViewDescriptor().getSemanticHint())
+						|| getReplyMessageHint().equals(viewRequest.getConnectionViewDescriptor().getSemanticHint())
+						/* apex added start - jiho */
+						|| apexGetAsyncMessageHint().equals(viewRequest.getConnectionViewDescriptor().getSemanticHint())
+						/* apex added end */
+						) {
 					if(target instanceof Lifeline ||
 					// handle reflexive synch message by creating a new ES
 					(target instanceof ExecutionSpecification && target.equals(source))) {
@@ -76,6 +88,11 @@ public class ElementCreationWithMessageEditPolicy extends LifelineChildGraphical
 						} else if(request.getSourceEditPart() instanceof BehaviorExecutionSpecificationEditPart) {
 							elementType = (IHintedType)UMLElementTypes.BehaviorExecutionSpecification_3003;
 						}
+						/* apex added start - jiho */
+						else if (request.getSourceEditPart() instanceof LifelineEditPart) {
+							elementType =(IHintedType)UMLElementTypes.BehaviorExecutionSpecification_3003;
+						}
+						/* apex added end */
 
 						if(target instanceof ExecutionSpecification) {
 							// retrieve its associated lifeline
@@ -91,6 +108,38 @@ public class ElementCreationWithMessageEditPolicy extends LifelineChildGraphical
 							// put the anchor at the top of the figure
 							ChangeEdgeTargetCommand changeTargetCommand = new ChangeEdgeTargetCommand(getEditingDomain(), createExecutionSpecificationCommand, viewRequest.getConnectionViewDescriptor(), "(0.5, 0.0)");
 							compound.add(new ICommandProxy(changeTargetCommand));
+							
+							/* apex added start - jiho */
+							if (source instanceof ExecutionSpecification) {
+//								ChangeBoundsRequest changeBoundsRequest = new ChangeBoundsRequest(RequestConstants.REQ_RESIZE);
+//								changeBoundsRequest.setEditParts(sourceEP);
+//								changeBoundsRequest.setLocation(request.getLocation());
+//								changeBoundsRequest.setExtendedData(request.getExtendedData());
+//								changeBoundsRequest.setMoveDelta(new Point(0, 0));
+//								changeBoundsRequest.setResizeDirection(PositionConstants.SOUTH);
+//								
+//								IFigure figure = ((ShapeNodeEditPart)sourceEP).getFigure();
+//								Rectangle bounds = figure.getBounds().getCopy();
+//								figure.getParent().translateToAbsolute(bounds);
+//								Point sourcePoint = (Point)request.getExtendedData().get(SequenceRequestConstant.SOURCE_LOCATION_DATA);
+//								int bottom = Math.max(bounds.bottom(), sourcePoint.y + 60);
+//								Dimension resizeDelta = new Dimension(0, bottom - bounds.bottom());
+//								changeBoundsRequest.setSizeDelta(resizeDelta);
+//								
+//								Command changeBoundsCommand = sourceEP.getCommand(changeBoundsRequest);
+//								if (changeBoundsCommand != null) {
+//									compound.add(changeBoundsCommand);
+//								}
+								
+								View view = (View)sourceEP.getModel();
+								ApexSetBoundsForExecutionSpecificationCommand setBoundsCommand = new ApexSetBoundsForExecutionSpecificationCommand(
+										getEditingDomain(), createExecutionSpecificationCommand, new EObjectAdapter(view));
+								compound.add(new ICommandProxy(setBoundsCommand));
+								
+								compound.add(new ICommandProxy(new ApexPreserveAnchorsPositionCommand(
+										(ShapeNodeEditPart)sourceEP, setBoundsCommand, ApexPreserveAnchorsPositionCommand.PRESERVE_Y)));
+							}
+							/* apex added end */
 						}
 					}
 				}
@@ -110,7 +159,40 @@ public class ElementCreationWithMessageEditPolicy extends LifelineChildGraphical
 		return message.getSemanticHint();
 	}
 
+	/* apex added start - jiho */
+	private static String apexGetAsyncMessageHint() {
+		IHintedType message = (IHintedType)UMLElementTypes.Message_4004;
+		return message.getSemanticHint();
+	}
+	/* apex added end */
+	
 	private TransactionalEditingDomain getEditingDomain() {
 		return ((IGraphicalEditPart)getHost()).getEditingDomain();
 	}
+
+	@Override
+	protected ConnectionAnchor getSourceConnectionAnchor(
+			CreateConnectionRequest request) {
+		ConnectionAnchor ca = super.getSourceConnectionAnchor(request);
+		Point ref = ca.getReferencePoint();
+		System.out.println("source: " + ca.getLocation(ref));
+		return ca;
+	}
+
+	@Override
+	protected ConnectionAnchor getTargetConnectionAnchor(
+			CreateConnectionRequest request) {
+		ConnectionAnchor ca = super.getTargetConnectionAnchor(request);
+		Point ref = ca.getReferencePoint();
+		System.out.println("target: " + ca.getLocation(ref));
+		return ca;
+	}
+
+	@Override
+	protected ConnectionAnchor getConnectionTargetAnchor(Request request) {
+		// TODO Auto-generated method stub
+		return super.getConnectionTargetAnchor(request);
+	}
+	
+	
 }
