@@ -263,7 +263,10 @@ public abstract class CommonDiagramDragDropEditPolicy extends DiagramDragDropEdi
 		int linkVISUALID = getLinkWithClassVisualID(droppedObject);
 		if(getSpecificDrop().contains(nodeVISUALID) || getSpecificDrop().contains(linkVISUALID)) {
 			// TODO: add to composite command ?
-			return new CommandProxy(getSpecificDropCommand(dropRequest, (Element)droppedObject, nodeVISUALID, linkVISUALID));
+			/* apex added start - jiho */
+			if (droppedObject instanceof Element) {
+				return new CommandProxy(getSpecificDropCommand(dropRequest, (Element)droppedObject, nodeVISUALID, linkVISUALID));
+			} /* apex added end */
 		}
 
 		if(linkVISUALID == -1 && nodeVISUALID != -1) {
