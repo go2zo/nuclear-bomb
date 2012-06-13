@@ -33,6 +33,7 @@ import org.eclipse.gmf.runtime.draw2d.ui.internal.routers.OrthogonalRouterUtilit
 import org.eclipse.gmf.runtime.draw2d.ui.mapmode.MapModeUtil;
 import org.eclipse.papyrus.diagram.sequence.edit.parts.LifelineEditPart.LifelineFigure;
 import org.eclipse.papyrus.diagram.sequence.edit.parts.Message2EditPart;
+import org.eclipse.papyrus.diagram.sequence.edit.parts.MessageEditPart;
 
 /**
  * A multi behavior router which enable to draw message.
@@ -60,7 +61,11 @@ public class MessageRouter extends ObliqueRouter {
 		}
 
 		private static boolean isHorizontalConnection(Connection conn, PointList newLine) {
-			if(!(conn instanceof Message2EditPart.MessageAsync)) {
+			if(!(conn instanceof Message2EditPart.MessageAsync)
+					/* apex added start - jiho */
+					&& !(conn instanceof MessageEditPart.MessageSync)
+					/* apex added end */
+					) {
 				return false;
 			}
 			Point sourcePoint = newLine.getFirstPoint();
