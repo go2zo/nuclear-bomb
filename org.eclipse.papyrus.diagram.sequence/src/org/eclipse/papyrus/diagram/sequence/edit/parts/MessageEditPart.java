@@ -24,6 +24,8 @@ import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.gef.EditPart;
 import org.eclipse.gef.EditPolicy;
 import org.eclipse.gef.Request;
+import org.eclipse.gef.requests.BendpointRequest;
+import org.eclipse.gef.requests.CreateConnectionRequest;
 import org.eclipse.gmf.runtime.diagram.ui.editparts.ConnectionNodeEditPart;
 import org.eclipse.gmf.runtime.diagram.ui.editparts.ITreeBranchEditPart;
 import org.eclipse.gmf.runtime.diagram.ui.editpolicies.EditPolicyRoles;
@@ -70,7 +72,10 @@ implements ITreeBranchEditPart {
 	 */
 	protected void installRouter() {
 		getConnectionFigure().setConnectionRouter(LifelineChildGraphicalNodeEditPolicy.messageRouter);
-		getConnectionFigure().setCursor(Cursors.ARROW);
+		/* apex added start - jiho */
+//		getConnectionFigure().setCursor(Cursors.ARROW);
+		getConnectionFigure().setCursor(Cursors.SIZENS);
+		/* apex added end */
 		refreshBendpoints();
 	}
 
