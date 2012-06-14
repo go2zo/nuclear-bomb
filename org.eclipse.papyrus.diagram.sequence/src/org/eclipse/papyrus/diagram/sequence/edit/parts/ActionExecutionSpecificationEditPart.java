@@ -51,6 +51,7 @@ import org.eclipse.jface.preference.IPreferenceStore;
 import org.eclipse.jface.preference.PreferenceConverter;
 import org.eclipse.papyrus.diagram.common.draw2d.anchors.FixedAnchor;
 import org.eclipse.papyrus.diagram.sequence.edit.policies.ActionExecutionSpecificationItemSemanticEditPolicy;
+import org.eclipse.papyrus.diagram.sequence.edit.policies.ApexResizableShapeEditPolicy;
 import org.eclipse.papyrus.diagram.sequence.edit.policies.ElementCreationWithMessageEditPolicy;
 import org.eclipse.papyrus.diagram.sequence.edit.policies.ExecutionSpecificationComponentEditPolicy;
 import org.eclipse.papyrus.diagram.sequence.providers.UMLElementTypes;
@@ -166,7 +167,14 @@ ShapeNodeEditPart {
 	 */
 	@Override
 	public EditPolicy getPrimaryDragEditPolicy() {
+		/* apex improved start */
+		EditPolicy result = getEditPolicy(EditPolicy.PRIMARY_DRAG_ROLE);
+		result = result != null ? result : new ApexResizableShapeEditPolicy(PositionConstants.NORTH_SOUTH);
+		/* apex improved end */
+		/* apex replaced
 		EditPolicy result = super.getPrimaryDragEditPolicy();
+		 */
+		
 		if(result instanceof ResizableEditPolicy) {
 			ResizableEditPolicy ep = (ResizableEditPolicy)result;
 			ep.setResizeDirections(PositionConstants.NORTH | PositionConstants.SOUTH);

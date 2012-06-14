@@ -77,6 +77,7 @@ import org.eclipse.papyrus.diagram.common.editpolicies.AppliedStereotypeLabelDis
 import org.eclipse.papyrus.diagram.common.editpolicies.BorderItemResizableEditPolicy;
 import org.eclipse.papyrus.diagram.common.figure.node.NodeNamedElementFigure;
 import org.eclipse.papyrus.diagram.common.providers.UIAdapterImpl;
+import org.eclipse.papyrus.diagram.sequence.edit.policies.ApexResizableShapeEditPolicy;
 import org.eclipse.papyrus.diagram.sequence.edit.policies.CustomDiagramDragDropEditPolicy;
 import org.eclipse.papyrus.diagram.sequence.edit.policies.ElementCreationWithMessageEditPolicy;
 import org.eclipse.papyrus.diagram.sequence.edit.policies.LifelineAppliedStereotypeNodeLabelDisplayEditPolicy;
@@ -220,6 +221,18 @@ public class LifelineEditPart extends NamedElementEditPart {
 			}
 		};
 		return lep;
+	}
+
+	/**
+	 * apex updated
+	 * 
+	 * @Override
+	 */
+	public EditPolicy getPrimaryDragEditPolicy() {
+		/* apex added start */
+		EditPolicy result = getEditPolicy(EditPolicy.PRIMARY_DRAG_ROLE);
+		return result != null ? result : new ApexResizableShapeEditPolicy(PositionConstants.EAST_WEST);
+		/* apex added end */ 
 	}
 
 	/**

@@ -34,6 +34,7 @@ import org.eclipse.gef.commands.Command;
 import org.eclipse.gef.editpolicies.LayoutEditPolicy;
 import org.eclipse.gef.editpolicies.NonResizableEditPolicy;
 import org.eclipse.gef.editpolicies.ResizableEditPolicy;
+import org.eclipse.gef.requests.ChangeBoundsRequest;
 import org.eclipse.gef.requests.CreateRequest;
 import org.eclipse.gef.requests.ReconnectRequest;
 import org.eclipse.gmf.runtime.diagram.ui.editparts.IGraphicalEditPart;
@@ -50,6 +51,7 @@ import org.eclipse.gmf.runtime.notation.View;
 import org.eclipse.jface.preference.IPreferenceStore;
 import org.eclipse.jface.preference.PreferenceConverter;
 import org.eclipse.papyrus.diagram.common.draw2d.anchors.FixedAnchor;
+import org.eclipse.papyrus.diagram.sequence.edit.policies.ApexResizableShapeEditPolicy;
 import org.eclipse.papyrus.diagram.sequence.edit.policies.BehaviorExecutionSpecificationItemSemanticEditPolicy;
 import org.eclipse.papyrus.diagram.sequence.edit.policies.ElementCreationWithMessageEditPolicy;
 import org.eclipse.papyrus.diagram.sequence.edit.policies.ExecutionSpecificationComponentEditPolicy;
@@ -166,7 +168,14 @@ public class BehaviorExecutionSpecificationEditPart extends ShapeNodeEditPart {
 	 */
 	@Override
 	public EditPolicy getPrimaryDragEditPolicy() {
+		/* apex improved start */
+		EditPolicy result = getEditPolicy(EditPolicy.PRIMARY_DRAG_ROLE);
+		result = result != null ? result : new ApexResizableShapeEditPolicy(PositionConstants.NORTH_SOUTH);
+		/* apex improved end */
+		/* apex replaced
 		EditPolicy result = super.getPrimaryDragEditPolicy();
+		 */
+		
 		if(result instanceof ResizableEditPolicy) {
 			ResizableEditPolicy ep = (ResizableEditPolicy)result;
 			ep.setResizeDirections(PositionConstants.NORTH | PositionConstants.SOUTH);
@@ -1147,6 +1156,8 @@ public class BehaviorExecutionSpecificationEditPart extends ShapeNodeEditPart {
 	}
 
 	/**
+	 * apex updated
+	 * 
 	 * @generated NOT Override for redirecting creation request to the lifeline
 	 */
 	@Override
