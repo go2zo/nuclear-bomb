@@ -173,6 +173,9 @@ public class CustomDiagramDragDropEditPolicy extends CommonDiagramDragDropEditPo
 		return UMLVisualIDRegistry.getLinkWithClassVisualID(domainElement);
 	}
 
+	/**
+	 * apex updated
+	 */
 	@Override
 	protected Command getSpecificDropCommand(DropObjectsRequest dropRequest, Element semanticLink, int nodeVISUALID, int linkVISUALID) {
 		Point location = dropRequest.getLocation().getCopy();

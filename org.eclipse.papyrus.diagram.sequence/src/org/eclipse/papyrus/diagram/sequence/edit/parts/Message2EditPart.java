@@ -63,17 +63,21 @@ implements ITreeBranchEditPart {
 	}
 
 	/**
+	 * apex updated
+	 * 
 	 * Installs a specific message router on the edit part.
 	 * 
 	 * @generated NOT
 	 */
 	protected void installRouter() {
 		getConnectionFigure().setConnectionRouter(LifelineChildGraphicalNodeEditPolicy.messageRouter);
-		/* apex added start */
-		/** jiho - 마우스 오버시 기본 커서 모양 설정, Message의 상태에 따라 바뀌는 것과는 상관 없음 */
-//		getConnectionFigure().setCursor(org.eclipse.gmf.runtime.gef.ui.internal.l10n.Cursors.CURSOR_SEG_MOVE);
+		/* apex improved start */
+		// jiho - 마우스 오버시 기본 커서 모양 설정, Message의 상태에 따라 바뀌는 것과는 상관 없음
 		getConnectionFigure().setCursor(Cursors.SIZENS);
-		/* apex added end */
+		/* apex improved end */
+		/* apex replaced
+		getConnectionFigure().setCursor(org.eclipse.gmf.runtime.gef.ui.internal.l10n.Cursors.CURSOR_SEG_MOVE);
+		 */
 		refreshBendpoints();
 	}
 

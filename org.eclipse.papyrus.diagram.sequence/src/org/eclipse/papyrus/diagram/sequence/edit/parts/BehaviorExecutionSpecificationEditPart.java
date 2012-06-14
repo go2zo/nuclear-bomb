@@ -160,6 +160,8 @@ public class BehaviorExecutionSpecificationEditPart extends ShapeNodeEditPart {
 	}
 
 	/**
+	 * apex updated
+	 * 
 	 * @generated
 	 */
 	@Override
@@ -167,9 +169,9 @@ public class BehaviorExecutionSpecificationEditPart extends ShapeNodeEditPart {
 		EditPolicy result = super.getPrimaryDragEditPolicy();
 		if(result instanceof ResizableEditPolicy) {
 			ResizableEditPolicy ep = (ResizableEditPolicy)result;
-			/* apex added start */
-			/**	jiho - PositionContents.NONE로 설정하면 수동조정 불가 */
 			ep.setResizeDirections(PositionConstants.NORTH | PositionConstants.SOUTH);
+			/* apex added start */
+			// jiho - PositionContents.NONE로 설정하면 수동조정 불가
 //			ep.setResizeDirections(PositionConstants.NONE);
 			/* apex added end */
 		}

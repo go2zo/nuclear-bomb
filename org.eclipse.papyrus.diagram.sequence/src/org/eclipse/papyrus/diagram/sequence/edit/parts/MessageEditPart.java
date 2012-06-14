@@ -66,17 +66,21 @@ implements ITreeBranchEditPart {
 	}
 
 	/**
+	 * apex updated
+	 * 
 	 * Installs a specific message router on the edit part.
 	 * 
 	 * @generated NOT
 	 */
 	protected void installRouter() {
 		getConnectionFigure().setConnectionRouter(LifelineChildGraphicalNodeEditPolicy.messageRouter);
-		/* apex added start */
-		/** jiho - 마우스 오버시 커서 변경 */
-//		getConnectionFigure().setCursor(Cursors.ARROW);
+		/* apex improved start */
+		// jiho - 마우스 오버시 커서 변경
 		getConnectionFigure().setCursor(Cursors.SIZENS);
-		/* apex added end */
+		/* apex improved end */
+		/* apex replaced
+		getConnectionFigure().setCursor(Cursors.ARROW);
+		 */
 		refreshBendpoints();
 	}
 

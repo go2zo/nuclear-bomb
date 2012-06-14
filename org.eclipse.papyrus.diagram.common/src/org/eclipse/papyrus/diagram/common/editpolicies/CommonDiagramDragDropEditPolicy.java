@@ -256,6 +256,9 @@ public abstract class CommonDiagramDragDropEditPolicy extends DiagramDragDropEdi
 		return new ICommandProxy(cc);
 	}
 
+	/**
+	 * apex updated
+	 */
 	protected IUndoableOperation getDropObjectCommand(DropObjectsRequest dropRequest, EObject droppedObject) {
 		Point location = dropRequest.getLocation().getCopy();
 
@@ -263,10 +266,14 @@ public abstract class CommonDiagramDragDropEditPolicy extends DiagramDragDropEdi
 		int linkVISUALID = getLinkWithClassVisualID(droppedObject);
 		if(getSpecificDrop().contains(nodeVISUALID) || getSpecificDrop().contains(linkVISUALID)) {
 			// TODO: add to composite command ?
-			/* apex added start - jiho */
+			/* apex improved start */
 			if (droppedObject instanceof Element) {
 				return new CommandProxy(getSpecificDropCommand(dropRequest, (Element)droppedObject, nodeVISUALID, linkVISUALID));
-			} /* apex added end */
+			}
+			/* apex improved end */
+			/* apex replaced
+			return new CommandProxy(getSpecificDropCommand(dropRequest, (Element)droppedObject, nodeVISUALID, linkVISUALID));
+			*/
 		}
 
 		if(linkVISUALID == -1 && nodeVISUALID != -1) {

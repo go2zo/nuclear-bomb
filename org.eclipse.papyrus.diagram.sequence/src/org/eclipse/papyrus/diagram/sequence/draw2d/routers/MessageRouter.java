@@ -60,10 +60,13 @@ public class MessageRouter extends ObliqueRouter {
 			return OBLIQUE;
 		}
 
+		/**
+		 * apex update
+		 */
 		private static boolean isHorizontalConnection(Connection conn, PointList newLine) {
 			if(!(conn instanceof Message2EditPart.MessageAsync)
 					/* apex added start */
-					/** jiho - isHorizontalConnection==TRUE인 경우에만 bendpoint 클릭을 통한 이동이 가능 */
+					// jiho - isHorizontalConnection==TRUE인 경우에만 bendpoint 클릭을 통한 이동이 가능 
 					&& !(conn instanceof MessageEditPart.MessageSync)
 					/* apex added end */
 					) {

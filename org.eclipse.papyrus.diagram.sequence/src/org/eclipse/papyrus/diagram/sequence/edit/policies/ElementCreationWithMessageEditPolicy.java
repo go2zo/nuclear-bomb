@@ -54,6 +54,9 @@ import org.eclipse.uml2.uml.Lifeline;
  */
 public class ElementCreationWithMessageEditPolicy extends LifelineChildGraphicalNodeEditPolicy {
 
+	/**
+	 * apex updated
+	 */
 	@Override
 	protected Command getConnectionCompleteCommand(CreateConnectionRequest request) {
 		CompoundCommand compound = new CompoundCommand();
@@ -73,7 +76,7 @@ public class ElementCreationWithMessageEditPolicy extends LifelineChildGraphical
 				if(getSyncMessageHint().equals(viewRequest.getConnectionViewDescriptor().getSemanticHint())
 						|| getReplyMessageHint().equals(viewRequest.getConnectionViewDescriptor().getSemanticHint())
 						/* apex added start */
-						/** jiho - AsyncMessage 생성 시에도 ExecSpec 생성하는 로직 작동 */
+						// jiho - AsyncMessage 생성 시에도 ExecSpec 생성하는 로직 작동 
 						|| apexGetAsyncMessageHint().equals(viewRequest.getConnectionViewDescriptor().getSemanticHint())
 						/* apex added end */
 						) {
@@ -90,7 +93,7 @@ public class ElementCreationWithMessageEditPolicy extends LifelineChildGraphical
 							elementType = (IHintedType)UMLElementTypes.BehaviorExecutionSpecification_3003;
 						}
 						/* apex added start */
-						/** jiho - Source가 Lifeline일 경우 BehvExecSpec 생성 */
+						// jiho - Source가 Lifeline일 경우 BehvExecSpec 생성 
 						else if (request.getSourceEditPart() instanceof LifelineEditPart) {
 							elementType =(IHintedType)UMLElementTypes.BehaviorExecutionSpecification_3003;
 						}
@@ -112,7 +115,7 @@ public class ElementCreationWithMessageEditPolicy extends LifelineChildGraphical
 							compound.add(new ICommandProxy(changeTargetCommand));
 							
 							/* apex added start */
-							/** jiho - Source인 ExecSpec의 Bounds, Connection의 Anchor을 자동변경하는 생성 */
+							// jiho - Source인 ExecSpec의 Bounds, Connection의 Anchor을 자동변경하는 생성
 							if (source instanceof ExecutionSpecification) {
 //								ChangeBoundsRequest changeBoundsRequest = new ChangeBoundsRequest(RequestConstants.REQ_RESIZE);
 //								changeBoundsRequest.setEditParts(sourceEP);
@@ -162,12 +165,10 @@ public class ElementCreationWithMessageEditPolicy extends LifelineChildGraphical
 		return message.getSemanticHint();
 	}
 
-	/* apex added start - jiho */
 	private static String apexGetAsyncMessageHint() {
 		IHintedType message = (IHintedType)UMLElementTypes.Message_4004;
 		return message.getSemanticHint();
 	}
-	/* apex added end */
 	
 	private TransactionalEditingDomain getEditingDomain() {
 		return ((IGraphicalEditPart)getHost()).getEditingDomain();
