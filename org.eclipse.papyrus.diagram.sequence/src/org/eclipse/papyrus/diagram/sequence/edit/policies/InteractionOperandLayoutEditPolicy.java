@@ -32,7 +32,7 @@ import org.eclipse.papyrus.diagram.sequence.providers.UMLElementTypes;
  * The customn LayoutEditPolicy for InteractionOperandEditPart.
  */
 public class InteractionOperandLayoutEditPolicy extends XYLayoutEditPolicy {
-
+	
 	/**
 	 * {@inheritDoc}
 	 */
@@ -103,5 +103,5 @@ public class InteractionOperandLayoutEditPolicy extends XYLayoutEditPolicy {
 		}
 		return compoundCmd.unwrap();
 	}
-
+	
 }

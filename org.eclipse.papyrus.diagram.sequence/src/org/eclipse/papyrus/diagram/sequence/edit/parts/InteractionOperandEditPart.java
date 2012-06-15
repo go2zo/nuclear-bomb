@@ -148,7 +148,6 @@ AbstractBorderedShapeEditPart {
 		/* omw */
 		installEditPolicy(ApexEditPolicyRoles.INTERACTIONOPERAND_SELECTION_FOCUS_ROLE, new ApexInteractionOperandSelectionEditPolicy());
 		/* omw */
-		//		installEditPolicy(EditPolicy.PRIMARY_DRAG_ROLE, new ApexInteractionOperandDragDropEditPolicy());
 		installEditPolicy(EditPolicy.COMPONENT_ROLE, new InteractionOperandComponentEditPolicy());
 		installEditPolicy(EditPolicy.GRAPHICAL_NODE_ROLE, new SequenceGraphicalNodeEditPolicy());
 		// XXX need an SCR to runtime to have another abstract superclass that would let children add reasonable editpolicies

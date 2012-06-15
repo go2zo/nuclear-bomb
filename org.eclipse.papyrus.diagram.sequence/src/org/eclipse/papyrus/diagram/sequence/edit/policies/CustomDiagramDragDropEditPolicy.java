@@ -251,7 +251,7 @@ public class CustomDiagramDragDropEditPolicy extends CommonDiagramDragDropEditPo
 		IHintedType type = (IHintedType)getUMLElementType(LifelineEditPart.VISUAL_ID);
 		CreateElementRequest createElementRequest = new CreateElementRequest(getHostObject(), type);
 		Command cmd = getHost().getCommand(new EditCommandRequestWrapper(createElementRequest));
-		ICommand createLifelineCommand = cmd != null ? new org.eclipse.papyrus.diagram.sequence.edit.command.wrappers.CommandProxyWithResult(cmd, null) : null;
+		ICommand createLifelineCommand = cmd != null ? new org.eclipse.papyrus.diagram.sequence.edit.command.wrappers.ApexCommandProxyWithResult(cmd, null) : null;
 
 		EObject container = getHostObject();
 		while (container != null && container instanceof Collaboration == false) {
@@ -291,7 +291,7 @@ public class CustomDiagramDragDropEditPolicy extends CommonDiagramDragDropEditPo
 		IHintedType type = (IHintedType)getUMLElementType(LifelineEditPart.VISUAL_ID);
 		CreateElementRequest createElementRequest = new CreateElementRequest(getHostObject(), type);
 		Command cmd = getHost().getCommand(new EditCommandRequestWrapper(createElementRequest));
-		ICommand createLifelineCommand = cmd != null ? new org.eclipse.papyrus.diagram.sequence.edit.command.wrappers.CommandProxyWithResult(cmd, null) : null;
+		ICommand createLifelineCommand = cmd != null ? new org.eclipse.papyrus.diagram.sequence.edit.command.wrappers.ApexCommandProxyWithResult(cmd, null) : null;
 		
 		EReference feature = UMLPackage.eINSTANCE.getLifeline_Represents();
 		SetRequest setRequest = new SetRequest(getEditingDomain(), null, feature, property);
