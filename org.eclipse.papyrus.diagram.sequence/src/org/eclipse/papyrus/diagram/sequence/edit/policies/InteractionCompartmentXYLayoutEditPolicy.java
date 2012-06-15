@@ -400,118 +400,118 @@ System.out.println("***** translated Bounds : " + origCFBounds);
 		// we want the execution specifications graphically owned by the lifeline to move with the combined fragment, and the contained messages too
 		if(sizeDelta.equals(0, 0)) {
 			// 좌우 이동 불가 처리
-			if (moveDelta.x==0) {
-System.out.println("x == 0");
-				// retrieve all the edit parts in the registry
-				Set<Entry<Object, EditPart>> allEditPartEntries = combinedFragmentEditPart.getViewer().getEditPartRegistry().entrySet();
 
-				for(Entry<Object, EditPart> epEntry : allEditPartEntries) {
-					EditPart ep = epEntry.getValue();
+//System.out.println("x == 0");
+			// retrieve all the edit parts in the registry
+			Set<Entry<Object, EditPart>> allEditPartEntries = combinedFragmentEditPart.getViewer().getEditPartRegistry().entrySet();
+
+			for(Entry<Object, EditPart> epEntry : allEditPartEntries) {
+				EditPart ep = epEntry.getValue();
 
 
-					
-					// handle move of object graphically owned by the lifeline
-					if(ep instanceof ShapeEditPart) {
-						ShapeEditPart sep = (ShapeEditPart)ep;
-						EObject elem = sep.getNotationView().getElement();
+				
+				// handle move of object graphically owned by the lifeline
+				if(ep instanceof ShapeEditPart) {
+					ShapeEditPart sep = (ShapeEditPart)ep;
+					EObject elem = sep.getNotationView().getElement();
 
-						if(elem instanceof InteractionFragment) {
-							IFigure figure = sep.getFigure();
+					if(elem instanceof InteractionFragment) {
+						IFigure figure = sep.getFigure();
 
-							Rectangle figureBounds = figure.getBounds().getCopy();
-							figure.getParent().translateToAbsolute(figureBounds);
+						Rectangle figureBounds = figure.getBounds().getCopy();
+						figure.getParent().translateToAbsolute(figureBounds);
 
-							if(origCFBounds.contains(figureBounds)) {
-								EditPart parentEP = sep.getParent();
+						if(origCFBounds.contains(figureBounds)) {
+							EditPart parentEP = sep.getParent();
 
-								if(parentEP instanceof LifelineEditPart) {
-									ChangeBoundsRequest esRequest = new ChangeBoundsRequest(RequestConstants.REQ_MOVE);
-									esRequest.setEditParts(sep);
-									esRequest.setMoveDelta(moveDelta);
+							if(parentEP instanceof LifelineEditPart) {
+								ChangeBoundsRequest esRequest = new ChangeBoundsRequest(RequestConstants.REQ_MOVE);
+								esRequest.setEditParts(sep);
+								esRequest.setMoveDelta(moveDelta);
 
-									Command moveESCommand = LifelineXYLayoutEditPolicy.getResizeOrMoveChildrenCommand((LifelineEditPart)parentEP, esRequest, true, false, true);
+								Command moveESCommand = LifelineXYLayoutEditPolicy.getResizeOrMoveChildrenCommand((LifelineEditPart)parentEP, esRequest, true, false, true);
 
-									if(moveESCommand != null && !moveESCommand.canExecute()) {
-										// forbid move if the es can't be moved correctly
-										return UnexecutableCommand.INSTANCE;
-									} else if(moveESCommand != null) {
-										compoundCmd.add(moveESCommand);
-									}
+								if(moveESCommand != null && !moveESCommand.canExecute()) {
+									// forbid move if the es can't be moved correctly
+									return UnexecutableCommand.INSTANCE;
+								} else if(moveESCommand != null) {
+									compoundCmd.add(moveESCommand);
 								}
 							}
 						}
 					}
+				}
 
-					// handle move of messages directly attached to a lifeline
-					if(ep instanceof ConnectionEditPart) {
-						ConnectionEditPart cep = (ConnectionEditPart)ep;
+				// handle move of messages directly attached to a lifeline
+				if(ep instanceof ConnectionEditPart) {
+					ConnectionEditPart cep = (ConnectionEditPart)ep;
 
-						Connection msgFigure = cep.getConnectionFigure();
+					Connection msgFigure = cep.getConnectionFigure();
 
-						ConnectionAnchor sourceAnchor = msgFigure.getSourceAnchor();
-						ConnectionAnchor targetAnchor = msgFigure.getTargetAnchor();
+					ConnectionAnchor sourceAnchor = msgFigure.getSourceAnchor();
+					ConnectionAnchor targetAnchor = msgFigure.getTargetAnchor();
 
-						Point sourcePoint = sourceAnchor.getReferencePoint();
-						Point targetPoint = targetAnchor.getReferencePoint();
+					Point sourcePoint = sourceAnchor.getReferencePoint();
+					Point targetPoint = targetAnchor.getReferencePoint();
 
-						Edge edge = (Edge)cep.getModel();
+					Edge edge = (Edge)cep.getModel();
 
-						if(origCFBounds.contains(sourcePoint) && cep.getSource() instanceof LifelineEditPart) {
-							IdentityAnchor gmfAnchor = (IdentityAnchor)edge.getSourceAnchor();
-							Rectangle figureBounds = sourceAnchor.getOwner().getBounds();
-							compoundCmd.add(new ICommandProxy(getMoveAnchorCommand(moveDelta.y, figureBounds, gmfAnchor)));
-						}
-						if(origCFBounds.contains(targetPoint) && cep.getTarget() instanceof LifelineEditPart) {
-							IdentityAnchor gmfAnchor = (IdentityAnchor)edge.getTargetAnchor();
-							Rectangle figureBounds = targetAnchor.getOwner().getBounds();
-							compoundCmd.add(new ICommandProxy(getMoveAnchorCommand(moveDelta.y, figureBounds, gmfAnchor)));
-						}
+					if(origCFBounds.contains(sourcePoint) && cep.getSource() instanceof LifelineEditPart) {
+						IdentityAnchor gmfAnchor = (IdentityAnchor)edge.getSourceAnchor();
+						Rectangle figureBounds = sourceAnchor.getOwner().getBounds();
+						compoundCmd.add(new ICommandProxy(getMoveAnchorCommand(moveDelta.y, figureBounds, gmfAnchor)));
+					}
+					if(origCFBounds.contains(targetPoint) && cep.getTarget() instanceof LifelineEditPart) {
+						IdentityAnchor gmfAnchor = (IdentityAnchor)edge.getTargetAnchor();
+						Rectangle figureBounds = targetAnchor.getOwner().getBounds();
+						compoundCmd.add(new ICommandProxy(getMoveAnchorCommand(moveDelta.y, figureBounds, gmfAnchor)));
 					}
 				}
-
-				/* apex added start */
-				// BeneathEditPart가 있는 경우 함께 이동 처리
-				// belowEditPartList  
-				List belowEditPartList = ApexSequenceUtil.apexGetBelowEditPartList(combinedFragmentEditPart);
-				
-				// BeneathEditPart가 있는 경우
-				if ( belowEditPartList.size() > 0 ) {
-					
-	/*8
-	System.out.println("***************** in getCombined~~ *****************");
-	System.out.println("**** Below List Start ****");
-
-	Iterator tmpIter = belowEditPartList.iterator();
-	int inx = 0;
-	while(tmpIter.hasNext()) {
-		EditPart ep = (EditPart)tmpIter.next();
-		System.out.println("["+inx++ +"]"+ep.getClass().getSimpleName());
-	}
-	System.out.println("**** Below List END ****");
-	*/			
-					int yAfterMove = cfFigure.getBounds().getBottom().y+moveDelta.y;
-					AbstractGraphicalEditPart beneathEditPart  = ApexSequenceUtil.apexGetBeneathEditPart(combinedFragmentEditPart, belowEditPartList);
-				
-					// beneathEditPart 보다 아래로 내릴 경우
-					if (yAfterMove >= beneathEditPart.getFigure().getBounds().getTop().y) {
-						CompoundCommand belowProcessedCmd = (CompoundCommand)apexGetResizeOrMoveBelowItemsCommand(request, combinedFragmentEditPart);
-					
-						// 반환 받은 CompoundCmd를 분해하여 compoundCmd에 추가
-						List belowProcessedCmdList = belowProcessedCmd.getCommands();
-						Iterator it = belowProcessedCmdList.iterator();
-						while(it.hasNext()) {
-							Command moveCommand = (Command)it.next();
-							if(moveCommand != null && !moveCommand.canExecute()) {
-								// forbid move if the es can't be moved correctly
-								return UnexecutableCommand.INSTANCE;
-							} else if(moveCommand != null) {
-								compoundCmd.add(moveCommand);
-							}
-						}
-					}	
-				}
-				/* apex added end */
 			}
+
+			/* apex added start */
+			// BeneathEditPart가 있는 경우 함께 이동 처리
+			// belowEditPartList  
+			List belowEditPartList = ApexSequenceUtil.apexGetBelowEditPartList(combinedFragmentEditPart);
+			
+			// BeneathEditPart가 있는 경우
+			if ( belowEditPartList.size() > 0 ) {
+				
+/*8
+System.out.println("***************** in getCombined~~ *****************");
+System.out.println("**** Below List Start ****");
+
+Iterator tmpIter = belowEditPartList.iterator();
+int inx = 0;
+while(tmpIter.hasNext()) {
+	EditPart ep = (EditPart)tmpIter.next();
+	System.out.println("["+inx++ +"]"+ep.getClass().getSimpleName());
+}
+System.out.println("**** Below List END ****");
+*/			
+				int yAfterMove = cfFigure.getBounds().getBottom().y+moveDelta.y;
+				AbstractGraphicalEditPart beneathEditPart  = ApexSequenceUtil.apexGetBeneathEditPart(combinedFragmentEditPart, belowEditPartList);
+			
+				// beneathEditPart 보다 아래로 내릴 경우
+				if (yAfterMove >= beneathEditPart.getFigure().getBounds().getTop().y) {
+					CompoundCommand belowProcessedCmd = (CompoundCommand)apexGetResizeOrMoveBelowItemsCommand(request, combinedFragmentEditPart);
+				
+					// 반환 받은 CompoundCmd를 분해하여 compoundCmd에 추가
+					List belowProcessedCmdList = belowProcessedCmd.getCommands();
+					Iterator it = belowProcessedCmdList.iterator();
+					while(it.hasNext()) {
+						Command moveCommand = (Command)it.next();
+						if(moveCommand != null && !moveCommand.canExecute()) {
+							// forbid move if the es can't be moved correctly
+							return UnexecutableCommand.INSTANCE;
+						} else if(moveCommand != null) {
+							compoundCmd.add(moveCommand);
+						}
+					}
+				}	
+			}
+			/* apex added end */
+
 			
 			
 // 이동 끝
